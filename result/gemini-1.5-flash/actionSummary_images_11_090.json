@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_090",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A black sedan on the left side suddenly cuts into the lane of the self-driving vehicle, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while keeping a safe distance from the vehicle ahead. However, the sudden cut-in from the black sedan on the left side requires the self-driving vehicle to decelerate to avoid a collision.",
+        "key_objects": "1) Left side: A black sedan, approximately 2 meters away, suddenly cuts into the self-driving vehicles lane, causing the vehicle to decelerate.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

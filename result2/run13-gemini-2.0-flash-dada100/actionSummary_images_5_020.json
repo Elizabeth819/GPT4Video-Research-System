@@ -1,0 +1,44 @@
+{
+  "video_id": "images_5_020",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.1s",
+  "summary": "The self-driving car is moving forward on a city street with moderate traffic. From 0.0s to 3.0s, a motorcycle is seen ahead in the same lane. From 3.0s to 13.1s, the motorcycle turns left at a crosswalk. From 11.0s to 13.1s, two adults, one wearing a black coat and the other wearing a yellow coat, are crossing the street from left to right at the crosswalk.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "black coat",
+      "colors": "black",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal",
+      "location": "left to right at the crosswalk"
+    },
+    {
+      "gender": "male",
+      "clothing": "yellow coat",
+      "colors": "yellow",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal",
+      "location": "left to right at the crosswalk"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "unknown",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "N/A",
+      "location": "ahead in the same lane"
+    }
+  ],
+  "key_actions": "none",
+  "key_objects": [],
+  "actions": "The vehicle is maintaining a steady speed, following the lane markings, and approaching an intersection. The driver is likely monitoring the traffic light and preparing to either continue straight or stop depending on the signal. The vehicle is slowing down from 10.0s to 13.1s, likely due to the crosswalk ahead.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  }
+}

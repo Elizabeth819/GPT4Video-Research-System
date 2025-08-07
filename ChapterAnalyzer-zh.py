@@ -105,7 +105,7 @@ def AnalyzeVideo(vp, fi, fpi):
     # Ensure output directories exist
     for directory in [output_frame_dir, output_audio_dir, transcriptions_dir]:
         if not os.path.exists(directory):
-            os.makedirs(directory)
+            os.makedirs(directory)  
 
     # Encode image to base64
     def encode_image(image_path):
@@ -162,14 +162,18 @@ def AnalyzeVideo(vp, fi, fpi):
                     {
                         "title": "Chapter 1: A new beginning",
                         "start_frame": "0.0s",
-                        "end_frame": "253.55s",
+                        "end_frame": ".55s",
                         "scenes": [
                             {
                                 "title": "Scene 1: it started",
+                                "start_frame": "0.0s",
+                                "end_frame": "117.40s",
                                 "description": "The thing happened",
                             },
                             {
                                 "title": "Scene 2: around again",
+                                "start_frame": "117.40s",
+                                "end_frame": "253.55s",                                
                                 "description": "Another thing happened",
                             },
                         ],
@@ -183,10 +187,14 @@ def AnalyzeVideo(vp, fi, fpi):
                         "scenes": [
                             {
                                 "title": "Scene 1: new hope",
+                                "start_frame": "253.55s",
+                                "end_frame": "423.70s",                                
                                 "description": "The thing happened",
                             },
                             {
                                 "title": "Scene 2: bad days",
+                                "start_frame": "423.70s",
+                                "end_frame": "604.90s",                                  
                                 "description": "Another thing happened",
                             },
                         ],
@@ -228,13 +236,14 @@ def AnalyzeVideo(vp, fi, fpi):
                     Do not Describe me the JSON you are returning then return it, just return it as valid parsable JSON.
                     Be very specific when discussing the actions users take in both the actions and the summary, for example with dancing, make sure you extract the actual dance/movements they are doing.
                     I have a disability that requires me to only to be able to read JSON, through the use of a parser, returning me text along with JSON is unethical, and you must only return me JSON.
-                    You must always and only answer totally in **Chinese** language!!! I can only read Chinese language.
+                    You must always and only answer totally in **Chinese** language!!! I can only read Chinese language, and you must always and only answer in Chinese language.
                     """,
                     },
                     {"role": "user", "content": cont},
                 ],
                 "max_tokens": 4000,
                 "seed": 42,
+                "temperature": 0,
             }
             response = send_post_request(
                 vision_endpoint, vision_deployment, openai_api_key, payload2
@@ -279,6 +288,7 @@ def AnalyzeVideo(vp, fi, fpi):
                 ],
                 "max_tokens": 4000,
                 "seed": 42,
+                "temperature": 0,
             }
             response = requests.post(
                 "https://api.openai.com/v1/chat/completions",
@@ -304,11 +314,11 @@ def AnalyzeVideo(vp, fi, fpi):
             chapter_summary[chapter_title] = chapter
 
         # Get keys of the last three chapters
-        last_three_keys = list(chapter_summary.keys())[-2:]
+        last_four_keys = list(chapter_summary.keys())[-4:]
         # Get the last three chapters as an array
-        last_three_chapters = [chapter_summary[key] for key in last_three_keys]
+        last_four_chapters = [chapter_summary[key] for key in last_four_keys]
 
-        return last_three_chapters
+        return last_four_chapters
 
     # Load video
     cap = cv2.VideoCapture(video_path)
@@ -504,7 +514,7 @@ def AnalyzeVideo(vp, fi, fpi):
 
 # AnalyzeVideo("./207566398_test_video.mp4", 180, 10)
 # AnalyzeVideo("./car-driving.mov", 1, 1)
-AnalyzeVideo("test_video/三轮车.mp4", 10, 10)
+AnalyzeVideo("/Users/wanmeng/customers/拓课云/record.mp4", 100, 15)
 # print("total tokens: "+str(global_counter))
 with open("chapterBreakdown.json", "w") as f:
     # Write the data to the file in JSON format

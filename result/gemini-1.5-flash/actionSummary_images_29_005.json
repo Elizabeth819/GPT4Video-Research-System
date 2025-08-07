@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_29_005",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Motorcyclist with a large box, cars on the left and right",
+        "summary": "In this segment, the vehicle is driving on an urban road. A motorcyclist carrying a large box is ahead, moving steadily. Several cars are present on both sides of the road, with some parked and others moving. The traffic light ahead is green, indicating the vehicle can proceed without stopping.",
+        "actions": "The self-driving vehicle maintains a consistent speed, following the motorcyclist ahead. The vehicle keeps a safe distance from the motorcyclist and other cars on the road. The driver is cautious, ensuring no sudden movements or changes in direction.",
+        "key_objects": "1) Front: A motorcyclist with a large box, approximately 10 meters away, moving steadily. 2) Left side: A silver car, approximately 5 meters away, moving forward. 3) Right side: A parked car, approximately 3 meters away, stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_29_005",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist with a box, car ahead, motorcyclist on the right",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A motorcyclist carrying a large box is ahead, moving slowly. Another motorcyclist is on the right side, and a car is ahead in the left lane. The motorcyclist with the box suddenly stops, causing potential danger for the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while keeping a safe distance from the motorcyclist ahead. The vehicle is also monitoring the motorcyclist on the right side to avoid any sudden movements.",
+        "key_objects": "1) Front: A motorcyclist with a box, approximately 5 meters away, moving slowly and then stopping suddenly. 2) Right: A motorcyclist, approximately 3 meters away, moving at a consistent speed. 3) Left: A car, approximately 10 meters away, moving at a consistent speed.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

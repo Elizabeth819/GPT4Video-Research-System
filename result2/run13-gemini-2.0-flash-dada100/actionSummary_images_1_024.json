@@ -1,0 +1,43 @@
+{
+  "video_id": "images_1_024",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.2s",
+  "summary": "The self-driving car is traveling on a straight road with light traffic. Initially, a white van is visible ahead. As the car progresses, the van remains in view, maintaining a consistent distance. At 3.2s, a white car appears from the left side of the road, potentially emerging from a side street or parking area. The white car is moving at a moderate speed. At 6.4s, a red car is visible far ahead in the same lane. At 7.2s, a person on a bicycle is visible on the left side of the road, moving in the same direction as the self-driving car. The cyclist is wearing dark clothing and is riding at a moderate speed.",
+  "characters": [
+    {
+      "gender": "unknown",
+      "age": "unknown",
+      "clothing": "dark clothing",
+      "transportation_method": "bicycle",
+      "behavior": "riding at a moderate speed on the left side of the road",
+      "position": "left side of the road"
+    },
+    {
+      "vehicle_color": "white",
+      "vehicle_type": "van",
+      "position": "ahead",
+      "behavior": "maintaining a consistent distance"
+    },
+    {
+      "vehicle_color": "white",
+      "vehicle_type": "car",
+      "position": "left side of the road",
+      "behavior": "appearing from a side street or parking area"
+    },
+    {
+      "vehicle_color": "red",
+      "vehicle_type": "car",
+      "position": "far ahead in the same lane",
+      "behavior": "moving at a distance"
+    }
+  ],
+  "actions": "The self-driving car is maintaining a steady speed and following the road's trajectory. The driver is likely maintaining the current speed because the road is clear and there are no immediate obstacles. The car is staying in the current lane because there is no need to change lanes based on the current traffic conditions.",
+  "next_action": {
+    "speed_control": "keep speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

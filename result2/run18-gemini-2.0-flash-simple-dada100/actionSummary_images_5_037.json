@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_037",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene features a driver in a car, and a motorcyclist on the left side of the road. The motorcyclist is wearing a helmet and dark clothing. There are also other cars in the distance.",
+  "summary": "The video shows a car driving on a road. Initially, the road appears clear. However, a motorcyclist suddenly appears from the left side of the road, creating a potential ghost probing situation. The car continues driving at a constant speed.",
+  "actions": "The vehicle maintains a constant speed initially. As the motorcyclist appears on the left, the driver likely prepares to react, but maintains speed. The driver is maintaining their lane.",
+  "key_objects": "1) Left: Motorcyclist, medium distance, suddenly appears from the left side of the road, creating a potential collision hazard.\n2) Left: Trees and bushes, close distance, obstruct the view of the motorcyclist until the last moment.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

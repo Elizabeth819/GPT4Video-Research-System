@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "dada_1_019",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017-06-21 08:33:29",
+    "End_Timestamp": "2017-06-21 08:33:38",
+    "summary": "The vehicle is driving on a narrow road in a rural area. A pedestrian suddenly appears from the side of the road and falls in front of the vehicle. The driver has to brake to avoid hitting the pedestrian.",
+    "actions": "The vehicle is driving straight. The driver brakes suddenly to avoid hitting the pedestrian.",
+    "key_objects": [
+      "vehicle",
+      "pedestrian"
+    ],
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "decrease speed",
+      "direction_control": "steer to avoid pedestrian",
+      "lane_control": "stay in lane"
+    }
+  }
+]

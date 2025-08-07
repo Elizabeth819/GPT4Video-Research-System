@@ -1,0 +1,95 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 视频批处理改进规则
+
+本文档总结了对 `ActionSummary-predict_explain-fsl-sys-En-cutin-time-paper-batch.py` 脚本的改进，以实现批量处理 DADA-2000-videos 文件夹中的视频文件。
+
+## 主要改进内容
+
+1. **视频ID提取功能优化**
+   - 改进了 `extract_video_id` 函数，使其能从多种格式的视频文件名中提取ID
+   - 支持 DADA-2000 格式 (`images_XX_YYY.avi`)
+   - 支持哔哩哔哩格式 (`XXX_标题.mp4`)
+   - 添加通用备选方案和安全机制
+
+2. **批量处理功能**
+   - 添加了 `process_all_videos` 函数处理文件夹中的所有视频
+   - 支持跳过已处理的视频
+   - 支持断点续传 (`start_at` 参数)
+   - 支持重试之前失败的视频 (`retry_failed` 参数)
+   - 实时保存处理进度和统计信息
+
+3. **处理完整视频**
+   - 计算需要处理的视频间隔数量，基于视频总时长
+   - 自动为短于完整间隔的最后一段视频调整帧数
+
+4. **错误处理和日志记录**
+   - 添加了详细的日志记录系统，支持不同级别
+   - 添加了多层次的错误处理和重试机制
+   - 保存处理过程中的错误信息和原始响应，便于调试
+
+5. **进度显示优化**
+   - 添加了明显的进度条和状态信息
+   - 显示整体进度和单个视频处理进度
+   - 使用 tqdm 库实现更友好的进度显示
+
+6. **API调用优化**
+   - 添加了API调用的重试机制
+   - 优化了JSON解析和处理逻辑
+   - 确保API响应中包含正确的video_id和segment_id
+
+7. **结果保存与统计**
+   - 自动将结果保存到 result 文件夹
+   - 生成视频处理统计信息，包括成功率、失败率等
+   - 生成视频时长分布统计
+
+## 命令行参数
+
+脚本支持以下命令行参数:
+
+```
+--folder: 视频文件夹路径 (默认: 'DADA-2000-videos')
+--interval: 每个间隔的秒数 (默认: 10)
+--frames: 每个间隔的帧数 (默认: 10)
+--single: 处理单个视频文件路径
+--limit: 限制处理的视频数量
+--no-skip: 不跳过已处理的视频
+--start-at: 从第几个视频开始处理(用于断点续传)
+--retry-failed: 尝试重新处理之前失败的视频
+--log-level: 日志记录级别 (DEBUG/INFO/WARNING/ERROR/CRITICAL)
+--save-interval: 每处理多少个视频保存一次进度
+--max-retries: API调用最大重试次数
+--output-dir: 输出目录
+```
+
+## 示例命令
+
+1. 处理单个视频:
+```
+python ActionSummary-predict_explain-fsl-sys-En-cutin-time-paper-batch.py --single /path/to/video.mp4 --interval 10 --frames 10
+```
+
+2. 批量处理视频:
+```
+python ActionSummary-predict_explain-fsl-sys-En-cutin-time-paper-batch.py --folder DADA-2000-videos --interval 10 --frames 10
+```
+
+3. 从第5个视频开始处理(断点续传):
+```
+python ActionSummary-predict_explain-fsl-sys-En-cutin-time-paper-batch.py --folder DADA-2000-videos --start-at 5
+```
+
+4. 重试失败的视频:
+```
+python ActionSummary-predict_explain-fsl-sys-En-cutin-time-paper-batch.py --folder DADA-2000-videos --retry-failed
+```
+
+## 视频时长统计
+
+基于处理结果，发现:
+- 超过60%的视频时长大于10秒
+- 平均视频时长约为11.46秒
+- 分析结果会自动保存至 result/video_stats.json 文件

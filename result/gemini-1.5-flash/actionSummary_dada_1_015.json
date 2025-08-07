@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_1_015",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00",
+    "End_Timestamp": "00:00:03",
+    "summary": "The vehicle is driving on a narrow road. Initially, two people are unloading items from a truck parked on the right side of the road. As the vehicle progresses, it approaches an intersection where a three-wheeled vehicle is crossing. A pedestrian is also visible on the right side of the road.",
+    "actions": "The vehicle is currently driving straight and maintaining its speed. The driver should be aware of the pedestrians and the three-wheeled vehicle at the intersection.",
+    "key_objects": [
+      "vehicle",
+      "pedestrians",
+      "truck",
+      "three-wheeled vehicle"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "straight",
+      "lane_control": "maintain lane"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_5_009",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of a white sedan, other drivers in various vehicles",
+    "summary": "The video shows a white sedan driving on a multi-lane road in urban setting. The weather appears to be overcast.  The road is relatively clear with other vehicles maintaining a safe distance. The self-driving vehicle maintains a consistent speed and distance from the car directly in front. No sudden appearances of vehicles or pedestrians are observed. Traffic flow is moderate.",
+    "actions": "The self-driving vehicle maintains a consistent speed and following distance throughout the 10-second segment.  The vehicle stays in its lane and does not make any lane changes or turns. The consistent speed and following distance suggest the driver is maintaining a safe and cautious driving style, adapting to the moderate traffic flow.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_009",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.6s",
+    "scene_theme": "Urban Road",
+    "characters": "Driver of a white sedan, a person on an electric bicycle wearing a red hard hat and yellow-brown work clothes.",
+    "summary": "The video shows a white sedan driving on a city road.  A person on an electric bicycle, wearing a red hard hat and yellow-brown work clothes, is visible in the right lane, initially behind a partially obscured area. The cyclist then becomes fully visible and continues to ride in the right lane, maintaining a safe distance from the self-driving vehicle. No immediate danger is observed.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the observed segment.  There are no observable changes in speed or direction. The vehicle appears to be following the flow of traffic.",
+    "key_objects": "Right: Person on an electric bicycle, approximately 15 meters away at the start of the segment, moving parallel to the self-driving vehicle in the adjacent lane, maintaining a safe distance.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

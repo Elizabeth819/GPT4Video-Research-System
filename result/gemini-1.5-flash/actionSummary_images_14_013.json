@@ -1,0 +1,65 @@
+[
+    {
+        "video_id": "dada_14_013",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving down a multi-lane road.  The road is relatively clear with other vehicles maintaining a safe distance. No pedestrians or cyclists are visible in the immediate vicinity of the vehicle. The weather appears sunny and clear.  The driving conditions are normal, with no apparent hazards.",
+        "actions": "The vehicle maintains a consistent speed and lane position throughout the 5-second video segment. There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle ahead. The vehicle's actions suggest a routine driving scenario on a clear road with light traffic.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep_lane"
+        }
+    },
+    {
+        "video_id": "dada_14_013",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A man on a bicycle, wearing a dark jacket and helmet, appearing to be middle-aged.",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Crossing the road from right to left, at a moderate speed."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "Middle-aged",
+                "clothing": "Dark jacket and helmet",
+                "transportation": "Bicycle",
+                "behavior": "Crossing the road from right to left at a moderate speed, potentially creating a ghost probing situation."
+            }
+        ],
+        "summary": "The video shows a car driving on a road. At approximately 5.0s, a middle-aged man on a bicycle wearing a dark jacket and helmet is seen crossing the road from right to left. The cyclist's crossing path intersects with the car's path, creating a potential ghost probing scenario. The cyclist's speed is moderate, but the sudden appearance in the car's path poses a risk of collision. The car maintains a steady speed throughout the sequence. At 8.3s, the cyclist is almost completely across the road, and the immediate danger has passed.",
+        "actions": "The vehicle maintains a consistent speed throughout the 5-second sequence. There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicles ahead. The road is relatively clear, with no immediate obstacles or traffic congestion.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep right"
+        }
+    },
+    {
+        "video_id": "dada_14_013",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.4s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving behind a white minivan on a relatively empty road. The road curves gently to the right.  The speed of the car appears to be slow and consistent throughout the 2.4 seconds shown. There are no pedestrians or other vehicles that pose an immediate threat. The road conditions appear to be dry and clear.",
+        "actions": "The vehicle maintains a consistent, slow speed, following the white minivan ahead. The driver is likely maintaining a safe following distance and adjusting speed to match the traffic flow. The gentle curve in the road requires minimal steering input. There is no indication of braking or acceleration beyond maintaining a steady speed.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "continue straight",
+            "lane_control": "keep right"
+        }
+    }
+]

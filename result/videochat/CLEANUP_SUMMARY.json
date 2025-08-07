@@ -1,0 +1,28 @@
+{
+  "preserved_files": {
+    "documentation": [
+      "CLAUDE.md - Project instructions and guidelines",
+      "FINAL_VIDEOCHAT2_EVALUATION_SUMMARY.md - Complete evaluation report"
+    ],
+    "data": [
+      "DADA-100-videos/ - Video dataset for evaluation",
+      "videochat2_evaluation_report.txt - Detailed metrics report"
+    ],
+    "results": [
+      "blue_jewel_results/ - Final successful VideoChat2 processing results"
+    ],
+    "utilities": [
+      "comprehensive_videochat2_analysis.py - Performance analysis script",
+      "evaluate_videochat2_performance.py - Evaluation utility"
+    ]
+  },
+  "removed_categories": [
+    "Ask-Anything repository (large, not needed for results)",
+    "Duplicate result directories (gpt41_format_results, videochat2_gpt41_results)",
+    "Failed job attempts and temporary files",
+    "Old video chat implementations not relevant to ghost probing",
+    "Job submission scripts and environment files"
+  ],
+  "total_preserved": "Essential files for VideoChat2 ghost probing evaluation",
+  "cleanup_rationale": "Removed redundant and temporary files while preserving final results and analysis tools"
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_048",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. A black sedan is ahead, initially turning left and then moving straight. The road is relatively clear with a few vehicles visible in the distance.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the black sedan ahead. The vehicle is keeping a safe distance from the black sedan, ensuring smooth driving without sudden changes in speed or direction.",
+        "key_objects": "1) Front: A black sedan, approximately 10 meters away, moving straight after turning left. 2) Right: A white SUV, approximately 5 meters away, moving parallel to the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_048",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.4s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, driver of a red truck",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. A white SUV is on the right side, and a red truck is approaching from the left side. The red truck moves into the self-vehicles lane, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while monitoring the red trucks movement. The trucks sudden lane change requires the self-driving vehicle to be prepared for rapid deceleration or evasive maneuvers.",
+        "key_objects": "1) Left side: A red truck, approximately 5 meters away, moving into the self-vehicles lane, causing a potential collision risk. 2) Right side: A white SUV, approximately 3 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

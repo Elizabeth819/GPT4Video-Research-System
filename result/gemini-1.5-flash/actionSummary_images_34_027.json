@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_34_027",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a white sedan, driver of a silver SUV",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. The traffic is moderate, with several vehicles ahead. The white sedan on the right side maintains a consistent speed, while the silver SUV on the left side gradually moves ahead. The self-driving vehicle maintains a steady speed and lane position throughout the segment.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position, keeping a safe distance from the vehicles ahead. The vehicle does not change lanes or speed significantly, indicating a cautious driving approach in moderate traffic conditions.",
+        "key_objects": "1) Left side: A silver SUV, approximately 5 meters away, gradually moving ahead. 2) Right side: A white sedan, approximately 3 meters away, maintaining a consistent speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_027",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a white SUV, driver of a silver sedan, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road with moderate traffic. The white SUV ahead is maintaining a steady speed, while the silver sedan on the left is preparing to merge into the lane. The white sedan on the right is also moving forward steadily.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and keeping a safe distance from the white SUV ahead. The vehicle is also monitoring the silver sedan on the left for any potential cut-in behavior.",
+        "key_objects": "1) Front: A white SUV, approximately 10 meters away, maintaining a steady speed. 2) Left: A silver sedan, approximately 5 meters away, preparing to merge into the lane. 3) Right: A white sedan, approximately 8 meters away, moving forward steadily.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

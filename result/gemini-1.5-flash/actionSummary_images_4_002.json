@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_4_002",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist on the right side",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, the road is clear with a few vehicles ahead. As the vehicle progresses, a cyclist suddenly appears from the right side, moving into the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while driving on a rural road. However, the sudden appearance of the cyclist from the right side requires immediate deceleration to avoid a collision.",
+        "key_objects": "1) Right side: A cyclist, approximately 1 meter away, suddenly moving into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

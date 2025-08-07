@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_6_043",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "2.7s",
+        "scene_theme": "Urban Night",
+        "characters": "Driver of the self-vehicle",
+        "summary": "In this segment, the vehicle is driving through an urban area at night. The road is relatively clear with some vehicles visible in the distance. The traffic lights ahead are red, indicating the need to stop soon. A cyclist is seen on the left side of the road, moving forward.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the traffic lights. The vehicle is likely preparing to stop as the traffic lights ahead are red. The presence of the cyclist on the left side of the road is noted, but no immediate action is required as the cyclist is not in the vehicles path.",
+        "key_objects": "1) Left side: A cyclist, approximately 10 meters away, moving forward. 2) Front: Traffic lights, approximately 50 meters away, showing red.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_8_011",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "2.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red truck",
+        "summary": "In this segment, the vehicle is driving on a wet rural road. A red truck is ahead, initially at a distance but gradually getting closer. The road is curving to the right, and the truck is moving slowly, causing the self-driving vehicle to approach it rapidly.",
+        "actions": "The self-driving vehicle is decelerating to avoid a collision with the red truck ahead. The vehicles speed decreases as it approaches the truck, maintaining a safe distance.",
+        "key_objects": "1) Front: A red truck, approximately 10 meters away, moving slowly, causing the self-driving vehicle to decelerate.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

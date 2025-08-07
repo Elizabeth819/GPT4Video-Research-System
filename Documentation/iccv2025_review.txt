@@ -1,0 +1,132 @@
+# First review 5.10.2025
+
+Dear Authors of Submission #8262,
+
+Below you will find the preliminary reviews for ICCV 2025 submission, "AutoDrive-GPT: Enhancing Autonomous Driving Behavior Annotation and Prediction Using GPT-4o Prompt Tuning" (8262). Authors have the opportunity to submit a rebuttal by May 16 2025 11:59 PM HST. Please review the Author Guidelines for additional details on the rebuttal process.
+
+Best Regards,
+ICCV Program Chairs
+
+Reviewer Tdax
+
+Paper Summary
+
+This paper introduces “AutoDrive-GPT”, a framework that utilizes “GPT-4o” for behavior annotation and prediction in autonomous driving. It uses a preprocessing module called “Cobra”, which chunks videos, samples frames, extracts audio, and formats multimodal input for GPT-4o. The model is evaluated on the “Bilibili dataset” with a focus on complex driving events like ghost probing and cut-in scenarios.
+
+Paper Strengths
+Successful application of GPT-4o for autonomous driving behavior interpretation : Demonstrates the strengths of LLM-based approaches by effectively handling challenging scenarios like ghost probing and cut-in that are difficult for traditional models to interpret.
+Efficient and practical preprocessing pipeline ‘Cobra’: Maximizes GPT-4o’s performance by carefully structuring multimodal input through video chunking, frame sampling, audio extraction, and text conversion.
+Strong Empirical Results: Demonstrates competitive performance on real-world tasks (e.g., cut-in and ghost probing) with high recall and F1 scores.
+
+Major Weaknesses
+Limited dataset size (Critical): The evaluation was conducted on **only 20 video samples**, which raises concerns about the generalizability and robustness of the proposed approach.
+Lack of quantitative evaluation for prediction : Although the title includes behavior **prediction**, the study only provides quantitative results for behavior labeling, while actual prediction performance is not evaluated.
+
+Minor Weaknesses
+Typos and inconsistent phrasing: The paper contains several spelling errors such as "Autudrive-GPT" and "reprensents", and some sentences are awkwardly phrased, affecting the overall clarity.
+Lack of experimental analysis on prompt tuning components: Although various prompt tuning strategies like Chain-of-Thought reasoning, few-shot learning, and structured output are employed, there is no ablation study to assess their individual contributions to performance.
+Preliminary Recommendation
+
+2: Weak Reject
+Preliminary Justification
+The paper proposes a well-structured system using GPT-4o for behavior interpretation in autonomous driving. The Cobra module and prompt tuning are well-designed, and results on challenging scenarios like ghost probing are promising. However, the very small dataset and lack of prediction evaluation limit the strength of the claims, which is critical.
+
+Confidence Level
+
+3 - Moderate Confidence: The reviewer is reasonably knowledgeable about the topic. They understand the paper's methodology and results.
+
+Reviewer gP4H
+
+Paper Summary
+
+This paper tests a pipeline to process automotive video data for input to GPT-4o to answer queries about the driving. It is tested on 20 videos specifically chosen to test identification of "cut-in" and "ghost probing" scenarios. No systematic comparisons are done to other methods. A few anecdotal examples are presented to illustrate why Gemini 1.5 and Claude Sonnet are not suitable.
+
+Paper Strengths
+
+The paper is well laid out. The focus on particular types of scenarios (objects "jumping out" in front of vehicles) is reasonable.
+
+Major Weaknesses
+
+The "cobra pipeline" is not described in enough detail to reimplement.
+
+There is no comparison of the proposed method to any other driving analysis methods (most of which can answer general questions, including those proposed here), such as DriveMM or WiseAD. Or, even more general-purpose methods like VideoLLaMA or VideoChat.
+
+The evaluation is only on 20 videos. While these highlight the goals of the approach, it is important to see how the pipeline does on other examples. It is not useful to work well on these 20 videos if the performance is terrible on others.
+
+Typically, papers in this area (see DriveMM for example) tests on a variety of videos and questions types to demonstrate generalizability. That is not done here.
+
+A concrete and definite statement of the problem is missing.
+
+Minor Weaknesses
+
+The term "ghost probing" was new to me. I looked it up online in the context of driving videos and only one other paper (https://arxiv.org/html/2502.05943v1) that I could find employs this term. It should be defined.
+
+Preliminary Recommendation
+
+1: Reject
+
+Preliminary Justification
+
+The paper has no comparison to other work, despite there being many other papers in the area. Those may focus on different types of events, but it isn't clear that this method actually improves on those events, given we do not know how well (or poorly) they do.
+
+The testing is on a very small dataset. While selected specifically for the implicit goals of the paper, it is too small to make a judgment about the performance of the approach.
+
+Confidence Level
+
+3 - Moderate Confidence: The reviewer is reasonably knowledgeable about the topic. They understand the paper's methodology and results.
+
+**Reviewer hZ2i**
+
+Paper Summary
+
+The paper addresses the problem of efficiently understanding and interpreting the substantial video data generated by autonomous driving vehicles, which is crucial for enhancing these systems. The key idea proposed is to leverage the powerful multimodal reasoning capabilities of the GPT-4o large language model for autonomous driving video tagging and reasoning. The core method, AutoDrive-GPT, employs GPT-4o prompt tuning for enhanced behavior prediction and utilizes Cobra, a video processing framework that chunks video data, samples frames, and feeds them into GPT-4o for multimodal reasoning. The paper performs thorough experiments on the Bilibili dataset, comparing AutoDrive-GPT with Gemini 1.5 flash using multiple metrics to assess performance in identifying critical driving scenarios. Interestingly, the paper shows that AutoDrive-GPT outperforms Gemini 1.5 flash in clarity and completeness, particularly in detecting sudden pedestrian appearances and cut-in events.
+
+Paper Strengths
+
+The reviewer finds some good insights from the paper:
+
+The single most important takeaway of the paper is that the integration of the powerful multimodal reasoning capabilities of the GPT-4o large language model with an efficient video processing framework (Cobra) demonstrates a significant advancement in autonomous driving video analysis for behavior annotation and prediction for challenging and safety-critical scenarios like sudden pedestrian appearances (ghost probing) and cut-in events..
+Following from above point, the reviewer likes the the proposed video processing framework Cobra that intelligently chunks video data into smaller intervals and samples frames. Further, the reviewer likes that it also extracts and transcribes audio using state-of-the-art speech-to-text services, providing crucial contextual semantic cues.
+The use of GPT-4o prompt tuning for enhanced behavior prediction allows the model to rapidly adapt to new driving scenarios and predict future vehicle behaviors with high accuracy by providing a small number of labeled examples. Several prompt tuning strategies are utilized, including multi-image video input, CoT reasoning, image-based few-shot learning, structured output, multi-task prompting, and position-guided text prompting.
+The authors provide experiments on “a” Bilibili dataset and demonstrate that AutoDrive-GPT has a more complete and precise analysis, identifying more instances of challenging scenarios compared to baseline Gemini 1.5 flash.
+Major Weaknesses
+
+The major weakness of the current form of the paper is lack if its experimental section and validation against multiple baselines and datasets.
+
+While the paper introduces the Bilibili dataset as containing diverse driving scenarios with audio commentary, it lacks specific quantitative details about the dataset's size and composition, the characteristics of the audio, the selection process for the test videos, technical specifications of the video data, and existing annotations (if any). The authors should note this as one of the major points in improving their manuscript.
+The current experimental setup largely focuses on a direct comparison with Gemini 1.5 flash. While the paper mentions other related works like DriveGPT4 and GPT-Driver, these are not directly evaluated against AutoDrive-GPT in the Experiment section. Including these or similar relevant methods would provide a more comprehensive understanding of AutoDrive-GPT's relative performance. The authors should note this as one of the major points in improving their manuscript.
+The limited testing of Claude 3.5 Sonnet due to input constraints suggests that further comparison with other Vision-Language Models (VLMs) could offer valuable insights into the generalizability of the approach and the specific strengths of GPT-4o. The reviewer notes that, although the introduction discusses the limitations of traditional video analysis methods, including a direct comparison with a well-established, non-LLM-based method could provide a clearer benchmark offered by AutoDrive-GPT.
+On a similar note as above, the need to design Cobra can be quantitatively validated against other frameworks available. This is something that the community can note for future video processing framework developments. The authors should note this as one of the major points in improving their manuscript.
+Minor Weaknesses
+
+These are some questions that the reviewers has for the authors to further enhance their manuscript.
+
+Regarding the Bilibili dataset, which you mentioned contains "hundreds of video clips" with a "diverse range of driving scenarios", could you provide a more precise figure for the total number of video clips in the complete dataset? Additionally, could you elaborate on the distribution of different driving scenarios (beyond "sudden appearances of pedestrians, lane changes, and collisions") within the dataset?.
+
+You mentioned that each video clip in the Bilibili dataset has "an audio commentary". Could you provide more details about this commentary? For example, who typically provides it, what language(s) are used, and what kind of information or level of detail does it generally offer? This would clarify how the audio input enhances the multimodal reasoning of AutoDrive-GPT.
+
+The paper states that 20 videos were "carefully selected" for testing due to the difficulty in finding specific "ghost probing" and "cut-in" videos with front camera captures. What characteristics of these 20 videos made them suitable for evaluating AutoDrive-GPT?
+
+Regarding the prompt tuning strategies, while Appendix A provides details, could you elaborate on the rationale behind the design of each strategy (multi-image video input, CoT, etc.) and their individual contributions to the system's performance? Were any ablation studies conducted to assess the impact of each prompting technique?.
+
+In the experimental results, the recall for ghost probing was notably lower than for cut-in scenarios (Table 1). Could you provide more insights into why the model faced more challenges with ghost probing? Were there specific types of "sudden appearances of pedestrians" that were particularly difficult to detect? Table 1 seems to be repeated twice.
+
+Some typos the reviewer could catch:
+
+L116: “reprensents” -> "represents".
+L117: “trajactories” -> "trajectories".
+L214-215: “qualitativa” -> "qualitative".
+L446: “SEQUENCIAL” -> "SEQUENTIAL".
+L480: “colummns” -> "columns".
+L491: “oberving” -> "observing".
+Preliminary Recommendation
+
+2: Weak Reject
+
+Preliminary Justification
+
+The authors address an important problem of detecting specific scenarios in autonomous driving. The reviewer works in this field and acknowledges this. However, the current manuscript doesn't provide thorough analysis of the proposed method AutoDrive-GPT and where the existing methods lack. Further, the details of Bilibili details need to be made clearer and available for further future research to the community. For the current form of the paper, the reviewer recommends "Weak Reject".
+
+Confidence Level
+
+5 - Expert: The reviewer is an authority in the specific subfield addressed by the paper. They are extremely confident in their evaluation and understanding of the work.

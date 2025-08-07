@@ -1,0 +1,26 @@
+{
+  "video_id": "images_1_021",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "6.0s",
+  "summary": "The self-driving car is moving forward on a wet road, with a large green bus on its left side. The road appears to be a two-lane road with traffic moving in both directions. At timestamp 4.0s, a male wearing a white shirt and dark pants suddenly runs across the road from the right side, creating a ghost probing scenario. The male is running at a moderate speed. The weather is rainy, and visibility is reduced.",
+  "characters": [
+    {
+      "gender": "male",
+      "age": "adult",
+      "clothing": "white shirt, dark pants",
+      "transportation_method": "running",
+      "behavior": "suddenly runs across the road"
+    }
+  ],
+  "key_objects": [
+    "Right side: A male in a white shirt and dark pants, approximately 5 meters away, running across the road, causing a potential collision."
+  ],
+  "actions": "The vehicle is moving forward on a wet road, likely maintaining a steady speed to navigate the road conditions and follow the lane markings. The driver is proceeding straight, likely adhering to the traffic laws and road conditions.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

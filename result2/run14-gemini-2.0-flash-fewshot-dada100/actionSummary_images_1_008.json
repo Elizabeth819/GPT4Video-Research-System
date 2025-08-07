@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_008",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several people are visible on the right side of the road. A man in a blue jacket is standing near a parked vehicle. Further down the road, a man in a yellow shirt is walking. A cyclist is also present on the right side of the road.",
+  "summary": "The vehicle is driving on a road with parked vehicles on the left and people on the right. The road appears to be in a residential or commercial area. Several individuals are walking and standing near the roadside. A cyclist is also present. The vehicle maintains a steady speed and direction.",
+  "actions": "The vehicle is maintaining a consistent speed and direction, navigating the road with parked vehicles on the left and people on the right. The driver is likely maintaining the current speed due to the presence of pedestrians and parked vehicles, ensuring a safe driving distance and reaction time.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

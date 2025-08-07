@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_34_067",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving in an urban area with multiple parked cars on both sides. A black sedan is seen moving from the left side of the frame towards the center, potentially merging into the lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the black sedans movement. The vehicle is cautious, ensuring there is enough space to react if the black sedan merges into the lane.",
+        "key_objects": "1) Left side: A black sedan, approximately 10 meters away, moving towards the center of the lane, potentially merging. 2) Right side: A white car, approximately 3 meters away, parked and blocking part of the view.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_067",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "6.2s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan, driver of a white car",
+        "summary": "In this segment, the vehicle is driving in an urban area. A black sedan is seen moving from the left side towards the center of the road, while a white car is parked on the right side. The black sedan appears to be changing lanes and moving closer to the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the black sedans movement. The vehicle is likely preparing to decelerate if the black sedan continues to move into its lane.",
+        "key_objects": "1) Left side: A black sedan, approximately 10 meters away, moving towards the center of the road, potentially causing a cut-in. 2) Right side: A white car, approximately 3 meters away, parked and blocking part of the view.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

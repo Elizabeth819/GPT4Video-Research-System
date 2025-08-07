@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child in a blue jacket, a woman with a child, a man in a yellow jacket, and a person in a blue shirt.",
+  "summary": "The video sequence shows multiple instances of pedestrians suddenly emerging from behind obstructions, creating immediate collision risks. The first sequence shows a child in a blue jacket darting out from the right side of the road. The second sequence shows a woman with a child emerging from between parked cars on the left. The third sequence shows a man in a yellow jacket running from the left side of the road. The fourth sequence shows a person in a blue shirt running across the road from the right side.",
+  "actions": "The observer vehicle encounters multiple sudden emergences of pedestrians from behind obstructions, requiring immediate braking to avoid collisions.",
+  "key_objects": "Parked cars on both sides of the road, pedestrians emerging from behind these cars, and other vehicles on the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

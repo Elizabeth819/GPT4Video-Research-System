@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_33_013",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a silver sedan",
+        "summary": "In this segment, the self-driving vehicle is traveling on a highway. A white sedan is ahead in the same lane, and a silver sedan is in the adjacent left lane. The silver sedan gradually moves closer to the white sedan, eventually causing the white sedan to veer off the road and crash into the embankment.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position while observing the interaction between the white and silver sedans. The white sedans sudden veering off the road indicates a potential collision avoidance maneuver.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving straight initially but then veering off the road. 2) Left: A silver sedan, approximately 15 meters away, moving closer to the white sedan, causing it to veer off the road.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

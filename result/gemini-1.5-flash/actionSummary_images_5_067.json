@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_5_067",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black SUV, driver of a yellow car, driver of a silver car, scooter rider",
+        "summary": "In this segment, the vehicle is driving on a city road. The black SUV ahead is maintaining a steady speed. The yellow car and silver car are driving in the adjacent lane. A scooter rider appears from the left side and suddenly falls in front of the self-driving vehicle, causing an emergency situation.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the black SUV. The sudden appearance and fall of the scooter rider in front of the vehicle necessitates rapid deceleration to avoid collision.",
+        "key_objects": "1) Front: A black SUV, approximately 10 meters away, maintaining a steady speed. 2) Left side: A scooter rider, approximately 2 meters away, suddenly falls in front of the vehicle, causing an emergency situation.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_067",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Man with dark clothing, fallen motorcycle",
+        "summary": "In this segment, a man wearing dark clothing is seen standing up after falling off his motorcycle, which is lying on the road. The man moves from the left side of the frame to the center, attempting to pick up the motorcycle. Several vehicles are visible in the background, including a white sedan and a red car. The traffic light is green, indicating that vehicles are moving forward. The man appears to be in distress and is trying to clear the motorcycle from the road.",
+        "actions": "The self-driving vehicle is slowing down to avoid hitting the man and the fallen motorcycle. The vehicle maintains a safe distance from the man and the motorcycle, ensuring that it does not obstruct the traffic flow. The vehicles speed is gradually decreasing to ensure safety.",
+        "key_objects": "1) Front: A man with dark clothing, approximately 2 meters away, standing up and moving towards the fallen motorcycle. 2) Front: A fallen motorcycle, approximately 2 meters away, lying on the road and obstructing the path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

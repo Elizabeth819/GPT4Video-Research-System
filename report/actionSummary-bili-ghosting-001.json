@@ -1,0 +1,138 @@
+[
+    {
+        "video_id": "001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Woman in checkered dress, child in red shirt, man in black shirt",
+        "summary": "In this segment, the vehicle is driving through a narrow alley. A woman in a checkered dress is walking on the right side of the road. As the vehicle progresses, a yellow truck is seen parked ahead, partially blocking the view. At 9.0s, a man in a black shirt appears from behind a white car on the right side. At 10.0s, a child in a red shirt suddenly runs out from behind the white car, directly into the vehicles path, creating a dangerous situation.",
+        "actions": "The self-driving vehicle is moving slowly through a narrow alley. The driver is advised to be cautious due to the potential for sudden pedestrian appearances. The vehicles speed is low, and it is maintaining a safe distance from the parked vehicles. The driver should be prepared to brake suddenly to avoid a collision with the child.",
+        "key_objects": "1) Right side: A woman in a checkered dress, approximately 5 meters away, walking along the road. 2) Front: A yellow truck, approximately 10 meters away, parked and partially blocking the view. 3) Right side: A white car, approximately 8 meters away, parked and blocking the view. 4) Front-right: A man in a black shirt, approximately 6 meters away, walking towards the road. 5) Front-right: A child in a red shirt, approximately 3 meters away, running into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "brake",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Girl in pink jacket",
+        "summary": "In this segment, a young girl in a pink jacket is seen running across the road from the right side. The audio mentions the danger of running across the road and highlights the girls action. The girl runs across the pedestrian crossing, narrowly avoiding a collision with a white car.",
+        "actions": "The self-driving vehicle is stationary, observing the girl running across the road. The driver comments on the danger of running across the road and advises against it. The vehicle remains stationary to avoid any potential collision.",
+        "key_objects": "1) Right side: A young girl in a pink jacket, approximately 5 meters away, running across the pedestrian crossing, directly into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "001",
+        "Start_Timestamp": "21.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "30.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Man riding a bicycle, black car, pedestrians",
+        "summary": "In this segment, the video starts with a pedestrian crossing the road while the self-driving car is stationary. The driver honks the horn, which is timely and potentially life-saving. The scene then shifts to a narrow street where a man is riding a bicycle with one hand while carrying something in the other. A black car is seen turning, and there are other pedestrians and vehicles in the vicinity.",
+        "actions": "The self-driving car remains stationary at the beginning while a pedestrian crosses the road. The driver honks the horn to alert the pedestrian. Later, the scene shifts to a narrow street where the self-driving car is moving slowly behind a man riding a bicycle with one hand. The black car is turning, and the self-driving car needs to navigate carefully to avoid collisions.",
+        "key_objects": "1) Front-left: A pedestrian, approximately 5 meters away, crossing the road from left to right. 2) Front: A man riding a bicycle with one hand, approximately 3 meters away, moving slowly. 3) Front-right: A black car, approximately 4 meters away, turning left.",
+        "key_actions": "ghost probing, cut-in",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight left shift"
+        }
+    },
+    {
+        "video_id": "001",
+        "Start_Timestamp": "31.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "40.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Man on bicycle, driver of black SUV, pedestrians",
+        "summary": "In this segment, a man riding a bicycle with one hand loses control and falls. The black SUV in front makes a wide turn, and pedestrians are seen nearby. Fortunately, the man is not injured. The scene then shifts to a night setting with vehicles on the road, discussing the potential dangers of carrying valuable items.",
+        "actions": "The man on the bicycle loses control and falls, but is unharmed. The black SUV makes a wide turn, and pedestrians are present. The scene transitions to a night setting with vehicles on the road, highlighting the dangers of carrying valuable items.",
+        "key_objects": "1) Front: A black SUV, approximately 5 meters away, making a wide turn. 2) Left: A man on a bicycle, approximately 3 meters away, losing control and falling. 3) Middle: Pedestrians, approximately 4 meters away, walking nearby.",
+        "key_actions": "Ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "001",
+        "Start_Timestamp": "41.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "50.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Two adults, one child",
+        "summary": "In this segment, the vehicle is driving on a road at night. Initially, the road is clear, but as the vehicle progresses, two adults and a child appear on the right side of the road. The child suddenly runs into the road, creating a potential hazard.",
+        "actions": "The self-driving vehicle is moving forward at a steady speed. As it approaches the intersection, the driver notices two adults and a child on the right side of the road. The child suddenly runs into the road, prompting the need for immediate braking to avoid a collision.",
+        "key_objects": "1) Right side: Two adults and one child, approximately 10 meters away, walking on the road. 2) Front-right: The child, approximately 5 meters away, suddenly running into the road, directly into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "001",
+        "Start_Timestamp": "51.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "60.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Pedestrian, Large truck",
+        "summary": "In this segment, a pedestrian suddenly runs across the road from the right side, creating a potential hazard. The road is straight and the visibility is clear. The driver mentions that overtaking is possible in this area. However, a large truck ahead flashes its lights, indicating a potential warning or signal.",
+        "actions": "The self-driving vehicle should be cautious due to the pedestrian running across the road and the large truck flashing its lights. The vehicle should maintain a safe speed and be prepared to stop if necessary.",
+        "key_objects": "1) Right side: A pedestrian, approximately 5 meters away, suddenly running across the road from the right side, directly into the vehicles path. 2) Front: A large truck, approximately 50 meters away, flashing its lights, indicating a potential warning.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "001",
+        "Start_Timestamp": "61.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "70.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a green van",
+        "summary": "In this segment, a white sedan dangerously overtakes the observer vehicle from the left side, narrowly avoiding a collision. The observer vehicle had to move slightly to the right to avoid the overtaking vehicle. The scene then shifts to a residential area where the driver discusses potential dangers of ghost probing.",
+        "actions": "The white sedan performed a dangerous overtaking maneuver from the left side, causing the observer vehicle to move slightly to the right to avoid a collision. The observer vehicle then continues driving into a residential area, where the driver discusses potential dangers of sudden pedestrian appearances.",
+        "key_objects": "1) Left side: A white sedan, approximately 1 meter away, suddenly overtaking the observer vehicle, causing a potential collision. 2) Right side: A green van, approximately 3 meters away, driving straight.",
+        "key_actions": "dangerous overtaking",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "001",
+        "Start_Timestamp": "71.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "80.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver",
+        "summary": "In this video segment, the vehicle is driving through a residential area with tall buildings on both sides. The driver mentions that the left side is clear, while the right side has some parked cars. The driver emphasizes the unpredictability of ghost probing, especially with children, and highlights the danger in such situations. The vehicle then enters an underground parking lot.",
+        "actions": "The self-driving vehicle is moving at a steady speed through a residential area with parked cars on the right side. The driver is cautious about potential ghost probing incidents, especially involving children. The vehicle then transitions into an underground parking lot.",
+        "key_objects": "1) Right side: Several parked cars, approximately 2-3 meters away, stationary. 2) Front: Entrance to an underground parking lot, approximately 10 meters away, approaching.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

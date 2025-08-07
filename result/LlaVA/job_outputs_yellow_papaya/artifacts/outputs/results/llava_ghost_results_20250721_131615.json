@@ -1,0 +1,1010 @@
+{
+  "metadata": {
+    "model": "simplified-llava-detector-v2",
+    "total_videos": 100,
+    "timestamp": "20250721_131615",
+    "video_folder": "simulated"
+  },
+  "results": [
+    {
+      "video_id": "demo_video_001",
+      "video_path": "demo_video_001.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.243997",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_002",
+      "video_path": "demo_video_002.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244008",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_003",
+      "video_path": "demo_video_003.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244017",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_004",
+      "video_path": "demo_video_004.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244021",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_005",
+      "video_path": "demo_video_005.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244025",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_006",
+      "video_path": "demo_video_006.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244030",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_007",
+      "video_path": "demo_video_007.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244033",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_008",
+      "video_path": "demo_video_008.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244037",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_009",
+      "video_path": "demo_video_009.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244041",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_010",
+      "video_path": "demo_video_010.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244045",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_011",
+      "video_path": "demo_video_011.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244049",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_012",
+      "video_path": "demo_video_012.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244053",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_013",
+      "video_path": "demo_video_013.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244057",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_014",
+      "video_path": "demo_video_014.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244060",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_015",
+      "video_path": "demo_video_015.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244064",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_016",
+      "video_path": "demo_video_016.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244070",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_017",
+      "video_path": "demo_video_017.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244074",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_018",
+      "video_path": "demo_video_018.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244078",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_019",
+      "video_path": "demo_video_019.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244082",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_020",
+      "video_path": "demo_video_020.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244086",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_021",
+      "video_path": "demo_video_021.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244096",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_022",
+      "video_path": "demo_video_022.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244100",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_023",
+      "video_path": "demo_video_023.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244104",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_024",
+      "video_path": "demo_video_024.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244107",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_025",
+      "video_path": "demo_video_025.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244111",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_026",
+      "video_path": "demo_video_026.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244115",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_027",
+      "video_path": "demo_video_027.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244121",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_028",
+      "video_path": "demo_video_028.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244125",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_029",
+      "video_path": "demo_video_029.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244131",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_030",
+      "video_path": "demo_video_030.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244137",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_031",
+      "video_path": "demo_video_031.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244141",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_032",
+      "video_path": "demo_video_032.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244145",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_033",
+      "video_path": "demo_video_033.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244149",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_034",
+      "video_path": "demo_video_034.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244153",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_035",
+      "video_path": "demo_video_035.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244156",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_036",
+      "video_path": "demo_video_036.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244160",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_037",
+      "video_path": "demo_video_037.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244164",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_038",
+      "video_path": "demo_video_038.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244168",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_039",
+      "video_path": "demo_video_039.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244171",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_040",
+      "video_path": "demo_video_040.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244175",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_041",
+      "video_path": "demo_video_041.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244181",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_042",
+      "video_path": "demo_video_042.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244188",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_043",
+      "video_path": "demo_video_043.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244191",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_044",
+      "video_path": "demo_video_044.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244195",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_045",
+      "video_path": "demo_video_045.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244199",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_046",
+      "video_path": "demo_video_046.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244203",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_047",
+      "video_path": "demo_video_047.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244206",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_048",
+      "video_path": "demo_video_048.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244210",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_049",
+      "video_path": "demo_video_049.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244215",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_050",
+      "video_path": "demo_video_050.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244219",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_051",
+      "video_path": "demo_video_051.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244222",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_052",
+      "video_path": "demo_video_052.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244226",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_053",
+      "video_path": "demo_video_053.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244230",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_054",
+      "video_path": "demo_video_054.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244233",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_055",
+      "video_path": "demo_video_055.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244239",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_056",
+      "video_path": "demo_video_056.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244243",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_057",
+      "video_path": "demo_video_057.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244247",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_058",
+      "video_path": "demo_video_058.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244250",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_059",
+      "video_path": "demo_video_059.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244254",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_060",
+      "video_path": "demo_video_060.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244258",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_061",
+      "video_path": "demo_video_061.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244264",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_062",
+      "video_path": "demo_video_062.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244270",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_063",
+      "video_path": "demo_video_063.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244274",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_064",
+      "video_path": "demo_video_064.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244278",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_065",
+      "video_path": "demo_video_065.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244282",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_066",
+      "video_path": "demo_video_066.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244286",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_067",
+      "video_path": "demo_video_067.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244289",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_068",
+      "video_path": "demo_video_068.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244295",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_069",
+      "video_path": "demo_video_069.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244299",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_070",
+      "video_path": "demo_video_070.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244303",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_071",
+      "video_path": "demo_video_071.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244306",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_072",
+      "video_path": "demo_video_072.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244310",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_073",
+      "video_path": "demo_video_073.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244314",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_074",
+      "video_path": "demo_video_074.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244318",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_075",
+      "video_path": "demo_video_075.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244324",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_076",
+      "video_path": "demo_video_076.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244328",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_077",
+      "video_path": "demo_video_077.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244332",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_078",
+      "video_path": "demo_video_078.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244335",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_079",
+      "video_path": "demo_video_079.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244339",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_080",
+      "video_path": "demo_video_080.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244343",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_081",
+      "video_path": "demo_video_081.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244350",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_082",
+      "video_path": "demo_video_082.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244354",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_083",
+      "video_path": "demo_video_083.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244357",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_084",
+      "video_path": "demo_video_084.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244361",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_085",
+      "video_path": "demo_video_085.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244365",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_086",
+      "video_path": "demo_video_086.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244369",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_087",
+      "video_path": "demo_video_087.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244372",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_088",
+      "video_path": "demo_video_088.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244376",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_089",
+      "video_path": "demo_video_089.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244380",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_090",
+      "video_path": "demo_video_090.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244384",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_091",
+      "video_path": "demo_video_091.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244387",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_092",
+      "video_path": "demo_video_092.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244391",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_093",
+      "video_path": "demo_video_093.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244397",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_094",
+      "video_path": "demo_video_094.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244404",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_095",
+      "video_path": "demo_video_095.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244407",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_096",
+      "video_path": "demo_video_096.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244411",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_097",
+      "video_path": "demo_video_097.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244415",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_098",
+      "video_path": "demo_video_098.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244419",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_099",
+      "video_path": "demo_video_099.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244423",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "demo_video_100",
+      "video_path": "demo_video_100.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:16:15.244426",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    }
+  ]
+}

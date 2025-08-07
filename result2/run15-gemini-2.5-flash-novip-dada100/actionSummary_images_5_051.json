@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_051",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "An adult male rider on a black and white scooter, wearing a light-colored long-sleeved shirt and dark pants.",
+  "summary": "The video begins with the autonomous vehicle driving forward on a wet, multi-lane road under an overcast sky. A red sedan is visible in the distance on the right side of the road. Suddenly, at approximately 1.0 seconds, a male rider on a black and white scooter emerges rapidly from the left side of the road, appearing from behind a green median strip that acts as a visual obstruction. The scooter immediately enters the vehicle's direct path, forcing the autonomous vehicle to initiate rapid braking to prevent a collision. The scooter rider then comes to a stop directly in front of the vehicle, initially looking backward, then forward, effectively blocking the vehicle's forward movement. The autonomous vehicle remains stationary or moving at an extremely slow speed for the remainder of the segment, waiting for the scooter to clear its path.",
+  "actions": "The vehicle was initially moving forward at a moderate speed. Upon the sudden and unexpected appearance of a scooter from the left side of the road, directly entering its path, the vehicle initiated rapid deceleration and braking. This action was taken to avoid an imminent collision with the scooter, which presented an immediate and unannounced obstruction. The vehicle then maintained a stopped or extremely slow speed, as its path was completely blocked by the stationary scooter, prioritizing safety and preventing any further forward movement until the obstruction clears.",
+  "key_objects": "1) Left-center: A male rider on a black and white scooter. This individual suddenly darted out from behind a green median strip on the left side of the road, directly entering the vehicle's path with minimal reaction time, causing an immediate danger and forcing the vehicle to brake sharply.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

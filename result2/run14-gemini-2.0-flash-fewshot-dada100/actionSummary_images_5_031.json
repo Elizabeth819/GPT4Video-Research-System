@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_031",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A white car, a green three-wheeled vehicle, a person riding a scooter, and two people picking up items on the road.",
+  "summary": "The vehicle is approaching an intersection. Initially, a white car is visible on the left side of the road. A green three-wheeled vehicle is on the right side. As the vehicle proceeds, a person on a scooter appears from behind the three-wheeled vehicle, crossing the road. Further ahead, two people are picking up items that appear to have fallen onto the road, creating a potential obstruction.",
+  "actions": "The vehicle is moving forward at a consistent speed, approaching the intersection. The driver is likely assessing the traffic conditions and preparing to navigate the intersection safely. The vehicle maintains its current lane and speed, indicating an intention to proceed straight through the intersection, unless the people picking up items on the road cause the vehicle to decelerate.",
+  "key_objects": "1) Right side: A person on a scooter, approximately 10 meters away, emerging from behind the three-wheeled vehicle and crossing the road. 2) Front: Two people, approximately 15 meters away, picking up items on the road, potentially obstructing the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

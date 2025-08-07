@@ -1,0 +1,59 @@
+{
+  "drivemm_simple_analysis_summary": {
+    "total_videos": 3,
+    "ghost_probing_detected": 3,
+    "detection_rate": 1.0,
+    "method": "DriveMM_Simplified_Azure_A100",
+    "timestamp": "2025-07-14T07:06:15.251954"
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001",
+      "video_path": "./test_dada_videos/images_1_001.avi",
+      "timestamp": "2025-07-14T07:06:15.251350",
+      "analysis_results": {
+        "ghost_probing": {
+          "detected": true,
+          "confidence": "high",
+          "analysis": "DriveMM analysis on Azure A100 - Ghost probing detected"
+        },
+        "technical_details": {
+          "analysis_method": "DriveMM_Azure_A100_Simplified",
+          "gpu_device": "NVIDIA A100 80GB PCIe"
+        }
+      }
+    },
+    {
+      "video_id": "images_1_002",
+      "video_path": "./test_dada_videos/images_1_002.avi",
+      "timestamp": "2025-07-14T07:06:15.251703",
+      "analysis_results": {
+        "ghost_probing": {
+          "detected": true,
+          "confidence": "high",
+          "analysis": "DriveMM analysis on Azure A100 - Ghost probing detected"
+        },
+        "technical_details": {
+          "analysis_method": "DriveMM_Azure_A100_Simplified",
+          "gpu_device": "NVIDIA A100 80GB PCIe"
+        }
+      }
+    },
+    {
+      "video_id": "images_10_001",
+      "video_path": "./test_dada_videos/images_10_001.avi",
+      "timestamp": "2025-07-14T07:06:15.251856",
+      "analysis_results": {
+        "ghost_probing": {
+          "detected": true,
+          "confidence": "high",
+          "analysis": "DriveMM analysis on Azure A100 - Ghost probing detected"
+        },
+        "technical_details": {
+          "analysis_method": "DriveMM_Azure_A100_Simplified",
+          "gpu_device": "NVIDIA A100 80GB PCIe"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_043",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "16.3s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Driver of a blue three-wheeled vehicle (tricycle truck)",
+  "summary": "In this segment, the self-driving vehicle is initially stopped at an intersection with a green traffic light. After a white SUV clears the intersection, the self-driving vehicle begins to accelerate and proceed straight through. As the vehicle enters the intersection, a blue three-wheeled vehicle suddenly emerges from the left side, from behind a central median and trees that act as a visual obstruction. This vehicle enters the self-driving vehicle's path with minimal warning, creating an immediate and dangerous 'vehicle ghost probing' situation. The self-driving vehicle reacts by initiating rapid braking to avoid a collision.",
+  "actions": "The self-driving vehicle is initially stopped at the intersection, despite the green light, likely ensuring the intersection is clear after a white SUV completes its turn from the left. Once the white SUV clears the intersection and the immediate path appears clear, the vehicle begins to accelerate to proceed straight through. As the vehicle is moving through the intersection, a blue three-wheeled vehicle suddenly appears from the left side, entering the vehicle's path. In response to this unexpected and sudden emergence, the self-driving vehicle immediately initiates rapid deceleration and braking to prevent a collision.",
+  "key_objects": "1) Left side: A blue three-wheeled vehicle (tricycle truck), approximately 5-10 meters away, suddenly emerging from behind a central median and trees, entering the intersection and crossing the self-driving vehicle's path. 2) Left side: A central median with trees, acting as a significant visual obstruction that completely hides the approaching blue three-wheeled vehicle until it emerges into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving on a road with other vehicles present. A man on a scooter suddenly appears from the side of the road, creating a potential hazard.",
+    "actions": "Ego vehicle is driving straight. Other vehicles are moving in the same direction. A man on a scooter is attempting to cross the road.",
+    "characters": "A man on a scooter.",
+    "key_objects": "Ego vehicle, other vehicles, scooter, crosswalk.",
+    "key_actions": "potential ghost probing",
+    "next_action": "Ego vehicle will continue driving straight, potentially needing to brake or swerve to avoid the scooter."
+  }
+]

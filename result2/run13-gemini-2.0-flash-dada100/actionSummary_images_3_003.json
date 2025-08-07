@@ -1,0 +1,24 @@
+{
+  "video_id": "images_3_003",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "3.8s",
+  "summary": "The self-driving car is approaching an intersection with a green light. At the same time, a woman wearing a brown jacket and black pants is riding a bicycle from the right side of the road, crossing the intersection. She is looking to her left, not paying attention to the traffic light. The woman on the bicycle suddenly appears in front of the car, leading to a collision. The woman is thrown off the bicycle and lands on the hood of the car.",
+  "characters": [
+    {
+      "gender": "female",
+      "age": "adult",
+      "clothing": "brown jacket, black pants",
+      "transportation_method": "bicycle",
+      "behavior": "crossing the intersection without paying attention to the traffic light, leading to a collision"
+    }
+  ],
+  "key_actions": "ghost probing",
+  "key_objects": "[Right side]: A woman on a bicycle, approximately 5 meters away, suddenly appears from the right side of the road and crosses the intersection without paying attention to the traffic light, leading to a collision with the self-driving car.",
+  "actions": "The self-driving car is approaching an intersection with a green light. The car maintains its speed as it approaches the intersection, likely because the traffic light is green and there are no immediate obstacles in its path. The car does not decelerate until the woman on the bicycle suddenly appears in front of it.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  }
+}

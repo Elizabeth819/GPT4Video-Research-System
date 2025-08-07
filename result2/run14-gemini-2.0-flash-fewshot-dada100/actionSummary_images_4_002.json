@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_002",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A middle-aged woman wearing a white long-sleeve shirt and dark pants is riding a bicycle from the left side of the road.",
+  "summary": "The vehicle is driving on a rural road. From 7.1s to 8.0s, a middle-aged woman wearing a white long-sleeve shirt and dark pants is riding a bicycle from the left side of the road. She is emerging from behind a building, creating a potential ghost probing situation. The cyclist's speed is moderate, and she is heading towards the road.",
+  "actions": "The vehicle is driving at a constant speed on a straight road. The driver maintains the current speed because the road ahead is clear until 7.1s. The driver may need to decelerate if the cyclist continues to approach the road.",
+  "key_objects": "1) Left side: A middle-aged woman on a bicycle, approximately 10 meters away, emerging from behind a building and approaching the road. The building is obstructing the view of the cyclist until she is relatively close to the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

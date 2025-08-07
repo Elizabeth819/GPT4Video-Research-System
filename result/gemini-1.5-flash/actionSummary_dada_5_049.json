@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving down a street with parked cars on both sides. A pedestrian is walking in the middle of the road.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are parked. Pedestrian is walking towards the ego vehicle.",
+    "characters": "Pedestrian",
+    "key_objects": "Parked cars, pedestrian, ego vehicle",
+    "key_actions": "Pedestrian walking in the road",
+    "next_action": "Continue driving forward"
+  }
+]

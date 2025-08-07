@@ -1,0 +1,65 @@
+[
+    {
+        "video_id": "dada_14_009",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A person riding an electric bicycle, appearing to be a young adult wearing a light-colored shirt",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Approaching the vehicle from a distance, initially appearing to be moving at a moderate speed. The speed appears to increase slightly as it gets closer to the vehicle."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "Young adult",
+                "gender": "Male",
+                "clothing": "Light-colored shirt",
+                "transportation": "Electric bicycle",
+                "behavior": "Riding an electric bicycle, approaching the vehicle at an increasing speed."
+            }
+        ],
+        "summary": "The video shows a car driving on a road.  A young adult male on an electric bicycle, wearing a light-colored shirt, is seen approaching the vehicle from a distance. Initially, the cyclist's speed appears moderate, but it increases as he gets closer to the car. This sudden increase in speed and the cyclist's initial distance create a potential 'ghost probing' scenario, as the cyclist emerges into the vehicle's path with little warning. The cyclist's behavior poses a significant risk of collision.",
+        "actions": "The vehicle maintains a relatively constant speed throughout the 5-second video segment. There are no observable changes in direction or braking. The vehicle's speed appears consistent with the surrounding traffic conditions and the relatively open road.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_14_009",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car navigating a gentle curve on a relatively empty road. The road appears to be paved and in good condition.  The weather is sunny. There are trees and bushes visible on the sides of the road. No pedestrians or other vehicles are immediately close enough to pose an immediate threat. The car maintains a steady speed throughout the sequence of images, smoothly negotiating the curve.",
+        "actions": "The vehicle smoothly navigates a right-hand curve. The speed is consistent and appropriate for the curve's radius.  There is no indication of braking or acceleration beyond what is necessary for maintaining a safe trajectory around the bend. The driver appears to be maintaining a safe following distance, as no other vehicles are visible in close proximity.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "continue_curve",
+            "lane_control": "keep_right"
+        }
+    },
+    {
+        "video_id": "dada_14_009",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "10.8s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a curved road with lush green vegetation on both sides. The road appears to be relatively empty with no other vehicles or pedestrians immediately visible. The car is navigating a gentle curve, maintaining a steady speed.  The lighting suggests it is daytime. No unusual events or potential hazards are observed within this 5-second segment.",
+        "actions": "The vehicle is smoothly navigating a gentle right-hand curve. The speed is consistent and appears appropriate for the road conditions.  There is no indication of braking or acceleration beyond what is necessary for negotiating the curve. The steering is smooth and controlled.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "continue_curve",
+            "lane_control": "keep_right"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.7s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple individuals on motorcycles/scooters (some wearing pink or yellow helmets). A male individual riding a green bicycle.",
+  "summary": "In this segment, the self-driving vehicle is navigating a busy urban road during daytime. The road features multiple lanes with parked vehicles and trees lining both sides, creating numerous visual obstructions. Various motorcycles, scooters, and other vehicles are present in the traffic flow. As the vehicle progresses, specifically around the 11-second mark, a male individual on a green bicycle suddenly emerges from behind a parked white car on the right side of the road. This sudden appearance occurs with minimal warning, directly entering the vehicle's path and creating an immediate hazardous situation, characteristic of a ghost probing incident.",
+  "actions": "The self-driving vehicle is initially maintaining a moderate and consistent speed, adapting to the general flow of urban traffic. Upon the sudden and unexpected emergence of a green bicycle from behind a parked white car on the right side of the road, which significantly reduces the available reaction time, the vehicle immediately initiates rapid deceleration. This decisive action is taken to prevent a potential collision with the suddenly appearing bicycle, prioritizing the safety of both the vehicle's occupants and the road user.",
+  "key_objects": "1) Right side: A parked white car, approximately 5-7 meters away, serving as a significant visual obstruction. 2) Right side: A male individual on a green bicycle, approximately 3-5 meters away, suddenly emerging from behind the parked white car and entering the vehicle's path with minimal reaction time.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

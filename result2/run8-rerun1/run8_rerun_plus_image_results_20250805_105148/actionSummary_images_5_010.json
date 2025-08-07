@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_010",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians and cyclists, including a child in the second sequence, a man in the third sequence, and a motorcyclist in the fourth sequence.",
+  "summary": "The video sequences show multiple instances of ghost probing. In the first sequence, a child suddenly appears from the right side of the road. In the second sequence, a woman with a child suddenly emerges from the left side of the road. In the third sequence, a man suddenly runs across the road from the left side. In the fourth sequence, a motorcyclist suddenly appears from the right side and falls in front of the vehicle.",
+  "actions": "The child in the first sequence runs across the road. The woman and child in the second sequence cross the road. The man in the third sequence runs across the road. The motorcyclist in the fourth sequence falls in front of the vehicle.",
+  "key_objects": "Parked cars on the sides of the road, pedestrians, cyclists, and a motorcyclist.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

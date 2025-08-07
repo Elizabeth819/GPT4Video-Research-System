@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_028",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car on a city street. There are other cars on the road, as well as pedestrians on the sidewalks. A motorcyclist appears from behind a car on the right side of the road.",
+  "summary": "The vehicle is driving on a city street with moderate traffic. Initially, the vehicle maintains a speed of 45 km/h, but gradually decelerates to 29 km/h as it approaches an intersection with a pedestrian overpass. A motorcyclist suddenly appears from behind a dark-colored car on the right side of the road, creating a potential ghost probing situation.",
+  "actions": "The vehicle initially maintains a speed of 45 km/h. As the vehicle approaches the intersection, the driver begins to decelerate, likely in response to the presence of other vehicles and pedestrians in the area. The deceleration continues as the vehicle approaches the intersection, reaching a speed of 29 km/h by the end of the segment. The driver is likely preparing to stop or yield at the intersection.",
+  "key_objects": "1) Right: Dark-colored car, medium distance, obstructs view of motorcyclist. 2) Right: Motorcyclist, medium distance, suddenly appears from behind the dark-colored car, creating a potential collision hazard.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

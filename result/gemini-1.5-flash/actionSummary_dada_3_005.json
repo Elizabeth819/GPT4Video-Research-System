@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_3_005",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017/04/26 16:29:13",
+    "End_Timestamp": "2017/04/26 16:29:21",
+    "summary": "The vehicle is driving on a multi-lane road in an urban environment. There are other vehicles on the road. Pedestrians are crossing the road at a crosswalk.",
+    "actions": "The vehicle is maintaining its lane and speed. The driver is observing the traffic and pedestrians.",
+    "key_objects": [
+      "vehicle",
+      "pedestrians",
+      "crosswalk",
+      "other vehicles"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain",
+      "direction_control": "straight",
+      "lane_control": "maintain"
+    }
+  }
+]

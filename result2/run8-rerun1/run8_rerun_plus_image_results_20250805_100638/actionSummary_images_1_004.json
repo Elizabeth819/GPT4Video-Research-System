@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, and cyclists observed in different sequences. The child is seen darting into the road from the right side in the first sequence. In the second sequence, a woman with a child suddenly appears from behind a parked vehicle on the left side. In the third sequence, a man runs into the road from the left side.",
+  "summary": "The video sequences show multiple instances of 'ghost probing' behavior. In the first sequence, a child suddenly runs into the road from the right side, emerging from behind a parked vehicle. In the second sequence, a woman with a child appears from behind a parked vehicle on the left side, directly in the path of the vehicle. In the third sequence, a man runs into the road from the left side, emerging from behind a tree.",
+  "actions": "In the first sequence, the child runs into the road from the right side. In the second sequence, the woman with a child appears from behind a parked vehicle on the left side. In the third sequence, the man runs into the road from the left side.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians, cyclists, and trees creating visual obstructions.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

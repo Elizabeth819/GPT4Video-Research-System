@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_39_004",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red sedan, driver of a truck",
+        "summary": "In this segment, the vehicle is driving on a highway. A red sedan is ahead, and a truck is on the left side. The red sedan is moving closer to the truck, potentially indicating a cut-in behavior. The truck is maintaining its lane but is very close to the red sedan.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the red sedan and the truck. The vehicle is keeping a safe distance from the truck on the left and the red sedan ahead.",
+        "key_objects": "1) Front: A red sedan, approximately 5 meters away, moving closer to the truck on the left, potentially indicating a cut-in behavior. 2) Left: A truck, approximately 3 meters away, maintaining its lane but very close to the red sedan.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

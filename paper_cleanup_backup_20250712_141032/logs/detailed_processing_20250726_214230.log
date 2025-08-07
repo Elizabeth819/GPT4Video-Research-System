@@ -1,0 +1,615 @@
+2025-07-26 21:42:30,831 - INFO - 开始处理视频批处理任务，日志时间戳: 20250726_214230
+2025-07-26 21:42:30,831 - INFO - 设置日志级别为 INFO
+2025-07-26 21:42:30,832 - INFO - 创建输出目录: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/original_script_results
+2025-07-26 21:42:30,832 - INFO - 开始批量处理视频
+2025-07-26 21:42:30,832 - INFO - 开始批量处理视频，参数: frame_interval=10, frames_per_interval=10, limit=20, skip_existing=True, start_at=0, retry_failed=False
+2025-07-26 21:42:30,832 - INFO - 扫描文件夹: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos
+2025-07-26 21:42:30,833 - INFO - 由于设置了限制，将只处理前 20 个视频
+2025-07-26 21:42:30,833 - INFO - 找到 20 个视频文件
+2025-07-26 21:42:30,873 - INFO - 开始处理视频 [1/20]: images_1_001.avi
+2025-07-26 21:42:31,006 - INFO - 视频 images_1_001.avi 时长: 14.67 秒
+2025-07-26 21:42:31,006 - INFO - 开始处理视频内容: images_1_001.avi
+2025-07-26 21:42:31,007 - INFO - 创建帧目录: frames
+2025-07-26 21:42:31,007 - INFO - 清空帧目录 frames
+2025-07-26 21:42:31,194 - INFO - 开始视觉分析, 视频ID: dada_1_001, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:42:31,203 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:42:31,203 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:42:31,203 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:42:31,203 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:42:42,452 - INFO - API响应状态码: 200
+2025-07-26 21:42:42,452 - INFO - Azure API调用成功
+2025-07-26 21:42:42,452 - INFO - 成功从Response提取内容
+2025-07-26 21:42:42,454 - INFO - 成功解析JSON
+2025-07-26 21:42:42,454 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:42:42,455 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:42:42,573 - INFO - 开始视觉分析, 视频ID: dada_1_001, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:42:42,585 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:42:42,585 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:42:42,585 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:42:42,585 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:42:54,928 - INFO - API响应状态码: 200
+2025-07-26 21:42:54,928 - INFO - Azure API调用成功
+2025-07-26 21:42:54,930 - INFO - 成功从Response提取内容
+2025-07-26 21:42:54,931 - INFO - 成功解析JSON
+2025-07-26 21:42:54,931 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:42:54,934 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:42:55,031 - INFO - Function AnalyzeVideo took 24.0251 seconds to complete.
+2025-07-26 21:42:55,031 - INFO - 成功处理视频: images_1_001.avi，耗时：24.03秒
+2025-07-26 21:42:55,037 - INFO - 开始处理视频 [2/20]: images_1_002.avi
+2025-07-26 21:42:55,188 - INFO - 视频 images_1_002.avi 时长: 11.47 秒
+2025-07-26 21:42:55,188 - INFO - 开始处理视频内容: images_1_002.avi
+2025-07-26 21:42:55,188 - INFO - 清空帧目录 frames
+2025-07-26 21:42:55,356 - INFO - 开始视觉分析, 视频ID: dada_1_002, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:42:55,369 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:42:55,369 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:42:55,369 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:42:55,369 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:43:06,753 - INFO - API响应状态码: 200
+2025-07-26 21:43:06,753 - INFO - Azure API调用成功
+2025-07-26 21:43:06,753 - INFO - 成功从Response提取内容
+2025-07-26 21:43:06,754 - INFO - 成功解析JSON
+2025-07-26 21:43:06,754 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:43:06,756 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:43:06,843 - INFO - 开始视觉分析, 视频ID: dada_1_002, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:43:06,849 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:43:06,849 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:43:06,849 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:43:06,849 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:43:18,601 - INFO - API响应状态码: 200
+2025-07-26 21:43:18,601 - INFO - Azure API调用成功
+2025-07-26 21:43:18,604 - INFO - 成功从Response提取内容
+2025-07-26 21:43:18,607 - INFO - 成功解析JSON
+2025-07-26 21:43:18,607 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:43:18,610 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:43:18,681 - INFO - Function AnalyzeVideo took 23.4921 seconds to complete.
+2025-07-26 21:43:18,681 - INFO - 成功处理视频: images_1_002.avi，耗时：23.49秒
+2025-07-26 21:43:18,689 - INFO - 开始处理视频 [3/20]: images_1_003.avi
+2025-07-26 21:43:18,845 - INFO - 视频 images_1_003.avi 时长: 10.53 秒
+2025-07-26 21:43:18,845 - INFO - 开始处理视频内容: images_1_003.avi
+2025-07-26 21:43:18,845 - INFO - 清空帧目录 frames
+2025-07-26 21:43:19,016 - INFO - 开始视觉分析, 视频ID: dada_1_003, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:43:19,026 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:43:19,026 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:43:19,026 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:43:19,026 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:43:28,941 - INFO - API响应状态码: 200
+2025-07-26 21:43:28,941 - INFO - Azure API调用成功
+2025-07-26 21:43:28,942 - INFO - 成功从Response提取内容
+2025-07-26 21:43:28,943 - INFO - 成功解析JSON
+2025-07-26 21:43:28,943 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:43:28,946 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:43:29,097 - INFO - 开始视觉分析, 视频ID: dada_1_003, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:43:29,107 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:43:29,107 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:43:29,107 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:43:29,107 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:43:38,772 - INFO - API响应状态码: 200
+2025-07-26 21:43:38,772 - INFO - Azure API调用成功
+2025-07-26 21:43:38,776 - INFO - 成功从Response提取内容
+2025-07-26 21:43:38,777 - INFO - 成功解析JSON
+2025-07-26 21:43:38,777 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:43:38,778 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:43:38,860 - INFO - Function AnalyzeVideo took 20.0143 seconds to complete.
+2025-07-26 21:43:38,860 - INFO - 成功处理视频: images_1_003.avi，耗时：20.01秒
+2025-07-26 21:43:38,864 - INFO - 开始处理视频 [4/20]: images_1_004.avi
+2025-07-26 21:43:39,007 - INFO - 视频 images_1_004.avi 时长: 15.40 秒
+2025-07-26 21:43:39,007 - INFO - 开始处理视频内容: images_1_004.avi
+2025-07-26 21:43:39,007 - INFO - 清空帧目录 frames
+2025-07-26 21:43:39,177 - INFO - 开始视觉分析, 视频ID: dada_1_004, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:43:39,196 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:43:39,196 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:43:39,196 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:43:39,196 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:43:48,268 - INFO - API响应状态码: 200
+2025-07-26 21:43:48,269 - INFO - Azure API调用成功
+2025-07-26 21:43:48,269 - INFO - 成功从Response提取内容
+2025-07-26 21:43:48,271 - INFO - 成功解析JSON
+2025-07-26 21:43:48,272 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:43:48,276 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:43:48,401 - INFO - 开始视觉分析, 视频ID: dada_1_004, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:43:48,416 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:43:48,416 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:43:48,416 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:43:48,416 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:44:10,723 - INFO - API响应状态码: 200
+2025-07-26 21:44:10,724 - INFO - Azure API调用成功
+2025-07-26 21:44:10,727 - INFO - 成功从Response提取内容
+2025-07-26 21:44:10,729 - INFO - 成功解析JSON
+2025-07-26 21:44:10,730 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:44:10,739 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:44:10,817 - INFO - Function AnalyzeVideo took 31.8102 seconds to complete.
+2025-07-26 21:44:10,817 - INFO - 成功处理视频: images_1_004.avi，耗时：31.81秒
+2025-07-26 21:44:10,825 - INFO - 开始处理视频 [5/20]: images_1_005.avi
+2025-07-26 21:44:10,974 - INFO - 视频 images_1_005.avi 时长: 14.27 秒
+2025-07-26 21:44:10,975 - INFO - 开始处理视频内容: images_1_005.avi
+2025-07-26 21:44:10,975 - INFO - 清空帧目录 frames
+2025-07-26 21:44:11,152 - INFO - 开始视觉分析, 视频ID: dada_1_005, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:44:11,160 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:44:11,161 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:44:11,161 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:44:11,161 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:44:23,729 - INFO - API响应状态码: 200
+2025-07-26 21:44:23,729 - INFO - Azure API调用成功
+2025-07-26 21:44:23,730 - INFO - 成功从Response提取内容
+2025-07-26 21:44:23,732 - INFO - 成功解析JSON
+2025-07-26 21:44:23,732 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:44:23,735 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:44:23,904 - INFO - 开始视觉分析, 视频ID: dada_1_005, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:44:23,918 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:44:23,918 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:44:23,918 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:44:23,918 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:44:37,449 - INFO - API响应状态码: 200
+2025-07-26 21:44:37,449 - INFO - Azure API调用成功
+2025-07-26 21:44:37,452 - INFO - 成功从Response提取内容
+2025-07-26 21:44:37,453 - INFO - 成功解析JSON
+2025-07-26 21:44:37,453 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:44:37,455 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:44:37,490 - INFO - Function AnalyzeVideo took 26.5150 seconds to complete.
+2025-07-26 21:44:37,490 - INFO - 成功处理视频: images_1_005.avi，耗时：26.52秒
+2025-07-26 21:44:37,494 - INFO - 开始处理视频 [6/20]: images_1_006.avi
+2025-07-26 21:44:37,636 - INFO - 视频 images_1_006.avi 时长: 14.13 秒
+2025-07-26 21:44:37,636 - INFO - 开始处理视频内容: images_1_006.avi
+2025-07-26 21:44:37,636 - INFO - 清空帧目录 frames
+2025-07-26 21:44:37,812 - INFO - 开始视觉分析, 视频ID: dada_1_006, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:44:37,828 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:44:37,828 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:44:37,828 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:44:37,828 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:44:47,996 - INFO - API响应状态码: 200
+2025-07-26 21:44:47,996 - INFO - Azure API调用成功
+2025-07-26 21:44:47,996 - INFO - 成功从Response提取内容
+2025-07-26 21:44:47,997 - INFO - 成功解析JSON
+2025-07-26 21:44:47,997 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:44:48,002 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:44:48,166 - INFO - 开始视觉分析, 视频ID: dada_1_006, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:44:48,184 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:44:48,184 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:44:48,184 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:44:48,184 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:44:58,824 - INFO - API响应状态码: 200
+2025-07-26 21:44:58,824 - INFO - Azure API调用成功
+2025-07-26 21:44:58,829 - INFO - 成功从Response提取内容
+2025-07-26 21:44:58,831 - INFO - 成功解析JSON
+2025-07-26 21:44:58,831 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:44:58,835 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:44:58,874 - INFO - Function AnalyzeVideo took 21.2381 seconds to complete.
+2025-07-26 21:44:58,875 - INFO - 成功处理视频: images_1_006.avi，耗时：21.24秒
+2025-07-26 21:44:58,878 - INFO - 开始处理视频 [7/20]: images_1_007.avi
+2025-07-26 21:44:59,020 - INFO - 视频 images_1_007.avi 时长: 14.13 秒
+2025-07-26 21:44:59,020 - INFO - 开始处理视频内容: images_1_007.avi
+2025-07-26 21:44:59,020 - INFO - 清空帧目录 frames
+2025-07-26 21:44:59,194 - INFO - 开始视觉分析, 视频ID: dada_1_007, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:44:59,369 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:44:59,369 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:44:59,369 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:44:59,369 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:45:11,317 - INFO - API响应状态码: 200
+2025-07-26 21:45:11,318 - INFO - Azure API调用成功
+2025-07-26 21:45:11,319 - INFO - 成功从Response提取内容
+2025-07-26 21:45:11,321 - INFO - 成功解析JSON
+2025-07-26 21:45:11,321 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:45:11,325 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:45:11,441 - INFO - 开始视觉分析, 视频ID: dada_1_007, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:45:11,458 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:45:11,458 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:45:11,458 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:45:11,458 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:45:25,884 - INFO - API响应状态码: 200
+2025-07-26 21:45:25,885 - INFO - Azure API调用成功
+2025-07-26 21:45:25,889 - INFO - 成功从Response提取内容
+2025-07-26 21:45:25,891 - INFO - 成功解析JSON
+2025-07-26 21:45:25,891 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:45:25,896 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:45:25,967 - INFO - Function AnalyzeVideo took 26.9474 seconds to complete.
+2025-07-26 21:45:25,967 - INFO - 成功处理视频: images_1_007.avi，耗时：26.95秒
+2025-07-26 21:45:25,972 - INFO - 开始处理视频 [8/20]: images_1_008.avi
+2025-07-26 21:45:26,115 - INFO - 视频 images_1_008.avi 时长: 5.73 秒
+2025-07-26 21:45:26,115 - INFO - 开始处理视频内容: images_1_008.avi
+2025-07-26 21:45:26,115 - INFO - 清空帧目录 frames
+2025-07-26 21:45:26,298 - INFO - 开始视觉分析, 视频ID: dada_1_008, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:45:26,310 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:45:26,310 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:45:26,310 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:45:26,310 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:45:40,632 - INFO - API响应状态码: 200
+2025-07-26 21:45:40,632 - INFO - Azure API调用成功
+2025-07-26 21:45:40,632 - INFO - 成功从Response提取内容
+2025-07-26 21:45:40,639 - INFO - 成功解析JSON
+2025-07-26 21:45:40,639 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:45:40,643 - INFO - 
+=== 已完成: 100.0% [1/1] ===
+2025-07-26 21:45:40,724 - INFO - Function AnalyzeVideo took 14.6091 seconds to complete.
+2025-07-26 21:45:40,724 - INFO - 成功处理视频: images_1_008.avi，耗时：14.61秒
+2025-07-26 21:45:40,727 - INFO - 开始处理视频 [9/20]: images_1_009.avi
+2025-07-26 21:45:40,884 - INFO - 视频 images_1_009.avi 时长: 6.07 秒
+2025-07-26 21:45:40,885 - INFO - 开始处理视频内容: images_1_009.avi
+2025-07-26 21:45:40,885 - INFO - 清空帧目录 frames
+2025-07-26 21:45:41,057 - INFO - 开始视觉分析, 视频ID: dada_1_009, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:45:41,070 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:45:41,070 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:45:41,070 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:45:41,070 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:45:49,996 - INFO - API响应状态码: 200
+2025-07-26 21:45:49,996 - INFO - Azure API调用成功
+2025-07-26 21:45:49,997 - INFO - 成功从Response提取内容
+2025-07-26 21:45:49,999 - INFO - 成功解析JSON
+2025-07-26 21:45:49,999 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:45:50,003 - INFO - 
+=== 已完成: 100.0% [1/1] ===
+2025-07-26 21:45:50,111 - INFO - Function AnalyzeVideo took 9.2262 seconds to complete.
+2025-07-26 21:45:50,111 - INFO - 成功处理视频: images_1_009.avi，耗时：9.23秒
+2025-07-26 21:45:50,115 - INFO - 开始处理视频 [10/20]: images_1_010.avi
+2025-07-26 21:45:50,258 - INFO - 视频 images_1_010.avi 时长: 22.67 秒
+2025-07-26 21:45:50,258 - INFO - 开始处理视频内容: images_1_010.avi
+2025-07-26 21:45:50,258 - INFO - 清空帧目录 frames
+2025-07-26 21:45:50,434 - INFO - 开始视觉分析, 视频ID: dada_1_010, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:45:50,444 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:45:50,444 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:45:50,444 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:45:50,444 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:46:01,116 - INFO - API响应状态码: 200
+2025-07-26 21:46:01,117 - INFO - Azure API调用成功
+2025-07-26 21:46:01,117 - INFO - 成功从Response提取内容
+2025-07-26 21:46:01,120 - INFO - 成功解析JSON
+2025-07-26 21:46:01,120 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:46:01,123 - INFO - 
+=== 已完成: 33.3% [1/3] ===
+2025-07-26 21:46:01,228 - INFO - 开始视觉分析, 视频ID: dada_1_010, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:46:01,246 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:46:01,246 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:46:01,246 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:46:01,246 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:46:09,238 - INFO - API响应状态码: 200
+2025-07-26 21:46:09,239 - INFO - Azure API调用成功
+2025-07-26 21:46:09,242 - INFO - 成功从Response提取内容
+2025-07-26 21:46:09,245 - INFO - 成功解析JSON
+2025-07-26 21:46:09,245 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:46:09,248 - INFO - 
+=== 已完成: 66.7% [2/3] ===
+2025-07-26 21:46:09,438 - INFO - 开始视觉分析, 视频ID: dada_1_010, 段落ID: segment_002, 图像数量: 10
+2025-07-26 21:46:09,454 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:46:09,454 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:46:09,454 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:46:09,454 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:46:17,862 - INFO - API响应状态码: 200
+2025-07-26 21:46:17,862 - INFO - Azure API调用成功
+2025-07-26 21:46:17,866 - INFO - 成功从Response提取内容
+2025-07-26 21:46:17,868 - INFO - 成功解析JSON
+2025-07-26 21:46:17,868 - INFO - 将分析结果添加到final_arr，当前长度: 3
+2025-07-26 21:46:17,871 - INFO - 
+=== 已完成: 100.0% [3/3] ===
+2025-07-26 21:46:17,954 - INFO - Function AnalyzeVideo took 27.6955 seconds to complete.
+2025-07-26 21:46:17,954 - INFO - 成功处理视频: images_1_010.avi，耗时：27.70秒
+2025-07-26 21:46:17,958 - INFO - 开始处理视频 [11/20]: images_1_011.avi
+2025-07-26 21:46:18,088 - INFO - 视频 images_1_011.avi 时长: 14.00 秒
+2025-07-26 21:46:18,089 - INFO - 开始处理视频内容: images_1_011.avi
+2025-07-26 21:46:18,089 - INFO - 清空帧目录 frames
+2025-07-26 21:46:18,272 - INFO - 开始视觉分析, 视频ID: dada_1_011, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:46:18,370 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:46:18,370 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:46:18,370 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:46:18,371 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:46:28,268 - INFO - API响应状态码: 200
+2025-07-26 21:46:28,268 - INFO - Azure API调用成功
+2025-07-26 21:46:28,268 - INFO - 成功从Response提取内容
+2025-07-26 21:46:28,270 - INFO - 成功解析JSON
+2025-07-26 21:46:28,270 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:46:28,273 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:46:28,412 - INFO - 开始视觉分析, 视频ID: dada_1_011, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:46:28,422 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:46:28,422 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:46:28,422 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:46:28,422 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:46:38,288 - INFO - API响应状态码: 200
+2025-07-26 21:46:38,288 - INFO - Azure API调用成功
+2025-07-26 21:46:38,293 - INFO - 成功从Response提取内容
+2025-07-26 21:46:38,295 - INFO - 成功解析JSON
+2025-07-26 21:46:38,295 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:46:38,299 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:46:38,396 - INFO - Function AnalyzeVideo took 20.3075 seconds to complete.
+2025-07-26 21:46:38,396 - INFO - 成功处理视频: images_1_011.avi，耗时：20.31秒
+2025-07-26 21:46:38,400 - INFO - 开始处理视频 [12/20]: images_1_012.avi
+2025-07-26 21:46:38,546 - INFO - 视频 images_1_012.avi 时长: 14.40 秒
+2025-07-26 21:46:38,546 - INFO - 开始处理视频内容: images_1_012.avi
+2025-07-26 21:46:38,546 - INFO - 清空帧目录 frames
+2025-07-26 21:46:38,722 - INFO - 开始视觉分析, 视频ID: dada_1_012, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:46:38,734 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:46:38,734 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:46:38,734 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:46:38,734 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:46:50,374 - INFO - API响应状态码: 200
+2025-07-26 21:46:50,374 - INFO - Azure API调用成功
+2025-07-26 21:46:50,374 - INFO - 成功从Response提取内容
+2025-07-26 21:46:50,376 - INFO - 成功解析JSON
+2025-07-26 21:46:50,377 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:46:50,380 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:46:50,523 - INFO - 开始视觉分析, 视频ID: dada_1_012, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:46:50,539 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:46:50,539 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:46:50,539 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:46:50,539 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:47:01,071 - INFO - API响应状态码: 200
+2025-07-26 21:47:01,072 - INFO - Azure API调用成功
+2025-07-26 21:47:01,074 - INFO - 成功从Response提取内容
+2025-07-26 21:47:01,076 - INFO - 成功解析JSON
+2025-07-26 21:47:01,076 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:47:01,079 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:47:01,095 - INFO - Function AnalyzeVideo took 22.5488 seconds to complete.
+2025-07-26 21:47:01,095 - INFO - 成功处理视频: images_1_012.avi，耗时：22.55秒
+2025-07-26 21:47:01,098 - INFO - 开始处理视频 [13/20]: images_1_013.avi
+2025-07-26 21:47:01,241 - INFO - 视频 images_1_013.avi 时长: 12.00 秒
+2025-07-26 21:47:01,241 - INFO - 开始处理视频内容: images_1_013.avi
+2025-07-26 21:47:01,241 - INFO - 清空帧目录 frames
+2025-07-26 21:47:01,420 - INFO - 开始视觉分析, 视频ID: dada_1_013, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:47:01,430 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:47:01,431 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:47:01,431 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:47:01,431 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:47:09,833 - INFO - API响应状态码: 200
+2025-07-26 21:47:09,834 - INFO - Azure API调用成功
+2025-07-26 21:47:09,834 - INFO - 成功从Response提取内容
+2025-07-26 21:47:09,837 - INFO - 成功解析JSON
+2025-07-26 21:47:09,837 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:47:09,839 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:47:09,997 - INFO - 开始视觉分析, 视频ID: dada_1_013, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:47:10,011 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:47:10,011 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:47:10,011 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:47:10,011 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:47:20,482 - INFO - API响应状态码: 200
+2025-07-26 21:47:20,483 - INFO - Azure API调用成功
+2025-07-26 21:47:20,486 - INFO - 成功从Response提取内容
+2025-07-26 21:47:20,487 - INFO - 成功解析JSON
+2025-07-26 21:47:20,487 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:47:20,489 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:47:20,562 - INFO - Function AnalyzeVideo took 19.3208 seconds to complete.
+2025-07-26 21:47:20,562 - INFO - 成功处理视频: images_1_013.avi，耗时：19.32秒
+2025-07-26 21:47:20,566 - INFO - 开始处理视频 [14/20]: images_1_014.avi
+2025-07-26 21:47:20,713 - INFO - 视频 images_1_014.avi 时长: 10.47 秒
+2025-07-26 21:47:20,713 - INFO - 开始处理视频内容: images_1_014.avi
+2025-07-26 21:47:20,713 - INFO - 清空帧目录 frames
+2025-07-26 21:47:20,891 - INFO - 开始视觉分析, 视频ID: dada_1_014, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:47:20,900 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:47:20,900 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:47:20,900 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:47:20,900 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:47:31,469 - INFO - API响应状态码: 200
+2025-07-26 21:47:31,469 - INFO - Azure API调用成功
+2025-07-26 21:47:31,469 - INFO - 成功从Response提取内容
+2025-07-26 21:47:31,470 - INFO - 成功解析JSON
+2025-07-26 21:47:31,470 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:47:31,473 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:47:31,577 - INFO - 开始视觉分析, 视频ID: dada_1_014, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:47:31,592 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:47:31,592 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:47:31,592 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:47:31,592 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:47:41,388 - INFO - API响应状态码: 200
+2025-07-26 21:47:41,389 - INFO - Azure API调用成功
+2025-07-26 21:47:41,391 - INFO - 成功从Response提取内容
+2025-07-26 21:47:41,394 - INFO - 成功解析JSON
+2025-07-26 21:47:41,394 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:47:41,397 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:47:41,438 - INFO - Function AnalyzeVideo took 20.7246 seconds to complete.
+2025-07-26 21:47:41,438 - INFO - 成功处理视频: images_1_014.avi，耗时：20.72秒
+2025-07-26 21:47:41,461 - INFO - 开始处理视频 [15/20]: images_1_015.avi
+2025-07-26 21:47:41,617 - INFO - 视频 images_1_015.avi 时长: 8.17 秒
+2025-07-26 21:47:41,618 - INFO - 开始处理视频内容: images_1_015.avi
+2025-07-26 21:47:41,618 - INFO - 清空帧目录 frames
+2025-07-26 21:47:41,799 - INFO - 开始视觉分析, 视频ID: dada_1_015, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:47:41,814 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:47:41,814 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:47:41,814 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:47:41,814 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:47:58,683 - INFO - API响应状态码: 200
+2025-07-26 21:47:58,684 - INFO - Azure API调用成功
+2025-07-26 21:47:58,684 - INFO - 成功从Response提取内容
+2025-07-26 21:47:58,687 - INFO - 成功解析JSON
+2025-07-26 21:47:58,687 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:47:58,693 - INFO - 
+=== 已完成: 100.0% [1/1] ===
+2025-07-26 21:47:58,735 - INFO - Function AnalyzeVideo took 17.1170 seconds to complete.
+2025-07-26 21:47:58,735 - INFO - 成功处理视频: images_1_015.avi，耗时：17.12秒
+2025-07-26 21:47:58,744 - INFO - 开始处理视频 [16/20]: images_1_016.avi
+2025-07-26 21:47:58,891 - INFO - 视频 images_1_016.avi 时长: 9.73 秒
+2025-07-26 21:47:58,892 - INFO - 开始处理视频内容: images_1_016.avi
+2025-07-26 21:47:58,892 - INFO - 清空帧目录 frames
+2025-07-26 21:47:59,075 - INFO - 开始视觉分析, 视频ID: dada_1_016, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:47:59,091 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:47:59,091 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:47:59,091 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:47:59,091 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:48:21,104 - INFO - API响应状态码: 200
+2025-07-26 21:48:21,104 - INFO - Azure API调用成功
+2025-07-26 21:48:21,104 - INFO - 成功从Response提取内容
+2025-07-26 21:48:21,106 - INFO - 成功解析JSON
+2025-07-26 21:48:21,106 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:48:21,111 - INFO - 
+=== 已完成: 100.0% [1/1] ===
+2025-07-26 21:48:21,223 - INFO - Function AnalyzeVideo took 22.3316 seconds to complete.
+2025-07-26 21:48:21,224 - INFO - 成功处理视频: images_1_016.avi，耗时：22.33秒
+2025-07-26 21:48:21,228 - INFO - 开始处理视频 [17/20]: images_1_017.avi
+2025-07-26 21:48:21,377 - INFO - 视频 images_1_017.avi 时长: 21.67 秒
+2025-07-26 21:48:21,378 - INFO - 开始处理视频内容: images_1_017.avi
+2025-07-26 21:48:21,378 - INFO - 清空帧目录 frames
+2025-07-26 21:48:21,559 - INFO - 开始视觉分析, 视频ID: dada_1_017, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:48:21,569 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:48:21,569 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:48:21,569 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:48:21,569 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:48:32,880 - INFO - API响应状态码: 200
+2025-07-26 21:48:32,880 - INFO - Azure API调用成功
+2025-07-26 21:48:32,881 - INFO - 成功从Response提取内容
+2025-07-26 21:48:32,881 - INFO - 成功解析JSON
+2025-07-26 21:48:32,881 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:48:32,883 - INFO - 
+=== 已完成: 33.3% [1/3] ===
+2025-07-26 21:48:33,041 - INFO - 开始视觉分析, 视频ID: dada_1_017, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:48:33,054 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:48:33,054 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:48:33,054 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:48:33,054 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:48:43,636 - INFO - API响应状态码: 200
+2025-07-26 21:48:43,637 - INFO - Azure API调用成功
+2025-07-26 21:48:43,639 - INFO - 成功从Response提取内容
+2025-07-26 21:48:43,641 - INFO - 成功解析JSON
+2025-07-26 21:48:43,641 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:48:43,646 - INFO - 
+=== 已完成: 66.7% [2/3] ===
+2025-07-26 21:48:43,797 - INFO - 开始视觉分析, 视频ID: dada_1_017, 段落ID: segment_002, 图像数量: 10
+2025-07-26 21:48:43,806 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:48:43,807 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:48:43,807 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:48:43,807 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:48:57,668 - INFO - API响应状态码: 200
+2025-07-26 21:48:57,669 - INFO - Azure API调用成功
+2025-07-26 21:48:57,671 - INFO - 成功从Response提取内容
+2025-07-26 21:48:57,672 - INFO - 成功解析JSON
+2025-07-26 21:48:57,672 - INFO - 将分析结果添加到final_arr，当前长度: 3
+2025-07-26 21:48:57,673 - INFO - 
+=== 已完成: 100.0% [3/3] ===
+2025-07-26 21:48:57,782 - INFO - Function AnalyzeVideo took 36.4047 seconds to complete.
+2025-07-26 21:48:57,783 - INFO - 成功处理视频: images_1_017.avi，耗时：36.40秒
+2025-07-26 21:48:57,785 - INFO - 开始处理视频 [18/20]: images_1_018.avi
+2025-07-26 21:48:57,930 - INFO - 视频 images_1_018.avi 时长: 11.17 秒
+2025-07-26 21:48:57,930 - INFO - 开始处理视频内容: images_1_018.avi
+2025-07-26 21:48:57,930 - INFO - 清空帧目录 frames
+2025-07-26 21:48:58,116 - INFO - 开始视觉分析, 视频ID: dada_1_018, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:48:58,131 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:48:58,131 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:48:58,131 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:48:58,131 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:49:08,674 - INFO - API响应状态码: 200
+2025-07-26 21:49:08,674 - INFO - Azure API调用成功
+2025-07-26 21:49:08,675 - INFO - 成功从Response提取内容
+2025-07-26 21:49:08,678 - INFO - 成功解析JSON
+2025-07-26 21:49:08,678 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:49:08,682 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:49:08,780 - INFO - 开始视觉分析, 视频ID: dada_1_018, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:49:08,801 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:49:08,801 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:49:08,801 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:49:08,802 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:49:19,865 - INFO - API响应状态码: 200
+2025-07-26 21:49:19,865 - INFO - Azure API调用成功
+2025-07-26 21:49:19,869 - INFO - 成功从Response提取内容
+2025-07-26 21:49:19,870 - INFO - 成功解析JSON
+2025-07-26 21:49:19,871 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:49:19,873 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:49:19,986 - INFO - Function AnalyzeVideo took 22.0560 seconds to complete.
+2025-07-26 21:49:19,987 - INFO - 成功处理视频: images_1_018.avi，耗时：22.06秒
+2025-07-26 21:49:19,990 - INFO - 开始处理视频 [19/20]: images_1_019.avi
+2025-07-26 21:49:20,134 - INFO - 视频 images_1_019.avi 时长: 14.00 秒
+2025-07-26 21:49:20,135 - INFO - 开始处理视频内容: images_1_019.avi
+2025-07-26 21:49:20,135 - INFO - 清空帧目录 frames
+2025-07-26 21:49:20,316 - INFO - 开始视觉分析, 视频ID: dada_1_019, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:49:20,324 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:49:20,324 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:49:20,324 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:49:20,324 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:49:30,409 - INFO - API响应状态码: 200
+2025-07-26 21:49:30,409 - INFO - Azure API调用成功
+2025-07-26 21:49:30,411 - INFO - 成功从Response提取内容
+2025-07-26 21:49:30,412 - INFO - 成功解析JSON
+2025-07-26 21:49:30,412 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:49:30,415 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:49:30,556 - INFO - 开始视觉分析, 视频ID: dada_1_019, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:49:30,573 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:49:30,573 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:49:30,573 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:49:30,573 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:49:41,935 - INFO - API响应状态码: 200
+2025-07-26 21:49:41,936 - INFO - Azure API调用成功
+2025-07-26 21:49:41,939 - INFO - 成功从Response提取内容
+2025-07-26 21:49:41,941 - INFO - 成功解析JSON
+2025-07-26 21:49:41,941 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:49:41,943 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:49:41,987 - INFO - Function AnalyzeVideo took 21.8529 seconds to complete.
+2025-07-26 21:49:41,988 - INFO - 成功处理视频: images_1_019.avi，耗时：21.85秒
+2025-07-26 21:49:41,992 - INFO - 开始处理视频 [20/20]: images_1_020.avi
+2025-07-26 21:49:42,134 - INFO - 视频 images_1_020.avi 时长: 14.67 秒
+2025-07-26 21:49:42,134 - INFO - 开始处理视频内容: images_1_020.avi
+2025-07-26 21:49:42,134 - INFO - 清空帧目录 frames
+2025-07-26 21:49:42,305 - INFO - 开始视觉分析, 视频ID: dada_1_020, 段落ID: segment_000, 图像数量: 10
+2025-07-26 21:49:42,315 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:49:42,315 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:49:42,315 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:49:42,315 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:49:51,578 - INFO - API响应状态码: 200
+2025-07-26 21:49:51,578 - INFO - Azure API调用成功
+2025-07-26 21:49:51,578 - INFO - 成功从Response提取内容
+2025-07-26 21:49:51,579 - INFO - 成功解析JSON
+2025-07-26 21:49:51,579 - INFO - 将分析结果添加到final_arr，当前长度: 1
+2025-07-26 21:49:51,580 - INFO - 
+=== 已完成: 50.0% [1/2] ===
+2025-07-26 21:49:51,688 - INFO - 开始视觉分析, 视频ID: dada_1_020, 段落ID: segment_001, 图像数量: 10
+2025-07-26 21:49:51,699 - INFO - 成功处理 10/10 个图像，准备进行分析
+2025-07-26 21:49:51,699 - INFO - 使用Azure OpenAI进行视觉分析
+2025-07-26 21:49:51,699 - INFO - 尝试Azure API调用，尝试次数: 1/3
+2025-07-26 21:49:51,699 - INFO - 发送请求到 https://aoai-eastus2-eliza.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview
+2025-07-26 21:50:00,510 - INFO - API响应状态码: 200
+2025-07-26 21:50:00,510 - INFO - Azure API调用成功
+2025-07-26 21:50:00,513 - INFO - 成功从Response提取内容
+2025-07-26 21:50:00,515 - INFO - 成功解析JSON
+2025-07-26 21:50:00,516 - INFO - 将分析结果添加到final_arr，当前长度: 2
+2025-07-26 21:50:00,519 - INFO - 
+=== 已完成: 100.0% [2/2] ===
+2025-07-26 21:50:00,632 - INFO - Function AnalyzeVideo took 18.4980 seconds to complete.
+2025-07-26 21:50:00,632 - INFO - 成功处理视频: images_1_020.avi，耗时：18.50秒
+2025-07-26 21:50:00,638 - INFO - 批量处理完成，总耗时: 449.81秒
+2025-07-26 21:50:00,640 - INFO - 视频时长统计: 平均=12.97秒, 最短=5.73秒, 最长=22.67秒
+2025-07-26 21:50:00,640 - INFO - 处理总结：
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@ 批量处理总结 @@@@@@@@@@
+
+总视频数: 20
+成功: 20
+失败: 0
+跳过: 0
+总耗时: 449.81秒
+
+视频时长统计:
+平均时长: 12.97秒
+最短时长: 5.73秒
+最长时长: 22.67秒
+中位时长: 14.00秒
+
+时长分布:
+0-5秒: 0 个视频 (0.0%)
+5-10秒: 4 个视频 (20.0%)
+10-15秒: 13 个视频 (65.0%)
+15-20秒: 1 个视频 (5.0%)
+20-30秒: 2 个视频 (10.0%)
+30-60秒: 0 个视频 (0.0%)
+60秒以上: 0 个视频 (0.0%)
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2025-07-26 21:50:00,648 - INFO - 处理完成: 成功 20 个, 失败 0 个, 跳过 0 个

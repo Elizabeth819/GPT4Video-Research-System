@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_047",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a busy urban street with pedestrians, scooters, and parked vehicles. Several people are crossing the street. There are buildings and shops lining the street. The driver's view is from inside a car.",
+  "summary": "The vehicle is driving on a city street. The vehicle is approaching an intersection with crosswalks. There are pedestrians and scooters crossing the street. The vehicle is slowing down as it approaches the intersection. A pedestrian suddenly appears in front of the vehicle, causing a near-collision. The vehicle stops abruptly to avoid hitting the pedestrian.",
+  "actions": "The vehicle is initially driving forward at a moderate speed. As it approaches the intersection, the driver begins to decelerate, likely in anticipation of potential pedestrian or vehicle traffic. The driver then brakes sharply to avoid hitting a pedestrian who unexpectedly enters the roadway.",
+  "key_objects": "1) Left: Pedestrian crossing the street, medium distance, causes the vehicle to brake suddenly to avoid a collision. 2) Right: Parked vehicles, medium distance, partially obstruct the view of pedestrians approaching the crosswalk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

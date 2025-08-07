@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_023",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Traffic Congestion",
+        "characters": "Multiple vehicles",
+        "summary": "In this segment, the vehicle is in a traffic congestion situation on a highway. Several vehicles are visible, including a white van, a white sedan, and a white SUV. The vehicles are moving slowly and are closely packed together.",
+        "actions": "The self-driving vehicle is maintaining a slow and steady speed due to the traffic congestion. The vehicle is keeping a safe distance from the vehicles ahead and to the sides.",
+        "key_objects": "1) Front: A white SUV, approximately 2 meters away, moving slowly. 2) Left side: A white sedan, approximately 3 meters away, moving slowly. 3) Right side: A white van, approximately 2 meters away, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_023",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "13.9s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a white sedan, driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on a busy road with multiple cars around. The white sedan on the left side is maintaining its lane, while the white SUV on the right side is also maintaining its lane. The traffic is dense, and the vehicles are moving slowly.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed due to the dense traffic. The vehicle is keeping a safe distance from the cars ahead and to the sides.",
+        "key_objects": "1) Left side: A white sedan, approximately 2 meters away, maintaining its lane. 2) Right side: A white SUV, approximately 1 meter away, maintaining its lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

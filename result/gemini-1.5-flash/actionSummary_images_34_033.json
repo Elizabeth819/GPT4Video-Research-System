@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_033",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a red sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road with moderate traffic. The red sedan ahead is maintaining a consistent speed and lane position. There are no sudden movements or dangerous behaviors observed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the red sedan ahead at a safe distance. The vehicle is staying in its lane and adjusting its speed to match the traffic flow.",
+        "key_objects": "1) Front: A red sedan, approximately 10 meters away, maintaining a consistent speed and lane position.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

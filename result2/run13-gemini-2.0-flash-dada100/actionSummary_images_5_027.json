@@ -1,0 +1,22 @@
+{
+  "video_id": "images_5_027",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "6.1s",
+      "characters": [
+        "From 3.5s to 4.4s, a woman wearing an orange top and pink pants is riding a scooter on the right side of the road, moving from behind a parked black car. From 4.4s to 6.1s, the woman on the scooter continues to move forward."
+      ],
+      "summary": "The self-driving car is moving forward on a road with parked cars on both sides. From 3.5s to 4.4s, a woman wearing an orange top and pink pants is riding a scooter on the right side of the road, moving from behind a parked black car. This constitutes a potential ghost probing incident. From 4.4s to 6.1s, the woman on the scooter continues to move forward.",
+      "actions": "The vehicle is moving slowly forward on a road with parked cars on both sides, likely maintaining a low speed due to the limited visibility and potential for unexpected obstacles.",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep current lane"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "Right side: A woman on a scooter, approximately 10 meters away, emerging from behind a parked black car, potentially causing the vehicle to decelerate or stop."
+    }
+  ]
+}

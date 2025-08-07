@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_006",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "None visible in immediate vicinity",
+  "summary": "The vehicle is driving on a two-lane road with trees and hills on either side. The weather is clear and sunny. There are no visible pedestrians or other vehicles in close proximity. The road appears to be straight and the driving conditions are normal.",
+  "actions": "The vehicle is maintaining a consistent speed and driving straight ahead. The driver is likely maintaining the speed due to the clear road conditions and lack of obstacles.",
+  "key_objects": "None requiring immediate attention",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_067",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue sedan",
+        "summary": "In this segment, the vehicle is driving on a city road. A blue sedan is ahead, initially in the adjacent lane on the left, then moves into the self-vehicles lane, causing the self-vehicle to slow down. The blue sedan continues to move ahead, eventually stopping near the Bank of China building.",
+        "actions": "The self-driving vehicle slows down due to the blue sedan cutting into its lane from the adjacent left lane. Over the past 8 seconds, the vehicles speed gradually decreased to avoid collision, maintaining a safe distance from the blue sedan.",
+        "key_objects": "1) Left side: A blue sedan, initially in the adjacent lane, approximately 5 meters away, moving into the self-vehicles lane. 2) Front: A blue sedan, relatively close, approximately 3 meters away, stopping near the Bank of China building.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_067",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "17.2s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue sedan",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a blue sedan is seen moving closer to the self-driving vehicle. The driver mentions that the blue sedan ahead is slowing down and preparing to stop.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while keeping a safe distance from the blue sedan ahead. Over the past 7.2 seconds, the vehicles speed has remained steady, ensuring a safe following distance.",
+        "key_objects": "1) Front: A blue sedan, relatively close, approximately 5 meters away, slowing down and preparing to stop. 2) Left: A white van, approximately 10 meters away, parked and not posing any immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

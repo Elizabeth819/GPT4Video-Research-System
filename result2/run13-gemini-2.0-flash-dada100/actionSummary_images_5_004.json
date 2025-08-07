@@ -1,0 +1,27 @@
+{
+  "video_id": "images_5_004",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.1s",
+  "characters": [
+    {
+      "gender": "unknown",
+      "clothing": "dark clothing",
+      "colors": [
+        "dark"
+      ],
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "summary": "The self-driving car is driving on a road at night. From 0.0s to 8.0s, a motorcycle is seen driving in the same direction as the self-driving car. From 9.0s to 14.1s, the self-driving car approaches a traffic light. There is construction on the right side of the road.",
+  "actions": "The vehicle is driving straight on a road at night. The driver is maintaining a consistent speed, likely due to the presence of another vehicle (motorcycle) ahead and the anticipation of approaching a traffic light. The driver is also navigating around construction on the right side of the road.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

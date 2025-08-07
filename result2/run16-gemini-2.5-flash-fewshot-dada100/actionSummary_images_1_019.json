@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_019",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male pedestrian, adult, wearing a light blue long-sleeved shirt and dark pants. Another female pedestrian in a white shirt is visible on the right side of the road in later frames.",
+  "summary": "In this segment, the vehicle is driving on a two-lane road in a semi-urban or rural area with mountains in the background. Buildings and walls line the right side of the road. As the vehicle proceeds, a male pedestrian suddenly emerges from behind a white wall/building structure on the right side of the road, stepping directly into the vehicle's path with no prior warning. This sudden appearance from behind an obstruction creates an immediate and unavoidable collision, resulting in the pedestrian being hit by the vehicle. The vehicle then comes to a stop.",
+  "actions": "The self-driving vehicle is traveling at a moderate speed. As it approaches the white building on the right, a male pedestrian suddenly emerges from behind this obstruction and steps directly into the vehicle's path. The vehicle immediately initiates rapid deceleration and emergency braking in an attempt to avoid collision. However, due to the sudden and unexpected appearance of the pedestrian with minimal reaction time, a collision occurs. Following the impact, the vehicle comes to a complete stop.",
+  "key_objects": "1) Right side: A white wall/building structure, approximately 5-7 meters away, creating a significant visual obstruction that completely hid the pedestrian until their emergence. 2) Right side: A male pedestrian, adult, wearing a light blue long-sleeved shirt and dark pants, approximately 2-3 meters away when first visible, suddenly emerging from behind the white wall/building structure and stepping directly into the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

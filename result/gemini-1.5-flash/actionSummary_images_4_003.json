@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_4_003",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "7.7s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area with parked cars on both sides of the road. The vehicle is moving at a slow speed, encountering various parked cars and pedestrians along the way.",
+        "actions": "The self-driving vehicle is maintaining a slow and steady speed, navigating through the urban area with caution. The vehicle is avoiding parked cars and ensuring a safe distance from pedestrians.",
+        "key_objects": "1) Left side: A black car, approximately 5 meters away, parked and partially blocking the view. 2) Right side: A red car, approximately 3 meters away, parked and blocking the view. 3) Front: A white car, approximately 10 meters away, parked and potentially about to move.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_013",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a nighttime urban environment with various vehicles and pedestrians. There are cars, a bus, and a scooter visible. A person is lying on the crosswalk with a bicycle next to them.",
+  "summary": "The vehicle approaches an intersection at night. Initially, the view is partially obstructed by an overpass. As the vehicle progresses, it becomes clear that the traffic light is red. A person is lying injured on the crosswalk with a bicycle next to them. Other vehicles are stopped at the intersection.",
+  "actions": "The vehicle initially proceeds towards the intersection, likely maintaining speed as it approaches. Upon observing the red traffic light and the person lying on the crosswalk, the vehicle initiates braking to come to a complete stop before the crosswalk.",
+  "key_objects": "1) Crosswalk: Person lying injured, immediate danger, requires immediate braking. 2) Traffic Light: Red light, requires stopping before the intersection.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

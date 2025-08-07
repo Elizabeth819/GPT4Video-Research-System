@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_054",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car at an intersection. There are other cars on the road. Pedestrians are visible in the later frames. The driver appears to be an older woman.",
+  "summary": "The vehicle is at an intersection, initially behind another car. The traffic light changes, and the vehicle proceeds through the intersection. Other cars are present, and pedestrians begin to appear as the vehicle clears the intersection.",
+  "actions": "The vehicle starts from a stopped position at an intersection. It waits for the traffic light to change. Once the light turns green, the vehicle accelerates and proceeds straight through the intersection. The driver maintains a steady speed while crossing the intersection.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_47_014",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan, driver of a red sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road with parked cars on both sides. The road is relatively narrow, and the vehicle is moving at a moderate speed. There are no pedestrians visible in the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the narrow urban road. The vehicle is keeping a safe distance from the parked cars on both sides.",
+        "key_objects": "1) Left side: A black sedan, approximately 2 meters away, parked and partially blocking the view. 2) Right side: A red sedan, approximately 3 meters away, parked and blocking the view.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_014",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red sedan, driver of a blue car, person on a scooter",
+        "summary": "In this segment, the vehicle is approaching an intersection. A red sedan is ahead on the left side, and a blue car is ahead on the right side. A person on a scooter is seen between the two cars. The person on the scooter falls down in the middle of the intersection, causing potential danger for the vehicles around.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The vehicle is likely to decelerate due to the person on the scooter falling down, which poses a potential hazard.",
+        "key_objects": "1) Front left: A red sedan, approximately 10 meters away, moving forward. 2) Front right: A blue car, approximately 12 meters away, moving forward. 3) Front center: A person on a scooter, approximately 8 meters away, falling down and causing potential danger.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_014",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "11.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue car, cyclist",
+        "summary": "In this segment, the vehicle is driving on a busy intersection. A cyclist has fallen on the road, and a blue car is nearby. The cyclist is on the right side of the road, and the blue car is in front of the self-driving vehicle.",
+        "actions": "The self-driving vehicle is slowing down to avoid the fallen cyclist and the blue car ahead. The vehicles speed is gradually decreasing to ensure safety and avoid collision.",
+        "key_objects": "1) Front: A blue car, approximately 10 meters away, moving slowly. 2) Right: A cyclist, approximately 5 meters away, fallen on the road, causing the vehicle to decelerate.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

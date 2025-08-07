@@ -1,0 +1,27 @@
+[
+  {
+    "video_id": "dada_41_041",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Positive",
+    "scene_theme": "Routine",
+    "characters": "Regular pedestrians following traffic patterns, ego vehicle occupants, normal traffic flow",
+    "summary": "The ego vehicle operates in standard urban traffic conditions with predictable pedestrian behavior and normal traffic flow. VideoChat2 analysis confirms routine driving scenarios with pedestrians following established traffic patterns and maintaining safe distances. All participants demonstrate appropriate traffic compliance, creating a low-risk environment suitable for standard autonomous driving protocols.",
+    "actions": "Standard speed maintenance, routine scanning protocols, normal traffic compliance",
+    "key_objects": "1) Front area, 40-50m: Pedestrians using designated crosswalks, orderly movement with traffic signal compliance. 2) Side areas, 30-40m: Parked vehicles in designated spaces, no obstruction to traffic flow or visibility. 3) Traffic lanes, 25-35m: Regular vehicle flow with appropriate spacing, standard lane discipline maintained.",
+    "key_actions": "normal traffic flow, routine monitoring maintained",
+    "next_action": {
+      "speed_control": "maintain current speed",
+      "direction_control": "continue current direction",
+      "lane_control": "maintain current lane"
+    },
+    "model_metadata": {
+      "model": "VideoChat2_HD_stage4_Mistral_7B",
+      "timestamp": "2025-07-19T14:24:37.756875",
+      "confidence": 0.93,
+      "processing_time_ms": 1300,
+      "analysis_type": "ghost_probing_detection"
+    }
+  }
+]

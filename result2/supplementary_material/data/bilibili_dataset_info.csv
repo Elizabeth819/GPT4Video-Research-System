@@ -1,0 +1,29 @@
+video_id,ground_truth_label,notes,data_source,dataset_note
+bilibili_ghosting_001.mp4,5s: ghost probing,pedestrian emergence,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_002.mp4,none,no safety-critical events,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_001.mp4,7s: cut-in,aggressive lane change,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_002.mp4,3s: cut-in,highway merge attempt,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_003.mp4,3s: ghost probing,cyclist emergence from blind spot,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_004.mp4,8s: ghost probing,motorcycle sudden appearance,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_003.mp4,12s: cut-in,failed merge attempt,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_005.mp4,4s: ghost probing,pedestrian from parked cars,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_004.mp4,6s: cut-in,highway lane change,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_006.mp4,9s: ghost probing,cyclist from intersection,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_005.mp4,15s: cut-in,aggressive overtaking,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_007.mp4,2s: ghost probing,pedestrian sudden emergence,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_006.mp4,10s: cut-in,merge without signaling,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_008.mp4,7s: ghost probing,motorcycle from blind spot,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_007.mp4,5s: cut-in,lane change in traffic,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_009.mp4,11s: ghost probing,pedestrian from obstruction,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_008.mp4,8s: cut-in,highway merge failure,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_010.mp4,6s: ghost probing,cyclist sudden appearance,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_009.mp4,14s: cut-in,aggressive lane switch,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_011.mp4,3s: ghost probing,pedestrian from parked vehicle,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_010.mp4,9s: cut-in,highway cutting maneuver,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_012.mp4,8s: ghost probing,motorcycle emergence,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_011.mp4,11s: cut-in,failed overtaking,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_013.mp4,4s: ghost probing,pedestrian blind spot emergence,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_012.mp4,7s: cut-in,lane change without warning,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_014.mp4,10s: ghost probing,cyclist from obstruction,Curated from public driving footage,Representative samples for academic research
+bilibili_cutin_013.mp4,13s: cut-in,aggressive merge attempt,Curated from public driving footage,Representative samples for academic research
+bilibili_ghosting_015.mp4,5s: ghost probing,pedestrian sudden appearance,Curated from public driving footage,Representative samples for academic research

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_022",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "27.4s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple individuals on scooters and pedestrians are present on the road and sidewalks; after the incident, several individuals gather around the overturned truck.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban road with moderate traffic under overcast conditions. Initially, the vehicle is following a white van. As the white van proceeds forward, a small white three-wheeled truck suddenly emerges from behind the white van on the right side of the vehicle's path. This truck immediately tips over onto its side, directly blocking the lane ahead. This sudden appearance from behind the moving white van, with no prior visibility, creates an immediate and dangerous obstruction, constituting a vehicle ghost probing incident. The road ahead is now completely blocked by the overturned vehicle, with other vehicles and pedestrians present in the vicinity.",
+  "actions": "The self-driving vehicle is initially moving slowly, following the white van ahead. Upon the sudden and unexpected emergence of the small white three-wheeled truck from behind the white van, which then immediately overturns in the vehicle's direct path, the self-driving vehicle initiates rapid emergency braking. This action is taken to prevent a collision with the newly formed, unavoidable obstruction, bringing the vehicle to a swift and complete stop.",
+  "key_objects": "1) Right side: A small white three-wheeled truck, initially obscured by the white van ahead, suddenly emerges and overturns approximately 5-10 meters in front of the vehicle, directly blocking its path. 2) Front/Center: A white van, approximately 5-15 meters ahead, acting as a moving visual obstruction that completely hid the smaller three-wheeled truck until its sudden and dangerous emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

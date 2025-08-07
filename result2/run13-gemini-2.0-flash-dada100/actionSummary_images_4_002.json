@@ -1,0 +1,39 @@
+{
+  "video_id": "images_4_002",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "8.0s",
+  "summary": "The self-driving car is traveling on a straight road in a rural area. From 0.0s to 3.6s, a silver van is traveling in front of the self-driving car. At 3.6s, a man wearing dark clothing is walking on the left side of the road. At 4.5s, a green and blue bus is traveling in the opposite direction. At 7.1s, a woman wearing a white long-sleeve shirt is riding a bicycle from the left side of the road, potentially leading to a ghost probing incident.",
+  "characters": [
+    {
+      "gender": "unknown",
+      "clothing": "dark clothing",
+      "colors": [
+        "dark"
+      ],
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal"
+    },
+    {
+      "gender": "female",
+      "clothing": "white long-sleeve shirt",
+      "colors": [
+        "white"
+      ],
+      "age": "adult",
+      "transportation_method": "bicycle",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_objects": [
+    "Left side: A woman on a bicycle, approximately 10 meters away, suddenly appears from behind trees, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a rural road. The speed appears constant, likely maintaining a safe speed given the presence of other vehicles and potential hazards on the roadside.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

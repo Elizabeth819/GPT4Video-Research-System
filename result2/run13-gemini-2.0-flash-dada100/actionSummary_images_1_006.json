@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_006",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.7s",
+  "summary": "The vehicle is driving on a city street with cars parked on the right side. From 0.0s to 9.0s, the vehicle maintains a steady speed. At 9.0s, the vehicle begins to slow down. From 9.0s to 13.7s, a young boy wearing a blue shirt and a black backpack suddenly appears from behind a parked black car on the left side of the road and starts crossing the street. The boy is looking down and doesn't seem to notice the approaching vehicle. This constitutes a ghost probing incident due to the sudden appearance of the boy from behind an obstruction.",
+  "actions": "The vehicle is driving at a steady speed on a city street with parked cars. The driver is likely maintaining this speed because the road ahead is clear and there is no immediate need to slow down or change lanes. From 9.0s, the vehicle slows down, likely in response to the pedestrian crossing the road.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "Left side: A young boy wearing a blue shirt and a black backpack, approximately 2 meters away, suddenly appears from behind a parked black car and is crossing the street, causing the vehicle to decelerate."
+}

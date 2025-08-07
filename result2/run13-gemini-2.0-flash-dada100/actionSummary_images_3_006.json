@@ -1,0 +1,26 @@
+{
+  "video_id": "images_3_006",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "5.1s",
+  "summary": "The self-driving car is approaching an intersection with a traffic light. From 0.0s to 4.5s, the car is moving straight in the middle lane. At 4.5s, a male cyclist wearing a dark shirt is seen crossing the road from right to left in front of the car. The cyclist appears to be moving at a moderate speed. The car is approaching the intersection and will need to stop if the light turns red. The cyclist's sudden appearance could lead to a collision if the car does not decelerate in time.",
+  "characters": [
+    {
+      "gender": "male",
+      "age": "adult",
+      "clothing": "dark shirt",
+      "transportation_method": "bicycle",
+      "behavior": "crossing the road from right to left"
+    }
+  ],
+  "key_objects": [
+    "Right side: Male cyclist wearing a dark shirt, approximately 10 meters away, crossing the road from right to left, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight in the middle lane, approaching an intersection. The driver is likely maintaining speed to proceed through the intersection if the light remains green. The vehicle is preparing to stop if the traffic light turns red.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

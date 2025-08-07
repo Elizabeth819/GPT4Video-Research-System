@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_013",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A red bus, a male pedestrian wearing a blue shirt",
+    "summary": "The vehicle is traveling on a road with trees on both sides. A red bus appears ahead, initially at a distance, and gradually approaches the self-driving vehicle. As the bus gets closer, a male pedestrian wearing a blue shirt suddenly emerges from behind the bus on the right side of the road. The pedestrian's sudden appearance from behind the bus creates a ghost probing situation.",
+    "actions": "The self-driving vehicle is moving forward. As the red bus approaches, the vehicle maintains its speed. Upon the sudden appearance of the pedestrian from behind the bus, the vehicle will likely need to decelerate to avoid a collision.",
+    "key_objects": "1) Front: A red bus, approximately 10 meters away, approaching the self-driving vehicle. 2) Right side: A male pedestrian wearing a blue shirt, approximately 3 meters away, suddenly emerging from behind the red bus and stepping into the vehicle's path.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_013",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "12.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Routine",
+    "characters": "None visible in immediate vicinity",
+    "summary": "The vehicle is driving on a narrow road lined with trees on both sides. The road appears to be clear with no immediate obstacles or other vehicles in sight. The driving conditions seem calm and routine.",
+    "actions": "The self-driving vehicle is maintaining a consistent speed and direction on the narrow road. No sudden changes in speed or direction are required as there are no obstacles or safety concerns present. The vehicle continues with normal driving behavior.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

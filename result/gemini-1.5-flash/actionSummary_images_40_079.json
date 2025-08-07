@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_40_079",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist with pink helmet",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Initially, the road ahead is clear. As the vehicle progresses, a motorcyclist with a pink helmet suddenly appears from the right side, moving into the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the motorcyclist with the pink helmet suddenly appears from the right side, the vehicle needs to decelerate to avoid a potential collision.",
+        "key_objects": "1) Right side: A motorcyclist with a pink helmet, approximately 5 meters away, suddenly moving into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_079",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, cyclist on the right side",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a white SUV is moving from the left side towards the center of the road. On the right side, a cyclist is approaching the intersection. The driver mentions the potential risk of collision due to the SUVs movement.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the white SUV moving from the left side towards the center of the road. The vehicle is also monitoring the cyclist approaching the intersection from the right side.",
+        "key_objects": "1) Left side: A white SUV, approximately 10 meters away, moving towards the center of the road, potentially causing a cut-in. 2) Right side: A cyclist, approximately 15 meters away, approaching the intersection, potentially causing a ghost probing scenario.",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,9 @@
+{
+  "timestamp": "0-10s",
+  "summary": "Normal highway driving with steady traffic flow and lane maintenance",
+  "actions": "The camera vehicle maintains steady forward motion in highway traffic",
+  "characters": "Camera vehicle driver, drivers of surrounding vehicles",
+  "key_objects": "Highway lanes, multiple vehicles, road markings, traffic barriers",
+  "key_actions": "Normal driving behavior with no sudden appearances or aggressive maneuvers observed",
+  "next_action": "Continued normal highway traffic flow"
+}

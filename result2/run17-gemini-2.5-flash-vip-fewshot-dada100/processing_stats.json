@@ -1,0 +1,15 @@
+{
+  "total_videos": 96,
+  "success_count": 31,
+  "failed_count": 65,
+  "skipped_count": 0,
+  "total_processing_time": 383.8883948326111,
+  "average_processing_time": 12.383496607503583,
+  "completion_time": "2025-07-31T09:43:30.939521",
+  "configuration": {
+    "interval": 10,
+    "frames": 10,
+    "output_dir": "run17-gemini-2.5-flash-vip-fewshot-dada100",
+    "processes": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_044",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male cyclist wearing a grey jacket and dark pants, riding a bicycle with a red basket on the back. Several cars are parked along the right side of the road.",
+  "summary": "The vehicle is driving on a wet urban road with parked cars on the right. At approximately 5.5 seconds, a male cyclist wearing a grey jacket and dark pants suddenly emerges from behind the parked cars on the right side of the road, crossing the street. The cyclist's sudden appearance from behind the parked cars constitutes a ghost probing situation, as the driver has minimal time to react. The cyclist is riding a bicycle with a red basket on the back.",
+  "actions": "The vehicle is driving at a moderate speed on a wet road. The driver likely maintains speed due to the presence of other vehicles ahead and the expectation of a clear path. Upon the sudden appearance of the cyclist, the driver would need to initiate braking to avoid a collision.",
+  "key_objects": "1) Right side: A male cyclist wearing a grey jacket and dark pants, approximately 5 meters away, suddenly emerging from behind parked cars and crossing the road. 2) Right side: Parked cars, approximately 3 meters away, creating a visual obstruction that hides the cyclist until emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

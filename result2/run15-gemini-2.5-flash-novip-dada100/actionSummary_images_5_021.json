@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_021",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a dark-colored scooter, wearing an orange top and a white helmet.",
+  "summary": "The video captures a vehicle driving straight on a multi-lane urban road. The road is bordered by buildings and concrete barriers on both sides, with parked vehicles visible along the left side. As the vehicle approaches a marked crosswalk, a person riding a dark-colored scooter, dressed in an orange top and white helmet, suddenly emerges from behind a parked dark car and concrete barriers on the left side of the road. The scooter immediately enters the crosswalk, directly in the vehicle's path, creating a high-risk 'ghost probing' scenario. The vehicle appears to react by decelerating or coming to a stop to avoid a collision and allow the scooter to safely cross the road. After the scooter clears the vehicle's path, the immediate danger subsides, and the road ahead becomes clear.",
+  "actions": "The vehicle is initially maintaining a straight path and a consistent speed as it approaches a crosswalk. Upon the sudden appearance of a scooter from behind an obstruction on the left, the vehicle initiates a deceleration or comes to a stop. This action is taken to yield to the scooter and prevent a potential collision, prioritizing safety due to the unexpected and immediate entry of the scooter into the vehicle's path.",
+  "key_objects": "1) Left side: A dark-colored parked car, approximately 10-20 meters ahead, acting as a significant physical obstruction that completely blocked the driver's view of the area from which the scooter emerged. 2) Left side: Concrete barriers, lining the road, further contributing to the visual obstruction and hiding the approaching scooter. 3) Left to Right, crossing path: A person on a dark-colored scooter, wearing an orange top and white helmet, suddenly appearing from behind the parked car and barriers, directly entering the vehicle's path at a crosswalk, necessitating an immediate evasive action.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child, approximately 5-7 years old, wearing a blue/purple jacket; an adult, gender indeterminate, wearing a red/orange jacket.",
+  "summary": "The vehicle is driving at night on an urban street. The road is illuminated by streetlights, with buildings on the left and market stalls and parked vehicles on the right. Suddenly, a child in a blue/purple jacket emerges from behind the market stalls and a parked white car on the right side, darting directly into the vehicle's path. The child falls to the ground immediately after emergence. Subsequently, an adult in a red/orange jacket approaches the child from the right side to assist.",
+  "actions": "The self-driving vehicle is initially proceeding at a moderate speed on the urban road. Upon the sudden and unexpected emergence of a child from behind the visual obstruction on the right side, the vehicle immediately initiates rapid deceleration and braking. The vehicle comes to a stop or near-stop to assess the situation and ensure safety after the child falls to the ground, prioritizing incident management and the well-being of the individuals involved.",
+  "key_objects": "1) Right side: A child, approximately 5-7 years old, wearing a blue/purple jacket, suddenly emerging from behind market stalls and a parked white car, approximately 2-3 meters away, directly into the vehicle's path, leading to an immediate fall. 2) Right side: Market stalls and a parked white car, approximately 5-10 meters away, creating a significant visual obstruction that completely hid the child until their sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_7_006",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Traffic",
+        "characters": "Cyclists, truck driver",
+        "summary": "In this segment, the vehicle is driving on a road with a truck on the left side and two cyclists on the right side. The cyclists are moving forward at a steady pace. The truck is stationary initially but starts moving forward slowly. The road ahead is clear with minimal traffic.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position, ensuring a safe distance from the truck on the left and the cyclists on the right. The vehicle is cautious, monitoring the movements of both the truck and the cyclists.",
+        "key_objects": "1) Left side: A large red truck, approximately 2 meters away, initially stationary but starts moving forward slowly. 2) Right side: Two cyclists, approximately 1 meter away, moving forward at a steady pace.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

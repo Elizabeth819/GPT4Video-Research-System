@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person, likely an adult, wearing dark clothing and a yellow helmet, is seen falling from a motorcycle and then attempting to get up from the ground.",
+  "summary": "The scene begins with the autonomous vehicle driving on a wide, unpaved road or intersection under an overcast sky. Several large trucks are visible on both the left and right sides of the road, some appearing to be parked or moving slowly. As the vehicle proceeds, a large red dump truck on the right side of the road acts as a significant visual obstruction. Suddenly, at approximately 8.0 seconds into the video, a motorcycle and its rider emerge from behind this red dump truck, directly into the vehicle's path. The rider appears to lose control and falls to the ground along with the motorcycle. The vehicle immediately reacts to this sudden appearance and the incident unfolding directly in front of it.",
+  "actions": "The vehicle is initially moving forward, maintaining a steady speed as it approaches a wide, open area or intersection. The driver's actions are primarily focused on navigating the road while observing the surrounding large vehicles. Upon the sudden appearance of a motorcycle and its rider from behind a large red dump truck on the right side of the road at approximately 8.0 seconds, and the subsequent fall of the rider and motorcycle directly into the vehicle's path, the vehicle initiates rapid deceleration. This immediate braking action is taken to prevent a collision with the fallen motorcycle and rider, prioritizing safety given the unexpected and immediate obstruction.",
+  "key_objects": "1) Right side: A large red dump truck, acting as a physical obstruction that blocks the view of the road beyond it. 2) Center/Front: A motorcycle, which suddenly emerges from behind the red dump truck and falls onto the road directly in the vehicle's path. 3) Center/Front: A person (motorcyclist), who is seen falling from the motorcycle and then attempting to get up from the ground, posing an immediate hazard.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

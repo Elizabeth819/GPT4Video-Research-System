@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_010",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person, gender and age not clearly discernible, wearing a dark jacket, riding a two-wheeled vehicle (bicycle or small motorcycle), appearing from the right side of the road.",
+  "summary": "The video segment begins with the autonomous vehicle driving straight on a multi-lane road under clear sky conditions. On the left side of the road, there are trees and buildings, while on the right, a long, brown concrete wall acts as a significant visual obstruction. Traffic appears light, with a red truck passing in the opposite direction on the left at approximately 4.0-6.0 seconds. As the vehicle proceeds, at approximately 8.0 seconds, a person riding a two-wheeled vehicle suddenly emerges from behind the concrete wall on the right side of the road, darting directly into the vehicle's path. This sudden appearance from behind a visual obstruction creates an immediate and dangerous 'ghost probing' situation, requiring an urgent evasive action from the vehicle. The person continues to move across the lane, posing a direct collision risk.",
+  "actions": "The vehicle maintains a steady forward speed initially, driving straight in its lane, which is a routine action given the clear road conditions and lack of immediate obstacles in the initial frames. However, upon the sudden appearance of a person on a two-wheeled vehicle from behind the concrete wall on the right at approximately 8.0 seconds, the vehicle immediately initiates a rapid deceleration. This rapid response is a direct reaction to the unexpected and dangerous 'ghost probing' behavior, aiming to prevent impact with the suddenly appearing obstacle. The driver's action is a safety-critical maneuver to mitigate the immediate threat posed by the pedestrian entering the vehicle's path.",
+  "key_objects": "1) Right side: A long, brown concrete wall, acting as a significant visual obstruction, approximately 5-10 meters from the vehicle. This wall completely obscured the view of the area behind it, leading to the ghost probing incident. 2) Right side: A person on a two-wheeled vehicle (bicycle or small motorcycle), approximately 5-10 meters from the vehicle when first observed. This person suddenly emerged from behind the concrete wall, directly entering the vehicle's path, causing an immediate collision risk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "turn left",
+    "lane_control": "maintain current lane"
+  }
+}

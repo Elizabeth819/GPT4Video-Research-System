@@ -1,0 +1,9 @@
+{
+  "timestamp": "12-14s",
+  "summary": "A white car suddenly emerges from a side road or driveway, obscured by buildings and foliage, and cuts directly into the path of the dashcam vehicle, resulting in a collision.",
+  "actions": "white car emerging from blind spot, aggressive turn/merge, collision with dashcam vehicle, sudden braking (implied for dashcam vehicle)",
+  "characters": "white car, dashcam vehicle",
+  "key_objects": "side road/driveway, buildings/foliage creating blind spot, main road",
+  "key_actions": "ghost probing - white car appearing from a blind spot and cutting into traffic dangerously, leading to a collision",
+  "next_action": "post-collision events, potential injuries, vehicle damage assessment"
+}

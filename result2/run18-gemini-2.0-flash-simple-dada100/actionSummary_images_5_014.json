@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_014",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver approaching an intersection. There are pedestrians crossing the road, a bus, a white SUV, and a motorcycle. The pedestrians appear to be adults, and their clothing is not clearly visible. The motorcycle driver is wearing a red helmet.",
+  "summary": "The vehicle starts by approaching a gate with pedestrians crossing. The gate opens, and the vehicle proceeds forward. The vehicle then approaches an intersection where pedestrians are crossing, a bus is turning, a white SUV is present, and a motorcycle is also present.",
+  "actions": "The vehicle initially approaches a gate and slows down, likely waiting for the gate to open. Once the gate opens, the vehicle proceeds forward. As the vehicle approaches the intersection, it maintains a slow speed, likely due to the presence of pedestrians and other vehicles.",
+  "key_objects": "1) Left: Pedestrians crossing the road, medium distance, potential collision risk. 2) Right: Bus turning, medium distance, potential collision risk.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

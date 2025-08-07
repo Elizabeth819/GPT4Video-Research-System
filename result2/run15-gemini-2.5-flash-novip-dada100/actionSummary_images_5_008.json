@@ -1,0 +1,9 @@
+{
+  "timestamp": "14:25:59 - 14:26:01",
+  "summary": "A dashcam vehicle approaches a wet intersection. A black car suddenly emerges from a blind spot, collides with an unseen object (later revealed to be a bicycle), and proceeds through the intersection, creating a dangerous situation.",
+  "actions": "Dashcam vehicle is approaching an intersection. A red car is in the lane ahead. A black car suddenly appears from the left, crosses the path of the dashcam, and collides with something. The black car then continues driving away. A bicycle is seen on the ground after the black car passes.",
+  "characters": "Dashcam driver (unseen), driver of the red car, driver of the black car, a person in a yellow jacket (pedestrian/traffic controller), and an implied cyclist (unseen, but involved in the collision).",
+  "key_objects": "Dashcam vehicle, red car, black car, bicycle, wet road, intersection, buildings, trees, median, traffic lights.",
+  "key_actions": "A black car suddenly appears from a blind spot (likely obscured by the red car or roadside elements) and aggressively cuts into the intersection, resulting in a collision with a cyclist. This maneuver perfectly fits the definition of 'ghost probing' due to its sudden, unexpected appearance from a blind spot and the dangerous situation it created.",
+  "next_action": "The dashcam vehicle will likely stop or slow down significantly to assess the collision scene. Emergency services may be called to the scene to assist the injured cyclist and manage traffic."
+}

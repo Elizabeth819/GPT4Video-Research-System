@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_39_007",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a grey van, driver of a green taxi",
+        "summary": "In this segment, the vehicle is driving in an urban area with moderate traffic. The grey van ahead is moving steadily, while a green taxi on the right side is attempting to merge into the lane. The taxi gradually moves closer to the self-driving vehicle, eventually merging into the lane ahead.",
+        "actions": "The self-driving vehicle maintains a consistent speed while keeping a safe distance from the grey van ahead. The vehicle adjusts its position slightly to accommodate the merging taxi on the right side.",
+        "key_objects": "1) Front: A grey van, approximately 5 meters away, moving steadily. 2) Right: A green taxi, approximately 2 meters away, merging into the lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "example_video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a blue taxi, motorcyclist on the right",
+        "summary": "In this segment, the vehicle is driving in an urban area with moderate traffic. A blue taxi is ahead, and a motorcyclist is on the right side. The motorcyclist is moving forward and appears to be overtaking the vehicle on the right side.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and keeping a safe distance from the blue taxi ahead. The vehicle is also monitoring the motorcyclist on the right side, who is overtaking.",
+        "key_objects": "1) Front: A blue taxi, approximately 5 meters away, maintaining a steady speed. 2) Right: A motorcyclist, approximately 2 meters away, overtaking the vehicle.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

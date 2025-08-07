@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several pedestrians, including one wearing a red jacket, are crossing the road. There are also other pedestrians walking along the side of the road. The pedestrians appear to be adults. There are cars parked on the left side of the road.",
+  "summary": "The vehicle approaches an intersection with pedestrians crossing the road. The pedestrians are crossing from right to left. The vehicle slows down to allow the pedestrians to cross safely. The road is surrounded by buildings and parked cars.",
+  "actions": "The vehicle initially approaches the intersection at a moderate speed. Upon observing pedestrians crossing the road, the vehicle decelerates to allow them to cross safely. The vehicle maintains its lane and prepares to proceed straight once the pedestrians have cleared the intersection. The vehicle is driving slowly due to the presence of pedestrians.",
+  "key_objects": "1) Right: Pedestrians crossing the road, medium distance, causing the vehicle to decelerate. 2) Left: Parked cars, medium distance, potentially obstructing the view of pedestrians approaching the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

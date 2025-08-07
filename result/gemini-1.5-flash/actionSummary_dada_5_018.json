@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving straight on a wet road. There are parked cars and scooters on the right side of the road. Other vehicles are visible in the distance.",
+    "actions": "Ego vehicle is driving straight. Other vehicles are moving in the same direction.",
+    "characters": [],
+    "key_objects": "Ego vehicle, parked cars, scooters, other vehicles",
+    "key_actions": "None",
+    "next_action": "Continue driving straight"
+  }
+]

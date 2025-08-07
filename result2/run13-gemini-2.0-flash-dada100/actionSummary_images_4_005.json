@@ -1,0 +1,47 @@
+{
+  "video_id": "images_4_005",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "8.0s",
+  "summary": "The self-driving car is moving forward on a road with multiple lanes. Initially, a silver car is visible ahead in the same lane. A green and red bus is also ahead in the right lane. From 0.0s to 3.6s, the car maintains its position behind the silver car. At 3.6s, a red car appears from the left side of the road, crossing the lanes. From 5.4s to 7.1s, a person on a bicycle, wearing a red jacket and carrying a basket, crosses the road from left to right. At 7.1s, two people on scooters are visible on the right side of the road, moving in the same direction as the bus.",
+  "characters": [
+    {
+      "character_id": "silver_car",
+      "type": "vehicle",
+      "description": "A silver car is driving in the same lane ahead of the self-driving car."
+    },
+    {
+      "character_id": "bus",
+      "type": "vehicle",
+      "description": "A green and red bus is driving in the right lane ahead of the self-driving car."
+    },
+    {
+      "character_id": "red_car",
+      "type": "vehicle",
+      "description": "A red car is crossing the road from the left side."
+    },
+    {
+      "character_id": "bicyclist",
+      "type": "person",
+      "description": "A person on a bicycle, wearing a red jacket and carrying a basket, is crossing the road from left to right."
+    },
+    {
+      "character_id": "scooter_1",
+      "type": "person",
+      "description": "A person on a scooter is driving on the right side of the road."
+    },
+    {
+      "character_id": "scooter_2",
+      "type": "person",
+      "description": "A person on a scooter is driving on the right side of the road, following the first scooter."
+    }
+  ],
+  "key_objects": "[Left]: A red car, approximately 15 meters away, crossing the road from the left side, potentially causing the vehicle to decelerate or stop.",
+  "actions": "The self-driving car is maintaining its speed and following the lane markings. The driver is likely maintaining a safe distance from the silver car ahead. The driver is driving at a moderate speed to adapt to the traffic conditions and maintain a safe following distance from the vehicle ahead. The driver is staying in the current lane to avoid any sudden maneuvers that could compromise safety.",
+  "next_action": {
+    "speed_control": "keep speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep current lane"
+  },
+  "key_actions": "none"
+}

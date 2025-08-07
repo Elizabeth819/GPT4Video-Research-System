@@ -1,0 +1,115 @@
+[
+    {
+        "video_id": "dada_1_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A woman pushing a child in a stroller",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching the crosswalk, potentially crossing the road."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Female",
+                "age": "30-40",
+                "clothing": "Casual wear",
+                "transportation": "Stroller",
+                "behavior": "Pushing a stroller, approaching a crosswalk."
+            },
+            {
+                "gender": "Child",
+                "age": "2-4",
+                "clothing": "Unknown",
+                "transportation": "Stroller",
+                "behavior": "Sitting in a stroller."
+            }
+        ],
+        "summary": "The video shows a car driving down a tree-lined street. On the right side of the road, a woman is pushing a young child in a stroller. They are approaching a crosswalk.  The car maintains a steady speed. There are no immediate dangers observed.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the 5-second segment.  There are no observable changes in speed or direction to suggest any immediate need for braking or maneuvering. The driver appears to be maintaining a safe following distance from the vehicles ahead.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A person on an electric scooter, appearing to be a young adult wearing dark clothing",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching the road from the sidewalk, showing intent to cross."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "Young adult",
+                "gender": "Male",
+                "clothing": "Dark clothing",
+                "transportation": "Electric scooter",
+                "behavior": "Approaching the road from the sidewalk, showing intent to cross.  The scooter appears to be accelerating slightly as it moves towards the road."
+            }
+        ],
+        "summary": "The video shows a car driving down a tree-lined street. At approximately 5 seconds, a young adult male on a dark-colored electric scooter is seen approaching the road from the right sidewalk. He appears to be accelerating slightly as he moves towards the road, creating a potential ghost probing situation. The scooter is approximately 5 meters away from the car at the time of the last frame. The driver needs to be prepared to brake immediately to avoid a collision.",
+        "actions": "The vehicle maintains a consistent speed throughout the 5-second segment, suggesting a steady pace appropriate for the residential street environment. There are no observable changes in direction or braking during this period. The driver appears to be maintaining a safe following distance from the vehicle ahead.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_007",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.8s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A man on a bicycle",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "riding along the sidewalk, not posing an immediate threat"
+            },
+            {
+                "Position": "Right",
+                "Object description": "A pedestrian",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "walking along the sidewalk, not posing an immediate threat"
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "male",
+                "age": "30-40",
+                "clothing": "dark shirt and pants",
+                "transportation": "bicycle",
+                "behavior": "riding slowly along the sidewalk"
+            },
+            {
+                "gender": "male",
+                "age": "40-50",
+                "clothing": "light-colored shirt and dark pants",
+                "transportation": "walking",
+                "behavior": "walking at a normal pace along the sidewalk"
+            }
+        ],
+        "summary": "The video shows a car driving down a tree-lined street.  The road is relatively clear with no immediate hazards. On the right side of the road, a man in his 30s-40s, wearing a dark shirt and pants, is riding a bicycle along the sidewalk.  Further down the sidewalk, a man in his 40s-50s, wearing a light-colored shirt and dark pants, is walking. Both individuals maintain a safe distance from the road and do not pose an immediate threat to the vehicle.",
+        "actions": "The vehicle maintains a consistent speed and stays within its lane.  There are no apparent reasons for acceleration or deceleration based on the provided frames. The driver appears to be maintaining a safe following distance from the vehicle ahead.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "straight",
+            "lane_control": "keep lane"
+        }
+    }
+]

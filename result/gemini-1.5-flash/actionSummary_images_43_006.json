@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_43_006",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Man in floral shirt, woman with umbrella, man on scooter",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A man in a floral shirt suddenly appears from the left side and crosses the road, followed by a woman with an umbrella. A man on a scooter is parked on the right side of the road.",
+        "actions": "The self-driving vehicle is maintaining a slow speed to avoid collision with the pedestrians crossing the road. The vehicles speed is gradually decreasing as it approaches the pedestrians.",
+        "key_objects": "1) Left side: A man in a floral shirt, approximately 2 meters away, crossing the road suddenly. 2) Right side: A woman with an umbrella, approximately 3 meters away, crossing the road. 3) Right side: A man on a scooter, approximately 5 meters away, parked and stationary.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

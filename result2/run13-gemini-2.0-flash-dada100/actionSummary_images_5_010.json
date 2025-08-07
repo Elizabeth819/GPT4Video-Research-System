@@ -1,0 +1,33 @@
+{
+  "video_id": "images_5_010",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.4s",
+  "summary": "The car is driving on a narrow road in a rural area. From 0.0s to 3.0s, the car is driving straight on the road. At 3.0s, a man wearing a red helmet and a green jacket on a blue motorcycle appears from the left side of the road. At 4.0s, the man on the motorcycle falls to the ground in the middle of the road. From 5.0s to 15.4s, the man is trying to pick up the motorcycle.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "red helmet, green jacket, dark pants",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "behavior": "riding then falling off motorcycle"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "age": "unknown",
+      "transportation_method": "walking",
+      "behavior": "walking on the right side of the road"
+    }
+  ],
+  "key_objects": [
+    "Left side: Man on a blue motorcycle, approximately 10 meters away, falls in the middle of the road, causing the vehicle to potentially decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a narrow road in a rural area. The driver is maintaining a consistent speed, likely due to the narrow road and the presence of pedestrians and other vehicles in the vicinity. The driver may be proceeding cautiously to avoid any potential collisions.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  }
+}

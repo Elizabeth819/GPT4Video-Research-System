@@ -1,0 +1,16 @@
+{
+  "video_id": "images_1_027",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "8.1s",
+  "summary": "The self-driving car is traveling on a narrow road lined with buildings and trees. From 0.0s to 8.1s, the car maintains a consistent speed, navigating through the winding road. There are no pedestrians or vehicles exhibiting dangerous behaviors. The road appears clear of obstacles, and the weather is bright and sunny.",
+  "characters": [],
+  "actions": "The vehicle is driving at a consistent speed on a narrow road. The driver is likely maintaining this speed due to the road's narrowness and the presence of buildings and trees on either side. The road is winding, so the driver is carefully navigating the curves to stay within the lane.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep in lane"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

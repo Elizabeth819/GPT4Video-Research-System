@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is approaching an intersection at night. The traffic light is initially red, then turns green. A scooter is in front of the ego vehicle, also waiting at the intersection. Other vehicles are visible in the distance.",
+    "actions": "Ego vehicle is waiting at a red light. Scooter is waiting in front of the ego vehicle. Other vehicles are stopped at the intersection.",
+    "characters": "None",
+    "key_objects": "Traffic light, scooter, crosswalk, other vehicles, intersection",
+    "key_actions": "The traffic light turns green, and the scooter starts moving forward.",
+    "next_action": "Ego vehicle will proceed through the intersection."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "The ego vehicle proceeds through the intersection after the traffic light turns green. The scooter in front also proceeds through the intersection. Pedestrians are visible on the right side of the road, waiting to cross.",
+    "actions": "Ego vehicle is driving through the intersection. Scooter is driving through the intersection. Pedestrians are waiting to cross the street.",
+    "characters": "Pedestrians",
+    "key_objects": "Traffic light, scooter, crosswalk, other vehicles, intersection, pedestrians",
+    "key_actions": "No immediate ghost probing detected, but pedestrians are present near the crosswalk.",
+    "next_action": "Ego vehicle will continue driving straight."
+  }
+]

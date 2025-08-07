@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child on the right side of the road, a pedestrian on the left side of the road, a cyclist on the right side of the road, and multiple vehicles including a black sedan, a white car, and a bus.",
+  "summary": "The video sequence shows a busy urban street with multiple vehicles and pedestrians. At the beginning, a child suddenly runs into the road from the right side, emerging from behind a parked vehicle, creating an immediate collision risk. This is followed by a pedestrian crossing from the left side and a cyclist moving along the right side of the road. The scene is chaotic with multiple vehicles and potential obstructions.",
+  "actions": "The child runs into the road from the right side, the pedestrian crosses from the left side, and the cyclist continues moving along the right side.",
+  "key_objects": "Parked vehicles on both sides of the road, a black sedan, a white car, a bus, and a cyclist.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

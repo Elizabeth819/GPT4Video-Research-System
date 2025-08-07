@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_4_004",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00",
+    "End_Timestamp": "00:00:09",
+    "summary": "The ego-vehicle is driving on a city street. A cyclist appears from behind a barrier on the right side of the road. The cyclist is riding on the sidewalk and then enters the crosswalk. The ego-vehicle is approaching an intersection with traffic lights.",
+    "actions": "The ego-vehicle is driving straight ahead. The driver should be aware of the cyclist on the right and the upcoming intersection.",
+    "key_objects": [
+      "ego-vehicle",
+      "cyclist",
+      "traffic lights",
+      "crosswalk"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "straight",
+      "lane_control": "keep lane"
+    }
+  }
+]

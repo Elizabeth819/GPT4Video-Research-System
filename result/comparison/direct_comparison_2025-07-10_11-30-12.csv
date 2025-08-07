@@ -1,0 +1,6 @@
+video_id,ground_truth,gt_normalized,gpt4o_prediction,gemini_prediction,gpt4o_correct,gemini_correct,both_correct,both_wrong,gpt4o_better,gemini_better
+images_1,none,none,ghost probing,none,False,True,False,False,False,True
+images_2,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_3,none,none,ghost probing,none,False,True,False,False,False,True
+images_4,none,none,none,none,True,True,True,False,False,False
+images_5,none,none,none,ghost probing,True,False,False,False,True,False

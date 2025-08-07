@@ -1,0 +1,56 @@
+[
+  {
+    "video_id": "images_1_017",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "City Street",
+    "characters": "Several cars and buses are visible on the road.",
+    "summary": "The self-driving vehicle is traveling on a city street with moderate traffic. Buses are present on both sides of the road, partially obstructing the view. Several cars are ahead of the vehicle. The vehicle maintains a consistent speed and direction throughout the segment. No immediate hazards or dangerous behaviors are observed.",
+    "actions": "The self-driving vehicle is maintaining a steady speed and following the lane markings. The vehicle is navigating through moderate traffic, keeping a safe distance from the vehicles in front. The driver is driving at a constant speed to maintain a safe distance from the car in front.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_017",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "20.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "City Street",
+    "characters": "Several cars are visible on the road.",
+    "summary": "The self-driving vehicle is traveling on a city street with trees lining both sides. The road has two lanes. There are other cars on the road, some moving in the same direction and some in the opposite direction. The vehicle is approaching an intersection with a traffic light. The traffic light is visible in the distance. The vehicle is maintaining a steady speed and direction.",
+    "actions": "The self-driving vehicle is maintaining a steady speed and direction on a city street. The vehicle is approaching an intersection with a traffic light. The driver is likely maintaining speed to proceed through the intersection if the light remains green or preparing to decelerate if the light changes to yellow or red.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_017",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "20.0s",
+    "End_Timestamp": "21.7s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "Several cars ahead",
+    "summary": "The self-driving vehicle is traveling on a road with other cars ahead. There are cars parked on the left side of the road. The road appears to be in an urban area with buildings and trees lining the sides. The vehicle maintains its current lane and speed.",
+    "actions": "The self-driving vehicle is maintaining a consistent speed and direction, following the road ahead. The vehicle is likely monitoring the cars in front and adjusting speed as necessary to maintain a safe following distance.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

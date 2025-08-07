@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_004",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several people are visible: A person in a red jacket, a person in a blue jacket, and a person in a dark suit carrying a package. All appear to be adults.",
+  "summary": "The vehicle is driving on a road with buildings on the right and a parking area on the left. Initially, a person in a red jacket is seen crossing the road from right to left. Then, a person in a blue jacket and another in a dark suit are seen crossing from left to right. The person in the dark suit is carrying a package and crosses in front of the vehicle. The presence of these individuals crossing the road creates a potentially dangerous situation, especially the person in the dark suit who crosses closer to the vehicle.",
+  "actions": "The vehicle is initially approaching an intersection and maintains a steady speed. As the individuals begin to cross the road, the vehicle likely decelerates to ensure the safety of the pedestrians. The driver is cautious due to the presence of people crossing the road.",
+  "key_objects": "1) Right side: A person in a red jacket, approximately 8 meters away, crossing the road from right to left. 2) Left side: A person in a blue jacket, approximately 10 meters away, crossing the road from left to right. 3) Left side: A person in a dark suit carrying a package, approximately 5 meters away, crossing the road from left to right directly in front of the vehicle.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

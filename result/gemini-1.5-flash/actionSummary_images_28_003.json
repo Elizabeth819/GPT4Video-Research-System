@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "example_video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, car ahead, cyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white car is ahead, and a motorcyclist is seen overtaking from the left side. Towards the end, a cyclist suddenly appears from the right side, crossing the road.",
+        "actions": "The self-driving vehicle maintains a steady speed while a motorcyclist overtakes from the left side. The vehicle then decelerates slightly as a cyclist suddenly appears from the right side, crossing the road.",
+        "key_objects": "1) Left side: A motorcyclist, approximately 2 meters away, overtaking the vehicle. 2) Right side: A cyclist, approximately 5 meters away, suddenly crossing the road.",
+        "key_actions": "ghost probing, left-side overtaken",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_28_003",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "End_Timestamp": "20.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road initially and then transitions to a rural road. On the urban road, a white sedan is ahead, and a motorcyclist is on the left side. The motorcyclist appears to be moving towards the center of the road. As the vehicle transitions to the rural road, there is a noticeable change in scenery with fewer vehicles and more open space. The motorcyclist is seen moving ahead and eventually out of the frame.",
+        "actions": "The self-driving vehicle maintains a consistent speed while navigating through the urban road. The vehicle keeps a safe distance from the white sedan ahead and the motorcyclist on the left side. As the vehicle transitions to the rural road, it continues to drive steadily, adapting to the change in road conditions.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a steady speed. 2) Left: A motorcyclist, approximately 5 meters away, moving towards the center of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

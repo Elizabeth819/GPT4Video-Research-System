@@ -1,0 +1,31 @@
+# Azure ML环境配置 - DriveMM推理环境
+name: drivemm_inference
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pytorch>=1.13.0
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.6
+  - opencv
+  - pillow
+  - numpy
+  - pip
+  
+  - pip:
+    - transformers>=4.25.0
+    - accelerate
+    - bitsandbytes
+    - azure-storage-blob
+    - azure-ai-ml
+    - azure-identity
+    - huggingface_hub
+    - datasets
+    - sentencepiece
+    - protobuf
+    - tiktoken

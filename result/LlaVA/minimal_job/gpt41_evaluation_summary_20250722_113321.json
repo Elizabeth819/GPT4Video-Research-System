@@ -1,0 +1,667 @@
+{
+  "evaluation_metadata": {
+    "model": "GPT-4.1-Balanced",
+    "dataset": "DADA-100-videos",
+    "evaluation_date": "2025-07-22T11:33:21.633828",
+    "ground_truth_source": "groundtruth_labels.csv",
+    "evaluation_method": "gpt41_compatible"
+  },
+  "performance_summary": {
+    "accuracy": 0.5455,
+    "precision": 0.7333,
+    "recall": 0.2115,
+    "specificity": 0.9149,
+    "f1_score": 0.3284,
+    "false_positive_rate": 0.0851
+  },
+  "confusion_matrix": {
+    "true_positive": 11,
+    "true_negative": 43,
+    "false_positive": 4,
+    "false_negative": 41
+  },
+  "dataset_stats": {
+    "total_videos": 99,
+    "ground_truth_positives": 52,
+    "ground_truth_negatives": 47,
+    "detected_positives": 15,
+    "detected_negatives": 84
+  },
+  "detection_breakdown": {
+    "total_ghost_detected": 15,
+    "high_confidence_ghost": 0,
+    "potential_ghost": 15
+  },
+  "processing_performance": {
+    "avg_processing_time": 0.37,
+    "total_processing_time": 37.1
+  },
+  "detailed_results": {
+    "true_positives": [
+      {
+        "video_id": "images_1_008",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.1696",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.34
+      },
+      {
+        "video_id": "images_1_013",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.3146",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.36
+      },
+      {
+        "video_id": "images_1_015",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.2673",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.31
+      },
+      {
+        "video_id": "images_1_027",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.1932",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.33
+      },
+      {
+        "video_id": "images_3_002",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.2177",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.31
+      },
+      {
+        "video_id": "images_4_002",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.1580",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.36
+      },
+      {
+        "video_id": "images_4_004",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.1724",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.31
+      },
+      {
+        "video_id": "images_4_006",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.2302",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.31
+      },
+      {
+        "video_id": "images_5_031",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.2231",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.3
+      },
+      {
+        "video_id": "images_5_035",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.1668",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.34
+      },
+      {
+        "video_id": "images_5_047",
+        "ground_truth": true,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.1890",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.39
+      }
+    ],
+    "false_positives": [
+      {
+        "video_id": "images_1_018",
+        "ground_truth": false,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.1522",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.32
+      },
+      {
+        "video_id": "images_5_002",
+        "ground_truth": false,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.1798",
+        "scene_theme": "Dramatic",
+        "processing_time": 2.27
+      },
+      {
+        "video_id": "images_5_014",
+        "ground_truth": false,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.1959",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.34
+      },
+      {
+        "video_id": "images_5_019",
+        "ground_truth": false,
+        "detected": true,
+        "high_confidence": false,
+        "confidence": 0.6,
+        "key_actions": "potential ghost probing",
+        "summary": "Video analysis shows potential ghost probing scenario with max frame change of 0.2924",
+        "scene_theme": "Dramatic",
+        "processing_time": 0.37
+      }
+    ],
+    "false_negatives": [
+      {
+        "video_id": "images_1_002",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0993",
+        "scene_theme": "Safe",
+        "processing_time": 0.31
+      },
+      {
+        "video_id": "images_1_003",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1352",
+        "scene_theme": "Routine",
+        "processing_time": 0.3
+      },
+      {
+        "video_id": "images_1_005",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1300",
+        "scene_theme": "Routine",
+        "processing_time": 0.33
+      },
+      {
+        "video_id": "images_1_006",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1230",
+        "scene_theme": "Routine",
+        "processing_time": 0.37
+      },
+      {
+        "video_id": "images_1_007",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1489",
+        "scene_theme": "Routine",
+        "processing_time": 0.38
+      },
+      {
+        "video_id": "images_1_010",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1243",
+        "scene_theme": "Routine",
+        "processing_time": 0.43
+      },
+      {
+        "video_id": "images_1_011",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0793",
+        "scene_theme": "Safe",
+        "processing_time": 0.38
+      },
+      {
+        "video_id": "images_1_012",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0876",
+        "scene_theme": "Safe",
+        "processing_time": 0.55
+      },
+      {
+        "video_id": "images_1_014",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1202",
+        "scene_theme": "Routine",
+        "processing_time": 0.3
+      },
+      {
+        "video_id": "images_1_016",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.1149",
+        "scene_theme": "Safe",
+        "processing_time": 0.32
+      },
+      {
+        "video_id": "images_1_017",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1338",
+        "scene_theme": "Routine",
+        "processing_time": 0.6
+      },
+      {
+        "video_id": "images_1_021",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1390",
+        "scene_theme": "Routine",
+        "processing_time": 0.3
+      },
+      {
+        "video_id": "images_1_022",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1478",
+        "scene_theme": "Routine",
+        "processing_time": 0.44
+      },
+      {
+        "video_id": "images_3_003",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0659",
+        "scene_theme": "Safe",
+        "processing_time": 0.3
+      },
+      {
+        "video_id": "images_3_006",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.1050",
+        "scene_theme": "Safe",
+        "processing_time": 0.3
+      },
+      {
+        "video_id": "images_3_007",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1347",
+        "scene_theme": "Routine",
+        "processing_time": 0.33
+      },
+      {
+        "video_id": "images_4_003",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1569",
+        "scene_theme": "Routine",
+        "processing_time": 0.32
+      },
+      {
+        "video_id": "images_4_005",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1213",
+        "scene_theme": "Routine",
+        "processing_time": 0.45
+      },
+      {
+        "video_id": "images_5_005",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0895",
+        "scene_theme": "Safe",
+        "processing_time": 0.33
+      },
+      {
+        "video_id": "images_5_006",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1278",
+        "scene_theme": "Routine",
+        "processing_time": 0.41
+      },
+      {
+        "video_id": "images_5_010",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1650",
+        "scene_theme": "Routine",
+        "processing_time": 0.48
+      },
+      {
+        "video_id": "images_5_011",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.1008",
+        "scene_theme": "Safe",
+        "processing_time": 0.36
+      },
+      {
+        "video_id": "images_5_012",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0874",
+        "scene_theme": "Safe",
+        "processing_time": 0.34
+      },
+      {
+        "video_id": "images_5_015",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0946",
+        "scene_theme": "Safe",
+        "processing_time": 0.32
+      },
+      {
+        "video_id": "images_5_020",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.1134",
+        "scene_theme": "Safe",
+        "processing_time": 0.34
+      },
+      {
+        "video_id": "images_5_021",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.1056",
+        "scene_theme": "Safe",
+        "processing_time": 0.29
+      },
+      {
+        "video_id": "images_5_023",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.1074",
+        "scene_theme": "Safe",
+        "processing_time": 0.39
+      },
+      {
+        "video_id": "images_5_027",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0768",
+        "scene_theme": "Safe",
+        "processing_time": 0.3
+      },
+      {
+        "video_id": "images_5_028",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1403",
+        "scene_theme": "Routine",
+        "processing_time": 0.32
+      },
+      {
+        "video_id": "images_5_033",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1772",
+        "scene_theme": "Routine",
+        "processing_time": 0.28
+      },
+      {
+        "video_id": "images_5_037",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0776",
+        "scene_theme": "Safe",
+        "processing_time": 0.29
+      },
+      {
+        "video_id": "images_5_041",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.1055",
+        "scene_theme": "Safe",
+        "processing_time": 0.29
+      },
+      {
+        "video_id": "images_5_043",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0819",
+        "scene_theme": "Safe",
+        "processing_time": 0.34
+      },
+      {
+        "video_id": "images_5_044",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.1022",
+        "scene_theme": "Safe",
+        "processing_time": 0.3
+      },
+      {
+        "video_id": "images_5_045",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0623",
+        "scene_theme": "Safe",
+        "processing_time": 0.31
+      },
+      {
+        "video_id": "images_5_046",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1811",
+        "scene_theme": "Routine",
+        "processing_time": 0.26
+      },
+      {
+        "video_id": "images_5_049",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0577",
+        "scene_theme": "Safe",
+        "processing_time": 0.29
+      },
+      {
+        "video_id": "images_5_050",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1717",
+        "scene_theme": "Routine",
+        "processing_time": 0.29
+      },
+      {
+        "video_id": "images_5_051",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1580",
+        "scene_theme": "Routine",
+        "processing_time": 0.31
+      },
+      {
+        "video_id": "images_5_052",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.1,
+        "key_actions": "normal traffic flow",
+        "summary": "Video analysis shows normal traffic flow scenario with max frame change of 0.0891",
+        "scene_theme": "Safe",
+        "processing_time": 0.3
+      },
+      {
+        "video_id": "images_5_053",
+        "ground_truth": true,
+        "detected": false,
+        "high_confidence": false,
+        "confidence": 0.3,
+        "key_actions": "emergency braking due to traffic situation",
+        "summary": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1484",
+        "scene_theme": "Routine",
+        "processing_time": 0.33
+      }
+    ],
+    "high_confidence_analysis": {
+      "true_positives": [],
+      "false_positives": []
+    }
+  }
+}

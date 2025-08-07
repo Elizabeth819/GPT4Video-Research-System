@@ -1,0 +1,627 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-07-29 15:05:53",
+    "model": "GPT-4o",
+    "experiment": "Run 8 - GPT-4o + Paper Batch + Few-shot - CORRECTED LABELS",
+    "ground_truth_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/labels.csv",
+    "total_videos": 99,
+    "ground_truth_distribution": {
+      "ghost_probing": 50,
+      "none": 49
+    },
+    "prediction_distribution": {
+      "ghost_probing": 73,
+      "none": 26
+    }
+  },
+  "performance_metrics": {
+    "accuracy": 0.5656565656565656,
+    "precision": 0.547945205479452,
+    "recall": 0.8,
+    "f1_score": 0.6504065040650406,
+    "specificity": 0.32653061224489793,
+    "balanced_accuracy": 0.563265306122449
+  },
+  "confusion_matrix": {
+    "true_positives": 40,
+    "true_negatives": 16,
+    "false_positives": 33,
+    "false_negatives": 10
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_1_002",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_003",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_004",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_1_005",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_006",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_007",
+      "ground_truth": "ghost_probing",
+      "prediction": "none",
+      "correct": false
+    },
+    {
+      "video_id": "images_1_008",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_009",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_1_010",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_011",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_012",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_013",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_014",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_015",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_016",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_017",
+      "ground_truth": "ghost_probing",
+      "prediction": "none",
+      "correct": false
+    },
+    {
+      "video_id": "images_1_018",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_1_019",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_020",
+      "ground_truth": "ghost_probing",
+      "prediction": "none",
+      "correct": false
+    },
+    {
+      "video_id": "images_1_021",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_022",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_023",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_1_024",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_1_025",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_1_026",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_1_027",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_2_001",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_2_002",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_2_003",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_2_004",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_3_001",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_3_002",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_3_003",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_3_004",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_3_005",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_3_006",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_3_007",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_4_001",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_4_002",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_4_003",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_4_004",
+      "ground_truth": "ghost_probing",
+      "prediction": "none",
+      "correct": false
+    },
+    {
+      "video_id": "images_4_005",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_4_006",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_4_007",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_4_008",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_001",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_002",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_003",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_004",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_005",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_006",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_007",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_008",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_009",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_010",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_011",
+      "ground_truth": "ghost_probing",
+      "prediction": "none",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_012",
+      "ground_truth": "ghost_probing",
+      "prediction": "none",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_013",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_014",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_015",
+      "ground_truth": "ghost_probing",
+      "prediction": "none",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_016",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_017",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_018",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_019",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_020",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_021",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_022",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_023",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_024",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_025",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_026",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_027",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_028",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_029",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_030",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_031",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_032",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_033",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_034",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_035",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_036",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_037",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_038",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_040",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_041",
+      "ground_truth": "ghost_probing",
+      "prediction": "none",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_042",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_043",
+      "ground_truth": "ghost_probing",
+      "prediction": "none",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_044",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_045",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_046",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_047",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_048",
+      "ground_truth": "none",
+      "prediction": "ghost_probing",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_049",
+      "ground_truth": "ghost_probing",
+      "prediction": "none",
+      "correct": false
+    },
+    {
+      "video_id": "images_5_050",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_051",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_052",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_053",
+      "ground_truth": "ghost_probing",
+      "prediction": "ghost_probing",
+      "correct": true
+    },
+    {
+      "video_id": "images_5_054",
+      "ground_truth": "none",
+      "prediction": "none",
+      "correct": true
+    }
+  ]
+}

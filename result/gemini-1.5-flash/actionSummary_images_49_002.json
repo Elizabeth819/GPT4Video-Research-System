@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_49_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist, Scooter rider, Pedestrian",
+        "summary": "In this segment, the vehicle is driving on a city road. A cyclist and a scooter rider are ahead, moving in the same direction. The cyclist suddenly falls off the bike, causing a potential hazard. The pedestrian on the left side of the road is walking towards the scene.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the cyclist and scooter rider. As the cyclist falls off the bike, the vehicle needs to decelerate to avoid collision.",
+        "key_objects": "1) Front: Cyclist, approximately 5 meters away, falls off the bike, causing a potential hazard. 2) Front: Scooter rider, approximately 7 meters away, moving steadily. 3) Left side: Pedestrian, approximately 10 meters away, walking towards the scene.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

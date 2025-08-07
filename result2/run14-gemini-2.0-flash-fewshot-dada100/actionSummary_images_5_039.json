@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_039",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male in a dark jacket and jeans, approximately 25 years old, is standing next to a white scooter that has fallen on the road. Several cars and trucks are parked on the left side of the road.",
+  "summary": "From 0.0s to 10.0s, the vehicle is driving on a road with several parked cars and trucks on the left side. At 9.0s, a white scooter is seen lying on the road, and a male in a dark jacket and jeans is standing next to it. The scooter and the male are in the middle of the road, creating a potential hazard for the vehicle.",
+  "actions": "The vehicle is maintaining a steady speed, likely due to the presence of other vehicles on the road. The driver is likely assessing the situation with the fallen scooter and the person standing next to it to determine the best course of action.",
+  "key_objects": "1) Center: A white scooter, approximately 15 meters away, lying on the road, creating an obstruction. 2) Center: A male in a dark jacket and jeans, approximately 15 meters away, standing next to the scooter, potentially moving into the vehicle's path.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

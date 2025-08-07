@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_017",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a straight road with moderate traffic. The road is flanked by trees and buildings. The vehicle maintains a consistent speed and lane position throughout the segment.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, maintaining its lane position. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "1) Front: A red car, approximately 30 meters away, moving in the same direction. 2) Left side: A black motorcycle, approximately 20 meters away, moving in the same direction. 3) Right side: A white car, approximately 25 meters away, moving in the same direction.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_017",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.8s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a relatively empty road with minimal traffic. The vehicle maintains a steady speed and lane position throughout the frames. There are no sudden movements or obstacles in the path.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position. There are no significant changes in speed or direction, indicating a calm and controlled driving environment.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

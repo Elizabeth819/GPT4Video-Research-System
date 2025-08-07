@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving down a street with parked cars on both sides. A pedestrian with a scooter emerges from behind a parked car.",
+    "actions": "Ego vehicle is moving forward. Parked cars are stationary. A pedestrian is walking with a scooter.",
+    "characters": "Pedestrian",
+    "key_objects": "Ego vehicle, parked cars, pedestrian, scooter",
+    "key_actions": "potential ghost probing",
+    "next_action": "Ego vehicle will continue driving forward."
+  }
+]

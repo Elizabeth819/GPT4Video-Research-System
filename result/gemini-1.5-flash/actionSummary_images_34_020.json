@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_020",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrians",
+        "summary": "In this segment, the vehicle is driving on a road with moderate traffic. A white sedan is ahead, and pedestrians are crossing the road from the right side. The pedestrians are moving towards the left side of the road, creating a potential hazard for the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while monitoring the pedestrians crossing from the right side. The vehicle is prepared to decelerate if the pedestrians move into its path.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving slowly. 2) Right side: Two pedestrians, approximately 2 meters away, crossing the road towards the left side.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

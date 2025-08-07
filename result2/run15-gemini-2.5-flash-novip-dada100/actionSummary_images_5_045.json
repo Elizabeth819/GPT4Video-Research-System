@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_045",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "No specific individuals are clearly visible or directly involved in the driving scenario.",
+  "summary": "The video segment captures a vehicle navigating a multi-lane road with heavy traffic during daylight hours. The camera vehicle is positioned in the leftmost lane, which appears to be a dedicated left-turn or left-straight lane, indicated by road markings. Traffic in all visible lanes is dense, with vehicles either stationary or moving at a very slow pace. A prominent metal barrier runs along the left side of the road, separating the main thoroughfare from an adjacent area. As the camera vehicle slowly advances, a white SUV suddenly emerges from behind this metal barrier on the left, turning right into the main flow of traffic. This sudden appearance from behind a visual obstruction, with minimal reaction time, constitutes a 'Vehicle Ghost Probing' incident, creating an immediate potential collision risk for the camera vehicle.",
+  "actions": "The camera vehicle is moving forward at a very slow speed, consistent with heavy traffic conditions. The driver is maintaining a cautious pace, likely due to the dense vehicular presence ahead and to the right. The vehicle appears to be in a lane that allows for a left turn or straight movement, and its slow progression suggests the driver is assessing the traffic flow and potential turning opportunities or waiting for traffic to clear. The slow speed is a direct response to the high traffic density and the need to maintain a safe following distance from the vehicles ahead.",
+  "key_objects": "1) Left side: A white SUV, emerging from behind a metal barrier and other vehicles, turning right into the main road. This vehicle's sudden appearance from a visually obstructed area directly into the path of traffic constitutes a 'Vehicle Ghost Probing' event, creating an immediate collision risk. 2) Left side: A long metal barrier running parallel to the road, acting as a significant physical obstruction that initially hid the white SUV from the camera vehicle's view. 3) Right side: Multiple stationary or slow-moving cars in adjacent lanes, contributing to the heavy traffic conditions and further limiting visibility and maneuverability.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

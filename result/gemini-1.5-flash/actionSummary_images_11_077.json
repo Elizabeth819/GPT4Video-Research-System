@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_077",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through urban traffic. Initially, a bus is seen on the right side, followed by a red car moving from the right lane to the left lane. Later, a blue truck is observed ahead in the same lane.",
+        "actions": "The self-driving vehicle maintains a consistent speed while navigating through traffic. It adjusts its position to avoid the bus and the red car moving into the left lane. The vehicle continues to follow the blue truck ahead, maintaining a safe distance.",
+        "key_objects": "1) Right side: A bus, approximately 10 meters away, moving steadily. 2) Right side: A red car, approximately 15 meters away, moving from the right lane to the left lane. 3) Front: A blue truck, approximately 20 meters away, moving steadily in the same lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_077",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "11.2s",
+        "scene_theme": "Routine",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a road under an overpass. The road is clear with minimal traffic. The vehicle ahead is maintaining a consistent speed and distance from the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the vehicle ahead at a safe distance. There are no sudden changes in speed or direction observed.",
+        "key_objects": "1) Front: A blue truck, approximately 30 meters away, maintaining a consistent speed and distance from the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

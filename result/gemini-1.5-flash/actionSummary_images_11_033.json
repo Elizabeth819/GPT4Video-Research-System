@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_033",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a blue sedan, driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on an urban road. The blue sedan ahead is maintaining a consistent speed. The white SUV on the right side is moving forward, and the black car on the left side is also moving forward. The traffic is moderate, and the road is clear.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the blue sedan ahead. The vehicle is keeping a safe distance from the blue sedan and monitoring the movements of the white SUV and the black car.",
+        "key_objects": "1) Front: A blue sedan, approximately 10 meters away, maintaining a consistent speed. 2) Right: A white SUV, approximately 15 meters away, moving forward. 3) Left: A black car, approximately 20 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_033",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.4s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on an urban road. A white SUV is seen on the right side, attempting to merge into the lane. The traffic is moderate with several vehicles ahead.",
+        "actions": "The self-driving vehicle is maintaining a steady speed, observing the white SUV on the right side attempting to merge into the lane. The vehicle is keeping a safe distance from the vehicles ahead.",
+        "key_objects": "1) Right side: A white SUV, approximately 5 meters away, attempting to merge into the lane. 2) Front: Multiple vehicles, approximately 20 meters away, moving steadily.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

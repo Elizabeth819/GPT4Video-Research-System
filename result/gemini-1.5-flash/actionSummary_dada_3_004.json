@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_3_004",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "07:55:02",
+    "End_Timestamp": "07:55:11",
+    "summary": "The vehicle is approaching a crosswalk at an intersection. There are pedestrians and cyclists crossing the road. The traffic light is red for the vehicle, so it should stop.",
+    "actions": "The vehicle is approaching a crosswalk at an intersection. The vehicle should slow down and prepare to stop if the traffic light is red.",
+    "key_objects": [
+      "pedestrians",
+      "cyclists",
+      "crosswalk",
+      "traffic light"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "straight",
+      "lane_control": "maintain lane"
+    }
+  }
+]

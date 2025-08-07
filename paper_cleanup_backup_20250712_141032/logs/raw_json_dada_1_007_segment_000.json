@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_007",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "sentiment": "Neutral",
+    "End_Timestamp": "9.0s",
+    "scene_theme": "Calm",
+    "characters": "Driver of the self-vehicle",
+    "summary": "In this segment, the vehicle is driving on a tree-lined urban road. The road is relatively clear with a few parked cars on both sides. A pedestrian is seen crossing the road from the right side at 6.0s, and another pedestrian is seen on the right side of the road at 9.0s.",
+    "actions": "The self-driving vehicle maintains a steady speed and direction throughout the segment. The vehicle does not need to take any evasive actions as the road is clear and the pedestrians do not pose an immediate threat.",
+    "key_objects": "1) Right side: A pedestrian, approximately 5 meters away, crossing the road at 6.0s. 2) Right side: A pedestrian, approximately 10 meters away, walking along the sidewalk at 9.0s.",
+    "key_actions": "none",
+    "next_action": {
+        "speed_control": "consistent speed driving",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

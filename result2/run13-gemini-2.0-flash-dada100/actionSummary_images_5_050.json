@@ -1,0 +1,22 @@
+{
+  "video_id": "images_5_050",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "4.0s",
+      "characters": [
+        "From 0.0s to 4.0s, the scene shows a road with a white car parked on the right side. A motorcycle with two people on it appears from the left side of the road at 2.6s. The motorcycle is red and black. The driver is wearing a dark jacket and the passenger is wearing a pink jacket and carrying a pink backpack. At 3.5s, the motorcycle crashes, and the two people fall off. The motorcycle and the two people are lying on the road at 4.0s."
+      ],
+      "summary": "From 0.0s to 4.0s, the self-driving car is approaching an intersection. A motorcycle with two people suddenly appears from the left side of the road at 2.6s. At 3.5s, the motorcycle crashes, and the two people fall off. This is a ghost probing incident because the motorcycle suddenly appeared from the left side of the road, creating an immediate danger. The speed of the motorcycle is moderate, but the sudden appearance gives the driver minimal reaction time.",
+      "actions": "The vehicle is currently stationary at an intersection, likely waiting for an opportunity to proceed safely. The vehicle is not moving because there is a motorcycle approaching from the left side of the road.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Left side]: A motorcycle with two people, approximately 10 meters away, suddenly appears from the left side of the road and crashes, creating an immediate danger."
+    }
+  ]
+}

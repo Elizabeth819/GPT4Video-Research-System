@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_015",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two adult males are prominently featured, one wearing a blue shirt and dark pants, the other wearing a black shirt and dark pants, both appearing to be in their 30s or 40s. They are seen carrying a large, flat, light-colored object. A person on a bicycle is briefly seen on the right side of the road. A young child in a light-colored shirt is seen walking on the right side of the road later in the sequence.",
+  "summary": "The video segment begins with the autonomous vehicle navigating a narrow, unpaved-like street, typical of a residential or commercial alleyway. Buildings and walls line both sides of the road, creating visual obstructions. Initially, a person on a bicycle briefly emerges from behind a white car on the right side of the image. As the vehicle proceeds, a large white box truck is observed parked on the right side of the image. Suddenly, two adult males emerge from behind this truck, carrying a large, flat object, directly into the vehicle's path. This unexpected appearance forces the vehicle to decelerate rapidly and come to a near stop to avoid a collision. After the individuals clear the immediate path, the vehicle resumes its forward motion, entering a wider intersection. In the intersection, a three-wheeled utility vehicle (tricycle truck) crosses from the right side of the image to the left, and a bus is seen approaching from the left side of the image. A child is also visible walking on the right side of the road near the intersection.",
+  "actions": "The vehicle initially proceeds forward at a cautious, low speed, which is appropriate for navigating a narrow, potentially obstructed street with limited visibility. Around the 2.5-second mark (Frame 4), the vehicle undergoes rapid deceleration, coming to a near stop by 3.3 seconds (Frame 5). This action is a direct and necessary response to the sudden appearance of two individuals carrying a large object from behind a parked truck on the right side of the image. Their emergence directly into the vehicle's path created an immediate collision risk, necessitating an emergency braking maneuver to ensure safety. Once the individuals and their obstruction clear the vehicle's path (around 4.9 seconds, Frame 7), the vehicle begins to accelerate again, resuming its forward movement to proceed through the now clear intersection.",
+  "key_objects": "1) On the right side of the image: A large white box truck, parked or stopped, acting as a significant physical obstruction that completely blocked the view of oncoming pedestrians. 2) On the right side of the image, then moving towards the center: Two adult males, emerging suddenly from behind the white box truck, carrying a large flat object, directly entering the vehicle's path and causing an immediate hazard due to minimal reaction time.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

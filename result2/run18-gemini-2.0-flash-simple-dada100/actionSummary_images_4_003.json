@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a street with parked cars on both sides. There are pedestrians visible, including a man in a suit walking on the right side of the road. There are multiple cars parked on both sides of the street. The driver is in a car.",
+  "summary": "The video shows a car driving down a street with parked cars on both sides. Initially, the car is stationary. As the video progresses, the car starts moving forward. A man in a suit walks from behind a parked car on the right side of the road, creating a potential ghost probing situation. The car decelerates and eventually stops.",
+  "actions": "The vehicle starts from a standstill at 0 km/h. The driver begins to accelerate slowly, likely intending to proceed down the street. As the man in the suit appears from behind the parked car, the driver decelerates to avoid a collision. The vehicle comes to a complete stop to ensure the pedestrian's safety.",
+  "key_objects": "1) Right: Man in a suit, medium distance, walking from behind a parked car, creating a ghost probing situation. 2) Right: Parked cars, medium distance, obstructing the view of pedestrians.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

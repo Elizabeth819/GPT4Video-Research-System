@@ -1,0 +1,170 @@
+[
+    {
+        "event_id": "event_001",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "0.00s",
+        "end_timestamp": "10.00s",
+        "timestamp": "2024-12-12 16:36:29",
+        "key_objects": "a white tesla sedan on the left",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_002",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "11.00s",
+        "end_timestamp": "20.00s",
+        "timestamp": "2024-12-12 16:37:10",
+        "key_objects": "a white tesla sedan on the left",
+        "key_actions": "cut-in, collision, overtaken left",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "31.00s",
+        "end_timestamp": "40.00s",
+        "timestamp": "2024-12-12 16:39:09",
+        "key_objects": "a white car on the rigth",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "41.00s",
+        "end_timestamp": "50.00s",
+        "timestamp": "2024-12-12 16:42:10",
+        "key_objects": "a black SUV on the right",
+        "key_actions": "improper lane change, collision",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "slight left shift"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "61.00s",
+        "end_timestamp": "70.00s",
+        "timestamp": "2024-12-12 16:42:10",
+        "key_objects": "a car on the opposite lane",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "slight right shift"
+        }
+    },    
+    {
+        "event_id": "event_009",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "81.00s",
+        "end_timestamp": "91.00s",
+        "timestamp": "2024-12-12 16:51:46",
+        "key_objects": "a car in front",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "change to right lane"
+        }
+    },
+    {
+        "event_id": "event_010",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "91.00s",
+        "end_timestamp": "101.00s",
+        "timestamp": "2024-12-12 16:53:09",
+        "key_objects": "an electric scooter on the right",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "slight left shift"
+        }
+    },
+    {
+        "event_id": "event_011",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "101.00s",
+        "end_timestamp": "110.00s",
+        "timestamp": "2024-12-12 16:54:33",
+        "key_objects": "a taxi on the left",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_012",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "111.00s",
+        "end_timestamp": "120.00s",
+        "timestamp": "2024-12-12 17:04:20",
+        "key_objects": "a white SUV on the left",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_013",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "121.00s",
+        "end_timestamp": "131.00s",
+        "timestamp": "2024-12-12 17:14:14",
+        "key_objects": "a white SUV on the left",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_014",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "131.00s",
+        "end_timestamp": "140.00s",
+        "timestamp": "2024-12-12 17:15:10",
+        "key_objects": "a red car on the left",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "slight right shift"
+        }
+    },
+    {
+        "event_id": "event_015",
+        "video_id": "002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili",
+        "start_timestamp": "141.00s",
+        "end_timestamp": "147.31s",
+        "timestamp": "2024-12-12 17:24:49",
+        "key_objects": "a white sedan on the right",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_019",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a vehicle approaching a building entrance. There are several pedestrians visible, including one who appears to be bending down near the vehicle's path. There are also people standing near a parked car on the right side of the road. Some people are riding scooters on the left side of the road.",
+  "summary": "The vehicle is initially stopped at a gate. The gate opens, and the vehicle proceeds forward. Pedestrians are present on both sides of the road. One pedestrian is bending down in the road ahead of the vehicle. The vehicle is moving slowly.",
+  "actions": "The vehicle starts from a stationary position after the gate opens. It proceeds forward at a slow speed, likely due to the presence of pedestrians and the need to navigate the entrance area safely. The driver is likely maintaining a low speed to react to any unexpected movements from the pedestrians.",
+  "key_objects": "1) Left: Pedestrian walking, medium distance, potential impact if they cross unexpectedly. 2) Right: Parked car with people standing nearby, medium distance, potential impact if they step into the road. 3) Center: Pedestrian bending down, short distance, immediate potential impact.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

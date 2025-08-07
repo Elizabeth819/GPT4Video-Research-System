@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is approaching an intersection at night. There are other vehicles on the road. A cyclist suddenly appears from the left side of the road, crossing the intersection.",
+    "actions": "Ego vehicle is driving straight. Other vehicles are also moving. A cyclist is crossing the road from left to right.",
+    "characters": "Cyclist",
+    "key_objects": "Ego vehicle, other vehicles, cyclist, intersection, traffic lights",
+    "key_actions": "ghost probing",
+    "next_action": "Ego vehicle will likely need to brake to avoid collision with the cyclist."
+  }
+]

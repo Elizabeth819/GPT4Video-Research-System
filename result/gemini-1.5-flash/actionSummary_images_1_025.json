@@ -1,0 +1,33 @@
+[
+    {
+        "video_id": "dada_1_025",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A person wearing a light-colored jacket and dark pants, appearing to be female, walking across the road from the left side.",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Walking across the road, potentially creating a collision hazard."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Female",
+                "age": "30-40",
+                "clothing": "Light-colored jacket, dark pants",
+                "transportation_method": "Walking",
+                "behavior": "Walking across the road from left to right, seemingly unaware of oncoming traffic."
+            }
+        ],
+        "summary": "The video shows a person, appearing to be a woman aged 30-40, wearing a light-colored jacket and dark pants, walking across the road from left to right.  She is initially visible in the left side of the frame at approximately 15 meters distance from the vehicle. Her crossing of the road is sudden and unexpected, presenting a significant risk of collision. The speed of her crossing is moderate, giving the driver limited reaction time. This behavior is classified as 'ghost probing' due to her unexpected appearance in the vehicle's path.",
+        "actions": "The vehicle maintains a consistent speed throughout the 5-second segment. There are no observable changes in speed or direction. The driver appears to be maintaining a safe distance from the road edge and proceeding straight ahead. The consistent speed suggests the driver is navigating a relatively clear and straight section of road.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

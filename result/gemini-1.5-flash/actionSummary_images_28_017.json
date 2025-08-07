@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_28_017",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Rural Road",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving on a rural road with buildings on both sides. The road is relatively narrow, and there are several pedestrians and vehicles visible ahead. The self-driving vehicle maintains a steady speed while navigating through the area.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while driving on the rural road. The driver is likely being cautious due to the presence of pedestrians and other vehicles ahead. The vehicles speed remains steady to ensure safety and avoid sudden braking.",
+        "key_objects": "1) Front: A group of pedestrians, approximately 20 meters away, walking on the road. 2) Front: A motorcycle, approximately 15 meters away, moving slowly. 3) Front: A purple car, approximately 30 meters away, parked on the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

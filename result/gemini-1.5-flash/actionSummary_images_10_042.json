@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_042",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area. The vehicle is moving along a narrow street with buildings on both sides. As the vehicle progresses, it encounters various obstacles and vehicles parked on the roadside. Towards the end of the segment, a black car on the right side appears to be moving into the self-driving vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the narrow street. The vehicle is carefully maneuvering to avoid parked cars and obstacles on both sides. Towards the end of the segment, the vehicle slows down as a black car on the right side appears to be moving into its path.",
+        "key_objects": "1) Right side: A black car, approximately 2 meters away, moving into the self-driving vehicles path.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

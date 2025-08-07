@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_2_003",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "11:42:55",
+    "End_Timestamp": "11:43:03",
+    "summary": "The ego-vehicle is approaching an intersection. A pedestrian suddenly appears from behind parked vans on the right side of the road and starts crossing the street. The pedestrian's appearance is sudden and unexpected.",
+    "actions": "The ego-vehicle is approaching an intersection and needs to be aware of the pedestrian crossing the street. The vehicle should slow down and prepare to stop if necessary.",
+    "key_objects": [
+      "ego-vehicle",
+      "pedestrian",
+      "parked vans"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "slow down",
+      "direction_control": "maintain lane",
+      "lane_control": "none"
+    }
+  }
+]

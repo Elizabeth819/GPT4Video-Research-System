@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_026",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult pedestrian, likely female, wearing a reddish-orange top and dark pants, carrying a yellow backpack, appears suddenly from the right side of the road. Several individuals are seen riding motorcycles or scooters on the left side of the road.",
+  "summary": "The video segment captures a nighttime driving scenario on a multi-lane urban road. The ego vehicle is proceeding forward. Initially, a white sedan is observed on the right side of the road, moving in the same direction as the ego vehicle, and several motorcycles/scooters are visible on the left. As the white sedan moves past or alongside the ego vehicle, a pedestrian suddenly emerges from behind it on the right side of the road, walking directly into the ego vehicle's path. This sudden appearance, obscured by the white sedan, creates an immediate and dangerous 'ghost probing' situation, requiring an urgent evasive action from the driver.",
+  "actions": "The ego vehicle is initially maintaining a forward trajectory at a consistent speed, navigating the multi-lane road alongside other traffic. Upon the sudden emergence of the pedestrian from behind the white sedan on the right side of the road, the driver's immediate and necessary action would be rapid deceleration (braking) to avoid a collision. This rapid braking is necessitated by the minimal reaction time afforded by the pedestrian's unexpected appearance from behind a visual obstruction.",
+  "key_objects": "1) Right: A white sedan, moving forward in the same direction as the ego vehicle. This vehicle acts as a significant physical obstruction, momentarily obscuring the view of the pedestrian who subsequently emerges from behind it, directly impacting the driver's ability to detect the pedestrian in advance. 2) Right-center: A pedestrian, an adult wearing a reddish-orange top and dark pants, carrying a yellow backpack. This pedestrian suddenly appears from behind the white sedan, darting from the right side of the road into the ego vehicle's direct path, creating an immediate and high-risk collision scenario.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_020",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car at night. There is a motorcyclist on the right side of the road, wearing a light-colored jacket. There are other cars in the distance.",
+  "summary": "The video shows a car driving at night. Initially, the road is clear. A motorcyclist appears on the right side of the road, riding in the same direction as the car. The car continues driving straight. The motorcyclist is riding close to the right edge of the road.",
+  "actions": "The vehicle is driving straight on a road at night. The driver maintains a consistent speed, likely due to the presence of other vehicles and the need to navigate the road safely in low-light conditions. The vehicle is staying in its lane.",
+  "key_objects": "1) Right side: Motorcyclist, medium distance, riding close to the edge of the road, potentially dangerous due to proximity. 2) Left side: Approaching car, far distance, moving towards the vehicle, requires monitoring.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

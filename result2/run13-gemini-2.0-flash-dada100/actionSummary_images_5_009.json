@@ -1,0 +1,62 @@
+{
+  "video_id": "images_5_009",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.0s",
+  "characters": [
+    {
+      "mode": "car",
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "silver",
+      "age": "unknown",
+      "transportation_method": "car",
+      "way_of_walking": "N/A"
+    },
+    {
+      "mode": "car",
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "black",
+      "age": "unknown",
+      "transportation_method": "car",
+      "way_of_walking": "N/A"
+    },
+    {
+      "mode": "car",
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "white",
+      "age": "unknown",
+      "transportation_method": "car",
+      "way_of_walking": "N/A"
+    },
+    {
+      "mode": "car",
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "yellow",
+      "age": "unknown",
+      "transportation_method": "car",
+      "way_of_walking": "N/A"
+    },
+    {
+      "mode": "motorcyclist",
+      "gender": "male",
+      "clothing": "brown jacket",
+      "colors": "red helmet",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "summary": "The self-driving car is traveling on a multi-lane road with other vehicles present. Initially, the car is driving straight. From 13.3s to 13.9s, a male motorcyclist wearing a red helmet and a brown jacket suddenly appears from behind a large, covered object on the right side of the road, entering the self-driving car's lane. This constitutes a ghost probing incident. The motorcyclist's sudden appearance necessitates immediate action to avoid a collision. The self-driving car then makes a left turn at an intersection.",
+  "actions": "The vehicle is driving straight on a multi-lane road, maintaining a consistent speed. The driver is likely following the flow of traffic and staying in the current lane. From 13.3s to 13.9s, the vehicle slows down and prepares to make a left turn at an upcoming intersection, as indicated by the road markings and traffic signs.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "turning",
+    "lane_control": "keep left in this lane"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "[Right side]: A male motorcyclist wearing a red helmet and a brown jacket, approximately 5 meters away, suddenly appears from behind a large covered object, moving into the self-driving car's lane, causing a potential collision."
+}

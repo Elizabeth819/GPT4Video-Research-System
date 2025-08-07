@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_014",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a rural road with buildings on either side. There are several people visible, including a child wearing a striped shirt and red pants, and adults near the buildings. There are also motorcycles and a red truck on the left side of the road.",
+  "summary": "The vehicle is driving on a narrow rural road. Initially, the road appears clear, but as the vehicle progresses, a child suddenly appears on the left side of the road, crossing from left to right. The vehicle needs to be prepared to stop to avoid hitting the child.",
+  "actions": "The vehicle is driving straight on a rural road. The speed appears to be moderate, likely due to the narrow road and the presence of buildings and people nearby. The driver is maintaining the current lane.",
+  "key_objects": "1) Left: Child, crossing the road, immediate danger of collision. 2) Left: Red truck, parked on the side of the road, potential obstruction of view.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

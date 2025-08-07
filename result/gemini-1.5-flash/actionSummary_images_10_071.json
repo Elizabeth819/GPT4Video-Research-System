@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_071",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.9s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan, driver of a green car, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. Initially, there is a pedestrian on the left side of the road. As the vehicle progresses, a black sedan from the adjacent left lane moves into the self-vehicles lane, causing a potential cut-in situation. Additionally, a green car and a motorcyclist are visible in the distance.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through urban traffic. The vehicle is likely to decelerate due to the black sedan cutting into its lane from the left side.",
+        "key_objects": "1) Left side: A pedestrian, approximately 10 meters away, walking towards the road. 2) Left side: A black sedan, approximately 2 meters away, moving into the self-vehicles lane. 3) Front: A green car, approximately 20 meters away, driving straight. 4) Front: A motorcyclist, approximately 25 meters away, driving straight.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

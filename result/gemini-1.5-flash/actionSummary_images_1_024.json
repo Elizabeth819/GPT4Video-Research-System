@@ -1,0 +1,34 @@
+[
+    {
+        "video_id": "dada_1_024",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving down a two-lane road.  The road is relatively clear with some trees and buildings visible on either side. Another car is visible ahead, maintaining a consistent distance.  No pedestrians or cyclists are observed in the immediate vicinity of the vehicle. The driving conditions appear normal, with no sudden changes in speed or direction from either vehicle.",
+        "actions": "The vehicle maintains a steady speed and follows the car in front at a safe distance. There are no observable changes in speed or direction during the 5-second segment. The driver appears to be maintaining a safe following distance and driving cautiously.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep_right"
+        }
+    },
+    {
+        "video_id": "dada_1_024",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "7.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving down a relatively empty road.  The road is straight with buildings and trees visible on either side.  The car maintains a consistent speed throughout the 5-second segment. There are no pedestrians or other vehicles exhibiting dangerous behavior. The weather appears clear.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the observed segment. There are no observable changes in speed or direction, suggesting the driver is maintaining a steady pace on a straight road.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

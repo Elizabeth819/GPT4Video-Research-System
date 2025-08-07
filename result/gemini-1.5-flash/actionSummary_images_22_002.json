@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_22_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a black sedan, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. A black sedan is seen on the left side, initially ahead of the self-driving vehicle. The black sedan moves into the lane ahead of the self-driving vehicle, maintaining a safe distance. The white sedan is seen further ahead in the same lane.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the segment. The black sedan moves from the left lane into the same lane as the self-driving vehicle, but does so at a safe distance, avoiding any sudden or dangerous maneuvers.",
+        "key_objects": "1) Left side: A black sedan, approximately 5 meters away, moving into the same lane as the self-driving vehicle. 2) Front: A white sedan, approximately 20 meters away, maintaining its position in the lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_22_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Calm",
+        "characters": "Car ahead",
+        "summary": "In this segment, the vehicle is driving on a highway with moderate traffic. The car ahead maintains a consistent speed and distance from the observer vehicle. No sudden movements or dangerous behaviors are observed.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position, following the car ahead at a safe distance. The vehicles speed remains steady, and no significant changes in direction or lane are made.",
+        "key_objects": "1) Front: A car ahead, approximately 50 meters away, maintaining a consistent speed and lane position.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_22_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "21.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "30.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. A black sedan appears to have crashed and is blocking the road ahead. The driver mentions the need to brake suddenly to avoid collision.",
+        "actions": "The self-driving vehicle is decelerating rapidly to avoid collision with the black sedan that has crashed and is blocking the road ahead. Over the past 10 seconds, the vehicles speed has decreased significantly.",
+        "key_objects": "1) Front: A black sedan, approximately 20 meters away, crashed and blocking the road, causing the self-driving vehicle to decelerate rapidly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "change to left lane"
+        }
+    }
+]

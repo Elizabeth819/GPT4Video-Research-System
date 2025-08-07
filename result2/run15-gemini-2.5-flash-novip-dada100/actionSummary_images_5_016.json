@@ -1,0 +1,9 @@
+{
+  "timestamp": "08:22:37 - 08:22:48",
+  "summary": "The autonomous vehicle (cam car) is stationary at an intersection. Two separate vehicles, first a scooter and then a motorcycle/tricycle, suddenly emerge from a blind spot created by a parked SUV on the right side of the road and proceed to cross the intersection directly in front of the cam car.",
+  "actions": "The cam car remains stationary. A white scooter appears from behind a parked black SUV and crosses the intersection from right to left. Shortly after, a dark motorcycle/tricycle also appears from the same blind spot and crosses the intersection in a similar manner.",
+  "characters": "Cam car (autonomous vehicle), Scooter rider, Motorcycle/tricycle rider, Two pedestrians (initially near a parked car on the left)",
+  "key_objects": "Cam car, Parked black sedan (left), Parked black SUV (right, creating blind spot), White scooter, Dark motorcycle/tricycle, Intersection, Roadside buildings/shops",
+  "key_actions": "White scooter suddenly appears from behind the parked black SUV (blind spot) and crosses the intersection. This is a clear instance of 'ghost probing'. Dark motorcycle/tricycle suddenly appears from behind the same parked black SUV (blind spot) and crosses the intersection. This is also a clear instance of 'ghost probing'. Both vehicles aggressively cut into the potential path of the stationary cam car, creating a dangerous situation due to their unexpected appearance from a blind spot.",
+  "next_action": "The cam car will likely continue to wait for the intersection to be clear of crossing traffic before attempting to proceed. It must account for potential further 'ghost probing' vehicles from the same blind spot."
+}

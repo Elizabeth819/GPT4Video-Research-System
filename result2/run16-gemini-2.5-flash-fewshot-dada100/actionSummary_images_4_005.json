@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A cyclist wearing a red jacket and dark pants, riding a bicycle.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane urban road. A large green and red bus is moving forward on the right side of the vehicle. As the vehicle approaches an intersection, the bus, acting as a moving visual obstruction, moves past, suddenly revealing a cyclist who emerges from directly behind it. The cyclist appears to be entering the vehicle's path from the right side of the road, creating an immediate and dangerous 'ghost probing' situation with minimal reaction time for the driver.",
+  "actions": "The self-driving vehicle is initially maintaining a steady speed and direction. As it approaches the intersection, a large bus on its right side moves forward. The vehicle immediately initiates deceleration and prepares for braking as a cyclist suddenly emerges from behind the bus, entering the vehicle's path from the right side of the road. This rapid deceleration is a direct response to the unexpected appearance of the cyclist, aiming to prevent a collision.",
+  "key_objects": "1) Right side: A large green and red bus, approximately 10-15 meters ahead, moving forward and acting as a significant moving visual obstruction. 2) Right side: A cyclist, approximately 5-10 meters away, wearing a red jacket and dark pants, suddenly emerging from behind the moving bus and entering the vehicle's direct path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_013",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several cars are visible at the intersection. A person is lying in the crosswalk with a bicycle next to them. A motorcycle with two people is approaching the crosswalk.",
+  "summary": "The vehicle is approaching an intersection at night. The traffic light is red. A person is lying in the crosswalk with a bicycle next to them, potentially injured. A motorcycle with two people is approaching the crosswalk from the left side. The person lying in the crosswalk creates a dangerous situation as they are directly in the path of oncoming traffic, including the self-driving vehicle if it were to proceed through the intersection. The motorcycle approaching the crosswalk from the left side could potentially hit the person lying in the crosswalk.",
+  "actions": "The vehicle is approaching an intersection and decelerating, likely in response to the red traffic light. The vehicle is preparing to stop before the crosswalk to avoid hitting the person lying in the road. The deceleration is a safety measure to prevent a collision with the person and bicycle in the crosswalk.",
+  "key_objects": "1) Front: A person lying in the crosswalk with a bicycle, approximately 5 meters away, creating an immediate obstacle in the vehicle's path. 2) Left side: A motorcycle with two people, approximately 10 meters away, approaching the crosswalk and potentially posing a threat to the person lying in the road.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

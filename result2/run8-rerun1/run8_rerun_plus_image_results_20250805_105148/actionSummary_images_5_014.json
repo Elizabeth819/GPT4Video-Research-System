@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_014",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child on the right side of the image, a woman with a child on the left side of the image, a man on the left side of the image, and a pedestrian on the right side of the image.",
+  "summary": "The video sequence shows multiple instances of ghost probing behavior. In the first sequence, a child suddenly emerges from the right side of the image, darting into the driving lane from behind a parked vehicle. In the second sequence, a woman with a child suddenly appears from the left side of the image, entering the driving lane from behind a parked vehicle. In the third sequence, a man suddenly emerges from the left side of the image, darting into the driving lane from behind a parked vehicle. In the fourth sequence, a pedestrian suddenly appears from the right side of the image, entering the driving lane from behind a physical obstruction.",
+  "actions": "The child, woman with child, man, and pedestrian all suddenly emerge from behind parked vehicles or physical obstructions, creating immediate collision risks.",
+  "key_objects": "Parked vehicles on both sides of the image, physical obstructions such as buildings and roadside structures.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

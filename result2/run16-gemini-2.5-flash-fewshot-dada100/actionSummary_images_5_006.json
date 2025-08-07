@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.3s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals on a red three-wheeled motorized tricycle; one appears to be driving, the other a passenger.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a clear, two-lane road under a bright, sunny sky. The road is flanked by hillsides with sparse trees and vegetation, creating a somewhat enclosed environment. As the vehicle approaches a slight curve, a red three-wheeled motorized tricycle suddenly emerges from behind a visual obstruction on the right side of the road. This obstruction appears to be a combination of a slight terrain elevation and a cluster of trees/bushes, completely hiding the tricycle until it abruptly enters the main road directly into the vehicle's path. The tricycle continues to move across the road and then proceeds forward, moving out of the immediate danger zone.",
+  "actions": "The self-driving vehicle is initially maintaining a consistent speed as it navigates the road. Upon the sudden and unexpected emergence of the red three-wheeled motorized tricycle from behind the visual obstruction on the right side (around 7.0s-8.0s), the vehicle immediately initiates rapid deceleration. This braking action is a direct response to the minimal reaction time available due to the tricycle's 'ghost probing' behavior, which presented an immediate collision risk. The vehicle also appears to make a slight steering adjustment to the left to further increase the clearance from the suddenly appearing obstacle, prioritizing safety.",
+  "key_objects": "1) Right side: A red three-wheeled motorized tricycle, approximately 5-10 meters away, suddenly emerging from behind a visual obstruction and entering the vehicle's path. It carries a driver and a passenger. 2) Right side: A cluster of trees/bushes and a slight terrain elevation, approximately 10-15 meters away, creating a visual barrier that completely hides the approaching tricycle until it emerges onto the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

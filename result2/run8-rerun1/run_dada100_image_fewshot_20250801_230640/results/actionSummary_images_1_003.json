@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child in a blue jacket and a woman in a pink jacket. The child is seen running across the road from the right side, and the woman follows shortly after.",
+  "summary": "The video sequence shows a vehicle driving at night on a well-lit road. Initially, the road appears clear, but a child suddenly runs across the road from the right side, followed by a woman. The child and the woman emerge from behind a parked vehicle, creating an immediate collision risk.",
+  "actions": "The child runs across the road from the right side, followed by a woman who appears to be chasing after the child. Both characters emerge from behind a parked vehicle, creating a sudden and dangerous situation.",
+  "key_objects": "Parked vehicles on the right side of the road, a child running across the road, and a woman following the child.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

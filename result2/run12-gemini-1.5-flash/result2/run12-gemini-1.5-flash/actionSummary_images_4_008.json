@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_4_008",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of the recording vehicle, other drivers, pedestrians",
+    "summary": "The video shows a car driving on a multi-lane road with light traffic.  The road is relatively clear with buildings and trees lining the sides.  Several other vehicles are visible in the distance, maintaining a safe distance from each other. A pedestrian is visible walking on the sidewalk to the right of the road. No sudden or erratic movements are observed from other vehicles or pedestrians. The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment.  The vehicle is driving at a moderate speed, appropriate for the urban environment and light traffic conditions. There are no observed changes in speed or direction that suggest any immediate need for braking or evasive maneuvers.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_4_008",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "17.3s",
+    "scene_theme": "Urban Intersection",
+    "characters": "Driver of a car, a woman on an electric scooter",
+    "summary": "The video shows a car approaching an intersection.  A woman on an electric scooter, wearing dark clothing, crosses the intersection from right to left, appearing suddenly from behind a bus stop. The scooter is moving at a moderate speed. The car is maintaining a steady speed and appears to be making a slight left turn. The woman on the scooter nearly collides with the car, but the car manages to avoid a collision by slightly adjusting its trajectory.",
+    "actions": "The self-driving vehicle approaches an intersection and makes a slight left turn to avoid a collision with an electric scooter. The vehicle maintains a steady speed throughout the sequence. The slight turn is a reactive maneuver to avoid a potential accident.",
+    "key_objects": "1) Front-Right: Woman on an electric scooter, approximately 5 meters away at closest approach, crossing the intersection from right to left, nearly colliding with the vehicle.  2) Right: Bus stop, partially obscuring the scooter until it enters the intersection.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

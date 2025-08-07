@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "dada_1_017",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a red sedan, driver of a white car",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a red sedan is moving steadily in the same lane, and a white car is in the adjacent lane on the right. The road is clear with moderate traffic.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the red sedan ahead. The vehicle is keeping a safe distance from the red sedan and the white car in the adjacent lane.",
+        "key_objects": "1) Front: A red sedan, approximately 10 meters away, moving steadily in the same lane. 2) Right: A white car, approximately 15 meters away, moving in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_017",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a silver sedan",
+        "summary": "In this segment, the vehicle is driving on a tree-lined urban road. Ahead, a silver sedan is maintaining a steady speed. The road is clear with no immediate obstacles or pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the silver sedan ahead at a safe distance. The vehicle is staying in its lane and there are no sudden changes in speed or direction.",
+        "key_objects": "1) Front: A silver sedan, approximately 20 meters away, maintaining a steady speed and direction.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_017",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a gray sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road with trees lining both sides. The road ahead is clear, with a gray sedan in front. The vehicle maintains a consistent speed and follows the gray sedan closely. There are no sudden movements or obstacles in the path.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the gray sedan ahead. The vehicle is staying in its lane and keeping a safe distance from the car in front. There are no sudden changes in speed or direction.",
+        "key_objects": "1) Front: A gray sedan, approximately 10 meters away, maintaining a steady speed and direction.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_017",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "18.3s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a silver sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road with moderate traffic. The silver sedan ahead is maintaining a consistent speed. There are several motorcycles and cars visible on the right side of the road.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the silver sedan ahead. The vehicle is staying in its lane and keeping a safe distance from the vehicles on the right side.",
+        "key_objects": "1) Front: A silver sedan, approximately 10 meters away, maintaining a consistent speed. 2) Right: Multiple motorcycles and cars, approximately 5 meters away, moving in the same direction.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_017",
+        "segment_id": "segment_004",
+        "Start_Timestamp": "20.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "21.1s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road with trees lining both sides. There are multiple vehicles visible ahead, including a white car on the left side and a gray car on the right side. The road is relatively clear, with no immediate obstacles.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and staying in its lane. The vehicle is not making any sudden movements or changes in direction, indicating a steady driving pattern.",
+        "key_objects": "1) Left side: A white car, approximately 10 meters away, parked and partially blocking the view. 2) Right side: A gray car, approximately 5 meters away, moving forward at a steady pace.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

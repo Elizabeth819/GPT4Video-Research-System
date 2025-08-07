@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_013",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult person on a bicycle/scooter, wearing dark clothing, involved in a fall. Other pedestrians are visible on the right side sidewalk.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban road at night, approaching a busy intersection located under an overpass. Initially, a bus is visible ahead on the right side of the road. As the vehicle proceeds and nears a marked pedestrian crosswalk, a person on a bicycle or scooter suddenly emerges from the right side of the road. This person appears from behind a visual obstruction, likely the bus or the buildings/structures lining the street, and immediately enters the crosswalk directly into the vehicle's path. The sudden appearance provides minimal reaction time, leading to an immediate and dangerous situation. The vehicle collides with the person, causing them to fall onto the crosswalk along with their bicycle/scooter. The vehicle then comes to a complete stop.",
+  "actions": "The self-driving vehicle is initially moving forward, maintaining its speed as it approaches the intersection. Upon the sudden and unexpected emergence of a person on a bicycle/scooter from behind a visual obstruction on the right side, directly into the crosswalk, the vehicle immediately initiates rapid deceleration and emergency braking. This swift action is taken to mitigate the collision and prioritize safety in response to the unannounced appearance of the cyclist. The vehicle successfully comes to a complete stop after the impact.",
+  "key_objects": "1) Right side: An adult person on a bicycle/scooter, approximately 3-5 meters away, suddenly emerging from behind a visual obstruction (likely a bus or roadside buildings/structures) and entering the crosswalk directly into the vehicle's path, resulting in a fall. 2) Right side: A bus, initially ahead of the vehicle, which acts as a significant visual obstruction, obscuring the view of the cyclist until their sudden emergence. 3) Right side: Buildings and roadside structures, which contribute to the visual barrier, preventing early detection of the cyclist. 4) Center: A marked pedestrian crosswalk, where the incident occurs.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

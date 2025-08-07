@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child in a blue jacket suddenly appears from the right side of the image, a woman in a pink jacket appears later to assist the child.",
+  "summary": "The video sequence shows a vehicle driving at night on a well-lit street. Initially, the road appears clear, but at around 2 seconds, a child suddenly emerges from the right side of the image, directly into the vehicle's path. The child was previously hidden by a physical obstruction (a parked vehicle). This is a clear case of 'ghost probing'. The vehicle needs to take immediate action to avoid a collision. Subsequently, a woman in a pink jacket appears to assist the child.",
+  "actions": "The child suddenly appears from the right side of the image, directly into the vehicle's path. The woman in a pink jacket appears later to assist the child.",
+  "key_objects": "Child in blue jacket, woman in pink jacket, parked vehicles on the right side of the image.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

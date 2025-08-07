@@ -1,0 +1,58 @@
+2025-07-26 22:47:47,346 - INFO - Run 7 Enhanced: 添加Few-shot Examples版本开始
+2025-07-26 22:47:47,347 - INFO - Azure OpenAI API配置成功
+2025-07-26 22:47:47,347 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-26 22:47:47,347 - INFO - Deployment: gpt-4o-global
+2025-07-26 22:47:47,347 - INFO - Temperature: 0, Enhanced with Few-shot Examples
+2025-07-26 22:47:47,356 - INFO - 加载ground truth标签: 101个视频
+2025-07-26 22:47:47,356 - INFO - 开始Run 7 Enhanced实验，处理 20 个视频
+2025-07-26 22:47:47,435 - INFO - 处理视频 1/20: images_1_001.avi
+2025-07-26 22:48:02,489 - INFO - 视频 images_1_001.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-26 22:48:02,490 - INFO - 处理视频 2/20: images_1_002.avi
+2025-07-26 22:48:17,993 - INFO - 视频 images_1_002.avi: GT=5s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:48:17,994 - INFO - 处理视频 3/20: images_1_003.avi
+2025-07-26 22:48:34,656 - INFO - 视频 images_1_003.avi: GT=2s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:48:34,657 - INFO - 处理视频 4/20: images_1_004.avi
+2025-07-26 22:48:49,809 - INFO - 视频 images_1_004.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-26 22:48:49,810 - INFO - 处理视频 5/20: images_1_005.avi
+2025-07-26 22:49:06,286 - INFO - 视频 images_1_005.avi: GT=8s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:49:06,286 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/VIP/run7_enhanced_fewshot_results/run7_enhanced_intermediate_5videos_20250726_224747.json
+2025-07-26 22:49:06,286 - INFO - 处理视频 6/20: images_1_006.avi
+2025-07-26 22:49:21,138 - INFO - 视频 images_1_006.avi: GT=9s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:49:21,139 - INFO - 处理视频 7/20: images_1_007.avi
+2025-07-26 22:49:37,424 - INFO - 视频 images_1_007.avi: GT=6s: ghost probing, 检测=none, 评估=FN
+2025-07-26 22:49:37,425 - INFO - 处理视频 8/20: images_1_008.avi
+2025-07-26 22:49:53,097 - INFO - 视频 images_1_008.avi: GT=3s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:49:53,097 - INFO - 处理视频 9/20: images_1_009.avi
+2025-07-26 22:50:07,014 - INFO - 视频 images_1_009.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-26 22:50:07,014 - INFO - 处理视频 10/20: images_1_010.avi
+2025-07-26 22:50:31,805 - INFO - 视频 images_1_010.avi: GT=15s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:50:31,807 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/VIP/run7_enhanced_fewshot_results/run7_enhanced_intermediate_10videos_20250726_224747.json
+2025-07-26 22:50:31,807 - INFO - 处理视频 11/20: images_1_011.avi
+2025-07-26 22:50:46,546 - INFO - 视频 images_1_011.avi: GT=11s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:50:46,547 - INFO - 处理视频 12/20: images_1_012.avi
+2025-07-26 22:51:02,619 - INFO - 视频 images_1_012.avi: GT=11s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:51:02,620 - INFO - 处理视频 13/20: images_1_013.avi
+2025-07-26 22:51:19,213 - INFO - 视频 images_1_013.avi: GT=8s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:51:19,214 - INFO - 处理视频 14/20: images_1_014.avi
+2025-07-26 22:51:33,852 - INFO - 视频 images_1_014.avi: GT=5s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:51:33,853 - INFO - 处理视频 15/20: images_1_015.avi
+2025-07-26 22:51:48,088 - INFO - 视频 images_1_015.avi: GT=5s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:51:48,091 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/VIP/run7_enhanced_fewshot_results/run7_enhanced_intermediate_15videos_20250726_224747.json
+2025-07-26 22:51:48,092 - INFO - 处理视频 16/20: images_1_016.avi
+2025-07-26 22:52:04,679 - INFO - 视频 images_1_016.avi: GT=4s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-26 22:52:04,680 - INFO - 处理视频 17/20: images_1_017.avi
+2025-07-26 22:52:31,405 - INFO - 视频 images_1_017.avi: GT=17s: ghost probing, 检测=none, 评估=FN
+2025-07-26 22:52:31,406 - INFO - 处理视频 18/20: images_1_018.avi
+2025-07-26 22:52:46,760 - INFO - 视频 images_1_018.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-26 22:52:46,761 - INFO - 处理视频 19/20: images_1_019.avi
+2025-07-26 22:53:01,511 - INFO - 视频 images_1_019.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-26 22:53:01,512 - INFO - 处理视频 20/20: images_1_020.avi
+2025-07-26 22:53:15,328 - INFO - 视频 images_1_020.avi: GT=none, 检测=none, 评估=TN
+2025-07-26 22:53:15,329 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/VIP/run7_enhanced_fewshot_results/run7_enhanced_intermediate_20videos_20250726_224747.json
+2025-07-26 22:53:15,330 - INFO - 最终结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/VIP/run7_enhanced_fewshot_results/run7_enhanced_final_results_20250726_224747.json
+2025-07-26 22:53:15,331 - INFO - === Run 7 Enhanced Performance Metrics ===
+2025-07-26 22:53:15,331 - INFO - 精确度: 0.706 (70.6%)
+2025-07-26 22:53:15,331 - INFO - 召回率: 0.857 (85.7%)
+2025-07-26 22:53:15,331 - INFO - F1分数: 0.774 (77.4%)
+2025-07-26 22:53:15,331 - INFO - 准确率: 0.650 (65.0%)
+2025-07-26 22:53:15,331 - INFO - TP: 12, FP: 5, TN: 1, FN: 2, ERROR: 0

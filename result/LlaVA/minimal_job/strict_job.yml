@@ -1,0 +1,55 @@
+# 严格版LLaVA检测作业 - 验证处理时间
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: strict-llava-validation
+description: "Strict LLaVA Ghost Probing Detection with detailed timing validation"
+
+# Compute configuration  
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code source
+code: .
+
+# Strict validation job
+command: >
+  echo "🚀 开始严格版LLaVA验证作业" &&
+  python --version &&
+  echo "📋 检查GPU和CUDA环境..." &&
+  nvidia-smi &&
+  python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA可用: {torch.cuda.is_available()}')" &&
+  echo "🔧 安装依赖包..." &&
+  pip install decord transformers accelerate Pillow &&
+  echo "📁 检查输入数据路径..." &&
+  env | grep AZUREML_DATAREFERENCE_video_data &&
+  echo "🔍 运行严格版验证..." &&
+  timeout 7200 python strict_llava_detector.py &&
+  echo "✅ 严格版验证作业完成"
+
+# Input data  
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+# Environment variables
+environment_variables:
+  CUDA_VISIBLE_DEVICES: "0"
+  TRANSFORMERS_CACHE: "/tmp/transformers"
+  TORCH_CUDA_ARCH_LIST: "7.0;7.5;8.0;8.6"
+
+# Experiment settings
+experiment_name: strict-llava-validation-experiment

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_047",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist, pedestrians",
+        "summary": "In this segment, the vehicle is driving on a rural road. Ahead, a white sedan is moving slowly. A motorcyclist and several pedestrians are visible on the right side of the road. The motorcyclist is approaching the self-driving vehicles path, and pedestrians are crossing the road.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the white sedan ahead. The vehicle is preparing to decelerate due to the motorcyclist and pedestrians crossing the road.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving slowly. 2) Right: A motorcyclist, approximately 5 meters away, approaching the vehicles path. 3) Right: Several pedestrians, approximately 5 meters away, crossing the road.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

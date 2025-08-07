@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_009",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "6.1s",
+    "scene_theme": "Night driving",
+    "sentiment": "Negative",
+    "characters": "Two individuals, appearing to be a man and a woman, crossing the road at night.  The man is wearing dark clothing, and the woman is wearing lighter-colored clothing. They appear to be adults.",
+    "summary": "The video shows a nighttime driving scene. Two adults, a man and a woman, are observed crossing the road from the left side. They cross in front of the vehicle, creating a potential collision hazard. The vehicle maintains a consistent speed throughout the observed period. The individuals appear to be walking at a moderate pace.",
+    "actions": "The vehicle maintains a consistent speed and direction throughout the observed 6.1 seconds. There is no indication of braking or lane changes. The vehicle's speed appears appropriate for the nighttime driving conditions and the presence of streetlights.",
+    "key_objects": "1) Front: Two adults (one appearing male, one appearing female), approximately 10 meters away at the start, crossing the road from left to right, directly in front of the vehicle. This action creates a potential collision hazard. 2) Front: A vehicle, approximately 50 meters away, traveling in the same direction, maintaining a safe distance.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

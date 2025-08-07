@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_004",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two pedestrians, a male in a white shirt and a female in a blue shirt, are crossing the street. A motorcyclist with an orange box is on the left side of the road. Several other people are on the sidewalks.",
+  "summary": "The vehicle is approaching an intersection with pedestrians crossing. A male in a white shirt and a female in a blue shirt are crossing the street from left to right. A motorcyclist with an orange box is on the left side of the road, moving into the intersection. The traffic light is red for the vehicle, and the vehicle is approaching the intersection. At approximately 9.5 seconds, a motorcyclist suddenly appears from the left side of the road, crossing into the vehicle's path, resulting in a collision.",
+  "actions": "The vehicle is approaching an intersection and maintains its speed initially. As the vehicle approaches the intersection, the driver likely anticipates the need to stop due to the red light and the presence of pedestrians crossing. The vehicle does not decelerate until the motorcyclist suddenly appears, at which point a collision occurs.",
+  "key_objects": "1) Left side: A motorcyclist, approximately 2 meters away, suddenly appearing from the left side of the road and crossing into the vehicle's path, leading to a collision. 2) Left side: A motorcyclist with an orange box, approximately 10 meters away, moving into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

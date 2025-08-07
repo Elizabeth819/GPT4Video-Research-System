@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_1_020",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a dark road at night. Initially, a motorcycle is seen on the right side of the road. As the vehicle progresses, the road appears clear with occasional street lights. Towards the end, a pedestrian is seen on the right side of the road, and another vehicle is approaching from the opposite direction with its headlights on.",
+        "actions": "The self-driving vehicle maintains a steady speed throughout the segment. The vehicles headlights are on, providing visibility in the dark. The driver is cautious due to the presence of the motorcycle and pedestrian on the right side, as well as the approaching vehicle from the opposite direction.",
+        "key_objects": "1) Right side: A motorcycle, approximately 5 meters away, moving forward. 2) Right side: A pedestrian, approximately 10 meters away, walking along the roadside. 3) Front: An approaching vehicle, approximately 20 meters away, with headlights on.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

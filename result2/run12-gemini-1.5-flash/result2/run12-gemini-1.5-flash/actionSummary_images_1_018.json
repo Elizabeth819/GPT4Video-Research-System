@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_1_018",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "characters": "The observer vehicle driver, other drivers, pedestrians.",
+    "summary": "The video shows the observer vehicle driving on a city street with parked cars on both sides.  Traffic is relatively light.  Several pedestrians are visible walking on the sidewalks and crossing the street.  The observer vehicle maintains a consistent speed and distance from the vehicle ahead. No sudden or erratic movements are observed from other vehicles or pedestrians. The road is clear of significant obstacles.",
+    "actions": "The observer vehicle maintains a consistent speed and follows the vehicle in front at a safe distance throughout the 10-second segment.  The vehicle's speed appears to be adjusted slightly to maintain a safe following distance, indicating adaptive cruise control or driver attentiveness to traffic conditions.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_018",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.6s",
+    "End_Timestamp": "10.6s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of the observer vehicle, other drivers, a motorcyclist",
+    "summary": "The video shows the observer vehicle driving on a city street with parked cars on both sides.  Traffic is relatively light. A white sedan is directly in front of the observer vehicle, maintaining a safe distance. A motorcyclist is visible further ahead on the left side of the road. No immediate dangers are apparent in this single frame.",
+    "actions": "The observer vehicle is driving at a moderate speed, maintaining a safe following distance from the vehicle ahead.  The driver appears to be navigating a relatively clear section of road with no immediate need for braking or lane changes.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

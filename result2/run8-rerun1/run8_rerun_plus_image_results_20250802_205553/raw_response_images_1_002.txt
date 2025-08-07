@@ -1,0 +1,20 @@
+```json
+{
+    "video_id": "images_1_002",
+    "segment_id": "full_video",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Several pedestrians, including a child and an adult, cyclists, and drivers. The child is wearing dark clothing and is seen darting across the road from the right side. The adult is seen walking on the right side of the road. Cyclists are present on the right side of the road.",
+    "summary": "The video sequence shows a vehicle driving through a busy street with several pedestrians and cyclists. At multiple points, pedestrians and cyclists suddenly emerge from behind parked vehicles and roadside structures, creating immediate collision risks. The child darting across the road from the right side is a clear case of ghost probing.",
+    "actions": "The child suddenly runs across the road from the right side, emerging from behind a parked vehicle. Other pedestrians and cyclists are seen moving along the roadside, with some crossing the road.",
+    "key_objects": "Parked vehicles on the right side, roadside structures, pedestrians, cyclists, and moving vehicles.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "emergency brake",
+        "direction_control": "straight",
+        "lane_control": "maintain current lane"
+    }
+}
+```

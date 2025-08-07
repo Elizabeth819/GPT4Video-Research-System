@@ -1,0 +1,66 @@
+[
+    {
+        "video_id": "dada_22_004",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a clear day with the self-vehicle driving on a multi-lane highway.  Traffic is relatively light. The self-vehicle maintains a consistent speed and distance from the car in front. No pedestrians or other unexpected objects appear in the driving path during the 5-second segment. The road is clear and there are no apparent obstacles.",
+        "actions": "The self-vehicle maintains a consistent speed and lane position throughout the 5-second video segment.  The driver appears to be maintaining a safe following distance from the vehicle ahead. There are no observable changes in speed or direction.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_22_004",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a highway. The road is clear with good visibility.  The car maintains a consistent speed and lane position throughout the 3.3-second segment. No pedestrians or other vehicles exhibit erratic or dangerous behavior. There are no notable events or near misses.",
+        "actions": "The vehicle maintains a consistent speed and lane position throughout the observed segment.  There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle ahead. The driving behavior suggests a calm and controlled driving style.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep_right"
+        }
+    },
+    {
+        "video_id": "dada_22_004",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a highway. The road is clear with no pedestrians or other immediate hazards.  The car maintains a consistent speed and lane position throughout the 3.3-second segment. The sky is clear and sunny.  There are other vehicles visible in the distance, but they maintain a safe distance and do not pose any immediate threat.",
+        "actions": "The vehicle maintains a consistent speed and lane position throughout the observed segment.  There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle ahead. The driving behavior suggests a routine highway driving scenario.",
+        "next_action": {
+            "speed_control": "maintain_speed",
+            "direction_control": "straight",
+            "lane_control": "keep_right"
+        }
+    },
+    {
+        "video_id": "dada_22_004",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "15.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a clear day with the self-vehicle driving on a highway. The road is relatively empty with no immediate obstacles or other vehicles closely approaching.  The self-vehicle maintains a steady speed and stays in its lane. No pedestrians or cyclists are visible in the frames provided.",
+        "actions": "The self-vehicle maintains a consistent speed and remains in its lane. There are no observable changes in speed or direction during this short segment. The driving appears smooth and controlled, suggesting a lack of immediate need for braking or maneuvering.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep in lane"
+        }
+    }
+]

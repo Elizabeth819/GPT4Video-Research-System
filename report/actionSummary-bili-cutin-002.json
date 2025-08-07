@@ -1,0 +1,138 @@
+[
+    {
+        "video_id": "002",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "9.84s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white Tesla, driver of a white van",
+        "summary": "In this segment, the self-driving vehicle is traveling on a busy road. A white Tesla on the left side suddenly cuts in from behind the self-driving vehicle and merges into the lane in front of it. This action is unexpected and could cause frustration for the driver. The self-driving vehicle maintains its position and speed, keeping a safe distance from the white van ahead.",
+        "actions": "The self-driving vehicle maintains its position and speed despite the white Tesla cutting in from the left. The driver is advised to stay calm and keep a safe distance from the vehicle ahead.",
+        "key_objects": "1) Left side: A white Tesla, approximately 1 meter away, suddenly cutting in from behind the self-driving vehicle and merging into the lane in front. 2) Front: A white van, approximately 3 meters away, maintaining its lane and speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "maintain current speed",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "10.6s",
+        "sentiment": "Negative",
+        "End_Timestamp": "19.3s",
+        "scene_theme": "Dramatic",
+        "characters": "White Tesla, Red Car, White Van",
+        "summary": "In this segment, the self-driving vehicle is approaching a traffic light. The white Tesla in front is moving forward, and a red car is seen on the right side. As the vehicles approach the intersection, the white Tesla is rear-ended by another vehicle. The driver comments on the incident, mentioning that many drivers do not follow traffic rules and will eventually face consequences.",
+        "actions": "The self-driving vehicle maintains a steady speed while approaching the traffic light. The white Tesla in front is rear-ended by another vehicle, causing a sudden stop. The self-driving vehicle needs to be cautious and prepare to stop to avoid a collision.",
+        "key_objects": "1) Front: A white Tesla, approximately 5 meters away, moving forward and then rear-ended by another vehicle. 2) Right: A red car, approximately 3 meters away, moving forward. 3) Front-right: A white van, approximately 10 meters away, moving forward.",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "20.3s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "29.0s",
+        "scene_theme": "Dramatic",
+        "characters": "White SUV, other vehicles",
+        "summary": "In this segment, the self-driving vehicle is traveling on a road at night. The driver mentions that there is no need to get angry or engage in a road rage incident. The white SUV ahead is moving to the right side and has turned on its indicator, suggesting it is about to make a U-turn. The self-driving vehicle maintains a steady speed and distance from the white SUV.",
+        "actions": "The self-driving vehicle maintains a steady speed and distance from the white SUV ahead, which is moving to the right side and signaling a U-turn. The driver is cautious and does not engage in any aggressive driving behavior.",
+        "key_objects": "1) Front: A white SUV, approximately 5 meters away, moving to the right side and signaling a U-turn. 2) Left: Multiple vehicles, approximately 10 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "29.966732429190074s",
+        "sentiment": "Negative",
+        "End_Timestamp": "38.66675152153558s",
+        "scene_theme": "Dramatic",
+        "characters": "White SUV, self vehicle",
+        "summary": "In this segment, the self vehicle is driving on a road at night. A white SUV is seen ahead in the right lane. The white SUV suddenly makes a U-turn from the right lane to the left lane, crossing the path of the self vehicle. The driver of the self vehicle comments on the unexpected maneuver of the white SUV, noting that the SUV should have yielded. The self vehicle maintains a steady speed and lane position throughout the sequence.",
+        "actions": "The self vehicle maintains a steady speed and lane position, likely to avoid a collision with the white SUV that is making a U-turn. The driver anticipates the SUVs movement and prepares to react if necessary.",
+        "key_objects": "1) Front-right: A white SUV, approximately 10 meters away, making a U-turn from the right lane to the left lane, directly crossing the path of the self vehicle.",
+        "key_actions": "U-turn of the white SUV",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "39.6s",
+        "sentiment": "Negative",
+        "End_Timestamp": "48.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black car, driver of a white car",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road at night. The black car in the middle lane suddenly brakes and then changes lanes to the left, cutting in front of the self-driving vehicle. The self-driving vehicle continues straight, maintaining its lane. The driver comments on the sudden braking and lane change, noting that the other driver is at fault for not signaling properly.",
+        "actions": "The self-driving vehicle maintains its lane and speed despite the sudden lane change by the black car. The driver expresses concern about the unexpected behavior of the black car, which could have led to a collision.",
+        "key_objects": "1) Front-left: A black car, approximately 5 meters away, suddenly braking and changing lanes to the left, cutting in front of the self-driving vehicle. 2) Front: A white car, approximately 10 meters away, maintaining its lane and speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "49.3s",
+        "sentiment": "Negative",
+        "End_Timestamp": "58.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver",
+        "summary": "In this segment, the vehicle is driving on a highway at night. The driver mentions the importance of using turn signals when changing lanes. The driver notices headlights coming from the opposite direction, indicating a potential wrong-way driver. The driver advises to move to the right side of the road to avoid a collision.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while driving on the highway. The driver is alert and notices headlights from an oncoming vehicle, indicating a potential wrong-way driver. The driver advises to move to the right side of the road to avoid a collision.",
+        "key_objects": "1) Front: Headlights from an oncoming vehicle, approximately 100 meters away, moving towards the self-driving vehicle, indicating a potential wrong-way driver.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight right shift"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "58.96679607034176s",
+        "sentiment": "Negative",
+        "End_Timestamp": "67.66681516268726s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, Tricycle driver",
+        "summary": "In this segment, the self-driving vehicle is traveling on a highway at night. A tricycle is seen driving in the wrong direction at high speed in the fast lane, posing a significant danger. The driver comments on the tricycles reckless behavior, noting that it would be somewhat understandable if it were in the emergency lane. The tricycle continues to approach rapidly, creating a hazardous situation.",
+        "actions": "The self-driving vehicle maintains its lane and speed while the driver expresses concern about the oncoming tricycle. The vehicle does not take any evasive action in the frames provided, but the driver is clearly aware of the danger posed by the tricycle.",
+        "key_objects": "1) Front: A tricycle, approximately 50 meters away, driving in the wrong direction at high speed in the fast lane, posing an immediate threat to the self-driving vehicle.",
+        "key_actions": "wrong-way driving",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "change to right lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "68.633s",
+        "sentiment": "Negative",
+        "End_Timestamp": "77.333s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self vehicle, oncoming vehicle",
+        "summary": "In this segment, the self vehicle is driving on a two-lane road at night. The driver notices an oncoming vehicle with high beams on, which suddenly swerves into the self vehicles lane without reducing speed. The oncoming vehicle is approaching rapidly, creating a dangerous situation.",
+        "actions": "The self vehicle is maintaining its lane and speed initially. As the oncoming vehicle swerves into the self vehicles lane and approaches rapidly, the driver needs to take immediate action to avoid a collision.",
+        "key_objects": "1) Front: An oncoming vehicle with high beams on, approximately 50 meters away, rapidly approaching the self vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight right shift"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_012",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver's perspective on a city street. There are several pedestrians visible, some crossing the street and others walking on the sidewalks. The pedestrians appear to be of various ages and are dressed in casual clothing. There are also numerous parked cars lining the right side of the street. The driver is operating a vehicle.",
+  "summary": "The vehicle is driving down a street with parked cars on the right. Pedestrians are crossing the street. The vehicle maintains its speed and direction. There are several instances where pedestrians cross the street from behind parked cars, creating potential ghost probing situations.",
+  "actions": "The vehicle is driving straight down the road, maintaining a consistent speed. The driver is likely navigating through moderate traffic and adjusting speed to maintain a safe following distance from the car in front. The driver is also monitoring pedestrians on the sidewalks and those crossing the street.",
+  "key_objects": "1) Right side: Parked cars, close distance, obstruct the view of pedestrians potentially crossing the street. 2) Right side: Pedestrians crossing the street from behind parked cars, close distance, creating potential ghost probing situations.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

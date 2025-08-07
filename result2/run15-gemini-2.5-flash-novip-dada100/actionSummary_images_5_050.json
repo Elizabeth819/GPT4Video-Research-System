@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_050",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals are riding a motorcycle. The driver appears to be an adult male wearing dark clothing. The passenger appears to be a young female, possibly a child or teenager, wearing a pink or red jacket and carrying a pink backpack.",
+  "summary": "The video begins with the autonomous vehicle stationary at an intersection, indicated by a speed of 0 km/h. A pedestrian crossing is visible directly in front of the vehicle. On the left side of the road, there is a median with bushes and trees acting as a visual obstruction. On the right, there are buildings and parked vehicles. Suddenly, a motorcycle with two riders emerges from behind the median on the left, darting across the pedestrian crossing directly into the vehicle's path. Despite the autonomous vehicle being stationary, a collision occurs with the motorcycle, causing both riders to fall onto the road directly in front of the vehicle. The riders remain on the ground for the remainder of the observed frames, with the passenger attempting to sit up.",
+  "actions": "The vehicle is stationary at the beginning of the segment, with a recorded speed of 0 km/h. It maintains this stopped position throughout the entire observed duration (0.0s to 4.0s). The driver's action was to remain stopped at the intersection, which prevented the vehicle from accelerating into the path of the suddenly emerging motorcycle. The vehicle did not change speed or direction, indicating a cautious and static posture at the intersection, which ultimately mitigated the severity of the collision with the motorcycle.",
+  "key_objects": "1) Left side of the image: A median with dense bushes and trees. This serves as a significant physical obstruction, completely blocking the view of any approaching entities from the left side road until they emerge directly into the intersection. 2) Left side of the image, then center: A motorcycle carrying two riders (one driver, one passenger). This motorcycle suddenly emerged from behind the median, darting across the pedestrian crossing and directly into the vehicle's immediate path, leading to a collision. This sudden appearance from behind an obstruction with minimal warning constitutes a ghost probing incident. 3) Right side of the image: A white SUV parked near a building. This vehicle is stationary and does not directly impact the immediate incident. 4) Right side of the image: A red car parked further down the road. This vehicle is stationary and does not directly impact the immediate incident.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

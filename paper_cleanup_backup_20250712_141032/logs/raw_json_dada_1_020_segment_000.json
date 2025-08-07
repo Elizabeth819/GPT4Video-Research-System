@@ -1,0 +1,19 @@
+
+{
+  "video_id": "dada_1_020",
+  "segment_id": "segment_000",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "9.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dramatic",
+  "characters": "Motorcyclist on the right side",
+  "summary": "In this segment, the vehicle is driving on a dimly lit road at night. A motorcyclist is seen on the right side of the road, initially ahead of the vehicle. The motorcyclist moves further to the right and out of the vehicles path. The road ahead is clear with no immediate obstructions.",
+  "actions": "The self-driving vehicle maintains a steady speed and direction as the motorcyclist moves out of its path. The vehicle does not need to take any evasive actions as the road ahead is clear.",
+  "key_objects": "1) Right side: A motorcyclist, approximately 5 meters away, moving further to the right and out of the vehicles path.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "consistent speed driving",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

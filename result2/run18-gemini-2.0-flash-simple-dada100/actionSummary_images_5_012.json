@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_012",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene features the driver of a vehicle, other vehicles on the road, and pedestrians and motorcyclists on the sides of the road. The driver's age and gender are not discernible. Other vehicles include cars and motorcycles. Pedestrians appear to be adults.",
+  "summary": "The vehicle starts driving on a road with trees on both sides. It encounters another car driving in the opposite direction. As the vehicle continues, it enters a more populated area with buildings on both sides of the road. The vehicle approaches an intersection with a motorcyclist on the right side of the road.",
+  "actions": "The vehicle is driving straight on a two-lane road. The speed appears to be moderate and consistent. The driver maintains the current lane. The vehicle slows down as it approaches an intersection.",
+  "key_objects": "1) Right side: A motorcyclist is waiting at the intersection, potentially posing a risk if they enter the roadway without yielding. Distance: Medium, Behavior impact: Potential collision if motorcyclist proceeds without yielding.\n2) Front: Another car is approaching from the opposite direction. Distance: Far, Behavior impact: Requires the driver to stay in their lane.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

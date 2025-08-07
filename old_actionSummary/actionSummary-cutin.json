@@ -1,0 +1,14 @@
+[
+    {
+        "Start_Timestamp": "0.4666666666666667s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.0s",
+        "scene_theme": "Dramatic",
+        "characters": "White car",
+        "summary": "In this video sequence, the observer vehicle is driving on a multi-lane road. Initially, the road is clear, but as the video progresses, a white car from the right lane starts to cut into the observer vehicles lane. The white car continues to move into the lane, getting closer to the observer vehicle, indicating a potential cut-in behavior. The observer vehicle needs to be cautious and possibly brake to avoid a collision.",
+        "actions": "The observer vehicle is driving at a steady speed initially. As the white car starts to cut into its lane, the observer vehicle should prepare to brake to avoid a collision. The white cars movement is abrupt and poses a risk of collision.",
+        "key_objects": "1) Right side: A white car, initially in the right lane, starts to cut into the observer vehicles lane, getting progressively closer. The distance between the white car and the observer vehicle decreases rapidly, indicating a potential cut-in behavior.",
+        "key_actions": "cut-in: 5.133333333333334s",
+        "next_action": "Due to the white car cutting into the observer vehicles lane, it is recommended for the observer vehicle to brake and maintain a safe distance. Next action: Speed control: Brake, Direction control: Stabilize steering, Lane control: Maintain current lane"
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "video_id": "dada_25_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Rural Road",
+        "characters": "Motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road with a speed limit of 10 km/h. A motorcyclist is seen ahead, initially moving straight and then turning left towards the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the motorcyclist. The vehicles speed is consistent, and it is keeping a safe distance from the motorcyclist.",
+        "key_objects": "1) Front: A motorcyclist, approximately 20 meters away, initially moving straight and then turning left towards the vehicles path.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_25_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a road with a white sedan parked on the right side. The white sedan starts to move forward, potentially cutting into the lane of the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the white sedan on the right side. The vehicle is prepared to decelerate if the white sedan cuts into its lane.",
+        "key_objects": "1) Right side: A white sedan, approximately 2 meters away, parked initially but starts moving forward, potentially cutting into the observer vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_25_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.9s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. A white sedan is parked on the roadside, and there is a blue car parked ahead. The driver mentions that the white sedan is about to move.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the parked white sedan. The vehicles speed remains consistent, and it is keeping a safe distance from the parked cars.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, parked on the roadside, possibly about to start moving. 2) Front-left: A blue car, approximately 10 meters away, parked and blocking part of the view.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_8_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a green car, truck driver",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A green car is ahead, moving from the left lane to the right lane, while a large truck is on the right side, moving straight. The green cars movement is abrupt and close to the self-driving vehicle, potentially causing a cut-in situation.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the busy road. The vehicle is keeping a safe distance from the truck on the right and monitoring the green cars movement closely.",
+        "key_objects": "1) Front-left: A green car, approximately 5 meters away, moving from the left lane to the right lane, potentially causing a cut-in situation. 2) Right: A large truck, approximately 3 meters away, moving straight, posing no immediate threat.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_8_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a green car, driver of a red truck",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A green car is ahead, and a red truck is on the right side. The road is partially blocked by red barriers, creating a narrow passage. The green car is moving forward, while the red truck is stationary.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the narrow passage created by the red barriers. The vehicle is keeping a safe distance from the green car ahead and the stationary red truck on the right.",
+        "key_objects": "1) Front: A green car, approximately 10 meters away, moving forward. 2) Right side: A red truck, approximately 2 meters away, stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_8_007",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.2s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a road with a red truck on the right side and red barriers on the left side. The truck is parked, partially blocking the view ahead.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through a narrow path between the red truck on the right and the red barriers on the left. The vehicle is being cautious due to the limited space and potential obstacles ahead.",
+        "key_objects": "1) Right side: A red truck, approximately 2 meters away, parked and partially blocking the view. 2) Left side: Red barriers, approximately 1 meter away, creating a narrow path for the vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

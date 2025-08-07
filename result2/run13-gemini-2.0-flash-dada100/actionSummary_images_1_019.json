@@ -1,0 +1,40 @@
+{
+  "video_id": "images_1_019",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.6s",
+  "summary": "The car is driving on a narrow road. At 3.0s, a man wearing a blue shirt and dark pants suddenly appears from behind a building on the right side of the road. He is walking into the road. At 4.0s, the man falls onto the road. From 4.0s to 13.6s, the man is lying on the road. At 13.6s, two people are walking on the right side of the road.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "blue shirt, dark pants",
+      "age": "adult",
+      "transportation_method": "walking",
+      "behavior": "suddenly appears from behind a building and falls onto the road"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "age": "adult",
+      "transportation_method": "walking",
+      "behavior": "walking on the right side of the road"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "age": "adult",
+      "transportation_method": "walking",
+      "behavior": "walking on the right side of the road"
+    }
+  ],
+  "key_objects": [
+    "Right side: A man wearing a blue shirt and dark pants, approximately 5 meters away, suddenly appears from behind a building and falls onto the road, creating a ghost probing situation."
+  ],
+  "actions": "The vehicle is driving on a narrow road. The driver is maintaining a consistent speed, likely navigating the road based on its narrow width and the surrounding buildings.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "ghost probing"
+}

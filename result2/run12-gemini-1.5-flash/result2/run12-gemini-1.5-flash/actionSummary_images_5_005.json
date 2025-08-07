@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_5_005",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "Driver of a car, motorcyclist",
+    "summary": "The video shows a car approaching an intersection. Several large trucks are parked or stopped on both sides of the road near the intersection, partially obstructing the view.  A motorcyclist, wearing dark clothing, is visible further down the road.  Between frames 7 and 8, the motorcyclist falls from their motorcycle in the middle of the road. The fall appears sudden and unexpected, with no other vehicles immediately involved in the incident. The car continues to approach the scene.",
+    "actions": "The self-driving vehicle maintains a consistent speed, approaching the intersection.  The vehicle does not appear to brake or change lanes during the observed period.",
+    "key_objects": "1) Front: Motorcyclist, approximately 15 meters away at the start of the sequence, falling from motorcycle in the middle of the road between frames 7 and 8.  2) Right: Several large trucks parked near the intersection, partially obstructing the view.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_005",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.5s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "A male motorcyclist wearing dark clothing and a helmet.",
+    "summary": "The video shows a motorcyclist who has fallen from his motorcycle. The motorcycle is lying on its side in the middle of the road. The motorcyclist appears to be attempting to pick up his motorcycle.  Several large trucks are visible in the background, parked or stopped near the intersection. The scene appears to be an intersection or a wide area where trucks are maneuvering. The weather appears overcast.",
+    "actions": "The self-driving vehicle is stationary, observing the scene. The motorcyclist has fallen from his motorcycle and is attempting to right it. There is no immediate action required from the self-driving vehicle.",
+    "key_objects": "Front: A fallen motorcycle, approximately 10 meters away, stationary. The motorcyclist is attempting to pick it up. This does not pose an immediate threat to the self-driving vehicle.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

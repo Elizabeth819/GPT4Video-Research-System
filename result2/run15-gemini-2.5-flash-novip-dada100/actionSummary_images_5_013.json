@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_013",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a bicycle, wearing dark clothing, gender and age are not clearly discernible.",
+  "summary": "The video begins with the autonomous vehicle driving at night under an elevated overpass structure. The road surface appears wet, reflecting the numerous city lights from buildings and streetlights. The vehicle proceeds forward, passing under the overpass, and approaches a busy intersection. A red bus is visible on the right side of the road, initially appearing to be stopped or moving slowly. As the vehicle draws closer to the intersection, a red traffic light becomes clearly visible ahead, indicating that the vehicle should stop. Suddenly, at approximately 7.0 seconds into the segment, a person on a bicycle rapidly emerges from behind the red bus and other roadside structures on the right side of the road, darting into the crosswalk directly in the vehicle's path. The vehicle, which was already in the process of decelerating for the red light, appears to collide with the cyclist. The cyclist and their bicycle fall onto the crosswalk in front of the vehicle. The vehicle then comes to a complete stop, with the cyclist and bicycle lying on the ground directly in its path.",
+  "actions": "The vehicle was initially maintaining a forward direction and speed while driving under an overpass. As it approached an intersection, the vehicle began to decelerate in response to the visible red traffic light ahead, indicating a required stop. Upon the sudden and unexpected appearance of a cyclist from the right side, the vehicle initiated rapid deceleration, likely emergency braking, to attempt to avoid or mitigate a collision. This immediate and forceful braking action resulted in the vehicle coming to a complete stop directly in front of the fallen cyclist and bicycle.",
+  "key_objects": "1) Right side: A red bus, positioned ahead and to the right, served as a physical obstruction, blocking the driver's view of the approaching cyclist. 2) Right side: A person on a bicycle, suddenly emerged from behind the red bus and other roadside structures, entering the crosswalk directly into the vehicle's path, creating an immediate collision hazard. 3) Center: A red traffic light, positioned directly ahead at the intersection, indicating the need for the vehicle to stop.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

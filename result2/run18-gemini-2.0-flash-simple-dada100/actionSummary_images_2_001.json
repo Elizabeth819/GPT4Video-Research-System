@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene is a busy street with many pedestrians, motorcyclists, and small trucks. The pedestrians are of various ages and genders, wearing casual clothing. Many are carrying items, suggesting they are shopping. The motorcyclists are also diverse in age and attire, and the small trucks appear to be used for transporting goods.",
+  "summary": "The vehicle is driving on a crowded street with pedestrians and motorcyclists moving in both directions. The road is narrow and lined with shops and parked vehicles. Pedestrians are crossing the street at various points, and motorcyclists are weaving through traffic. The overall scene is chaotic and potentially dangerous due to the high density of people and vehicles.",
+  "actions": "The vehicle is moving forward at a slow speed, likely due to the dense traffic and pedestrian activity. The driver is maintaining a cautious pace to avoid collisions with pedestrians and other vehicles. The vehicle is staying in the current lane, navigating through the crowded street.",
+  "key_objects": "1) Left side: Pedestrians walking along the sidewalk and crossing the street, posing a potential risk of sudden movements into the vehicle's path. Distance: Close proximity. Behavior impact: Requires constant vigilance and potential braking. 2) Center: Motorcyclists weaving through traffic. Distance: Close proximity. Behavior impact: Requires careful maneuvering to avoid collisions. 3) Right side: Parked trucks and roadside vendors. Distance: Close proximity. Behavior impact: Obstructs visibility and creates potential for pedestrians to emerge unexpectedly.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

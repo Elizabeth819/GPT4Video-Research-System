@@ -1,0 +1,74 @@
+[
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "10.999995843409916s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "19.99999244256348s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a blue car",
+        "summary": "In this segment, the vehicle is driving on an urban road. The vehicle is following a truck in the same lane. There is a bus on the left side of the road. The road is clear ahead with no immediate obstacles or pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and following the truck ahead. The vehicle is keeping a safe distance from the truck and the bus on the left side.",
+        "key_objects": "1) Front: A truck, approximately 20 meters away, moving in the same lane. 2) Left side: A bus, approximately 10 meters away, moving in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_id",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "20.999992064691657s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "29.999988663845226s",
+        "scene_theme": "Traffic",
+        "characters": "Truck driver, car drivers",
+        "summary": "In this segment, the vehicle is approaching an intersection where a large truck is making a turn. The truck is blocking part of the road, causing the self-driving vehicle to slow down. The weather appears to be rainy, and the road is wet, which may affect the vehicles traction and braking distance. The self-driving vehicle maintains a safe distance from the truck and other vehicles on the road.",
+        "actions": "The self-driving vehicle is slowing down to maintain a safe distance from the truck making a turn. The vehicle is also being cautious due to the wet road conditions, which could affect braking and traction.",
+        "key_objects": "1) Front: A large truck, approximately 10 meters away, making a turn and partially blocking the road. 2) Front: Multiple vehicles, approximately 20 meters away, moving slowly due to the trucks turn and wet road conditions.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "30.999988285973398s",
+        "sentiment": "Negative",
+        "End_Timestamp": "39.99998488512696s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a rainy highway. The traffic is moderate with several vehicles ahead. A white sedan on the left lane suddenly cuts into the self-driving vehicles lane, causing the self-driving vehicle to decelerate to avoid a collision. The black sedan in front of the self-driving vehicle maintains a steady speed.",
+        "actions": "The self-driving vehicle decelerates to avoid a collision with the white sedan that cuts into its lane from the left. The vehicle maintains a safe distance from the black sedan ahead.",
+        "key_objects": "1) Left side: A white sedan, approximately 5 meters away, suddenly cuts into the self-driving vehicles lane. 2) Front: A black sedan, approximately 10 meters away, maintaining a steady speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_004",
+        "Start_Timestamp": "40.99998450725514s",
+        "sentiment": "Negative",
+        "End_Timestamp": "49.99998110640871s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, black SUV, white car",
+        "summary": "In this segment, the vehicle is driving on a city road. A motorcyclist appears from the right side and stops in front of the vehicle, causing the vehicle to stop. A black SUV and a white car are also visible in the scene, moving from left to right. The motorcyclist seems to be adjusting something on the motorcycle, blocking the vehicles path. The scene then transitions to a different location where a pedestrian is crossing the road, and a car is seen making a left turn, leading to a collision with the pedestrian.",
+        "actions": "The self-driving vehicle stops to avoid colliding with the motorcyclist who suddenly appears and stops in front of it. The vehicle remains stationary as the motorcyclist adjusts something on the motorcycle. Later, the vehicle encounters a pedestrian crossing the road and a car making a left turn, leading to a collision.",
+        "key_objects": "1) Front: A motorcyclist, approximately 1 meter away, stops suddenly and adjusts the motorcycle, blocking the vehicles path. 2) Left: A black SUV, approximately 5 meters away, moving from left to right. 3) Right: A white car, approximately 10 meters away, moving from left to right.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

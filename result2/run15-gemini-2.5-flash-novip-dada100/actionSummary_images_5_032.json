@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_032",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult male pedestrian wearing a dark jacket and light pants is initially standing on the right side of the road near parked motorcycles. An adult motorcyclist, wearing dark clothing, is riding a yellow motorcycle. After the collision, another adult person in a red shirt and dark pants approaches the scene from the left.",
+  "summary": "The video begins with the vehicle driving forward on a road. On the left side of the road, a large blue truck initially obstructs the view, followed by roadside trees and a median barrier. On the right side, there are buildings, parked motorcycles, and a pedestrian. As the vehicle proceeds, a silver sedan is seen moving from the left side of the road. Suddenly, a yellow motorcycle with a rider emerges from behind the visual obstruction (trees and median barrier) on the left side of the road, darting directly into the vehicle's path with minimal reaction time. This leads to an immediate collision between the vehicle and the motorcycle. The motorcycle and its rider fall to the ground on the left side of the road, and the vehicle comes to a rapid stop. Another person in a red shirt is then seen approaching the collision site.",
+  "actions": "The vehicle was initially maintaining a steady forward speed, navigating a road with moderate activity and roadside obstructions. The driver was proceeding along the road when a yellow motorcycle suddenly emerged from a blind spot on the left side of the road, which was obscured by roadside trees and a median barrier. This sudden appearance, directly into the vehicle's path, left no sufficient time for evasive action. Upon the motorcycle's immediate entry into the vehicle's trajectory, the vehicle initiated rapid deceleration, resulting in an unavoidable collision. The vehicle then came to a complete stop immediately after the impact to address the incident.",
+  "key_objects": "1) Left: A yellow motorcycle with a rider, approximately 5-10 meters away, suddenly emerged from behind a visual obstruction (roadside trees and a median barrier) on the left side of the road, directly entering the vehicle's path, causing an immediate collision. 2) Left: Roadside trees and a median barrier, acting as a physical obstruction that completely blocked the view of the approaching motorcycle until it suddenly appeared.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "images_4_007",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.0s",
+      "summary": "From 0.0s to 4.0s, the car is approaching an intersection with a traffic officer standing on the right side of the road. A male on a bicycle, wearing dark clothing, is crossing the road from left to right. A motorcycle is also moving on the left side of the road. From 4.0s to 9.0s, the car makes a left turn at the intersection. A woman in a white coat is walking on the left side of the road, pushing a stroller. A cyclist is also present on the left side of the road. The car continues to turn left and proceeds down the street.",
+      "characters": [
+        "Traffic officer: Standing on the right side of the road, wearing a white hat and a reflective vest.",
+        "Cyclist: Male, wearing dark clothing, crossing the road from left to right.",
+        "Motorcyclist: Moving on the left side of the road.",
+        "Woman: Wearing a white coat, walking on the left side of the road, pushing a stroller.",
+        "Cyclist: Present on the left side of the road."
+      ],
+      "key_actions": "none",
+      "key_objects": [],
+      "actions": "The vehicle is approaching an intersection and slowing down, likely in response to the presence of a traffic officer and other vehicles at the intersection. The vehicle then makes a left turn at the intersection, navigating around other vehicles and pedestrians. The vehicle is driving slowly to safely navigate the intersection.",
+      "next_action": {
+        "speed_control": "accelerating",
+        "direction_control": "keep straight",
+        "lane_control": "keep right in this lane"
+      }
+    }
+  ]
+}

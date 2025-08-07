@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_5_027",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "7.0s",
+    "scene_theme": "Urban Street",
+    "characters": "Driver of the observer vehicle, a child on a bicycle, several pedestrians.",
+    "summary": "The video shows the observer vehicle driving down a city street with parked cars on both sides.  Between 3.5s and 4.7s, a young child on a pink bicycle emerges from behind a parked purple car on the right side of the road, directly into the path of the observer vehicle. The child appears suddenly, creating a near-miss situation. The observer vehicle maintains a steady speed and does not appear to brake or swerve significantly.  Several pedestrians are visible in the background, but they do not directly impact the observer vehicle's path.",
+    "actions": "The observer vehicle maintains a consistent speed and direction throughout the 7-second segment.  There is no indication of braking or acceleration. The vehicle stays in its lane and does not make any turns.",
+    "key_objects": "1) Right: Young child on a pink bicycle, approximately 2 meters away at closest approach, suddenly emerging from behind a parked purple car, creating a near-miss situation. ",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

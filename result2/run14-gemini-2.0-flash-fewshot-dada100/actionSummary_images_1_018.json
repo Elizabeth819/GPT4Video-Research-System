@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_018",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two adults, one wearing a light-colored shirt and dark pants, and the other wearing a dark-patterned shirt and dark pants, are walking across the road. A motorcyclist is driving in the same direction as the car.",
+  "summary": "The vehicle is driving on a road with parked cars on both sides. Two adults are walking across the road from left to right. A motorcyclist is driving in the same direction as the car. The two adults walking across the road are partially obscured by the parked cars, creating a potential ghost probing situation.",
+  "actions": "The vehicle is maintaining a steady speed. The driver is likely aware of the parked cars and the potential for pedestrians to emerge from behind them. The vehicle is maintaining its current lane.",
+  "key_objects": "1) Left side: Two adults, approximately 10 meters away, walking across the road from behind parked cars, potentially causing the vehicle to decelerate or stop. 2) Ahead: A motorcyclist, approximately 20 meters away, driving in the same direction.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

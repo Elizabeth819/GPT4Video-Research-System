@@ -1,0 +1,99 @@
+2025-07-28 15:03:54,733 - INFO - Run 13 Gemini 2.0 Flash Analysis Started - 20250728_150354
+2025-07-28 15:03:54,734 - INFO - Gemini 2.0 Flash model initialized
+2025-07-28 15:03:54,734 - INFO - DADA-100 videos directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos
+2025-07-28 15:03:54,734 - INFO - Output directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100
+2025-07-28 15:03:54,734 - INFO - Found 101 DADA-100 videos
+2025-07-28 15:03:54,796 - INFO - Analyzing video: images_1_001
+2025-07-28 15:04:51,710 - ERROR - Failed to parse JSON response for images_1_001: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:04:51,736 - ERROR - Failed to analyze images_1_001
+2025-07-28 15:04:52,741 - INFO - Analyzing video: images_1_002
+2025-07-28 15:04:58,886 - ERROR - Failed to parse JSON response for images_1_002: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:04:58,892 - ERROR - Failed to analyze images_1_002
+2025-07-28 15:04:59,899 - INFO - Analyzing video: images_1_003
+2025-07-28 15:05:06,045 - ERROR - Failed to parse JSON response for images_1_003: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:05:06,052 - ERROR - Failed to analyze images_1_003
+2025-07-28 15:05:07,057 - INFO - Analyzing video: images_1_004
+2025-07-28 15:05:13,710 - ERROR - Failed to parse JSON response for images_1_004: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:05:13,731 - ERROR - Failed to analyze images_1_004
+2025-07-28 15:05:14,738 - INFO - Analyzing video: images_1_005
+2025-07-28 15:05:23,105 - ERROR - Failed to parse JSON response for images_1_005: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:05:23,118 - ERROR - Failed to analyze images_1_005
+2025-07-28 15:05:24,122 - INFO - Analyzing video: images_1_006
+2025-07-28 15:05:30,231 - ERROR - Failed to parse JSON response for images_1_006: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:05:30,245 - ERROR - Failed to analyze images_1_006
+2025-07-28 15:05:31,249 - INFO - Analyzing video: images_1_007
+2025-07-28 15:05:37,970 - ERROR - Failed to parse JSON response for images_1_007: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:05:38,022 - ERROR - Failed to analyze images_1_007
+2025-07-28 15:05:39,028 - INFO - Analyzing video: images_1_008
+2025-07-28 15:05:47,141 - ERROR - Failed to parse JSON response for images_1_008: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:05:47,151 - ERROR - Failed to analyze images_1_008
+2025-07-28 15:05:48,155 - INFO - Analyzing video: images_1_009
+2025-07-28 15:05:54,023 - ERROR - Failed to parse JSON response for images_1_009: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:05:54,036 - ERROR - Failed to analyze images_1_009
+2025-07-28 15:05:55,039 - INFO - Analyzing video: images_1_010
+2025-07-28 15:06:01,561 - ERROR - Failed to parse JSON response for images_1_010: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:06:01,592 - ERROR - Failed to analyze images_1_010
+2025-07-28 15:06:02,599 - INFO - Analyzing video: images_1_011
+2025-07-28 15:06:08,811 - ERROR - Failed to parse JSON response for images_1_011: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:06:08,820 - ERROR - Failed to analyze images_1_011
+2025-07-28 15:06:09,826 - INFO - Analyzing video: images_1_012
+2025-07-28 15:06:16,122 - ERROR - Failed to parse JSON response for images_1_012: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:06:16,136 - ERROR - Failed to analyze images_1_012
+2025-07-28 15:06:17,143 - INFO - Analyzing video: images_1_013
+2025-07-28 15:06:24,357 - ERROR - Failed to parse JSON response for images_1_013: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:06:24,374 - ERROR - Failed to analyze images_1_013
+2025-07-28 15:06:25,377 - INFO - Analyzing video: images_1_014
+2025-07-28 15:06:33,416 - ERROR - Failed to parse JSON response for images_1_014: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:06:33,424 - ERROR - Failed to analyze images_1_014
+2025-07-28 15:06:34,426 - INFO - Analyzing video: images_1_015
+2025-07-28 15:06:41,748 - ERROR - Failed to parse JSON response for images_1_015: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:06:41,754 - ERROR - Failed to analyze images_1_015
+2025-07-28 15:06:42,758 - INFO - Analyzing video: images_1_016
+2025-07-28 15:06:48,397 - ERROR - Failed to parse JSON response for images_1_016: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:06:48,407 - ERROR - Failed to analyze images_1_016
+2025-07-28 15:06:49,411 - INFO - Analyzing video: images_1_017
+2025-07-28 15:06:55,837 - ERROR - Failed to parse JSON response for images_1_017: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:06:55,860 - ERROR - Failed to analyze images_1_017
+2025-07-28 15:06:56,866 - INFO - Analyzing video: images_1_018
+2025-07-28 15:07:07,858 - ERROR - Failed to parse JSON response for images_1_018: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:07:07,880 - ERROR - Failed to analyze images_1_018
+2025-07-28 15:07:08,886 - INFO - Analyzing video: images_1_019
+2025-07-28 15:07:17,918 - ERROR - Failed to parse JSON response for images_1_019: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:07:17,929 - ERROR - Failed to analyze images_1_019
+2025-07-28 15:07:18,935 - INFO - Analyzing video: images_1_020
+2025-07-28 15:07:24,837 - ERROR - Failed to parse JSON response for images_1_020: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:07:24,873 - ERROR - Failed to analyze images_1_020
+2025-07-28 15:07:25,880 - INFO - Analyzing video: images_1_021
+2025-07-28 15:07:31,221 - ERROR - Failed to parse JSON response for images_1_021: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:07:31,234 - ERROR - Failed to analyze images_1_021
+2025-07-28 15:07:32,239 - INFO - Analyzing video: images_1_022
+2025-07-28 15:07:38,846 - ERROR - Failed to parse JSON response for images_1_022: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:07:38,851 - ERROR - Failed to analyze images_1_022
+2025-07-28 15:07:39,857 - INFO - Analyzing video: images_1_023
+2025-07-28 15:07:47,390 - ERROR - Failed to parse JSON response for images_1_023: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:07:47,403 - ERROR - Failed to analyze images_1_023
+2025-07-28 15:07:48,406 - INFO - Analyzing video: images_1_024
+2025-07-28 15:07:55,665 - ERROR - Failed to parse JSON response for images_1_024: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:07:55,670 - ERROR - Failed to analyze images_1_024
+2025-07-28 15:07:56,675 - INFO - Analyzing video: images_1_025
+2025-07-28 15:08:02,126 - ERROR - Failed to parse JSON response for images_1_025: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:08:02,140 - ERROR - Failed to analyze images_1_025
+2025-07-28 15:08:03,142 - INFO - Analyzing video: images_1_026
+2025-07-28 15:08:07,621 - ERROR - Failed to parse JSON response for images_1_026: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:08:07,629 - ERROR - Failed to analyze images_1_026
+2025-07-28 15:08:08,632 - INFO - Analyzing video: images_1_027
+2025-07-28 15:08:15,593 - ERROR - Failed to parse JSON response for images_1_027: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:08:15,604 - ERROR - Failed to analyze images_1_027
+2025-07-28 15:08:16,608 - INFO - Analyzing video: images_2_001
+2025-07-28 15:08:24,174 - ERROR - Failed to parse JSON response for images_2_001: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:08:24,183 - ERROR - Failed to analyze images_2_001
+2025-07-28 15:08:25,190 - INFO - Analyzing video: images_2_002
+2025-07-28 15:08:32,745 - ERROR - Failed to parse JSON response for images_2_002: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:08:32,783 - ERROR - Failed to analyze images_2_002
+2025-07-28 15:08:33,789 - INFO - Analyzing video: images_2_003
+2025-07-28 15:08:43,698 - ERROR - Failed to parse JSON response for images_2_003: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:08:43,713 - ERROR - Failed to analyze images_2_003
+2025-07-28 15:08:44,719 - INFO - Analyzing video: images_2_004
+2025-07-28 15:08:50,480 - ERROR - Failed to parse JSON response for images_2_004: Expecting value: line 1 column 1 (char 0)
+2025-07-28 15:08:50,488 - ERROR - Failed to analyze images_2_004
+2025-07-28 15:08:51,493 - INFO - Analyzing video: images_3_001

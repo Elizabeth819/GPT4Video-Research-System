@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_015",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver navigating a narrow street with pedestrians and vehicles present. There are several adults visible, some are moving items from a truck, others are walking on the side of the road. There are also other vehicles including cars, motorcycles, and a bus.",
+  "summary": "The vehicle starts driving down a narrow street. Initially, the road appears relatively clear, but soon a truck parked on the right side of the road obstructs the view. People are seen moving items from the truck. As the vehicle proceeds, it approaches an intersection where other vehicles and pedestrians are present, creating a potentially dangerous situation.",
+  "actions": "The vehicle starts driving straight down a narrow street. The driver maintains a slow speed, likely due to the narrow road and the presence of parked vehicles and pedestrians. The driver slows down further as they approach the intersection to assess the traffic and pedestrian activity.",
+  "key_objects": "1) Right: A large truck parked on the right side of the road, obstructing the view of pedestrians and vehicles approaching from the right. Distance: Approximately 5-10 meters. Behavior impact: Creates a potential ghost probing situation. 2) Right: People unloading items from the truck. Distance: Approximately 5-10 meters. Behavior impact: Increases the risk of pedestrians suddenly entering the roadway. 3) Left: Pedestrians walking on the left side of the road. Distance: Approximately 10-15 meters. Behavior impact: Potential for pedestrians to cross the road unexpectedly. 4) Ahead: Intersection with cross traffic and pedestrians. Distance: Approximately 15-20 meters. Behavior impact: Requires careful observation and potential braking or maneuvering to avoid collisions.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_020",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A person is seen riding a motorcycle on the right side of the road, wearing a light-colored top and possibly a dark backpack or box on the back of the motorcycle.",
+  "summary": "The scene depicts a nighttime driving scenario on a multi-lane road. The ego vehicle is proceeding straight. At the beginning of the segment, a motorcycle is observed on the right side of the road, moving in the same direction as the ego vehicle. The motorcycle gradually moves further ahead and out of the frame on the right. Concurrently, bright headlights from oncoming vehicles are visible in the distance on the left side of the road. As the ego vehicle continues its path, it approaches and passes a structure on the right, which appears to be a gas station or a rest stop, with a large truck parked under its canopy. The road ahead remains clear, illuminated by streetlights, and the ego vehicle maintains its lane and direction without encountering any immediate obstacles or significant traffic.",
+  "actions": "The vehicle is driving straight and maintaining its lane. The driver is maintaining a consistent speed, as indicated by the smooth progression through the frames and the relative movement of other vehicles and static objects. The vehicle does not exhibit any braking, acceleration, or turning maneuvers within this segment. The driver's actions reflect a routine driving situation on a clear road at night, with no apparent need for evasive actions or significant speed adjustments.",
+  "key_objects": "1) Right side: A motorcycle with a rider, initially slightly ahead and to the right of the ego vehicle, moving in the same direction. It moves away from the ego vehicle and does not impact its driving behavior. 2) Left side, far distance: Oncoming vehicles with bright headlights, moving in the opposite direction. They are in a separate lane and do not pose an immediate threat or require a change in the ego vehicle's behavior. 3) Right side, mid-distance: A gas station or rest stop structure with a parked truck. This is a static roadside feature and no entities emerge from behind it into the ego vehicle's path.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

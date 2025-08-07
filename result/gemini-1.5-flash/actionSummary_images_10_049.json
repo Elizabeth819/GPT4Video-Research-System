@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_049",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "7.1s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving on an urban road with parked cars on both sides. The road is relatively clear with no immediate obstacles or pedestrians visible. The vehicle maintains a steady speed and direction throughout the segment.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, navigating through an urban area with parked cars on both sides. There are no sudden changes in speed or direction observed.",
+        "key_objects": "1) Left side: Multiple parked cars, approximately 5-10 meters away, stationary and not posing any immediate threat. 2) Right side: Multiple parked cars, approximately 5-10 meters away, stationary and not posing any immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

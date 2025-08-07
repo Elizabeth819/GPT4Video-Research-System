@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_020",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "5.6s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, a white sedan is parked on the left side of the road. As the vehicle continues, a motorcyclist appears on the left side of the road, moving in the same direction.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while driving on a rural road. The vehicle is keeping a safe distance from the parked white sedan on the left side and the motorcyclist ahead.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, parked on the roadside. 2) Left side: A motorcyclist, approximately 15 meters away, moving in the same direction.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

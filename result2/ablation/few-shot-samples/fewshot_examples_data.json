@@ -1,0 +1,124 @@
+{
+  "examples": [
+    {
+      "id": 1,
+      "name": "Ghost Probing Detection",
+      "type": "positive",
+      "description": "Pedestrian ghost probing scenario",
+      "data": {
+        "video_id": "example_ghost_probing",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "2.0s",
+        "End_Timestamp": "8.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dangerous",
+        "characters": "Male pedestrian in dark clothing, approximately 25 years old",
+        "summary": "In this segment, the vehicle is driving on an urban road with parked vehicles on both sides. A male pedestrian wearing dark clothing suddenly emerges from behind a parked white truck on the right side and steps directly into the vehicle's path. The pedestrian appears from behind the obstruction with minimal warning time, creating a dangerous ghost probing situation.",
+        "actions": "The self-driving vehicle is maintaining steady speed when the pedestrian suddenly appears. The vehicle immediately begins rapid deceleration in response to the unexpected pedestrian emergence from behind the parked truck. The driver takes evasive action to avoid collision.",
+        "key_objects": "1) Right side: A male pedestrian, approximately 25 years old wearing dark clothing, 3 meters away, suddenly emerging from behind a parked white truck and stepping into the vehicle's path. 2) Right side: A white truck, approximately 5 meters away, parked and creating visual obstruction that hides the pedestrian until emergence.",
+        "key_actions": "ghost probing",
+        "next_action": {
+          "speed_control": "rapid deceleration",
+          "direction_control": "keep direction",
+          "lane_control": "maintain current lane"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Normal Driving",
+      "type": "negative",
+      "description": "Safe normal driving scenario",
+      "data": {
+        "video_id": "example_normal_driving",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Routine",
+        "characters": "None visible in immediate vicinity",
+        "summary": "In this segment, the vehicle is driving on a clear rural road during daytime. The road ahead is clear with good visibility. There are no pedestrians, cyclists, or other vehicles creating any immediate safety concerns. The driving conditions are calm and routine.",
+        "actions": "The self-driving vehicle maintains consistent speed and direction on the clear road. No sudden changes in speed or direction are required as there are no obstacles or safety concerns present. The vehicle continues with normal driving behavior.",
+        "key_objects": "None requiring immediate attention",
+        "key_actions": "none",
+        "next_action": {
+          "speed_control": "maintain speed",
+          "direction_control": "keep direction",
+          "lane_control": "maintain current lane"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Vehicle Ghost Probing",
+      "type": "positive",
+      "description": "Vehicle ghost probing scenario",
+      "data": {
+        "video_id": "example_vehicle_ghost",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "12.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of red sedan",
+        "summary": "In this segment, the vehicle approaches an intersection with buildings on both sides creating limited visibility. A red sedan suddenly emerges from behind a building on the left side, entering from a perpendicular side street directly into the main road where the self-vehicle is traveling. The sedan was completely hidden by the building structure until it emerged into the intersection.",
+        "actions": "The self-driving vehicle is traveling at normal speed when the red sedan suddenly appears from the left side intersection. The vehicle immediately initiates emergency braking and slight steering adjustment to avoid collision with the suddenly appearing vehicle.",
+        "key_objects": "1) Left side: A red sedan, approximately 4 meters away, suddenly emerging from behind a building at the intersection and entering the main road. 2) Left side: A large building, approximately 10 meters away, creating visual obstruction that completely hides approaching vehicles until they emerge into the intersection.",
+        "key_actions": "ghost probing",
+        "next_action": {
+          "speed_control": "rapid deceleration",
+          "direction_control": "slight right adjustment",
+          "lane_control": "maintain current lane"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Cyclist Ghost Probing",
+      "type": "positive",
+      "description": "Cyclist ghost probing scenario",
+      "data": {
+        "video_id": "example_cyclist_ghost",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "3.0s",
+        "End_Timestamp": "9.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dangerous",
+        "characters": "Female cyclist in bright yellow jacket, approximately 30 years old",
+        "summary": "In this segment, the vehicle is traveling on a city street with parked cars lining both sides. A female cyclist wearing a bright yellow jacket suddenly emerges from behind a parked bus on the left side and enters the vehicle's lane. The cyclist was completely hidden by the large bus until she moved into the travel lane, creating a classic ghost probing scenario.",
+        "actions": "The self-driving vehicle is maintaining normal urban speed when the cyclist suddenly appears from behind the parked bus. The vehicle immediately applies emergency braking and initiates a slight right steering correction to create distance from the cyclist.",
+        "key_objects": "1) Left side: A female cyclist, approximately 30 years old in bright yellow jacket, 4 meters away, suddenly emerging from behind a parked bus and entering the travel lane. 2) Left side: A large city bus, approximately 8 meters away, parked and creating complete visual obstruction of the cyclist until emergence.",
+        "key_actions": "ghost probing",
+        "next_action": {
+          "speed_control": "rapid deceleration",
+          "direction_control": "slight right adjustment",
+          "lane_control": "maintain current lane"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Highway Normal Driving",
+      "type": "negative",
+      "description": "Highway safe driving scenario",
+      "data": {
+        "video_id": "example_highway_normal",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Positive",
+        "scene_theme": "Safe",
+        "characters": "Multiple vehicle drivers at safe distances",
+        "summary": "In this segment, the vehicle is traveling on a multi-lane highway during clear weather conditions. Traffic is flowing smoothly with all vehicles maintaining safe following distances. No sudden lane changes or dangerous maneuvers are observed. The driving environment is stable and predictable.",
+        "actions": "The self-driving vehicle maintains consistent highway speed in the middle lane. All surrounding vehicles are maintaining appropriate speeds and distances. No defensive or evasive actions are required as traffic conditions remain stable throughout the segment.",
+        "key_objects": "1) Front: A white sedan, approximately 50 meters ahead, maintaining steady speed in same lane. 2) Left side: A blue SUV, approximately 30 meters away, traveling in adjacent lane at similar speed.",
+        "key_actions": "none",
+        "next_action": {
+          "speed_control": "maintain speed",
+          "direction_control": "keep direction",
+          "lane_control": "maintain current lane"
+        }
+      }
+    }
+  ]
+}

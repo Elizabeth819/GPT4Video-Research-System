@@ -1,0 +1,43 @@
+{
+  "video_id": "images_3_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Multiple individuals are observed on the road. On the right side of the image, a person wearing a pink helmet is riding a scooter with a passenger also wearing a pink helmet. Further along the right side, a man in a light-colored shirt is seen riding a scooter. On the left side of the image, several individuals are riding motorcycles, some wearing yellow helmets. Pedestrians are occasionally visible on the sidewalks on both sides of the road.",
+  "summary": "The video segment captures a routine driving scenario on a multi-lane urban road during daytime with clear weather conditions. The autonomous vehicle is proceeding straight in its lane, maintaining a steady speed. Traffic density is moderate, consisting of various vehicles including cars, buses, trucks, motorcycles, and scooters. Initially, a large white truck is present on the right side of the road, partially obscuring the view, but it moves away quickly. The vehicle navigates through the traffic flow, with other vehicles passing on both the left and right sides. There are no immediate hazards or sudden events that require evasive maneuvers or significant changes in the vehicle's behavior within this 10-second timeframe. The road appears to be a main thoroughfare lined with trees and commercial buildings.",
+  "actions": "The vehicle is maintaining a consistent forward speed and direction, staying within its current lane. This action is taken because the road ahead is clear of immediate obstructions, and the traffic flow is moderate and predictable. The driver is adapting to the general speed of surrounding vehicles, neither accelerating rapidly nor decelerating sharply, indicating a smooth and controlled progression. The vehicle is not making any turns or lane changes, as the current lane provides a clear path forward and there is no indication of an upcoming intersection or a need to change lanes for navigation or overtaking.",
+  "key_objects": [
+    {
+      "Position": "Right side of the image",
+      "object description": "A large white truck",
+      "distance": "Close to mid-distance",
+      "behavior impact": "Initially, this truck partially obstructs the view of the right roadside (frames 0.0s-1.0s), but it quickly moves forward and out of the immediate field of view, revealing the area behind it. It does not cause any sudden danger or require evasive action from the autonomous vehicle."
+    },
+    {
+      "Position": "Right side of the image",
+      "object description": "A motorcycle with two riders wearing pink helmets",
+      "distance": "Close to mid-distance",
+      "behavior impact": "This motorcycle is moving forward in the same direction as the autonomous vehicle, maintaining its position relative to the vehicle. It is part of the general traffic flow and does not pose an immediate threat or require a change in the autonomous vehicle's driving behavior."
+    },
+    {
+      "Position": "Left side of the image",
+      "object description": "A white bus",
+      "distance": "Mid-distance",
+      "behavior impact": "This bus is moving in the opposite direction on the left side of the road (frames 0.0s-2.0s). It is part of oncoming traffic and does not directly impact the autonomous vehicle's path or require any specific action."
+    },
+    {
+      "Position": "Left side of the image",
+      "object description": "A white SUV",
+      "distance": "Mid-distance",
+      "behavior impact": "This SUV is moving in the opposite direction on the left side of the road (frames 4.0s-7.0s). It passes the autonomous vehicle without incident, indicating clear road conditions for the vehicle's current trajectory."
+    }
+  ],
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_017",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A pedestrian wearing dark clothing is visible on the left side of the road. A person wearing dark clothing and a face mask is riding a scooter/motorcycle, emerging from the right side of the frame.",
+  "summary": "The scene depicts an urban intersection on what appears to be a wet road. The autonomous vehicle is positioned at or approaching the intersection. A pedestrian is seen walking on the left side of the road. Critically, a person on a scooter/motorcycle suddenly emerges from the right side of the frame, from behind the vehicle's A-pillar/windshield frame, and proceeds to cross directly in front of the vehicle's path. This sudden appearance creates an immediate potential collision scenario, requiring the vehicle to react defensively.",
+  "actions": "The vehicle is approaching an intersection or crosswalk. Upon the sudden and unexpected appearance of a scooter/motorcycle from the right side of the frame, which was initially obscured by the vehicle's own structure (A-pillar/windshield frame), the vehicle likely initiated a deceleration or maintained a stopped position. This action was taken to yield to the crossing scooter/motorcycle and prevent a potential collision, prioritizing safety due to the minimal reaction time available.",
+  "key_objects": "1) Right side: A person riding a scooter/motorcycle, emerging suddenly from behind the vehicle's A-pillar/windshield frame (acting as a visual obstruction). This object directly entered the vehicle's path, creating an immediate danger and triggering a ghost probing incident. 2) Left side: A pedestrian walking on the sidewalk, not directly impacting the vehicle's immediate path but present in the environment.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

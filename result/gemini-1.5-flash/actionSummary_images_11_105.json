@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_105",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.2s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a white sedan is moving in the same lane. The distance between the self-driving vehicle and the white sedan decreases significantly over the frames.",
+        "actions": "The self-driving vehicle is approaching the white sedan ahead. Over the past 5.2 seconds, the vehicles speed appears to have decreased, as the distance to the white sedan ahead has reduced significantly.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving in the same lane, causing the self-driving vehicle to decelerate.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

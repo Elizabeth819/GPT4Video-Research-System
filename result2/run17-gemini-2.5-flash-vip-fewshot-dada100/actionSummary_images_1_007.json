@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_007",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "Several pedestrians on both sides of the road, a car in front.",
+    "summary": "The vehicle is driving on a straight urban road with pedestrians on both sides. The road is clear with a car in front. There are buildings and trees lining the road. No immediate dangerous actions are detected.",
+    "actions": "The vehicle is maintaining a steady speed on a straight road. The driver is likely monitoring the car in front and the pedestrians on both sides of the road.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_007",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.1s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "A person with a bicycle on the right side of the road.",
+    "summary": "The vehicle is driving on a straight urban road with trees lining both sides. There is a person with a bicycle on the right side of the road. The road ahead is clear with other vehicles visible in the distance.",
+    "actions": "The vehicle is maintaining a consistent speed and direction, following the lane markings on the road. The driver is likely maintaining speed due to the clear road ahead and the absence of immediate obstacles.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

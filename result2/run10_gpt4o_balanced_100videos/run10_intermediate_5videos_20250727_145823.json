@@ -1,0 +1,58 @@
+{
+  "experiment_info": {
+    "run_id": "Run 10",
+    "timestamp": "20250727_145823",
+    "video_count": 100,
+    "model": "GPT-4o (Azure)",
+    "prompt_version": "GPT-4.1 Balanced (移植到GPT-4o)",
+    "temperature": 0.3,
+    "max_tokens": 2000,
+    "purpose": "对比GPT-4o在Balanced prompt下的100视频性能",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run10_gpt4o_balanced_100videos",
+    "prompt_characteristics": [
+      "三层ghost probing分类系统",
+      "环境上下文整合",
+      "平衡精确度与召回率",
+      "简化验证流程",
+      "与GPT-4.1 Balanced完全一致的prompt",
+      "Temperature=0.3保持历史一致性"
+    ]
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "key_actions": "emergency braking due to pedestrian crossing",
+      "evaluation": "TN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_001.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Pedestrians and a cyclist\",\n    \"summary\": \"The video shows a car driving along an urban street with pedestrians and a cyclist present. A child suddenly runs across the street, requiring the car to brake to avoid a collision. The car in front maintains a steady speed and direction.\",\n    \"actions\": \"The vehicle decelerates rapidly to avoid hitting the child running across the street.\",\n    \"key_objects\": \"1) Front: Child running across the street, 3-5 meters, requires immediate braking 2) Front: Pedestrians on the sidewalk, no immediate impact 3) Front: Cyclist moving along the street, no immediate impact\",\n    \"key_actions\": \"emergency braking due to pedestrian crossing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_002.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Several pedestrians, a child, and a motorcyclist\",\n    \"summary\": \"The video shows a vehicle driving down a rural road with pedestrians walking on both sides. A child suddenly runs across the road from the right side, causing the vehicle to brake abruptly.\",\n    \"actions\": \"The vehicle is driving at a moderate speed. Upon seeing the child running across the road, the driver applies the brakes immediately to avoid a collision.\",\n    \"key_objects\": \"1) Position: Child running across the road, very close to the vehicle, requires immediate braking 2) Position: Pedestrians walking on both sides of the road, moderate distance, requires cautious driving\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_003.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Pedestrians, including a child and an adult\",\n    \"summary\": \"The video shows a nighttime urban street scene. The self vehicle is driving along the road when a child suddenly runs into the street from the right side, causing the driver to perform an emergency brake. The child falls to the ground, and an adult rushes to assist the child. The scene ends with the adult attending to the child in the middle of the road.\",\n    \"actions\": \"The vehicle performs an emergency brake to avoid hitting the child who suddenly appears in the road.\",\n    \"key_objects\": \"1) Right side: Child, approximately 1-2 meters, sudden appearance and fall, high impact on driving behavior 2) Right side: Adult, approximately 3-4 meters, rushes to assist the child, moderate impact on driving behavior\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "key_actions": "none",
+      "evaluation": "TN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_004.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Several pedestrians and cyclists\",\n    \"summary\": \"The video shows a vehicle driving down a rural road with a few pedestrians and cyclists on the side of the road. The vehicle maintains a steady speed and lane position throughout the sequence. There are no sudden movements or unexpected appearances of objects.\",\n    \"actions\": \"The vehicle continues driving straight at a consistent speed without any abrupt changes in direction or speed.\",\n    \"key_objects\": \"1) Position: Pedestrians on the right side of the road, distance: moderate, behavior impact: none 2) Position: Cyclists on the left side of the road, distance: moderate, behavior impact: none\",\n    \"key_actions\": \"None\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "key_actions": "emergency braking due to pedestrian crossing",
+      "evaluation": "FN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_005.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Multiple pedestrians, including children, carrying umbrellas and crossing the street.\",\n    \"summary\": \"The video shows a busy urban street with multiple pedestrians, including children, crossing the street. The self vehicle is following a red car at a moderate distance. The scene is rainy, and pedestrians are carrying umbrellas. The self vehicle is moving slowly, and the red car in front is also moving forward cautiously. Pedestrians are crossing from the right side of the street to the left, and the self vehicle needs to be cautious to avoid any potential collisions.\",\n    \"actions\": \"The self vehicle is moving slowly and maintaining a safe distance from the red car in front. The driver is likely applying light braking to control the speed and ensure safety as pedestrians cross the street.\",\n    \"key_objects\": \"1) Front: Red car, approximately 3-5 meters ahead, moving forward cautiously 2) Right side: Multiple pedestrians, including children, crossing the street, potential collision risk 3) Left side: Parked vehicles and moving traffic, no immediate threat\",\n    \"key_actions\": \"emergency braking due to pedestrian crossing\",\n    \"next_action\": {\n        \"speed_control\": \"deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    }
+  ]
+}

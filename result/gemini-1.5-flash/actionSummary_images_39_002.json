@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_39_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red truck, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A red truck is ahead in the same lane, and a white sedan is on the left side, attempting to merge into the lane. The truck is moving slowly, and the white sedan is gradually moving closer to the self-driving vehicles lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while keeping a safe distance from the red truck ahead. The vehicle is also monitoring the white sedan on the left side, which is attempting to merge into the lane.",
+        "key_objects": "1) Front: A red truck, approximately 10 meters away, moving slowly. 2) Left side: A white sedan, approximately 5 meters away, attempting to merge into the lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

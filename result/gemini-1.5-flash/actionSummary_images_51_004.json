@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_51_004",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving on a winding rural road with occasional buildings and trees on both sides. The road is clear with no immediate obstacles. A yellow tricycle appears in the third frame, moving from the left side to the right side of the road. The self-driving vehicle maintains a steady speed and direction throughout the segment.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, navigating through the winding road. The vehicles speed remains steady, and there are no sudden changes in direction or braking observed.",
+        "key_objects": "1) Front: A yellow tricycle, approximately 20 meters away, moving from left to right across the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

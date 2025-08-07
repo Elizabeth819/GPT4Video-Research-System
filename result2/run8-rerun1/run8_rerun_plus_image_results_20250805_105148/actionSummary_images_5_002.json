@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, and a cyclist. The child is on the right side of the image, darting into the road. The adult is also on the right side, following the child. The cyclist is on the right side, moving forward.",
+  "summary": "The video sequence shows a vehicle driving at night in an urban area with street lights. Initially, the road is clear, but a child suddenly darts out from the right side of the road, followed by an adult. This creates an immediate collision risk. In another sequence, a pedestrian with a child suddenly emerges from between parked cars on the left side of the road, directly into the vehicle's path. In the final sequence, a vehicle suddenly emerges from behind a building on the left side of the road, entering the main road perpendicular to the observer vehicle's path.",
+  "actions": "The child and adult on the right side of the road suddenly dart into the road, creating an immediate collision risk. The pedestrian with a child on the left side of the road suddenly emerges from between parked cars, creating another immediate collision risk. The vehicle on the left side of the road suddenly emerges from behind a building, creating a third immediate collision risk.",
+  "key_objects": "Parked cars on the left side of the road, a building on the left side of the road, a child and an adult on the right side of the road, a cyclist on the right side of the road, and a vehicle on the left side of the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

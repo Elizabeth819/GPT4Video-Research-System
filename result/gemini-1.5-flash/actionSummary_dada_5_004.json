@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving on a road at night, approaching an intersection under an overpass. A cyclist is visible ahead, moving in the same direction.",
+    "actions": "Ego vehicle is moving forward. The cyclist is riding ahead.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, cyclist, overpass pillars, intersection.",
+    "key_actions": "The cyclist is riding in the same lane as the ego vehicle.",
+    "next_action": "Ego vehicle will continue moving forward, potentially needing to adjust speed or lane to safely pass the cyclist."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "The ego vehicle continues driving towards the intersection. The cyclist is still ahead, and construction debris is visible on the right side of the road, partially obscuring the view of the intersection.",
+    "actions": "Ego vehicle is moving forward. The cyclist is riding ahead. Construction equipment is visible on the right.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, cyclist, overpass pillars, intersection, construction debris.",
+    "key_actions": "The ego vehicle approaches a construction zone with limited visibility to the right.",
+    "next_action": "Ego vehicle will likely slow down and proceed with caution due to the construction and limited visibility."
+  },
+  {
+    "timestamp": "20-28s",
+    "summary": "The ego vehicle is approaching the intersection with construction debris on the right. The view to the right is significantly obstructed. The cyclist is no longer visible.",
+    "actions": "Ego vehicle is moving forward, approaching the intersection.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, overpass pillars, intersection, construction debris.",
+    "key_actions": "Ego vehicle is proceeding with caution at the intersection with obstructed view.",
+    "next_action": "Ego vehicle will likely slow down further or stop if necessary to assess the intersection before proceeding."
+  }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_051",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is approaching a toll booth on an urban road. The vehicle is maintaining a steady speed and lane while navigating through the toll area. A black SUV is seen on the left side, moving towards the toll booth.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane while approaching the toll booth. The vehicle is preparing to stop at the toll booth, ensuring a safe distance from the black SUV on the left side.",
+        "key_objects": "1) Left side: A black SUV, approximately 5 meters away, moving towards the toll booth, potentially causing the self-driving vehicle to adjust its speed and lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

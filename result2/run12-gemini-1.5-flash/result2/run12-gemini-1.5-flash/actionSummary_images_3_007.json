@@ -1,0 +1,42 @@
+[
+  {
+    "video_id": "images_3_007",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "A young boy on a bicycle, wearing a blue shirt and a baseball cap.",
+    "summary": "The video shows a young boy riding a bicycle. He appears to lose control of his bicycle and falls in the middle of the road.  The bicycle falls to the left side of the road, and the boy gets up and retrieves his bicycle. The incident occurs in a relatively busy road with other vehicles present. The boy's fall happens relatively quickly and unexpectedly.",
+    "actions": "The self-driving vehicle maintains a consistent speed and direction throughout the 10-second segment.  There is no indication of braking or lane changes in response to the boy's fall. The vehicle's speed appears to be appropriate for the road conditions, maintaining a safe following distance from the vehicle ahead.",
+    "key_objects": "Front: Young boy on a bicycle, approximately 5 meters away, falls unexpectedly in the middle of the road, creating a potential collision hazard.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_3_007",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.5s",
+    "scene_theme": "Dangerous",
+    "sentiment": "Negative",
+    "characters": "Two young boys on bicycles, one adult male assisting a boy, another adult male walking alongside.",
+    "summary": "The video shows two young boys on bicycles crossing a road. One boy appears to have fallen or is struggling with his bicycle. An adult male is assisting him while another adult male walks alongside.  The boys and adults are crossing the road directly in front of the recording vehicle. The situation is potentially dangerous due to the sudden appearance of the children and the lack of sufficient time for the vehicle to react and brake.",
+    "actions": "The self-driving vehicle maintains a steady speed, likely due to the unexpected appearance of the children crossing the road.  There is no indication of braking or evasive maneuvers in the provided frames. The vehicle's speed is not directly measurable from the images alone.",
+    "key_objects": [
+      "Front: Two young boys on bicycles, approximately 5 meters away, crossing the road directly in front of the vehicle. One boy appears to be struggling with his bicycle, creating a sudden and unexpected obstacle.",
+      "Right: An adult male, approximately 4 meters away, assisting a boy on a bicycle, crossing the road. His presence adds to the complexity of the situation.",
+      "Right: Another adult male, approximately 6 meters away, walking alongside the boys, crossing the road. His presence further increases the potential for a collision."
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

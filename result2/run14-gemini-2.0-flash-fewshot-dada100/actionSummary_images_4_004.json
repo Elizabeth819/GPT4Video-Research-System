@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_004",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several vehicles including a red sedan and a silver sedan, a cyclist wearing blue clothing, and several pedestrians are visible.",
+  "summary": "The vehicle is driving on a multi-lane road in an urban environment. Initially, the road is relatively clear with a silver sedan in front. As the vehicle approaches an intersection under an overpass, a cyclist wearing blue clothing is seen crossing the road from right to left. Several pedestrians are also visible on the sidewalks. The traffic light is visible and changes from green to yellow and then to red. The vehicle slows down and stops at the intersection.",
+  "actions": "The vehicle maintains a steady speed initially, following the silver sedan. As the vehicle approaches the intersection, the driver observes the traffic light changing and begins to decelerate. The presence of the cyclist and pedestrians near the intersection likely contributes to the decision to slow down and stop safely at the red light.",
+  "key_objects": "None requiring immediate attention",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_013",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rural Road Driving",
+    "sentiment": "Negative",
+    "characters": "Driver of a white sedan, two children wearing yellow and blue clothing, a green bus driver.",
+    "summary": "The video shows a white sedan driving on a rural road.  Between 3.3s and 4.4s, a green bus is seen ahead, driving in the same direction. From approximately 7.8s to 8.9s, two children, one wearing a yellow shirt and the other in blue, suddenly appear from behind a tree on the right side of the road, directly in front of the approaching vehicle. This constitutes a ghost probing event. The children seem to be crossing the road quickly. The driver of the sedan is forced to brake to avoid a collision. The road is relatively narrow and unpaved, with some vegetation on either side.",
+    "actions": "The self-driving vehicle maintains a consistent speed until approximately 7.8 seconds, when it begins to decelerate rapidly due to the sudden appearance of two children crossing the road. The deceleration is necessary to avoid a collision. Before the appearance of the children, the vehicle maintains a safe following distance from the green bus ahead.",
+    "key_objects": "1) Right: Two children (one in yellow, one in blue), approximately 2 meters away at the moment of appearance, crossing the road quickly from behind a tree, causing the vehicle to brake suddenly. This action directly led to a near-miss collision. ",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_013",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "12.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Rural Road",
+    "characters": "Driver of a light-colored sedan",
+    "summary": "The video shows a light-colored sedan driving on a rural, unpaved road.  The road is relatively straight with trees and fields on either side. No other vehicles or people are visible in the immediate vicinity. The vehicle appears to be maintaining a consistent speed.  The overall scene is calm and uneventful.",
+    "actions": "The vehicle maintains a consistent speed and direction throughout the two frames.  There are no observable changes in acceleration or deceleration. The driver appears to be maintaining a safe distance from the edge of the road.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

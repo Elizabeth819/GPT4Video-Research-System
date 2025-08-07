@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_14_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road with moderate traffic. The white sedan ahead is maintaining a consistent speed and lane. Several pedestrians are visible on the right side of the road, walking along the sidewalk. The vehicle is approaching an intersection with traffic lights visible in the distance.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane, following the white sedan ahead. The vehicle is preparing to approach an intersection, with traffic lights visible in the distance. The driver is maintaining a safe distance from the vehicles ahead and is aware of pedestrians on the right side.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a consistent speed and lane. 2) Right side: Several pedestrians, approximately 5 meters away, walking along the sidewalk.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

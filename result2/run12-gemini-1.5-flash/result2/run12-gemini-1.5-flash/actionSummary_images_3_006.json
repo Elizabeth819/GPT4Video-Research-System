@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_3_006",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "5.7s",
+    "scene_theme": "Urban driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a vehicle, other vehicles in the traffic flow",
+    "summary": "The video shows a car driving on a multi-lane road in an urban setting.  The road is relatively clear with other vehicles maintaining a safe distance. The self-driving vehicle maintains a consistent speed and stays in its lane. No immediate dangers or unusual events are observed within this short segment.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the observed 5.7 seconds.  The vehicle appears to be following the flow of traffic, adjusting speed slightly to maintain a safe following distance from the vehicle ahead. There are no observable braking or acceleration maneuvers.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

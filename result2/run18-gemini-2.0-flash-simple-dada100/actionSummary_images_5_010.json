@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_010",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car on a rural road. There are pedestrians and a person on a motorcycle on the road. The motorcyclist is wearing a red helmet and a green jacket. There are buildings and trees on either side of the road.",
+  "summary": "The car is driving on a rural road. A motorcyclist appears to lose control and falls in the middle of the road. The car decelerates and stops to avoid hitting the motorcyclist.",
+  "actions": "The vehicle is initially driving at a moderate speed on a straight road. As the motorcyclist falls in front of the car, the driver rapidly decelerates to avoid a collision. The vehicle comes to a complete stop a safe distance from the fallen motorcyclist.",
+  "key_objects": "1) Center: Motorcyclist, approximately 10 meters away, falls off the motorcycle and into the path of the car, creating an immediate collision risk. 2) Left: Building, close to the road, partially obstructs the view of the road ahead.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

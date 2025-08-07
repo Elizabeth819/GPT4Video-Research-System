@@ -1,0 +1,95 @@
+[
+    {
+        "video_id": "dada_1_014",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A person on a motorized tricycle, appearing to be an adult male wearing dark clothing.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "The tricycle was initially stationary near the roadside, then started moving slowly into the road, creating a potential collision hazard."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "Adult",
+                "clothing": "Dark clothing",
+                "transportation": "Motorized tricycle",
+                "behavior": "Initially stationary, then slowly moved into the road."
+            }
+        ],
+        "summary": "The video shows a car driving down a narrow road. At approximately 1.7 seconds, a person on a motorized tricycle, appearing to be an adult male wearing dark clothing, is seen initially stationary near the roadside.  Between 1.7s and 3.3s, the tricycle starts moving slowly into the road from the right side, creating a potential collision hazard. This sudden movement from a partially obscured position constitutes a 'ghost probing' event. The driver of the car needs to react quickly to avoid a collision.",
+        "actions": "The vehicle maintains a relatively slow and steady speed throughout the 5-second segment.  The driver appears to be navigating a narrow road with limited visibility due to roadside obstructions. The consistent speed suggests a cautious approach to the road conditions.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_014",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front, Right",
+                "Object description": "A young child, appearing to be around 3-4 years old, wearing red clothing, runs into the road from behind a parked motorcycle.",
+                "distance": "2",
+                "behavior or action impacting the vehicle": "Sudden appearance in the vehicle's path, potentially causing an immediate collision."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "3-4",
+                "gender": "male",
+                "clothing": "red",
+                "transportation": "on foot",
+                "behavior": "running into the road from behind a parked motorcycle"
+            }
+        ],
+        "summary": "A young child, approximately 3-4 years old, wearing red clothing, suddenly runs into the road from behind a parked motorcycle on the right side of the vehicle. The child's sudden appearance poses an immediate threat of collision. The vehicle is traveling at a relatively low speed, but the child's unexpected action leaves little time for the driver to react. The child appears to be running, indicating a high speed of approach.",
+        "actions": "The vehicle is traveling at a slow speed, likely due to the residential area and potential presence of pedestrians. The driver maintains a steady course, indicating no immediate need for sharp maneuvers. The vehicle's speed suggests a cautious approach to the environment.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_014",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "10.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A young child on a red scooter",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "The child is slowly riding the scooter from the right side of the road towards the road, potentially crossing the path of the vehicle."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "Young",
+                "gender": "Male",
+                "clothing": "Unspecified",
+                "transportation": "Red scooter",
+                "behavior": "Slowly riding scooter towards the road, potentially crossing the path of the vehicle."
+            }
+        ],
+        "summary": "The video shows a car driving down a narrow road. A young boy on a red scooter is seen on the right side of the road, slowly moving towards the road. The boy's actions could lead to a ghost probing scenario, as he is potentially crossing the path of the oncoming vehicle. The speed of the scooter is slow, but the proximity to the vehicle and the potential for sudden movement create a risk of collision. The driver needs to be cautious and prepared to brake if necessary.",
+        "actions": "The vehicle maintains a slow and steady speed, likely due to the narrow road and presence of other vehicles and pedestrians. The driver is attentive to the surroundings, adjusting speed and direction as needed to navigate the road safely.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    }
+]

@@ -1,0 +1,236 @@
+{
+  "experiment_info": {
+    "comparison_timestamp": "2025-07-09_19-57-09",
+    "purpose": "Final Three Models Comparison for Top-Tier Conference Publication",
+    "models_compared": [
+      "GP3S-V1-FPR",
+      "GP3S-V2-BALANCED",
+      "GP3S-V3-SMART-PRECISION"
+    ],
+    "objective": "Identify optimal model for different deployment scenarios"
+  },
+  "model_descriptions": {
+    "GP3S-V1-FPR": {
+      "description": "Ultra-conservative false positive reduction",
+      "objective": "Minimize false positives for ultra-safe deployment"
+    },
+    "GP3S-V2-BALANCED": {
+      "description": "Balanced precision-recall optimization",
+      "objective": "Balance precision and recall for practical deployment"
+    },
+    "GP3S-V3-SMART-PRECISION": {
+      "description": "Smart high-precision with evidence-based scoring",
+      "objective": "Achieve high precision while maintaining reasonable recall"
+    }
+  },
+  "comprehensive_metrics": {
+    "GP3S-V1-FPR": {
+      "total_compared": 99,
+      "correct_predictions": 39,
+      "accuracy": 39.39393939393939,
+      "true_positives": 4,
+      "false_positives": 7,
+      "false_negatives": 41,
+      "true_negatives": 34,
+      "precision": 36.36363636363637,
+      "recall": 7.6923076923076925,
+      "f1_score": 12.698412698412698,
+      "specificity": 82.92682926829268,
+      "fp_rate": 7.07070707070707,
+      "fn_rate": 41.41414141414141,
+      "ghost_gt_total": 52,
+      "ghost_pred_total": 11
+    },
+    "GP3S-V2-BALANCED": {
+      "total_compared": 88,
+      "correct_predictions": 37,
+      "accuracy": 42.04545454545455,
+      "true_positives": 32,
+      "false_positives": 33,
+      "false_negatives": 16,
+      "true_negatives": 5,
+      "precision": 48.484848484848484,
+      "recall": 66.66666666666666,
+      "f1_score": 56.14035087719298,
+      "specificity": 13.157894736842104,
+      "fp_rate": 37.5,
+      "fn_rate": 18.181818181818183,
+      "ghost_gt_total": 48,
+      "ghost_pred_total": 66
+    },
+    "GP3S-V3-SMART-PRECISION": {
+      "total_compared": 59,
+      "correct_predictions": 28,
+      "accuracy": 47.45762711864407,
+      "true_positives": 18,
+      "false_positives": 17,
+      "false_negatives": 13,
+      "true_negatives": 10,
+      "precision": 51.42857142857142,
+      "recall": 56.25,
+      "f1_score": 53.73134328358209,
+      "specificity": 37.03703703703704,
+      "fp_rate": 28.8135593220339,
+      "fn_rate": 22.033898305084744,
+      "ghost_gt_total": 32,
+      "ghost_pred_total": 35
+    }
+  },
+  "performance_analysis": {
+    "precision_ranking": [
+      [
+        "GP3S-V3-SMART-PRECISION",
+        51.42857142857142
+      ],
+      [
+        "GP3S-V2-BALANCED",
+        48.484848484848484
+      ],
+      [
+        "GP3S-V1-FPR",
+        36.36363636363637
+      ]
+    ],
+    "recall_ranking": [
+      [
+        "GP3S-V2-BALANCED",
+        66.66666666666666
+      ],
+      [
+        "GP3S-V3-SMART-PRECISION",
+        56.25
+      ],
+      [
+        "GP3S-V1-FPR",
+        7.6923076923076925
+      ]
+    ],
+    "f1_ranking": [
+      [
+        "GP3S-V2-BALANCED",
+        56.14035087719298
+      ],
+      [
+        "GP3S-V3-SMART-PRECISION",
+        53.73134328358209
+      ],
+      [
+        "GP3S-V1-FPR",
+        12.698412698412698
+      ]
+    ],
+    "deployment_suitability": {
+      "GP3S-V1-FPR": {
+        "precision_level": "MODERATE",
+        "recall_level": "POOR",
+        "f1_level": "POOR",
+        "overall_rating": "POOR"
+      },
+      "GP3S-V2-BALANCED": {
+        "precision_level": "MODERATE",
+        "recall_level": "EXCELLENT",
+        "f1_level": "GOOD",
+        "overall_rating": "GOOD"
+      },
+      "GP3S-V3-SMART-PRECISION": {
+        "precision_level": "GOOD",
+        "recall_level": "GOOD",
+        "f1_level": "GOOD",
+        "overall_rating": "MODERATE"
+      }
+    }
+  },
+  "deployment_recommendations": {
+    "safety_critical_deployment": {
+      "model": "GP3S-V3-SMART-PRECISION",
+      "reason": "Highest precision (51.4%) minimizes false alarms",
+      "metrics": {
+        "total_compared": 59,
+        "correct_predictions": 28,
+        "accuracy": 47.45762711864407,
+        "true_positives": 18,
+        "false_positives": 17,
+        "false_negatives": 13,
+        "true_negatives": 10,
+        "precision": 51.42857142857142,
+        "recall": 56.25,
+        "f1_score": 53.73134328358209,
+        "specificity": 37.03703703703704,
+        "fp_rate": 28.8135593220339,
+        "fn_rate": 22.033898305084744,
+        "ghost_gt_total": 32,
+        "ghost_pred_total": 35
+      }
+    },
+    "balanced_deployment": {
+      "model": "GP3S-V2-BALANCED",
+      "reason": "Best F1-score (56.1%) indicates optimal balance",
+      "metrics": {
+        "total_compared": 88,
+        "correct_predictions": 37,
+        "accuracy": 42.04545454545455,
+        "true_positives": 32,
+        "false_positives": 33,
+        "false_negatives": 16,
+        "true_negatives": 5,
+        "precision": 48.484848484848484,
+        "recall": 66.66666666666666,
+        "f1_score": 56.14035087719298,
+        "specificity": 13.157894736842104,
+        "fp_rate": 37.5,
+        "fn_rate": 18.181818181818183,
+        "ghost_gt_total": 48,
+        "ghost_pred_total": 66
+      }
+    },
+    "high_recall_deployment": {
+      "model": "GP3S-V2-BALANCED",
+      "reason": "Highest recall (66.7%) catches most dangerous events",
+      "metrics": {
+        "total_compared": 88,
+        "correct_predictions": 37,
+        "accuracy": 42.04545454545455,
+        "true_positives": 32,
+        "false_positives": 33,
+        "false_negatives": 16,
+        "true_negatives": 5,
+        "precision": 48.484848484848484,
+        "recall": 66.66666666666666,
+        "f1_score": 56.14035087719298,
+        "specificity": 13.157894736842104,
+        "fp_rate": 37.5,
+        "fn_rate": 18.181818181818183,
+        "ghost_gt_total": 48,
+        "ghost_pred_total": 66
+      }
+    },
+    "production_ready": [
+      {
+        "model": "GP3S-V2-BALANCED",
+        "readiness_score": 56.14035087719298,
+        "deployment_scenarios": [
+          "High safety requirement scenarios",
+          "General autonomous driving applications"
+        ]
+      },
+      {
+        "model": "GP3S-V3-SMART-PRECISION",
+        "readiness_score": 53.73134328358209,
+        "deployment_scenarios": [
+          "High safety requirement scenarios",
+          "General autonomous driving applications"
+        ]
+      }
+    ],
+    "research_prototype": [
+      {
+        "model": "GP3S-V1-FPR",
+        "limitations": [
+          "High false positive rate",
+          "High false negative rate",
+          "Poor overall balance"
+        ]
+      }
+    ]
+  }
+}

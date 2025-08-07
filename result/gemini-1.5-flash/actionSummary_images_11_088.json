@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_088",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a red car",
+        "summary": "In this segment, the vehicle is driving through a tunnel. The traffic is dense, and the self-driving vehicle is closely following a white sedan. A red car is seen overtaking from the left side and moving ahead of the white sedan.",
+        "actions": "The self-driving vehicle is maintaining a close distance to the white sedan ahead, possibly due to the dense traffic conditions. The vehicles speed appears to be decreasing gradually as it approaches the white sedan. The red car on the left side is overtaking the white sedan, indicating a change in traffic dynamics.",
+        "key_objects": "1) Front: A white sedan, approximately 2 meters away, slowing down, causing the self-driving vehicle to decelerate. 2) Left side: A red car, approximately 3 meters away, overtaking the white sedan and moving ahead.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene features a driver in a car, other vehicles including a van and a bus, and a cyclist. The cyclist appears to be an adult female wearing a white long-sleeved shirt. The vehicles are of various types and colors.",
+  "summary": "The video shows a car driving on a rural road. Initially, a van is seen ahead. As the car proceeds, a bus appears in the opposite direction. Towards the end of the clip, a cyclist suddenly emerges from the right side of the road, creating a potential ghost probing situation.",
+  "actions": "The vehicle maintains a relatively constant speed initially, likely due to the presence of the van ahead. As the van moves further away, the vehicle maintains its speed. The driver then decelerates and swerves to the left to avoid the cyclist.",
+  "key_objects": "1) Right side: Cyclist, medium distance, suddenly appears from behind an obstruction, creating a ghost probing situation. 2) Front: Approaching bus, medium distance, requires driver to maintain lane.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

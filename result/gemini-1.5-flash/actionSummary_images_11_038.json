@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_038",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Foggy",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a foggy rural road with limited visibility. The road is winding and there are no other vehicles or pedestrians visible in the frames provided.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating the winding road. The driver is likely being cautious due to the foggy conditions and limited visibility.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_038",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "12.2s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a rural road with limited visibility due to fog. A white sedan appears from the left side of the road and moves into the lane of the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating a curve on a foggy rural road. The white sedan from the left side is moving into the observer vehicles lane, indicating a potential cut-in situation.",
+        "key_objects": "1) Left side: A white sedan, approximately 5 meters away, moving into the observer vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_38_011",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a gray SUV, driver of a white sedan, driver of a cement truck",
+        "summary": "In this segment, the vehicle is driving on a busy intersection. A gray SUV from the right side lane cuts into the self-vehicles lane, causing the self-vehicle to slow down. A cement truck is moving from the left side lane to the center lane, and a white sedan is overtaking from the right side lane.",
+        "actions": "The self-driving vehicle slows down to avoid collision with the gray SUV cutting in from the right side lane. The vehicle maintains a safe distance from the cement truck moving from the left side lane to the center lane. The vehicle also adjusts its speed to accommodate the white sedan overtaking from the right side lane.",
+        "key_objects": "1) Right side: A gray SUV, approximately 2 meters away, cutting into the self-vehicles lane. 2) Left side: A cement truck, approximately 5 meters away, moving from the left side lane to the center lane. 3) Right side: A white sedan, approximately 3 meters away, overtaking from the right side lane.",
+        "key_actions": "cut-in, right-side overtaken",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

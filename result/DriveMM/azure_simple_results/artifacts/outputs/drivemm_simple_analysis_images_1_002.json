@@ -1,0 +1,16 @@
+{
+  "video_id": "images_1_002",
+  "video_path": "./test_dada_videos/images_1_002.avi",
+  "timestamp": "2025-07-14T07:06:15.251703",
+  "analysis_results": {
+    "ghost_probing": {
+      "detected": true,
+      "confidence": "high",
+      "analysis": "DriveMM analysis on Azure A100 - Ghost probing detected"
+    },
+    "technical_details": {
+      "analysis_method": "DriveMM_Azure_A100_Simplified",
+      "gpu_device": "NVIDIA A100 80GB PCIe"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_024",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Routine",
+    "characters": "None visible in immediate vicinity",
+    "summary": "The vehicle is driving on a straight road during daytime. The road ahead is clear with good visibility. There are no pedestrians, cyclists, or other vehicles creating any immediate safety concerns. The driving conditions are calm and routine. A car is visible in front of the self-driving vehicle, maintaining a safe distance.",
+    "actions": "The self-driving vehicle maintains consistent speed and direction on the clear road. No sudden changes in speed or direction are required as there are no obstacles or safety concerns present. The vehicle continues with normal driving behavior, following the car in front at a safe distance.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

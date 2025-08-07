@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_055",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A female adult wearing a pink shirt and dark pants is walking on the left side of the road. Several parked cars are visible on both sides of the road. A male adult wearing a black jacket and green pants is riding a blue scooter on the right side of the road.",
+  "summary": "From 0.0s to 4.0s, the vehicle is driving on a road with parked cars on both sides. A female adult wearing a pink shirt and dark pants is walking on the left side of the road. From 8.0s to 10.0s, a male adult wearing a black jacket and green pants is riding a blue scooter on the right side of the road, potentially creating a dangerous situation if the scooter suddenly enters the vehicle's path from behind the parked cars.",
+  "actions": "The vehicle is driving at a slow speed, likely due to the presence of parked cars and pedestrians in the vicinity. The driver is maintaining a steady course, navigating through the narrow road.",
+  "key_objects": "1) Right side: A male adult on a blue scooter, approximately 5 meters away, potentially emerging from behind parked cars and entering the vehicle's path. 2) Right side: Parked cars, approximately 3 meters away, creating visual obstruction that could hide the scooter until it emerges into the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

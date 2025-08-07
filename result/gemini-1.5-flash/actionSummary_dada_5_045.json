@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving on a multi-lane road with moderate traffic. The vehicle is moving slowly in the right lane. There is a line of cars ahead. A vehicle in the left lane is attempting to merge into the right lane.",
+    "actions": "Ego vehicle is moving slowly. Other vehicles are also moving slowly or stopped in traffic. Vehicle in left lane is attempting to merge into the right lane.",
+    "characters": [],
+    "key_objects": "Ego vehicle, other vehicles, lane markings, road, traffic light",
+    "key_actions": "Vehicle in left lane attempting to merge.",
+    "next_action": "Ego vehicle will likely continue moving slowly or stop due to traffic."
+  }
+]

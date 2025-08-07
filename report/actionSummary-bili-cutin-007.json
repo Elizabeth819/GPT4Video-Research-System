@@ -1,0 +1,104 @@
+[
+    {
+        "video_id": "007",
+        "Start_Timestamp": "0.987s",
+        "sentiment": "Negative",
+        "End_Timestamp": "9.875s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a green taxi, driver of a black car",
+        "summary": "In this segment, the vehicles are at a traffic light. The light turns green, and the cars ahead start moving. The self-driving car also begins to move but slowly. A green taxi from the right side suddenly cuts in front of the self-driving car.",
+        "actions": "The self-driving car starts moving slowly as the light turns green. A green taxi from the right side suddenly cuts in front of the self-driving car, forcing it to slow down.",
+        "key_objects": "1) Right side: A green taxi, approximately 1 meter away, suddenly cutting in front of the self-driving car, causing a potential collision.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "007",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Green taxi, white car, silver car, motorcyclist",
+        "summary": "In this segment, the self-driving vehicle is traveling on a road with multiple lanes. A green taxi is seen changing lanes from the right to the left, moving in front of the self-driving vehicle. The driver comments on the lane change, questioning the taxis action. The scene then shifts to a different road where a white car is seen changing lanes to the right, followed by a silver car and a motorcyclist. The driver continues to discuss the lane changes and the behavior of the other vehicles.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the lane changes of the green taxi and the white car. The driver comments on the actions of the other vehicles, indicating a need for caution. The self-driving vehicle does not make any sudden movements or lane changes, focusing on maintaining a safe distance from the other vehicles.",
+        "key_objects": "1) Front-left: Green taxi, approximately 2 meters away, changing lanes from right to left, moving in front of the self-driving vehicle. 2) Front: White car, approximately 5 meters away, changing lanes to the right. 3) Front-right: Silver car, approximately 6 meters away, maintaining its lane. 4) Right: Motorcyclist, approximately 7 meters away, moving straight.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "007",
+        "Start_Timestamp": "20.737s",
+        "sentiment": "Negative",
+        "End_Timestamp": "29.625s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a grey car, driver of a white car, electric scooter rider",
+        "summary": "In this segment, the vehicle is driving on a two-lane road. The driver mentions needing to turn right into a gas station, but an electric scooter is on the right side. The grey car in front suddenly brakes, causing the self-driving vehicle to collide with it. The grey cars sudden braking and the presence of the electric scooter create a dangerous situation.",
+        "actions": "The self-driving vehicle is traveling on a two-lane road and attempts to turn right into a gas station. The presence of an electric scooter on the right side causes the grey car in front to brake suddenly. The self-driving vehicle collides with the grey car due to the sudden stop. The grey cars sudden braking and the presence of the electric scooter create a dangerous situation.",
+        "key_objects": "1) Front-right: A grey car, approximately 1 meter away, suddenly braking, causing a potential collision. 2) Right side: An electric scooter, approximately 2 meters away, moving slowly towards the gas station.",
+        "key_actions": "collision, sudden braking",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "007",
+        "Start_Timestamp": "30.612s",
+        "sentiment": "Negative",
+        "End_Timestamp": "39.500s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a silver car",
+        "summary": "In this segment, the vehicle is driving on a highway. A silver car on the right side suddenly cuts in front of the self vehicle, causing a potential collision. The driver of the self vehicle reacts by moving to the left to avoid the collision. The silver car continues to move left and eventually hits the guardrail before the driver reacts.",
+        "actions": "The self vehicle is driving on a highway when a silver car on the right side suddenly cuts in front of it. The self vehicle moves to the left to avoid a collision. The silver car continues to move left and hits the guardrail before the driver reacts.",
+        "key_objects": "1) Right side: A silver car, approximately 1 meter away, suddenly cutting in front of the self vehicle, causing a potential collision. 2) Front: A silver car, approximately 2 meters away, moving left and hitting the guardrail.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight left shift"
+        }
+    },
+    {
+        "video_id": "007",
+        "Start_Timestamp": "40.487s",
+        "sentiment": "Negative",
+        "End_Timestamp": "49.375s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, Driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a highway and then transitions to a city street at night. Initially, the vehicle is following a red car on the highway. The driver comments on the poor driving of another vehicle. Later, the scene shifts to a city street where the vehicle approaches an intersection. The driver notes that the car ahead is likely unfamiliar with the area, as it crosses the lane markings.",
+        "actions": "The self-driving vehicle maintains a steady speed on the highway, following a red car at a safe distance. Upon entering the city street, the vehicle slows down as it approaches an intersection. The driver observes another car crossing lane markings, indicating potential confusion or unfamiliarity with the area.",
+        "key_objects": "1) Front: A red car, approximately 20 meters away, maintaining a steady speed on the highway. 2) Front-left: A white sedan, approximately 10 meters away, crossing lane markings at the intersection. 3) Front-right: A black car, approximately 15 meters away, moving slowly at the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "007",
+        "Start_Timestamp": "50.362s",
+        "sentiment": "Negative",
+        "End_Timestamp": "59.249s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver",
+        "summary": "In this segment, the vehicle is driving on a wet road at night. The driver mentions that a stone block was hit ahead. The stone block is placed in the middle of the road, and the driver comments on the improper placement of the stone block. The driver also notes that the vehicle crossed the line, which is the drivers fault. The driver advises caution on unfamiliar roads. The vehicle then approaches a parking barrier that is in the process of being raised.",
+        "actions": "The self-driving vehicle is moving forward on a wet road at night. The driver is commenting on the improper placement of a stone block in the middle of the road and the vehicle crossing the line. The vehicle then approaches a parking barrier that is being raised. The vehicles speed is controlled to avoid hitting the stone block and the parking barrier.",
+        "key_objects": "1) Front: A stone block, approximately 5 meters away, placed in the middle of the road, posing a potential obstacle. 2) Front: A parking barrier, approximately 10 meters away, in the process of being raised, posing a potential obstacle.",
+        "key_actions": "collision, barrier raising",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

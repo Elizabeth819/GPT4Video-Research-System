@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_2_004",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "6.9s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Two pedestrians, one wearing a yellow jacket and the other wearing an orange jacket",
+    "summary": "The vehicle is driving on a road with pedestrians. Two pedestrians, one wearing a yellow jacket and the other wearing an orange jacket, are walking on the road. The pedestrians are walking towards the vehicle. The vehicle needs to slow down to avoid hitting the pedestrians.",
+    "actions": "The self-driving vehicle is maintaining a steady speed. The vehicle is approaching the pedestrians. The vehicle is not slowing down.",
+    "key_objects": "1) Front: Two pedestrians, one wearing a yellow jacket and the other wearing an orange jacket, approximately 5 meters away, walking towards the vehicle.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

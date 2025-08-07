@@ -1,0 +1,11 @@
+video_id,ground_truth,gt_normalized,original_10sec_prediction,onesec_prediction,original_correct,onesec_correct,both_correct,both_wrong,original_better,onesec_better,predictions_differ
+images_1_001,none,none,ghost probing,ghost probing,False,False,False,True,False,False,False
+images_1_002,5s: ghost probing,ghost probing,none,ghost probing,False,True,False,False,False,True,True
+images_1_003,2s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False,False
+images_1_004,none,none,ghost probing,ghost probing,False,False,False,True,False,False,False
+images_1_005,8s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False,False
+images_1_007,6s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False,False
+images_1_008,3s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False,False
+images_1_009,none,none,ghost probing,ghost probing,False,False,False,True,False,False,False
+images_1_010,15s: ghost probing,ghost probing,none,ghost probing,False,True,False,False,False,True,True
+images_1_011,11s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False,False

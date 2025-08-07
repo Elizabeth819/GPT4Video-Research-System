@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male pedestrian, appearing to be middle-aged, wearing a dark jacket and dark pants. He is initially seen standing on the left side of the road, then walks onto the crosswalk, falls to the ground, and subsequently gets up. Other characters include drivers of various vehicles (a black SUV, white vans, a silver sedan, and a person on a motorcycle/scooter) visible in the surrounding traffic.",
+  "summary": "The video segment captures the ego vehicle approaching and entering an intersection under clear weather conditions with moderate traffic. As the ego vehicle proceeds, a male pedestrian suddenly emerges from behind a white van and other parked vehicles on the left side of the road. This pedestrian, previously obscured from the driver's view, steps directly onto the crosswalk into the immediate path of the ego vehicle. The driver initiates rapid braking to avoid a collision, resulting in a very close call or minor contact that causes the pedestrian to fall to the ground directly in front of the vehicle. The ego vehicle comes to a complete stop. The pedestrian then begins to get up from the road, still in close proximity to the front of the vehicle.",
+  "actions": "The ego vehicle was initially moving forward at a moderate speed as it approached and entered the intersection. Upon the sudden and unexpected appearance of a pedestrian from behind a visual obstruction (a white van and other parked vehicles) on the left side of the road, who then immediately stepped onto the crosswalk directly into the vehicle's path, the driver initiated rapid deceleration. This emergency braking maneuver was a direct and necessary response to the pedestrian's sudden emergence, aiming to prevent a direct collision and prioritize safety given the minimal reaction time available.",
+  "key_objects": "1) Position: Left side of the image (initially obscured by a white van and other vehicles), then moving towards the center of the image in front of the vehicle: A male pedestrian, middle-aged, wearing dark clothing. He suddenly emerged from behind the obstruction and stepped onto the crosswalk directly into the ego vehicle's path. This sudden appearance from behind an obstruction created an immediate collision risk, triggering the 'ghost probing' behavior.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

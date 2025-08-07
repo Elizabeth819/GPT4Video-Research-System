@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_003",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child wearing a blue jacket and a woman wearing a pink jacket are present on the road. A white car is parked on the right side of the road with its trunk open.",
+  "summary": "The vehicle is driving on a road at night. From 0.0s to 2.0s, the road appears clear. At 3.0s, a child wearing a blue jacket suddenly appears in the middle of the road. At 5.0s, the child is lying on the road. From 6.0s to 10.0s, a woman wearing a pink jacket is seen attending to the child on the road next to a white car with its trunk open on the right side of the road.",
+  "actions": "The vehicle is driving at a consistent speed on a straight road. The driver likely maintains the speed due to the absence of immediate obstacles or traffic concerns in the initial frames. The driver may need to decelerate due to the presence of the child and woman on the road.",
+  "key_objects": "1) Center: A child wearing a blue jacket, approximately 10 meters away, suddenly appearing in the middle of the road. 2) Right side: A white car, approximately 5 meters away, parked with its trunk open, potentially obstructing the view of the child and woman. 3) Center: A woman wearing a pink jacket, approximately 3 meters away, attending to the child on the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

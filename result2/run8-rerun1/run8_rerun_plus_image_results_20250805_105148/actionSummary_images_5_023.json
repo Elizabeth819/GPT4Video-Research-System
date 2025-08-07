@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_023",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child, and cyclists observed. Pedestrians and cyclists are moving unpredictably, creating potential hazards.",
+  "summary": "The video sequence shows a series of dangerous situations involving pedestrians and cyclists suddenly emerging from behind obstructions. In the first sequence, a child suddenly runs into the road from the right side, hidden by a parked vehicle. In the second sequence, a pedestrian with a child suddenly appears from behind a parked car on the left side. In the third sequence, a cyclist emerges from behind a parked truck on the left side. In the fourth sequence, a motorcyclist suddenly appears from the right side, crossing the path of the observer vehicle.",
+  "actions": "Pedestrians and cyclists are moving unpredictably, creating potential hazards. The observer vehicle needs to be prepared for sudden braking and evasive maneuvers.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians, cyclists, and motorcyclists.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "emergency maneuver",
+    "lane_control": "maintain current lane"
+  }
+}

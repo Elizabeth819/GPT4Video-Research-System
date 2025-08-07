@@ -1,0 +1,146 @@
+{
+  "video_id": "images_5_044",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "0.9s",
+      "characters": "The scene shows a rainy urban environment with multiple vehicles on the road. The self-driving car is moving forward on a wet road surface. There are buildings on both sides of the road, and several cars are parked along the right side. Other vehicles are moving in the same direction and in the opposite direction.",
+      "summary": "The self-driving car is proceeding along a wet road in an urban setting. Several vehicles are visible, both moving and parked. The road conditions are affected by rain, which could impact visibility and traction.",
+      "actions": "The vehicle is moving forward at a moderate speed, likely adjusting to the wet road conditions to maintain control and avoid hydroplaning. The driver is maintaining a safe distance from the vehicles ahead.",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "0.9s",
+      "End_Timestamp": "1.8s",
+      "characters": "A person on a scooter, wearing a light-colored jacket, is visible on the right side of the road, attempting to cross the street. The scooter is moving at a moderate speed. Other vehicles are present, and the road remains wet.",
+      "summary": "A person on a scooter is attempting to cross the road from right to left. The scooter's speed and the wet road conditions pose a potential risk. The self-driving car needs to monitor the scooter's trajectory and speed to avoid a collision.",
+      "actions": "The vehicle is maintaining its speed and lane position, closely monitoring the scooter on the right. The driver is likely preparing to decelerate if the scooter enters the vehicle's path.",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "1.8s",
+      "End_Timestamp": "2.8s",
+      "characters": "The person on the scooter is now in the middle of the road, continuing to cross. The self-driving car is approaching the crossing point. The road is still wet, and other vehicles are visible in the background. A woman wearing a light-colored jacket is walking on the right side of the road.",
+      "summary": "The scooter is crossing the road, and the self-driving car is approaching the same area. The presence of the scooter and the wet road conditions require careful monitoring and potential deceleration. A woman is walking on the right side of the road.",
+      "actions": "The vehicle is likely decelerating slightly to increase the distance from the scooter and prepare for a potential stop. The driver is also monitoring the woman walking on the right side of the road.",
+      "next_action": {
+        "speed_control": "decelerate",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "2.8s",
+      "End_Timestamp": "3.7s",
+      "characters": "The scooter is nearing the left side of the road, almost clear of the self-driving car's path. The woman on the right is walking away from the road. The road remains wet, and visibility is moderate.",
+      "summary": "The scooter is almost clear of the self-driving car's path, reducing the immediate risk of collision. The woman on the right is moving away from the road, further decreasing the risk. The wet road conditions still require caution.",
+      "actions": "The vehicle is continuing to decelerate, ensuring a safe distance from the scooter. The driver is preparing to resume normal speed once the scooter is completely clear.",
+      "next_action": {
+        "speed_control": "decelerate",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "3.7s",
+      "End_Timestamp": "4.6s",
+      "characters": "The scooter has cleared the self-driving car's path and is now on the left side of the road. The woman is walking further away from the road. The road is still wet, and the windshield wipers are active.",
+      "summary": "The scooter is now safely out of the self-driving car's path. The woman on the right poses no immediate threat. The vehicle can now resume normal driving. The windshield wipers are active due to the rain.",
+      "actions": "The vehicle is gradually accelerating back to its original speed, now that the scooter is no longer a threat. The driver is maintaining a safe distance from the vehicles ahead.",
+      "next_action": {
+        "speed_control": "accelerate",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "4.6s",
+      "End_Timestamp": "5.5s",
+      "characters": "A man on a bicycle, wearing a dark jacket, is suddenly appearing from behind a parked truck on the right side of the road. He is crossing the road. The road is wet, and visibility is moderate.",
+      "summary": "A man on a bicycle is suddenly appearing from behind a parked truck on the right side of the road, creating a ghost probing situation. The cyclist's sudden appearance and the wet road conditions pose a significant risk of collision. The self-driving car must react immediately to avoid hitting the cyclist.",
+      "actions": "The vehicle is braking hard to avoid hitting the cyclist who suddenly appeared from behind the parked truck. The driver is also steering slightly to the left to increase the distance from the cyclist.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Right Side]: A man on a bicycle, approximately 5 meters away, suddenly appeared from behind a parked truck and is crossing the road, causing the vehicle to brake hard."
+    },
+    {
+      "Start_Timestamp": "5.5s",
+      "End_Timestamp": "6.4s",
+      "characters": "The man on the bicycle is now in the middle of the road, continuing to cross. The self-driving car is braking hard, and the windshield wipers are still active. The distance between the car and the cyclist is decreasing rapidly.",
+      "summary": "The cyclist is continuing to cross the road, and the self-driving car is braking hard to avoid a collision. The situation remains critical due to the short distance and the wet road conditions. The cyclist's speed is moderate.",
+      "actions": "The vehicle is continuing to brake hard, and the driver is preparing for a potential emergency stop. The driver is also monitoring the cyclist's trajectory to anticipate his next move.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Right Side]: A man on a bicycle, approximately 3 meters away, is crossing the road, causing the vehicle to brake hard."
+    },
+    {
+      "Start_Timestamp": "6.4s",
+      "End_Timestamp": "7.4s",
+      "characters": "The man on the bicycle has almost cleared the self-driving car's path and is now on the left side of the road. The car is still braking hard, and the windshield wipers are active. The distance between the car and the cyclist is increasing.",
+      "summary": "The cyclist has almost cleared the self-driving car's path, reducing the immediate risk of collision. The vehicle is still braking hard to ensure a safe stop. The cyclist's speed is moderate.",
+      "actions": "The vehicle is continuing to brake hard, and the driver is preparing to release the brakes once the cyclist is completely clear. The driver is also monitoring the surrounding traffic to ensure a safe stop.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Left Side]: A man on a bicycle, approximately 2 meters away, is crossing the road, causing the vehicle to brake hard."
+    },
+    {
+      "Start_Timestamp": "7.4s",
+      "End_Timestamp": "8.3s",
+      "characters": "The man on the bicycle has completely cleared the self-driving car's path and is now on the left side of the road. The car is still braking, and the windshield wipers are active. The vehicle is coming to a stop.",
+      "summary": "The cyclist is now safely out of the self-driving car's path. The vehicle is coming to a stop to ensure safety. The situation is now under control.",
+      "actions": "The vehicle is gradually releasing the brakes, now that the cyclist is no longer a threat. The driver is preparing to resume normal driving once the vehicle has come to a complete stop.",
+      "next_action": {
+        "speed_control": "stop",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "8.3s",
+      "End_Timestamp": "8.3s",
+      "characters": "The self-driving car has come to a complete stop. The man on the bicycle is on the left side of the road, away from the car. The road is still wet, and the windshield wipers are active. Other vehicles are visible in the background.",
+      "summary": "The self-driving car has come to a complete stop after the near-collision with the cyclist. The cyclist is now safely on the left side of the road. The vehicle can now resume normal driving once it is safe to do so.",
+      "actions": "The vehicle is waiting for a safe opportunity to resume normal driving. The driver is monitoring the surrounding traffic and the cyclist to ensure that there are no further risks.",
+      "next_action": {
+        "speed_control": "accelerate",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_033",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter/motorcycle, wearing a yellow top and blue pants, is seen crossing the road from the right side of the image towards the left.",
+  "summary": "The video segment captures a nighttime driving scene on a multi-lane road, illuminated by numerous streetlights. The road surface appears wet, reflecting the ambient lights. The ego vehicle is proceeding forward, following a red sedan. As the vehicles approach an intersection, a red traffic light becomes visible on the right side of the image, and a pedestrian crossing is marked on the road. Suddenly, a person on a scooter/motorcycle emerges from behind a physical obstruction, specifically a barrier/wall located on the right side of the image. This individual darts across the pedestrian crossing, directly entering the path of the red sedan and the ego vehicle. The red sedan ahead applies its brakes and comes to a stop at the red light, allowing the scooter to pass safely. The ego vehicle also initiates deceleration in response to the red light and the braking of the leading vehicle.",
+  "actions": "The ego vehicle is initially driving forward, maintaining its position behind a red sedan. As the red sedan approaches an intersection, its brake lights illuminate, indicating deceleration, and a red traffic light becomes clearly visible on the right side of the road. In response to these visual cues – the red traffic light and the braking of the vehicle ahead – the ego vehicle begins to decelerate. This action is taken to safely reduce speed and prepare to come to a complete stop at the intersection, adhering to traffic regulations and maintaining a safe following distance from the leading vehicle. The deceleration is also a necessary response to the sudden appearance of the scooter, although the primary reason for the vehicle's speed adjustment is the traffic signal and the preceding vehicle's behavior.",
+  "key_objects": "1) Position: Right side of the image: A barrier/wall. This physical obstruction created a visual barrier, completely hiding the approaching scooter until it suddenly emerged, making its appearance a 'ghost probing' event.\n2) Position: Right to center of the image: A person on a scooter/motorcycle. This individual suddenly emerged from behind the barrier/wall on the right, darting across the road at a pedestrian crossing, directly into the path of the ego vehicle and the red car ahead, creating an immediate collision risk due to minimal reaction time.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

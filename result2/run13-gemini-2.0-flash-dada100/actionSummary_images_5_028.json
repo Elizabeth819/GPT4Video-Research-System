@@ -1,0 +1,43 @@
+{
+  "video_id": "images_5_028",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "11.9s",
+  "characters": [
+    {
+      "gender": "unknown",
+      "clothing": "unclear",
+      "colors": "unclear",
+      "age": "adult",
+      "transportation_method": "car",
+      "behavior": "driving in the same direction"
+    },
+    {
+      "gender": "male",
+      "clothing": "blue jacket",
+      "colors": "blue",
+      "age": "adult",
+      "transportation_method": "scooter",
+      "behavior": "crossing the road from right to left"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unclear",
+      "colors": "unclear",
+      "age": "unknown",
+      "transportation_method": "bus",
+      "behavior": "stopped on the right side of the road"
+    }
+  ],
+  "summary": "The self-driving car is moving forward on a city street with moderate traffic. From 0.0s to 7.0s, the car is driving at a speed between 45km/h and 32km/h. At 8.0s, a male adult on a red scooter suddenly appears from behind a bus on the right side of the road, crossing from right to left. The scooter is moving at a moderate speed. From 8.0s to 11.9s, the car decelerates from 32km/h to 24km/h. The bus is stopped on the right side of the road.",
+  "actions": "From 0.0s to 7.0s, the vehicle is moving forward at a speed between 45km/h and 32km/h. The vehicle is slowing down, likely due to the presence of other vehicles ahead and the upcoming intersection. From 8.0s to 11.9s, the vehicle decelerates from 32km/h to 24km/h, likely in response to the scooter suddenly appearing from behind the bus.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": [
+    "Right side: A male adult on a red scooter, approximately 10 meters away, crossing the road from behind a bus, causing the vehicle to decelerate."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_008",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A few cars are visible in the distance. A male pedestrian is walking on the right side of the road. A woman on a bicycle is approaching from the left side of the road.",
+  "summary": "The self-driving vehicle is proceeding along a multi-lane road in an urban environment during daylight hours. Initially, the road is relatively clear with a few cars visible in the distance. As the vehicle approaches an intersection, a male pedestrian is seen walking on the right side of the road, and a woman on a bicycle approaches from the left. The traffic light ahead turns red, prompting the vehicle to prepare to stop.",
+  "actions": "The vehicle maintains a consistent speed as it approaches the intersection. As the traffic light turns red, the vehicle begins to decelerate in preparation for stopping at the intersection. The deceleration is gradual and controlled, indicating a safe and cautious approach to the red light.",
+  "key_objects": "None requiring immediate attention",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

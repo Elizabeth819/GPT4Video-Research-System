@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving straight on a multi-lane road with other vehicles. The road has a median with a barrier on the left. The ego vehicle approaches an intersection with a left-turn lane.",
+    "actions": "Ego vehicle is driving straight. Other vehicles are also driving straight or changing lanes.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, other vehicles, road, median barrier, traffic lights, intersection",
+    "key_actions": "Driving straight",
+    "next_action": "Continue driving straight or prepare to stop at the intersection."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle approaches an intersection with a left-turn lane. There are several vehicles stopped at the intersection waiting for the traffic light to change.",
+    "actions": "Ego vehicle is approaching the intersection. Other vehicles are stopped at the intersection.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, other vehicles, road, traffic lights, intersection, crosswalk",
+    "key_actions": "Approaching intersection, slowing down.",
+    "next_action": "Stop at the intersection or proceed if the light changes."
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "model": "Real-LLaVA-GPT-4.1-Prompt",
+    "total_videos": 10,
+    "successful_videos": 0,
+    "failed_videos": 10,
+    "timestamp": "20250722_081417",
+    "device": "cuda",
+    "model_type": "Real-LLaVA-NeXT"
+  },
+  "results": [
+    {
+      "video_id": "images_1_001",
+      "error": "LLaVA分析失败，拒绝回退: 'image_sizes'",
+      "processing_time": 0.405688,
+      "timestamp": "2025-07-22T08:14:14.012428"
+    },
+    {
+      "video_id": "images_1_002",
+      "error": "LLaVA分析失败，拒绝回退: 'image_sizes'",
+      "processing_time": 0.362235,
+      "timestamp": "2025-07-22T08:14:14.421395"
+    },
+    {
+      "video_id": "images_1_003",
+      "error": "LLaVA分析失败，拒绝回退: 'image_sizes'",
+      "processing_time": 0.330929,
+      "timestamp": "2025-07-22T08:14:14.799990"
+    },
+    {
+      "video_id": "images_1_004",
+      "error": "LLaVA分析失败，拒绝回退: 'image_sizes'",
+      "processing_time": 0.36007,
+      "timestamp": "2025-07-22T08:14:15.207219"
+    },
+    {
+      "video_id": "images_1_005",
+      "error": "LLaVA分析失败，拒绝回退: 'image_sizes'",
+      "processing_time": 0.368198,
+      "timestamp": "2025-07-22T08:14:15.616089"
+    },
+    {
+      "video_id": "images_1_006",
+      "error": "LLaVA分析失败，拒绝回退: 'image_sizes'",
+      "processing_time": 0.3969,
+      "timestamp": "2025-07-22T08:14:16.053380"
+    },
+    {
+      "video_id": "images_1_007",
+      "error": "LLaVA分析失败，拒绝回退: 'image_sizes'",
+      "processing_time": 0.374121,
+      "timestamp": "2025-07-22T08:14:16.471881"
+    },
+    {
+      "video_id": "images_1_008",
+      "error": "LLaVA分析失败，拒绝回退: 'image_sizes'",
+      "processing_time": 0.316647,
+      "timestamp": "2025-07-22T08:14:16.830349"
+    },
+    {
+      "video_id": "images_1_009",
+      "error": "LLaVA分析失败，拒绝回退: 'image_sizes'",
+      "processing_time": 0.282463,
+      "timestamp": "2025-07-22T08:14:17.154868"
+    },
+    {
+      "video_id": "images_1_010",
+      "error": "LLaVA分析失败，拒绝回退: 'image_sizes'",
+      "processing_time": 0.369516,
+      "timestamp": "2025-07-22T08:14:17.563477"
+    }
+  ]
+}

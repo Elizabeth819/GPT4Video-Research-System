@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_1_014",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "9.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Child in red pants",
+        "summary": "In this segment, the vehicle is driving on a rural road with buildings on the right side. At 6.0s, a young child in red pants suddenly appears from behind a building on the right side and runs across the road, creating a potential collision situation.",
+        "actions": "The self-driving vehicle needs to decelerate rapidly to avoid a collision with the child who suddenly appeared from behind the building on the right side and ran across the road.",
+        "key_objects": "1) Right side: A young child in red pants, approximately 2 meters away, running across the road from behind a building, causing a potential collision situation.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_014",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.4s",
+        "scene_theme": "Calm",
+        "characters": "Motorcyclist on the right",
+        "summary": "In this segment, the vehicle is driving on a rural road with buildings on both sides. A motorcyclist is seen on the right side of the road, stationary and partially obstructed by a building.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and direction, as there are no immediate obstacles or vehicles in its path.",
+        "key_objects": "1) Right side: A motorcyclist, approximately 2 meters away, stationary and partially obstructed by a building.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

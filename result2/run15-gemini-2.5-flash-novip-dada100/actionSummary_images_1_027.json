@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_027",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person, appearing to be a child, on a small bicycle or scooter, wearing light-colored clothing.",
+  "summary": "The video segment captures a vehicle navigating a narrow, winding road in what appears to be a semi-urban or rural setting. The road is flanked by buildings and dense foliage, creating numerous visual obstructions. Early in the segment, a critical 'ghost probing' incident occurs when a person, identified as a child on a small bicycle or scooter, suddenly emerges from behind a parked white SUV and a tree on the left side of the road, directly into the vehicle's potential path. The driver maintains a cautious speed, which likely aids in mitigating the immediate danger. After this incident, the vehicle continues its trajectory, passing more roadside structures and eventually a gas station with a red truck parked on the left. The overall environment necessitates heightened driver awareness due to the limited visibility and potential for unexpected appearances from behind obstructions.",
+  "actions": "The vehicle maintains a consistent, cautious, and relatively slow speed throughout the segment. This speed is deliberately chosen by the driver due to the narrowness of the road, the presence of numerous visual obstructions such as buildings, trees, and parked vehicles, and the potential for unexpected hazards. The driver makes subtle steering adjustments to navigate the gentle curves of the road and to maintain a central position within the lane, demonstrating a controlled approach to the challenging environment. When the person on the bicycle/scooter emerges from behind the parked SUV and tree (around 1.8s-2.7s), the vehicle does not exhibit a sudden braking maneuver, indicating that the driver's pre-existing cautious speed was sufficient to manage the unexpected appearance without requiring an abrupt stop, or that the driver had just enough reaction time to avoid a collision.",
+  "key_objects": "1) Position: Left side of the image: A white SUV, parked on the side of the road. This vehicle acts as a significant physical obstruction, blocking the driver's view of the area behind it, which directly contributes to the 'ghost probing' incident. 2) Position: Left side of the image: A person (appears to be a child) on a small bicycle or scooter, emerging suddenly from behind the parked white SUV and a tree. This individual's unexpected appearance from behind the visual barrier creates an immediate danger and constitutes the 'ghost probing' behavior. 3) Position: Left side of the image: A red truck, parked near a gas station further down the road. This is a stationary object that the driver approaches and passes, but it does not pose an immediate threat or contribute to a 'ghost probing' scenario within this segment.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

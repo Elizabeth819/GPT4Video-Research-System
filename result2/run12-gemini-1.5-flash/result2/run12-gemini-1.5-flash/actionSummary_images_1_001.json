@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_1_001",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Roadway",
+    "characters": "A man in dark clothing is walking along the roadside.",
+    "summary": "The video shows a vehicle driving down a two-lane road.  A man in dark clothing is walking on the right side of the road, away from the vehicle. A red car is visible ahead, traveling in the same direction. The distance between the observer vehicle and the pedestrian remains relatively consistent throughout the 10-second segment. No immediate danger is apparent, although the pedestrian is close to the road.",
+    "actions": "The vehicle maintains a consistent speed and direction throughout the 10-second segment.  There are no observable changes in speed or direction to suggest any immediate need for braking or maneuvering. The vehicle appears to be maintaining a safe following distance from the red car ahead.",
+    "key_objects": "Right side: A man in dark clothing, approximately 5 meters away, walking away from the vehicle.  No immediate threat.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_001",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.7s",
+    "scene_theme": "Dangerous",
+    "sentiment": "Negative",
+    "characters": "A man in a dark jacket is walking across the road.",
+    "summary": "The video shows a man in a dark jacket walking across the road in front of the vehicle. He appears to be an adult male, and his walking speed is relatively fast.  The man is initially visible in the distance, but he quickly approaches the vehicle's path. This behavior presents a significant risk of collision. The vehicle appears to be slowing down in response to the man's actions.",
+    "actions": "The vehicle is slowing down to avoid a collision with the pedestrian. The deceleration appears to be a reactive measure to the pedestrian's unexpected movement into the vehicle's path.",
+    "key_objects": "Front: A man in a dark jacket, approximately 2 meters away at the closest point, crossing the road directly in front of the vehicle, creating an immediate collision risk.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

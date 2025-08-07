@@ -1,0 +1,16 @@
+{
+  "video_id": "images_5_011",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.9s",
+  "summary": "The self-driving car is traveling on a narrow road lined with trees on both sides. The weather appears to be clear. From 0.0s to 3.0s, the car is driving on a two-way road with other vehicles in front. At 3.0s, the car makes a left turn onto a smaller road. From 3.0s to 13.9s, the car continues driving on this narrow road, maintaining its lane. There are no pedestrians or vehicles exhibiting dangerous behaviors.",
+  "characters": [],
+  "key_objects": [],
+  "actions": "From 0.0s to 3.0s, the vehicle is driving straight on a two-way road, maintaining a consistent speed to keep pace with the traffic ahead. At 3.0s, the vehicle slows down and makes a left turn onto a smaller road, likely following the intended route or navigation. From 3.0s to 13.9s, the vehicle continues driving on the narrow road, adjusting its speed to the road conditions and maintaining its lane.",
+  "next_action": {
+    "speed_control": "accelerating",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none"
+}

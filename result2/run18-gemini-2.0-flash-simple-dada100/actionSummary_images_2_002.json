@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several middle-aged and elderly people are standing on the left side of the road. Some are wearing dark clothing and some are wearing lighter clothing. A dark-colored car is parked on the right side of the road further down. There are also some people working on the left side of the road.",
+  "summary": "The vehicle is driving on a narrow road in a rural area. Several people are standing and working on the left side of the road. A car is parked on the right side of the road. The vehicle is proceeding cautiously.",
+  "actions": "The vehicle is driving at a slow speed, likely due to the presence of people working on the side of the road and the narrow road conditions. The driver is maintaining a straight path, navigating around the people and the parked car.",
+  "key_objects": "1) Left side: Group of people working near the road, medium distance, potential obstruction and distraction. 2) Right side: Parked car, far distance, potential obstruction.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_2_003",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "An adult male in light-colored clothing.",
+    "summary": "The vehicle is approaching an intersection. An adult male in light-colored clothing is walking from the right side of the road towards the center, potentially crossing the street. The pedestrian's movement and proximity to the intersection could lead to a dangerous situation if the vehicle does not decelerate or stop.",
+    "actions": "The vehicle is moving forward at a steady speed, approaching an intersection. The driver is likely assessing the traffic conditions and preparing to either continue through the intersection or stop, depending on the traffic light and the pedestrian's actions.",
+    "key_objects": "1) Right side: An adult male in light-colored clothing, approximately 5 meters away, walking towards the center of the road and potentially crossing into the vehicle's path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_2_003",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.9s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "A man in a white coat standing on the right side of the road.",
+    "summary": "The vehicle is driving on an urban road with cars parked on the left side. A man in a white coat is standing on the right side of the road. The road ahead is relatively clear.",
+    "actions": "The self-driving vehicle is maintaining a steady speed on the urban road. The driver is likely maintaining the current speed due to the relatively clear road ahead and the presence of parked cars on the left side.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

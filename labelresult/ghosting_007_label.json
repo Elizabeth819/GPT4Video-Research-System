@@ -1,0 +1,86 @@
+[
+    {
+        "event_id": "event_001",
+        "video_id": "007_监控行车记录鬼探头惊险一幕_哔哩哔哩_bilibili",
+        "start_timestamp": "0.00s",
+        "end_timestamp": "10.00s",
+        "timestamp": "2024-12-14 21:06:44",
+        "key_objects": "a pedestrian from the right",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_002",
+        "video_id": "007_监控行车记录鬼探头惊险一幕_哔哩哔哩_bilibili",
+        "start_timestamp": "10.00s",
+        "end_timestamp": "20.00s",
+        "timestamp": "2024-12-14 21:12:45",
+        "key_objects": "a tricycle from the left",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_003",
+        "video_id": "007_监控行车记录鬼探头惊险一幕_哔哩哔哩_bilibili",
+        "start_timestamp": "20.00s",
+        "end_timestamp": "30.00s",
+        "timestamp": "2024-12-14 21:13:54",
+        "key_objects": "a pedestrian from the right",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "007_监控行车记录鬼探头惊险一幕_哔哩哔哩_bilibili",
+        "start_timestamp": "30.00s",
+        "end_timestamp": "40.00s",
+        "timestamp": "2024-12-14 21:14:27",
+        "key_objects": "an electric scooter from the right",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "007_监控行车记录鬼探头惊险一幕_哔哩哔哩_bilibili",
+        "start_timestamp": "40.00s",
+        "end_timestamp": "50.00s",
+        "timestamp": "2024-12-14 21:14:50",
+        "key_objects": "an electric scooter from the left",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_006",
+        "video_id": "007_监控行车记录鬼探头惊险一幕_哔哩哔哩_bilibili",
+        "start_timestamp": "50.00s",
+        "end_timestamp": "60.00s",
+        "timestamp": "2024-12-14 21:15:28",
+        "key_objects": "an electric scooter from the left",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

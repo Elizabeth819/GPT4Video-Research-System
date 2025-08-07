@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_5_001",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Night driving in a city",
+    "characters": "Driver of the recording vehicle, other drivers, pedestrians",
+    "summary": "The video shows nighttime city driving. The self-driving vehicle is traveling along a relatively straight road with moderate traffic.  Between 4.4s and 5.6s, a pedestrian crosses the road in front of the vehicle. The pedestrian is wearing dark clothing and is not easily visible against the dark background.  The vehicle slows down slightly as it approaches the crosswalk. No other significant events occur during this segment.",
+    "actions": "The self-driving vehicle maintains a consistent speed throughout most of the segment, adjusting speed slightly to navigate the crosswalk where a pedestrian is crossing. The vehicle stays in its lane and follows the traffic flow.",
+    "key_objects": "Front: Pedestrian in dark clothing, approximately 10 meters away at 4.4s, crossing the road from left to right. This caused a slight deceleration of the vehicle.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_001",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "12.9s",
+    "scene_theme": "Night driving in a city",
+    "characters": "Driver of the self-driving vehicle, other vehicles on the road, pedestrians on the sidewalk.",
+    "summary": "The video shows a night scene of a self-driving vehicle approaching an intersection.  The road is relatively clear with some parked cars on the sides. There are pedestrians visible on the sidewalks.  Between frames 1 and 2, the self-driving vehicle continues to move forward at a seemingly consistent speed towards the intersection. No immediate dangerous events are observed.",
+    "actions": "The self-driving vehicle maintains a steady speed and direction, approaching the intersection.  The vehicle's actions suggest it is proceeding cautiously towards the intersection, likely anticipating a stop or a turn depending on traffic signals or road conditions.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

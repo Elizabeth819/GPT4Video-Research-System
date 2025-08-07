@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_14_008",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Multiple vehicles and pedestrians",
+        "summary": "In this segment, the vehicle is driving on an urban road. Initially, there are multiple vehicles ahead, including a motorcycle and a car on the left side. As the vehicle progresses, a white car is seen parked on the right side, and a pedestrian in red clothing is standing near it. Towards the end, the road becomes clearer with fewer vehicles ahead.",
+        "actions": "The self-driving vehicle maintains a steady speed throughout the segment. It keeps a safe distance from the vehicles ahead and does not make any sudden movements or lane changes.",
+        "key_objects": "1) Front: A motorcycle, approximately 10 meters away, moving forward. 2) Left side: A car, approximately 15 meters away, moving forward. 3) Right side: A white car, approximately 5 meters away, parked. 4) Right side: A pedestrian in red clothing, approximately 5 meters away, standing near the white car.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_14_008",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area. The road ahead is clear, with a few vehicles parked on the right side and a motorcycle moving ahead. The self-driving vehicle maintains a steady speed and lane position.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position, ensuring safe navigation through the urban area. The driver is cautious of the parked vehicles on the right side and the motorcycle moving ahead.",
+        "key_objects": "1) Front: A motorcycle, approximately 10 meters away, moving forward. 2) Right: Multiple parked vehicles, approximately 3 meters away, stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

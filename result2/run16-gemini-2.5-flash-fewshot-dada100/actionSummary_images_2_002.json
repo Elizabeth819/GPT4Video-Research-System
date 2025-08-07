@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.8s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male pedestrian in a dark jacket and cap, appearing middle-aged, who suddenly emerges and then falls/bends down. Other male and female pedestrians, appearing middle-aged or older, are observing or gathering on the left and right sides of the road.",
+  "summary": "In this segment, the vehicle is driving on a narrow, unpaved road in what appears to be a rural or residential area. The road is flanked by buildings on the left and a white van on the right, which acts as a significant visual obstruction. As the vehicle progresses, a male pedestrian suddenly and unexpectedly emerges from behind the white van on the right side of the road, directly stepping into the vehicle's immediate path. The vehicle comes to an abrupt stop to avoid collision. Following the vehicle's stop, the pedestrian appears to fall or bend down directly in front of the vehicle, and other individuals from the vicinity begin to gather around the scene.",
+  "actions": "The self-driving vehicle was initially moving forward at a cautious speed, navigating the unpaved road. Upon the sudden and unannounced emergence of a male pedestrian from behind a white van on the right side of the road (at approximately 3.0s-4.0s), the vehicle initiated immediate and rapid deceleration. This swift braking action was taken to prevent an imminent collision with the pedestrian who appeared directly in its path with minimal reaction time. The vehicle successfully came to a complete stop, remaining stationary for the remainder of the observed frames as the situation involving the pedestrian unfolded in front of it.",
+  "key_objects": "1) Right side: A white van, initially approximately 10-15 meters away, parked on the side of the road, serving as a significant physical obstruction that completely obscured the pedestrian's approach until their sudden emergence. 2) Right side: A male pedestrian, approximately 2-3 meters away when first visible, wearing a dark jacket and cap, who suddenly darted out from behind the white van directly into the vehicle's path, subsequently appearing to fall or bend down in front of the stopped vehicle.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

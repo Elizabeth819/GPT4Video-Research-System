@@ -1,0 +1,132 @@
+{
+  "video_id": "images_5_053",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "1.0s",
+      "characters": "The scene shows a narrow road in what appears to be a rural or semi-urban area. Buildings line both sides of the road, creating a somewhat enclosed space. The sky is clear, suggesting it's daytime. A white car is parked on the left side of the road ahead. The road surface appears uneven and possibly unpaved in sections.",
+      "summary": "The self-driving car is navigating a narrow road with buildings on either side. A white car is parked ahead on the left. The road conditions appear uneven. The car is proceeding cautiously down the road.",
+      "actions": "The vehicle is moving forward at a slow speed, likely due to the narrow road and the presence of parked vehicles. The driver is proceeding cautiously to avoid any potential obstacles or hazards.",
+      "next_action": {
+        "speed_control": "maintaining speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep center"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "1.0s",
+      "End_Timestamp": "1.9s",
+      "characters": "The scene remains similar, with the self-driving car progressing further down the narrow road. The parked white car is now closer. The lighting suggests it's early morning or late afternoon. The road continues to be uneven.",
+      "summary": "The self-driving car continues down the narrow road, approaching the parked white car. The road conditions remain uneven, requiring careful navigation.",
+      "actions": "The vehicle is maintaining a slow speed, likely preparing to pass the parked car. The driver is carefully monitoring the surroundings for any unexpected movements or obstacles.",
+      "next_action": {
+        "speed_control": "maintaining speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep center"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "1.9s",
+      "End_Timestamp": "2.9s",
+      "characters": "The self-driving car is getting closer to the parked white car. A person is now visible further down the road, walking on the right side. The buildings continue to line the road, creating a confined environment.",
+      "summary": "The self-driving car approaches the parked white car while a person is walking on the right side of the road ahead. The narrow road and the presence of both a parked car and a pedestrian require careful attention.",
+      "actions": "The vehicle is likely preparing to adjust its path to pass both the parked car and the pedestrian safely. The driver is monitoring the pedestrian's movement to anticipate any changes in direction.",
+      "next_action": {
+        "speed_control": "maintaining speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep center"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "2.9s",
+      "End_Timestamp": "3.9s",
+      "characters": "The self-driving car is now nearly adjacent to the parked white car. The person walking on the right side of the road is getting closer. The road remains narrow, and the buildings continue to create a confined space.",
+      "summary": "The self-driving car is passing the parked white car while approaching a person walking on the right side of the road. The narrow road requires careful maneuvering to avoid both obstacles.",
+      "actions": "The vehicle is likely maintaining its speed while carefully steering to pass the parked car. The driver is closely monitoring the pedestrian's position and movement to ensure a safe passing distance.",
+      "next_action": {
+        "speed_control": "maintaining speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep center"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "3.9s",
+      "End_Timestamp": "4.8s",
+      "characters": "The self-driving car has passed the parked white car and is now approaching the person walking on the right side of the road. The person appears to be wearing dark clothing. A black vehicle is now visible parked on the left side of the road further ahead.",
+      "summary": "The self-driving car is approaching a person walking on the right side of the road, with a black vehicle parked on the left side further ahead. The driver needs to navigate the pedestrian and the parked vehicle.",
+      "actions": "The vehicle is maintaining its speed and trajectory, likely preparing to pass the pedestrian. The driver is also assessing the position of the parked black vehicle to plan the next maneuver.",
+      "next_action": {
+        "speed_control": "maintaining speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep center"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "4.8s",
+      "End_Timestamp": "5.8s",
+      "characters": "The self-driving car is getting closer to the person walking on the right side of the road. The person is wearing a dark jacket and pants. The black vehicle parked on the left is now more visible. The road remains narrow.",
+      "summary": "The self-driving car is approaching the person walking on the right side of the road, with a parked black vehicle on the left. The narrow road requires careful navigation to avoid both.",
+      "actions": "The vehicle is likely preparing to pass the pedestrian while maintaining a safe distance. The driver is also assessing the space available to pass the parked black vehicle.",
+      "next_action": {
+        "speed_control": "maintaining speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep center"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "5.8s",
+      "End_Timestamp": "6.8s",
+      "characters": "The self-driving car is now passing the person walking on the right side of the road. The person is walking at a moderate pace. The parked black vehicle on the left is now closer. The road remains narrow and confined.",
+      "summary": "The self-driving car is passing the person walking on the right side of the road while approaching the parked black vehicle on the left. The narrow road requires careful maneuvering.",
+      "actions": "The vehicle is maintaining a safe distance from the pedestrian while carefully steering to avoid the parked black vehicle. The driver is likely assessing the available space and adjusting the trajectory accordingly.",
+      "next_action": {
+        "speed_control": "maintaining speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep center"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "6.8s",
+      "End_Timestamp": "7.7s",
+      "characters": "The self-driving car has passed the person walking and is now approaching the parked black vehicle. The road is narrow, and there is limited space to maneuver. A person on a bicycle is now visible further down the road.",
+      "summary": "The self-driving car is approaching the parked black vehicle, with a person on a bicycle visible further ahead. The narrow road and the presence of both a parked vehicle and a cyclist require careful attention.",
+      "actions": "The vehicle is likely preparing to pass the parked black vehicle while also assessing the cyclist's position and movement. The driver is anticipating the need to adjust the trajectory to avoid both obstacles.",
+      "next_action": {
+        "speed_control": "maintaining speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep center"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "7.7s",
+      "End_Timestamp": "8.7s",
+      "characters": "The self-driving car is now passing the parked black vehicle. The person on the bicycle is getting closer. The cyclist is wearing dark clothing and riding at a moderate pace. The road remains narrow.",
+      "summary": "The self-driving car is passing the parked black vehicle while approaching a cyclist. The narrow road requires careful maneuvering to avoid both.",
+      "actions": "The vehicle is maintaining a safe distance from the parked vehicle while also monitoring the cyclist's position and movement. The driver is likely preparing to adjust the trajectory to pass the cyclist safely.",
+      "next_action": {
+        "speed_control": "maintaining speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep center"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    }
+  ]
+}

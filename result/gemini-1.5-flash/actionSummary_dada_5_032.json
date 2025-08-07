@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving down a road with parked motorcycles on the right. A pedestrian is walking on the right side of the road. A motorcycle suddenly appears from the left side of the road, attempting to cross the street. The motorcycle collides with another motorcycle.",
+    "actions": "Ego vehicle is moving forward. Pedestrian is walking. Motorcycle is crossing the street.",
+    "characters": "Pedestrian",
+    "key_objects": "Ego vehicle, motorcycles, pedestrian",
+    "key_actions": "ghost probing",
+    "next_action": "Continue driving forward"
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle continues driving forward after witnessing a motorcycle collision. People are gathering around the scene of the accident.",
+    "actions": "Ego vehicle is moving forward. People are gathering.",
+    "characters": "People",
+    "key_objects": "Ego vehicle, motorcycles, people",
+    "key_actions": "None",
+    "next_action": "Continue driving forward"
+  }
+]

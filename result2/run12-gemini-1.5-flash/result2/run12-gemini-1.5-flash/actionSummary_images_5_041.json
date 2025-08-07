@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_5_041",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "7.7s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of a vehicle, other vehicles on the road",
+    "summary": "The video shows a car driving on a multi-lane road with moderate traffic.  The road is relatively clear with no immediate obstructions. The self-driving vehicle maintains a consistent speed and distance from the vehicles ahead.  No pedestrians or cyclists are visible. Traffic lights are present at an intersection ahead, and the traffic flow appears to be relatively smooth.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the video segment. The vehicle approaches an intersection with traffic lights, slowing slightly in anticipation of the intersection.  The driver appears to be maintaining a safe following distance from the vehicle in front.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_46_012",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red car, driver of a white car",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a red car is in the same lane, and a white car is in the adjacent lane. The road is wet, indicating rainy weather. In the final frame, a white car is seen crossing an intersection from the left side, and a motorcycle is lying on the road, indicating a recent accident.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while following the red car ahead. The vehicle is keeping a safe distance from the red car. In the final frame, the vehicle is approaching an intersection where a white car is crossing from the left, and a motorcycle is lying on the road, indicating a need for caution.",
+        "key_objects": "1) Front: A red car, approximately 10 meters away, maintaining a steady speed. 2) Left: A white car, approximately 15 meters away, crossing the intersection. 3) Front: A motorcycle, lying on the road, approximately 20 meters away, indicating a recent accident.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_46_012",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.6s",
+        "scene_theme": "Dramatic",
+        "characters": "Pedestrians, car ahead, motorcyclist",
+        "summary": "In this segment, the vehicle is approaching an intersection. Several pedestrians are crossing the road from left to right. A black car is moving from the right side into the intersection, and a motorcyclist is approaching from the left side.",
+        "actions": "The self-driving vehicle is slowing down to avoid collision with pedestrians crossing the road and the black car moving into the intersection. The vehicles speed is gradually decreasing to ensure safety.",
+        "key_objects": "1) Left side: Group of pedestrians, approximately 5 meters away, crossing the road from left to right, causing the vehicle to decelerate. 2) Right side: Black car, approximately 10 meters away, moving into the intersection, potentially causing the vehicle to slow down further. 3) Left side: Motorcyclist, approximately 15 meters away, approaching the intersection, requiring the vehicle to maintain a cautious speed.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,43 @@
+{
+  "video_id": "images_2_003",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.3s",
+  "summary": "The self-driving car is approaching an intersection. From 0.0s to 3.0s, a motorcycle with two people is on the right side of the road. At 4.0s, a man wearing a black jacket starts crossing the road from the right side. From 11.2s to 15.3s, the man continues crossing the road, and a black car passes behind him.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "black jacket",
+      "colors": "black",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "crossing the road"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "unknown",
+      "age": "unknown",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "riding"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "unknown",
+      "age": "unknown",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "riding"
+    }
+  ],
+  "key_objects": [
+    "Right side: A man in a black jacket crossing the road, approximately 5 meters away, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is approaching an intersection and maintaining its speed. The driver is likely assessing the traffic conditions and preparing to either proceed through the intersection or stop, depending on the traffic light and the presence of other vehicles or pedestrians.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

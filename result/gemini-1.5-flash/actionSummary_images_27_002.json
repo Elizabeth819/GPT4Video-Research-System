@@ -1,0 +1,95 @@
+[
+    {
+        "video_id": "dada_27_002",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A person riding a motorcycle",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "The motorcycle is parked on the right side of the road, initially not posing an immediate threat. However, at approximately 3.3 seconds, the motorcyclist starts to move, potentially creating a ghost probing situation."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark colored clothing",
+                "transportation_method": "Motorcycle",
+                "behavior": "Initially parked, then started moving at approximately 3.3 seconds, potentially creating a ghost probing situation."
+            }
+        ],
+        "summary": "The video shows a car driving on a narrow, slightly uphill road.  The road is unpaved and appears to be in a residential area. On the right side of the road, a motorcycle is initially parked. At approximately 3.3 seconds into the video, the motorcyclist starts to move, creating a potential ghost probing scenario. The motorcyclist's sudden movement from a relatively stationary position poses a risk of collision with the approaching car. The speed of the motorcycle is moderate, but the suddenness of the movement is the primary concern. The car is driving at a slow, cautious speed, likely due to the road conditions and the presence of other vehicles and potential obstacles.",
+        "actions": "The vehicle maintains a slow and steady speed throughout the 5-second segment. This cautious driving is likely a response to the narrow, unpaved road conditions and the presence of other vehicles and potential obstacles. The driver is navigating a slight uphill incline, requiring consistent throttle input to maintain momentum. There are no significant changes in direction or braking observed during this period.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_27_002",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A person wearing a light-colored hat and dark clothing, possibly male, appears to be sitting or crouching by the roadside.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "The person's position and proximity to the road pose a potential 'ghost probing' risk if they were to suddenly stand up and enter the vehicle's path."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Possibly male",
+                "age": "Indeterminate",
+                "clothing": "Light-colored hat, dark clothing",
+                "transportation_method": "On foot",
+                "behavior": "Sitting or crouching by the roadside, posing a potential 'ghost probing' hazard."
+            }
+        ],
+        "summary": "The video shows a vehicle driving on a narrow, unpaved road.  On the right side of the road, approximately 5 meters from the vehicle, a person wearing a light-colored hat and dark clothing is sitting or crouching near the roadside vegetation. This individual poses a potential 'ghost probing' risk, as they could suddenly stand and enter the vehicle's path with little warning. The road appears relatively clear of other vehicles, but the presence of the person on the roadside presents a significant safety concern.",
+        "actions": "The vehicle is driving slowly and cautiously on a narrow, unpaved road. The driver appears to be maintaining a safe distance from the parked vehicles on the left side of the road. The slow speed suggests the driver is navigating a challenging road condition and is exercising caution.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep right"
+        }
+    },
+    {
+        "video_id": "dada_27_002",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.0s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "An older adult male, wearing a light-colored hat and dark clothing, appears to be walking slowly from behind a building on the right side of the road.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "He is walking towards the road, potentially creating a ghost probing situation."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "Older adult",
+                "clothing": "Light-colored hat, dark clothing",
+                "transportation_method": "Walking",
+                "behavior": "Walking slowly from behind a building towards the road, potentially creating a ghost probing situation."
+            }
+        ],
+        "summary": "The video shows a dark-colored minivan driving slowly down a narrow, unpaved road.  On the right side of the road, an older adult male wearing a light-colored hat and dark clothing emerges from behind a building. He is walking slowly towards the road, potentially creating a ghost probing situation. The driver of the minivan needs to be cautious as the man's movement is unpredictable and could lead to a collision.",
+        "actions": "The minivan is driving slowly, likely due to the narrow and unpaved road conditions. The driver appears to be cautious, maintaining a low speed to navigate the road safely. There are no sudden changes in speed or direction.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    }
+]

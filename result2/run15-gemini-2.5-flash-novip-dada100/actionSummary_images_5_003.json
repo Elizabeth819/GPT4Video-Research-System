@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "On the right side of the road, an adult (wearing a light blue/green long-sleeved top and dark pants) and a child (wearing a pink long-sleeved top and dark pants) are riding a motorcycle. Other motorcyclists are present on the road, some ahead of the vehicle, some on the right side. A male pedestrian in a dark jacket and light pants is standing on the left side of the road near the white barrier. Other pedestrians are visible on the sidewalks and approaching the accident scene.",
+  "summary": "The video segment begins with the autonomous vehicle driving straight on a multi-lane city street under clear weather conditions. There are multiple motorcycles and a pickup truck ahead in the same direction. On the right side of the vehicle, a motorcycle carrying an adult and a child is observed. Around the 6-second mark, this motorcycle suddenly loses balance and falls to the ground directly in the vehicle's path. The vehicle immediately initiates rapid braking to avoid colliding with the fallen motorcycle and its riders. By the 10-second mark, the vehicle has come to a complete stop, with the motorcycle and its riders on the ground in front and to the right of the vehicle. Other individuals are seen approaching the scene to assist.",
+  "actions": "The vehicle was initially maintaining a steady speed, navigating a moderately busy city street. Upon observing the sudden and unexpected fall of a motorcycle with two riders directly into its forward path on the right side of the lane at approximately 6.0 seconds, the vehicle's system initiated an immediate and rapid deceleration. This swift braking action was taken to prevent a direct collision with the fallen individuals and the motorcycle, prioritizing the safety of all road users. The vehicle successfully came to a complete stop by 10.0 seconds, demonstrating an effective emergency response to an unforeseen obstacle.",
+  "key_objects": "1) Right: A motorcycle with an adult and a child rider, approximately 5-10 meters ahead, suddenly falls to the ground directly in the vehicle's path at around 6.0 seconds, creating an immediate collision hazard.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

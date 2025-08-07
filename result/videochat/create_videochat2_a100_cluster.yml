@@ -1,0 +1,34 @@
+$schema: https://azuremlschemas.azureedge.net/latest/amlCompute.schema.json
+type: amlcompute
+name: videochat2-a100-low-priority
+description: Low priority A100 GPU cluster for VideoChat2 HD ghost probing detection
+
+# Compute Configuration
+size: Standard_NC24ads_A100_v4  # Single A100 GPU with 24 vCPUs, 220 GB RAM
+tier: low_priority  # Low priority for cost savings
+
+# Scale Configuration
+min_instances: 0
+max_instances: 1
+idle_time_before_scale_down: 300  # 5 minutes idle before scaling down
+
+# Network Configuration
+enable_node_public_ip: true
+subnet: null
+vnet_name: null
+
+# Authentication
+identity:
+  type: system_assigned
+
+# Tags for cost management
+tags:
+  project: "GPT4Video-VideoChat2"
+  purpose: "ghost_probing_detection"
+  priority: "low"
+  cost_center: "research"
+  auto_shutdown: "true"
+  
+# Additional settings for cost optimization
+location: "East US"  # Choose region with lower A100 costs
+ssh_public_access_enabled: true

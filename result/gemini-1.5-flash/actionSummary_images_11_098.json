@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_098",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "8.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a well-lit road at night. The road appears to be clear with no visible obstacles or other vehicles in the immediate vicinity.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, driving straight on the road. There are no visible changes in speed or direction over the observed frames.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_098",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.5s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a well-lit road at night. The road ahead is clear with no visible obstacles or other vehicles. The vehicle maintains a steady speed and direction.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, as there are no visible obstacles or other vehicles on the road. The road is well-lit, providing good visibility.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

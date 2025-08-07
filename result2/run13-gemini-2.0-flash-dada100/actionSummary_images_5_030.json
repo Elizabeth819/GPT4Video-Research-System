@@ -1,0 +1,55 @@
+{
+  "video_id": "images_5_030",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.5s",
+  "characters": [
+    {
+      "character_id": "1",
+      "type": "vehicle",
+      "description": "White sedan car driving in the same direction as the ego vehicle.",
+      "location": "Center lane, ahead of the ego vehicle."
+    },
+    {
+      "character_id": "2",
+      "type": "vehicle",
+      "description": "Yellow and blue taxi driving in the same direction as the ego vehicle.",
+      "location": "Center lane, ahead of the ego vehicle."
+    },
+    {
+      "character_id": "3",
+      "type": "vehicle",
+      "description": "Black sedan car driving in the same direction as the ego vehicle.",
+      "location": "Left lane, ahead of the ego vehicle."
+    },
+    {
+      "character_id": "4",
+      "type": "vehicle",
+      "description": "A man riding a white electric bicycle, wearing a black jacket, crossing the street from left to right.",
+      "location": "Left side of the road, crossing the street."
+    },
+    {
+      "character_id": "5",
+      "type": "person",
+      "description": "Two women standing on the right side of the road, near a red food stall, waiting to cross the street. One is wearing a white jacket and the other is wearing a black jacket.",
+      "location": "Right side of the road, near a red food stall."
+    },
+    {
+      "character_id": "6",
+      "type": "vehicle",
+      "description": "A red three-wheeled vehicle is parked on the right side of the road.",
+      "location": "Right side of the road, parked."
+    }
+  ],
+  "summary": "The ego vehicle is driving on a city street with moderate traffic. A white sedan, a yellow and blue taxi, and a black sedan are driving ahead in the same direction. A man on a white electric bicycle is crossing the street from left to right. Two women are standing on the right side of the road, near a red food stall, waiting to cross the street. The man on the bicycle is a potential ghost probing hazard as he crosses the street.",
+  "actions": "The ego vehicle is maintaining a steady speed, following the flow of traffic. The driver is likely adjusting speed to maintain a safe distance from the vehicles ahead. The vehicle is driving straight, following the lane markings.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep current lane"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": [
+    "Left side: Man on a white electric bicycle, approximately 15 meters away, crossing the street, potentially causing the vehicle to decelerate or stop."
+  ]
+}

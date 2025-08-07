@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_38_016",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Multiple individuals on various modes of transportation",
+        "summary": "In this segment, the vehicle is driving through a busy intersection. Various individuals on bicycles, motorcycles, and tricycles are crossing the road from both sides. The scene is chaotic with multiple potential hazards.",
+        "actions": "The self-driving vehicle is navigating through a busy intersection with multiple individuals crossing from both sides. The vehicle is maintaining a slow and steady speed to avoid collisions. The driver is likely being cautious due to the unpredictable movements of the individuals crossing the road.",
+        "key_objects": "1) Front: A man on a bicycle, approximately 5 meters away, crossing from left to right. 2) Front: A man on a motorcycle, approximately 7 meters away, crossing from left to right. 3) Front: A woman on a tricycle, approximately 10 meters away, crossing from left to right. 4) Front: A man on a bicycle, approximately 8 meters away, crossing from right to left. 5) Front: A man on a motorcycle, approximately 6 meters away, crossing from right to left.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

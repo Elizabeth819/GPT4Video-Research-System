@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_044",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver navigating a wet urban street with moderate traffic. Pedestrians and cyclists are present. The weather appears to be rainy. The cyclist is wearing a dark jacket and pants, riding a bicycle with a red basket. Other pedestrians are wearing various clothing. Other cars are present.",
+  "summary": "The vehicle is driving on a wet road in an urban environment. The driver approaches a crosswalk. A cyclist suddenly appears from the right side of the road, crossing the street. The driver likely needs to brake to avoid a collision. The road is wet, and visibility is reduced due to rain.",
+  "actions": "The vehicle is initially moving forward at a moderate speed. As the vehicle approaches the crosswalk, the driver likely maintains speed initially. Upon spotting the cyclist, the driver will likely brake to avoid a collision. The driver is proceeding straight through the intersection.",
+  "key_objects": "1) Right side: A cyclist emerges from behind parked cars, crossing the street, creating a potential collision hazard. Distance: Approximately 10-15 meters. Behavior impact: Requires immediate braking. 2) Road: Wet road surface. Distance: Immediate. Behavior impact: Reduced traction and increased stopping distance.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

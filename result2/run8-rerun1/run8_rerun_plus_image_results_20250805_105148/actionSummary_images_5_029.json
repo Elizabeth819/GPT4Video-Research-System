@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_029",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, cyclists, and drivers. The child is wearing a blue jacket and is seen darting into the road from the right side. The adult is wearing a green jacket and is also seen darting into the road from the left side. Cyclists are present in the background.",
+  "summary": "The video sequence shows multiple instances of ghost probing behavior. In the first sequence, a child suddenly emerges from behind a parked vehicle on the right side, directly into the driving lane. In the second sequence, an adult emerges from behind a parked vehicle on the left side, also directly into the driving lane. Both instances create immediate collision risks. Additionally, there are cyclists and other pedestrians visible in the background, adding to the complexity of the scene.",
+  "actions": "The child and adult pedestrians are seen darting into the road from behind parked vehicles, creating immediate collision risks. The cyclists are moving along the roadside.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians, cyclists, and moving vehicles.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

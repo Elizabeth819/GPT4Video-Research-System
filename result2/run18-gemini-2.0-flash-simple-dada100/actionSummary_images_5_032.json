@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_032",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car, with several pedestrians and motorcyclists visible on the roadside. There are also parked cars and buildings in the background. The pedestrians appear to be adults, and the motorcyclists are riding scooters.",
+  "summary": "The vehicle is driving on a road with buildings on the right and a long structure on the left. Several motorcycles are parked on the right side of the road. A pedestrian is walking on the right side of the road. As the vehicle approaches an intersection, a motorcyclist suddenly emerges from the left side, resulting in a collision. The motorcyclist and passenger fall to the ground.",
+  "actions": "The vehicle is initially driving straight at a moderate speed. As it approaches the intersection, it maintains its speed. Upon seeing the motorcyclist emerging from the left, the driver attempts to brake, but a collision occurs.",
+  "key_objects": "1) Left side: Motorcyclist, emerging from behind a building, short distance, causes collision. 2) Right side: Pedestrian, walking on the sidewalk, medium distance, poses a potential hazard if they enter the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

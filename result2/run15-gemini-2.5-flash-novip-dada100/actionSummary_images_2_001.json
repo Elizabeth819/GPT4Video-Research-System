@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Dangerous",
+  "characters": "The scene is populated by numerous pedestrians of various ages and genders, many carrying bags or umbrellas. There are also many individuals operating motorcycles, scooters, and three-wheeled vehicles (tricycles), some of which are used for transporting goods. Most individuals are dressed in casual winter clothing, including jackets and coats.",
+  "summary": "The video segment depicts a highly congested street scene, likely a market area, characterized by a dense mix of pedestrians, motorcycles, scooters, and various types of three-wheeled vehicles. The weather appears overcast, and the road surface looks wet. Buildings with multiple stories line the left side of the street, featuring storefronts and red awnings, indicating commercial activity. On the right side, there is a concrete wall adorned with large billboards. The ego vehicle is either stationary or moving at an extremely slow pace, navigating through the chaotic and crowded environment. Throughout the segment, various individuals and vehicles move unpredictably across the vehicle's potential path. Specifically, a male pedestrian emerges from behind a parked blue three-wheeled truck on the right side of the road, stepping into the potential path of the vehicle.",
+  "actions": "The vehicle is observed to be stationary or moving at an extremely slow, crawling speed throughout the entire 10-second segment. This action is taken due to the exceptionally high density of both pedestrian and vehicular traffic in the narrow street. The driver is prioritizing safety by maintaining minimal speed or remaining stopped, allowing other road users to navigate around the vehicle and waiting for a clear path to emerge. This cautious approach is essential to prevent collisions in such a chaotic and unpredictable environment where sudden movements from pedestrians and other vehicles are common.",
+  "key_objects": "1) Right side: A blue three-wheeled truck is parked, acting as a physical obstruction. 2) Right side: A male pedestrian, wearing a dark jacket, emerges from behind the parked blue three-wheeled truck at approximately 9.0 seconds (Frame 10), stepping into the potential path of the ego vehicle. 3) Left side: A red three-wheeled vehicle loaded with boxes moves across the vehicle's path from left to right at approximately 4.0-5.0 seconds (Frames 5-6), creating a temporary moving obstruction. 4) Left side: Numerous pedestrians and motorcyclists are constantly moving in and out of the vehicle's immediate vicinity, contributing to the high-risk environment.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

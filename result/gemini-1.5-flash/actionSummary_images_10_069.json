@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_069",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a silver sedan, driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a city road. The traffic is moderate with several vehicles ahead. A silver sedan on the right side suddenly cuts into the lane of the self-driving vehicle, causing a potential collision. Additionally, a motorcyclist is seen approaching from the left side, potentially overtaking the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through moderate traffic. The vehicles speed remains steady to avoid sudden braking due to the silver sedan cutting in from the right side. The driver is also cautious of the motorcyclist approaching from the left side.",
+        "key_objects": "1) Right side: A silver sedan, approximately 2 meters away, cutting into the self-driving vehicles lane abruptly. 2) Left side: A motorcyclist, approximately 5 meters away, approaching and potentially overtaking the self-driving vehicle.",
+        "key_actions": "cut-in, left-side overtaken",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

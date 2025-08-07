@@ -1,0 +1,20 @@
+```json
+{
+    "video_id": "images_1_002",
+    "segment_id": "full_video",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Multiple pedestrians, including a child and an adult, are observed. The child is wearing a dark outfit and the adult is wearing a light-colored outfit. Both are seen crossing the road from the right side.",
+    "summary": "The video sequence shows a vehicle driving through various urban and rural settings. In the first sequence, a child suddenly emerges from the right side of the road, darting into the vehicle's path from behind a parked vehicle. In the second sequence, a woman with a child suddenly appears from behind a parked vehicle on the right side, crossing the road. In the third sequence, a man suddenly runs across the road from the left side, emerging from behind a parked vehicle.",
+    "actions": "The child and the adult are crossing the road from the right side, emerging from behind parked vehicles. The man is running across the road from the left side, also emerging from behind a parked vehicle.",
+    "key_objects": "Parked vehicles on both sides of the road, pedestrians crossing the road, and the observer vehicle.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "emergency brake",
+        "direction_control": "straight",
+        "lane_control": "maintain current lane"
+    }
+}
+```

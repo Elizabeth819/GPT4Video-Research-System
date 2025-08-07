@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_40_059",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white van, scooter rider",
+        "summary": "In this segment, the vehicle is approaching an intersection. A scooter rider is seen crossing from the left side of the frame. The scooter rider collides with a white van, causing the scooter to fall onto the road. The self-driving vehicle maintains a steady speed and distance from the incident.",
+        "actions": "The self-driving vehicle maintains a steady speed and distance from the incident, ensuring safety and avoiding sudden maneuvers.",
+        "key_objects": "1) Left side: A scooter rider, approximately 5 meters away, crossing the intersection and colliding with a white van. 2) Front: A white van, approximately 10 meters away, involved in the collision with the scooter.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_3_002",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.1s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "A truck in front of the self-driving vehicle, a person on the right side of the road, and a person on a motorcycle on the right side of the road.",
+    "summary": "The self-driving vehicle is traveling on an urban road, following a truck. A person is walking on the right side of the road, and a person is riding a motorcycle on the right side of the road. The person on the motorcycle is not behind any obstruction, and is visible in the frame.",
+    "actions": "The self-driving vehicle is maintaining a steady speed and following the truck in front. The vehicle is not accelerating or decelerating, and is maintaining its current lane.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

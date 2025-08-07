@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "bridge_traffic_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a white sedan, driver of a blue van, driver of a red truck",
+        "summary": "In this segment, the vehicle is driving on a bridge with moderate traffic. The white sedan ahead is maintaining a steady speed. A blue van is seen on the right side, and a red truck is overtaking from the left side. The traffic flow is consistent, with vehicles maintaining their lanes and speeds.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The vehicle ahead is maintaining a steady speed, and the self-driving vehicle is keeping a safe distance. The red truck is overtaking from the left side, and the blue van is maintaining its position on the right side.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, maintaining a steady speed. 2) Left side: A red truck, approximately 2 meters away, overtaking the self-driving vehicle. 3) Right side: A blue van, approximately 3 meters away, maintaining its position.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

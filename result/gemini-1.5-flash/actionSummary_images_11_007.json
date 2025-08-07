@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red car, driver of a blue car, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a highway. Initially, the road is clear with no immediate obstacles. As the vehicle progresses, a black car appears ahead in the same lane. By the end of the segment, a blue car from the right lane cuts into the self-vehicles lane, causing a potential hazard.",
+        "actions": "The self-driving vehicle maintains a steady speed initially. As the black car appears ahead, the vehicle starts to decelerate to maintain a safe distance. When the blue car cuts in from the right lane, the vehicle rapidly decelerates to avoid a collision.",
+        "key_objects": "1) Front: A black car, approximately 20 meters away, moving in the same lane, causing the self-vehicle to decelerate. 2) Right: A blue car, approximately 5 meters away, cutting into the self-vehicles lane, causing the self-vehicle to rapidly decelerate.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, Driver of a white sedan, Driver of a blue sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. The traffic is dense, and the vehicle is closely following a black sedan. A white sedan is seen overtaking from the left lane, and a blue sedan is visible in the adjacent right lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while closely following the black sedan ahead. The vehicle is positioned in the middle lane, with a white sedan overtaking from the left lane and a blue sedan maintaining its position in the right lane.",
+        "key_objects": "1) Front: A black sedan, approximately 5 meters away, maintaining a consistent speed. 2) Left: A white sedan, approximately 3 meters away, overtaking the self-driving vehicle. 3) Right: A blue sedan, approximately 4 meters away, maintaining its position in the adjacent lane.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

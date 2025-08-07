@@ -17,3 +17,10 @@ Nuke.mp4
 BigCat.mp4
 *.mp4
 node_modules/
+DADA-2000-videos/*
+DADA-2000-videos
+result/DADA-100-videos/*
+
+# macOS system files
+.DS_Store
+**/.DS_Store

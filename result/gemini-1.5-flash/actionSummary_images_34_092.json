@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_092",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black SUV, driver of a white sedan, driver of a blue truck, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. The road is relatively busy with multiple vehicles ahead. A black SUV is on the left side, a white sedan is in the center lane, and a blue truck is further ahead. A motorcyclist is seen on the right side. The traffic is moving steadily, and no sudden movements or dangerous behaviors are observed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and staying in its lane. The vehicle is following the traffic flow and keeping a safe distance from the vehicles ahead. The driver is cautious and attentive to the surrounding vehicles.",
+        "key_objects": "1) Left side: A black SUV, approximately 5 meters away, maintaining its lane. 2) Center: A white sedan, approximately 10 meters away, moving steadily. 3) Front: A blue truck, approximately 20 meters away, moving ahead. 4) Right side: A motorcyclist, approximately 15 meters away, maintaining a steady speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

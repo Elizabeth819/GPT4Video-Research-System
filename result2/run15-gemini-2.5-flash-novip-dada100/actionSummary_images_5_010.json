@@ -1,0 +1,9 @@
+{
+  "timestamp": "Frames 1-15 (entire clip)",
+  "summary": "An autonomous vehicle is driving on a two-lane road in a rural or suburban setting. A scooter approaches from the opposite direction, loses control, and falls directly in the path of the autonomous vehicle, which then stops.",
+  "actions": "The autonomous vehicle is initially driving forward. A scooter is seen approaching from the opposite direction. The scooter rider appears to lose control, causing the scooter to fall onto the road. The autonomous vehicle immediately stops to avoid collision. The scooter rider then attempts to get up and lift the fallen scooter.",
+  "characters": "Autonomous vehicle (implied driver/occupants), scooter rider, distant pedestrians (in background).",
+  "key_objects": "Autonomous vehicle, scooter, road, buildings, trees, roadside vegetation, red banner (in background).",
+  "key_actions": "Autonomous vehicle driving, scooter approaching, scooter losing control, scooter falling, autonomous vehicle braking/stopping. No 'ghost probing' detected. The scooter was visible for several frames before the incident and did not suddenly appear from a blind spot to aggressively cut into traffic. The incident appears to be a loss of control by the scooter rider.",
+  "next_action": "The autonomous vehicle will likely remain stopped until the scooter and rider are clear of the road, or until the situation is assessed and resolved. The system may attempt to communicate with the rider or alert emergency services if necessary."
+}

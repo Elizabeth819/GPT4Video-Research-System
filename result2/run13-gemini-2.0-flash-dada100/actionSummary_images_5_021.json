@@ -1,0 +1,26 @@
+{
+  "video_id": "images_5_021",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "5.1s",
+  "summary": "The self-driving car is moving straight on a road with buildings on both sides. From 0.0s to 5.1s, the car maintains its speed and lane position. At 2.8s, a person on a scooter appears from the left side of the road at a crosswalk. The person is wearing an orange shirt and a white helmet. The scooter is dark red. The person is crossing the road from left to right. This is a potential ghost probing situation because the scooter emerges from behind a parked car. The scooter is moving at a moderate speed.",
+  "characters": [
+    {
+      "gender": "male",
+      "age": "adult",
+      "clothing": "orange shirt, white helmet",
+      "transportation_method": "scooter",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_objects": [
+    "Left side: Person on a dark red scooter, approximately 10 meters away, crossing the road from left to right, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a two-lane road. The driver is maintaining a consistent speed, likely due to the clear road ahead and the absence of immediate obstacles. The vehicle is staying in the right lane, following the road markings.",
+  "next_action": {
+    "speed_control": "keep current speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep current lane"
+  },
+  "key_actions": "ghost probing"
+}

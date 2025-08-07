@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_32_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, truck driver",
+        "summary": "In this segment, the vehicle is driving on a highway. A truck is on the left side of the road, and a white sedan is ahead. The truck suddenly releases a large amount of dust, reducing visibility and potentially causing a dangerous situation.",
+        "actions": "The self-driving vehicle maintains a consistent speed while keeping a safe distance from the white sedan ahead. The vehicles speed remains steady to avoid sudden braking due to the dust released by the truck.",
+        "key_objects": "1) Left side: A truck, approximately 5 meters away, releasing dust and reducing visibility. 2) Front: A white sedan, approximately 20 meters away, maintaining a steady speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

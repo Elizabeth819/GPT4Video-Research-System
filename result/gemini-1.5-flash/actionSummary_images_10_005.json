@@ -1,0 +1,73 @@
+[
+    {
+        "video_id": "dada_10_005",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a snowy road. The road is relatively clear, but there is some snow and ice on the ground. There is a small excavator on the left side of the road, and several cars are parked on the right side of the road. The car in the video is driving slowly and cautiously. There are no pedestrians or other vehicles that pose an immediate threat to the car.",
+        "actions": "The vehicle is driving slowly and cautiously due to the snowy and icy road conditions. The driver is maintaining a safe following distance from the vehicle in front.  The driver is navigating around parked vehicles on the right side of the road and an excavator on the left. The slow speed is a direct response to the reduced traction caused by the snow and ice, prioritizing safety.",
+        "next_action": {
+            "speed_control": "maintain_speed",
+            "direction_control": "straight",
+            "lane_control": "keep_lane"
+        }
+    },
+    {
+        "video_id": "dada_10_005",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A dark-colored car",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Moving slowly ahead of the self-driving vehicle, maintaining a consistent distance."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a segment of a road with light traffic. The self-driving vehicle is moving slowly on a snowy road.  The road is partially covered in snow and ice, and there are some potholes visible.  A dark-colored car is visible ahead, maintaining a safe distance. No pedestrians or other vehicles are observed engaging in dangerous maneuvers.",
+        "actions": "The self-driving vehicle maintains a slow and steady speed, likely due to the snowy and icy road conditions. The driver is exercising caution, adapting to the slippery road surface and maintaining a safe following distance from the vehicle ahead.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_10_005",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.8s",
+        "key_objects": [
+            {
+                "Position": "Front, Center",
+                "Object description": "A woman in a red coat, appearing to be in her 30s, walking across the road.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Walking slowly across the road, potentially creating a hazard."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Female",
+                "age": "30s",
+                "clothing": "Red coat",
+                "transportation_method": "Walking",
+                "behavior": "Walking across the road from left to right, slowly.",
+                "potential_danger": "Potential collision with the vehicle if the vehicle does not brake in time."
+            }
+        ],
+        "summary": "The video shows a woman in her 30s, wearing a red coat, slowly crossing the road from left to right in front of the vehicle. The road is icy and wet. The woman's slow pace and the icy conditions create a potential ghost probing scenario, as she is not immediately visible due to the angle and the other vehicles. The vehicle needs to react quickly to avoid a collision.",
+        "actions": "The vehicle maintains a slow and steady speed, likely due to the icy road conditions and the presence of other vehicles and pedestrians. The driver is maintaining a safe following distance from the vehicle in front. The driver is alert and scanning the road ahead for potential hazards.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_009",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two young individuals are seen crossing the road. One is wearing a light-colored jacket and dark pants, while the other is wearing a darker jacket and light pants. They are crossing the road together. Later, a person is lying on the road.",
+  "summary": "The video shows a car driving on a road at night. Two pedestrians suddenly appear and cross the road in front of the car. The car continues driving. At the end of the video, a person is lying on the road.",
+  "actions": "The vehicle is driving straight on a road at night. The driver maintains a consistent speed until pedestrians appear in the road, at which point the driver likely decelerates to avoid a collision. The driver then continues driving straight.",
+  "key_objects": "1) Center: Two pedestrians, medium distance, crossing the road unsafely. 2) Center: Person lying on the road, medium distance, creating a road hazard.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

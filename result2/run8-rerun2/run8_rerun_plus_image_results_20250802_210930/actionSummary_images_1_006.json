@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child on the right side of the road, and a cyclist on the left side of the road.",
+  "summary": "The video sequence shows a vehicle driving at night in an urban area. Initially, the road is clear, but as the vehicle progresses, a child suddenly emerges from the right side of the road, darting into the vehicle's path. This child was previously hidden by a parked vehicle, creating a sudden and immediate collision risk. Additionally, there is a cyclist on the left side of the road, but they do not pose an immediate threat.",
+  "actions": "The child on the right side of the road suddenly runs into the vehicle's path, creating a dangerous situation. The cyclist on the left side of the road is moving forward but does not interfere with the vehicle's path.",
+  "key_objects": "Parked vehicles on both sides of the road, a child running from the right side, a cyclist on the left side.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

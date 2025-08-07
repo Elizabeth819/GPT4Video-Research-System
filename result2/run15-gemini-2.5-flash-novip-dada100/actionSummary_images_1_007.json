@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "On the left side of the road, several pedestrians are visible near a bus stop shelter. On the right side, a person in a blue shirt suddenly runs across the road. Further down the right sidewalk, other pedestrians are walking, including one pushing a bicycle.",
+  "summary": "The video begins with the vehicle driving on a two-lane road, characterized by lush green trees lining both sides and buildings in the background. Initially, the vehicle approaches a crosswalk where a red car is partially on the left side and a white van is on the right side, both appearing to be either stopped or moving slowly. The vehicle proceeds forward, maintaining its lane. As the vehicle continues, it passes various parked vehicles on the right side of the road. At approximately 6.0 seconds into the video, a critical incident occurs: a person wearing a blue shirt suddenly darts out from behind a black SUV parked on the right side of the road, running directly into the vehicle's path. The vehicle's driver appears to react immediately, likely by braking and possibly making a slight evasive maneuver, successfully avoiding a collision. The person in the blue shirt continues to cross the road and moves onto the left sidewalk. Following this near-miss, the road ahead clears, and the vehicle continues its forward movement.",
+  "actions": "The vehicle initially maintains a consistent forward speed as it approaches and then passes a crosswalk. It continues to drive straight in its designated lane. At approximately 6.0 seconds, upon the sudden and unexpected appearance of a pedestrian from behind a parked black SUV on the right side of the road, the vehicle's driver initiated a rapid deceleration (braking) and likely a slight steering adjustment to the left. This immediate and decisive action was taken to prevent a collision, as the pedestrian entered the vehicle's path with minimal warning and reaction time, posing an immediate and severe safety risk.",
+  "key_objects": "1) Right side: A black SUV, parked on the side of the road, approximately 10-15 meters ahead at 6.0s, served as a physical obstruction that completely blocked the driver's view of the approaching pedestrian. 2) Right side: A person in a blue shirt, approximately 5-10 meters ahead at 6.0s, suddenly emerged from behind the parked black SUV and ran directly into the vehicle's path, creating an immediate and dangerous 'ghost probing' situation.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

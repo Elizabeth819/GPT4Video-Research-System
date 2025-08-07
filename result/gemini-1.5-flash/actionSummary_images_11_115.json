@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_115",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a red car, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. The white sedan ahead is maintaining a steady speed. A red car on the left side is overtaking the self-driving vehicle. A motorcyclist on the right side is moving forward. The red car is moving closer to the self-driving vehicle, potentially indicating a cut-in behavior.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while keeping a safe distance from the white sedan ahead. The red car on the left side is overtaking the self-driving vehicle, and the motorcyclist on the right side is moving forward.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining a steady speed. 2) Left: A red car, approximately 2 meters away, overtaking the self-driving vehicle. 3) Right: A motorcyclist, approximately 3 meters away, moving forward.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_115",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "11.4s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a red Volkswagen, driver of a yellow truck",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a red Volkswagen is in the same lane, and a yellow truck is in the adjacent right lane. The traffic is moving slowly.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, keeping a safe distance from the red Volkswagen ahead. The yellow truck in the adjacent right lane is moving at a similar pace.",
+        "key_objects": "1) Front: A red Volkswagen, approximately 5 meters away, moving slowly. 2) Right: A yellow truck, approximately 3 meters away, moving slowly in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

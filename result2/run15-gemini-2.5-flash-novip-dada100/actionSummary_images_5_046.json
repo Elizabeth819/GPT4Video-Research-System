@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_046",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "An adult person, likely male, wearing a light-colored short-sleeved shirt and dark shorts, is riding a scooter or motorcycle.",
+  "summary": "The scene depicts a nighttime driving scenario at an intersection. The vehicle is positioned at a stop line or moving very slowly, with a green traffic light visible on the left side of the image. On the left side of the road, a light-colored car is stationary, acting as a visual obstruction. Suddenly, an adult on a scooter emerges from behind this stationary car on the left, darting across the vehicle's path from the left side of the image towards the right. The scooter rider crosses directly in front of the vehicle, which maintains its slow speed or remains stationary, allowing the scooter to pass safely without incident. After the scooter clears the immediate path, the intersection ahead appears clear for the vehicle to proceed.",
+  "actions": "The vehicle is initially stopped or moving at a very low speed at an intersection. Despite the traffic light being green, indicating the right of way, the vehicle maintains its stationary or slow speed. This cautious approach is taken to ensure safety, particularly as a scooter suddenly emerges from behind an obstruction and crosses the vehicle's path. The driver's decision to not accelerate or to decelerate to a stop allows the scooter to pass safely, demonstrating a prioritization of hazard avoidance over immediate progression through the intersection.",
+  "key_objects": "1) Left side: A light-colored car is stationary on the left side of the road, serving as a physical obstruction that blocks the driver's view of the approaching scooter. This obstruction is crucial for the 'ghost probing' classification. 2) Left to Right, crossing path: An adult person on a scooter/motorcycle suddenly emerges from behind the stationary car on the left, directly entering the vehicle's path. Their sudden appearance with minimal reaction time creates an immediate potential collision situation.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

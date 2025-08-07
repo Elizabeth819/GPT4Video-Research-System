@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_054",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, truck driver",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white sedan is visible on the right side, and a large truck is moving from the left lane into the self-vehicles lane, causing a potential cut-in situation. The trucks movement is abrupt and forces the self-vehicle to decelerate to avoid collision.",
+        "actions": "The self-driving vehicle decelerates rapidly to avoid a collision with the truck that is cutting into its lane from the left side. The vehicle maintains a safe distance from the truck and adjusts its speed accordingly.",
+        "key_objects": "1) Left side: A large truck, approximately 5 meters away, moving abruptly into the self-vehicles lane, causing the vehicle to decelerate. 2) Right side: A white sedan, approximately 10 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

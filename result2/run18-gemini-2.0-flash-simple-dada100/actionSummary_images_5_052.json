@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_052",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene is at night. The driver is driving on a road with street lights. There is a person lying on the road in front of the car. The person appears to be an adult, wearing light-colored clothing, and is lying prone on the road.",
+  "summary": "The vehicle is driving at night on a road with street lights. As the video progresses, a person lying on the road becomes visible directly in front of the vehicle. The driver is approaching the person at a steady speed.",
+  "actions": "The vehicle is driving straight at a constant speed. The driver is maintaining the current lane. The driver does not appear to be slowing down or changing direction initially, but the person lying on the road becomes more visible as the car approaches.",
+  "key_objects": "1) Front: A person lying prone on the road, approximately 5-10 meters ahead, posing an immediate collision risk. 2) Left: Street signs and poles on the left side of the road, providing visual context but not directly impacting the immediate driving action.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "turn left",
+    "lane_control": "change left"
+  }
+}

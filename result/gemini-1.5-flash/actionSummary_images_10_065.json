@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_065",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Group of people, white van, red truck, bus",
+        "summary": "In this segment, the vehicle is approaching a group of people standing in the middle of the road. A white van is on the right side, a red truck is on the left side, and a bus is approaching from the right side. The group of people is standing in the middle of the road, potentially blocking the vehicles path.",
+        "actions": "The self-driving vehicle is slowing down to avoid a collision with the group of people standing in the middle of the road. The vehicle is also maintaining a safe distance from the white van on the right and the red truck on the left.",
+        "key_objects": "1) Front: Group of people, approximately 10 meters away, standing in the middle of the road, blocking the vehicles path. 2) Right: White van, approximately 5 meters away, parked and partially blocking the view. 3) Left: Red truck, approximately 5 meters away, parked and partially blocking the view. 4) Right: Bus, approximately 15 meters away, approaching the vehicles path.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_039",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving on a rural road with light traffic. The road is winding with some vegetation on both sides. There is a blue car ahead on the right side in the first frame, a white car in the distance in the second frame, and no immediate obstacles in the third frame.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating the winding road. The vehicle is keeping a safe distance from the blue car ahead in the first frame and continues to drive cautiously as the road curves.",
+        "key_objects": "1) Right side: A blue car, approximately 20 meters away, parked on the roadside in the first frame. 2) Front: A white car, approximately 50 meters away, moving in the same direction in the second frame.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_039",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "16.8s",
+        "scene_theme": "Rural Road",
+        "characters": "Driver of a silver SUV",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, the road is clear with no visible obstacles. As the vehicle progresses, it approaches a curve. In the final frame, a silver SUV is seen on the right side of the road, partially blocking the lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating the rural road. The vehicle is preparing to navigate a curve, and in the final frame, it is approaching a silver SUV that is partially blocking the lane.",
+        "key_objects": "1) Right side: A silver SUV, approximately 10 meters away, partially blocking the lane, potentially causing the vehicle to slow down or change lanes.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "slight left shift"
+        }
+    }
+]

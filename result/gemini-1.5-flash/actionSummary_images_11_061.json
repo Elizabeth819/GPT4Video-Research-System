@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_061",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "6.7s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving on a relatively empty urban road. There are parked cars on both sides of the road, and a few moving vehicles are visible in the distance. The road is clear, and there are no immediate obstacles or pedestrians in the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and direction, driving straight on the road. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "1) Left side: A green truck, approximately 10 meters away, parked and not obstructing the path. 2) Right side: A white car, approximately 15 meters away, parked and not obstructing the path. 3) Front: A few moving vehicles in the distance, approximately 50 meters away, maintaining their lanes.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

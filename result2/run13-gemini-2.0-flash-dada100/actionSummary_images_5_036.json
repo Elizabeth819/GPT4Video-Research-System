@@ -1,0 +1,19 @@
+{
+  "video_id": "images_5_036",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.0s",
+      "summary": "The self-driving car is approaching an intersection with a traffic light. Initially, the view is partially obstructed by parked trucks on the right side. As the car moves forward, several large trucks become visible on the cross street. At 8.0s, a motorcyclist wearing a black jacket and yellow helmet suddenly appears from behind the truck on the left side of the road, crossing the street. The motorcyclist is moving at a moderate speed. This sudden appearance constitutes a ghost probing incident, requiring immediate braking to avoid a collision.",
+      "actions": "The vehicle is approaching an intersection and slowing down, likely preparing to stop or yield based on the traffic light and cross-traffic. The driver is likely reducing speed to assess the situation at the intersection and ensure it is safe to proceed.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Left side]: Motorcyclist wearing a black jacket and yellow helmet, approximately 5 meters away, suddenly crossing the road from behind a truck, causing the vehicle to brake."
+    }
+  ]
+}

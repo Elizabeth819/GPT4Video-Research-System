@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_1_014",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rural Road",
+    "characters": "Driver, pedestrians, tricycle driver, scooter rider",
+    "summary": "The video shows a vehicle driving on a narrow rural road.  The road is relatively clear but has some construction debris and parked vehicles on the sides. Several pedestrians are visible, including a young child. A tricycle and a scooter are also present.  Around the 5-second mark, a young child in red clothing runs out from between parked vehicles into the road, creating a near-miss situation. The driver of the vehicle appears to maintain a steady speed and remains alert to the surroundings.",
+    "actions": "The vehicle maintains a consistent speed throughout the 10-second segment, adapting to the presence of other road users and obstacles. The driver appears to be cautiously navigating the narrow road, adjusting speed to maintain a safe distance from other vehicles and pedestrians.",
+    "key_objects": "1) Right side: A young child, approximately 2 meters away at 5.6s, running from behind parked vehicles into the road. This caused the driver to maintain a cautious speed and potentially brake slightly. 2) Right side: A red tricycle, approximately 10 meters away at 0.0s, moving slowly in the same direction. 3) Right side: A white scooter, approximately 5 meters away at 7.8s, parked near the roadside.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_014",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.2s",
+    "End_Timestamp": "10.2s",
+    "scene_theme": "Rural Road",
+    "characters": "A person on a scooter, a driver in a car",
+    "summary": "The video shows a car driving down a relatively empty rural road.  Buildings line both sides of the road. A person on a maroon scooter is visible on the right side of the road, near the edge, seemingly parked or stopped.  A white car is parked further down the road ahead. No immediate dangers are apparent.",
+    "actions": "The self-driving vehicle is traveling at a moderate speed down a straight road. There are no apparent reasons for acceleration or deceleration based on the single frame provided. The vehicle maintains its lane.",
+    "key_objects": "Right: A person on a maroon scooter, approximately 5 meters away, appears stationary.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

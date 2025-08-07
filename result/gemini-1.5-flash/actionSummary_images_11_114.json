@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_114",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "8.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black SUV",
+        "summary": "In this segment, the vehicle is driving on a multi-lane highway. A white sedan is ahead in the same lane, and a black SUV is on the right side. The black SUV suddenly merges into the self-vehicles lane, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while following the white sedan. The black SUV on the right side suddenly merges into the self-vehicles lane, causing the self-vehicle to decelerate to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining a steady speed. 2) Right: A black SUV, approximately 5 meters away, merging into the self-vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_114",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.5s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black SUV",
+        "summary": "In this segment, the vehicle is driving on a multi-lane urban road. Ahead, a black SUV is traveling in the same lane. The road is relatively clear with moderate traffic. The driver mentions the upcoming exit and the need to change lanes.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the black SUV ahead. The vehicle is preparing to change lanes to the right to take the upcoming exit.",
+        "key_objects": "1) Front: A black SUV, approximately 10 meters away, traveling in the same lane, maintaining a consistent speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "change to right lane"
+        }
+    }
+]

@@ -1,0 +1,76 @@
+# Azure ML LLaVA Ghost Probing Detection Job Configuration
+# 文件路径: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/LlaVA/azure_ml_llava_ghost_probing.yml
+
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: llava-ghost-probing-detection
+description: "LLaVA-NeXT Ghost Probing Detection on 100 DADA Videos using LLaVA-Video-7B-Qwen2"
+tags:
+  model: "LLaVA-Video-7B-Qwen2"
+  task: "ghost_probing_detection"
+  dataset: "DADA-100-videos"
+  prompt: "balanced_gpt41_compatible"
+
+# Compute configuration
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code and command
+code: .
+command: >
+  echo "🚀 开始LLaVA鬼探头检测作业" &&
+  echo "📋 检查Python和预装包..." &&
+  python --version &&
+  pip list | grep -E "(torch|transformers|numpy)" &&
+  echo "📋 最小化依赖安装（Python 3.8兼容）..." &&
+  pip install --no-deps transformers==4.35.0 &&
+  pip install --no-deps accelerate==0.21.0 &&
+  pip install --no-deps decord &&
+  pip install --no-deps opencv-python &&
+  pip install --no-deps pillow &&
+  pip install --no-deps sentencepiece &&
+  pip install --no-deps einops &&
+  pip install --no-deps huggingface-hub==0.16.4 &&
+  pip install --no-deps pyyaml &&
+  pip install --no-deps python-dotenv &&
+  pip install --no-deps tqdm &&
+  echo "✅ 依赖安装完成" &&
+  echo "🔍 检查环境..." &&
+  python -c "import sys; print(f'Python version: {sys.version}')" &&
+  python -c "import torch; print(f'PyTorch version: {torch.__version__}'); print(f'CUDA: {torch.cuda.is_available()}')" &&
+  echo "🧪 运行简化测试..." &&
+  python -c "import os, json, logging; print('基础包导入成功')" &&
+  echo "🎬 开始批处理100个视频（使用简化版检测器）..." &&
+  python llava_simple_detector.py --video-folder ./inputs/video_data --output-folder ./outputs/results --limit 100 --save-interval 5 &&
+  echo "✅ LLaVA鬼探头检测作业完成"
+
+# Input data
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/llava-ghost-probing-results/
+    mode: rw_mount
+
+# Environment variables
+environment_variables:
+  CUDA_VISIBLE_DEVICES: "0"
+  PYTHONPATH: "/mnt/batch/tasks/shared/LS_root/mounts/clusters/llava-a100-low-priority/code/Users/wanmeng/repository/GPT4Video-cobra-auto/result/LlaVA:/mnt/batch/tasks/shared/LS_root/mounts/clusters/llava-a100-low-priority/code/Users/wanmeng/repository/GPT4Video-cobra-auto/result/LlaVA/LLaVA-NeXT"
+  HF_HOME: "/tmp/huggingface"
+  TORCH_HOME: "/tmp/torch"
+  TRANSFORMERS_CACHE: "/tmp/transformers"
+
+# Experiment settings
+experiment_name: llava-ghost-probing-experiment

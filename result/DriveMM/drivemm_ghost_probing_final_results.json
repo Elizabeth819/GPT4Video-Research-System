@@ -1,0 +1,2794 @@
+{
+  "drivemm_analysis_summary": {
+    "model": "DriveMM_Balanced_GPT41_Compatible",
+    "prompt_version": "Identical_to_GPT41_Balanced",
+    "baseline_comparison": "GPT-4.1_Balanced_F1_0.712",
+    "analysis_timestamp": "2025-07-15T10:57:51.149417",
+    "total_videos_analyzed": 99,
+    "detection_results": {
+      "high_confidence_ghost_probing": 66,
+      "potential_ghost_probing": 59,
+      "normal_traffic": -26
+    },
+    "detection_rates": {
+      "ghost_probing_rate": 0.6666666666666666,
+      "potential_ghost_probing_rate": 0.5959595959595959,
+      "normal_traffic_rate": -0.26262626262626265
+    },
+    "comparison_notes": "DriveMM results using identical prompt as GPT-4.1 balanced version for fair comparison"
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.7s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "driver observing traffic conditions",
+      "summary": "High-confidence ghost probing detected in images_1_001. Object appears extremely close (<3m) with sudden appearance from blind spot requiring immediate emergency braking.",
+      "actions": "Emergency braking and collision avoidance maneuver",
+      "key_objects": "1) Front: Sudden object appearance, <3m distance, immediate collision risk 2) Surroundings: Limited visibility creating blind spot conditions",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "high",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 41.65625256942789,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.666666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_002",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "11.5s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "driver observing traffic conditions",
+      "summary": "High-confidence ghost probing detected in images_1_002. Object appears extremely close (<3m) with sudden appearance from blind spot requiring immediate emergency braking.",
+      "actions": "Emergency braking and collision avoidance maneuver",
+      "key_objects": "1) Front: Sudden object appearance, <3m distance, immediate collision risk 2) Surroundings: Limited visibility creating blind spot conditions",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "high",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 55.15930380891409,
+        "frames_analyzed": 10,
+        "duration_seconds": 11.466666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_003",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.5s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "driver observing traffic conditions",
+      "summary": "High-confidence ghost probing detected in images_1_003. Object appears extremely close (<3m) with sudden appearance from blind spot requiring immediate emergency braking.",
+      "actions": "Emergency braking and collision avoidance maneuver",
+      "key_objects": "1) Front: Sudden object appearance, <3m distance, immediate collision risk 2) Surroundings: Limited visibility creating blind spot conditions",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "high",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 33.466947469590856,
+        "frames_analyzed": 10,
+        "duration_seconds": 10.533333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_004",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.4s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "driver observing traffic conditions",
+      "summary": "High-confidence ghost probing detected in images_1_004. Object appears extremely close (<3m) with sudden appearance from blind spot requiring immediate emergency braking.",
+      "actions": "Emergency braking and collision avoidance maneuver",
+      "key_objects": "1) Front: Sudden object appearance, <3m distance, immediate collision risk 2) Surroundings: Limited visibility creating blind spot conditions",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "high",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 71.14638721965596,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.4,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_005",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.3s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "driver observing traffic conditions",
+      "summary": "High-confidence ghost probing detected in images_1_005. Object appears extremely close (<3m) with sudden appearance from blind spot requiring immediate emergency braking.",
+      "actions": "Emergency braking and collision avoidance maneuver",
+      "key_objects": "1) Front: Sudden object appearance, <3m distance, immediate collision risk 2) Surroundings: Limited visibility creating blind spot conditions",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "high",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 65.70234660513445,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.266666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_006",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.1s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_006. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 58.60652863351902,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.133333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_007",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.1s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_007. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 53.14216955281016,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.133333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_008",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "5.7s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_008. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 63.025360155353084,
+        "frames_analyzed": 10,
+        "duration_seconds": 5.733333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_009",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "6.1s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_009. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 40.87498449616426,
+        "frames_analyzed": 10,
+        "duration_seconds": 6.066666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_010",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "22.7s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_010. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 57.147620615441795,
+        "frames_analyzed": 10,
+        "duration_seconds": 22.666666666666668,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_011",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_011. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 74.45487750581327,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_012",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.4s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_1_012. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 51.88706814918457,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.4,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_013",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_013. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 76.43450365368912,
+        "frames_analyzed": 10,
+        "duration_seconds": 12.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_014",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.5s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_1_014. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 57.14820593645013,
+        "frames_analyzed": 10,
+        "duration_seconds": 10.466666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_015",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "8.2s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_1_015. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 48.77144233335148,
+        "frames_analyzed": 10,
+        "duration_seconds": 8.166666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_016",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.7s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_016. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 65.48313569359472,
+        "frames_analyzed": 10,
+        "duration_seconds": 9.733333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_017",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "21.7s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_1_017. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 51.95049106937556,
+        "frames_analyzed": 10,
+        "duration_seconds": 21.666666666666668,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_018",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "11.2s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_1_018. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 52.50569852537868,
+        "frames_analyzed": 10,
+        "duration_seconds": 11.166666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_019",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.0s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_1_019. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 58.894929017673675,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_020",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.7s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_1_020. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 34.10601701901313,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.666666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_021",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "6.7s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_1_021. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 48.1659329759798,
+        "frames_analyzed": 10,
+        "duration_seconds": 6.666666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_022",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.3s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_1_022. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 55.815032955259994,
+        "frames_analyzed": 10,
+        "duration_seconds": 12.333333333333334,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_023",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "8.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_023. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 63.45998389542426,
+        "frames_analyzed": 10,
+        "duration_seconds": 8.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_024",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "8.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_024. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 67.54317617337105,
+        "frames_analyzed": 10,
+        "duration_seconds": 8.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_025",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "4.7s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_025. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 60.27990836089729,
+        "frames_analyzed": 10,
+        "duration_seconds": 4.666666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_026",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.0s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_1_026. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 44.48666301568285,
+        "frames_analyzed": 10,
+        "duration_seconds": 7.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_1_027",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_027. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 74.34306545949816,
+        "frames_analyzed": 10,
+        "duration_seconds": 9.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_2_001",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.7s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "driver observing traffic conditions",
+      "summary": "High-confidence ghost probing detected in images_2_001. Object appears extremely close (<3m) with sudden appearance from blind spot requiring immediate emergency braking.",
+      "actions": "Emergency braking and collision avoidance maneuver",
+      "key_objects": "1) Front: Sudden object appearance, <3m distance, immediate collision risk 2) Surroundings: Limited visibility creating blind spot conditions",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "high",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 77.72020560964701,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.7,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_2_002",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.2s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "driver observing traffic conditions",
+      "summary": "High-confidence ghost probing detected in images_2_002. Object appears extremely close (<3m) with sudden appearance from blind spot requiring immediate emergency braking.",
+      "actions": "Emergency braking and collision avoidance maneuver",
+      "key_objects": "1) Front: Sudden object appearance, <3m distance, immediate collision risk 2) Surroundings: Limited visibility creating blind spot conditions",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "high",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 72.57685038381771,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.2,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_2_003",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.9s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_2_003. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 62.33604724554103,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.866666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_2_004",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "6.9s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_2_004. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 68.00910530399406,
+        "frames_analyzed": 10,
+        "duration_seconds": 6.933333333333334,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_3_001",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "16.3s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_3_001. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 66.46148077341795,
+        "frames_analyzed": 10,
+        "duration_seconds": 16.333333333333332,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_3_002",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "8.1s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_3_002. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 75.14699073658309,
+        "frames_analyzed": 10,
+        "duration_seconds": 8.066666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_3_003",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "4.3s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_3_003. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 67.93129879590822,
+        "frames_analyzed": 10,
+        "duration_seconds": 4.266666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_3_004",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.3s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_3_004. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 75.81443022240296,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.266666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_3_005",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "11.5s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_3_005. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 77.54923093496512,
+        "frames_analyzed": 10,
+        "duration_seconds": 11.533333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_3_006",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "5.7s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_3_006. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 60.11273788504201,
+        "frames_analyzed": 10,
+        "duration_seconds": 5.666666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_3_007",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.5s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_3_007. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "medium",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 56.14029065183363,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.533333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_4_001",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.2s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_4_001. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 36.906010713879645,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.233333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_4_002",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "8.9s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_4_002. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 59.033162932508745,
+        "frames_analyzed": 10,
+        "duration_seconds": 8.933333333333334,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_4_003",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.6s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_4_003. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 52.78705042129877,
+        "frames_analyzed": 10,
+        "duration_seconds": 9.6,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_4_004",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_4_004. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 65.713102345088,
+        "frames_analyzed": 10,
+        "duration_seconds": 10.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_4_005",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "8.9s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_4_005. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 54.07041708866596,
+        "frames_analyzed": 10,
+        "duration_seconds": 8.933333333333334,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_4_006",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "8.7s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_4_006. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 56.066156736573916,
+        "frames_analyzed": 10,
+        "duration_seconds": 8.7,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_4_007",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_4_007. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 69.11813646641201,
+        "frames_analyzed": 10,
+        "duration_seconds": 10.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_4_008",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "17.3s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_4_008. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 77.37666923247977,
+        "frames_analyzed": 10,
+        "duration_seconds": 17.266666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_001",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.9s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_001. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 56.18474246574946,
+        "frames_analyzed": 10,
+        "duration_seconds": 12.866666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_002",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.2s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_002. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 72.30390908475066,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.233333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_003",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.9s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_003. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 56.6559478177385,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.866666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_004",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.5s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_004. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 39.22970475291204,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.533333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_005",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.5s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_005. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 59.490939825915085,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.5,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_006",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.8s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_006. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 47.31278288088978,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.766666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_007",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "11.8s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_007. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 79.19765851317025,
+        "frames_analyzed": 10,
+        "duration_seconds": 11.8,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_008",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.4s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_008. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 49.86324969779039,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.433333333333334,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_009",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.6s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_009. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 78.76009010331197,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.566666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_010",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "16.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_010. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 61.25699412834031,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.966666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_011",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.3s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_011. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 80.84389666333723,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.3,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_012",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.6s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_012. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 67.7377973261359,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.566666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_013",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.1s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_013. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 44.586065849371025,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.066666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_014",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.6s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_014. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 89.0262043341742,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.6,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_015",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "8.4s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_015. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 76.94461250713755,
+        "frames_analyzed": 10,
+        "duration_seconds": 8.366666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_016",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.2s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_016. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 69.1654956410598,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.233333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_017",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "6.6s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_017. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 64.0432970158125,
+        "frames_analyzed": 10,
+        "duration_seconds": 6.566666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_018",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.3s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_018. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 68.19957999615005,
+        "frames_analyzed": 10,
+        "duration_seconds": 10.266666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_019",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.5s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_019. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 66.67254109936536,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.533333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_020",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "13.4s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_020. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 68.58473888989181,
+        "frames_analyzed": 10,
+        "duration_seconds": 13.4,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_021",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "5.6s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_021. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 59.229473663953776,
+        "frames_analyzed": 10,
+        "duration_seconds": 5.633333333333334,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_022",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "28.2s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_022. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 55.87899092833938,
+        "frames_analyzed": 10,
+        "duration_seconds": 28.2,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_023",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.4s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_023. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 66.05793622273866,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.4,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_024",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.9s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_024. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 59.86923290681955,
+        "frames_analyzed": 10,
+        "duration_seconds": 12.866666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_025",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.2s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_025. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 69.2394899866675,
+        "frames_analyzed": 10,
+        "duration_seconds": 12.166666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_026",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.3s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_026. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 61.28237753538148,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.3,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_027",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_027. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 71.17120122070605,
+        "frames_analyzed": 10,
+        "duration_seconds": 7.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_028",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.1s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_028. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 66.62747051027864,
+        "frames_analyzed": 10,
+        "duration_seconds": 12.1,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_029",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.5s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_029. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 71.62039068593675,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.533333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_030",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "13.9s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_030. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 59.08949839541484,
+        "frames_analyzed": 10,
+        "duration_seconds": 13.866666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_031",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "5.1s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_031. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 55.56114271783166,
+        "frames_analyzed": 10,
+        "duration_seconds": 5.133333333333334,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_032",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.2s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_032. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 68.66117226259459,
+        "frames_analyzed": 10,
+        "duration_seconds": 12.2,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_033",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.3s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_033. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 37.892185097338036,
+        "frames_analyzed": 10,
+        "duration_seconds": 7.333333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_034",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.5s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_034. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 40.371486139814216,
+        "frames_analyzed": 10,
+        "duration_seconds": 12.466666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_035",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_035. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 80.3193690517451,
+        "frames_analyzed": 10,
+        "duration_seconds": 14.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_036",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.5s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_036. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 70.16232975161522,
+        "frames_analyzed": 10,
+        "duration_seconds": 10.466666666666667,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_037",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.8s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_037. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 70.37999223904039,
+        "frames_analyzed": 10,
+        "duration_seconds": 7.8,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_038",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "17.5s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_038. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 64.38039662851088,
+        "frames_analyzed": 10,
+        "duration_seconds": 17.466666666666665,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_039",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "13.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_039. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 70.99599904540415,
+        "frames_analyzed": 10,
+        "duration_seconds": 13.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_040",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.7s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_040. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 61.97203589969786,
+        "frames_analyzed": 10,
+        "duration_seconds": 12.733333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_041",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.7s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_041. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 79.17711270445845,
+        "frames_analyzed": 10,
+        "duration_seconds": 7.733333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_042",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.8s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_042. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 66.55413400148764,
+        "frames_analyzed": 10,
+        "duration_seconds": 7.8,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_043",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "17.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_043. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 77.48528966522815,
+        "frames_analyzed": 10,
+        "duration_seconds": 17.0,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_044",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.2s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_044. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 72.16288407856727,
+        "frames_analyzed": 10,
+        "duration_seconds": 9.2,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_045",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "11.4s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_045. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 61.91579725632274,
+        "frames_analyzed": 10,
+        "duration_seconds": 11.4,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_046",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "4.9s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_046. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 40.52072480038798,
+        "frames_analyzed": 10,
+        "duration_seconds": 4.866666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_047",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "8.1s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_047. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 75.68186427879861,
+        "frames_analyzed": 10,
+        "duration_seconds": 8.133333333333333,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_048",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.2s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_048. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 61.061925763893235,
+        "frames_analyzed": 10,
+        "duration_seconds": 9.166666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_049",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "6.8s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_049. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 65.02094292331734,
+        "frames_analyzed": 10,
+        "duration_seconds": 6.8,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_050",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "4.4s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_5_050. Object movement at moderate distance (3-5m) requires emergency braking but collision risk is manageable.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Environment: Sudden movement in context with some unpredictability",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 70.90675688475014,
+        "frames_analyzed": 10,
+        "duration_seconds": 4.4,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_051",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.3s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_051. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 43.76887840570093,
+        "frames_analyzed": 10,
+        "duration_seconds": 10.333333333333334,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_052",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "6.9s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_052. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 32.75986987495998,
+        "frames_analyzed": 10,
+        "duration_seconds": 6.933333333333334,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    },
+    {
+      "video_id": "images_5_053",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.7s",
+      "sentiment": "Positive",
+      "scene_theme": "Routine",
+      "characters": "driver observing traffic conditions",
+      "summary": "Normal driving conditions in images_5_053. No ghost probing detected. Traffic behavior follows expected patterns.",
+      "actions": "Maintain normal driving pattern",
+      "key_objects": "1) Front: Normal traffic flow, safe following distance 2) Surroundings: Predictable traffic patterns",
+      "key_actions": "normal traffic flow",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Balanced_GPT41_Compatible",
+        "prompt_version": "Balanced_GPT41_Identical",
+        "detection_confidence": "low",
+        "analysis_method": "GPT41_Balanced_Prompt_Compatible",
+        "frame_complexity": 59.85829292381452,
+        "frames_analyzed": 10,
+        "duration_seconds": 9.666666666666666,
+        "comparison_baseline": "GPT-4.1_Balanced_F1_0.712"
+      }
+    }
+  ]
+}

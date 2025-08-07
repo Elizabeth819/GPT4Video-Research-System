@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_039",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, cyclists, and drivers observed. Pedestrians include a child on the right side of the image in a blue jacket, a woman with a child on the left side of the image, and a man in a yellow jacket on the left side of the image. Cyclists include a person on a bicycle on the right side of the image and a person on a scooter on the right side of the image.",
+  "summary": "The video sequence shows multiple instances of ghost probing behavior. In the first sequence, a child suddenly emerges from the right side of the image from behind a parked vehicle, directly entering the driving lane. In the second sequence, a woman with a child suddenly emerges from the left side of the image from behind a parked vehicle, directly entering the driving lane. In the third sequence, a man in a yellow jacket suddenly emerges from the left side of the image from behind a parked vehicle, directly entering the driving lane. In the fourth sequence, a cyclist on a scooter suddenly emerges from the right side of the image from behind a parked truck, directly entering the driving lane.",
+  "actions": "The child on the right side of the image suddenly emerges from behind a parked vehicle. The woman with a child on the left side of the image suddenly emerges from behind a parked vehicle. The man in a yellow jacket on the left side of the image suddenly emerges from behind a parked vehicle. The cyclist on a scooter on the right side of the image suddenly emerges from behind a parked truck.",
+  "key_objects": "Parked vehicles on both sides of the image, including a black sedan on the right side, a white car on the right side, a van on the left side, and a truck on the right side.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

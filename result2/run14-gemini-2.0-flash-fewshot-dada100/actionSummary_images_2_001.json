@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_001",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several pedestrians and motorcyclists are present on the road. The pedestrians include men and women of varying ages, some carrying items. The motorcyclists are riding scooters and motorcycles, navigating through the crowded street.",
+  "summary": "The vehicle is driving on a busy urban street with a high density of pedestrians and motorcyclists. The road is filled with people walking and riding scooters and motorcycles. The vehicle is proceeding cautiously through the crowded environment. There are people walking on the road and on the sidewalks on both sides of the road. The vehicle is navigating through the crowd.",
+  "actions": "The vehicle is moving at a slow speed due to the heavy pedestrian and motorcycle traffic. The driver is likely maintaining a low speed to ensure the safety of pedestrians and other vehicles. The vehicle is keeping direction and maintaining its current lane.",
+  "key_objects": "None requiring immediate attention",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

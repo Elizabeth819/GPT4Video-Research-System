@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_1_019",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "9.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Man on the road",
+        "summary": "In this segment, the vehicle is driving on a rural road. A man on a bicycle suddenly appears from the right side of the road and falls in front of the vehicle, causing the vehicle to stop abruptly.",
+        "actions": "The self-driving vehicle had to stop abruptly to avoid hitting the man who fell from his bicycle directly in front of the vehicle. The vehicles speed decreased rapidly to avoid a collision.",
+        "key_objects": "1) Right side: A man on a bicycle, approximately 10 meters away, suddenly falls into the vehicles path, causing the vehicle to stop abruptly.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_019",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.6s",
+        "scene_theme": "Dramatic",
+        "characters": "Man in blue shirt",
+        "summary": "In this segment, a man in a blue shirt is seen lying on the road in front of the vehicle. The man appears to have fallen or is lying down intentionally, blocking the vehicles path. The vehicle is approaching the man slowly, indicating a need for caution and potential stopping to avoid a collision.",
+        "actions": "The vehicle is decelerating as it approaches the man lying on the road. The driver is likely preparing to stop to avoid running over the man.",
+        "key_objects": "1) Front: A man in a blue shirt, approximately 5 meters away, lying on the road, blocking the vehicles path.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A young boy, appearing to be between 8 and 12 years old, wearing a blue and red long-sleeved shirt, blue pants, and a black baseball cap, is riding a small red bicycle. Other pedestrians and cyclists are visible on the sidewalks and crossing the road in the background.",
+  "summary": "The video segment begins with the camera vehicle traveling on a multi-lane urban road, approaching a marked pedestrian crosswalk. A silver sedan is directly in front of the camera vehicle, proceeding in the same lane. As the vehicles near the crosswalk, a young boy on a small red bicycle suddenly emerges from behind the silver sedan, darting from the right side of the road onto the crosswalk directly into the camera vehicle's path. The silver sedan had previously obstructed the boy's view, making his sudden appearance a 'ghost probing' incident. The camera vehicle rapidly decelerates and comes to an immediate stop as the boy falls off his bicycle directly in front of the vehicle. The boy and his bicycle remain on the ground in the vehicle's path for the remainder of the segment, with the boy slowly getting up by the 10.0s mark.",
+  "actions": "The vehicle was initially moving forward at a moderate speed, maintaining its lane while approaching a pedestrian crosswalk. Upon the sudden and unexpected appearance of a young boy on a bicycle from behind a silver sedan that was acting as a visual obstruction, the driver initiated rapid deceleration, bringing the vehicle to a complete stop. This immediate and forceful braking action was a critical safety response to prevent a collision with the child who unexpectedly entered the vehicle's direct path, demonstrating the driver's quick reaction to an unforeseen hazard.",
+  "key_objects": "1) Position: Front-center: A silver sedan. This vehicle acted as a moving physical obstruction, completely blocking the view of the young boy on the bicycle until he emerged directly into the camera vehicle's path.\n2) Position: Front-right: A young boy on a small red bicycle. He suddenly darted out from behind the silver sedan, entering the vehicle's path on the crosswalk with minimal reaction time, causing an immediate danger and requiring rapid braking.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

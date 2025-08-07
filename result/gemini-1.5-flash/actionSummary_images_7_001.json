@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_7_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a red truck, driver of a white car",
+        "summary": "In this segment, the vehicle is driving on an urban road. A red truck is visible on the left side of the road, stationary. A white car is visible on the right side of the road, also stationary. The road ahead is clear, and there are no immediate obstacles or pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, as there are no immediate obstacles or changes in traffic conditions. The vehicle is driving straight, keeping a safe distance from the stationary red truck on the left and the white car on the right.",
+        "key_objects": "1) Left side: A red truck, approximately 5 meters away, stationary. 2) Right side: A white car, approximately 5 meters away, stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

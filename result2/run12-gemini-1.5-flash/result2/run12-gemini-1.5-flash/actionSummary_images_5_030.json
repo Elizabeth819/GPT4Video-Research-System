@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_5_030",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Street",
+    "sentiment": "Neutral",
+    "characters": "Driver of a white sedan, other drivers, pedestrians, a person on an electric scooter.",
+    "summary": "The video shows a white sedan driving down a city street with moderate traffic.  The road is relatively clear, with parked cars along the sides.  Traffic is moving at a moderate pace.  Several pedestrians are visible on the sidewalks and briefly crossing the street.  Around the 8-second mark, a person on an electric scooter is seen crossing the street from the right side, requiring the driver to slightly adjust their speed. No near misses or dangerous incidents occur.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment.  The vehicle's speed appears to be adjusted slightly around the 8-second mark in response to a person on an electric scooter crossing the road. This adjustment is minor and does not involve braking or significant speed reduction. The vehicle navigates the street smoothly, maintaining a safe distance from other vehicles.",
+    "key_objects": "1) Front: A yellow taxi, approximately 20 meters away, moving at a consistent speed. 2) Right: A person on an electric scooter, approximately 10 meters away at 8 seconds, crossing the street from right to left.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_030",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "13.9s",
+    "scene_theme": "Urban Street",
+    "characters": "Driver of the observer vehicle, a person on an electric scooter, pedestrians",
+    "summary": "The video shows the observer vehicle driving on a city street.  A person on an electric scooter is visible in the middle of the road, moving slowly.  Two pedestrians are standing near a red food cart on the right side of the road. The scooter rider appears to be crossing the road, and the pedestrians are relatively stationary. The observer vehicle maintains a steady speed, and there is no immediate danger of collision, although the scooter rider's position in the road is unsafe.",
+    "actions": "The observer vehicle maintains a consistent speed and direction, navigating through city traffic.  The vehicle's speed is moderate, appropriate for the urban environment. There is no indication of braking or acceleration.",
+    "key_objects": "1) Center: Person on an electric scooter, approximately 10 meters away, crossing the road slowly. This presents a potential hazard. 2) Right: Two pedestrians, approximately 15 meters away, standing near a red food cart, not directly impacting the vehicle's path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

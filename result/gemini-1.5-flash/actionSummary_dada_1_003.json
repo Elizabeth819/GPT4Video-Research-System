@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "dada_1_003",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "0.36",
+    "summary": "A pedestrian suddenly appears in the middle of the road. The pedestrian was not visible in the previous frames and appears to have fallen or is sitting in the road. The pedestrian is very close to the ego vehicle.",
+    "actions": "The ego vehicle should brake immediately to avoid a collision with the pedestrian.",
+    "key_objects": [
+      "pedestrian",
+      "road"
+    ],
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "emergency brake",
+      "direction_control": "swerve left if possible",
+      "lane_control": "stay in lane"
+    }
+  }
+]

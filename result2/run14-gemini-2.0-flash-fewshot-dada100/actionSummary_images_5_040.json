@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_040",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male motorcyclist wearing a blue jacket and a blue helmet, several pedestrians on the right side of the road, and other vehicles in the distance.",
+  "summary": "The vehicle is driving on a city street with buildings on both sides. From 0.0s to 6.0s, the vehicle is approaching an intersection. At 6.0s, the traffic light turns green. At 9.0s, a male motorcyclist wearing a blue jacket and a blue helmet suddenly appears from the left side of the road, crossing the intersection. The motorcyclist's sudden appearance constitutes a ghost probing incident, as he was obscured by buildings until he entered the vehicle's path. At 10.0s, the vehicle crashes into the motorcyclist.",
+  "actions": "The vehicle is initially driving at a steady speed, approaching an intersection. As the traffic light turns green at 6.0s, the vehicle maintains its speed, proceeding through the intersection. The driver does not appear to anticipate the motorcyclist's sudden appearance, resulting in a collision.",
+  "key_objects": "1) Left side: A male motorcyclist wearing a blue jacket and a blue helmet, approximately 5 meters away, suddenly appearing from behind buildings and crossing the intersection. 2) Left side: Buildings on the left side of the road, approximately 10 meters away, creating a visual obstruction that hides the motorcyclist until he enters the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

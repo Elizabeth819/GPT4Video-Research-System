@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_024",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a white SUV, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving through a busy intersection. Initially, a black sedan is seen moving from the left side towards the center of the intersection. Later, a white SUV appears from the left side and moves towards the center. Finally, a white sedan is seen on the right side, moving towards the center of the intersection.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the intersection. The vehicle is likely slowing down slightly to avoid potential collisions with the black sedan and white SUV moving towards the center of the intersection.",
+        "key_objects": "1) Left side: A black sedan, approximately 5 meters away, moving towards the center of the intersection. 2) Left side: A white SUV, approximately 10 meters away, moving towards the center of the intersection. 3) Right side: A white sedan, approximately 8 meters away, moving towards the center of the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_024",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "13.8s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white SUV, driver of a red bus",
+        "summary": "In this segment, the vehicle is at an intersection in an urban area. A white SUV is seen in the middle of the intersection, and a red bus is approaching from the right side. The bus is moving towards the intersection, potentially posing a risk of collision.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The vehicle is likely monitoring the movement of the white SUV and the red bus to avoid any potential collision.",
+        "key_objects": "1) Front: A white SUV, approximately 20 meters away, stationary in the middle of the intersection. 2) Right: A red bus, approximately 15 meters away, moving towards the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

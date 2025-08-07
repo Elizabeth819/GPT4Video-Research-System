@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_003",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male on a motorcycle wearing a blue jacket, several pedestrians, and multiple vehicles including cars and vans.",
+  "summary": "The self-driving vehicle is approaching an intersection. A male on a motorcycle wearing a blue jacket suddenly appears from behind a parked truck on the right side of the road, entering the intersection. The motorcycle's sudden appearance constitutes a ghost probing scenario. A male pedestrian is also visible on the left side of the road, beginning to cross the street. The pedestrian is wearing a dark jacket and dark pants. The pedestrian is walking at a normal pace. The pedestrian is approximately 50 years old.",
+  "actions": "The self-driving vehicle is approaching an intersection and maintains its speed. The driver may be anticipating a green light or believes there is sufficient time to cross the intersection before any other vehicles or pedestrians enter the path. The vehicle will likely need to decelerate due to the motorcycle entering the intersection.",
+  "key_objects": "1) Right side: A male on a motorcycle wearing a blue jacket, approximately 5 meters away, suddenly emerging from behind a parked truck and entering the intersection. 2) Right side: A parked truck, approximately 7 meters away, creating a visual obstruction that hides the motorcycle until it enters the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

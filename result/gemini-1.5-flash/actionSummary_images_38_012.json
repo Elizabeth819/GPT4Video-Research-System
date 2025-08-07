@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_38_012",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a white van, driver of a red car",
+        "summary": "In this segment, the vehicle is driving on a highway. Ahead, a white van and a red car are visible. The red car is in the left lane, while the white van is in the right lane. The self-driving vehicle maintains a consistent speed and distance from the vehicles ahead.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position, keeping a safe distance from the vehicles ahead. The vehicle is driving straight without any sudden changes in speed or direction.",
+        "key_objects": "1) Front: A white van, approximately 20 meters away, maintaining its lane and speed. 2) Front-left: A red car, approximately 25 meters away, maintaining its lane and speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

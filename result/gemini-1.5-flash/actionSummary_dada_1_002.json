@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_1_002",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "11:49:31",
+    "End_Timestamp": "11:49:40",
+    "summary": "The vehicle is driving on a rural road. There are pedestrians and cyclists on the road. A pedestrian is seen crossing the road in front of the vehicle.",
+    "actions": "The vehicle is maintaining its speed and direction. The driver should be aware of the pedestrians and cyclists on the road and be prepared to slow down or stop if necessary.",
+    "key_objects": [
+      "vehicle",
+      "pedestrians",
+      "cyclists"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain",
+      "direction_control": "straight",
+      "lane_control": "maintain"
+    }
+  }
+]

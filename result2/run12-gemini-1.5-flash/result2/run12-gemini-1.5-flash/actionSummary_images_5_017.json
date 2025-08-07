@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_5_017",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "6.6s",
+    "scene_theme": "Urban Intersection",
+    "sentiment": "Negative",
+    "characters": "A driver in a car, a person on a scooter.",
+    "summary": "The video shows a car approaching an intersection. A person on a scooter, appearing to be female with long dark hair, wearing dark clothing, is seen crossing the road from right to left in front of the car. The scooter's speed is relatively slow. The car appears to be slowing down to avoid a collision.  The close proximity of the scooter to the car creates a near-miss situation.",
+    "actions": "The self-driving vehicle is approaching an intersection and appears to be slowing down. The deceleration is likely a response to the scooter crossing the road in front of the vehicle. The driver is maintaining a safe distance from other vehicles, but the scooter's sudden appearance necessitates a reactive braking maneuver.",
+    "key_objects": "1) Front: A person on a scooter, approximately 2 meters away at closest point, crossing the road from right to left, creating a near-miss situation. ",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

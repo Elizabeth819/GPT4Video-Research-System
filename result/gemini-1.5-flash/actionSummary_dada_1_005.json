@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_1_005",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017/03/10 12:02:30",
+    "End_Timestamp": "2017/03/10 12:02:39",
+    "summary": "The vehicle is driving on a wet road in a busy urban environment. There are pedestrians crossing the street, some with umbrellas. A bus is passing on the left. The visibility is reduced due to the rain. The pedestrians are crossing in front of the bus and other parked cars.",
+    "actions": "The vehicle is currently driving straight and maintaining its lane. The driver needs to be cautious of the pedestrians crossing the street, especially those obscured by the bus and parked cars.",
+    "key_objects": [
+      "pedestrians",
+      "bus",
+      "cars",
+      "umbrellas"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed, be prepared to brake",
+      "direction_control": "stay in lane",
+      "lane_control": "none"
+    }
+  }
+]

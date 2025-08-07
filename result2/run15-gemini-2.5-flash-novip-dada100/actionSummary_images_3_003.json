@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A female cyclist, appearing to be an adult, is seen wearing a brown jacket, glasses, and a black backpack, riding a bicycle.",
+  "summary": "The scene opens with the autonomous vehicle stationary at a city intersection, positioned directly in front of a pedestrian crossing. The traffic light for straight movement appears green, while the right turn signal is red. As the vehicle begins to move forward, a female cyclist suddenly emerges from the right side of the frame, from behind a line of parked vehicles and buildings. She proceeds to cross the pedestrian crossing, directly entering the vehicle's path with minimal warning. This sudden appearance leads to an immediate collision, where the cyclist is struck by the front of the vehicle and subsequently falls to the ground.",
+  "actions": "The vehicle initially remains stationary at the intersection, likely waiting for a clear path or a traffic signal. As the traffic light for straight movement appears green, the vehicle begins to accelerate forward, indicating an intention to proceed through the intersection. This forward movement continues until a female cyclist suddenly enters its path from the right side. Upon the cyclist's sudden appearance, the vehicle initiates a rapid deceleration, resulting in an immediate collision and coming to a complete stop.",
+  "key_objects": "1) Right: A female cyclist, initially hidden by parked cars and buildings, suddenly emerged from the right side of the frame, approximately 2-3 meters from the vehicle, and entered the pedestrian crossing directly into the vehicle's path, leading to a collision. 2) Right: Parked cars and buildings along the right side of the road, serving as a significant visual obstruction that prevented the driver from detecting the approaching cyclist until she was already in close proximity to the vehicle's path. 3) Center: The pedestrian crossing, located directly in front of the vehicle, is the area where the collision occurred. 4) Left: A large red building (Beno) and other vehicles are visible on the left side of the intersection. 5) Center-Right: Traffic lights are visible, displaying a green signal for straight movement and a red signal for a right turn, indicating the vehicle's permissible direction of travel.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

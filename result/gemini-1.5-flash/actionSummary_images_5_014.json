@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_5_014",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Routine",
+        "characters": "Pedestrians crossing the road",
+        "summary": "In this segment, the vehicle is approaching a gate with pedestrians crossing the road from left to right. The vehicle is moving slowly, allowing pedestrians to cross safely.",
+        "actions": "The vehicle is driving at a slow speed, maintaining a steady pace to ensure the safety of pedestrians crossing the road. The vehicles speed is consistent, and it is not making any sudden movements.",
+        "key_objects": "1) Left side: A man in a red shirt, approximately 5 meters away, walking across the road. 2) Left side: A woman in a black shirt, approximately 6 meters away, walking across the road. 3) Front: A man in a black shirt, approximately 10 meters away, walking across the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_016",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "8.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of a white van, motorcyclist",
+        "summary": "In this segment, the vehicle is driving through an urban area with parked cars on both sides of the road. The vehicle maintains a steady speed while navigating through the street. At 8.0s, a motorcyclist appears in the middle of the road, potentially posing a risk.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the urban area. The vehicle is keeping a safe distance from the parked cars on both sides of the road. At 8.0s, the vehicle slows down slightly as a motorcyclist appears in the middle of the road.",
+        "key_objects": "1) Front: A motorcyclist, approximately 10 meters away, moving towards the center of the road, potentially posing a risk.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_016",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "14.6s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through a busy urban street. The vehicle encounters several parked cars on both sides of the road and moving vehicles ahead. The driver needs to be cautious of potential sudden movements from pedestrians or vehicles.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the urban street. The driver is likely being cautious due to the presence of parked cars and moving vehicles, ensuring to avoid any sudden obstacles.",
+        "key_objects": "1) Left side: A pedestrian wearing a red jacket, approximately 5 meters away, walking towards the road. 2) Right side: A white van, approximately 3 meters away, parked and partially blocking the view. 3) Front: A black car, relatively close, approximately 10 meters away, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

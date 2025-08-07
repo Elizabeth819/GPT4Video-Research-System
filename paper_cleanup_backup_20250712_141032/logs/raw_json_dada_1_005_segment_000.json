@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_005",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "sentiment": "Negative",
+    "End_Timestamp": "9.0s",
+    "scene_theme": "Dramatic",
+    "characters": "Driver of a red car, pedestrians",
+    "summary": "In this segment, the vehicle is driving on a busy street with many pedestrians on the right side. A red car is ahead, and several pedestrians are crossing the street from the right side, potentially causing a dangerous situation.",
+    "actions": "The self-driving vehicle is maintaining a steady speed while keeping a safe distance from the red car ahead. The vehicle is also being cautious due to the pedestrians crossing from the right side.",
+    "key_objects": "1) Front: A red car, approximately 5 meters away, driving steadily. 2) Right side: Multiple pedestrians, approximately 2-3 meters away, crossing the street, potentially causing a dangerous situation.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "decelerate",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_4_003",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "9.6s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of the observer vehicle, a man on a bicycle, other drivers and pedestrians.",
+    "summary": "The video shows the observer vehicle slowly moving forward in a narrow city street with parked cars on both sides.  The street is relatively busy with pedestrians and other vehicles. At approximately 4.8 seconds, a man on a bicycle, wearing a dark-colored shirt and appearing to be middle-aged, emerges from between two parked cars on the right side of the street. He is moving relatively slowly and appears to be heading towards the observer vehicle's lane.  The observer vehicle slows down significantly, almost stopping, to avoid a collision. The cyclist then passes in front of the observer vehicle without incident. The observer vehicle continues to move slowly forward.",
+    "actions": "The observer vehicle maintains a very low speed throughout the 9.6-second segment, frequently slowing to a near stop. This slow speed is likely due to the narrow street, the presence of parked cars, and the high density of pedestrians and other vehicles. The vehicle's speed is adjusted based on the surrounding traffic conditions and the need to avoid obstacles and potential collisions.",
+    "key_objects": "1) Right: A man on a bicycle, wearing a dark shirt, approximately 2 meters away at 4.8s, moving slowly across the observer vehicle's path, causing the vehicle to decelerate significantly to avoid a collision.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

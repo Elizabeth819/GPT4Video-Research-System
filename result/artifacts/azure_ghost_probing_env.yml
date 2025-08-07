@@ -1,0 +1,86 @@
+# Azure ML Conda Environment for Ghost Probing Detection
+# 针对A100 GPU和GPT-4.1优化的环境配置
+
+name: ghost_probing_gpt41
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - opencv
+  - ffmpeg
+  - cudatoolkit=11.8
+  - cudnn=8.7
+  
+  # GPU相关
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio=2.0.2
+  - pytorch-cuda=11.8
+  
+  # 系统工具
+  - cmake
+  - libsndfile
+  - sox
+  
+  - pip:
+    # 核心依赖
+    - openai>=1.0.0
+    - azure-ai-ml
+    - azure-identity
+    - azure-storage-blob
+    - azure-core
+    
+    # 视频处理
+    - moviepy==1.0.3
+    - decord
+    - av
+    - pillow
+    
+    # 音频处理
+    - azure-cognitiveservices-speech
+    - pydub
+    - librosa
+    - soundfile
+    
+    # 数据处理
+    - tqdm
+    - jinja2
+    - python-dotenv
+    - retrying
+    - requests
+    - beautifulsoup4
+    
+    # 日志和监控
+    - wandb
+    - tensorboard
+    - azure-monitor-opentelemetry
+    
+    # 机器学习
+    - scikit-learn
+    - matplotlib
+    - seaborn
+    - jupyter
+    
+    # 开发工具
+    - black
+    - flake8
+    - pytest
+    - ipython
+    
+    # 其他
+    - packaging
+    - setuptools
+    - wheel
+    
+variables:
+  CONDA_OVERRIDE_CUDA: "11.8"
+  CUDA_HOME: "/usr/local/cuda-11.8"
+  LD_LIBRARY_PATH: "/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH"
+  PATH: "/usr/local/cuda-11.8/bin:$PATH"

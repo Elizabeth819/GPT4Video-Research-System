@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_032",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) Rider of a yellow scooter, gender and age not discernible, involved in a collision. 2) Male pedestrian in dark clothing, approximately 40-50 years old, standing on the right side of the road near parked motorcycles. 3) Other pedestrians appearing on the right side after the incident.",
+  "summary": "In this segment, the vehicle is driving on an urban road. On the left side, a large truck/trailer is present, acting as a significant visual obstruction. On the right side, there are buildings, parked motorcycles, and a pedestrian. As the self-driving vehicle proceeds forward, a yellow scooter with a rider suddenly emerges from behind the large truck on the left side of the road. The scooter darts directly into the vehicle's path with minimal warning, creating an immediate and dangerous 'ghost probing' situation. This sudden appearance leads to an unavoidable collision between the vehicle and the scooter, resulting in the scooter and its rider falling to the ground on the left side of the vehicle. The vehicle comes to a complete stop immediately after the impact.",
+  "actions": "The self-driving vehicle was initially maintaining a consistent speed, navigating the urban environment. As it approached the area where the large truck was positioned on the left, the vehicle's sensors detected the sudden and unexpected emergence of a yellow scooter from behind this visual obstruction. In response to this 'ghost probing' event, the vehicle immediately initiated rapid deceleration and emergency braking. The driver's swift action to brake was an attempt to mitigate the collision, but due to the extremely limited reaction time caused by the scooter's sudden appearance, an impact occurred, bringing the vehicle to a complete stop.",
+  "key_objects": "1) Left side: A large truck/trailer, approximately 10-15 meters away, serving as a significant physical obstruction that completely obscured the approaching scooter from the driver's view until its sudden emergence. 2) Left side: A yellow scooter with a rider, approximately 5-10 meters away, suddenly emerging from behind the truck and entering the vehicle's direct path, causing an immediate and unavoidable collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

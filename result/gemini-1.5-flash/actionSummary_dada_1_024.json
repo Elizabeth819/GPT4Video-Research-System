@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "dada_1_024",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "0.33",
+    "summary": "The ego vehicle is driving on a straight road with buildings and trees on both sides. There is another vehicle in front of the ego vehicle. The road appears to be a highway or a rural road.",
+    "actions": "The ego vehicle is maintaining its speed and following the vehicle in front.",
+    "key_objects": [
+      "ego vehicle",
+      "vehicle in front"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain",
+      "direction_control": "straight",
+      "lane_control": "maintain lane"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_49_006",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, white SUV, white sedan",
+        "summary": "In this segment, the vehicle is driving on a city street. A motorcyclist is seen ahead, moving from the left side to the center of the lane. A white SUV is approaching from the left side, and a white sedan is visible on the right side of the road.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the city street. The motorcyclist ahead is moving towards the center of the lane, potentially causing the vehicle to adjust its speed and position. The white SUV on the left side is approaching, which may require the vehicle to be cautious and maintain a safe distance.",
+        "key_objects": "1) Front: A motorcyclist, approximately 10 meters away, moving towards the center of the lane, potentially causing the vehicle to adjust its speed and position. 2) Left side: A white SUV, approximately 15 meters away, approaching and potentially requiring the vehicle to maintain a safe distance. 3) Right side: A white sedan, approximately 20 meters away, parked on the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_49_006",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist",
+        "summary": "In this segment, a cyclist is seen crossing the road from the right side, directly in front of the self-driving vehicle. The cyclist appears to be struggling with their bicycle, causing them to move slowly and unpredictably. A yellow bus is approaching from the opposite direction.",
+        "actions": "The self-driving vehicle is likely decelerating to avoid a collision with the cyclist who is crossing the road from the right side. The vehicles speed is reducing to ensure the safety of the cyclist.",
+        "key_objects": "1) Right side: A cyclist, approximately 2 meters away, crossing the road slowly and unpredictably, causing the vehicle to decelerate. 2) Front: A yellow bus, approximately 15 meters away, approaching from the opposite direction, but not posing an immediate threat.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

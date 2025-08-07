@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_1_022",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a car, other drivers, a man on a bicycle, pedestrians",
+    "summary": "The video shows a car driving on a city road.  Traffic is moderate.  The car maintains a consistent speed and lane position for most of the sequence. Around the 5-second mark, a man in a light blue t-shirt and light-colored pants crosses the road in a pedestrian crossing. A cyclist is visible on the right side of the road in the later frames. No near misses or dangerous incidents occur.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second sequence.  The vehicle slows slightly as it approaches the pedestrian crossing around the 5-second mark, then resumes its previous speed after the pedestrian has safely crossed. The vehicle navigates a relatively clear road with moderate traffic.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_022",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "12.3s",
+    "scene_theme": "Urban Road",
+    "characters": "A cyclist, a driver in a white van, and the driver of the observer vehicle.",
+    "summary": "The video shows a relatively empty urban road.  A white van is visible in the left lane, moving slowly ahead of the observer vehicle.  On the right side of the road, a cyclist is riding along the bike lane.  Between frames 1 and 2, the white van continues to move forward at a slow pace, and the cyclist maintains their position and speed. No immediate threats or dangerous actions are observed.",
+    "actions": "The observer vehicle maintains a consistent speed, keeping a safe distance from the vehicle ahead.  The vehicle's speed appears to be moderate, suitable for the urban environment. No lane changes or significant directional adjustments are made.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

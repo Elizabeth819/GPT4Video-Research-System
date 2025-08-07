@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_003",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "A person sitting on the right side of the road.",
+    "summary": "The vehicle is driving on an urban road. A person is sitting on the right side of the road. The road ahead appears clear. There are buildings on both sides of the road.",
+    "actions": "The self-driving vehicle is maintaining a steady speed on the urban road. The vehicle is moving straight ahead. The driver is maintaining the current speed because the road ahead is clear and there are no immediate obstacles.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_003",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "10.5s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban",
+    "characters": "A person in a blue jacket sitting on the right side of the road, a silver car parked on the right side of the road.",
+    "summary": "The vehicle is driving on an urban road. A person in a blue jacket is sitting on the right side of the road. A silver car is parked on the right side of the road. The road ahead appears clear.",
+    "actions": "The self-driving vehicle is maintaining a steady speed on the urban road. The vehicle is likely maintaining its speed due to the clear road ahead and the absence of immediate obstacles.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

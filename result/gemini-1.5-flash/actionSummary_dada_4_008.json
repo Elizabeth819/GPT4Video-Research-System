@@ -1,0 +1,24 @@
+[
+  {
+    "video_id": "dada_4_008",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "0.36",
+    "summary": "The vehicle is driving on a multi-lane road. A pedestrian is walking on the sidewalk to the right of the vehicle. The pedestrian begins to cross the road from behind some trees and bushes.",
+    "actions": "The vehicle is driving straight on a multi-lane road. The driver should be aware of the pedestrian crossing the road.",
+    "key_objects": [
+      "vehicle",
+      "pedestrian",
+      "road",
+      "sidewalk",
+      "trees",
+      "bushes"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed, be prepared to slow down",
+      "direction_control": "stay in lane",
+      "lane_control": "maintain lane"
+    }
+  }
+]

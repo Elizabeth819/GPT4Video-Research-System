@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_3_001",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "Several motorcyclists, cars, and a truck are present on the road.",
+    "summary": "The vehicle is driving on a road with moderate traffic. Several motorcyclists are present, some appearing to move erratically. A truck is also present in the distance. The vehicle maintains its course, navigating through the traffic. There are buildings and trees lining the road.",
+    "actions": "The vehicle is maintaining a steady speed, navigating through moderate traffic. The driver is likely adjusting speed and direction to maintain a safe distance from other vehicles, including motorcycles and a truck in the distance. The vehicle is driving straight.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_3_001",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "16.3s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "Several cars, a truck, a cyclist, and a scooter rider are visible on the road.",
+    "summary": "The vehicle is driving on a road with moderate traffic. A truck is ahead in the same lane. A cyclist on a pink bicycle is on the right side of the road, and a scooter is on the left side. The vehicle maintains its speed and lane position. No immediate dangerous actions are observed.",
+    "actions": "The vehicle is maintaining a steady speed and following the lane. The driver is likely monitoring the surrounding traffic, including the truck ahead, the cyclist on the right, and the scooter on the left.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

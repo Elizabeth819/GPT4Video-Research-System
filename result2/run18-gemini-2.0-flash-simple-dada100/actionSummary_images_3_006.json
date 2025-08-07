@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene features a driver in a vehicle, with other vehicles visible on the road. There are also pedestrians and cyclists present at the intersection.",
+  "summary": "The vehicle approaches an intersection with a traffic light. Initially, the vehicle is in the left lane, but as it approaches the intersection, it moves into the center lane, which is designated for going straight. The traffic light turns red, and the vehicle comes to a stop at the intersection. Pedestrians and cyclists are seen crossing the road.",
+  "actions": "The vehicle starts by driving in the left lane. As it approaches the intersection, it changes lanes to the center lane, which is for going straight. The vehicle decelerates and stops at the intersection due to the red traffic light.",
+  "key_objects": "1) Left: A car is on the left lane, distance is medium, it is driving straight. 2) Center: Traffic light, distance is far, it turns red.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

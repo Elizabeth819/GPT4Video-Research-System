@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-07-12 11:20:56",
+  "common_videos": 45,
+  "original_model": "Gemini 1.5 Flash",
+  "metrics_original": {
+    "precision": 0.6176470588235294,
+    "recall": 0.84,
+    "f1": 0.711864406779661,
+    "accuracy": 0.6222222222222222,
+    "specificity": 0.35,
+    "confusion_matrix": [
+      [
+        7,
+        13
+      ],
+      [
+        4,
+        21
+      ]
+    ],
+    "tp": 21.0,
+    "fp": 13.0,
+    "fn": 4.0,
+    "tn": 7.0
+  },
+  "metrics_balanced": {
+    "precision": 0.6333333333333333,
+    "recall": 0.76,
+    "f1": 0.6909090909090909,
+    "accuracy": 0.6222222222222222,
+    "specificity": 0.45,
+    "confusion_matrix": [
+      [
+        9,
+        11
+      ],
+      [
+        6,
+        19
+      ]
+    ],
+    "tp": 19.0,
+    "fp": 11.0,
+    "fn": 6.0,
+    "tn": 9.0
+  },
+  "improvements": {
+    "precision": {
+      "absolute": 0.015686274509803866,
+      "percentage": 2.5396825396825307,
+      "improved": 

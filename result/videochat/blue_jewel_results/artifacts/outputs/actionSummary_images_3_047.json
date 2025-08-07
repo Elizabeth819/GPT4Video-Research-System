@@ -1,0 +1,27 @@
+[
+  {
+    "video_id": "dada_47_047",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Positive",
+    "scene_theme": "Routine",
+    "characters": "Predictable pedestrian activity, vehicle passengers, orderly traffic participants",
+    "summary": "The vehicle encounters typical city traffic with pedestrians adhering to traffic signals and designated pathways. VideoChat2 evaluation shows standard safety parameters with normal pedestrian compliance, clear visibility conditions, and regulated traffic patterns maintaining expected safety margins for autonomous driving systems.",
+    "actions": "Normal operational speed, routine safety checks, standard driving protocols maintained",
+    "key_objects": "1) Pedestrian areas, 45-60m: Normal foot traffic with predictable patterns, standard safety margins maintained. 2) Parking zones, 35m: Properly positioned vehicles, no visibility impediments or safety concerns. 3) Traffic flow, 40-55m: Regular lane usage with appropriate vehicle spacing, standard operational environment.",
+    "key_actions": "normal traffic flow, routine monitoring maintained",
+    "next_action": {
+      "speed_control": "maintain current speed",
+      "direction_control": "continue current direction",
+      "lane_control": "maintain current lane"
+    },
+    "model_metadata": {
+      "model": "VideoChat2_HD_stage4_Mistral_7B",
+      "timestamp": "2025-07-19T14:24:37.757563",
+      "confidence": 0.84,
+      "processing_time_ms": 1900,
+      "analysis_type": "ghost_probing_detection"
+    }
+  }
+]

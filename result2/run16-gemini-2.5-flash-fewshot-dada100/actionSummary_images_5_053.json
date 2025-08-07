@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_053",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two male cyclists, both wearing dark clothing, one on the left side and one on the right side.",
+  "summary": "In this segment, the self-driving vehicle is navigating a very narrow, unpaved road in what appears to be a rural or village setting. Buildings and parked vehicles line both sides of the road, severely limiting visibility. As the vehicle proceeds, two separate 'ghost probing' incidents occur almost simultaneously: a male cyclist suddenly emerges from behind a parked dark-colored vehicle on the left side, and another male cyclist suddenly emerges from behind a building on the right side. Both instances present immediate collision risks due to their sudden appearance from behind obstructions with minimal reaction time.",
+  "actions": "The self-driving vehicle is initially maintaining a cautious speed due to the narrow and obstructed road conditions. Upon the sudden and near-simultaneous emergence of two cyclists from behind visual obstructions on both the left and right sides of the road, the vehicle immediately initiates rapid deceleration. This action is taken to minimize speed and increase reaction time, aiming to prevent a potential collision with either of the unexpectedly appearing cyclists in the confined space.",
+  "key_objects": "1) Left side: A dark-colored parked vehicle (appears to be a truck or van), approximately 5-7 meters away, serving as a visual obstruction. 2) Left side: A male cyclist, approximately 3-5 meters away, suddenly emerging from behind the dark-colored parked vehicle and entering the vehicle's path. 3) Right side: A building, approximately 5-7 meters away, serving as a visual obstruction. 4) Right side: A male cyclist, approximately 3-5 meters away, suddenly emerging from behind the building and entering the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

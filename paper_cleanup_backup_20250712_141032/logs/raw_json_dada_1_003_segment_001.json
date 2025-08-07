@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_003",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "End_Timestamp": "10.5s",
+    "scene_theme": "Dramatic",
+    "characters": "Person in pink jacket",
+    "summary": "In this segment, the vehicle is driving on a city road at night. A person wearing a pink jacket is sitting on the road on the right side, posing a potential hazard.",
+    "actions": "The self-driving vehicle is approaching a person sitting on the road on the right side. The vehicle needs to decelerate to avoid a potential collision.",
+    "key_objects": "1) Right side: A person wearing a pink jacket, approximately 5 meters away, sitting on the road, posing a potential hazard.",
+    "key_actions": "none",
+    "next_action": {
+        "speed_control": "decelerate",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

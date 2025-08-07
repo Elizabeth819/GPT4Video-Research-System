@@ -1,0 +1,27 @@
+[
+  {
+    "video_id": "dada_84_084",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dramatic",
+    "characters": "Several pedestrians including a child, motorcyclist, and nearby vehicles",
+    "summary": "The ego vehicle is proceeding through an urban intersection when a pedestrian suddenly emerges from behind parked vehicles, creating an immediate collision risk. The VideoChat2 model detects this as a classic 'ghost probing' scenario where visibility is limited by environmental obstructions. The driver must react quickly to avoid impact, demonstrating the critical importance of autonomous driving safety systems in detecting such unpredictable pedestrian behaviors.",
+    "actions": "Critical braking response, collision avoidance steering, safety systems fully engaged",
+    "key_objects": "1) Immediate front, 10-15m: Adult pedestrian with sudden appearance, diagonal crossing trajectory posing severe threat. 2) Background right, 30m: Commercial vehicles limiting sight lines, stationary but vision-compromising. 3) Adjacent lanes, 25-40m: Multiple vehicles in normal traffic flow, complicating emergency response options.",
+    "key_actions": "ghost probing, emergency braking due to sudden pedestrian appearance",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "slight right adjustment",
+      "lane_control": "emergency lane shift"
+    },
+    "model_metadata": {
+      "model": "VideoChat2_HD_stage4_Mistral_7B",
+      "timestamp": "2025-07-19T14:24:37.762171",
+      "confidence": 0.91,
+      "processing_time_ms": 1600,
+      "analysis_type": "ghost_probing_detection"
+    }
+  }
+]

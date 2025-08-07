@@ -1,0 +1,95 @@
+[
+    {
+        "video_id": "dada_1_003",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A person wearing dark clothing, possibly a male, appears to be running across the road from right to left.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Running across the road, creating a potential collision hazard."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "20-30",
+                "clothing": "Dark clothing",
+                "transportation_method": "On foot",
+                "behavior": "Running across the road from right to left."
+            }
+        ],
+        "summary": "The video shows a nighttime driving scene. At approximately 1.7 seconds, a person wearing dark clothing, possibly a male aged 20-30, suddenly runs across the road from right to left in front of the vehicle. The person's action is unexpected and poses a significant collision risk, classifying as a 'ghost probing' event. The speed of the person is relatively high, leaving little reaction time for the driver.",
+        "actions": "The vehicle maintains a relatively constant speed throughout the 5-second segment. There are no observable changes in direction or braking. The consistent speed suggests the driver is navigating a relatively clear road section at night, with no immediate need for sudden maneuvers.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_003",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A person, appearing to be a young adult wearing dark clothing, possibly male.",
+                "distance": "2",
+                "behavior or action impacting the vehicle": "Suddenly falls or lies down in the middle of the road directly in front of the vehicle."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Possibly male",
+                "age": "Young adult",
+                "clothing": "Dark clothing",
+                "transportation_method": "On foot",
+                "behavior": "Suddenly falls or lies down in the road"
+            }
+        ],
+        "summary": "The video shows a nighttime scene on a city street. At approximately 5.0 seconds, a young adult, possibly male, wearing dark clothing, suddenly falls or lies down in the middle of the road directly in front of the vehicle. This action is classified as 'ghost probing' due to the unexpected and immediate danger it poses to the vehicle. The person's sudden appearance in the vehicle's path leaves very little reaction time for the driver. The speed of the vehicle appears to be relatively low, but the sudden nature of the event still presents a significant risk of collision.",
+        "actions": "The vehicle appears to be driving at a relatively low speed in a straight line along a city street at night. There is no indication of any braking or turning maneuvers prior to the person falling in the road. The driver's actions are consistent with normal driving behavior until the unexpected event occurs.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_003",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "10.4s",
+        "key_objects": [
+            {
+                "Position": "Front, Center",
+                "Object description": "A young girl, appearing to be around 8-10 years old, wearing a pink shirt and dark pants, is sitting on the road.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Suddenly sitting in the middle of the road, posing an immediate collision risk."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "8-10",
+                "gender": "female",
+                "clothing": "pink shirt, dark pants",
+                "transportation_method": "on foot",
+                "behavior": "sitting in the middle of the road"
+            }
+        ],
+        "summary": "The video shows a young girl, approximately 8-10 years old, wearing a pink shirt and dark pants, suddenly sitting in the middle of the road.  She appears from behind a parked car, creating a ghost probing scenario. The vehicle is approaching at a moderate speed, and the girl's sudden appearance poses an immediate collision risk. The driver needs to react quickly to avoid a collision.",
+        "actions": "The vehicle maintains a steady speed, likely due to the relatively clear road ahead before the girl appeared. The driver is likely observing the road conditions and traffic flow.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

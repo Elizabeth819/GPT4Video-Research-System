@@ -1,0 +1,74 @@
+[
+    {
+        "video_id": "dada_32_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "1.9s",
+        "scene_theme": "Cautious",
+        "characters": "Driver of a white sedan, driver of a truck, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road. Ahead, a large truck is moving slowly in the same lane. On the right side, a motorcyclist wearing a red jacket and yellow helmet is riding parallel to the truck. The motorcyclist appears to be maintaining a steady speed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed behind the truck, keeping a safe distance. The vehicle is cautious due to the presence of the motorcyclist on the right side.",
+        "key_objects": "1) Front: A large truck, approximately 10 meters away, moving slowly in the same lane. 2) Right: A motorcyclist wearing a red jacket and yellow helmet, approximately 8 meters away, riding parallel to the truck.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_51_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a black car ahead",
+        "summary": "In this segment, the vehicle is driving on a rural road with snow on the sides. The road is clear, and there is a black car ahead, maintaining a consistent distance from the observer vehicle. The weather appears to be clear with no immediate obstacles or pedestrians in sight.",
+        "actions": "The self-driving vehicle is maintaining a steady speed, following the black car ahead at a safe distance. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "1) Front: A black car, approximately 30 meters away, maintaining a consistent speed and distance from the observer vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_51_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a rural road with snow on the ground. A black sedan is seen on the left side of the road, initially parked and then moving into the lane ahead of the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the black sedan. The black sedan moves from the left side of the road into the lane ahead of the observer vehicle, causing the observer vehicle to decelerate slightly to avoid a collision.",
+        "key_objects": "1) Left side: A black sedan, approximately 10 meters away, moving into the lane ahead of the observer vehicle.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_51_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.2s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a snowy rural road. A black sedan is parked on the left side of the road. The vehicle is approaching the black sedan, which is stationary and partially blocking the lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the black sedan parked on the left side of the road. The vehicle is keeping a safe distance from the parked sedan, ensuring there is enough clearance to pass safely.",
+        "key_objects": "1) Left side: A black sedan, approximately 10 meters away, parked and partially blocking the lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

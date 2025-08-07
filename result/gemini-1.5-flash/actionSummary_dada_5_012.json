@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving on a two-lane road with trees on both sides. Another vehicle is approaching from the opposite direction.",
+    "actions": "Ego vehicle is driving straight. The other vehicle is driving straight.",
+    "characters": [],
+    "key_objects": "Ego vehicle, oncoming vehicle, road, trees.",
+    "key_actions": "Driving straight.",
+    "next_action": "Continue driving straight."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "The ego vehicle continues driving on the two-lane road. The environment transitions to a more urban area with buildings on both sides.",
+    "actions": "Ego vehicle is driving straight.",
+    "characters": [],
+    "key_objects": "Ego vehicle, road, buildings.",
+    "key_actions": "Driving straight.",
+    "next_action": "Continue driving straight."
+  },
+  {
+    "timestamp": "20-30s",
+    "summary": "The ego vehicle approaches an intersection in a built-up area. A motorcycle is visible on the right side of the road, potentially waiting to cross.",
+    "actions": "Ego vehicle is approaching an intersection. A motorcycle is on the side of the road.",
+    "characters": [],
+    "key_objects": "Ego vehicle, road, intersection, motorcycle.",
+    "key_actions": "Approaching intersection, motorcycle waiting.",
+    "next_action": "Prepare to yield or stop at the intersection."
+  },
+  {
+    "timestamp": "30-40s",
+    "summary": "The ego vehicle is at the intersection. A motorcycle suddenly crosses the road from the right, creating a dangerous situation.",
+    "actions": "Ego vehicle is at the intersection. A motorcycle crosses the road.",
+    "characters": [],
+    "key_objects": "Ego vehicle, road, intersection, motorcycle.",
+    "key_actions": "ghost probing",
+    "next_action": "Emergency braking or evasive maneuver."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_021",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A man wearing an orange shirt and a white helmet is riding a burgundy scooter across the crosswalk from left to right.",
+  "summary": "The vehicle is approaching an intersection in a city with buildings on both sides of the road. From 0.0s to 5.1s, the vehicle is driving straight. At 5.1s, a man wearing an orange shirt and a white helmet is riding a burgundy scooter across the crosswalk from left to right. The scooter emerges from behind a parked dark SUV on the left side of the road, creating a potential ghost probing situation.",
+  "actions": "The vehicle is driving straight at a constant speed. The driver is likely maintaining speed to cross the intersection. The driver may need to decelerate if the scooter continues to cross the road.",
+  "key_objects": "1) Left side: A man wearing an orange shirt and a white helmet riding a burgundy scooter, approximately 5 meters away, crossing the road from left to right and emerging from behind a parked dark SUV. 2) Left side: A parked dark SUV, approximately 7 meters away, creating a visual obstruction that hides the scooter until it emerges into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

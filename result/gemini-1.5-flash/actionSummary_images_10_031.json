@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_031",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. Initially, a white sedan is seen ahead in the same lane. As the vehicle progresses, the white sedan moves to the right lane. By the end of the segment, another white sedan is seen crossing from the left side, potentially causing a dangerous situation.",
+        "actions": "The self-driving vehicle maintains a consistent speed initially. As the white sedan ahead moves to the right lane, the vehicle continues straight. Towards the end, the vehicle may need to decelerate due to the white sedan crossing from the left side.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, initially in the same lane, then moves to the right lane. 2) Left side: Another white sedan, approximately 30 meters away, crossing the road from left to right, potentially causing a dangerous situation.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_031",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. A white sedan on the left side of the frame is moving into the self-vehicles lane, causing a potential cut-in situation. The self-vehicle needs to react to avoid a collision.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while monitoring the white sedan on the left side. The white sedan is moving closer to the self-vehicles lane, indicating a potential cut-in. The self-vehicle may need to decelerate or change lanes to avoid a collision.",
+        "key_objects": "1) Left side: A white sedan, approximately 2 meters away, moving into the self-vehicles lane, causing a potential cut-in situation.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

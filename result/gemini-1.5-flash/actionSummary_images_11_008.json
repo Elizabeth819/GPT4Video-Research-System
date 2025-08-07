@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_008",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a wet road with light traffic. The visibility is moderate due to foggy conditions. The vehicle maintains a steady speed and lane position throughout the segment.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, maintaining a safe distance from the vehicles ahead. The vehicle is staying in its lane without any sudden changes in direction or speed.",
+        "key_objects": "1) Front: Multiple vehicles, approximately 50 meters away, moving steadily in the same direction. 2) Left side: A white car, approximately 20 meters away, parked on the roadside. 3) Right side: Trees and roadside objects, approximately 5 meters away, stationary and posing no immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_008",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "11.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, driver of a red sedan",
+        "summary": "In this segment, the vehicle is driving on a wet road with light traffic. The white SUV ahead is slowing down, causing the observer vehicle to reduce speed. The red sedan on the left lane is maintaining a steady speed. The white SUVs sudden deceleration poses a potential risk of collision.",
+        "actions": "The self-driving vehicle is decelerating due to the white SUV ahead slowing down abruptly. The vehicles speed decreases significantly over the last 1.5 seconds, maintaining a close distance to the white SUV.",
+        "key_objects": "1) Front: A white SUV, approximately 5 meters away, slowing down abruptly, causing the observer vehicle to decelerate. 2) Left: A red sedan, approximately 10 meters away, maintaining a steady speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

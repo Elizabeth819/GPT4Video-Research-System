@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_5_018",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rainy day driving",
+    "characters": "Driver of a car, several motorcyclists, a person on a scooter.",
+    "summary": "The video shows a car driving on a wet road in a town.  The road is relatively clear, with some motorcyclists and a person on a scooter visible.  Between 7.8s and 10.0s, a soccer ball rolls across the road in front of the car, requiring the driver to react and potentially brake. The weather is rainy, and the road surface appears wet.",
+    "actions": "The vehicle maintains a consistent speed throughout the 10-second segment, adjusting slightly to avoid a soccer ball that rolls into the road between 7.8s and 10.0s. The driver appears to be maintaining a safe following distance from other vehicles. The consistent speed suggests the driver is navigating a relatively clear road with no immediate need for acceleration or deceleration.",
+    "key_objects": "Front: Soccer ball, approximately 2 meters away at 7.8s, rolling across the road, requiring a minor speed adjustment to avoid.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_018",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.1s",
+    "scene_theme": "Uneventful",
+    "sentiment": "Neutral",
+    "characters": "None",
+    "summary": "The video shows a car driving on a wet road in what appears to be a residential area. The road is relatively empty with some buildings and shops visible on either side.  A soccer ball is rolling across the road in front of the car. No other vehicles or people are immediately visible. The weather appears to be overcast and rainy.",
+    "actions": "The vehicle maintains a consistent speed, navigating a straight path.  There are no apparent changes in speed or direction. The driver is likely proceeding cautiously due to the wet road conditions.",
+    "key_objects": "None",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

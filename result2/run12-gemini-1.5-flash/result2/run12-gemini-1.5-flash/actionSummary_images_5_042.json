@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_5_042",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "7.8s",
+    "scene_theme": "Urban Street",
+    "characters": "Driver of the recording vehicle, several other drivers, a person on a scooter, and a person on a tricycle.",
+    "summary": "The video shows a car driving down a city street.  Several other vehicles are visible, including cars parked along the side of the road. A person on a scooter is seen crossing the road from left to right.  A person on a tricycle is traveling in the same direction as the recording vehicle, but closer to the right side of the road.  At approximately 6.5 seconds, the person on the scooter appears to lose control and falls onto the hood of the recording vehicle. The incident occurs near an intersection.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the video segment.  The vehicle appears to be navigating a typical city street with moderate traffic. The driver does not appear to take any evasive maneuvers until the collision at the end of the segment.",
+    "key_objects": "1) Front: Person on a scooter, approximately 2 meters away at the moment of impact, crossing the road from left to right, losing control and falling onto the hood of the vehicle. 2) Right: Person on a tricycle, approximately 5 meters away, traveling in the same direction as the recording vehicle, maintaining a consistent speed.",
+    "key_actions": "collision",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

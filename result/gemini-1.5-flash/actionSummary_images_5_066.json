@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_5_066",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a city road during sunset. The road is wet, indicating recent rain. A white sedan is ahead, and a motorcyclist appears on the right side. The motorcyclist loses control and falls in front of the self-driving vehicle.",
+        "actions": "The self-driving vehicle maintains a consistent speed initially but starts to decelerate as the motorcyclist appears and eventually falls. The vehicles speed decreases to avoid collision with the fallen motorcyclist.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a steady speed. 2) Right: A motorcyclist, approximately 5 meters away, initially moving forward but loses control and falls in front of the self-driving vehicle.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight left shift"
+        }
+    }
+]

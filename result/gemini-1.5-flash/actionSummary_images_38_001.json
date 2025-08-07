@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_38_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue truck, driver of a red car",
+        "summary": "In this segment, the vehicle is at a traffic light intersection. A blue truck is making a left turn from the left side of the intersection, while a red car is moving straight from the right side. The truck and car are approaching each other, creating a potential collision scenario.",
+        "actions": "The self-driving vehicle is stationary at the intersection, observing the traffic light and the movements of the truck and car. The vehicle remains stationary to avoid any collision with the truck and car.",
+        "key_objects": "1) Left side: A blue truck, approximately 5 meters away, making a left turn and moving towards the intersection. 2) Right side: A red car, approximately 10 meters away, moving straight and approaching the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

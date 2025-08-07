@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_007",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A traffic officer wearing a white hat and a reflective vest is standing in the middle of the road. There is a male cyclist wearing dark clothing riding on the left side of the road. There is also a male on a scooter wearing dark clothing on the left side of the road.",
+  "summary": "The vehicle is approaching an intersection in a city during daytime. A traffic officer is standing in the middle of the road, directing traffic. A male cyclist wearing dark clothing is riding on the left side of the road. A male on a scooter wearing dark clothing is also on the left side of the road. The traffic officer is visible and there are no immediate ghost probing incidents, but the cyclist and scooter could potentially become a ghost probing incident if they suddenly change direction.",
+  "actions": "The vehicle is approaching an intersection and slowing down, likely in response to the traffic officer in the middle of the road. The driver is likely assessing the traffic situation and preparing to follow the officer's directions. The vehicle is maintaining its lane and preparing to navigate the intersection safely.",
+  "key_objects": "None",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

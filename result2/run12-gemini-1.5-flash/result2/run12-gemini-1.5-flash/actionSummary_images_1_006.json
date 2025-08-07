@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_1_006",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Traffic",
+    "characters": "Multiple vehicles and motorcyclists in moderate traffic.",
+    "summary": "The video shows the self-driving vehicle navigating moderate urban traffic.  The road is relatively narrow with vehicles and motorcyclists moving in both directions.  Several motorcyclists are visible, some appearing to weave through traffic.  The traffic flow is generally slow and steady. No sudden or erratic movements are observed that would immediately endanger the self-driving vehicle.  The overall scene is typical of city driving conditions.",
+    "actions": "The self-driving vehicle maintains a consistent speed, adjusting slightly to maintain a safe following distance from the vehicle ahead.  The vehicle remains in its lane, navigating around slower-moving traffic.  The driver's actions appear cautious and reactive to the surrounding traffic conditions.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_006",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.1s",
+    "scene_theme": "Urban Street",
+    "sentiment": "Negative",
+    "characters": "A child on a scooter, driver of the observer vehicle, other drivers in stopped traffic.",
+    "summary": "The video shows a child on a scooter crossing the road from the right side in front of stopped traffic. The child appears suddenly, creating a near-miss situation for the observer vehicle. The child is wearing a dark-colored jacket and appears to be of elementary school age. The observer vehicle is stopped in traffic and does not move during this incident.  The child's scooter is dark-colored. The child crosses the road relatively quickly.",
+    "actions": "The observer vehicle is stationary, stopped in traffic. The vehicle maintains its position throughout the observed segment.",
+    "key_objects": "Right: A child on a dark-colored scooter, approximately 2 meters away at closest approach, crossing the road from right to left directly in front of the stopped traffic.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a city street with various vehicles, pedestrians, and a traffic officer. There are cars, motorcycles, and bicycles. The traffic officer is wearing a white hat and a reflective vest. Pedestrians are seen walking on the sidewalks. The weather appears to be sunny.",
+  "summary": "The vehicle starts at a standstill at an intersection. A traffic officer is standing on the right side of the road. Cars are moving in both directions. The vehicle then proceeds to make a left turn at the intersection. As the vehicle turns, pedestrians and cyclists are visible on the left side of the road. The vehicle completes the turn and continues driving down the street.",
+  "actions": "The vehicle is initially stopped at an intersection, likely waiting for the traffic officer's signal or a break in traffic. The vehicle then makes a left turn. The turn is executed at a slow speed, likely to ensure safety and avoid collisions with pedestrians or other vehicles. After completing the turn, the vehicle accelerates slightly to match the flow of traffic.",
+  "key_objects": "1) Left side: Cyclist, medium distance, crossing the street, potential collision if the vehicle turns too quickly. 2) Right side: Traffic officer, close distance, directing traffic, influences the vehicle's actions. 3) Left side: Parked cars, medium distance, potentially obscuring pedestrians or cyclists.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

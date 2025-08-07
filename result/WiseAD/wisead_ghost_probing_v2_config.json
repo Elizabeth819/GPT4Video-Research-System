@@ -1,0 +1,37 @@
+{
+  "experiment_name": "wisead-ghost-probing-v2",
+  "display_name": "WiseAD A100 Ghost Probing v2.0 - 10s Segments",
+  "description": "WiseAD鬼探头检测系统v2.0 - 10秒段检测模式，详细日志记录，确保输出保存",
+  "compute": "wisead-a100-lowpri",
+  "environment": {
+    "conda_file": "azure_drivemm_environment.yml",
+    "image": "mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu20.04:latest"
+  },
+  "code": {
+    "path": ".",
+    "main_script": "azure_ml_wisead_ghost_probing_v2.py"
+  },
+  "outputs": {
+    "wisead_results": {
+      "type": "uri_folder",
+      "path": "/tmp/outputs/wisead_results"
+    },
+    "wisead_detailed_log": {
+      "type": "uri_file", 
+      "path": "/tmp/outputs/wisead_detailed.log"
+    }
+  },
+  "settings": {
+    "timeout": "PT4H",
+    "instance_count": 1,
+    "instance_type": "Standard_NC24ads_A100_v4",
+    "priority": "low"
+  },
+  "tags": {
+    "model": "WiseAD-YOLO-v8s",
+    "task": "ghost-probing-detection",
+    "version": "v2.0",
+    "mode": "10s-segments",
+    "dataset": "DADA-2000"
+  }
+} 

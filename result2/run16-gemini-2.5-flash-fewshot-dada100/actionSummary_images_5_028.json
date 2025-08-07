@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_028",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male scooter rider in a blue jacket and helmet, carrying a blue delivery box.",
+  "summary": "In this segment, the vehicle is driving on a multi-lane urban road with moderate traffic. The road is lined with trees and buildings, and a pedestrian overpass is visible in the distance. The vehicle is following other cars, including a black sedan on its right side. At approximately 8.0 seconds, a male scooter rider, wearing a blue jacket and helmet and carrying a blue delivery box, suddenly emerges from behind the black sedan on the right side. The black sedan acts as a significant visual obstruction, completely hiding the scooter rider until they unexpectedly dart into the vehicle's direct path, creating an immediate and dangerous 'ghost probing' situation. The vehicle reacts by initiating braking to avoid a collision.",
+  "actions": "The self-driving vehicle initially maintains a speed of 45 km/h, then gradually decelerates to 32 km/h as it navigates a moderately busy urban road. At approximately 8.0 seconds, a male scooter rider suddenly emerges from behind a black sedan on the right side, directly entering the vehicle's path. Despite a brief, slight increase in speed immediately after the scooter's appearance (from 32 km/h at 7.0s to 35 km/h at 9.0s), the vehicle quickly initiates significant deceleration in response to the ghost probing event, reducing its speed from 35 km/h at 9.0s to 24 km/h by 11.7s to avoid a potential collision with the scooter rider. This rapid deceleration is a direct safety response to the unexpected hazard.",
+  "key_objects": "1) Right side: A black sedan, approximately 5-10 meters ahead, moving in the same direction, acting as a visual obstruction that hides the scooter rider. 2) Right side: A male scooter rider, wearing a blue jacket and helmet, carrying a blue delivery box, suddenly emerging from behind the black sedan at approximately 8.0s, entering the vehicle's path from the right side. Initially about 5-7 meters away, rapidly closing distance.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

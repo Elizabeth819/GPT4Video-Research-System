@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_070",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a black sedan, driver of a truck",
+        "summary": "In this segment, the vehicle is driving on a road with moderate traffic. A black sedan is ahead on the left side, and a truck is ahead in the center lane. The vehicle is approaching a construction zone with barriers and signs indicating lane closures.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and keeping a safe distance from the black sedan and the truck ahead. The vehicle is preparing to navigate through the construction zone by following the lane markings and signs.",
+        "key_objects": "1) Front-left: A black sedan, approximately 10 meters away, maintaining a steady speed. 2) Front-center: A truck, approximately 20 meters away, moving slowly. 3) Front-right: Construction barriers and signs, approximately 15 meters away, indicating lane closures.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_070",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "11.6s",
+        "scene_theme": "Routine",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is approaching a construction zone. There are traffic cones and barriers on the road, indicating a lane closure. The vehicle is maintaining a steady speed and following the lane markings.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, navigating through the construction zone. The vehicle is maintaining its lane and following the road signs and barriers.",
+        "key_objects": "1) Front: Traffic cones and barriers, approximately 5 meters away, indicating a lane closure. 2) Front: A white car, approximately 20 meters away, moving slowly through the construction zone.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

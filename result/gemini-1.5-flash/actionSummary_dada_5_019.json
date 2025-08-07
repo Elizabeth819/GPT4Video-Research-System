@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle approaches a building entrance with a barrier. Pedestrians and scooter riders are present.",
+    "actions": "Ego vehicle moves forward slowly. Pedestrians walk across the road. Scooter riders move in both directions.",
+    "characters": "Pedestrians, scooter riders",
+    "key_objects": "Ego vehicle, pedestrians, scooter riders, barrier, building entrance",
+    "key_actions": "Pedestrians crossing the road, scooter riders approaching from both directions.",
+    "next_action": "Ego vehicle will likely continue moving forward, navigating around pedestrians and scooter riders."
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_5_019",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Approaching a gate",
+    "characters": "Several pedestrians, a driver in a silver car, drivers on scooters.",
+    "summary": "The video shows a vehicle approaching a gate.  A security barrier is in the process of raising. Several pedestrians are walking across the road, and a silver car is waiting to pass through the gate. Two scooter drivers are also present, one appearing to be making a delivery. The scene is relatively calm, but pedestrians are crossing in front of the vehicle's path, requiring the driver to slow down. No immediate dangerous situations are observed, although the close proximity of pedestrians warrants caution.",
+    "actions": "The vehicle is slowly approaching the gate, decelerating to allow pedestrians to cross the road. The speed is consistent with a cautious approach to a gate and pedestrian crossing area. The driver maintains a safe distance from the pedestrians and the silver car ahead.",
+    "key_objects": "Front: Several pedestrians, approximately 5-10 meters away, crossing the road, requiring the vehicle to slow down. Right: A scooter driver, approximately 3 meters away, moving slowly alongside the vehicle.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_019",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.5s",
+    "scene_theme": "Parking lot",
+    "characters": "A person on a scooter, a person standing near a car, driver of the observer vehicle",
+    "summary": "The video shows a parking lot scene. The observer vehicle is slowly approaching a parking area. A person on a scooter is visible on the left side of the frame, moving away from the observer vehicle. A person is standing near a silver car parked on the right side of the frame.  The observer vehicle appears to be slowing down and preparing to park. No immediate dangerous actions are observed.",
+    "actions": "The observer vehicle is slowing down and approaching a parking spot. The vehicle's speed is very low, indicating a cautious approach to parking. The driver is likely maneuvering the vehicle to align with a parking space.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

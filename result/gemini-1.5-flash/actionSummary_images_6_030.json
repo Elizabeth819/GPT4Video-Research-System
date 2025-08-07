@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_6_030",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. Initially, there are multiple parked cars on both sides of the road. A black sedan is seen moving from the left side of the frame towards the center, potentially cutting into the lane of the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through an urban area with parked cars on both sides. The vehicle is likely preparing to slow down or stop due to the black sedan moving into its path.",
+        "key_objects": "1) Left side: A black sedan, approximately 5 meters away, moving towards the center of the road, potentially cutting into the lane of the observer vehicle. 2) Right side: A white sedan, approximately 3 meters away, parked and blocking the view.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_6_030",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.6s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrians on the sidewalk",
+        "summary": "In this segment, the vehicle is driving on a city street. A white sedan is moving on the left side of the road. Several pedestrians are visible on the right side of the road, near the sidewalk. The driver mentions the presence of a tricycle ahead.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the white sedan on the left side and pedestrians on the right side. The vehicle is cautious due to the potential for sudden movements from the pedestrians or the white sedan.",
+        "key_objects": "1) Left side: A white sedan, approximately 5 meters away, moving forward. 2) Right side: Several pedestrians, approximately 10 meters away, walking near the sidewalk.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_048",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "8.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, cyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. The road is wet, indicating recent rain. The vehicle is following a white sedan ahead. There is a cyclist on the left side of the road in the last frame.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the white sedan ahead. The vehicle is keeping a safe distance from the sedan, approximately 20 meters away. The vehicle is also aware of the cyclist on the left side, ensuring to keep a safe distance.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a consistent speed. 2) Left: A cyclist, approximately 5 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_048",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "11.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a silver BMW, cyclist on the left side",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Ahead, a silver BMW is stopped, and a cyclist is visible on the left side of the road. The cyclist appears to be moving towards the road, potentially causing a dangerous situation.",
+        "actions": "The self-driving vehicle is maintaining a close distance behind the silver BMW, possibly preparing to stop or slow down due to the cyclists movement. The vehicles speed is gradually decreasing to ensure safety.",
+        "key_objects": "1) Front: A silver BMW, approximately 2 meters away, stopped, potentially about to move forward. 2) Left side: A cyclist, approximately 5 meters away, moving towards the road, potentially causing a dangerous situation.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

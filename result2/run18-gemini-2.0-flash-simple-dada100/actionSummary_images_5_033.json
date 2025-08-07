@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_033",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene features a driver in a car at night. Other vehicles are present on the road, including a red car in front and a scooter further ahead. There are buildings and streetlights along the roadside.",
+  "summary": "The video shows a car driving on a road at night. The car is following a red car and approaches a crosswalk where a scooter is crossing. The driver maintains speed and direction.",
+  "actions": "The vehicle is maintaining its speed and following the car in front. The driver is likely maintaining a safe following distance and observing the road ahead for any potential hazards. The vehicle approaches a crosswalk and continues driving straight.",
+  "key_objects": "1) Right: parked cars, medium distance, potential obstruction of view. 2) Ahead: scooter crossing the road, far distance, requires monitoring.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

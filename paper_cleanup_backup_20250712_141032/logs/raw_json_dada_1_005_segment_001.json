@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_005",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "End_Timestamp": "13.8s",
+    "scene_theme": "Dramatic",
+    "characters": "Driver of a red sedan, cyclist, pedestrian with umbrella",
+    "summary": "In this segment, the vehicle is driving on a busy urban road. A red sedan is ahead, and a cyclist is moving from the right side towards the center of the road. A pedestrian with an umbrella is walking on the left side of the road. The cyclists movement poses a potential danger as it could suddenly enter the vehicles path.",
+    "actions": "The self-driving vehicle is maintaining a steady speed while monitoring the red sedan ahead and the cyclist moving from the right side. The vehicle is prepared to decelerate if the cyclist suddenly moves into its path.",
+    "key_objects": "1) Front: A red sedan, approximately 10 meters away, moving slowly. 2) Right side: A cyclist, approximately 15 meters away, moving towards the center of the road. 3) Left side: A pedestrian with an umbrella, approximately 5 meters away, walking along the roadside.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "decelerate",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

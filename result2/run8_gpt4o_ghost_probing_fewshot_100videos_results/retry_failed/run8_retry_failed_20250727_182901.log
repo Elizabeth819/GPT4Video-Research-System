@@ -1,0 +1,6 @@
+2025-07-27 18:29:01,871 - INFO - Run 8: 重新处理失败视频开始
+2025-07-27 18:29:01,872 - INFO - Azure OpenAI API配置成功
+2025-07-27 18:29:01,872 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-27 18:29:01,872 - INFO - Deployment: gpt-4o-global
+2025-07-27 18:29:01,872 - INFO - Temperature: 0 (与Run 8完全一致)
+2025-07-27 18:29:01,877 - INFO - Ground truth标签加载成功: 101条记录

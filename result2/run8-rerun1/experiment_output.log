@@ -1,0 +1,59 @@
+/Users/wanmeng/miniconda3/lib/python3.11/site-packages/imageio_ffmpeg/_utils.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2025-08-05 10:17:32,204 - INFO - Run8-Rerun + Image Few-shot Experiment 开始
+2025-08-05 10:17:32,204 - INFO - Azure OpenAI API配置成功
+2025-08-05 10:17:32,204 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-08-05 10:17:32,204 - INFO - Deployment: gpt-4o-global
+2025-08-05 10:17:32,204 - INFO - Temperature: 0, Run8 Text Few-shot + 9张Image Few-shot
+2025-08-05 10:17:32,206 - INFO - 加载校正后的ground truth标签: 200个视频
+2025-08-05 10:17:32,206 - INFO - ✅ 加载few-shot图像: ghost_probing_sample1_before.jpg
+2025-08-05 10:17:32,206 - INFO - ✅ 加载few-shot图像: ghost_probing_sample1_during.jpg
+2025-08-05 10:17:32,206 - INFO - ✅ 加载few-shot图像: ghost_probing_sample1_after.jpg
+2025-08-05 10:17:32,206 - INFO - ✅ 加载few-shot图像: ghost_probing_sample2_before.jpg
+2025-08-05 10:17:32,206 - INFO - ✅ 加载few-shot图像: ghost_probing_sample2_during.jpg
+2025-08-05 10:17:32,206 - INFO - ✅ 加载few-shot图像: ghost_probing_sample2_after.jpg
+2025-08-05 10:17:32,206 - INFO - ✅ 加载few-shot图像: ghost_probing_sample3_before.jpg
+2025-08-05 10:17:32,206 - INFO - ✅ 加载few-shot图像: ghost_probing_sample3_during.jpg
+2025-08-05 10:17:32,206 - INFO - ✅ 加载few-shot图像: ghost_probing_sample3_after.jpg
+2025-08-05 10:17:32,206 - INFO - 🎯 成功加载9张few-shot图像用于消融实验
+2025-08-05 10:17:32,206 - INFO - 🚀 开始批量处理 100 个视频
+🚀 Run8-Rerun + Image Few-shot Experiment
+基于run8-rerun的文本few-shot + 9张鬼探头图像few-shot
+📁 输出目录: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_101732
+🎯 Few-shot图像: 9张
+实验配置完成，可以开始处理视频
+🎯 开始处理DADA-100的100个视频
+处理视频:   0%|          | 0/100 [00:00<?, ?it/s]2025-08-05 10:17:32,232 - INFO - 📊 进度: 1/100
+2025-08-05 10:17:32,232 - INFO - 🎬 开始分析视频: images_1_001
+2025-08-05 10:17:32,605 - INFO - 📤 发送API请求: images_1_001 (with 9 few-shot images)
+2025-08-05 10:17:32,605 - INFO - 📷 编码9张few-shot图像
+2025-08-05 10:17:32,613 - INFO - 🎬 编码10张视频帧
+2025-08-05 10:17:32,627 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-05 10:17:53,932 - INFO - ✅ 成功分析: images_1_001
+处理视频:   1%|          | 1/100 [00:24<40:45, 24.71s/it]2025-08-05 10:17:56,939 - INFO - 📊 进度: 2/100
+2025-08-05 10:17:56,939 - INFO - 🎬 开始分析视频: images_1_002
+2025-08-05 10:17:57,327 - INFO - 📤 发送API请求: images_1_002 (with 9 few-shot images)
+2025-08-05 10:17:57,328 - INFO - 📷 编码9张few-shot图像
+2025-08-05 10:17:57,340 - INFO - 🎬 编码10张视频帧
+2025-08-05 10:17:57,350 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-05 10:18:25,366 - INFO - ✅ 成功分析: images_1_002
+处理视频:   2%|▏         | 2/100 [00:56<46:49, 28.66s/it]2025-08-05 10:18:28,373 - INFO - 📊 进度: 3/100
+2025-08-05 10:18:28,373 - INFO - 🎬 开始分析视频: images_1_003
+2025-08-05 10:18:28,739 - INFO - 📤 发送API请求: images_1_003 (with 9 few-shot images)
+2025-08-05 10:18:28,739 - INFO - 📷 编码9张few-shot图像
+2025-08-05 10:18:28,748 - INFO - 🎬 编码10张视频帧
+2025-08-05 10:18:28,758 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-05 10:18:52,471 - INFO - ✅ 成功分析: images_1_003
+处理视频:   3%|▎         | 3/100 [01:23<45:11, 27.95s/it]2025-08-05 10:18:55,479 - INFO - 📊 进度: 4/100
+2025-08-05 10:18:55,479 - INFO - 🎬 开始分析视频: images_1_004
+2025-08-05 10:18:55,889 - INFO - 📤 发送API请求: images_1_004 (with 9 few-shot images)
+2025-08-05 10:18:55,889 - INFO - 📷 编码9张few-shot图像
+2025-08-05 10:18:55,897 - INFO - 🎬 编码10张视频帧
+2025-08-05 10:18:55,908 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-05 10:19:18,546 - INFO - ✅ 成功分析: images_1_004
+处理视频:   4%|▍         | 4/100 [01:49<43:32, 27.21s/it]2025-08-05 10:19:21,553 - INFO - 📊 进度: 5/100
+2025-08-05 10:19:21,553 - INFO - 🎬 开始分析视频: images_1_005
+2025-08-05 10:19:21,937 - INFO - 📤 发送API请求: images_1_005 (with 9 few-shot images)
+2025-08-05 10:19:21,937 - INFO - 📷 编码9张few-shot图像
+2025-08-05 10:19:21,951 - INFO - 🎬 编码10张视频帧
+2025-08-05 10:19:21,963 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)

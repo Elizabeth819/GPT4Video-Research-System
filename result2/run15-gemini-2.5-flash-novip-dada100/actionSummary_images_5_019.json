@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_019",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "A male pedestrian in dark clothing is seen walking from the left side of the image across the vehicle's path. Another male pedestrian in dark clothing is standing on the right side of the image near a parked car. A male rider in dark clothing is operating a red scooter, emerging from the left side of the image. A male rider in dark clothing is operating a blue scooter, emerging from the right side of the image.",
+  "summary": "The scene begins with the autonomous vehicle stopped at a barrier gate, which is initially lowered. As the video progresses, the barrier gate begins to lift. Immediately after the barrier starts lifting, a pedestrian suddenly emerges from behind the building on the left side of the image and walks across the vehicle's intended path. Shortly thereafter, a red scooter appears abruptly from behind the same building on the left, also crossing the path. Following this, a blue scooter suddenly emerges from behind a parked silver car on the right side of the image, proceeding to cross directly in front of the vehicle. The vehicle remains stationary throughout this entire 10-second period, observing the multiple unexpected entries into its path.",
+  "actions": "The vehicle is initially stopped at a barrier gate at the beginning of the segment. It maintains a stationary position throughout the entire 10-second duration. This action is taken because the barrier gate is initially closed, preventing any forward movement. Once the barrier begins to lift and is fully open, the vehicle continues to remain stopped. This decision is made to ensure safety, as multiple pedestrians and scooters unexpectedly emerge from behind physical obstructions (the building on the left and a parked car on the right) and cross the vehicle's intended path. The vehicle yields to these unexpected entries, waiting for the path to be clear before considering any movement.",
+  "key_objects": "1) Position: Left side of the image: A male pedestrian in dark clothing, emerging suddenly from behind the building and the lifting barrier. This pedestrian directly enters the vehicle's path with minimal reaction time, constituting a traditional ghost probing incident. 2) Position: Left side of the image: A red scooter with a male rider in dark clothing, emerging suddenly from behind the building. This scooter directly enters the vehicle's path, creating a vehicle ghost probing situation. 3) Position: Right side of the image: A blue scooter with a male rider in dark clothing, emerging suddenly from behind a parked silver car. This scooter directly enters the vehicle's path, creating a vehicle ghost probing situation.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

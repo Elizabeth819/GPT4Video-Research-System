@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrian",
+        "summary": "In this segment, the vehicle is driving on a road with parked cars on both sides. At 2.0s, a pedestrian suddenly appears from the left side and collides with the vehicle. The pedestrian falls to the ground, and the white sedan ahead starts to turn left, possibly to avoid the pedestrian or the collision.",
+        "actions": "The self-driving vehicle is driving at a moderate speed. At 2.0s, a pedestrian suddenly appears from the left side and collides with the vehicle, causing the vehicle to decelerate rapidly. The white sedan ahead starts to turn left, possibly to avoid the pedestrian or the collision.",
+        "key_objects": "1) Left side: A pedestrian, approximately 0 meters away, suddenly appears and collides with the vehicle. 2) Front: A white sedan, approximately 10 meters away, starts to turn left, possibly to avoid the pedestrian or the collision.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, car ahead",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. A motorcyclist on the left side of the frame is seen moving forward. Suddenly, the motorcyclist loses control and crashes, causing debris to scatter across the road. The car ahead maintains its position, and other vehicles in the vicinity continue moving.",
+        "actions": "The self-driving vehicle maintains a steady speed and direction, observing the motorcyclists movement. As the motorcyclist crashes, the vehicle likely prepares to decelerate to avoid the debris and potential collision.",
+        "key_objects": "1) Left side: A motorcyclist, approximately 5 meters away, moving forward and then crashing, causing debris to scatter. 2) Front: A black car, approximately 10 meters away, maintaining its position.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "21.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "30.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, white car, black car",
+        "summary": "In this segment, a motorcyclist is seen riding on the right side of the road. Suddenly, the motorcyclist loses control and falls onto the road. A white car behind the motorcyclist slows down to avoid hitting the fallen rider. The black car in the distance continues to approach the scene. The motorcyclist remains on the ground, and the white car stops to check on the situation.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the situation ahead. The white car behind the motorcyclist slows down to avoid a collision. The black car in the distance continues to approach the scene, likely preparing to stop or maneuver around the fallen motorcyclist.",
+        "key_objects": "1) Right side: A motorcyclist, approximately 10 meters away, loses control and falls onto the road. 2) Front: A white car, approximately 15 meters away, slows down to avoid hitting the fallen motorcyclist. 3) Front: A black car, approximately 30 meters away, continues to approach the scene.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "31.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "40.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Person on the ground, various vehicles",
+        "summary": "In this segment, the vehicle is driving on a city road. A person is lying on the ground on the left side of the road. Various vehicles, including a truck and motorcycles, are present. The scene appears to be chaotic, with potential for further incidents.",
+        "actions": "The self-driving vehicle is approaching a person lying on the ground. The vehicles speed appears to be decreasing to avoid a collision. The vehicle is maintaining a straight path while navigating through the traffic.",
+        "key_objects": "1) Left side: A person lying on the ground, approximately 5 meters away, stationary. 2) Front: A truck, approximately 20 meters away, moving forward. 3) Left side: A motorcycle, approximately 10 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_005",
+        "Start_Timestamp": "41.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "50.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Scooter rider, bus driver, car driver",
+        "summary": "In this segment, a scooter rider in a pink dress is seen riding on the right side of the road. The rider loses control and falls off the scooter, resulting in a crash. The bus and car ahead are stopped at a traffic light.",
+        "actions": "The self-driving vehicle is approaching a traffic light where a bus and a car are stopped. The vehicle maintains a steady speed until the scooter rider loses control and falls, prompting the vehicle to decelerate rapidly to avoid a collision.",
+        "key_objects": "1) Right side: A scooter rider in a pink dress, approximately 5 meters away, loses control and falls off the scooter, causing a potential hazard. 2) Front: A bus, approximately 20 meters away, stopped at a traffic light. 3) Front: A white car, approximately 18 meters away, stopped at a traffic light.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

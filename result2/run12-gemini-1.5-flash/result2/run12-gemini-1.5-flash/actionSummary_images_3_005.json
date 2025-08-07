@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_3_005",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of the recording vehicle, other drivers, pedestrians, a person on a scooter.",
+    "summary": "The video shows a car driving on a city road.  The road is relatively clear with buildings lining both sides.  Around the 6-second mark, two pedestrians, one appearing to be female wearing dark clothing and the other partially obscured, cross the road at a pedestrian crossing.  A person on a scooter is also visible in the same area. The pedestrians cross in front of the recording vehicle, requiring the driver to slow down. No other significant events occur.",
+    "actions": "The vehicle maintains a consistent speed for most of the 10-second segment, adjusting speed to safely navigate the pedestrian crossing around the 6-second mark. The deceleration is moderate and appears to be a precautionary measure to ensure the safety of the pedestrians.",
+    "key_objects": "Front: Two pedestrians, approximately 10 meters away at closest approach, crossing the road from right to left.  A person on a scooter is also visible near the pedestrians, approximately 12 meters away at closest approach, moving parallel to the road.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_3_005",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.8s",
+    "scene_theme": "Urban",
+    "characters": "A person on a skateboard crossing a crosswalk.",
+    "summary": "The video shows a car approaching a crosswalk. A person on a skateboard is crossing the crosswalk from left to right. The car slows down and stops to allow the person to cross safely. There are buildings and trees visible in the background. The weather appears to be overcast.",
+    "actions": "The vehicle approaches a crosswalk at a moderate speed. Upon observing a person on a skateboard crossing the crosswalk, the vehicle begins to decelerate. The vehicle comes to a complete stop to ensure the safety of the person crossing. The vehicle maintains its position until the person has completely crossed the crosswalk.",
+    "key_objects": "Front: Person on skateboard, approximately 5 meters away, crossing the crosswalk from left to right.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "accelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "video_id": "dada_12_017",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a city road with moderate traffic. The road is relatively clear, with no immediate obstacles or pedestrians. The traffic is moving slowly, and the car maintains a safe distance from the vehicle in front.  There are no sudden movements or dangerous actions observed within the 5-second segment.",
+        "actions": "The vehicle maintains a consistent speed, matching the flow of traffic.  The driver is likely adjusting speed based on the distance to the car ahead, maintaining a safe following distance. There are no lane changes or turns observed during this segment.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_12_017",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A man on a bicycle",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching from behind, then passing the vehicle at a moderate speed."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Bicycle",
+                "behavior": "Riding a bicycle along the right side of the road, passing the ego vehicle."
+            }
+        ],
+        "summary": "The video shows a car driving in moderate traffic. The road is relatively clear, with no immediate obstacles. A man on a bicycle is visible on the right side of the road, initially behind the ego vehicle. He then overtakes the ego vehicle at a moderate speed, maintaining a safe distance. No other significant events or near-misses occur during this segment.",
+        "actions": "The ego vehicle maintains a consistent speed, adjusting slightly to maintain a safe following distance from the car in front.  The driver is following the flow of traffic, and there is no indication of braking or acceleration beyond minor adjustments to maintain safe following distance. The driver is keeping to the lane and following traffic laws.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep right"
+        }
+    },
+    {
+        "video_id": "dada_12_017",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "10.9s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a segment of a road with moderate traffic. The self-driving vehicle is traveling in a lane with several cars in front and behind.  The traffic is moving at a relatively slow and steady pace. No sudden movements or dangerous behaviors from other vehicles or individuals are observed within this 5-second segment. The road is clear of any immediate obstacles.",
+        "actions": "The self-driving vehicle maintains a consistent speed, matching the flow of traffic ahead.  The driver is likely maintaining a safe following distance from the vehicle in front. There are no observable lane changes or maneuvers during this segment. The vehicle's speed is adjusted passively to maintain a safe distance from the car in front, indicating a reactive driving style rather than a proactive one.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

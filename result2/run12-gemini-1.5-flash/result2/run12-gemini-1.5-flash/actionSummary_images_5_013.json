@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_5_013",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Night city driving",
+    "characters": "Driver of a car, several other vehicles, a person on a scooter, and pedestrians.",
+    "summary": "The video shows nighttime city driving. The self-driving vehicle is traveling along a road with multiple lanes.  Traffic is moderate.  Around the 7-second mark, a person on a scooter appears to fall in the crosswalk directly in front of the self-driving vehicle. The fall appears sudden and unexpected. The scooter and the person appear to be moving at a moderate speed before the fall. The self-driving vehicle appears to be maintaining a safe following distance from the vehicles ahead. ",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the video.  The vehicle appears to be navigating a city intersection with traffic lights and crosswalks. The vehicle's speed is moderate, appropriate for city driving conditions. The driver appears to be paying attention to the road and traffic.",
+    "key_objects": "Front: Person on a scooter, approximately 5 meters away at the time of the fall, falling suddenly in the crosswalk, creating an immediate hazard.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_013",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.1s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "A cyclist is involved in an accident.",
+    "summary": "The video shows a cyclist falling on a crosswalk at night. The cyclist appears to be carrying groceries in a shopping basket attached to their bicycle.  The fall seems sudden and unexpected. Other vehicles are present on the road, but their involvement in the accident is unclear from the provided frames. The road is wet, suggesting possible rain or recent rain.",
+    "actions": "The self-driving vehicle maintains a steady speed and continues straight through the intersection.  The vehicle does not appear to brake or swerve in response to the cyclist's fall. The reason for the cyclist's fall is not apparent from the video.",
+    "key_objects": "Front: Cyclist, approximately 5 meters away, falling on the crosswalk. The fall appears sudden and unexpected, potentially causing a collision if the vehicle does not react.",
+    "key_actions": "collision",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

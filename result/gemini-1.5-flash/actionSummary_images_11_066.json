@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_066",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of a blue car, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on an urban road with moderate traffic. The vehicle is following a white sedan and a black car, while a blue car is on the right side. The traffic is moving steadily without any sudden changes.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and keeping a safe distance from the vehicles ahead. The vehicle is staying in its lane and not making any sudden movements.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving steadily. 2) Front: A black car, approximately 15 meters away, moving steadily. 3) Right: A blue car, approximately 5 meters away, moving steadily.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_066",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.4s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue car, driver of a white car, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. The blue car on the right side is attempting to merge into the lane, while the white car ahead is maintaining its position. The black car on the left side is moving forward steadily.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while monitoring the blue car on the right side attempting to merge into the lane. The vehicle is also keeping a safe distance from the white car ahead and the black car on the left side.",
+        "key_objects": "1) Right side: A blue car, approximately 1 meter away, attempting to merge into the lane. 2) Front: A white car, approximately 5 meters away, maintaining its position. 3) Left side: A black car, approximately 3 meters away, moving forward steadily.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

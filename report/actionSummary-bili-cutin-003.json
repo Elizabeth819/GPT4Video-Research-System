@@ -1,0 +1,104 @@
+[
+    {
+        "video_id": "003",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black SUV, driver of a large truck",
+        "summary": "In this segment, the vehicle is driving on a highway. A black SUV in the right lane attempts to change lanes to overtake the white sedan in front. The distance between the vehicles is insufficient for a safe lane change. The black SUV cuts in front of the white sedan, causing a dangerous situation. The large truck in the right lane continues straight, while the black SUV moves into the left lane, creating a cloud of dust.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the black SUV attempting to change lanes. The black SUV cuts in front of the white sedan, causing a potential collision risk. The large truck continues straight without changing lanes.",
+        "key_objects": "1) Right side: A black SUV, approximately 2 meters away, attempting to change lanes to the left, creating a potential collision risk. 2) Front: A white sedan, approximately 5 meters away, maintaining its lane. 3) Right side: A large truck, approximately 10 meters away, continuing straight in its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a blue sedan, driver of a white van",
+        "summary": "In the first part of the video, the vehicle is driving on a highway. A truck is seen ahead in the same lane. The driver comments on the dangers of overtaking in a certain manner. In the second part, the scene shifts to a city road at night with heavy traffic. The self-driving vehicle is behind a white sedan and a blue sedan, both of which are stopped. The driver discusses the responsibility in a traffic incident, suggesting that the blame is shared equally, but expresses disagreement with this assessment.",
+        "actions": "The self-driving vehicle maintains a steady speed on the highway, keeping a safe distance from the truck ahead. In the city, the vehicle comes to a stop behind the white and blue sedans due to heavy traffic. The driver is cautious and attentive to the surrounding vehicles.",
+        "key_objects": "1) Front: A truck, approximately 20 meters away, moving steadily in the same lane. 2) Front: A white sedan, approximately 5 meters away, stopped in traffic. 3) Front-left: A blue sedan, approximately 6 meters away, stopped in traffic. 4) Front-right: A white van, approximately 7 meters away, stopped in traffic.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "21.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "30.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a blue taxi",
+        "summary": "In this segment, the vehicle is driving on a busy road at night. The traffic ahead is congested. A blue taxi on the left side is attempting to change lanes into the lane of the observer vehicle. The taxis lane change is motivated by the slower traffic in its current lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed due to the traffic congestion ahead. The blue taxi on the left is changing lanes into the observer vehicles lane, which requires the observer vehicle to be cautious and possibly slow down to avoid a collision.",
+        "key_objects": "1) Left side: A blue taxi, approximately 2 meters away, changing lanes into the observer vehicles lane, potentially causing a collision. 2) Front: A white sedan, approximately 5 meters away, moving slowly due to traffic congestion.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "31.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "40.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white car, driver of a police car",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road at night. A white car suddenly changes lanes from the left and collides with the self-driving vehicle. The driver of the self-driving vehicle expresses frustration about the collision, stating that it is unreasonable to hold them responsible. Later, the self-driving vehicle approaches an intersection with a green light, and the driver notes that they are passing through the intersection just as the light turns green.",
+        "actions": "The self-driving vehicle maintains its lane and speed while a white car abruptly changes lanes and collides with it. The self-driving vehicle continues to drive straight and passes through an intersection with a green light.",
+        "key_objects": "1) Left side: A white car, approximately 1 meter away, suddenly changing lanes and colliding with the self-driving vehicle. 2) Front: A green traffic light at the intersection, approximately 20 meters away, indicating it is safe to proceed.",
+        "key_actions": "cut-in, collision",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "41.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "50.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, electric scooter rider",
+        "summary": "In this segment, the vehicle is driving through an intersection at night. Initially, the road is clear, but as the vehicle proceeds, an electric scooter suddenly darts out from the left side, causing a potential hazard. The driver expresses surprise and emphasizes that running a yellow light is inexcusable. The vehicle continues to drive straight after the incident.",
+        "actions": "The self-driving vehicle maintains a steady speed while approaching the intersection. Upon the sudden appearance of the electric scooter from the left, the driver expresses surprise but continues driving straight without any abrupt maneuvers. The vehicle maintains its lane and speed throughout the segment.",
+        "key_objects": "1) Left side: An electric scooter, approximately 5 meters away, suddenly darting out from the left side of the road into the vehicles path, causing a potential hazard.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "51.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "60.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV",
+        "summary": "In this segment, the self-driving vehicle is traveling in the left lane. A white SUV in the right lane is approaching at high speed. The SUV suddenly brakes and attempts to change lanes without signaling. The self-driving vehicles driver expresses confusion about the SUVs intentions.",
+        "actions": "The self-driving vehicle maintains its lane and speed while the white SUV in the right lane suddenly brakes and attempts to cut in without signaling. The self-driving vehicles driver is unsure of the SUVs intentions.",
+        "key_objects": "1) Right side: A white SUV, approximately 2 meters away, suddenly braking and attempting to change lanes without signaling, causing a potential collision.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

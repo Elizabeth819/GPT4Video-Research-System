@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter/motorcycle, wearing a red jacket, is seen falling to the ground on the left side of the road near a crosswalk.",
+  "summary": "The dashcam vehicle approaches and enters a roundabout/intersection. As it enters, a dark SUV suddenly emerges from the right side, from behind an overpass structure, crossing the vehicle's path. Shortly after, a white police car also enters the intersection from the right, following the SUV. Simultaneously, a person on a scooter/motorcycle on the far left side of the intersection appears to lose control and falls to the ground near a crosswalk, resulting in an accident. The dashcam vehicle decelerates significantly, likely coming to a stop, as the accident unfolds directly in its view.",
+  "actions": "The vehicle initially approaches the roundabout at a moderate speed. As it enters the intersection (around 4.0s-5.0s), it begins to decelerate significantly. This deceleration is a direct response to the sudden appearance of a dark SUV emerging from behind the overpass structure on the right, which crosses the vehicle's intended path, requiring the driver to yield or slow down to avoid a potential collision. The vehicle continues to slow down as a white police car also enters the intersection from the right. By 8.0s-9.0s, the vehicle has almost come to a complete stop or is moving extremely slowly, reacting to the unfolding accident involving a person on a scooter on the left side of the intersection. The driver's actions prioritize safety by reducing speed and preparing to stop to avoid involvement in the complex and dangerous situation.",
+  "key_objects": "1) Right: A dark SUV, emerging suddenly from behind an overpass structure and parked vehicles, crossing the intersection. Its sudden appearance constitutes a vehicle ghost probing event, forcing the dashcam vehicle to decelerate rapidly. 2) Left: A person on a scooter/motorcycle, falling to the ground near a crosswalk. This creates an immediate and critical hazard, requiring the dashcam vehicle to stop. 3) Right: A white police car, entering the intersection behind the dark SUV. Its presence adds to the complexity of the intersection, potentially influencing the scooter's behavior.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

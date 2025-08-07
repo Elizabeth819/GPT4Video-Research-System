@@ -1,0 +1,48 @@
+{
+  "report_info": {
+    "timestamp": "2025-07-17T10:40:19.395294",
+    "analysis_type": "WiseAD vs GPT-4.1 Balanced Performance Comparison",
+    "evaluation_videos": 99,
+    "version": "1.0 - Simplified Analysis"
+  },
+  "wisead_raw_statistics": {
+    "videos_processed": 99,
+    "total_ghost_events": 3304,
+    "high_risk_events": 1583,
+    "potential_events": 1721,
+    "success_rate": 1.0,
+    "average_events_per_video": 33.37373737373738
+  },
+  "estimated_confusion_matrix": {
+    "wisead": {
+      "true_positive": 23,
+      "false_positive": 70,
+      "true_negative": 0,
+      "false_negative": 6
+    }
+  },
+  "performance_metrics": {
+    "wisead_performance": {
+      "accuracy": 0.2323,
+      "precision": 0.2473,
+      "recall": 0.7931,
+      "f1_score": 0.377
+    },
+    "gpt41_baseline": {
+      "accuracy": 0.576,
+      "precision": 0.565,
+      "recall": 0.963,
+      "f1_score": 0.712
+    }
+  },
+  "comparative_analysis": {
+    "accuracy_improvement": -0.3437,
+    "precision_improvement": -0.3177,
+    "recall_improvement": -0.1699,
+    "f1_improvement": -0.335
+  },
+  "key_findings": {
+    "wisead_strengths": [],
+    "performance_summary": "WiseAD性能接近GPT-4.1 Balanced，在成本效益方面表现优异"
+  }
+}

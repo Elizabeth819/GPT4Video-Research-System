@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car driving on a road in a rural area. There are pedestrians, a cyclist, and other vehicles visible. The pedestrians appear to be of various ages and are dressed in casual clothing. The cyclist is riding a motorcycle. The other vehicles are in the distance.",
+  "summary": "The vehicle is driving on a rural road. From 0.0s to 4.0s, the vehicle is driving straight. At 4.0s, a pedestrian suddenly runs across the road from left to right. The vehicle continues driving straight. At 6.0s, a man is walking on the right side of the road. At 8.0s, the vehicle approaches a bridge on the right side of the road.",
+  "actions": "The vehicle is driving straight on a rural road. The driver maintains a consistent speed, likely due to the presence of pedestrians and other vehicles in the vicinity. The driver does not change lanes or make any sudden maneuvers, indicating a cautious approach to the driving environment.",
+  "key_objects": "1) Left: Pedestrian running across the road, medium distance, potential collision risk. 2) Right: Man walking on the side of the road, medium distance, potential collision risk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

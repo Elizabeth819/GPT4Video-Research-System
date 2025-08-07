@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_027",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "None visible in immediate vicinity",
+  "summary": "In this segment, the vehicle is driving on a narrow, two-lane road in what appears to be a residential or semi-rural setting. The road is paved and appears dry. On the left side of the road, there are trees and foliage, and in the initial frames, a white SUV is parked. On the right side, there are multi-story buildings and walls. The road initially presents a gentle curve to the right, which the vehicle navigates smoothly, before straightening out. As the segment progresses, a gas station structure and a red truck become visible in the distance on the left side of the road. There are no pedestrians, cyclists, or other vehicles that suddenly emerge from behind obstructions, and no immediate hazards or dangerous situations are observed.",
+  "actions": "The self-driving vehicle maintains a consistent, moderate speed throughout the segment, indicating stable driving conditions and no immediate need for acceleration or deceleration. The vehicle's direction is adjusted smoothly to follow the natural curvature of the road, initially making a slight right turn to stay within the lane and then continuing straight as the road straightens. This consistent speed and smooth steering indicate that the vehicle is operating under normal driving parameters, without encountering any obstacles or situations requiring sudden changes in speed or direction.",
+  "key_objects": "1) Left side: A white SUV, approximately 10-15 meters away in the initial frames, parked on the side of the road. It acts as a stationary visual obstruction but no entity emerges from behind it. 2) Left side: A gas station structure and a red truck, approximately 50-70 meters away in the later frames, visible in the distance along the road.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

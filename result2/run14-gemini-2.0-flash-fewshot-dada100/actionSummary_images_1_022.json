@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_022",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several parked cars on the right side of the road, a white van driving in the opposite direction, two cyclists on the right side of the road.",
+  "summary": "The self-driving vehicle is proceeding straight on a multi-lane road in an urban environment. There are several parked cars on the right side of the road. A white van is driving in the opposite direction. Two cyclists are riding on the right side of the road, near the sidewalk. The traffic light ahead is red, and the vehicle is approaching an intersection.",
+  "actions": "The vehicle is maintaining a consistent speed and direction, following the lane markings. The driver is likely monitoring the traffic light and preparing to stop if it remains red. The vehicle is also maintaining awareness of the cyclists on the right side of the road.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

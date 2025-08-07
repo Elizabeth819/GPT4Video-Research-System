@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_47_004",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving through an urban area. Initially, the road is clear, but as the vehicle progresses, a person on a bicycle appears on the right side of the road. In the final frame, a motorcycle has fallen in the middle of the road, causing a potential hazard.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the person on the bicycle appears on the right side, the vehicle continues to move forward cautiously. In the final frame, the vehicle is likely to decelerate rapidly to avoid a collision with the fallen motorcycle.",
+        "key_objects": "1) Right side: A person on a bicycle, approximately 10 meters away, moving slowly. 2) Front: A fallen motorcycle, approximately 15 meters away, blocking the road.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_004",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, driver of a blue sedan, driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a road with a traffic light ahead. The white SUV is in front of the observer vehicle, and a blue sedan is on the left side. In the final frame, a black sedan suddenly appears from the right side, moving into the observer vehicles lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the traffic light. The white SUV ahead is also maintaining a steady speed. The blue sedan on the left is moving forward at a similar pace. In the final frame, the black sedan on the right side suddenly moves into the observer vehicles lane, indicating a cut-in behavior.",
+        "key_objects": "1) Front: A white SUV, approximately 10 meters away, maintaining a steady speed. 2) Left side: A blue sedan, approximately 5 meters away, moving forward at a similar pace. 3) Right side: A black sedan, approximately 3 meters away, suddenly moving into the observer vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_004",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.1s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a black sedan, driver of a blue SUV",
+        "summary": "In this segment, the vehicle is driving on a busy road with multiple lanes. The traffic light ahead is green. A black sedan is parked on the right side of the road, and a blue SUV is driving ahead in the same lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the traffic light. The vehicle is keeping a safe distance from the blue SUV ahead and is aware of the parked black sedan on the right side.",
+        "key_objects": "1) Front: A blue SUV, approximately 20 meters away, driving ahead in the same lane. 2) Right: A black sedan, approximately 5 meters away, parked on the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/data.schema.json
+name: DADA-100-videos
+description: DADA-100 Ghost Probing Video Dataset (100 videos for LLaVA analysis)
+type: uri_folder
+path: ../../result/DADA-100-videos
+version: "20250721_1125"

@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_009",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "sentiment": "Negative",
+    "End_Timestamp": "5.5s",
+    "scene_theme": "Dramatic",
+    "characters": "Two individuals crossing the road",
+    "summary": "In this segment, the vehicle is driving on a well-lit road at night. Two individuals, one wearing a red cap and the other in a brown jacket, suddenly appear from the right side and cross the road directly in front of the vehicle. The individuals emerge from behind a physical obstruction, creating a dangerous situation with minimal reaction time for the driver.",
+    "actions": "The self-driving vehicle is likely decelerating rapidly to avoid a collision with the two individuals who suddenly appeared from the right side and crossed the road.",
+    "key_objects": "1) Right side: Two individuals, approximately 5 meters away, crossing the road from right to left, emerging from behind a physical obstruction.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

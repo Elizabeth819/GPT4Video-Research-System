@@ -1,0 +1,23 @@
+{
+  "video_id": "images_5_026",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.6s",
+  "summary": "The self-driving car is moving forward on a city street during the daytime. From 0.0s to 2.5s, the car is approaching an intersection. At 3.8s, a man in a black jacket is visible on the right side of the road, near the entrance to a building. From 10.0s to 14.6s, a woman in a red jacket suddenly appears from behind the man, falling into the street. This constitutes a ghost probing incident as the woman was completely obscured by the man and the building entrance before suddenly appearing in the car's path.",
+  "actions": "The vehicle is initially approaching an intersection at a steady speed. The driver likely intends to proceed straight through the intersection, maintaining the current lane. The driver is driving at a constant speed, likely because the road ahead is clear and there are no immediate obstacles. The driver may be preparing to slow down as they approach the intersection to ensure safety.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "[Right side]: A woman in a red jacket, approximately 5 meters away, suddenly falling into the street from behind a man, causing a potential collision.",
+  "characters": [
+    "Self-driving car",
+    "Silver sedan",
+    "White van",
+    "SUV",
+    "Man in a black jacket",
+    "Woman in a red jacket"
+  ]
+}

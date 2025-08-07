@@ -1,0 +1,80 @@
+[
+    {
+        "video_id": "dada_14_011",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a nighttime driving scene on a city street with moderate traffic. The self-vehicle is following a line of cars.  Traffic is moving at a relatively slow and steady pace. No unusual or dangerous events are observed within the 5-second segment.  The road is well-lit, and no pedestrians or cyclists are visible in the immediate vicinity of the vehicle.",
+        "actions": "The self-vehicle maintains a consistent speed and following distance from the car in front.  The driver appears to be driving defensively, maintaining a safe distance from other vehicles. There are no observable changes in speed or direction during the 5-second segment. The vehicle is following the flow of traffic.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep_current_lane"
+        }
+    },
+    {
+        "video_id": "dada_14_011",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "Group of pedestrians",
+                "distance": "5-7 meters",
+                "behavior or action impacting the vehicle": "Crossing the road from right to left, some individuals are walking at a moderate pace, while others appear to be rushing."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "mixed",
+                "age": "20-40",
+                "clothing": "Varied, dark clothing mostly",
+                "transportation_method": "walking",
+                "way_of_walking": "Some walking at a moderate pace, others rushing across the road."
+            }
+        ],
+        "summary": "The video shows a nighttime scene with moderate traffic. A group of pedestrians, approximately 5-7 meters in front of the vehicle, are crossing the road from right to left. Some individuals are walking at a moderate pace, while others appear to be rushing, creating a potential ghost probing scenario. The driver needs to react quickly to avoid a collision.",
+        "actions": "The vehicle is maintaining a slow speed, likely due to the presence of other vehicles and the pedestrians crossing the road. The driver appears to be maintaining a safe following distance from the vehicle in front. There are no sudden braking or acceleration maneuvers observed in this segment.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_14_011",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.7s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A man wearing a dark-colored shirt, appearing to be in his 20s or 30s, walking at a moderate pace.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching the road from the sidewalk, potentially crossing the road without looking for oncoming traffic."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "20-30",
+                "clothing": "Dark-colored shirt",
+                "transportation_method": "Walking",
+                "way_of_walking": "Moderate pace, potentially crossing the road without looking for oncoming traffic."
+            }
+        ],
+        "summary": "The video shows a nighttime driving scene. The self-driving vehicle is traveling on a city road with moderate traffic.  A man in a dark shirt, appearing to be in his 20s or 30s, is observed on the right side of the road, approximately 5 meters away. He is walking at a moderate pace and appears to be approaching the road, potentially crossing without checking for traffic. This behavior presents a potential 'ghost probing' scenario, as he could suddenly step into the vehicle's path with little warning. The vehicle is maintaining a steady speed, and the road is well-lit, but the pedestrian's actions pose a significant risk of collision.",
+        "actions": "The vehicle maintains a consistent speed and lane position throughout the sequence. There are no observable changes in speed or direction to suggest any evasive maneuvers or reactions to other vehicles or obstacles. The vehicle's actions indicate a steady and predictable driving pattern.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    }
+]

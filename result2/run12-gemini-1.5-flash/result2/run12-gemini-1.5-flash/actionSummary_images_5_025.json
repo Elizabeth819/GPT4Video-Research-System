@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_5_025",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rainy day driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of the recording vehicle, other drivers of various vehicles including a red car, a dark-colored SUV, and a motorcyclist.",
+    "summary": "The video shows a 10-second segment of driving in heavy rain. The self-driving vehicle maintains a consistent speed and lane position.  The road is wet, and visibility is somewhat reduced due to the rain. Several other vehicles are visible ahead, including a red car initially further ahead, a dark-colored SUV that moves into the frame, and a motorcyclist crossing the intersection. No immediate dangerous events occur, although the wet road conditions present a general safety concern.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane throughout the 10-second segment.  The speed appears moderate, appropriate for the rainy conditions. The vehicle follows the traffic flow, maintaining a safe distance from the vehicles ahead. No braking or acceleration is observed.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_025",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "12.2s",
+    "scene_theme": "Rainy urban road",
+    "sentiment": "Neutral",
+    "characters": "Driver of the observer vehicle",
+    "summary": "The video shows the observer vehicle approaching an intersection in rainy conditions. The traffic light is green.  There is a vehicle ahead, maintaining a safe distance. No other vehicles or pedestrians are immediately visible. The road is wet due to rain.",
+    "actions": "The observer vehicle is approaching the intersection at a moderate speed, maintaining a safe following distance from the vehicle ahead. The driver is likely proceeding cautiously due to the wet road conditions and the presence of the intersection.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

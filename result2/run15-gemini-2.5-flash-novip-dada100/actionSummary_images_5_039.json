@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_039",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person, appearing to be an adult male, wearing dark clothing and a face mask, is seen riding a white scooter. After the incident, he is seen on the ground and then getting up.",
+  "summary": "The video segment begins with the vehicle driving on a multi-lane road under an overcast sky. The vehicle maintains a steady speed in its lane, with other vehicles, including large trucks and cars, present on the left side of the road, some appearing to be parked or in slow-moving traffic, forming a visual barrier. As the vehicle progresses, a white box truck on the left side of the road becomes a prominent obstruction. Suddenly, at approximately 8.0 seconds, a person on a white scooter unexpectedly emerges from behind this white box truck, darting directly into the path of the ego vehicle from the left. This sudden appearance leaves virtually no reaction time for the driver. By 9.0 seconds, the person and the scooter are seen falling to the ground directly in front of the ego vehicle, indicating an immediate collision or near-collision. The ego vehicle then comes to a complete stop by 10.0 seconds, with the person and scooter on the ground ahead.",
+  "actions": "Initially, the vehicle maintains a consistent speed and direction, driving straight in its lane. This behavior is due to the clear road conditions directly ahead of the vehicle, allowing for unimpeded forward movement. However, upon the sudden emergence of the scooter and rider from behind the white box truck on the left side of the road (around 8.0s), the vehicle initiates rapid deceleration, likely through emergency braking. This immediate and forceful braking action is a critical safety response to the unexpected obstruction and the imminent danger of a collision, bringing the vehicle to a complete stop by 10.0 seconds to prevent further impact or allow for assessment of the situation.",
+  "key_objects": "1) Position: Left side: A white box truck. This large vehicle served as a significant physical obstruction, completely blocking the driver's view of the area immediately to its right (from the driver's perspective), thereby concealing the approaching scooter. Its presence was crucial in creating the 'ghost probing' scenario. 2) Position: Left side, then center: A person on a white scooter. This individual suddenly appeared from behind the white box truck, moving directly into the vehicle's path with minimal warning. Their unexpected emergence from behind the obstruction directly triggered the 'ghost probing' incident and the subsequent emergency braking action.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

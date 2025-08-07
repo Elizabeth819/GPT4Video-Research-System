@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_4_004",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving through an urban area. Initially, the vehicle is following a white sedan. As the vehicle progresses, it approaches an intersection with traffic lights. A person on a bicycle suddenly appears from the right side, crossing the road in front of the vehicle.",
+        "actions": "The self-driving vehicle maintains a steady speed while following the white sedan. As it approaches the intersection, the vehicle slows down due to the traffic lights and the sudden appearance of a person on a bicycle crossing from the right side.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining a steady speed. 2) Right side: A person on a bicycle, approximately 5 meters away, suddenly crossing the road in front of the vehicle.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

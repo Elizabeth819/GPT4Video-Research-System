@@ -1,0 +1,45 @@
+{
+  "experiment_info": {
+    "run_id": "Run 8 - Retry Failed Videos",
+    "timestamp": "20250727_182917",
+    "video_count": 3,
+    "model": "GPT-4o (Azure)",
+    "prompt_version": "Paper_Batch Complex (4-Task) + Few-shot Examples",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "purpose": "重新处理Run 8中3个失败的视频",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8_gpt4o_ghost_probing_fewshot_100videos_results/retry_failed",
+    "base_configuration": "与Run 8完全一致的参数和prompt配置",
+    "failed_videos": [
+      "images_1_019.avi",
+      "images_1_025.avi",
+      "images_5_003.avi"
+    ]
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_019.avi",
+      "ground_truth": "unknown",
+      "key_actions": "emergency braking due to pedestrian falling onto the road",
+      "evaluation": "FN",
+      "status": "SUCCESS",
+      "raw_result": "{\n    \"video_id\": \"images_1_019.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"A pedestrian who falls onto the road\",\n    \"summary\": \"The video shows a rural road where a pedestrian suddenly falls onto the road from the left side, directly in the path of the observer vehicle. The pedestrian appears to be carrying a box and loses balance, falling onto the road and lying there.\",\n    \"actions\": \"The observer vehicle needs to perform emergency braking to avoid hitting the pedestrian.\",\n    \"key_objects\": \"1) Position: Pedestrian, approximately 2 meters ahead, falls onto the road, high collision risk\",\n    \"key_actions\": \"emergency braking due to pedestrian falling onto the road\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}"
+    },
+    {
+      "video_id": "images_1_025.avi",
+      "ground_truth": "unknown",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "status": "SUCCESS",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_025.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Two pedestrians, one child and one adult\",\n    \"summary\": \"The video shows a rural road with two pedestrians, a child and an adult, standing near the guardrail. The child suddenly runs across the road, directly in the path of the observer vehicle, requiring immediate braking to avoid a collision.\",\n    \"actions\": \"The vehicle rapidly decelerates to avoid hitting the child who runs across the road.\",\n    \"key_objects\": [\n        \"1) Position: Child, <2 meters, sudden appearance and unpredictable movement\",\n        \"2) Position: Adult, near guardrail, no immediate threat but present in the scene\"\n    ],\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_5_003.avi",
+      "ground_truth": "unknown",
+      "key_actions": "emergency braking due to motorcyclist falling",
+      "evaluation": "FN",
+      "status": "SUCCESS",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_5_003.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"motorcyclists, pedestrians\",\n    \"summary\": \"The video shows a busy urban street with several motorcyclists and pedestrians. A motorcyclist carrying a passenger suddenly loses control and falls in front of the observer vehicle, causing an immediate need for emergency braking.\",\n    \"actions\": \"The observer vehicle needs to perform emergency braking to avoid colliding with the fallen motorcyclist and passenger.\",\n    \"key_objects\": \"1) Position: Motorcyclist, 5 meters ahead, falls suddenly causing immediate danger 2) Position: Pedestrian, 10 meters ahead, walking along the side of the road\",\n    \"key_actions\": \"emergency braking due to motorcyclist falling\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    }
+  ]
+}

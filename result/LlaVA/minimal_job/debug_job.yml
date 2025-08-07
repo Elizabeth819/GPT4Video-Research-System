@@ -1,0 +1,40 @@
+# 调试版Azure ML作业
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: debug-mount-structure
+description: "Debug Azure ML mount structure to find video files"
+
+# Compute configuration
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code source
+code: .
+
+# Debug command to understand mount structure
+command: >
+  echo "🔍 开始调试Azure ML挂载结构" &&
+  python debug_mounts.py &&
+  echo "✅ 调试完成"
+
+# Input data  
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+# Experiment settings
+experiment_name: debug-mount-experiment

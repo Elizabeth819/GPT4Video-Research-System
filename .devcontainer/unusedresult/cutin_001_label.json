@@ -1,0 +1,170 @@
+[
+    {
+        "event_id": "event_001",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "0.00s",
+        "end_timestamp": "10.00s",
+        "timestamp": "2024-12-12 16:21:57",
+        "key_objects": "a black car on the right",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_002",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "11.00s",
+        "end_timestamp": "21.00s",
+        "timestamp": "2024-12-12 16:22:30",
+        "key_objects": "a black car on the right",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_003",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "21.00s",
+        "end_timestamp": "31.00s",
+        "timestamp": "2024-12-12 16:23:53",
+        "key_objects": "a black sedan on the right",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "31.00s",
+        "end_timestamp": "41.00s",
+        "timestamp": "2024-12-12 16:24:24",
+        "key_objects": "a white car on the left",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "41.00s",
+        "end_timestamp": "51.00s",
+        "timestamp": "2024-12-12 16:24:47",
+        "key_objects": "a white sedan on the left",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_006",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "51.00s",
+        "end_timestamp": "61.00s",
+        "timestamp": "2024-12-12 16:25:34",
+        "key_objects": "a black car on the right",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_009",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "81.00s",
+        "end_timestamp": "91.00s",
+        "timestamp": "2024-12-12 16:26:40",
+        "key_objects": "an electric scooter on the left",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "change to left lane"
+        }
+    },
+    {
+        "event_id": "event_010",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "91.00s",
+        "end_timestamp": "101.00s",
+        "timestamp": "2024-12-12 16:27:11",
+        "key_objects": "a black sedan on the right",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_011",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "101.00s",
+        "end_timestamp": "111.00s",
+        "timestamp": "2024-12-12 16:27:40",
+        "key_objects": "a black sedan on the right",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "change to right lane"
+        }
+    },
+    {
+        "event_id": "event_013",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "121.00s",
+        "end_timestamp": "131.00s",
+        "timestamp": "2024-12-12 16:29:06",
+        "key_objects": "a tire dropped from a truck",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_014",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "131.00s",
+        "end_timestamp": "141.00s",
+        "timestamp": "2024-12-12 16:29:31",
+        "key_objects": "a white sedan on the right",
+        "key_actions": "cut-in, collision",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_015",
+        "video_id": "001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili",
+        "start_timestamp": "141.00s",
+        "end_timestamp": "151.00s",
+        "timestamp": "2024-12-12 16:30:45",
+        "key_objects": "a black sedan on the left",
+        "key_actions": "overtaken left",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

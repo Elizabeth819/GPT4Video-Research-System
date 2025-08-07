@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_016",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a black sedan, driver of a purple sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. The traffic is moderate with vehicles ahead and to the sides. A black sedan is ahead in the same lane, and a purple sedan is seen overtaking from the right side.",
+        "actions": "The self-driving vehicle maintains a steady speed and lane position. The vehicle ahead is maintaining a safe distance. The purple sedan on the right side overtakes the self-driving vehicle, moving ahead.",
+        "key_objects": "1) Front: A black sedan, approximately 20 meters away, maintaining a steady speed. 2) Right: A purple sedan, approximately 5 meters away, overtaking the self-driving vehicle.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_016",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "13.8s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a black sedan, Driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a bridge. The black sedan ahead is maintaining a steady speed. A black car on the right side is overtaking the black sedan and moving ahead.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The black car on the right side is overtaking the black sedan ahead.",
+        "key_objects": "1) Front: A black sedan, approximately 5 meters away, maintaining a steady speed. 2) Right: A black car, approximately 3 meters away, overtaking the black sedan ahead.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

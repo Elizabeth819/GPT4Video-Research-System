@@ -1,0 +1,67 @@
+# 修复后的真正LLaVA + GPT-4.1 Prompt检测作业
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: single-frame-llava-v6-gpt41-ghost-detection
+description: "Fixed Real LLaVA + GPT-4.1 Prompt Ghost Probing Detection"
+
+# Compute configuration  
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code source
+code: .
+
+# 修复后的LLaVA检测作业
+command: >
+  echo "🚀 开始修复后的真正LLaVA检测" &&
+  python --version &&
+  echo "📋 检查GPU和CUDA环境..." &&
+  nvidia-smi &&
+  python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA可用: {torch.cuda.is_available()}')" &&
+  echo "🔧 安装系统依赖..." &&
+  apt-get update && apt-get install -y libgl1-mesa-glx libglib2.0-0 libsm6 libxext6 libxrender-dev libgomp1 &&
+  echo "🔧 安装Python依赖..." &&
+  pip install "transformers>=4.37.0" "accelerate>=0.20.0" Pillow numpy decord "torch>=1.13.0" &&
+  echo "📁 检查输入数据路径..." &&
+  env | grep AZUREML_DATAREFERENCE_video_data &&
+  echo "📊 统计视频文件..." &&
+  find $AZUREML_DATAREFERENCE_video_data -name "images_[1-5]_*.avi" | head -10 &&
+  find $AZUREML_DATAREFERENCE_video_data -name "images_[1-5]_*.avi" | wc -l &&
+  echo "🎯 运行修复后的LLaVA检测..." &&
+  timeout 14400 python real_llava_gpt41_detector.py &&
+  echo "📊 检查输出结果..." &&
+  ls -la ./outputs/results/ &&
+  echo "✅ 修复后的LLaVA检测完成"
+
+# Input data  
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+# Environment variables
+environment_variables:
+  CUDA_VISIBLE_DEVICES: "0"
+  TRANSFORMERS_CACHE: "/tmp/transformers"
+  TORCH_CUDA_ARCH_LIST: "7.0;7.5;8.0;8.6"
+  
+  # 检测配置
+  FRAME_INTERVAL: "10"
+  FRAMES_PER_INTERVAL: "5"  # 减少帧数避免内存问题
+  DETECTION_METHOD: "Real-LLaVA-GPT-4.1-Prompt"
+
+# Experiment settings
+experiment_name: fixed-real-llava-experiment

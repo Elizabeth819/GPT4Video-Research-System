@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_004",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A man wearing dark clothing is seen on the right side of the road. There are also several motorcycles and a truck visible in the distance.",
+  "summary": "The vehicle is driving on a road with buildings and trees on the right side. From 0.0s to 6.0s, the vehicle is driving at a constant speed. At 7.0s, a man wearing dark clothing suddenly appears from behind a building on the right side of the road and begins to cross the street. The man is walking at a normal pace. At 8.0s, the man is in the middle of the road. At 9.0s, the man is almost across the road. At 10.0s, the man is safely across the road. This sudden appearance constitutes a ghost probing incident.",
+  "actions": "The vehicle maintains a consistent speed initially, likely assessing the clear road ahead. As the vehicle approaches the area where the man is crossing, the driver likely anticipates potential hazards and prepares to react. The vehicle is driving at a constant speed.",
+  "key_objects": "1) Right side: A man wearing dark clothing, approximately 5 meters away, suddenly appearing from behind a building and crossing the road. 2) Right side: A building, approximately 10 meters away, creating a visual obstruction that hides the man until he emerges into the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

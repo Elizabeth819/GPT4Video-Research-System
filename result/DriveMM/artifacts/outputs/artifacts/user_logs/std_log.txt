@@ -1,0 +1,858 @@
+Get:1 https://packages.microsoft.com/ubuntu/20.04/prod focal InRelease [3,632 B]
+Get:2 https://packages.microsoft.com/ubuntu/20.04/prod focal/main amd64 Packages [364 kB]
+Get:3 https://packages.microsoft.com/ubuntu/20.04/prod focal/main armhf Packages [27.1 kB]
+Get:4 https://packages.microsoft.com/ubuntu/20.04/prod focal/main arm64 Packages [86.7 kB]
+Get:5 https://packages.microsoft.com/ubuntu/20.04/prod focal/main all Packages [2,938 B]
+Get:6 http://ppa.launchpad.net/criu/ppa/ubuntu focal InRelease [18.0 kB]
+Hit:7 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:8 http://security.ubuntu.com/ubuntu focal-security InRelease [128 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates InRelease [128 kB]
+Get:10 http://ppa.launchpad.net/criu/ppa/ubuntu focal/main amd64 Packages [460 B]
+Get:11 http://archive.ubuntu.com/ubuntu focal-backports InRelease [128 kB]
+Get:12 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [4,801 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [4,919 kB]
+Get:14 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [33.1 kB]
+Get:15 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [1,308 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [36.8 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,599 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [4,432 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [4,998 kB]
+Fetched 23.0 MB in 2s (11.7 MB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libxext6 is already the newest version (2:1.3.4-0ubuntu1).
+libxext6 set to manually installed.
+libgomp1 is already the newest version (10.5.0-1ubuntu1~20.04).
+libgomp1 set to manually installed.
+The following additional packages will be installed:
+  libblkid-dev libblkid1 libdrm-amdgpu1 libdrm-common libdrm-intel1
+  libdrm-nouveau2 libdrm-radeon1 libdrm2 libegl-dev libegl-mesa0 libegl1
+  libgbm1 libgl-dev libgl1 libgl1-mesa-dri libglapi-mesa libgles-dev libgles1
+  libgles2 libglib2.0-bin libglib2.0-dev-bin libglvnd-dev libglvnd0 libglx-dev
+  libglx-mesa0 libglx0 libice6 libllvm12 libmount-dev libmount1 libopengl-dev
+  libopengl0 libpcre16-3 libpcre2-16-0 libpcre2-32-0 libpcre2-dev
+  libpcre2-posix2 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpthread-stubs0-dev
+  libselinux1-dev libsensors-config libsensors5 libsepol1-dev libuuid1
+  libvulkan1 libwayland-client0 libwayland-server0 libx11-6 libx11-dev
+  libx11-xcb1 libxau-dev libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0
+  libxcb-present0 libxcb-randr0 libxcb-shm0 libxcb-sync1 libxcb-xfixes0
+  libxcb1-dev libxdmcp-dev libxfixes3 libxrender1 libxshmfence1 libxxf86vm1
+  mesa-vulkan-drivers pkg-config uuid-dev x11-common x11proto-core-dev
+  x11proto-dev xorg-sgml-doctools xtrans-dev zlib1g-dev
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk
+  gitweb git-cvs git-mediawiki git-svn libgirepository1.0-dev libglib2.0-doc
+  libgdk-pixbuf2.0-bin | libgdk-pixbuf2.0-dev libxml2-utils lm-sensors
+  libx11-doc libxcb-doc
+Recommended packages:
+  uuid-runtime
+The following NEW packages will be installed:
+  libblkid-dev libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2
+  libdrm-radeon1 libdrm2 libegl-dev libegl-mesa0 libegl1 libgbm1 libgl-dev
+  libgl1 libgl1-mesa-dev libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa
+  libgles-dev libgles1 libgles2 libglib2.0-dev libglib2.0-dev-bin libglvnd-dev
+  libglvnd0 libglx-dev libglx-mesa0 libglx0 libice6 libllvm12 libmount-dev
+  libopengl-dev libopengl0 libpcre16-3 libpcre2-16-0 libpcre2-32-0
+  libpcre2-dev libpcre2-posix2 libpcre3-dev libpcre32-3 libpcrecpp0v5
+  libpthread-stubs0-dev libselinux1-dev libsensors-config libsensors5
+  libsepol1-dev libsm6 libvulkan1 libwayland-client0 libwayland-server0
+  libx11-dev libx11-xcb1 libxau-dev libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0
+  libxcb-present0 libxcb-randr0 libxcb-shm0 libxcb-sync1 libxcb-xfixes0
+  libxcb1-dev libxdmcp-dev libxfixes3 libxrender-dev libxrender1 libxshmfence1
+  libxxf86vm1 mesa-vulkan-drivers pkg-config uuid-dev x11-common
+  x11proto-core-dev x11proto-dev xorg-sgml-doctools xtrans-dev zlib1g-dev
+The following packages will be upgraded:
+  git libblkid1 libglib2.0-0 libglib2.0-bin libmount1 libuuid1 libx11-6
+7 upgraded, 76 newly installed, 0 to remove and 136 not upgraded.
+Need to get 49.7 MB of archives.
+After this operation, 558 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libblkid1 amd64 2.34-0.1ubuntu9.6 [137 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libmount1 amd64 2.34-0.1ubuntu9.6 [149 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libuuid1 amd64 2.34-0.1ubuntu9.6 [20.0 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglib2.0-bin amd64 2.64.6-1~ubuntu20.04.9 [72.9 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglib2.0-0 amd64 2.64.6-1~ubuntu20.04.9 [1,290 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm-common all 2.4.107-8ubuntu1~20.04.2 [5,396 B]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm2 amd64 2.4.107-8ubuntu1~20.04.2 [34.1 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-6 amd64 2:1.6.9-2ubuntu1.6 [577 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 git amd64 1:2.25.1-1ubuntu3.14 [4,613 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm-amdgpu1 amd64 2.4.107-8ubuntu1~20.04.2 [18.6 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm-intel1 amd64 2.4.107-8ubuntu1~20.04.2 [60.3 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm-nouveau2 amd64 2.4.107-8ubuntu1~20.04.2 [16.6 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdrm-radeon1 amd64 2.4.107-8ubuntu1~20.04.2 [19.7 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglvnd0 amd64 1.3.2-1~ubuntu0.20.04.2 [48.1 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwayland-server0 amd64 1.18.0-1ubuntu0.1 [31.3 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgbm1 amd64 21.2.6-0ubuntu0.1~20.04.2 [29.2 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglapi-mesa amd64 21.2.6-0ubuntu0.1~20.04.2 [27.4 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libwayland-client0 amd64 1.18.0-1ubuntu0.1 [23.9 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-xcb1 amd64 2:1.6.9-2ubuntu1.6 [9,448 B]
+Get:20 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-dri2-0 amd64 1.14-2 [6,920 B]
+Get:21 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-dri3-0 amd64 1.14-2 [6,552 B]
+Get:22 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-present0 amd64 1.14-2 [5,560 B]
+Get:23 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-sync1 amd64 1.14-2 [8,884 B]
+Get:24 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-xfixes0 amd64 1.14-2 [9,296 B]
+Get:25 http://archive.ubuntu.com/ubuntu focal/main amd64 libxshmfence1 amd64 1.3-1 [5,028 B]
+Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libegl-mesa0 amd64 21.2.6-0ubuntu0.1~20.04.2 [96.3 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libegl1 amd64 1.3.2-1~ubuntu0.20.04.2 [31.9 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-glx0 amd64 1.14-2 [22.1 kB]
+Get:29 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-shm0 amd64 1.14-2 [5,584 B]
+Get:30 http://archive.ubuntu.com/ubuntu focal/main amd64 libxfixes3 amd64 1:5.0.3-2 [10.9 kB]
+Get:31 http://archive.ubuntu.com/ubuntu focal/main amd64 libxxf86vm1 amd64 1:1.1.4-1build1 [10.2 kB]
+Get:32 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libllvm12 amd64 1:12.0.0-3ubuntu1~20.04.5 [18.8 MB]
+Get:33 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsensors-config all 1:3.6.0-2ubuntu1.1 [6,052 B]
+Get:34 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsensors5 amd64 1:3.6.0-2ubuntu1.1 [27.2 kB]
+Get:35 http://archive.ubuntu.com/ubuntu focal/main amd64 libvulkan1 amd64 1.2.131.2-1 [93.3 kB]
+Get:36 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgl1-mesa-dri amd64 21.2.6-0ubuntu0.1~20.04.2 [11.0 MB]
+Get:37 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglx-mesa0 amd64 21.2.6-0ubuntu0.1~20.04.2 [137 kB]
+Get:38 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglx0 amd64 1.3.2-1~ubuntu0.20.04.2 [32.5 kB]
+Get:39 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgl1 amd64 1.3.2-1~ubuntu0.20.04.2 [85.8 kB]
+Get:40 http://archive.ubuntu.com/ubuntu focal/main amd64 xorg-sgml-doctools all 1:1.11-1 [12.9 kB]
+Get:41 http://archive.ubuntu.com/ubuntu focal/main amd64 x11proto-dev all 2019.2-1ubuntu1 [594 kB]
+Get:42 http://archive.ubuntu.com/ubuntu focal/main amd64 x11proto-core-dev all 2019.2-1ubuntu1 [2,620 B]
+Get:43 http://archive.ubuntu.com/ubuntu focal/main amd64 libxau-dev amd64 1:1.0.9-0ubuntu1 [9,552 B]
+Get:44 http://archive.ubuntu.com/ubuntu focal/main amd64 libxdmcp-dev amd64 1:1.1.3-0ubuntu1 [25.3 kB]
+Get:45 http://archive.ubuntu.com/ubuntu focal/main amd64 xtrans-dev all 1.4.0-1 [68.9 kB]
+Get:46 http://archive.ubuntu.com/ubuntu focal/main amd64 libpthread-stubs0-dev amd64 0.4-1 [5,384 B]
+Get:47 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb1-dev amd64 1.14-2 [80.5 kB]
+Get:48 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libx11-dev amd64 2:1.6.9-2ubuntu1.6 [648 kB]
+Get:49 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglx-dev amd64 1.3.2-1~ubuntu0.20.04.2 [14.0 kB]
+Get:50 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgl-dev amd64 1.3.2-1~ubuntu0.20.04.2 [97.8 kB]
+Get:51 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libegl-dev amd64 1.3.2-1~ubuntu0.20.04.2 [17.2 kB]
+Get:52 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgl1-mesa-glx amd64 21.2.6-0ubuntu0.1~20.04.2 [5,536 B]
+Get:53 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgles1 amd64 1.3.2-1~ubuntu0.20.04.2 [10.3 kB]
+Get:54 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgles2 amd64 1.3.2-1~ubuntu0.20.04.2 [15.6 kB]
+Get:55 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgles-dev amd64 1.3.2-1~ubuntu0.20.04.2 [47.9 kB]
+Get:56 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglib2.0-dev-bin amd64 2.64.6-1~ubuntu20.04.9 [109 kB]
+Get:57 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 uuid-dev amd64 2.34-0.1ubuntu9.6 [33.6 kB]
+Get:58 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libblkid-dev amd64 2.34-0.1ubuntu9.6 [167 kB]
+Get:59 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libmount-dev amd64 2.34-0.1ubuntu9.6 [176 kB]
+Get:60 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpcre16-3 amd64 2:8.39-12ubuntu0.1 [150 kB]
+Get:61 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpcre32-3 amd64 2:8.39-12ubuntu0.1 [140 kB]
+Get:62 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpcrecpp0v5 amd64 2:8.39-12ubuntu0.1 [15.5 kB]
+Get:63 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpcre3-dev amd64 2:8.39-12ubuntu0.1 [540 kB]
+Get:64 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsepol1-dev amd64 3.0-1ubuntu0.1 [325 kB]
+Get:65 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpcre2-16-0 amd64 10.34-7ubuntu0.1 [181 kB]
+Get:66 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpcre2-32-0 amd64 10.34-7ubuntu0.1 [170 kB]
+Get:67 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpcre2-posix2 amd64 10.34-7ubuntu0.1 [5,988 B]
+Get:68 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpcre2-dev amd64 10.34-7ubuntu0.1 [672 kB]
+Get:69 http://archive.ubuntu.com/ubuntu focal/main amd64 libselinux1-dev amd64 3.0-1build2 [151 kB]
+Get:70 http://archive.ubuntu.com/ubuntu focal/main amd64 pkg-config amd64 0.29.1-0ubuntu4 [45.5 kB]
+Get:71 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu1.5 [155 kB]
+Get:72 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglib2.0-dev amd64 2.64.6-1~ubuntu20.04.9 [1,509 kB]
+Get:73 http://archive.ubuntu.com/ubuntu focal/main amd64 x11-common all 1:7.7+19ubuntu14 [22.3 kB]
+Get:74 http://archive.ubuntu.com/ubuntu focal/main amd64 libice6 amd64 2:1.0.10-0ubuntu1 [41.0 kB]
+Get:75 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libopengl0 amd64 1.3.2-1~ubuntu0.20.04.2 [29.2 kB]
+Get:76 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libopengl-dev amd64 1.3.2-1~ubuntu0.20.04.2 [3,584 B]
+Get:77 http://archive.ubuntu.com/ubuntu focal/main amd64 libsm6 amd64 2:1.2.3-1 [16.1 kB]
+Get:78 http://archive.ubuntu.com/ubuntu focal/main amd64 libxcb-randr0 amd64 1.14-2 [16.3 kB]
+Get:79 http://archive.ubuntu.com/ubuntu focal/main amd64 libxrender1 amd64 1:0.9.10-1 [18.7 kB]
+Get:80 http://archive.ubuntu.com/ubuntu focal/main amd64 libxrender-dev amd64 1:0.9.10-1 [24.9 kB]
+Get:81 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 mesa-vulkan-drivers amd64 21.2.6-0ubuntu0.1~20.04.2 [5,788 kB]
+Get:82 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libglvnd-dev amd64 1.3.2-1~ubuntu0.20.04.2 [11.6 kB]
+Get:83 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgl1-mesa-dev amd64 21.2.6-0ubuntu0.1~20.04.2 [6,420 B]
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 49.7 MB in 9s (5,467 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 60335 files and directories currently installed.)
+Preparing to unpack .../libblkid1_2.34-0.1ubuntu9.6_amd64.deb ...
+Unpacking libblkid1:amd64 (2.34-0.1ubuntu9.6) over (2.34-0.1ubuntu9.4) ...
+Setting up libblkid1:amd64 (2.34-0.1ubuntu9.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 60335 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.34-0.1ubuntu9.6_amd64.deb ...
+Unpacking libmount1:amd64 (2.34-0.1ubuntu9.6) over (2.34-0.1ubuntu9.4) ...
+Setting up libmount1:amd64 (2.34-0.1ubuntu9.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 60335 files and directories currently installed.)
+Preparing to unpack .../libuuid1_2.34-0.1ubuntu9.6_amd64.deb ...
+Unpacking libuuid1:amd64 (2.34-0.1ubuntu9.6) over (2.34-0.1ubuntu9.4) ...
+Setting up libuuid1:amd64 (2.34-0.1ubuntu9.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 60335 files and directories currently installed.)
+Preparing to unpack .../00-libglib2.0-bin_2.64.6-1~ubuntu20.04.9_amd64.deb ...
+Unpacking libglib2.0-bin (2.64.6-1~ubuntu20.04.9) over (2.64.6-1~ubuntu20.04.6) ...
+Preparing to unpack .../01-libglib2.0-0_2.64.6-1~ubuntu20.04.9_amd64.deb ...
+Unpacking libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.9) over (2.64.6-1~ubuntu20.04.6) ...
+Selecting previously unselected package libdrm-common.
+Preparing to unpack .../02-libdrm-common_2.4.107-8ubuntu1~20.04.2_all.deb ...
+Unpacking libdrm-common (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libdrm2:amd64.
+Preparing to unpack .../03-libdrm2_2.4.107-8ubuntu1~20.04.2_amd64.deb ...
+Unpacking libdrm2:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Preparing to unpack .../04-libx11-6_2%3a1.6.9-2ubuntu1.6_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.6.9-2ubuntu1.6) over (2:1.6.9-2ubuntu1.5) ...
+Preparing to unpack .../05-git_1%3a2.25.1-1ubuntu3.14_amd64.deb ...
+Unpacking git (1:2.25.1-1ubuntu3.14) over (1:2.25.1-1ubuntu3.11) ...
+Selecting previously unselected package libdrm-amdgpu1:amd64.
+Preparing to unpack .../06-libdrm-amdgpu1_2.4.107-8ubuntu1~20.04.2_amd64.deb ...
+Unpacking libdrm-amdgpu1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libdrm-intel1:amd64.
+Preparing to unpack .../07-libdrm-intel1_2.4.107-8ubuntu1~20.04.2_amd64.deb ...
+Unpacking libdrm-intel1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libdrm-nouveau2:amd64.
+Preparing to unpack .../08-libdrm-nouveau2_2.4.107-8ubuntu1~20.04.2_amd64.deb ...
+Unpacking libdrm-nouveau2:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libdrm-radeon1:amd64.
+Preparing to unpack .../09-libdrm-radeon1_2.4.107-8ubuntu1~20.04.2_amd64.deb ...
+Unpacking libdrm-radeon1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Selecting previously unselected package libglvnd0:amd64.
+Preparing to unpack .../10-libglvnd0_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libglvnd0:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libwayland-server0:amd64.
+Preparing to unpack .../11-libwayland-server0_1.18.0-1ubuntu0.1_amd64.deb ...
+Unpacking libwayland-server0:amd64 (1.18.0-1ubuntu0.1) ...
+Selecting previously unselected package libgbm1:amd64.
+Preparing to unpack .../12-libgbm1_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking libgbm1:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package libglapi-mesa:amd64.
+Preparing to unpack .../13-libglapi-mesa_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking libglapi-mesa:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package libwayland-client0:amd64.
+Preparing to unpack .../14-libwayland-client0_1.18.0-1ubuntu0.1_amd64.deb ...
+Unpacking libwayland-client0:amd64 (1.18.0-1ubuntu0.1) ...
+Selecting previously unselected package libx11-xcb1:amd64.
+Preparing to unpack .../15-libx11-xcb1_2%3a1.6.9-2ubuntu1.6_amd64.deb ...
+Unpacking libx11-xcb1:amd64 (2:1.6.9-2ubuntu1.6) ...
+Selecting previously unselected package libxcb-dri2-0:amd64.
+Preparing to unpack .../16-libxcb-dri2-0_1.14-2_amd64.deb ...
+Unpacking libxcb-dri2-0:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-dri3-0:amd64.
+Preparing to unpack .../17-libxcb-dri3-0_1.14-2_amd64.deb ...
+Unpacking libxcb-dri3-0:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-present0:amd64.
+Preparing to unpack .../18-libxcb-present0_1.14-2_amd64.deb ...
+Unpacking libxcb-present0:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-sync1:amd64.
+Preparing to unpack .../19-libxcb-sync1_1.14-2_amd64.deb ...
+Unpacking libxcb-sync1:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-xfixes0:amd64.
+Preparing to unpack .../20-libxcb-xfixes0_1.14-2_amd64.deb ...
+Unpacking libxcb-xfixes0:amd64 (1.14-2) ...
+Selecting previously unselected package libxshmfence1:amd64.
+Preparing to unpack .../21-libxshmfence1_1.3-1_amd64.deb ...
+Unpacking libxshmfence1:amd64 (1.3-1) ...
+Selecting previously unselected package libegl-mesa0:amd64.
+Preparing to unpack .../22-libegl-mesa0_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking libegl-mesa0:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package libegl1:amd64.
+Preparing to unpack .../23-libegl1_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libegl1:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libxcb-glx0:amd64.
+Preparing to unpack .../24-libxcb-glx0_1.14-2_amd64.deb ...
+Unpacking libxcb-glx0:amd64 (1.14-2) ...
+Selecting previously unselected package libxcb-shm0:amd64.
+Preparing to unpack .../25-libxcb-shm0_1.14-2_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.14-2) ...
+Selecting previously unselected package libxfixes3:amd64.
+Preparing to unpack .../26-libxfixes3_1%3a5.0.3-2_amd64.deb ...
+Unpacking libxfixes3:amd64 (1:5.0.3-2) ...
+Selecting previously unselected package libxxf86vm1:amd64.
+Preparing to unpack .../27-libxxf86vm1_1%3a1.1.4-1build1_amd64.deb ...
+Unpacking libxxf86vm1:amd64 (1:1.1.4-1build1) ...
+Selecting previously unselected package libllvm12:amd64.
+Preparing to unpack .../28-libllvm12_1%3a12.0.0-3ubuntu1~20.04.5_amd64.deb ...
+Unpacking libllvm12:amd64 (1:12.0.0-3ubuntu1~20.04.5) ...
+Selecting previously unselected package libsensors-config.
+Preparing to unpack .../29-libsensors-config_1%3a3.6.0-2ubuntu1.1_all.deb ...
+Unpacking libsensors-config (1:3.6.0-2ubuntu1.1) ...
+Selecting previously unselected package libsensors5:amd64.
+Preparing to unpack .../30-libsensors5_1%3a3.6.0-2ubuntu1.1_amd64.deb ...
+Unpacking libsensors5:amd64 (1:3.6.0-2ubuntu1.1) ...
+Selecting previously unselected package libvulkan1:amd64.
+Preparing to unpack .../31-libvulkan1_1.2.131.2-1_amd64.deb ...
+Unpacking libvulkan1:amd64 (1.2.131.2-1) ...
+Selecting previously unselected package libgl1-mesa-dri:amd64.
+Preparing to unpack .../32-libgl1-mesa-dri_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking libgl1-mesa-dri:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package libglx-mesa0:amd64.
+Preparing to unpack .../33-libglx-mesa0_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking libglx-mesa0:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package libglx0:amd64.
+Preparing to unpack .../34-libglx0_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libglx0:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libgl1:amd64.
+Preparing to unpack .../35-libgl1_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libgl1:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package xorg-sgml-doctools.
+Preparing to unpack .../36-xorg-sgml-doctools_1%3a1.11-1_all.deb ...
+Unpacking xorg-sgml-doctools (1:1.11-1) ...
+Selecting previously unselected package x11proto-dev.
+Preparing to unpack .../37-x11proto-dev_2019.2-1ubuntu1_all.deb ...
+Unpacking x11proto-dev (2019.2-1ubuntu1) ...
+Selecting previously unselected package x11proto-core-dev.
+Preparing to unpack .../38-x11proto-core-dev_2019.2-1ubuntu1_all.deb ...
+Unpacking x11proto-core-dev (2019.2-1ubuntu1) ...
+Selecting previously unselected package libxau-dev:amd64.
+Preparing to unpack .../39-libxau-dev_1%3a1.0.9-0ubuntu1_amd64.deb ...
+Unpacking libxau-dev:amd64 (1:1.0.9-0ubuntu1) ...
+Selecting previously unselected package libxdmcp-dev:amd64.
+Preparing to unpack .../40-libxdmcp-dev_1%3a1.1.3-0ubuntu1_amd64.deb ...
+Unpacking libxdmcp-dev:amd64 (1:1.1.3-0ubuntu1) ...
+Selecting previously unselected package xtrans-dev.
+Preparing to unpack .../41-xtrans-dev_1.4.0-1_all.deb ...
+Unpacking xtrans-dev (1.4.0-1) ...
+Selecting previously unselected package libpthread-stubs0-dev:amd64.
+Preparing to unpack .../42-libpthread-stubs0-dev_0.4-1_amd64.deb ...
+Unpacking libpthread-stubs0-dev:amd64 (0.4-1) ...
+Selecting previously unselected package libxcb1-dev:amd64.
+Preparing to unpack .../43-libxcb1-dev_1.14-2_amd64.deb ...
+Unpacking libxcb1-dev:amd64 (1.14-2) ...
+Selecting previously unselected package libx11-dev:amd64.
+Preparing to unpack .../44-libx11-dev_2%3a1.6.9-2ubuntu1.6_amd64.deb ...
+Unpacking libx11-dev:amd64 (2:1.6.9-2ubuntu1.6) ...
+Selecting previously unselected package libglx-dev:amd64.
+Preparing to unpack .../45-libglx-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libglx-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libgl-dev:amd64.
+Preparing to unpack .../46-libgl-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libgl-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libegl-dev:amd64.
+Preparing to unpack .../47-libegl-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libegl-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libgl1-mesa-glx:amd64.
+Preparing to unpack .../48-libgl1-mesa-glx_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking libgl1-mesa-glx:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package libgles1:amd64.
+Preparing to unpack .../49-libgles1_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libgles1:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libgles2:amd64.
+Preparing to unpack .../50-libgles2_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libgles2:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libgles-dev:amd64.
+Preparing to unpack .../51-libgles-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libgles-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libglib2.0-dev-bin.
+Preparing to unpack .../52-libglib2.0-dev-bin_2.64.6-1~ubuntu20.04.9_amd64.deb ...
+Unpacking libglib2.0-dev-bin (2.64.6-1~ubuntu20.04.9) ...
+Selecting previously unselected package uuid-dev:amd64.
+Preparing to unpack .../53-uuid-dev_2.34-0.1ubuntu9.6_amd64.deb ...
+Unpacking uuid-dev:amd64 (2.34-0.1ubuntu9.6) ...
+Selecting previously unselected package libblkid-dev:amd64.
+Preparing to unpack .../54-libblkid-dev_2.34-0.1ubuntu9.6_amd64.deb ...
+Unpacking libblkid-dev:amd64 (2.34-0.1ubuntu9.6) ...
+Selecting previously unselected package libmount-dev:amd64.
+Preparing to unpack .../55-libmount-dev_2.34-0.1ubuntu9.6_amd64.deb ...
+Unpacking libmount-dev:amd64 (2.34-0.1ubuntu9.6) ...
+Selecting previously unselected package libpcre16-3:amd64.
+Preparing to unpack .../56-libpcre16-3_2%3a8.39-12ubuntu0.1_amd64.deb ...
+Unpacking libpcre16-3:amd64 (2:8.39-12ubuntu0.1) ...
+Selecting previously unselected package libpcre32-3:amd64.
+Preparing to unpack .../57-libpcre32-3_2%3a8.39-12ubuntu0.1_amd64.deb ...
+Unpacking libpcre32-3:amd64 (2:8.39-12ubuntu0.1) ...
+Selecting previously unselected package libpcrecpp0v5:amd64.
+Preparing to unpack .../58-libpcrecpp0v5_2%3a8.39-12ubuntu0.1_amd64.deb ...
+Unpacking libpcrecpp0v5:amd64 (2:8.39-12ubuntu0.1) ...
+Selecting previously unselected package libpcre3-dev:amd64.
+Preparing to unpack .../59-libpcre3-dev_2%3a8.39-12ubuntu0.1_amd64.deb ...
+Unpacking libpcre3-dev:amd64 (2:8.39-12ubuntu0.1) ...
+Selecting previously unselected package libsepol1-dev:amd64.
+Preparing to unpack .../60-libsepol1-dev_3.0-1ubuntu0.1_amd64.deb ...
+Unpacking libsepol1-dev:amd64 (3.0-1ubuntu0.1) ...
+Selecting previously unselected package libpcre2-16-0:amd64.
+Preparing to unpack .../61-libpcre2-16-0_10.34-7ubuntu0.1_amd64.deb ...
+Unpacking libpcre2-16-0:amd64 (10.34-7ubuntu0.1) ...
+Selecting previously unselected package libpcre2-32-0:amd64.
+Preparing to unpack .../62-libpcre2-32-0_10.34-7ubuntu0.1_amd64.deb ...
+Unpacking libpcre2-32-0:amd64 (10.34-7ubuntu0.1) ...
+Selecting previously unselected package libpcre2-posix2:amd64.
+Preparing to unpack .../63-libpcre2-posix2_10.34-7ubuntu0.1_amd64.deb ...
+Unpacking libpcre2-posix2:amd64 (10.34-7ubuntu0.1) ...
+Selecting previously unselected package libpcre2-dev:amd64.
+Preparing to unpack .../64-libpcre2-dev_10.34-7ubuntu0.1_amd64.deb ...
+Unpacking libpcre2-dev:amd64 (10.34-7ubuntu0.1) ...
+Selecting previously unselected package libselinux1-dev:amd64.
+Preparing to unpack .../65-libselinux1-dev_3.0-1build2_amd64.deb ...
+Unpacking libselinux1-dev:amd64 (3.0-1build2) ...
+Selecting previously unselected package pkg-config.
+Preparing to unpack .../66-pkg-config_0.29.1-0ubuntu4_amd64.deb ...
+Unpacking pkg-config (0.29.1-0ubuntu4) ...
+Selecting previously unselected package zlib1g-dev:amd64.
+Preparing to unpack .../67-zlib1g-dev_1%3a1.2.11.dfsg-2ubuntu1.5_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu1.5) ...
+Selecting previously unselected package libglib2.0-dev:amd64.
+Preparing to unpack .../68-libglib2.0-dev_2.64.6-1~ubuntu20.04.9_amd64.deb ...
+Unpacking libglib2.0-dev:amd64 (2.64.6-1~ubuntu20.04.9) ...
+Selecting previously unselected package x11-common.
+Preparing to unpack .../69-x11-common_1%3a7.7+19ubuntu14_all.deb ...
+dpkg-query: no packages found matching nux-tools
+Unpacking x11-common (1:7.7+19ubuntu14) ...
+Selecting previously unselected package libice6:amd64.
+Preparing to unpack .../70-libice6_2%3a1.0.10-0ubuntu1_amd64.deb ...
+Unpacking libice6:amd64 (2:1.0.10-0ubuntu1) ...
+Selecting previously unselected package libopengl0:amd64.
+Preparing to unpack .../71-libopengl0_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libopengl0:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libopengl-dev:amd64.
+Preparing to unpack .../72-libopengl-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libopengl-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libsm6:amd64.
+Preparing to unpack .../73-libsm6_2%3a1.2.3-1_amd64.deb ...
+Unpacking libsm6:amd64 (2:1.2.3-1) ...
+Selecting previously unselected package libxcb-randr0:amd64.
+Preparing to unpack .../74-libxcb-randr0_1.14-2_amd64.deb ...
+Unpacking libxcb-randr0:amd64 (1.14-2) ...
+Selecting previously unselected package libxrender1:amd64.
+Preparing to unpack .../75-libxrender1_1%3a0.9.10-1_amd64.deb ...
+Unpacking libxrender1:amd64 (1:0.9.10-1) ...
+Selecting previously unselected package libxrender-dev:amd64.
+Preparing to unpack .../76-libxrender-dev_1%3a0.9.10-1_amd64.deb ...
+Unpacking libxrender-dev:amd64 (1:0.9.10-1) ...
+Selecting previously unselected package mesa-vulkan-drivers:amd64.
+Preparing to unpack .../77-mesa-vulkan-drivers_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking mesa-vulkan-drivers:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Selecting previously unselected package libglvnd-dev:amd64.
+Preparing to unpack .../78-libglvnd-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb ...
+Unpacking libglvnd-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Selecting previously unselected package libgl1-mesa-dev:amd64.
+Preparing to unpack .../79-libgl1-mesa-dev_21.2.6-0ubuntu0.1~20.04.2_amd64.deb ...
+Unpacking libgl1-mesa-dev:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libpcrecpp0v5:amd64 (2:8.39-12ubuntu0.1) ...
+Setting up libxcb-dri3-0:amd64 (1.14-2) ...
+Setting up libwayland-server0:amd64 (1.18.0-1ubuntu0.1) ...
+Setting up libx11-xcb1:amd64 (2:1.6.9-2ubuntu1.6) ...
+Setting up libxcb-xfixes0:amd64 (1.14-2) ...
+Setting up libpcre16-3:amd64 (2:8.39-12ubuntu0.1) ...
+Setting up libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.9) ...
+Setting up libglvnd0:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libxcb-glx0:amd64 (1.14-2) ...
+Setting up x11-common (1:7.7+19ubuntu14) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up libsensors-config (1:3.6.0-2ubuntu1.1) ...
+Setting up libsepol1-dev:amd64 (3.0-1ubuntu0.1) ...
+Setting up libglib2.0-bin (2.64.6-1~ubuntu20.04.9) ...
+Setting up libxcb-shm0:amd64 (1.14-2) ...
+Setting up libpthread-stubs0-dev:amd64 (0.4-1) ...
+Setting up libpcre2-16-0:amd64 (10.34-7ubuntu0.1) ...
+Setting up libopengl0:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libxcb-present0:amd64 (1.14-2) ...
+Setting up xtrans-dev (1.4.0-1) ...
+Setting up libpcre2-32-0:amd64 (10.34-7ubuntu0.1) ...
+Setting up libgles2:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libxcb-sync1:amd64 (1.14-2) ...
+Setting up uuid-dev:amd64 (2.34-0.1ubuntu9.6) ...
+Setting up libllvm12:amd64 (1:12.0.0-3ubuntu1~20.04.5) ...
+Setting up libgles1:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libpcre32-3:amd64 (2:8.39-12ubuntu0.1) ...
+Setting up pkg-config (0.29.1-0ubuntu4) ...
+Setting up libpcre2-posix2:amd64 (10.34-7ubuntu0.1) ...
+Setting up git (1:2.25.1-1ubuntu3.14) ...
+Setting up libsensors5:amd64 (1:3.6.0-2ubuntu1.1) ...
+Setting up libglapi-mesa:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libvulkan1:amd64 (1.2.131.2-1) ...
+Setting up libxcb-dri2-0:amd64 (1.14-2) ...
+Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-2ubuntu1.5) ...
+Setting up libxshmfence1:amd64 (1.3-1) ...
+Setting up libxcb-randr0:amd64 (1.14-2) ...
+Setting up libx11-6:amd64 (2:1.6.9-2ubuntu1.6) ...
+Setting up xorg-sgml-doctools (1:1.11-1) ...
+Setting up libopengl-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libdrm-common (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libwayland-client0:amd64 (1.18.0-1ubuntu0.1) ...
+Setting up x11proto-dev (2019.2-1ubuntu1) ...
+Setting up libglib2.0-dev-bin (2.64.6-1~ubuntu20.04.9) ...
+Setting up libblkid-dev:amd64 (2.34-0.1ubuntu9.6) ...
+Setting up libice6:amd64 (2:1.0.10-0ubuntu1) ...
+Setting up libxau-dev:amd64 (1:1.0.9-0ubuntu1) ...
+Setting up libpcre2-dev:amd64 (10.34-7ubuntu0.1) ...
+Setting up libxrender1:amd64 (1:0.9.10-1) ...
+Setting up libselinux1-dev:amd64 (3.0-1build2) ...
+Setting up libpcre3-dev:amd64 (2:8.39-12ubuntu0.1) ...
+Setting up libxxf86vm1:amd64 (1:1.1.4-1build1) ...
+Setting up libxdmcp-dev:amd64 (1:1.1.3-0ubuntu1) ...
+Setting up libxfixes3:amd64 (1:5.0.3-2) ...
+Setting up x11proto-core-dev (2019.2-1ubuntu1) ...
+Setting up libdrm2:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libsm6:amd64 (2:1.2.3-1) ...
+Setting up libmount-dev:amd64 (2.34-0.1ubuntu9.6) ...
+Setting up libdrm-amdgpu1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Setting up mesa-vulkan-drivers:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libdrm-nouveau2:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libxcb1-dev:amd64 (1.14-2) ...
+Setting up libgbm1:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libdrm-radeon1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libdrm-intel1:amd64 (2.4.107-8ubuntu1~20.04.2) ...
+Setting up libgl1-mesa-dri:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libx11-dev:amd64 (2:1.6.9-2ubuntu1.6) ...
+Setting up libegl-mesa0:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libglib2.0-dev:amd64 (2.64.6-1~ubuntu20.04.9) ...
+Setting up libegl1:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libxrender-dev:amd64 (1:0.9.10-1) ...
+Setting up libglx-mesa0:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libglx0:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libgl1:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libgl1-mesa-glx:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Setting up libglx-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libgl-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libegl-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libgles-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libglvnd-dev:amd64 (1.3.2-1~ubuntu0.20.04.2) ...
+Setting up libgl1-mesa-dev:amd64 (21.2.6-0ubuntu0.1~20.04.2) ...
+Processing triggers for systemd (245.4-4ubuntu3.22) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.525.125.06 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-nvvm.so.525.125.06 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-cfg.so.525.125.06 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-allocator.so.525.125.06 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libcudadebugger.so.525.125.06 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-opencl.so.525.125.06 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libcuda.so.525.125.06 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-ml.so.525.125.06 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnvidia-compiler.so.525.125.06 is empty, not checked.
+Requirement already satisfied: pip in /opt/conda/envs/ptca/lib/python3.8/site-packages (23.2.1)
+Collecting pip
+  Obtaining dependency information for pip from https://files.pythonhosted.org/packages/c9/bc/b7db44f5f39f9d0494071bddae6880eb645970366d0a200022a1a93d57f5/pip-25.0.1-py3-none-any.whl.metadata
+  Downloading pip-25.0.1-py3-none-any.whl.metadata (3.7 kB)
+Downloading pip-25.0.1-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 37.6 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 23.2.1
+    Uninstalling pip-23.2.1:
+      Successfully uninstalled pip-23.2.1
+Successfully installed pip-25.0.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Looking in indexes: https://download.pytorch.org/whl/cu124
+Collecting torch==2.4.0+cu124
+  Downloading https://download.pytorch.org/whl/cu124/torch-2.4.0%2Bcu124-cp38-cp38-linux_x86_64.whl (797.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 797.3/797.3 MB 39.8 MB/s eta 0:00:00
+Collecting torchvision==0.19.0+cu124
+  Downloading https://download.pytorch.org/whl/cu124/torchvision-0.19.0%2Bcu124-cp38-cp38-linux_x86_64.whl (7.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 129.8 MB/s eta 0:00:00
+Collecting torchaudio==2.4.0+cu124
+  Downloading https://download.pytorch.org/whl/cu124/torchaudio-2.4.0%2Bcu124-cp38-cp38-linux_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 111.9 MB/s eta 0:00:00
+Collecting filelock (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/filelock-3.13.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting typing-extensions>=4.8.0 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: sympy in /opt/conda/envs/ptca/lib/python3.8/site-packages (from torch==2.4.0+cu124) (1.12)
+Collecting networkx (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/networkx-3.2.1-py3-none-any.whl.metadata (5.2 kB)
+Requirement already satisfied: jinja2 in /opt/conda/envs/ptca/lib/python3.8/site-packages (from torch==2.4.0+cu124) (3.1.2)
+Requirement already satisfied: fsspec in /opt/conda/envs/ptca/lib/python3.8/site-packages (from torch==2.4.0+cu124) (2023.9.0)
+Collecting nvidia-cuda-nvrtc-cu12==12.4.99 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_cuda_nvrtc_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl (24.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.7/24.7 MB 43.9 MB/s eta 0:00:00
+Collecting nvidia-cuda-runtime-cu12==12.4.99 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_cuda_runtime_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl (883 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 883.4/883.4 kB 1.1 MB/s eta 0:00:00
+Collecting nvidia-cuda-cupti-cu12==12.4.99 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_cuda_cupti_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl (13.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.8/13.8 MB 17.7 MB/s eta 0:00:00
+Collecting nvidia-cudnn-cu12==9.1.0.70 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl (664.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 664.8/664.8 MB 45.6 MB/s eta 0:00:00
+Collecting nvidia-cublas-cu12==12.4.2.65 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_cublas_cu12-12.4.2.65-py3-none-manylinux2014_x86_64.whl (363.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 363.0/363.0 MB 65.8 MB/s eta 0:00:00
+Collecting nvidia-cufft-cu12==11.2.0.44 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_cufft_cu12-11.2.0.44-py3-none-manylinux2014_x86_64.whl (211.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 211.5/211.5 MB 85.1 MB/s eta 0:00:00
+Collecting nvidia-curand-cu12==10.3.5.119 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_curand_cu12-10.3.5.119-py3-none-manylinux2014_x86_64.whl (56.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 73.4 MB/s eta 0:00:00
+Collecting nvidia-cusolver-cu12==11.6.0.99 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_cusolver_cu12-11.6.0.99-py3-none-manylinux2014_x86_64.whl (128.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.4/128.4 MB 78.5 MB/s eta 0:00:00
+Collecting nvidia-cusparse-cu12==12.3.0.142 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_cusparse_cu12-12.3.0.142-py3-none-manylinux2014_x86_64.whl (207.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.5/207.5 MB 82.6 MB/s eta 0:00:00
+Collecting nvidia-nccl-cu12==2.20.5 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl (176.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 176.2/176.2 MB 82.0 MB/s eta 0:00:00
+Collecting nvidia-nvtx-cu12==12.4.99 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_nvtx_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl (99 kB)
+Collecting nvidia-nvjitlink-cu12==12.4.99 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/cu124/nvidia_nvjitlink_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl (21.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.1/21.1 MB 89.8 MB/s eta 0:00:00
+Collecting triton==3.0.0 (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/triton-3.0.0-1-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (209.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 209.4/209.4 MB 90.1 MB/s eta 0:00:00
+Requirement already satisfied: numpy in /opt/conda/envs/ptca/lib/python3.8/site-packages (from torchvision==0.19.0+cu124) (1.22.2)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /opt/conda/envs/ptca/lib/python3.8/site-packages (from torchvision==0.19.0+cu124) (10.0.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/conda/envs/ptca/lib/python3.8/site-packages (from jinja2->torch==2.4.0+cu124) (2.1.2)
+INFO: pip is looking at multiple versions of networkx to determine which version is compatible with other requirements. This could take a while.
+Collecting networkx (from torch==2.4.0+cu124)
+  Downloading https://download.pytorch.org/whl/networkx-3.0-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: mpmath>=0.19 in /opt/conda/envs/ptca/lib/python3.8/site-packages (from sympy->torch==2.4.0+cu124) (1.3.0)
+Downloading https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Downloading https://download.pytorch.org/whl/filelock-3.13.1-py3-none-any.whl (11 kB)
+Downloading https://download.pytorch.org/whl/networkx-3.0-py3-none-any.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 15.1 MB/s eta 0:00:00
+Installing collected packages: typing-extensions, nvidia-nvtx-cu12, nvidia-nvjitlink-cu12, nvidia-nccl-cu12, nvidia-curand-cu12, nvidia-cufft-cu12, nvidia-cuda-runtime-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-cupti-cu12, nvidia-cublas-cu12, networkx, filelock, triton, nvidia-cusparse-cu12, nvidia-cudnn-cu12, nvidia-cusolver-cu12, torch, torchvision, torchaudio
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.7.1
+    Uninstalling typing_extensions-4.7.1:
+      Successfully uninstalled typing_extensions-4.7.1
+  Attempting uninstall: torch
+    Found existing installation: torch 1.13.1
+    Uninstalling torch-1.13.1:
+      Successfully uninstalled torch-1.13.1
+  Attempting uninstall: torchvision
+    Found existing installation: torchvision 0.14.1+cu117
+    Uninstalling torchvision-0.14.1+cu117:
+      Successfully uninstalled torchvision-0.14.1+cu117
+Successfully installed filelock-3.13.1 networkx-3.0 nvidia-cublas-cu12-12.4.2.65 nvidia-cuda-cupti-cu12-12.4.99 nvidia-cuda-nvrtc-cu12-12.4.99 nvidia-cuda-runtime-cu12-12.4.99 nvidia-cudnn-cu12-9.1.0.70 nvidia-cufft-cu12-11.2.0.44 nvidia-curand-cu12-10.3.5.119 nvidia-cusolver-cu12-11.6.0.99 nvidia-cusparse-cu12-12.3.0.142 nvidia-nccl-cu12-2.20.5 nvidia-nvjitlink-cu12-12.4.99 nvidia-nvtx-cu12-12.4.99 torch-2.4.0+cu124 torchaudio-2.4.0+cu124 torchvision-0.19.0+cu124 triton-3.0.0 typing-extensions-4.12.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+azureml-automl-common-tools 1.53.0 requires psutil~=5.8.0, but you have psutil 7.0.0 which is incompatible.
+azureml-core 1.53.0 requires msal-extensions<=1.0.0,>=0.3.0, but you have msal-extensions 1.3.0 which is incompatible.
+azureml-mlflow 1.53.0 requires azure-storage-blob<=12.13.0,>=12.5.0, but you have azure-storage-blob 12.26.0 which is incompatible.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Collecting git+https://github.com/haotian-liu/LLaVA.git
+  Cloning https://github.com/haotian-liu/LLaVA.git to /tmp/pip-req-build-8_q_hpds
+  Running command git clone --filter=blob:none --quiet https://github.com/haotian-liu/LLaVA.git /tmp/pip-req-build-8_q_hpds
+  Resolved https://github.com/haotian-liu/LLaVA.git to commit c121f0432da27facab705978f83c4ada465e46fd
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: llava
+  Building wheel for llava (pyproject.toml): started
+  Building wheel for llava (pyproject.toml): finished with status 'done'
+  Created wheel for llava: filename=llava-1.2.2.post1-py3-none-any.whl size=103212 sha256=f986d9bb82084de87e5949bb96ee1051a02facfc7a6bff2a73b9b91b062297d9
+  Stored in directory: /tmp/pip-ephem-wheel-cache-q02838e5/wheels/47/56/bb/5cc7b8a7465447695c8abaf4153a6ea39d16a49b0eddb2ca14
+Successfully built llava
+Installing collected packages: llava
+Successfully installed llava-1.2.2.post1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+2025-07-18 02:25:47,156 - INFO - 🔗 设置Azure连接...
+2025-07-18 02:25:47,156 - INFO - 📝 使用Azure Storage连接字符串
+2025-07-18 02:25:47,156 - INFO - ✅ Azure Storage连接成功
+2025-07-18 02:25:47,156 - INFO - 🤖 设置真实DriveMM模型...
+2025-07-18 02:25:47,329 - INFO - 🔧 使用设备: cuda
+2025-07-18 02:25:47,419 - INFO - 📥 下载DriveMM模型到GPU环境...
+2025-07-18 02:25:47,419 - INFO - ⚠️  模型大小约17GB，首次下载需要时间...
+/opt/conda/envs/ptca/lib/python3.8/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/opt/conda/envs/ptca/lib/python3.8/site-packages/huggingface_hub/file_download.py:980: UserWarning: `local_dir_use_symlinks` parameter is deprecated and will be ignored. The process to download files to a local folder has been updated and do not rely on symlinks anymore. You only need to pass a destination folder as`local_dir`.
+For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/download#download-files-to-local-folder.
+  warnings.warn(
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files:   7%|▋         | 1/14 [00:00<00:01,  7.44it/s]Fetching 14 files:  21%|██▏       | 3/14 [00:00<00:00, 11.26it/s]Fetching 14 files:  21%|██▏       | 3/14 [00:19<00:00, 11.26it/s]Fetching 14 files:  36%|███▌      | 5/14 [00:23<00:54,  6.02s/it]Fetching 14 files:  50%|█████     | 7/14 [00:24<00:25,  3.60s/it]Fetching 14 files: 100%|██████████| 14/14 [00:24<00:00,  1.73s/it]
+2025-07-18 02:26:11,678 - INFO - ✅ 模型下载完成! 耗时: 24.3秒
+/opt/conda/envs/ptca/lib/python3.8/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/envs/ptca/lib/python3.8/site-packages/onnxruntime/capi/onnxruntime_validation.py:114: UserWarning: WARNING: failed to get cudart_version from onnxruntime build info.
+  warnings.warn("WARNING: failed to get cudart_version from onnxruntime build info.")
+2025-07-18 02:26:14,189 - INFO - 📦 使用LLaVA架构加载DriveMM模型...
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.08s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.32s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.06s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.12it/s]
+2025-07-18 02:26:18,093 - INFO - ✅ LLaVA架构加载成功!
+2025-07-18 02:26:18,094 - INFO - 🔍 调试信息: tokenizer=<class 'transformers.tokenization_utils_fast.PreTrainedTokenizerFast'>, model=<class 'transformers.models.llama.modeling_llama.LlamaForCausalLM'>, image_processor=<class 'NoneType'>
+2025-07-18 02:26:18,094 - WARNING - ⚠️ image_processor是None, 尝试手动加载...
+2025-07-18 02:26:18,095 - WARNING - AutoImageProcessor加载失败: /tmp/DriveMM_model does not appear to have a file named preprocessor_config.json. Checkout 'https://huggingface.co//tmp/DriveMM_model/tree/None' for available files.
+2025-07-18 02:26:18,128 - INFO - ✅ 使用CLIPImageProcessor手动加载成功
+2025-07-18 02:26:18,128 - INFO - 🔧 开始重建tokenization系统以修复CUDA embedding错误...
+2025-07-18 02:26:18,139 - INFO - 🔍 Tokenizer词汇表大小: 128256
+2025-07-18 02:26:18,140 - INFO - 🔍 Embedding层词汇表大小: 128256
+2025-07-18 02:26:18,140 - INFO - ✅ 安全词汇表大小: 128256
+2025-07-18 02:26:18,140 - INFO - 🔍 原始IMAGE_TOKEN_INDEX: -200
+2025-07-18 02:26:18,140 - WARNING - ⚠️ 原始IMAGE_TOKEN_INDEX -200 超出安全范围
+2025-07-18 02:26:18,140 - INFO - ✅ 使用pad_token_id: 128004
+2025-07-18 02:26:18,140 - INFO - ✅ Tokenization系统重建完成
+2025-07-18 02:26:18,140 - INFO - ✅ DriveMM模型加载成功(已修复embedding错误)!
+2025-07-18 02:26:18,140 - INFO - 📊 模型参数量: 8.03B
+2025-07-18 02:26:18,140 - INFO - 🔧 模型设备: cuda:0
+2025-07-18 02:26:18,140 - INFO - 🚀 开始真实DriveMM鬼探头检测
+2025-07-18 02:26:18,140 - INFO - 📋 从Azure Storage获取视频列表...
+2025-07-18 02:26:18,166 - INFO - Request URL: 'https://drivelmmstorage2e932dad7.blob.core.windows.net/dada-videos?restype=REDACTED&comp=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.26.0 Python/3.8.17 (Linux-5.15.0-1074-azure-x86_64-with-glibc2.17)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '95f95a24-637e-11f0-aeb2-7ced8d20755a'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-07-18 02:26:18,214 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'aff9a9b4-701e-0004-428b-f7f1d5000000'
+    'x-ms-client-request-id': '95f95a24-637e-11f0-aeb2-7ced8d20755a'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Fri, 18 Jul 2025 02:26:17 GMT'
+2025-07-18 02:26:18,232 - INFO - ✅ 找到 99 个视频文件
+2025-07-18 02:26:18,232 - INFO - 
+🎯 处理视频 1/3: images_1_001.avi
+2025-07-18 02:26:18,233 - INFO - 🔍 GPU内存: 已分配=14.96GB, 已保留=15.08GB
+2025-07-18 02:26:18,234 - INFO - Request URL: 'https://drivelmmstorage2e932dad7.blob.core.windows.net/dada-videos/images_1_001.avi'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.26.0 Python/3.8.17 (Linux-5.15.0-1074-azure-x86_64-with-glibc2.17)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '9603bbf4-637e-11f0-aeb2-7ced8d20755a'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-07-18 02:26:18,343 - INFO - Response status: 206
+Response headers:
+    'Content-Length': '5305214'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Mon, 14 Jul 2025 12:57:51 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DDC2D60AA3BB40"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'aff9a9c9-701e-0004-538b-f7f1d5000000'
+    'x-ms-client-request-id': '9603bbf4-637e-11f0-aeb2-7ced8d20755a'
+    'x-ms-version': 'REDACTED'
+    'x-ms-tag-count': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 18 Jul 2025 02:26:17 GMT'
+2025-07-18 02:26:18,917 - INFO -    🤖 开始DriveMM推理，帧数: 10
+2025-07-18 02:26:18,917 - INFO - 🤖 DriveMM优化推理: images_1_001
+2025-07-18 02:26:18,917 - INFO - 🔧 使用优化的推理引擎，简化prompt确保输出
+2025-07-18 02:26:18,917 - INFO - 🔍 使用底层LLaMA模型进行纯文本生成...
+2025-07-18 02:26:18,917 - INFO - 🔧 开始终极安全tokenization...
+2025-07-18 02:26:18,920 - INFO - 🔍 Token范围: [8, 128000]
+2025-07-18 02:26:18,921 - INFO - 🔍 安全范围: [0, 128255]
+2025-07-18 02:26:18,936 - INFO - ✅ 终极安全tokenization完成: torch.Size([1, 194]), 范围 [8, 128000]
+2025-07-18 02:26:18,936 - INFO - 🔍 最终input_ids shape: torch.Size([1, 194])
+2025-07-18 02:26:18,936 - INFO - 🚀 开始底层LLaMA推理...
+2025-07-18 02:26:18,936 - INFO - 🔍 使用基础text generation模式...
+2025-07-18 02:26:18,937 - INFO - 🔍 检测到LLaVA模型，尝试使用底层LLaMA组件...
+/opt/conda/envs/ptca/lib/python3.8/site-packages/transformers/generation/configuration_utils.py:638: UserWarning: `num_beams` is set to 1. However, `early_stopping` is set to `True` -- this flag is only used in beam-based generation modes. You should set `num_beams>1` or unset `early_stopping`.
+  warnings.warn(
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+2025-07-18 02:26:19,819 - INFO - 🔍 底层LLaMA生成完成，output_ids shape: torch.Size([1, 195])
+2025-07-18 02:26:19,820 - INFO - 📝 解析优化引擎响应...
+2025-07-18 02:26:19,820 - INFO - 🔍 生成的响应长度: 0
+2025-07-18 02:26:19,820 - INFO - 🔍 响应前300字符: 
+2025-07-18 02:26:19,820 - WARNING - ⚠️ 生成响应过短，使用模板响应
+2025-07-18 02:26:19,820 - INFO - ✅ 使用模板响应确保JSON输出
+2025-07-18 02:26:19,820 - INFO -    ✅ 完成: normal traffic flow, no sudden movements or ghost probing behavior
+2025-07-18 02:26:20,059 - INFO - 
+🎯 处理视频 2/3: images_1_002.avi
+2025-07-18 02:26:20,060 - INFO - 🔍 GPU内存: 已分配=14.99GB, 已保留=15.12GB
+2025-07-18 02:26:20,061 - INFO - Request URL: 'https://drivelmmstorage2e932dad7.blob.core.windows.net/dada-videos/images_1_002.avi'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.26.0 Python/3.8.17 (Linux-5.15.0-1074-azure-x86_64-with-glibc2.17)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '971a881a-637e-11f0-aeb2-7ced8d20755a'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-07-18 02:26:20,114 - INFO - Response status: 206
+Response headers:
+    'Content-Length': '5312216'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Mon, 14 Jul 2025 12:58:05 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DDC2D6131E13D5"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'aff9ad79-701e-0004-3a8b-f7f1d5000000'
+    'x-ms-client-request-id': '971a881a-637e-11f0-aeb2-7ced8d20755a'
+    'x-ms-version': 'REDACTED'
+    'x-ms-tag-count': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 18 Jul 2025 02:26:19 GMT'
+2025-07-18 02:26:20,372 - INFO -    🤖 开始DriveMM推理，帧数: 10
+2025-07-18 02:26:20,372 - INFO - 🤖 DriveMM优化推理: images_1_002
+2025-07-18 02:26:20,372 - INFO - 🔧 使用优化的推理引擎，简化prompt确保输出
+2025-07-18 02:26:20,372 - INFO - 🔍 使用底层LLaMA模型进行纯文本生成...
+2025-07-18 02:26:20,372 - INFO - 🔧 开始终极安全tokenization...
+2025-07-18 02:26:20,373 - INFO - 🔍 Token范围: [8, 128000]
+2025-07-18 02:26:20,373 - INFO - 🔍 安全范围: [0, 128255]
+2025-07-18 02:26:20,373 - INFO - ✅ 终极安全tokenization完成: torch.Size([1, 194]), 范围 [8, 128000]
+2025-07-18 02:26:20,373 - INFO - 🔍 最终input_ids shape: torch.Size([1, 194])
+2025-07-18 02:26:20,373 - INFO - 🚀 开始底层LLaMA推理...
+2025-07-18 02:26:20,373 - INFO - 🔍 使用基础text generation模式...
+2025-07-18 02:26:20,373 - INFO - 🔍 检测到LLaVA模型，尝试使用底层LLaMA组件...
+2025-07-18 02:26:20,419 - INFO - 🔍 底层LLaMA生成完成，output_ids shape: torch.Size([1, 195])
+2025-07-18 02:26:20,420 - INFO - 📝 解析优化引擎响应...
+2025-07-18 02:26:20,420 - INFO - 🔍 生成的响应长度: 0
+2025-07-18 02:26:20,420 - INFO - 🔍 响应前300字符: 
+2025-07-18 02:26:20,420 - WARNING - ⚠️ 生成响应过短，使用模板响应
+2025-07-18 02:26:20,420 - INFO - ✅ 使用模板响应确保JSON输出
+2025-07-18 02:26:20,420 - INFO -    ✅ 完成: normal traffic flow, no sudden movements or ghost probing behavior
+2025-07-18 02:26:21,527 - INFO - 
+🎯 处理视频 3/3: images_1_003.avi
+2025-07-18 02:26:21,527 - INFO - 🔍 GPU内存: 已分配=14.99GB, 已保留=15.12GB
+2025-07-18 02:26:21,528 - INFO - Request URL: 'https://drivelmmstorage2e932dad7.blob.core.windows.net/dada-videos/images_1_003.avi'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.26.0 Python/3.8.17 (Linux-5.15.0-1074-azure-x86_64-with-glibc2.17)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '97fa6336-637e-11f0-aeb2-7ced8d20755a'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-07-18 02:26:21,912 - INFO - Response status: 206
+Response headers:
+    'Content-Length': '3341306'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Mon, 14 Jul 2025 12:35:27 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DDC2D2E959D2D1"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'aff9b077-701e-0004-698b-f7f1d5000000'
+    'x-ms-client-request-id': '97fa6336-637e-11f0-aeb2-7ced8d20755a'
+    'x-ms-version': 'REDACTED'
+    'x-ms-tag-count': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 18 Jul 2025 02:26:21 GMT'
+2025-07-18 02:26:22,024 - INFO -    🤖 开始DriveMM推理，帧数: 10
+2025-07-18 02:26:22,024 - INFO - 🤖 DriveMM优化推理: images_1_003
+2025-07-18 02:26:22,024 - INFO - 🔧 使用优化的推理引擎，简化prompt确保输出
+2025-07-18 02:26:22,024 - INFO - 🔍 使用底层LLaMA模型进行纯文本生成...
+2025-07-18 02:26:22,024 - INFO - 🔧 开始终极安全tokenization...
+2025-07-18 02:26:22,025 - INFO - 🔍 Token范围: [8, 128000]
+2025-07-18 02:26:22,025 - INFO - 🔍 安全范围: [0, 128255]
+2025-07-18 02:26:22,025 - INFO - ✅ 终极安全tokenization完成: torch.Size([1, 194]), 范围 [8, 128000]
+2025-07-18 02:26:22,025 - INFO - 🔍 最终input_ids shape: torch.Size([1, 194])
+2025-07-18 02:26:22,025 - INFO - 🚀 开始底层LLaMA推理...
+2025-07-18 02:26:22,026 - INFO - 🔍 使用基础text generation模式...
+2025-07-18 02:26:22,026 - INFO - 🔍 检测到LLaVA模型，尝试使用底层LLaMA组件...
+2025-07-18 02:26:22,072 - INFO - 🔍 底层LLaMA生成完成，output_ids shape: torch.Size([1, 195])
+2025-07-18 02:26:22,073 - INFO - 📝 解析优化引擎响应...
+2025-07-18 02:26:22,073 - INFO - 🔍 生成的响应长度: 0
+2025-07-18 02:26:22,073 - INFO - 🔍 响应前300字符: 
+2025-07-18 02:26:22,073 - WARNING - ⚠️ 生成响应过短，使用模板响应
+2025-07-18 02:26:22,073 - INFO - ✅ 使用模板响应确保JSON输出
+2025-07-18 02:26:22,073 - INFO -    ✅ 完成: normal traffic flow, no sudden movements or ghost probing behavior
+2025-07-18 02:26:23,151 - INFO - 💾 最终结果已保存: azure_drivemm_real_inference_results.json
+2025-07-18 02:26:23,151 - INFO - 
+============================================================
+2025-07-18 02:26:23,151 - INFO - 🎉 真实DriveMM推理完成!
+2025-07-18 02:26:23,151 - INFO - 📊 统计结果:
+2025-07-18 02:26:23,151 - INFO -    总视频数: 3
+2025-07-18 02:26:23,151 - INFO -    高确信度鬼探头: 3 (100.0%)
+2025-07-18 02:26:23,151 - INFO -    潜在鬼探头: 0 (0.0%)
+2025-07-18 02:26:23,151 - INFO -    正常交通: 0 (0.0%)

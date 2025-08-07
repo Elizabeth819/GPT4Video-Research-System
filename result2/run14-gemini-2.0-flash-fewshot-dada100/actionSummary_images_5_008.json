@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_008",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male cyclist, approximately 30 years old, wearing dark clothing, lying on the crosswalk after falling off his bicycle. A traffic warden in a bright yellow raincoat is standing on the right side of the road.",
+  "summary": "The vehicle approaches a crosswalk on a rainy day. A male cyclist, approximately 30 years old and wearing dark clothing, falls off his bicycle in the middle of the crosswalk. The cyclist is now lying on the ground. A traffic warden in a bright yellow raincoat is standing on the right side of the road, observing the situation. The cyclist's fall creates a dangerous situation requiring immediate attention and potential emergency response from the vehicle.",
+  "actions": "The vehicle is approaching the intersection at a steady speed. The driver likely intends to proceed through the intersection, but the sudden fall of the cyclist in the crosswalk necessitates immediate braking to avoid a collision. The driver must assess the situation and prepare to stop safely.",
+  "key_objects": "1) Front: A male cyclist, approximately 30 years old, wearing dark clothing, lying on the crosswalk after falling off his bicycle, approximately 5 meters away, creating an immediate obstruction and potential collision hazard. 2) Right side: A traffic warden in a bright yellow raincoat, standing on the side of the road, approximately 10 meters away, potentially ready to assist but not directly impacting the vehicle's path.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

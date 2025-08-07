@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_014",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "On the left side, a male pedestrian in dark clothing walks from left to right across the vehicle's path. On the right side, another male pedestrian in dark clothing walks from right to left. Later in the sequence, a person wearing dark clothing and a red hat is seen riding a scooter/motorcycle, emerging from behind a bus on the right side of the vehicle's path.",
+  "summary": "The video begins with the autonomous vehicle approaching a large, ornate arched entrance featuring a lowered barrier gate and a guard booth. Initially, the vehicle is stationary or moving very slowly as it waits for the gate to open. Several pedestrians are observed crossing the vehicle's path in front of the gate. As the barrier gate begins to rise and eventually fully opens, the vehicle starts to move forward through the archway. Upon clearing the immediate gate area and entering a more open intersection or complex road layout, a black sedan is visible on the right side, seemingly parked or waiting. A large green and white bus is seen moving from the left side of the frame towards the right, crossing the intersection. Critically, a person on a scooter/motorcycle suddenly emerges from behind this moving bus on the right side, directly entering the vehicle's intended path with very little warning, creating an immediate and significant collision risk.",
+  "actions": "The vehicle initially maintains a stopped or very slow speed as it approaches the closed barrier gate at the entrance. It remains stationary, patiently waiting for the gate to fully ascend and clear the path. Once the gate is completely open, the vehicle begins to accelerate slowly and proceeds forward, moving straight through the archway. The driver maintains a cautious, low speed due to the presence of pedestrians crossing the path and the complex, open intersection area immediately beyond the gate, which requires careful navigation and awareness of surrounding traffic and individuals.",
+  "key_objects": "1) Position: Left side, moving from left to right: A large green and white bus. This bus acts as a moving physical obstruction, temporarily blocking the view of the scooter/motorcycle until it is too late for the driver to react effectively. 2) Position: Right side, emerging from behind the bus: A person on a scooter/motorcycle, wearing dark clothing and a red hat. This individual suddenly appears from behind the bus, darting directly into the vehicle's path with minimal reaction time, creating an immediate and high-risk collision situation.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

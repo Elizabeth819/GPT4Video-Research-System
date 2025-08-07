@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_030",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) A male adult on a white electric bicycle, wearing dark clothing. 2) Two female adult pedestrians on the right sidewalk, one wearing a mask.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban road with buildings and parked vehicles lining both sides. The vehicle is following a yellow and blue taxi. As the self-driving vehicle approaches a red three-wheeled vehicle parked on the right side of the road, a male on a white electric bicycle suddenly emerges from directly behind this red vehicle. The cyclist moves from the right side of the road, crossing perpendicular to the vehicle's path, with extremely limited warning time. The red three-wheeled vehicle acted as a complete visual obstruction, making the cyclist's presence undetectable until he darted out, resulting in an immediate collision.",
+  "actions": "The self-driving vehicle is initially maintaining a consistent speed while driving in the urban environment. Upon the sudden and unexpected emergence of the male on the electric bicycle from behind the red three-wheeled vehicle on the right, the self-driving vehicle immediately initiates rapid deceleration and emergency braking. This swift action is taken to mitigate the impact of the unavoidable collision caused by the cyclist's sudden appearance directly in the vehicle's path. The vehicle comes to a complete stop immediately after the impact.",
+  "key_objects": "1) Right side: A red three-wheeled vehicle, approximately 5-10 meters away, parked on the side of the road, serving as a significant visual obstruction. 2) Right side: A male on a white electric bicycle, approximately 3-5 meters away, suddenly emerging from behind the red three-wheeled vehicle and entering the vehicle's direct path, leading to a collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

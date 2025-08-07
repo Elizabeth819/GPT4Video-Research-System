@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_11_076",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a relatively empty road. There are a few vehicles parked on the roadside and some moving vehicles in the distance. The road is clear with no immediate obstacles.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and staying in its lane. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "1) Left side: A red truck, approximately 20 meters away, parked on the roadside. 2) Right side: A blue truck, approximately 30 meters away, parked on the roadside. 3) Front: A moving vehicle in the distance, approximately 100 meters away, maintaining its lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_076",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "18.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of a black car, driver of a yellow construction vehicle",
+        "summary": "In this segment, the vehicle is driving on an urban road. The road is relatively clear with a few vehicles visible. A yellow construction vehicle is seen on the left side of the road, and a white sedan and a black car are visible ahead. The white sedan is moving straight, while the black car is slightly to the left of the white sedan.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and staying in its lane. The vehicle is observing the traffic ahead and ensuring a safe distance from the vehicles in front.",
+        "key_objects": "1) Left side: A yellow construction vehicle, approximately 20 meters away, moving slowly. 2) Front: A white sedan, approximately 30 meters away, moving straight. 3) Left side: A black car, approximately 35 meters away, moving slightly to the left of the white sedan.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_076",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "20.0s",
+        "End_Timestamp": "21.8s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. A white sedan is ahead, maintaining a consistent speed and lane position. The road is clear with no immediate obstacles or pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and following the white sedan ahead at a safe distance. There are no sudden changes in speed or direction observed.",
+        "key_objects": "1) Front: A white sedan, approximately 30 meters away, maintaining a consistent speed and lane position.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

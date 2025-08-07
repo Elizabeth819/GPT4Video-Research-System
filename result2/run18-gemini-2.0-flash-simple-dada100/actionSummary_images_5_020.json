@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_020",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car on a city street. There are other cars on the road, as well as pedestrians on the sidewalks and crossing the street. The pedestrians appear to be adults, dressed in casual clothing. A motorcyclist is also present on the road.",
+  "summary": "The video shows a car driving down a city street. Initially, the road is relatively clear with a few cars ahead. As the car approaches an intersection with a crosswalk, a motorcyclist begins to cross the street from the right. Simultaneously, pedestrians start crossing the street from the left. The car continues driving straight, navigating the intersection with the motorcyclist and pedestrians present.",
+  "actions": "The vehicle maintains a consistent speed while approaching the intersection. The driver does not appear to decelerate or change direction significantly. The vehicle proceeds straight through the intersection, navigating around the motorcyclist and pedestrians crossing the road. The driver's actions suggest an attempt to maintain the flow of traffic while being aware of the surrounding pedestrians and motorcyclist.",
+  "key_objects": "1) Right side: Motorcyclist, medium distance, crossing the street, potential collision risk. 2) Left side: Pedestrians, medium distance, crossing the street, potential collision risk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

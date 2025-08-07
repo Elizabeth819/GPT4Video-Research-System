@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_002",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "Several pedestrians on the right side of the road, some crossing the street.",
+    "summary": "The vehicle is driving on an urban road. From 11:49:31 to 11:49:33, the road ahead appears clear. Starting at 11:49:35, several pedestrians appear on the right side of the road, some beginning to cross the street. By 11:49:36, the pedestrians are actively crossing, requiring the vehicle to be aware of their movements. From 11:49:37 to 11:49:41, the road conditions remain the same, with pedestrians on the right side and some crossing the street.",
+    "actions": "The vehicle is maintaining a steady speed as it drives down the urban road. The driver is likely monitoring the pedestrians on the right side of the road and their movements to anticipate any potential need to decelerate or stop.",
+    "key_objects": "1) Right side: Several pedestrians, approximately 5-7 meters away, crossing the street and potentially entering the vehicle's path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_002",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "11.5s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "None visible in immediate vicinity",
+    "summary": "The vehicle is driving on a straight road in an urban area. There are buildings on both sides of the road. The road ahead is clear, and there are no immediate safety concerns. The driving conditions appear routine.",
+    "actions": "The self-driving vehicle is maintaining a consistent speed and direction on the clear road. No sudden changes in speed or direction are required as there are no obstacles or safety concerns present. The vehicle continues with normal driving behavior.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

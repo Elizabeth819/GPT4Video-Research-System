@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_4_006",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.7s",
+    "scene_theme": "Night driving",
+    "sentiment": "Negative",
+    "characters": "A group of pedestrians, including at least one person on a bicycle, and the driver of the vehicle.",
+    "summary": "The video shows a nighttime driving scene where the vehicle approaches a group of pedestrians walking and cycling on the road exiting an underpass.  The pedestrians were initially visible at a distance, but as the vehicle approached, a person on a bicycle suddenly slowed and almost stopped directly in front of the vehicle, forcing the driver to brake rapidly to avoid a collision. The cyclist appears to be a young male wearing a dark-colored backpack and light-colored jacket. The other pedestrians appear to be walking at a normal pace. The vehicle's speed decreased significantly from approximately 23 km/h to 0 km/h within the 8.7 seconds shown.",
+    "actions": "The vehicle was initially traveling at approximately 23 km/h.  As a group of pedestrians became visible ahead, the driver began to decelerate.  Upon observing a cyclist who appeared to be slowing or stopping directly in the vehicle's path, the driver initiated a rapid deceleration, bringing the vehicle to a complete stop to avoid a collision. The deceleration was significant and occurred over a short period.",
+    "key_objects": "Front: A young male cyclist with a dark backpack and light jacket, approximately 2 meters away at the point of closest proximity, abruptly slowing and nearly stopping in the vehicle's path, causing the vehicle to brake hard. ",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "accelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

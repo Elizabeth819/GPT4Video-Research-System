@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.8s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "An adult male pedestrian wearing light-colored clothing and dark pants.",
+  "summary": "The video begins with the autonomous vehicle driving on a rural road, characterized by bare trees and small, scattered buildings on either side. A large red billboard is visible on the left hillside. Initially, a white van approaches from the opposite direction and passes the vehicle without incident. As the vehicle continues its path, it approaches a large red three-wheeled vehicle (appearing to be a motorized tricycle or small truck) that is either stationary or moving very slowly on the left side of the road. This red vehicle acts as a significant visual obstruction. Suddenly, at approximately 10.8 seconds into the video, an adult male pedestrian emerges from behind this red three-wheeled vehicle on the left side of the road, walking directly into the vehicle's potential path. This sudden appearance from behind an obstruction creates an immediate and dangerous 'ghost probing' situation, requiring rapid evasive action.",
+  "actions": "The vehicle maintains a steady forward motion initially as it navigates the rural road. Upon observing the approaching red three-wheeled vehicle, the driver likely begins to decelerate to assess the situation and prepare for a potential maneuver or stop, as the red vehicle occupies a significant portion of the narrow road. The deceleration becomes more pronounced as the vehicle gets closer to the red three-wheeled vehicle, anticipating the need to either pass it cautiously or stop behind it. The sudden appearance of the pedestrian from behind the red vehicle necessitates an immediate and sharp braking action to prevent a collision, indicating the driver is reacting to the unexpected obstruction and the emerging pedestrian.",
+  "key_objects": "1) Left side, close distance: A large red three-wheeled vehicle (motorized tricycle/small truck). This vehicle acts as a significant physical obstruction, blocking the driver's view of the road ahead and to its left, directly contributing to the ghost probing scenario by hiding the pedestrian. 2) Left side, close distance: An adult male pedestrian, wearing light-colored clothing and dark pants. This pedestrian suddenly emerges from behind the red three-wheeled vehicle, walking into the vehicle's path, constituting the 'ghost probing' behavior.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

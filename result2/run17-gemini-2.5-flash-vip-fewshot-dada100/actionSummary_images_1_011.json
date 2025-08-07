@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_011",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "City street",
+    "characters": "Several cars ahead, a pedestrian on the right side of the road.",
+    "summary": "The vehicle is driving on a city street with several cars ahead. A pedestrian is visible on the right side of the road, near a building. The vehicle maintains its current speed and direction. No immediate dangerous actions are detected.",
+    "actions": "The vehicle is maintaining a steady speed and following the road. The driver is likely monitoring the cars ahead and the pedestrian on the right side of the road.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_011",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Adult male in a white shirt and a child in dark clothing",
+    "summary": "The vehicle is driving on a road with cars parked on the left side. An adult male in a white shirt and a child in dark clothing are exiting a parked car on the left side of the road. The adult male is opening the driver's side door, potentially obstructing traffic and creating a dangerous situation.",
+    "actions": "The self-driving vehicle is maintaining a steady speed. The driver may need to prepare to decelerate or change lanes to avoid the opened car door and the people exiting the vehicle.",
+    "key_objects": "1) Left side: An adult male in a white shirt, approximately 2 meters away, opening the driver's side door of a parked car. 2) Left side: A child in dark clothing, approximately 2 meters away, exiting the parked car.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

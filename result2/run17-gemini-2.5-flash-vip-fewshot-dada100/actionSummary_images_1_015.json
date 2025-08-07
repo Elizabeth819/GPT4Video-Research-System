@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_015",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.2s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A male on a scooter, a male walking, a bus driver",
+    "summary": "The vehicle is driving on a road with buildings on both sides. At the beginning of the segment, a silver car is parked on the left side of the road. As the vehicle progresses, a male on a scooter emerges from behind a large truck on the right side of the road. Further along, a male pedestrian is walking on the right side of the road. Finally, a yellow bus appears on the left side of the road.",
+    "actions": "The self-driving vehicle is maintaining a steady speed on the road. The vehicle is likely maintaining its speed due to the absence of immediate obstacles in its path. The vehicle is driving straight, following the road's trajectory.",
+    "key_objects": "1) Right side: A male on a scooter, approximately 5 meters away, emerging from behind a large truck and entering the road. 2) Right side: A large truck, approximately 7 meters away, creating a visual obstruction that hides the scooter until emergence.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

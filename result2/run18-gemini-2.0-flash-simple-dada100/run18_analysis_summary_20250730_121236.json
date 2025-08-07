@@ -1,0 +1,1628 @@
+{
+  "experiment_info": {
+    "run_id": "Run 18",
+    "timestamp": "20250730_121236",
+    "model": "gemini-2.0-flash-exp",
+    "prompt_version": "Simple Paper Batch (No Few-shot)",
+    "total_videos": 101,
+    "processed_videos": 101,
+    "failed_videos": 0,
+    "processing_parameters": {
+      "interval": 10,
+      "max_frames": 10,
+      "temperature": 0,
+      "max_output_tokens": 4000
+    },
+    "key_features": [
+      "Simple Paper Batch Prompt",
+      "No Few-shot Examples",
+      "Dual API Key Strategy",
+      "Enhanced Error Handling",
+      "Temperature=0 for Consistency"
+    ]
+  },
+  "results": {
+    "images_1_013": {
+      "video_id": "images_1_013",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car on a rural road. There are several pedestrians, including adults and a child, walking on the road. A green bus is also present.",
+      "summary": "The vehicle is driving on a rural road. Initially, the road is clear. As the vehicle progresses, several pedestrians, including adults and a child, appear on the road ahead. The vehicle approaches a green bus, which is stopped on the road. The pedestrians are walking near the bus.",
+      "actions": "The vehicle maintains a consistent speed initially. As pedestrians appear on the road, the vehicle begins to decelerate to avoid collision. The vehicle continues to decelerate as it approaches the stopped bus and the pedestrians.",
+      "key_objects": "1) Front: Pedestrians (adults and a child), medium distance, walking on the road, posing a collision risk. 2) Front: Green bus, medium distance, stopped on the road, obstructing the view and potentially concealing pedestrians.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_014": {
+      "video_id": "images_1_014",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a rural road with buildings on either side. There are several people visible, including a child wearing a striped shirt and red pants, and adults near the buildings. There are also motorcycles and a red truck on the left side of the road.",
+      "summary": "The vehicle is driving on a narrow rural road. Initially, the road appears clear, but as the vehicle progresses, a child suddenly appears on the left side of the road, crossing from left to right. The vehicle needs to be prepared to stop to avoid hitting the child.",
+      "actions": "The vehicle is driving straight on a rural road. The speed appears to be moderate, likely due to the narrow road and the presence of buildings and people nearby. The driver is maintaining the current lane.",
+      "key_objects": "1) Left: Child, crossing the road, immediate danger of collision. 2) Left: Red truck, parked on the side of the road, potential obstruction of view.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_015": {
+      "video_id": "images_1_015",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver navigating a narrow street with pedestrians and vehicles present. There are several adults visible, some are moving items from a truck, others are walking on the side of the road. There are also other vehicles including cars, motorcycles, and a bus.",
+      "summary": "The vehicle starts driving down a narrow street. Initially, the road appears relatively clear, but soon a truck parked on the right side of the road obstructs the view. People are seen moving items from the truck. As the vehicle proceeds, it approaches an intersection where other vehicles and pedestrians are present, creating a potentially dangerous situation.",
+      "actions": "The vehicle starts driving straight down a narrow street. The driver maintains a slow speed, likely due to the narrow road and the presence of parked vehicles and pedestrians. The driver slows down further as they approach the intersection to assess the traffic and pedestrian activity.",
+      "key_objects": "1) Right: A large truck parked on the right side of the road, obstructing the view of pedestrians and vehicles approaching from the right. Distance: Approximately 5-10 meters. Behavior impact: Creates a potential ghost probing situation. 2) Right: People unloading items from the truck. Distance: Approximately 5-10 meters. Behavior impact: Increases the risk of pedestrians suddenly entering the roadway. 3) Left: Pedestrians walking on the left side of the road. Distance: Approximately 10-15 meters. Behavior impact: Potential for pedestrians to cross the road unexpectedly. 4) Ahead: Intersection with cross traffic and pedestrians. Distance: Approximately 15-20 meters. Behavior impact: Requires careful observation and potential braking or maneuvering to avoid collisions.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_016": {
+      "video_id": "images_1_016",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene features a driver in a vehicle, several other cars on the road, and a pedestrian in a red jacket crossing the road. The pedestrian appears to be an adult.",
+      "summary": "The vehicle is driving on a multi-lane road with other cars present. A pedestrian suddenly appears from the right side of the road and crosses into the vehicle's lane, creating a dangerous situation. The driver likely has to react to avoid hitting the pedestrian.",
+      "actions": "The vehicle maintains its speed initially. As the pedestrian appears on the right side of the road and begins to cross, the driver likely initiates braking to avoid a collision. The vehicle is driving straight, following the road's trajectory.",
+      "key_objects": "1) Right side: Pedestrian in red jacket, medium distance, crossing the road unexpectedly, causing a potential collision. 2) Left lane: Red car, medium distance, driving in the same direction, posing a potential risk if the driver swerves to avoid the pedestrian.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_017": {
+      "video_id": "images_1_017",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car driving down a tree-lined street. There are other cars, buses, and pedestrians visible. The pedestrians appear to be adults.",
+      "summary": "The vehicle is driving down a road with buses on either side. The vehicle maintains its lane and speed. As the video progresses, the vehicle approaches an intersection with a green light. The vehicle continues straight through the intersection.",
+      "actions": "The vehicle maintains a consistent speed and direction, following the lane markings on the road. The driver is proceeding straight through the intersection because the traffic light is green.",
+      "key_objects": "1) Left: A green bus is traveling in the same direction, potentially obstructing the view of pedestrians or vehicles emerging from the left side of the road. Distance: Close. Behavior impact: Potential for ghost probing. 2) Right: A blue and white bus is traveling in the same direction, potentially obstructing the view of pedestrians or vehicles emerging from the right side of the road. Distance: Close. Behavior impact: Potential for ghost probing.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_018": {
+      "video_id": "images_1_018",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a street with parked cars on both sides. There are pedestrians crossing the street in the middle of the road. A motorcyclist is driving ahead. The pedestrians appear to be middle-aged, wearing casual clothing.",
+      "summary": "The vehicle is driving on a street with parked cars on both sides. Pedestrians are crossing the street in the middle of the road. The vehicle maintains its speed initially, then slows down as it approaches the pedestrians. The pedestrians are crossing from left to right. The vehicle continues driving after the pedestrians have crossed.",
+      "actions": "The vehicle is driving straight on a road with parked cars on both sides. The vehicle maintains its speed initially, then decelerates as it approaches pedestrians crossing the road. The driver is likely slowing down to ensure the safety of the pedestrians crossing the street. After the pedestrians cross, the vehicle continues driving straight.",
+      "key_objects": "1) Left: Pedestrians, medium distance, crossing the road, causing the vehicle to decelerate to avoid collision. 2) Left and Right: Parked cars, close distance, obstructing the view and potentially creating ghost probing situations.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_019": {
+      "video_id": "images_1_019",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a vehicle on a road in a rural area. There is a man, middle-aged, wearing a blue shirt and dark pants, lying in the middle of the road.",
+      "summary": "The vehicle is driving on a road in a rural area. Initially, the road appears clear. However, a man suddenly appears lying in the middle of the road. The driver is forced to react to avoid hitting the man.",
+      "actions": "The vehicle is initially driving straight on the road. Upon seeing the man lying in the road, the driver initiates emergency braking to avoid a collision. The driver is driving at a moderate speed appropriate for the road conditions until the sudden appearance of the man.",
+      "key_objects": "1) Center: Man lying in the road, close distance, immediate collision risk. 2) Left: Bushes and foliage, medium distance, obstructs view of the road ahead.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_020": {
+      "video_id": "images_1_020",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car at night. There is a motorcyclist on the right side of the road, wearing a light-colored jacket. There are other cars in the distance.",
+      "summary": "The video shows a car driving at night. Initially, the road is clear. A motorcyclist appears on the right side of the road, riding in the same direction as the car. The car continues driving straight. The motorcyclist is riding close to the right edge of the road.",
+      "actions": "The vehicle is driving straight on a road at night. The driver maintains a consistent speed, likely due to the presence of other vehicles and the need to navigate the road safely in low-light conditions. The vehicle is staying in its lane.",
+      "key_objects": "1) Right side: Motorcyclist, medium distance, riding close to the edge of the road, potentially dangerous due to proximity. 2) Left side: Approaching car, far distance, moving towards the vehicle, requires monitoring.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_021": {
+      "video_id": "images_1_021",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car, a bus on the left, pedestrians on the right side of the road, and other vehicles in the distance. The pedestrians appear to be of various ages and genders, dressed in casual clothing. Some are carrying umbrellas due to the rain.",
+      "summary": "The video shows a car driving on a wet road in rainy conditions. A bus is present on the left side of the road. Pedestrians are present on the right side of the road, some crossing the street. A pedestrian suddenly appears from behind the bus and crosses the street, creating a potential ghost probing situation.",
+      "actions": "The vehicle is initially moving forward at a steady speed. As the bus obstructs the view of the crosswalk, the driver likely maintains speed due to the green light. However, the driver may need to brake suddenly if a pedestrian unexpectedly crosses the street from behind the bus.",
+      "key_objects": "1) Left: A large green bus, close proximity, obstructs the view of pedestrians potentially crossing the street. 2) Right: Pedestrians, medium distance, one pedestrian suddenly crosses the street from behind the bus.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_022": {
+      "video_id": "images_1_022",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car, with other vehicles on the road. There are also pedestrians and cyclists visible on the right side of the road.",
+      "summary": "The vehicle starts driving on a multi-lane road with other vehicles present. The vehicle approaches an intersection with a traffic light. The light turns green, and the vehicle proceeds through the intersection. There are cyclists on the right side of the road.",
+      "actions": "The vehicle is driving straight on a multi-lane road. The vehicle slows down as it approaches an intersection. The vehicle proceeds through the intersection as the traffic light turns green. The vehicle maintains its speed after passing through the intersection.",
+      "key_objects": "1) Right side: Cyclists, medium distance, potential hazard if they enter the road unexpectedly. 2) Ahead: Traffic light, medium distance, dictates vehicle's speed and direction.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_023": {
+      "video_id": "images_1_023",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several pedestrians are crossing the street at a crosswalk. There are multiple cars on the road. One pedestrian is lying on the road after being hit by a car.",
+      "summary": "The vehicle is initially approaching a crosswalk with pedestrians. A pedestrian is hit by a car on the left side of the road. The vehicle then comes to a stop.",
+      "actions": "The vehicle initially approaches a crosswalk, likely intending to proceed through it. However, due to a pedestrian being hit by another car on the left side of the road, the vehicle rapidly decelerates and comes to a complete stop to avoid any further accidents and assess the situation.",
+      "key_objects": "1) Left: A pedestrian lying on the road after being hit by a car, close distance, immediate danger. 2) Left: The car that hit the pedestrian, close distance, immediate danger.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_024": {
+      "video_id": "images_1_024",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene features the driver of a car, other cars on the road, and buildings and trees lining the roadside. The driver's car is dark-colored. Other cars include a white SUV and a red car in the distance. The environment appears to be a suburban or urban area.",
+      "summary": "The video shows a car driving on a road with other vehicles present. The car maintains a steady speed and direction. The environment consists of buildings and trees along the roadside. There are no immediate hazards or unusual events observed during the 10-second segment.",
+      "actions": "The vehicle is maintaining a consistent speed and direction, following the road ahead. The driver is likely monitoring the surrounding traffic and road conditions to ensure safe driving. The vehicle is staying in its lane and not making any sudden maneuvers.",
+      "key_objects": "1) Center: White SUV, medium distance, traveling in the same direction. 2) Center: Red car, far distance, traveling in the same direction.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_025": {
+      "video_id": "images_1_025",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Two construction workers, one wearing an orange vest and the other wearing a red jacket, are on the left side of the road. They appear to be working on the guardrail. One of them walks onto the road.",
+      "summary": "The vehicle is traveling on a highway with mountains on either side. Two construction workers are working on the left side of the road near the guardrail. One of the workers walks onto the road, creating a potential hazard.",
+      "actions": "The vehicle maintains its speed and direction as it travels down the highway. The driver is likely maintaining speed because the road is clear ahead, but the presence of workers on the side of the road requires increased vigilance.",
+      "key_objects": "1) Left side: Construction worker in orange vest, near guardrail, medium distance, potential hazard if they enter the roadway. 2) Left side: Construction worker in red jacket, on the road, medium distance, immediate hazard.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_026": {
+      "video_id": "images_1_026",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car at night. There are other cars and motorcycles on the road. A pedestrian, a young woman wearing a pink shirt and carrying a yellow bag, is seen crossing the road.",
+      "summary": "The video shows a car driving at night on a road with other vehicles. A pedestrian suddenly appears from the left side of the road and crosses the street. The driver needs to react to avoid hitting the pedestrian.",
+      "actions": "The vehicle is initially moving forward at a steady speed. As the pedestrian appears on the left side of the road, the driver likely initiates braking to avoid a collision. The driver is maintaining the current lane.",
+      "key_objects": "1) Left: Pedestrian, medium distance, crossing the road suddenly, causing a potential collision. 2) Left: Trees, medium distance, partially obstructing the view of the pedestrian before they enter the road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_027": {
+      "video_id": "images_1_027",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows the interior of a car driving on a road in a rural or suburban area. There are buildings and trees visible on both sides of the road. No pedestrians are visible in the frames.",
+      "summary": "The vehicle is driving on a narrow road through a rural or suburban area. The road appears to be relatively empty with buildings and trees lining both sides. The car maintains a consistent speed and direction throughout the 10-second segment. The road curves slightly to the right.",
+      "actions": "The vehicle is maintaining a consistent speed while navigating a slight curve in the road. The driver is likely maintaining speed due to the lack of traffic and clear visibility ahead. The vehicle is staying in the center of the lane to avoid obstacles on either side of the road.",
+      "key_objects": "1) Left: Parked white car, medium distance, no immediate impact. 2) Right: Buildings, medium distance, no immediate impact. 3) Ahead: Slight curve in the road, medium distance, requires slight steering adjustment.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_2_001": {
+      "video_id": "images_2_001",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene is a busy street with many pedestrians, motorcyclists, and small trucks. The pedestrians are of various ages and genders, wearing casual clothing. Many are carrying items, suggesting they are shopping. The motorcyclists are also diverse in age and attire, and the small trucks appear to be used for transporting goods.",
+      "summary": "The vehicle is driving on a crowded street with pedestrians and motorcyclists moving in both directions. The road is narrow and lined with shops and parked vehicles. Pedestrians are crossing the street at various points, and motorcyclists are weaving through traffic. The overall scene is chaotic and potentially dangerous due to the high density of people and vehicles.",
+      "actions": "The vehicle is moving forward at a slow speed, likely due to the dense traffic and pedestrian activity. The driver is maintaining a cautious pace to avoid collisions with pedestrians and other vehicles. The vehicle is staying in the current lane, navigating through the crowded street.",
+      "key_objects": "1) Left side: Pedestrians walking along the sidewalk and crossing the street, posing a potential risk of sudden movements into the vehicle's path. Distance: Close proximity. Behavior impact: Requires constant vigilance and potential braking. 2) Center: Motorcyclists weaving through traffic. Distance: Close proximity. Behavior impact: Requires careful maneuvering to avoid collisions. 3) Right side: Parked trucks and roadside vendors. Distance: Close proximity. Behavior impact: Obstructs visibility and creates potential for pedestrians to emerge unexpectedly.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_2_002": {
+      "video_id": "images_2_002",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several middle-aged and elderly people are standing on the left side of the road. Some are wearing dark clothing and some are wearing lighter clothing. A dark-colored car is parked on the right side of the road further down. There are also some people working on the left side of the road.",
+      "summary": "The vehicle is driving on a narrow road in a rural area. Several people are standing and working on the left side of the road. A car is parked on the right side of the road. The vehicle is proceeding cautiously.",
+      "actions": "The vehicle is driving at a slow speed, likely due to the presence of people working on the side of the road and the narrow road conditions. The driver is maintaining a straight path, navigating around the people and the parked car.",
+      "key_objects": "1) Left side: Group of people working near the road, medium distance, potential obstruction and distraction. 2) Right side: Parked car, far distance, potential obstruction.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_2_003": {
+      "video_id": "images_2_003",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car approaching an intersection. There are other vehicles on the road, including cars, vans, and a motorcycle. A pedestrian is visible on the right side of the road, near the crosswalk. The pedestrian is an adult male, wearing dark clothing.",
+      "summary": "The vehicle approaches an intersection. Initially, the vehicle is moving forward at a steady speed. As it approaches the intersection, a pedestrian begins to cross the road from the right side, partially obscured by parked vehicles. The driver initiates braking to avoid a collision with the pedestrian.",
+      "actions": "The vehicle initially maintains a constant speed as it approaches the intersection. Upon observing the pedestrian starting to cross the road from behind parked vehicles, the driver initiates braking to slow down and avoid a potential collision. The braking action is a direct response to the pedestrian's unexpected appearance in the vehicle's path.",
+      "key_objects": "1) Right side: Pedestrian, medium distance, crossing the road unexpectedly, causing the driver to brake. 2) Right side: Parked vehicles, medium distance, partially obscuring the pedestrian's view and the driver's view of the pedestrian.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_2_004": {
+      "video_id": "images_2_004",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several pedestrians, including one wearing a red jacket, are crossing the road. There are also other pedestrians walking along the side of the road. The pedestrians appear to be adults. There are cars parked on the left side of the road.",
+      "summary": "The vehicle approaches an intersection with pedestrians crossing the road. The pedestrians are crossing from right to left. The vehicle slows down to allow the pedestrians to cross safely. The road is surrounded by buildings and parked cars.",
+      "actions": "The vehicle initially approaches the intersection at a moderate speed. Upon observing pedestrians crossing the road, the vehicle decelerates to allow them to cross safely. The vehicle maintains its lane and prepares to proceed straight once the pedestrians have cleared the intersection. The vehicle is driving slowly due to the presence of pedestrians.",
+      "key_objects": "1) Right: Pedestrians crossing the road, medium distance, causing the vehicle to decelerate. 2) Left: Parked cars, medium distance, potentially obstructing the view of pedestrians approaching the road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_001": {
+      "video_id": "images_3_001",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a street with various vehicles including cars, buses, and motorcycles. There are also pedestrians visible on the sidewalks. The people are of various ages and genders, wearing casual clothing. Some are riding motorcycles, others are walking.",
+      "summary": "The vehicle is driving on a city street with moderate traffic. The road is straight and there are vehicles and motorcycles moving in both directions. Pedestrians are present on the sidewalks. The vehicle maintains a steady speed and direction.",
+      "actions": "The vehicle is maintaining a consistent speed and direction, navigating through moderate traffic on a straight road. The driver is likely adhering to the speed limit and keeping a safe distance from other vehicles. The vehicle is driving straight, likely following the road's path and traffic regulations.",
+      "key_objects": "1) Right: A parked truck, partially obstructing the view of the sidewalk, potential for pedestrian ghost probing. 2) Left: A bus is driving in the opposite direction, posing no immediate threat but requiring monitoring.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_002": {
+      "video_id": "images_3_002",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car approaching an intersection. There are pedestrians, cyclists, and other vehicles present. The pedestrians appear to be of various ages and are dressed in casual clothing. Some are walking, while others are riding bicycles or scooters. The other vehicles include cars and a small truck.",
+      "summary": "The vehicle is driving on a road with barriers on both sides, approaching an intersection. There are pedestrians and cyclists on both sides of the road. The vehicle maintains its speed and direction as it approaches the intersection. A small truck is driving in front of the vehicle.",
+      "actions": "The vehicle is driving straight at a constant speed. The driver is maintaining the current lane and approaching an intersection. The driver is likely maintaining speed due to the open road ahead and the absence of immediate obstacles.",
+      "key_objects": "1) Left side: Pedestrians and cyclists, medium distance, potential for crossing the road. 2) Right side: Pedestrians and cyclists, medium distance, potential for crossing the road. 3) Front: Small truck, short distance, maintaining similar speed.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_003": {
+      "video_id": "images_3_003",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a busy urban intersection with multiple vehicles, pedestrians, and cyclists. A cyclist wearing a brown jacket and black pants is visible on the right side of the frame. Other pedestrians are present on the sidewalks. Several cars and motorcycles are also visible in the intersection and on the surrounding roads.",
+      "summary": "The vehicle approaches an intersection. A cyclist on the right side of the frame suddenly enters the driver's path. The cyclist collides with the vehicle.",
+      "actions": "The vehicle is approaching an intersection at a moderate speed. The driver likely intends to proceed straight through the intersection. The vehicle does not appear to be slowing down initially, possibly because the cyclist was not visible until the last moment. The vehicle then collides with the cyclist.",
+      "key_objects": "1) Right: Cyclist, medium distance, suddenly enters the driver's path, causing a collision. 2) Right: Buildings, medium distance, partially obstruct the view of the cyclist until the last moment.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_004": {
+      "video_id": "images_3_004",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a busy intersection with pedestrians, cyclists, and vehicles. There are people of various ages and genders. Some are wearing casual clothing, while others are on bicycles or motorcycles. A person is lying on the ground after an accident.",
+      "summary": "The video shows a car approaching an intersection with a crosswalk. Pedestrians are crossing the street. A motorcyclist suddenly appears from the left side of the car, and an accident occurs. The motorcyclist falls to the ground.",
+      "actions": "The vehicle approaches an intersection at a moderate speed. The driver likely intends to proceed straight through the intersection. The vehicle then rapidly decelerates and stops due to the sudden appearance of a motorcyclist and the subsequent collision.",
+      "key_objects": "1) Left: Motorcyclist, medium distance, suddenly appears from behind other vehicles, causing a collision. 2) Center: Pedestrians, medium distance, crossing the street, potentially distracting the driver.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_005": {
+      "video_id": "images_3_005",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car on a city street. There are other cars on the road, and pedestrians are visible on the sidewalks and crossing the street. The pedestrians appear to be adults of varying ages and are dressed in casual clothing. A bus is stopped on the left side of the road.",
+      "summary": "The vehicle is driving on a city street with moderate traffic. The weather appears to be overcast. The vehicle approaches an intersection where a pedestrian is crossing the street. The driver slows down to allow the pedestrian to cross safely.",
+      "actions": "The vehicle maintains a steady speed initially. As it approaches the intersection, the driver observes a pedestrian beginning to cross the street. The driver then decelerates to yield to the pedestrian, ensuring their safety before proceeding through the intersection.",
+      "key_objects": "1) Left: A bus is stopped at the intersection, potentially obstructing the view of pedestrians. Distance: Medium. Behavior impact: Could obscure pedestrians.\n2) Center: A pedestrian is crossing the street at the intersection. Distance: Medium. Behavior impact: Requires the driver to yield.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_006": {
+      "video_id": "images_3_006",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene features a driver in a vehicle, with other vehicles visible on the road. There are also pedestrians and cyclists present at the intersection.",
+      "summary": "The vehicle approaches an intersection with a traffic light. Initially, the vehicle is in the left lane, but as it approaches the intersection, it moves into the center lane, which is designated for going straight. The traffic light turns red, and the vehicle comes to a stop at the intersection. Pedestrians and cyclists are seen crossing the road.",
+      "actions": "The vehicle starts by driving in the left lane. As it approaches the intersection, it changes lanes to the center lane, which is for going straight. The vehicle decelerates and stops at the intersection due to the red traffic light.",
+      "key_objects": "1) Left: A car is on the left lane, distance is medium, it is driving straight. 2) Center: Traffic light, distance is far, it turns red.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_007": {
+      "video_id": "images_3_007",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a road with moderate traffic. There are several pedestrians and cyclists visible. A young boy in a blue and red outfit falls off his bike in the middle of the road. Another child and an adult are also on bikes nearby.",
+      "summary": "The vehicle is driving on a road with moderate traffic. Initially, the vehicle maintains its speed. However, a young boy on a bicycle falls in front of the car, causing the driver to brake suddenly to avoid a collision. The driver successfully stops the car before hitting the boy. Another child and an adult are also on bikes nearby.",
+      "actions": "The vehicle initially maintains its speed while driving straight. Upon observing a child falling off a bicycle directly in its path, the vehicle initiates rapid deceleration to avoid a collision. The driver successfully stops the car before hitting the child.",
+      "key_objects": "1) Center: A young boy on a bicycle, approximately 5 meters away, falls directly into the vehicle's path, creating an immediate collision risk. 2) Right: Another child on a bicycle, approximately 8 meters away, is approaching the crosswalk. 3) Right: An adult on a bicycle, approximately 10 meters away, is approaching the crosswalk.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_001": {
+      "video_id": "images_4_001",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male cyclist wearing dark clothing and a cap is riding a bicycle from left to right across the road. There are two parked cars, a white van and a white sedan, on the right side of the road. There are also trees and streetlights in the background.",
+      "summary": "The vehicle is driving on a road at dusk. A cyclist suddenly appears from the left side of the road, crossing in front of the vehicle. The cyclist emerges from behind a row of trees and parked cars, creating a potential ghost probing situation. The vehicle is approaching the cyclist's path.",
+      "actions": "The vehicle is initially moving forward at a constant speed. As the cyclist appears on the left, the driver likely initiates braking to avoid a collision. The vehicle maintains its lane position.",
+      "key_objects": "1) Left: Cyclist, approximately 5-10 meters, crossing the road, potential collision risk. 2) Left: Trees and parked cars, approximately 10-15 meters, obstructing the view of the cyclist.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_002": {
+      "video_id": "images_4_002",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene features a driver in a car, other vehicles including a van and a bus, and a cyclist. The cyclist appears to be an adult female wearing a white long-sleeved shirt. The vehicles are of various types and colors.",
+      "summary": "The video shows a car driving on a rural road. Initially, a van is seen ahead. As the car proceeds, a bus appears in the opposite direction. Towards the end of the clip, a cyclist suddenly emerges from the right side of the road, creating a potential ghost probing situation.",
+      "actions": "The vehicle maintains a relatively constant speed initially, likely due to the presence of the van ahead. As the van moves further away, the vehicle maintains its speed. The driver then decelerates and swerves to the left to avoid the cyclist.",
+      "key_objects": "1) Right side: Cyclist, medium distance, suddenly appears from behind an obstruction, creating a ghost probing situation. 2) Front: Approaching bus, medium distance, requires driver to maintain lane.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_003": {
+      "video_id": "images_4_003",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a street with parked cars on both sides. There are pedestrians visible, including a man in a suit walking on the right side of the road. There are multiple cars parked on both sides of the street. The driver is in a car.",
+      "summary": "The video shows a car driving down a street with parked cars on both sides. Initially, the car is stationary. As the video progresses, the car starts moving forward. A man in a suit walks from behind a parked car on the right side of the road, creating a potential ghost probing situation. The car decelerates and eventually stops.",
+      "actions": "The vehicle starts from a standstill at 0 km/h. The driver begins to accelerate slowly, likely intending to proceed down the street. As the man in the suit appears from behind the parked car, the driver decelerates to avoid a collision. The vehicle comes to a complete stop to ensure the pedestrian's safety.",
+      "key_objects": "1) Right: Man in a suit, medium distance, walking from behind a parked car, creating a ghost probing situation. 2) Right: Parked cars, medium distance, obstructing the view of pedestrians.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_004": {
+      "video_id": "images_4_004",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car driving on a city street. There are other cars on the road, and pedestrians and cyclists are visible on the sidewalks and crosswalks. The buildings are tall and dense, indicating an urban environment. The cyclist is wearing casual clothing and riding a bicycle. The pedestrians are wearing various types of clothing.",
+      "summary": "The vehicle starts driving on a city street with moderate traffic. The vehicle approaches an intersection under a bridge. The traffic light turns red, and the vehicle stops at the intersection. Pedestrians and cyclists are crossing the street.",
+      "actions": "The vehicle is initially driving at a moderate speed, maintaining its lane. As it approaches the intersection, the driver likely observes the traffic light changing and begins to decelerate. The vehicle comes to a complete stop at the intersection due to the red light.",
+      "key_objects": "1) Right: Cyclist, medium distance, crossing the street, potential collision if the car doesn't stop. 2) Front: Traffic light, far distance, turns red, causing the car to stop.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_005": {
+      "video_id": "images_4_005",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene includes the driver of the vehicle, other cars, a bus, and a cyclist. The cyclist is wearing a red jacket and is riding a bicycle. The bus is green and red. The other cars are various colors.",
+      "summary": "The vehicle is driving on a road with moderate traffic. A bus is in front of the vehicle. A cyclist suddenly appears from behind the bus, creating a potential ghost probing situation. The vehicle then proceeds through the intersection.",
+      "actions": "The vehicle is initially driving straight at a moderate speed. As the bus moves forward, a cyclist appears from behind it. The driver likely decelerates to avoid a collision with the cyclist. The vehicle then proceeds straight through the intersection.",
+      "key_objects": "1) Right: Bus, medium distance, partially obstructing view of the road. 2) Right: Cyclist, short distance, suddenly appearing from behind the bus, creating a potential collision hazard.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_006": {
+      "video_id": "images_4_006",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several pedestrians, including a child, are walking and crossing the road inside a tunnel. The pedestrians are wearing various clothing. The driver is inside a car.",
+      "summary": "The vehicle is driving through a tunnel at night. Initially, several pedestrians are visible in the distance. As the vehicle progresses, a child suddenly appears in front of the car, causing the driver to brake hard to avoid a collision. The child is kneeling down in the middle of the road.",
+      "actions": "The vehicle initially maintains a speed of around 23-24 km/h while approaching the tunnel. As the vehicle enters the tunnel and pedestrians become visible, the driver maintains speed. Upon seeing a child kneeling in the road, the driver initiates hard braking, rapidly decelerating to avoid a collision. The driver stops the car completely.",
+      "key_objects": "1) Center: Child, close distance, kneeling in the road, causing immediate danger. 2) Center: Group of pedestrians, medium distance, walking in the road, posing a potential hazard.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_007": {
+      "video_id": "images_4_007",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a city street with various vehicles, pedestrians, and a traffic officer. There are cars, motorcycles, and bicycles. The traffic officer is wearing a white hat and a reflective vest. Pedestrians are seen walking on the sidewalks. The weather appears to be sunny.",
+      "summary": "The vehicle starts at a standstill at an intersection. A traffic officer is standing on the right side of the road. Cars are moving in both directions. The vehicle then proceeds to make a left turn at the intersection. As the vehicle turns, pedestrians and cyclists are visible on the left side of the road. The vehicle completes the turn and continues driving down the street.",
+      "actions": "The vehicle is initially stopped at an intersection, likely waiting for the traffic officer's signal or a break in traffic. The vehicle then makes a left turn. The turn is executed at a slow speed, likely to ensure safety and avoid collisions with pedestrians or other vehicles. After completing the turn, the vehicle accelerates slightly to match the flow of traffic.",
+      "key_objects": "1) Left side: Cyclist, medium distance, crossing the street, potential collision if the vehicle turns too quickly. 2) Right side: Traffic officer, close distance, directing traffic, influences the vehicle's actions. 3) Left side: Parked cars, medium distance, potentially obscuring pedestrians or cyclists.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_008": {
+      "video_id": "images_4_008",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car navigating city streets. There are other cars on the road, and pedestrians are visible on the sidewalks. A cyclist is seen crossing the road at an intersection.",
+      "summary": "The video shows a car driving on a city street with moderate traffic. The car approaches an intersection where the traffic light turns red. A cyclist suddenly appears in front of the car, crossing the road against the traffic light. The driver is forced to brake suddenly to avoid a collision.",
+      "actions": "The vehicle initially maintains a steady speed while driving on a multi-lane road. As it approaches an intersection, the driver begins to decelerate in response to the changing traffic light. Upon observing the red light and the cyclist entering the intersection, the driver initiates emergency braking to prevent a collision.",
+      "key_objects": "1) Right side: Cyclist, medium distance, crossing the road against the traffic light, causing a potential collision. 2) Front: Traffic light, medium distance, turning red, prompting the driver to decelerate.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_001": {
+      "video_id": "images_5_001",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver navigating a city street at night. There are pedestrians visible on the sidewalks and crossing the street. Other vehicles are present, including cars and motorcycles. The pedestrians appear to be of various ages and are dressed in casual clothing. The vehicles are typical city cars.",
+      "summary": "The vehicle starts driving on a straight road at night. There are buildings and shops on both sides of the road. The vehicle approaches an intersection with a traffic light. Pedestrians are crossing the street. The vehicle slows down and stops at the intersection.",
+      "actions": "The vehicle initially maintains a constant speed while driving straight. As it approaches the intersection, the driver begins to decelerate in preparation for a potential stop. The vehicle comes to a complete stop at the intersection, likely due to a red light or pedestrian crossing.",
+      "key_objects": "1) Left side: Pedestrians crossing the street, medium distance, potential collision risk if they enter the vehicle's path unexpectedly. 2) Center: Traffic light, far distance, dictates whether the vehicle can proceed through the intersection.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_002": {
+      "video_id": "images_5_002",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a vehicle driving on a rural road. There are buildings and trees on both sides of the road. A white van is seen driving in the opposite direction. Later, a red three-wheeled vehicle appears on the left side of the road, with a person visible on it.",
+      "summary": "The vehicle starts driving on a rural road. A white van passes by in the opposite direction. The vehicle continues driving straight. A red three-wheeled vehicle appears on the left side of the road and the vehicle slows down.",
+      "actions": "The vehicle initially maintains a steady speed while driving on the road. As a white van approaches from the opposite direction, the vehicle maintains its course and speed. When the red three-wheeled vehicle appears on the left, the vehicle begins to decelerate to avoid a potential collision.",
+      "key_objects": "1) Left: Red three-wheeled vehicle, medium distance, approaching the vehicle's path, causing the vehicle to decelerate. 2) Right: Buildings, medium distance, posing a potential obstruction to visibility.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_003": {
+      "video_id": "images_5_003",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a street with several motorcycles and cars. There are pedestrians on the sidewalks. In the later frames, a motorcycle accident occurs in the middle of the road involving a woman and a child.",
+      "summary": "The vehicle is driving on a city street with moderate traffic, including motorcycles and cars. Initially, the road appears relatively clear. However, as the video progresses, a motorcycle accident occurs in the middle of the road, involving a woman and a child. The vehicle will need to react to this sudden obstacle.",
+      "actions": "The vehicle is initially driving straight at a constant speed. As the motorcycle accident occurs in front of the vehicle, the driver will need to decelerate to avoid a collision.",
+      "key_objects": "1) Center: Motorcycle accident involving a woman and a child, medium distance, creates an immediate obstacle and requires immediate braking. 2) Left: Pedestrians on the sidewalk, medium distance, potential for jaywalking.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_004": {
+      "video_id": "images_5_004",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car driving at night. There are other vehicles in the distance. There is a person on a scooter in front of the car.",
+      "summary": "The car is driving on a road at night. The car approaches a person on a scooter. The car continues to drive straight.",
+      "actions": "The vehicle is driving straight on a road at night. The vehicle maintains its speed as it approaches a person on a scooter in front of it. The vehicle approaches an intersection with a red light.",
+      "key_objects": "1) Front: Person on scooter, medium distance, moving in the same direction as the car, potentially creating a collision risk if the car doesn't maintain a safe distance. 2) Left: Intersection with red light, medium distance, requires the car to stop.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_005": {
+      "video_id": "images_5_005",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car approaching an intersection. There are several large trucks parked on the right side of the road. A person is standing next to a motorcycle that is lying on the ground in the middle of the intersection. The person appears to be wearing a dark jacket and a light-colored helmet.",
+      "summary": "The vehicle approaches an intersection with several large trucks parked on the right. As the vehicle gets closer, a motorcycle is seen lying on the ground in the middle of the intersection, with a person standing next to it. The driver will need to stop to avoid hitting the person and the motorcycle.",
+      "actions": "The vehicle is initially moving forward at a constant speed as it approaches the intersection. As the motorcycle and person become visible, the driver will need to brake to avoid a collision. The driver is likely slowing down to assess the situation and determine the best course of action.",
+      "key_objects": "1) Right: Large trucks parked on the side of the road, medium distance, obstruct the view of the intersection. 2) Center: Motorcycle lying on the ground, short distance, immediate collision risk. 3) Center: Person standing next to the motorcycle, short distance, immediate collision risk.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_006": {
+      "video_id": "images_5_006",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The video shows the perspective of a driver in a car. The environment consists of a road flanked by trees and hills on either side. In later frames, a red three-wheeled vehicle with passengers is visible on the left side of the road.",
+      "summary": "The vehicle is driving on a straight road with trees and hills on both sides. The road appears to be clear of traffic. As the video progresses, the vehicle approaches an intersection. A red three-wheeled vehicle emerges from the left side of the road, crossing the intersection.",
+      "actions": "The vehicle maintains a consistent speed while driving straight on the road. The driver is likely maintaining speed due to the clear road conditions and lack of immediate obstacles. The vehicle approaches an intersection and continues straight.",
+      "key_objects": "1) Left: A red three-wheeled vehicle emerges from behind trees at an intersection, posing a potential collision risk. Distance: Medium. Behavior impact: Requires driver to be alert and potentially brake or swerve. 2) Right: Trees and hills line the right side of the road, creating a visual barrier at the intersection. Distance: Medium. Behavior impact: Obstructs the driver's view of potential hazards.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_007": {
+      "video_id": "images_5_007",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car approaching an intersection. There are other vehicles and a scooter on the road. The weather appears to be clear.",
+      "summary": "The vehicle approaches an intersection with crosswalks. Other vehicles are present, including a scooter on the left side of the road. The vehicle slows down as it approaches the intersection. A car on the right side of the road is also approaching the intersection. The vehicle proceeds through the intersection after yielding to the car on the right.",
+      "actions": "The vehicle approaches an intersection and slows down, likely to assess the traffic situation and yield if necessary. The vehicle then proceeds through the intersection after it is safe to do so. The driver is likely maintaining a safe speed and being cautious due to the presence of other vehicles and pedestrians.",
+      "key_objects": "1) Left: Scooter, medium distance, approaching the intersection, potential conflict if the vehicle turns left. 2) Right: Car, medium distance, approaching the intersection, potential conflict if the vehicle does not yield.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_008": {
+      "video_id": "images_5_008",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene includes a driver in a car, a pedestrian in a yellow raincoat, and other vehicles in the background. The pedestrian appears to be an adult.",
+      "summary": "The vehicle is approaching an intersection on a rainy day. A pedestrian in a yellow raincoat is standing on the right side of the road, near the crosswalk. As the vehicle approaches the intersection, a cyclist suddenly appears from behind a bush on the left side of the road and falls in the middle of the road. The driver brakes to avoid hitting the cyclist.",
+      "actions": "The vehicle is initially moving forward at a steady speed. As the vehicle approaches the intersection, the driver likely slows down due to the presence of the crosswalk and the pedestrian on the right. Upon seeing the cyclist fall in the road, the driver initiates emergency braking to avoid a collision.",
+      "key_objects": "1) Left: A cyclist, medium distance, falls in the middle of the road, creating an immediate collision risk. 2) Right: A pedestrian in a yellow raincoat, medium distance, standing near the crosswalk, potentially influencing the driver's speed.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_009": {
+      "video_id": "images_5_009",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car on a city street. There are other cars on the road, and pedestrians are visible on the sidewalks. A motorcyclist wearing a red helmet appears from behind an obstruction.",
+      "summary": "The vehicle is driving on a city street with moderate traffic. Initially, the car maintains its lane and speed. As the car approaches an intersection, a motorcyclist suddenly appears from behind a large, covered object on the left side of the road, creating a potential ghost probing situation. The driver likely needs to react to avoid a collision.",
+      "actions": "The vehicle is initially driving straight, maintaining its speed and lane. As it approaches the intersection, the driver likely prepares to slow down or stop due to the presence of the intersection and potential cross-traffic. The appearance of the motorcyclist from behind the obstruction would necessitate braking to avoid a collision.",
+      "key_objects": "1) Left side: Large covered object, close distance, obstructs view of cross-traffic. 2) Left side: Motorcyclist wearing a red helmet, emerging from behind the covered object, close distance, poses immediate collision risk.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_010": {
+      "video_id": "images_5_010",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car on a rural road. There are pedestrians and a person on a motorcycle on the road. The motorcyclist is wearing a red helmet and a green jacket. There are buildings and trees on either side of the road.",
+      "summary": "The car is driving on a rural road. A motorcyclist appears to lose control and falls in the middle of the road. The car decelerates and stops to avoid hitting the motorcyclist.",
+      "actions": "The vehicle is initially driving at a moderate speed on a straight road. As the motorcyclist falls in front of the car, the driver rapidly decelerates to avoid a collision. The vehicle comes to a complete stop a safe distance from the fallen motorcyclist.",
+      "key_objects": "1) Center: Motorcyclist, approximately 10 meters away, falls off the motorcycle and into the path of the car, creating an immediate collision risk. 2) Left: Building, close to the road, partially obstructs the view of the road ahead.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_011": {
+      "video_id": "images_5_011",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car on a rural road. Other vehicles are visible in the distance. The roadside is lined with trees.",
+      "summary": "The vehicle is driving on a narrow rural road lined with trees. The road appears to be straight with another vehicle visible in the distance ahead. The weather is clear. The vehicle maintains a consistent speed and direction.",
+      "actions": "The vehicle is maintaining a steady speed on a straight road. The driver is likely maintaining speed to keep pace with the flow of traffic and road conditions.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_012": {
+      "video_id": "images_5_012",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene features the driver of a vehicle, other vehicles on the road, and pedestrians and motorcyclists on the sides of the road. The driver's age and gender are not discernible. Other vehicles include cars and motorcycles. Pedestrians appear to be adults.",
+      "summary": "The vehicle starts driving on a road with trees on both sides. It encounters another car driving in the opposite direction. As the vehicle continues, it enters a more populated area with buildings on both sides of the road. The vehicle approaches an intersection with a motorcyclist on the right side of the road.",
+      "actions": "The vehicle is driving straight on a two-lane road. The speed appears to be moderate and consistent. The driver maintains the current lane. The vehicle slows down as it approaches an intersection.",
+      "key_objects": "1) Right side: A motorcyclist is waiting at the intersection, potentially posing a risk if they enter the roadway without yielding. Distance: Medium, Behavior impact: Potential collision if motorcyclist proceeds without yielding.\n2) Front: Another car is approaching from the opposite direction. Distance: Far, Behavior impact: Requires the driver to stay in their lane.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_013": {
+      "video_id": "images_5_013",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a nighttime urban environment with various vehicles and pedestrians. There are cars, a bus, and a scooter visible. A person is lying on the crosswalk with a bicycle next to them.",
+      "summary": "The vehicle approaches an intersection at night. Initially, the view is partially obstructed by an overpass. As the vehicle progresses, it becomes clear that the traffic light is red. A person is lying injured on the crosswalk with a bicycle next to them. Other vehicles are stopped at the intersection.",
+      "actions": "The vehicle initially proceeds towards the intersection, likely maintaining speed as it approaches. Upon observing the red traffic light and the person lying on the crosswalk, the vehicle initiates braking to come to a complete stop before the crosswalk.",
+      "key_objects": "1) Crosswalk: Person lying injured, immediate danger, requires immediate braking. 2) Traffic Light: Red light, requires stopping before the intersection.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_014": {
+      "video_id": "images_5_014",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver approaching an intersection. There are pedestrians crossing the road, a bus, a white SUV, and a motorcycle. The pedestrians appear to be adults, and their clothing is not clearly visible. The motorcycle driver is wearing a red helmet.",
+      "summary": "The vehicle starts by approaching a gate with pedestrians crossing. The gate opens, and the vehicle proceeds forward. The vehicle then approaches an intersection where pedestrians are crossing, a bus is turning, a white SUV is present, and a motorcycle is also present.",
+      "actions": "The vehicle initially approaches a gate and slows down, likely waiting for the gate to open. Once the gate opens, the vehicle proceeds forward. As the vehicle approaches the intersection, it maintains a slow speed, likely due to the presence of pedestrians and other vehicles.",
+      "key_objects": "1) Left: Pedestrians crossing the road, medium distance, potential collision risk. 2) Right: Bus turning, medium distance, potential collision risk.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_015": {
+      "video_id": "images_5_015",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows the perspective of a driver inside a car. There are other vehicles on the road. The environment appears to be a suburban or semi-urban area with buildings and roadside structures.",
+      "summary": "The vehicle starts at an intersection with a green light and proceeds straight. The vehicle then continues driving on a straight road, maintaining its lane and speed. The road has a speed limit of 80. There are buildings and roadside structures visible on both sides of the road.",
+      "actions": "The vehicle starts from a stationary position at an intersection with a green light, then accelerates to proceed straight through the intersection. The vehicle maintains a consistent speed and direction as it drives along the road. The driver is likely following the traffic signals and speed limits.",
+      "key_objects": "1) Left: Building under construction, medium distance, poses no immediate threat. 2) Right: Roadside structures and buildings, medium distance, poses no immediate threat.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_016": {
+      "video_id": "images_5_016",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car approaching an intersection. There are pedestrians near parked cars on the left side of the road. A person on a scooter is approaching from the right side of the road.",
+      "summary": "The vehicle approaches an intersection. Initially, pedestrians are near parked cars on the left. A scooter emerges from behind a building on the right, creating a potential ghost probing situation as it enters the driver's path.",
+      "actions": "The vehicle is initially moving forward at a constant speed. As the scooter appears from behind the building on the right, the driver likely initiates braking to avoid a collision.",
+      "key_objects": "1) Right: Scooter, medium distance, emerging from behind a building, creating a ghost probing situation. 2) Right: Building, medium distance, obstructing the view of the scooter until it emerges.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_017": {
+      "video_id": "images_5_017",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car approaching an intersection in a city. There are pedestrians on the left side of the road, and a person on a scooter on the right side of the road. The pedestrians appear to be adults, and the person on the scooter is wearing a dark jacket.",
+      "summary": "The vehicle approaches an intersection. Pedestrians are visible on the left side of the road, and a person on a scooter is on the right side of the road. The vehicle slows down as it approaches the intersection.",
+      "actions": "The vehicle is approaching an intersection and slowing down. The driver is likely slowing down to assess the traffic conditions and ensure it is safe to proceed through the intersection. The vehicle is maintaining its lane.",
+      "key_objects": "1) Left: Pedestrians, medium distance, crossing the road, may affect the vehicle's speed. 2) Right: Scooter, short distance, crossing the road, may affect the vehicle's speed.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_018": {
+      "video_id": "images_5_018",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car driving on a wet road in a small town. There are pedestrians and scooters on the right side of the road. The weather is overcast.",
+      "summary": "The vehicle is driving on a wet road in a small town. The road is straight with buildings on both sides. There are pedestrians and scooters on the right side of the road. The vehicle approaches a crosswalk.",
+      "actions": "The vehicle is driving straight at a constant speed. The driver is maintaining the current lane. The vehicle is approaching a crosswalk and will likely need to slow down if pedestrians are present.",
+      "key_objects": "1) Right side: Pedestrians and scooters, medium distance, potential for crossing the road. 2) Ahead: Crosswalk, medium distance, requires monitoring for pedestrians.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_019": {
+      "video_id": "images_5_019",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a vehicle approaching a building entrance. There are several pedestrians visible, including one who appears to be bending down near the vehicle's path. There are also people standing near a parked car on the right side of the road. Some people are riding scooters on the left side of the road.",
+      "summary": "The vehicle is initially stopped at a gate. The gate opens, and the vehicle proceeds forward. Pedestrians are present on both sides of the road. One pedestrian is bending down in the road ahead of the vehicle. The vehicle is moving slowly.",
+      "actions": "The vehicle starts from a stationary position after the gate opens. It proceeds forward at a slow speed, likely due to the presence of pedestrians and the need to navigate the entrance area safely. The driver is likely maintaining a low speed to react to any unexpected movements from the pedestrians.",
+      "key_objects": "1) Left: Pedestrian walking, medium distance, potential impact if they cross unexpectedly. 2) Right: Parked car with people standing nearby, medium distance, potential impact if they step into the road. 3) Center: Pedestrian bending down, short distance, immediate potential impact.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_020": {
+      "video_id": "images_5_020",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car on a city street. There are other cars on the road, as well as pedestrians on the sidewalks and crossing the street. The pedestrians appear to be adults, dressed in casual clothing. A motorcyclist is also present on the road.",
+      "summary": "The video shows a car driving down a city street. Initially, the road is relatively clear with a few cars ahead. As the car approaches an intersection with a crosswalk, a motorcyclist begins to cross the street from the right. Simultaneously, pedestrians start crossing the street from the left. The car continues driving straight, navigating the intersection with the motorcyclist and pedestrians present.",
+      "actions": "The vehicle maintains a consistent speed while approaching the intersection. The driver does not appear to decelerate or change direction significantly. The vehicle proceeds straight through the intersection, navigating around the motorcyclist and pedestrians crossing the road. The driver's actions suggest an attempt to maintain the flow of traffic while being aware of the surrounding pedestrians and motorcyclist.",
+      "key_objects": "1) Right side: Motorcyclist, medium distance, crossing the street, potential collision risk. 2) Left side: Pedestrians, medium distance, crossing the street, potential collision risk.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_021": {
+      "video_id": "images_5_021",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene features a driver in a car, several other cars on the road, and a person on a scooter crossing the street. The person on the scooter is wearing an orange shirt and a white helmet.",
+      "summary": "The vehicle is driving straight on a road with buildings on both sides. There are other cars on the road. A person on a scooter crosses the street from left to right in front of the vehicle. The vehicle slows down to allow the scooter to pass.",
+      "actions": "The vehicle maintains a steady speed while driving straight. As the vehicle approaches a crosswalk, a person on a scooter begins to cross from the left. The vehicle decelerates to allow the scooter to safely cross the road. After the scooter has passed, the vehicle resumes its previous speed.",
+      "key_objects": "1) Left: Person on scooter, medium distance, crossing the street, causing the vehicle to decelerate.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_022": {
+      "video_id": "images_5_022",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a busy intersection with various vehicles including cars, buses, and motorcycles. There are also pedestrians visible on the sidewalks and crossing the street. The weather appears overcast. The driver is in a car.",
+      "summary": "The vehicle is approaching an intersection. Initially, the vehicle is behind a white van, obscuring the view of the intersection. As the vehicle approaches the intersection, other vehicles and pedestrians become visible. At timestamp 9.0s, another white van emerges from the right side of the road, potentially creating a ghost probing scenario.",
+      "actions": "The vehicle is initially moving forward, following the white van in front. As the vehicle approaches the intersection, it maintains its speed, likely preparing to cross the intersection if the traffic light allows. The vehicle is maintaining its lane.",
+      "key_objects": "1) Right: A white van is approaching from the right side of the road, potentially creating a ghost probing scenario, distance is close, behavior impact is high. 2) Front: A white van is directly in front of the vehicle, obscuring the view of the intersection, distance is close, behavior impact is high.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_023": {
+      "video_id": "images_5_023",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car, a motorcyclist, and other vehicles on a city street. The motorcyclist is involved in an accident and falls onto the road.",
+      "summary": "The video shows the car driving straight on a city street. Initially, the road appears clear. A motorcyclist approaches from the opposite direction. The motorcyclist then falls off their bike in the middle of the road. The car continues driving straight.",
+      "actions": "The vehicle is initially driving straight on a city street. The driver maintains speed as the road appears clear. As the motorcyclist falls, the driver likely initiates braking to avoid a collision.",
+      "key_objects": "1) Center: Motorcyclist, medium distance, falls off the bike, creating an immediate collision risk.\n2) Right: Building, far distance, acts as a visual obstruction initially.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_024": {
+      "video_id": "images_5_024",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car driving through a city intersection on a rainy day. Other vehicles are visible on the road. The weather is overcast and wet.",
+      "summary": "The vehicle approaches an intersection on a rainy day. The driver slows down as they approach the intersection. The vehicle proceeds through the intersection after checking for cross-traffic.",
+      "actions": "The vehicle is approaching an intersection and slowing down, likely to assess the traffic situation and yield if necessary. The driver is proceeding cautiously due to the wet road conditions. The vehicle continues straight through the intersection.",
+      "key_objects": "1) Right side: Stop sign, indicates the need to stop or yield. 2) Left side: Buildings and parked cars, potential obstructions to visibility.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_025": {
+      "video_id": "images_5_025",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car on a rainy day. Other vehicles are visible on the road. A pedestrian is visible on the right side of the road.",
+      "summary": "The vehicle is driving on a wet road in rainy conditions. The traffic light turns green, and the vehicle proceeds through the intersection. A pedestrian is visible on the right side of the road, waiting to cross.",
+      "actions": "The vehicle starts from a stationary position at a traffic light. The traffic light turns green, and the vehicle accelerates to proceed through the intersection. The driver maintains the current lane and speed, adjusting slightly for the wet road conditions.",
+      "key_objects": "1) Right side: Pedestrian, medium distance, waiting to cross the street. 2) Front: Other vehicles, medium distance, proceeding through the intersection.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_026": {
+      "video_id": "images_5_026",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car approaching an intersection. There are other vehicles on the road. A man and a woman are on the right side of the road, near the entrance to a building. The woman is wearing a red jacket and the man is wearing a black jacket. They are standing near a water hose.",
+      "summary": "The vehicle is driving on a city street and approaching an intersection. Initially, the vehicle is driving straight. As the vehicle approaches the intersection, a woman suddenly appears from behind a wall on the right side of the road, creating a ghost probing situation. The driver has to react quickly to avoid hitting her.",
+      "actions": "The vehicle is initially driving straight at a constant speed. As the vehicle approaches the intersection, the driver likely decelerates upon seeing the woman emerge from behind the wall. The driver may also steer slightly to the left to avoid the woman.",
+      "key_objects": "1) Right: A woman in a red jacket, emerges from behind a wall, very close to the car's path, causing a potential collision. 2) Right: A man in a black jacket, standing next to the woman, also contributing to the obstruction of view.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_027": {
+      "video_id": "images_5_027",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a street with parked cars on both sides. There are pedestrians and a cyclist visible on the left side of the road. The pedestrians appear to be adults, and the cyclist is wearing a pink jacket. The cars are of various makes and models.",
+      "summary": "The vehicle is driving down a street with parked cars on both sides. A cyclist and pedestrians are present on the left side of the road. The vehicle maintains a steady speed and direction.",
+      "actions": "The vehicle is driving straight down the street. The speed appears to be constant. The driver is likely navigating through the parked cars and pedestrians.",
+      "key_objects": "1) Left: Pedestrians and a cyclist, medium distance, potentially crossing the street. 2) Left and Right: Parked cars, close distance, obstructing the view of potential hazards.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_028": {
+      "video_id": "images_5_028",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car on a city street. There are other cars on the road, as well as pedestrians on the sidewalks. A motorcyclist appears from behind a car on the right side of the road.",
+      "summary": "The vehicle is driving on a city street with moderate traffic. Initially, the vehicle maintains a speed of 45 km/h, but gradually decelerates to 29 km/h as it approaches an intersection with a pedestrian overpass. A motorcyclist suddenly appears from behind a dark-colored car on the right side of the road, creating a potential ghost probing situation.",
+      "actions": "The vehicle initially maintains a speed of 45 km/h. As the vehicle approaches the intersection, the driver begins to decelerate, likely in response to the presence of other vehicles and pedestrians in the area. The deceleration continues as the vehicle approaches the intersection, reaching a speed of 29 km/h by the end of the segment. The driver is likely preparing to stop or yield at the intersection.",
+      "key_objects": "1) Right: Dark-colored car, medium distance, obstructs view of motorcyclist. 2) Right: Motorcyclist, medium distance, suddenly appears from behind the dark-colored car, creating a potential collision hazard.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_029": {
+      "video_id": "images_5_029",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a road with multiple vehicles, including cars and trucks. There are also pedestrians and cyclists present. The buildings in the background suggest an urban environment. The pedestrian on the right side of the road is wearing a blue jacket and riding a scooter. The pedestrian on the left side of the road is wearing dark clothing.",
+      "summary": "The vehicle is driving on a city street with moderate traffic. Initially, the vehicle is following other cars. As the vehicle approaches an intersection, the traffic light turns green, and the vehicle proceeds through the intersection. A pedestrian on a scooter suddenly appears from the right side of the road, crossing the street. The vehicle brakes abruptly to avoid a collision. The pedestrian falls off the scooter.",
+      "actions": "The vehicle initially maintains a steady speed while following other cars. As the vehicle approaches the intersection, it accelerates slightly as the traffic light turns green. Upon observing the pedestrian on the scooter entering the roadway, the vehicle initiates rapid deceleration to avoid a collision. The driver is attempting to navigate the intersection safely while reacting to unexpected pedestrian behavior.",
+      "key_objects": "1) Right side: A pedestrian on a scooter, medium distance, suddenly crosses the road, causing the vehicle to brake rapidly. 2) Center: Traffic light, far distance, turns green, influencing the vehicle to proceed through the intersection. 3) Left side: Pedestrian, medium distance, crossing the road, influencing the vehicle to be aware of the surroundings.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_030": {
+      "video_id": "images_5_030",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a street with cars, pedestrians, and buildings. There are several pedestrians on the right side of the road, some waiting to cross. A man on a bicycle is crossing the road from left to right. There are cars parked on both sides of the street. The weather appears to be sunny.",
+      "summary": "The vehicle is driving straight on a city street with moderate traffic. There are pedestrians on the sidewalks and some crossing the street. The vehicle maintains a consistent speed and direction. A man on a bicycle crosses the road in front of the vehicle.",
+      "actions": "The vehicle is driving straight at a consistent speed. The driver is maintaining the current lane and adjusting speed to match the flow of traffic. The vehicle is approaching an intersection with pedestrians crossing.",
+      "key_objects": "1) Right side: Pedestrians waiting to cross the street, medium distance, potential to enter the roadway. 2) Left side: Man on a bicycle crossing the road, medium distance, potential to enter the roadway.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_031": {
+      "video_id": "images_5_031",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car approaching an intersection. There are other vehicles present, including a white car on the left and a green three-wheeled vehicle on the right. A person on a scooter appears from the right side of the road. Later, two people are seen picking up items in the middle of the road.",
+      "summary": "The vehicle approaches an intersection. Initially, the road appears clear, but a scooter suddenly appears from the right side. Subsequently, two people are seen in the middle of the road, apparently picking up items that have fallen. This creates a dangerous situation as they are vulnerable to oncoming traffic.",
+      "actions": "The vehicle is initially moving forward at a steady speed. As the scooter appears, the driver likely prepares to brake. When the two people appear in the road, the driver likely brakes to avoid hitting them. The driver is proceeding with caution due to the unexpected obstacles in the road.",
+      "key_objects": "1) Right side: A scooter emerges from behind a building, creating a potential collision hazard. Distance: Medium, Behavior impact: High. 2) Center: Two people are in the middle of the road picking up items. Distance: Close, Behavior impact: High.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_032": {
+      "video_id": "images_5_032",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car, with several pedestrians and motorcyclists visible on the roadside. There are also parked cars and buildings in the background. The pedestrians appear to be adults, and the motorcyclists are riding scooters.",
+      "summary": "The vehicle is driving on a road with buildings on the right and a long structure on the left. Several motorcycles are parked on the right side of the road. A pedestrian is walking on the right side of the road. As the vehicle approaches an intersection, a motorcyclist suddenly emerges from the left side, resulting in a collision. The motorcyclist and passenger fall to the ground.",
+      "actions": "The vehicle is initially driving straight at a moderate speed. As it approaches the intersection, it maintains its speed. Upon seeing the motorcyclist emerging from the left, the driver attempts to brake, but a collision occurs.",
+      "key_objects": "1) Left side: Motorcyclist, emerging from behind a building, short distance, causes collision. 2) Right side: Pedestrian, walking on the sidewalk, medium distance, poses a potential hazard if they enter the road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_033": {
+      "video_id": "images_5_033",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene features a driver in a car at night. Other vehicles are present on the road, including a red car in front and a scooter further ahead. There are buildings and streetlights along the roadside.",
+      "summary": "The video shows a car driving on a road at night. The car is following a red car and approaches a crosswalk where a scooter is crossing. The driver maintains speed and direction.",
+      "actions": "The vehicle is maintaining its speed and following the car in front. The driver is likely maintaining a safe following distance and observing the road ahead for any potential hazards. The vehicle approaches a crosswalk and continues driving straight.",
+      "key_objects": "1) Right: parked cars, medium distance, potential obstruction of view. 2) Ahead: scooter crossing the road, far distance, requires monitoring.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_034": {
+      "video_id": "images_5_034",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene takes place at night. The main characters are the driver of the vehicle equipped with the dashcam, a scooter rider in front of the vehicle, and pedestrians on the right side of the road. The scooter rider is wearing dark clothing. The pedestrians appear to be of various ages and are dressed in casual attire.",
+      "summary": "The video shows a vehicle approaching an intersection at night. Initially, the traffic light is red, and a scooter is stopped in front of the vehicle at the crosswalk. As the video progresses, the traffic light turns green, and the scooter proceeds through the intersection. Simultaneously, pedestrians are visible on the right side of the road, waiting to cross. The vehicle then proceeds through the intersection after the scooter.",
+      "actions": "The vehicle initially stops at the intersection due to the red traffic light. The vehicle remains stationary until the light turns green. Once the light changes, the vehicle begins to accelerate and proceeds straight through the intersection, following the scooter in front. The vehicle maintains its lane and adjusts its speed according to the traffic light and the movement of the scooter.",
+      "key_objects": "1) Left: Scooter, close distance, proceeds through the intersection after the light turns green, influencing the vehicle's acceleration. 2) Right: Pedestrians, medium distance, waiting to cross the street, potentially influencing the driver's awareness and speed.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "acceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_035": {
+      "video_id": "images_5_035",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver navigating a busy urban street. There are pedestrians, cars, motorcycles, and a bus visible. The pedestrians appear to be of various ages and are dressed in casual clothing. The vehicles include cars of different models and colors, as well as a large bus. There are also motorcyclists on the road.",
+      "summary": "The vehicle starts driving on a city street with moderate traffic. A large bus is in front of the vehicle, partially obstructing the view. As the vehicle approaches an intersection, pedestrians and motorcyclists are visible crossing the street. The vehicle slows down as it approaches the intersection.",
+      "actions": "The vehicle is initially driving behind a bus, maintaining a safe following distance. As the vehicle approaches an intersection, the driver slows down, likely in anticipation of potential pedestrian or vehicle traffic. The driver is proceeding cautiously due to the presence of the bus obstructing the view and the activity at the intersection.",
+      "key_objects": "1) Right: A large bus is driving in front of the vehicle, obstructing the view of the road ahead. The bus is close enough to potentially create a dangerous situation if it were to brake suddenly. 2) Left and Right: Pedestrians are crossing the street at the intersection. Their presence requires the driver to be cautious and prepared to stop. 3) Left: Motorcyclists are also crossing the street at the intersection, adding to the complexity of the driving situation.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_036": {
+      "video_id": "images_5_036",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car approaching an intersection. There are several large trucks and buildings visible. In the later frames, a pedestrian is seen crossing the road.",
+      "summary": "The vehicle approaches an intersection with limited visibility due to large trucks obstructing the view. As the vehicle proceeds, a pedestrian suddenly appears on the left side of the road, crossing the street. The driver likely had limited time to react due to the obstruction.",
+      "actions": "The vehicle initially approaches the intersection at a slow speed, likely due to the obstructed view. As the view clears slightly, the vehicle may have slightly accelerated. Upon seeing the pedestrian, the driver would have needed to brake suddenly to avoid a collision.",
+      "key_objects": "1) Left: Pedestrian, medium distance, crossing the road suddenly, causing a potential collision. 2) Right: Large trucks, close distance, obstructing the view of the intersection.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_037": {
+      "video_id": "images_5_037",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene features a driver in a car, and a motorcyclist on the left side of the road. The motorcyclist is wearing a helmet and dark clothing. There are also other cars in the distance.",
+      "summary": "The video shows a car driving on a road. Initially, the road appears clear. However, a motorcyclist suddenly appears from the left side of the road, creating a potential ghost probing situation. The car continues driving at a constant speed.",
+      "actions": "The vehicle maintains a constant speed initially. As the motorcyclist appears on the left, the driver likely prepares to react, but maintains speed. The driver is maintaining their lane.",
+      "key_objects": "1) Left: Motorcyclist, medium distance, suddenly appears from the left side of the road, creating a potential collision hazard.\n2) Left: Trees and bushes, close distance, obstruct the view of the motorcyclist until the last moment.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_038": {
+      "video_id": "images_5_038",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car driving on a road in a rural area. There are buildings and trees on both sides of the road. In the first few frames, there are two people walking on the left side of the road. Later frames show other vehicles on the road, including a small truck and a three-wheeled vehicle.",
+      "summary": "The vehicle starts driving on a straight road in a rural area. The road is relatively empty, with some buildings and trees on both sides. The vehicle maintains a consistent speed. As the video progresses, other vehicles appear on the road, including a small truck and a three-wheeled vehicle. The driver continues to drive straight, adjusting slightly to avoid the other vehicles.",
+      "actions": "The vehicle is driving straight on a rural road. The driver maintains a consistent speed, likely due to the relatively clear road conditions and the absence of immediate obstacles. The driver adjusts the vehicle's position slightly to avoid other vehicles on the road, ensuring a safe distance is maintained.",
+      "key_objects": "1) Left: Two pedestrians, medium distance, walking along the road, potentially influencing the driver to maintain a safe distance. 2) Right: Bus stop, far distance, no impact. 3) Center: Three-wheeled vehicle, medium distance, moving slowly, requiring the driver to adjust speed and direction.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_039": {
+      "video_id": "images_5_039",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car, with other vehicles on the road. Later in the video, a man is seen standing next to a fallen scooter on the road.",
+      "summary": "The video starts with the car driving on a multi-lane road with other vehicles. The car maintains its lane and speed. Around the 9-second mark, the car approaches a scene where a scooter has fallen on the road, and a man is standing next to it. The car begins to decelerate.",
+      "actions": "The vehicle initially maintains a constant speed and lane position, following the flow of traffic. As the vehicle approaches the accident scene with the fallen scooter and the man, the driver begins to decelerate to avoid a collision and assess the situation.",
+      "key_objects": "1) Left: Fallen scooter on the road, medium distance, poses a collision risk. 2) Left: Man standing next to the scooter, medium distance, poses a collision risk.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_040": {
+      "video_id": "images_5_040",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car driving on a city street. There are pedestrians on the right side of the road, and other vehicles are present. A motorcyclist is on the left side of the road. The driver is involved in an accident.",
+      "summary": "The vehicle is driving down a city street. Initially, the road appears clear, but as the vehicle approaches an intersection, a motorcyclist on the left side of the road suddenly enters the driver's path. The driver is unable to avoid a collision, resulting in an accident. The windshield is shattered.",
+      "actions": "The vehicle initially maintains a steady speed while driving straight. As the vehicle approaches the intersection, the driver likely attempts to brake to avoid the motorcyclist, but the reaction time is insufficient to prevent the collision. The vehicle then comes to an abrupt stop after the impact.",
+      "key_objects": "1) Left: Motorcyclist, medium distance, suddenly enters the driver's path from behind a barrier, causing a collision. 2) Right: Pedestrians, medium distance, crossing the street at the intersection.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_041": {
+      "video_id": "images_5_041",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows multiple cars on a city street. The driver's car is in the foreground. Other cars are visible in the distance. There are buildings and trees lining the street.",
+      "summary": "The vehicle starts driving on a multi-lane road with other vehicles present. The vehicle approaches an intersection with a traffic light. The vehicle slows down and prepares to make a left turn at the intersection.",
+      "actions": "The vehicle is initially driving straight at a moderate speed. As it approaches the intersection, the driver begins to decelerate. The driver then prepares to make a left turn at the intersection, following the lane markings on the road.",
+      "key_objects": "1) Left: Cars parked along the left side of the road, potential obstruction, medium distance, could obscure pedestrians or other vehicles. 2) Front: Traffic light at the intersection, regulatory, far distance, dictates when the vehicle can proceed.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "turn left",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_042": {
+      "video_id": "images_5_042",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a street with buildings on both sides. There are several vehicles, including cars, a van, and a three-wheeled vehicle. A man on a scooter is visible. In the later frames, the man on the scooter falls off his vehicle.",
+      "summary": "The vehicle starts driving down a street with buildings and parked cars on either side. A van passes on the left. The vehicle approaches an intersection with a green light. A man on a scooter attempts to cross the intersection and falls off his scooter directly in front of the vehicle.",
+      "actions": "The vehicle is initially driving straight at a moderate speed. As it approaches the intersection, it maintains its speed because the traffic light is green. Upon seeing the scooter driver fall, the vehicle initiates emergency braking to avoid a collision.",
+      "key_objects": "1) Left: Scooter driver, medium distance, falls off scooter directly into the vehicle's path. 2) Center: Traffic light, far distance, initially green, indicating right-of-way.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_043": {
+      "video_id": "images_5_043",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car approaching an intersection and then driving down a straight road. Other vehicles are visible, including cars and a small truck. There are buildings and trees lining the road.",
+      "summary": "The vehicle starts at an intersection, waits for the green light, and proceeds straight through the intersection. After clearing the intersection, the vehicle continues driving straight down the road, maintaining a consistent speed.",
+      "actions": "The vehicle initially approaches an intersection and stops, likely due to a red light. Once the light turns green, the vehicle accelerates and proceeds straight through the intersection. After clearing the intersection, the vehicle maintains a consistent speed while driving straight down the road. The initial stop is due to the traffic light, and the subsequent acceleration and straight driving are due to the green light and the desire to continue along the current path.",
+      "key_objects": "1) Left side: Buildings and parked cars, moderate distance, potential obstruction of pedestrians. 2) Right side: Trees and roadside structures, moderate distance, potential obstruction of pedestrians. 3) Front: Other vehicles on the road, far distance, potential impact on speed and lane control.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_044": {
+      "video_id": "images_5_044",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver navigating a wet urban street with moderate traffic. Pedestrians and cyclists are present. The weather appears to be rainy. The cyclist is wearing a dark jacket and pants, riding a bicycle with a red basket. Other pedestrians are wearing various clothing. Other cars are present.",
+      "summary": "The vehicle is driving on a wet road in an urban environment. The driver approaches a crosswalk. A cyclist suddenly appears from the right side of the road, crossing the street. The driver likely needs to brake to avoid a collision. The road is wet, and visibility is reduced due to rain.",
+      "actions": "The vehicle is initially moving forward at a moderate speed. As the vehicle approaches the crosswalk, the driver likely maintains speed initially. Upon spotting the cyclist, the driver will likely brake to avoid a collision. The driver is proceeding straight through the intersection.",
+      "key_objects": "1) Right side: A cyclist emerges from behind parked cars, crossing the street, creating a potential collision hazard. Distance: Approximately 10-15 meters. Behavior impact: Requires immediate braking. 2) Road: Wet road surface. Distance: Immediate. Behavior impact: Reduced traction and increased stopping distance.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_045": {
+      "video_id": "images_5_045",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows multiple cars on a city street. The driver's view is from inside a car. There are other cars in front and to the right. The cars appear to be in a traffic jam. There are trees and buildings on both sides of the road.",
+      "summary": "The vehicle is driving on a city street in heavy traffic. The car is moving slowly and maintaining its position in the lane. The traffic appears to be congested, with multiple cars in front and to the right. The vehicle is following the car in front of it and maintaining a safe distance. The road is straight, and there are trees and buildings on both sides.",
+      "actions": "The vehicle is moving slowly in a line of traffic. The driver is maintaining a safe distance from the car in front. The vehicle is staying in its lane and not attempting to overtake any other vehicles. The speed is slow due to the heavy traffic conditions.",
+      "key_objects": "1) Right: Car, close distance, blocking view of potential hazards. 2) Left: Metal fence, close distance, separating the road from the sidewalk.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_046": {
+      "video_id": "images_5_046",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car at night. There are other cars on the road. A man on a scooter is on the left side of the road, wearing a white shirt and shorts.",
+      "summary": "The video shows a car driving at night. The car approaches an intersection with a green light. A man on a scooter suddenly appears from the left side of the road, crossing the intersection. This constitutes a ghost probing incident as the scooter emerges from behind parked cars.",
+      "actions": "The vehicle is initially stopped at an intersection. The traffic light turns green, and the vehicle begins to accelerate to proceed through the intersection. The driver maintains a straight course through the intersection.",
+      "key_objects": "1) Left: A man on a scooter, medium distance, suddenly appears from behind parked cars and crosses the intersection, creating a ghost probing situation. 2) Left: Parked cars, close distance, obstruct the view of the scooter until it emerges into the intersection.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_047": {
+      "video_id": "images_5_047",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a busy urban street with pedestrians, scooters, and parked vehicles. Several people are crossing the street. There are buildings and shops lining the street. The driver's view is from inside a car.",
+      "summary": "The vehicle is driving on a city street. The vehicle is approaching an intersection with crosswalks. There are pedestrians and scooters crossing the street. The vehicle is slowing down as it approaches the intersection. A pedestrian suddenly appears in front of the vehicle, causing a near-collision. The vehicle stops abruptly to avoid hitting the pedestrian.",
+      "actions": "The vehicle is initially driving forward at a moderate speed. As it approaches the intersection, the driver begins to decelerate, likely in anticipation of potential pedestrian or vehicle traffic. The driver then brakes sharply to avoid hitting a pedestrian who unexpectedly enters the roadway.",
+      "key_objects": "1) Left: Pedestrian crossing the street, medium distance, causes the vehicle to brake suddenly to avoid a collision. 2) Right: Parked vehicles, medium distance, partially obstruct the view of pedestrians approaching the crosswalk.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_048": {
+      "video_id": "images_5_048",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car, with other cars and motorcycles on the road. There are also pedestrians visible on the right side of the road. The pedestrians and motorcyclists are wearing various clothing. The other cars are standard passenger vehicles.",
+      "summary": "The vehicle is driving on a multi-lane road with other vehicles. The road appears to be approaching an intersection. There are motorcycles and pedestrians on the right side of the road. The vehicle maintains its speed and lane position as it approaches the intersection.",
+      "actions": "The vehicle maintains a consistent speed and lane position. The driver is likely monitoring the surrounding traffic and preparing to navigate the upcoming intersection. The vehicle is driving straight, following the lane markings on the road. The driver is maintaining a safe distance from the vehicle in front.",
+      "key_objects": "1) Right side: Motorcyclist, medium distance, potentially entering the lane. 2) Center: Vehicle ahead, medium distance, maintaining speed.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_049": {
+      "video_id": "images_5_049",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a street with cars parked on both sides. There are pedestrians walking in the distance. The driver is inside a car.",
+      "summary": "The vehicle is driving down a street with cars parked on both sides. Pedestrians are visible in the distance. The vehicle maintains a steady speed and direction.",
+      "actions": "The vehicle is driving straight down the road. The speed appears to be constant, likely due to the presence of parked cars and pedestrians in the distance. The driver is maintaining the current lane.",
+      "key_objects": "1) Left side: Parked cars, obstruct the view of potential pedestrians, medium distance, could lead to ghost probing. 2) Right side: Parked cars, obstruct the view of potential pedestrians, medium distance, could lead to ghost probing. 3) Center: Pedestrians in the distance, far distance, requires monitoring.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_050": {
+      "video_id": "images_5_050",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene shows a driver in a car, a motorcyclist with a passenger, and a white car parked on the right side of the road. The motorcyclist is carrying a passenger with a pink backpack. The motorcyclist and passenger are both wearing dark clothing. The driver is wearing a red shirt.",
+      "summary": "The vehicle is approaching an intersection. A motorcycle with two riders suddenly appears from the left side of the road, attempting to cross the intersection. The motorcycle collides with the vehicle, causing the riders to fall off the motorcycle. The vehicle comes to a stop after the collision.",
+      "actions": "The vehicle is initially approaching an intersection at a slow speed. Upon seeing the motorcycle entering the intersection from the left, the driver attempts to brake but is unable to avoid a collision. The vehicle then comes to a complete stop after the impact.",
+      "key_objects": "1) Left: Motorcycle with two riders, medium distance, suddenly appears from behind trees and bushes, causing a collision. 2) Right: White car, parked, far distance, no impact on the current action.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_051": {
+      "video_id": "images_5_051",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene features a driver in a vehicle, a red car driving in the opposite direction, a truck on the left side of the road, and a man on a scooter on the right side of the road. The man on the scooter is wearing a white jacket and dark pants.",
+      "summary": "The vehicle is driving on a road with light traffic. A red car passes in the opposite direction. A man on a scooter is on the right side of the road, preparing to enter the roadway. The scooter driver is positioned at an intersection and appears to be preparing to cross the road, potentially creating a dangerous situation.",
+      "actions": "The vehicle is driving straight on the road, maintaining its speed. The driver is likely proceeding cautiously due to the presence of other vehicles and the potential for pedestrians or cyclists to enter the roadway. The vehicle maintains its current speed to navigate the road safely.",
+      "key_objects": "1) Right: A man on a scooter is positioned on the right side of the road at an intersection, preparing to enter the roadway. His actions pose a potential risk of collision. 2) Left: A truck is on the left side of the road, potentially obstructing the view of other vehicles or pedestrians.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_052": {
+      "video_id": "images_5_052",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene is at night. The driver is driving on a road with street lights. There is a person lying on the road in front of the car. The person appears to be an adult, wearing light-colored clothing, and is lying prone on the road.",
+      "summary": "The vehicle is driving at night on a road with street lights. As the video progresses, a person lying on the road becomes visible directly in front of the vehicle. The driver is approaching the person at a steady speed.",
+      "actions": "The vehicle is driving straight at a constant speed. The driver is maintaining the current lane. The driver does not appear to be slowing down or changing direction initially, but the person lying on the road becomes more visible as the car approaches.",
+      "key_objects": "1) Front: A person lying prone on the road, approximately 5-10 meters ahead, posing an immediate collision risk. 2) Left: Street signs and poles on the left side of the road, providing visual context but not directly impacting the immediate driving action.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "turn left",
+        "lane_control": "change left"
+      }
+    },
+    "images_5_053": {
+      "video_id": "images_5_053",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver navigating a narrow road in a rural area. There are buildings on both sides of the road. A white car is parked on the left side of the road. A person on a bicycle is seen further down the road.",
+      "summary": "The vehicle is driving down a narrow road in a rural area. The road is lined with buildings on both sides. A white car is parked on the left side of the road. As the vehicle progresses, a cyclist becomes visible further down the road.",
+      "actions": "The vehicle is driving straight down a narrow road. The speed appears to be slow and steady, likely due to the confined space and the presence of buildings close to the road. The driver maintains the current lane.",
+      "key_objects": "1) Left: Parked white car, medium distance, could potentially obstruct view or movement. 2) Center: Cyclist, far distance, moving in the same direction, potential for interaction.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_054": {
+      "video_id": "images_5_054",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a driver in a car at an intersection. There are other cars on the road. Pedestrians are visible in the later frames. The driver appears to be an older woman.",
+      "summary": "The vehicle is at an intersection, initially behind another car. The traffic light changes, and the vehicle proceeds through the intersection. Other cars are present, and pedestrians begin to appear as the vehicle clears the intersection.",
+      "actions": "The vehicle starts from a stopped position at an intersection. It waits for the traffic light to change. Once the light turns green, the vehicle accelerates and proceeds straight through the intersection. The driver maintains a steady speed while crossing the intersection.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_055": {
+      "video_id": "images_5_055",
+      "segment_id": "full_video",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "The scene features a driver in a car, pedestrians, and other vehicles. The pedestrian in the first few frames is a young adult, wearing a pink shirt and carrying a bag. Later frames show pedestrians interacting near parked cars. The final frames show a man on a scooter.",
+      "summary": "The video starts with the car driving on a road with parked cars on both sides. A pedestrian crosses the road from left to right in front of the car. The car then proceeds to an intersection where several cars are parked and people are standing around them. The car then turns right onto a main road, where a man on a scooter is in front of the car.",
+      "actions": "The vehicle initially drives slowly down a street with parked cars. The driver slows down to allow a pedestrian to cross the road. The vehicle then proceeds to an intersection and slows down further due to the presence of parked cars and pedestrians. The vehicle then turns right onto a main road and accelerates.",
+      "key_objects": "1) Left: Pedestrian crossing the road, medium distance, causes the driver to slow down. 2) Left and Right: Parked cars, short distance, obstruct the view and require the driver to proceed with caution. 3) Front: Man on a scooter, short distance, requires the driver to maintain a safe following distance.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "acceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    }
+  }
+}

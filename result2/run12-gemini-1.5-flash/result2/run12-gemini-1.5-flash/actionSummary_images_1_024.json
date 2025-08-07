@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_1_024",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.0s",
+    "scene_theme": "Driving on a two-lane road",
+    "characters": "Driver of a dark-colored car, a white SUV ahead",
+    "summary": "The video shows a dark-colored car driving on a two-lane road.  A white SUV is visible ahead, maintaining a consistent distance. The road appears relatively clear with some trees and buildings visible on the sides. No pedestrians or cyclists are observed. The driving conditions seem normal, with no immediate hazards apparent.",
+    "actions": "The self-driving vehicle maintains a consistent speed and distance from the vehicle ahead.  The driver appears to be following the vehicle in front at a safe distance, adjusting speed as needed to maintain this distance. No lane changes or significant steering adjustments are observed during this segment.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

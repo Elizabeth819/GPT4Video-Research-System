@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_054",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several cars are visible at the intersection. A white sedan is on the left, and a black sedan is directly in front of the self-driving vehicle. A gold sedan is approaching from the right.",
+  "summary": "The self-driving vehicle is approaching an intersection in a city during daytime. There are several other vehicles present. A white sedan is to the left, and a black sedan is directly ahead. A gold sedan is approaching the intersection from the right. The traffic light ahead is visible, but its color is not clear. The vehicle is proceeding at a steady speed.",
+  "actions": "The vehicle is approaching an intersection and maintaining its current speed. The driver is likely assessing the traffic light and the movement of other vehicles to determine whether to proceed through the intersection or stop. The vehicle is keeping a safe distance from the car in front.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

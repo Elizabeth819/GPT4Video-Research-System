@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_004",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.9s",
+  "summary": "The self-driving car is traveling on a straight road during the daytime. From 0.0s to 7.0s, the car maintains a constant speed. At 7.0s, a man wearing dark clothing suddenly appears from behind a building on the right side of the road and begins to cross the street. This constitutes a ghost probing incident. The man is walking at a moderate speed. From 7.0s to 14.9s, the car decelerates to avoid hitting the man. At 11.1s, the man is very close to the car. At 12.2s, the man has already crossed the road. At 14.9s, the car has passed the crossing and is accelerating again.",
+  "actions": "From 0.0s to 7.0s, the vehicle maintains a constant speed, likely due to the clear road ahead and the absence of immediate obstacles. From 7.0s to 14.9s, the vehicle decelerates to avoid a collision with a man crossing the road. The deceleration is a direct response to the sudden appearance of the man, prioritizing safety.",
+  "next_action": {
+    "speed_control": "accelerating",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "Right side: A man wearing dark clothing, approximately 5 meters away, suddenly crossing the road from behind a building, causing the vehicle to decelerate."
+}

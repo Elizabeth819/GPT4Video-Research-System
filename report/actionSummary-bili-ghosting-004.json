@@ -1,0 +1,223 @@
+[
+    {
+        "video_id": "004",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, electric scooter rider",
+        "summary": "In this segment, the vehicle is approaching an intersection with a red light. The right two lanes are filled with vehicles. Suddenly, an electric scooter darts out from the right side, startling the driver. This sudden appearance of the scooter is extremely dangerous.",
+        "actions": "The self-driving vehicle is approaching an intersection with a red light. The driver is cautious due to the heavy traffic in the right two lanes. Suddenly, an electric scooter appears from the right side, causing the driver to be startled. The vehicle maintains a slow speed to avoid any potential collision.",
+        "key_objects": "1) Right side: An electric scooter, approximately 2 meters away, suddenly darting out from behind a parked truck towards the left side of the road, directly into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a red truck",
+        "summary": "In this segment, the vehicle is driving on a highway. Initially, the vehicle is in the left lane, and a red truck is seen approaching from behind in the right lane. The driver mentions the danger of a sudden appearance of an electric bike and expresses concern about the truck drivers attitude. The driver then notices a situation ahead and prepares to change lanes to the right. However, a large red truck is approaching quickly from behind in the right lane, making the lane change dangerous.",
+        "actions": "The self-driving vehicle is preparing to change lanes to the right due to a situation ahead. The driver is cautious about the approaching red truck from behind in the right lane. The vehicle maintains a steady speed while assessing the situation.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a steady speed. 2) Right: A red truck, approximately 5 meters away, rapidly approaching from behind.",
+        "key_actions": "right-side overtaking",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "21.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "30.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black car, driver of a red truck",
+        "summary": "In this segment, the self-driving vehicle is traveling on a highway. A red truck is seen on the right side, moving at a slower speed. The driver of the black car ahead is attempting to change lanes to the right, but there is a large truck in the adjacent lane. The driver of the black car is hesitant and seems to be trying to avoid a rear-end collision. The self-driving vehicle maintains a safe distance behind the black car. In the final frames, the self-driving vehicle approaches an intersection with a white bus ahead.",
+        "actions": "The self-driving vehicle is maintaining a safe distance behind the black car, which is attempting to change lanes to the right. The driver of the black car is hesitant due to the presence of a large truck in the adjacent lane. The self-driving vehicle is approaching an intersection with a white bus ahead.",
+        "key_objects": "1) Right side: A red truck, approximately 5 meters away, moving at a slower speed, potentially blocking the lane change of the black car. 2) Front: A black car, approximately 3 meters away, attempting to change lanes to the right, but hesitating due to the presence of the red truck. 3) Front: A white bus, approximately 20 meters away, approaching an intersection.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "31.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "40.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black Volkswagen, driver of a white bus",
+        "summary": "In this segment, the black Volkswagen on the right side of the road suddenly makes a left turn, cutting in front of the white bus and the self vehicle. The driver of the self vehicle comments on the dangerous maneuver, noting that the oncoming vehicles did not see the black Volkswagen. The self vehicle maintains its lane and speed, avoiding a collision.",
+        "actions": "The black Volkswagen on the right side suddenly cuts in front of the white bus and the self vehicle, making a left turn. The self vehicle maintains its lane and speed to avoid a collision.",
+        "key_objects": "1) Right side: A black Volkswagen, approximately 2 meters away, suddenly making a left turn, cutting in front of the white bus and the self vehicle. 2) Front: A white bus, approximately 5 meters away, continuing straight.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "maintain current speed",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "41.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "50.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white truck",
+        "summary": "In this segment, a white truck is seen making a left turn from the right lane, which is not the designated lane for left turns. The truck continues to turn left, crossing the path of other vehicles that are going straight. The driver comments on the improper behavior of the truck driver, noting that the truck is not following the correct lane rules and is causing potential danger at the intersection.",
+        "actions": "The white truck is making an improper left turn from the right lane, crossing the path of vehicles going straight. The self-driving vehicle maintains its position and speed, observing the trucks movement to avoid a potential collision.",
+        "key_objects": "1) Front-right: A white truck, approximately 5 meters away, making an improper left turn from the right lane, potentially causing a collision.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "51.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "60.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, electric scooter rider",
+        "summary": "In this segment, the vehicle is driving on a city road. Initially, the vehicle is behind a truck at an intersection. As the vehicle proceeds, it moves to a different road where a person on an electric scooter is seen crossing the zebra crossing from the right side. The driver is advised to slow down as they approach the zebra crossing. The electric scooter rider continues to cross the road, and the driver is reminded to be cautious.",
+        "actions": "The self-driving vehicle initially follows a truck at an intersection. As it moves to a different road, the driver is advised to slow down due to a zebra crossing ahead. The vehicle maintains a steady speed while approaching the crossing, where an electric scooter rider is seen crossing from the right side. The driver is reminded to be cautious and slow down.",
+        "key_objects": "1) Front: A truck, approximately 5 meters away, initially blocking the view at the intersection. 2) Right side: An electric scooter rider, approximately 3 meters away, crossing the zebra crossing from the right side of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "61.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "70.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, pedestrians, vehicles",
+        "summary": "In this segment, the vehicle is driving on a city street. Initially, the road is clear with some parked cars on the right side. As the vehicle progresses, a pedestrian and a cyclist appear on the right side of the road. The driver comments on the importance of slowing down at pedestrian crossings, especially when there are people and vehicles around. The scene then shifts to a different location where the vehicle approaches a pedestrian crossing with visible pedestrians and vehicles on both sides. The driver emphasizes the need to reduce speed in such situations.",
+        "actions": "The self-driving vehicle maintains a steady speed initially but should be prepared to decelerate as it approaches the pedestrian crossing with visible pedestrians and vehicles. The driver highlights the importance of slowing down at crossings when there are people and vehicles present.",
+        "key_objects": "1) Right side: A pedestrian, approximately 5 meters away, walking towards the road. 2) Right side: A cyclist, approximately 7 meters away, riding towards the road. 3) Front: A white van, approximately 10 meters away, moving slowly. 4) Front: A yellow car, approximately 15 meters away, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "71.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "80.0s",
+        "scene_theme": "Dramatic",
+        "characters": "White van, yellow taxi, pedestrian",
+        "summary": "In this segment, the vehicle is driving on a road with a white van ahead and a yellow taxi on the left. Suddenly, a pedestrian appears from the right side, running towards the road. The pedestrians sudden appearance causes a dramatic situation.",
+        "actions": "The self-driving vehicle maintains a steady speed while approaching the intersection. The white van ahead is moving slowly. The yellow taxi on the left is also moving forward. Suddenly, a pedestrian runs from the right side towards the road, creating a potential collision risk.",
+        "key_objects": "1) Front-left: A white van, approximately 10 meters away, moving slowly. 2) Left: A yellow taxi, approximately 8 meters away, moving forward. 3) Right side: A pedestrian, approximately 5 meters away, suddenly running towards the road, directly into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight left shift"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "81.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "90.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red car, rider of an electric scooter",
+        "summary": "In this segment, the self-driving vehicle is approaching an intersection with a green left-turn signal. A red car is seen making a left turn from the left side of the intersection. As the self-driving vehicle continues, an electric scooter also appears from the left side, making a left turn. The road ahead has a water puddle, and the scooter rider seems to slip.",
+        "actions": "The self-driving vehicle is approaching an intersection and preparing to make a left turn. The driver is cautious due to the presence of a red car making a left turn and an electric scooter also turning left. The road condition ahead is wet, which may cause the scooter to slip.",
+        "key_objects": "1) Left side: A red car, approximately 10 meters away, making a left turn. 2) Left side: An electric scooter, approximately 15 meters away, making a left turn and potentially slipping due to a water puddle on the road.",
+        "key_actions": "left-side overtaking",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "91.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "100.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, electric scooter rider, red car driver",
+        "summary": "In this segment, the vehicle is approaching an intersection. A pedestrian on the left side suddenly slips, causing a potential hazard. The driver comments on the unexpected slip. A red car on the left side is moving straight, while a white car on the right side is turning left. The driver expresses surprise and concern about the situation.",
+        "actions": "The self-driving vehicle is approaching an intersection. The driver is alert and comments on the unexpected slip of a pedestrian on the left side. The driver also notes the movement of a red car going straight and a white car turning left. The vehicle maintains a cautious speed to avoid any potential collisions.",
+        "key_objects": "1) Left side: A pedestrian, approximately 5 meters away, suddenly slips, causing a potential hazard. 2) Left side: A red car, approximately 10 meters away, moving straight. 3) Right side: A white car, approximately 8 meters away, turning left.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "101.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "110.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a silver car, cyclist on an electric bike",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Initially, the scene shows a wide intersection with multiple vehicles and a cyclist on an electric bike. The cyclist appears to be running a red light. The driver comments on the situation, suggesting that the small car is not at fault. Later, the scene shifts to a night setting with heavy traffic. The driver mentions that the car ahead is in the wrong lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the traffic situation. The driver comments on the cyclist running a red light and later notes that the car ahead is in the wrong lane. The vehicles speed remains consistent, and there are no sudden maneuvers.",
+        "key_objects": "1) Front: A cyclist on an electric bike, approximately 10 meters away, running a red light, moving from left to right. 2) Front: A white sedan, approximately 15 meters away, in the wrong lane, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "111.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "120.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, Driver of a white sedan",
+        "summary": "In this segment, the self vehicle is in a lane with a solid line, preparing to cut into the left lane. The driver comments on the close distance and the likelihood that the car on the left will not yield. The white SUV on the left does not allow the self vehicle to merge, leading to a potential collision.",
+        "actions": "The self vehicle attempts to cut into the left lane from a lane with a solid line, which is illegal and dangerous. The white SUV on the left does not yield, maintaining its position and speed. The self vehicle continues to try to merge despite the close distance, increasing the risk of a collision.",
+        "key_objects": "1) Left side: A white SUV, approximately 1 meter away, maintaining its position and speed, not yielding to the self vehicle. 2) Front-left: A white sedan, approximately 2 meters away, also maintaining its position and speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "brake",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "121.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "130.0s",
+        "scene_theme": "Dramatic",
+        "characters": "White SUV, Yellow Car, Taxi",
+        "summary": "In this segment, a white SUV is seen colliding with a taxi at an intersection without traffic lights. The collision occurs as the taxi attempts to cross the intersection, and the white SUV does not yield. The yellow car is approaching the intersection from the right side. The collision causes significant damage to both the white SUV and the taxi, and the yellow car stops to avoid the accident.",
+        "actions": "The white SUV collided with the taxi at the intersection. The yellow car approaching from the right side stopped to avoid the collision. The self-driving vehicle maintained a safe distance and stopped to avoid further incidents.",
+        "key_objects": "1) Front-left: A white SUV, approximately 5 meters away, colliding with a taxi. 2) Front-right: A yellow car, approximately 7 meters away, stopping to avoid the collision.",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

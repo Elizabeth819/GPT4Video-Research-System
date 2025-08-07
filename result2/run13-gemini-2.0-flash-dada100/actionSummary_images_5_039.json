@@ -1,0 +1,27 @@
+{
+  "video_id": "images_5_039",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.7s",
+  "summary": "The self-driving car is traveling on a multi-lane road with other vehicles present. From 0.0s to 8.0s, the car maintains a steady speed, navigating through moderate traffic. At 8.0s, a man wearing a dark jacket and pants is riding a white scooter on the right side of the road. At 9.0s, the scooter and the man are on the ground. From 9.0s to 12.7s, the man is standing next to the scooter, which is lying on the road. The man appears to be assessing the situation after the fall. The scooter and the man are on the right side of the road, and the self-driving car is approaching them.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "dark jacket and pants",
+      "colors": "dark",
+      "age": "adult",
+      "transportation_method": "scooter",
+      "way_of_walking": "standing"
+    }
+  ],
+  "key_objects": [
+    "Right side: A man standing next to a scooter lying on the road, approximately 10 meters away, potentially obstructing the vehicle's path and requiring deceleration or lane change."
+  ],
+  "actions": "From 0.0s to 8.0s, the vehicle maintains a constant speed, likely due to the presence of other vehicles and the need to maintain a safe following distance. At 8.0s, the vehicle continues at the same speed. From 9.0s to 12.7s, the vehicle continues at the same speed, likely because the driver is assessing the situation and preparing to react to the fallen scooter and the man on the right side of the road.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "change to left lane"
+  },
+  "key_actions": "none"
+}

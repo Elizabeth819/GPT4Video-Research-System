@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_010",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "End_Timestamp": "19.0s",
+    "scene_theme": "Dramatic",
+    "characters": "Pedestrian, motorcyclist",
+    "summary": "In this segment, the vehicle is driving on a road with a wall on the right side. A pedestrian suddenly appears from the left side and crosses the road. Shortly after, a motorcyclist emerges from the right side, from behind a wall, and crosses the vehicles path.",
+    "actions": "The self-driving vehicle is driving at a consistent speed. Upon noticing the pedestrian crossing from the left side, the vehicle starts to decelerate. The motorcyclist emerging from the right side causes the vehicle to decelerate further to avoid a potential collision.",
+    "key_objects": "1) Left side: A pedestrian, approximately 10 meters away, crossing the road from left to right. 2) Right side: A motorcyclist, approximately 5 meters away, emerging from behind a wall and crossing the vehicles path.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "decelerate",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

@@ -1,0 +1,8 @@
+2025-07-27 16:28:44,131 - INFO - Run 8 Supplement: 单视频补充处理开始
+2025-07-27 16:28:44,131 - INFO - Azure OpenAI API配置成功
+2025-07-27 16:28:44,131 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-27 16:28:44,131 - INFO - Deployment: gpt-4o-global
+2025-07-27 16:28:44,131 - INFO - Temperature: 0 (与Run 8保持一致)
+2025-07-27 16:28:44,131 - INFO - 开始处理视频: algotest-cutin.avi
+2025-07-27 16:28:59,061 - INFO - 视频 algotest-cutin.avi: 检测=none, 评估=NORMAL
+2025-07-27 16:28:59,062 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8_gpt4o_ghost_probing_fewshot_100videos_results/supplement/run8_supplement_results_20250727_162844.json

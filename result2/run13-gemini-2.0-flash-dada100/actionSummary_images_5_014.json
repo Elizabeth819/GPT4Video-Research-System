@@ -1,0 +1,63 @@
+{
+  "video_id": "images_5_014",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "5.0s",
+      "characters": [
+        "Two people are walking across the street from left to right, wearing dark clothing.",
+        "A car is parked on the right side of the road.",
+        "There is a gate and a guard booth in front of the car."
+      ],
+      "summary": "From 0.0s to 5.0s, the car approaches a gate with two people walking across the street from left to right. They are wearing dark clothing. A car is parked on the right side of the road. The gate is opening.",
+      "actions": "The vehicle is approaching a gate and slowing down, likely to pass through it. The driver is reducing speed to navigate the gate and the pedestrians crossing the street.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "5.0s",
+      "End_Timestamp": "10.0s",
+      "characters": [
+        "Two people are walking across the street from left to right, wearing dark clothing.",
+        "A car is parked on the right side of the road.",
+        "The gate is opening.",
+        "There are multiple cars parked on the right side of the road."
+      ],
+      "summary": "From 5.0s to 10.0s, the car is passing through the gate. Two people are walking across the street from left to right. They are wearing dark clothing. There are multiple cars parked on the right side of the road.",
+      "actions": "The vehicle is passing through the gate and continuing forward. The driver is maintaining a slow speed to ensure safety while navigating the area with pedestrians and parked cars.",
+      "next_action": {
+        "speed_control": "accelerating",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "10.0s",
+      "End_Timestamp": "15.0s",
+      "characters": [
+        "A bus is approaching from the left.",
+        "A person on a motorcycle is approaching from the right.",
+        "A white car is approaching from the left.",
+        "A woman is walking on the left side of the road.",
+        "The person on the motorcycle is wearing a red hat and dark clothing."
+      ],
+      "summary": "From 10.0s to 15.0s, the car is approaching an intersection. A bus is approaching from the left. A person on a motorcycle, wearing a red hat and dark clothing, is approaching from the right. A white car is approaching from the left. A woman is walking on the left side of the road. The motorcycle is potentially ghost probing from behind the bus.",
+      "actions": "The vehicle is approaching an intersection and slowing down. The driver is likely assessing the traffic situation before proceeding.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Right]: A person on a motorcycle, wearing a red hat and dark clothing, approximately 15 meters away, approaching the intersection from behind the bus, potentially causing the vehicle to decelerate or stop."
+    }
+  ]
+}

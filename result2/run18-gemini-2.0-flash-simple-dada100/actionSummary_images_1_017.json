@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_017",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car driving down a tree-lined street. There are other cars, buses, and pedestrians visible. The pedestrians appear to be adults.",
+  "summary": "The vehicle is driving down a road with buses on either side. The vehicle maintains its lane and speed. As the video progresses, the vehicle approaches an intersection with a green light. The vehicle continues straight through the intersection.",
+  "actions": "The vehicle maintains a consistent speed and direction, following the lane markings on the road. The driver is proceeding straight through the intersection because the traffic light is green.",
+  "key_objects": "1) Left: A green bus is traveling in the same direction, potentially obstructing the view of pedestrians or vehicles emerging from the left side of the road. Distance: Close. Behavior impact: Potential for ghost probing. 2) Right: A blue and white bus is traveling in the same direction, potentially obstructing the view of pedestrians or vehicles emerging from the right side of the road. Distance: Close. Behavior impact: Potential for ghost probing.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

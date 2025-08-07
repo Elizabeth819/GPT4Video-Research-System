@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_5_004",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Night driving",
+    "characters": "Driver of a white sedan, cyclist",
+    "summary": "The video shows a white sedan driving at night under a bridge. A cyclist is visible ahead, riding in the same lane.  The cyclist appears to be riding slowly and steadily.  Towards the end of the video, the cyclist appears to veer towards the right side of the road and then falls or is involved in an incident near a concrete barrier. The exact nature of the incident is unclear from the video alone.",
+    "actions": "The self-driving vehicle maintains a consistent speed throughout the 10-second segment, keeping a safe distance from the cyclist ahead.  There are no observable changes in speed or direction by the self-driving vehicle.",
+    "key_objects": "Front: Cyclist, approximately 20 meters away at the start, moving slowly and then veering right and falling near a concrete barrier at the end of the video.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_004",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.5s",
+    "scene_theme": "Night driving, road construction",
+    "characters": "Driver of a white sedan",
+    "summary": "The video shows a white sedan driving at night on a road under construction.  There is a significant section of damaged road and a barrier present on the right side of the road. The vehicle maintains a steady speed and course, navigating around the damaged area. No other vehicles or individuals are immediately visible that pose a direct threat.",
+    "actions": "The self-driving vehicle maintains a consistent speed and direction, carefully navigating around a damaged section of road and a barrier on the right-hand side. The driver appears to be exercising caution and maintaining a safe distance from the damaged area.  There is no indication of braking or acceleration.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

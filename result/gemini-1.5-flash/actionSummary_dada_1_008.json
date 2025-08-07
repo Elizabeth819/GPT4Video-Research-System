@@ -1,0 +1,17 @@
+[
+  {
+    "video_id": "dada_1_008",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00.000",
+    "End_Timestamp": "00:00:03.333",
+    "summary": "The vehicle is driving on a road with parked cars on the left and a wall on the right. Pedestrians and cyclists are present on the road and sidewalk. A taxi pulls out from behind a parked truck on the left side of the road.",
+    "actions": "The vehicle is currently driving straight. The taxi pulling out from behind the parked truck requires the driver to be aware and potentially slow down.",
+    "key_objects": "Vehicle, parked cars, pedestrians, cyclist, taxi.",
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed, prepare to decelerate",
+      "direction_control": "stay in lane",
+      "lane_control": "none"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_049",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A person walking in the middle of the road, wearing dark clothing, appears to be an adult.",
+  "summary": "The vehicle is driving on a road with parked cars on both sides. A person is walking in the middle of the road ahead. The person is wearing dark clothing and appears to be an adult. The road is straight and the visibility is fair. The person is walking away from the vehicle.",
+  "actions": "The vehicle is maintaining a steady speed and direction. The driver is likely aware of the person walking in the road ahead and is preparing to adjust speed or direction if necessary. The vehicle is maintaining its current lane.",
+  "key_objects": "1) Front: A person walking in the middle of the road, approximately 20 meters away, walking away from the vehicle.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

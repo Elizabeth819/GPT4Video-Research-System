@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_5_002",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rural Road",
+    "characters": "Driver of the observer vehicle, driver of a red tricycle",
+    "summary": "The video shows the observer vehicle driving on a narrow rural road.  The road curves gently to the right.  Between 5.6s and 10.0s, a red tricycle, appearing to be a three-wheeled motorized cargo vehicle, is visible ahead. The tricycle driver is a male, wearing dark clothing. The tricycle initially appears to be moving slowly, possibly yielding to the observer vehicle. However, the tricycle's speed and position relative to the observer vehicle are not entirely clear due to the limited view and resolution of the video. No immediate collision is observed within the 10-second segment.",
+    "actions": "The observer vehicle maintains a consistent speed, navigating a gentle right curve in the road.  The vehicle's speed appears moderate, appropriate for the rural road conditions.  There is no indication of braking or acceleration within the observed timeframe.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_002",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.2s",
+    "scene_theme": "Rural Road",
+    "characters": "Driver of a vehicle, a person driving a three-wheeled motorized vehicle",
+    "summary": "The video shows the self-driving vehicle following a three-wheeled motorized vehicle on a narrow rural road.  The three-wheeled vehicle is red and appears to be driven by a person wearing dark clothing. The road is relatively quiet with sparse roadside buildings and trees. No significant changes in relative positions or speeds are observed between the self-driving vehicle and the three-wheeled vehicle during this segment. The distance between the vehicles remains consistent.",
+    "actions": "The self-driving vehicle maintains a consistent following distance behind the three-wheeled motorized vehicle.  The speed of both vehicles appears to be relatively low and constant, suggesting a cautious approach given the narrow road conditions. There are no observable changes in direction or speed from the self-driving vehicle.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

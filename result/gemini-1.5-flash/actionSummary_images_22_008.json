@@ -1,0 +1,65 @@
+[
+    {
+        "video_id": "dada_22_008",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a five-second segment of highway driving. The self-driving vehicle maintains a consistent speed and lane position throughout the sequence.  The road is relatively clear with a single vehicle visible ahead, maintaining a safe distance. No pedestrians or other unexpected objects appear in the driving path. The weather appears slightly hazy.",
+        "actions": "The self-driving vehicle maintains a constant speed and stays in its lane throughout the five-second video segment. There are no observable changes in speed or direction. The vehicle's actions suggest a smooth and consistent driving pattern, indicating adherence to safe driving practices on a relatively clear highway.",
+        "next_action": {
+            "speed_control": "maintain_speed",
+            "direction_control": "straight",
+            "lane_control": "keep_lane"
+        }
+    },
+    {
+        "video_id": "dada_22_008",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a highway scene from a car's dashboard camera.  The view is primarily forward-facing.  For the duration of the 3.3-second clip, a white minivan is visible ahead in the same lane, maintaining a consistent distance from the observer vehicle. No other vehicles or pedestrians are observed entering or exiting the immediate vicinity of the road. The road appears clear and unobstructed. The weather appears slightly hazy.",
+        "actions": "The observer vehicle maintains a consistent speed and lane position throughout the observed 3.3 seconds.  There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle ahead. This suggests a steady and cautious driving style.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep lane"
+        }
+    },
+    {
+        "video_id": "dada_22_008",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.1s",
+        "key_objects": [
+            {
+                "Position": "Left",
+                "Object description": "A person, appearing to be a male, wearing dark clothing, walking along the roadside",
+                "distance": "approximately 10 meters",
+                "behavior or action impacting the vehicle": "walking parallel to the road, no immediate threat observed"
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark clothing",
+                "transportation_method": "Walking",
+                "behavior": "Walking along the roadside, parallel to the road. No sudden movements or attempts to cross the road observed."
+            }
+        ],
+        "summary": "The video segment shows a clear day on a highway. The self-driving vehicle maintains a steady speed in the right lane. A male, aged approximately 30-40, wearing dark clothing, is observed walking along the left side of the road, parallel to the vehicle's path.  He maintains a consistent distance from the road and shows no indication of attempting to cross. A white car is visible in the left lane in the final frame, appearing to be merging into the lane. No immediate dangerous actions are observed.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the video segment. There are no observable changes in speed or direction. The vehicle's actions suggest a safe and predictable driving pattern.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep right"
+        }
+    }
+]

@@ -1,0 +1,156 @@
+[
+    {
+        "event_id": "event_001",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "0.00s",
+        "end_timestamp": "10.00s",
+        "timestamp": "2024-12-12 17:44:04",
+        "key_objects": "a white sedan on the left",
+        "key_actions": "overtaken left",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_002",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "10.00s",
+        "end_timestamp": "20.00s",
+        "timestamp": "2024-12-12 17:45:03",
+        "key_objects": "a white sedan on the left",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "change to left lane"
+        }
+    },
+    {
+        "event_id": "event_003",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "20.00s",
+        "end_timestamp": "30.00s",
+        "timestamp": "2024-12-12 17:45:53",
+        "key_objects": "a white sedan in front",
+        "key_actions": "cut-in, collision",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "steer to circumvent",
+            "lane_control": "change to right lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "30.00s",
+        "end_timestamp": "40.00s",
+        "timestamp": "2024-12-12 17:47:17",
+        "key_objects": "a black SUV on the left",
+        "key_actions": "cut-in, collision, improper lane change",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_006",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "50.00s",
+        "end_timestamp": "60.00s",
+        "timestamp": "2024-12-12 17:54:31",
+        "key_objects": "a white SUV on the right",
+        "key_actions": "cut-in, collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_008",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "70.00s",
+        "end_timestamp": "80.00s",
+        "timestamp": "2024-12-12 18:11:26",
+        "key_objects": "a van in the left",
+        "key_actions": "collision, improper lane change",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_009",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "80.00s",
+        "end_timestamp": "90.00s",
+        "timestamp": "2024-12-12 18:19:25",
+        "key_objects": "a black car on the right",
+        "key_actions": "overtaken right",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_011",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "100.00s",
+        "end_timestamp": "110.00s",
+        "timestamp": "2024-12-12 18:22:13",
+        "key_objects": "a black SUV on the right",
+        "key_actions": "collision, overtaken right, improper lane change",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "slight left shift"
+        }
+    },
+    {
+        "event_id": "event_013",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "120.00s",
+        "end_timestamp": "130.00s",
+        "timestamp": "2024-12-12 18:24:51",
+        "key_objects": "a white sedan on the right",
+        "key_actions": "cut-in, overtaken right",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_014",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "130.00s",
+        "end_timestamp": "140.00s",
+        "timestamp": "2024-12-12 18:26:07",
+        "key_objects": "self car in rainy weather at night",
+        "key_actions": "collision, improper lane change",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_017",
+        "video_id": "004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili",
+        "start_timestamp": "160.00s",
+        "end_timestamp": "168.93s",
+        "timestamp": "2024-12-12 18:30:12",
+        "key_objects": "an electric scooter on the right",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

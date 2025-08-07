@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_021",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A green and red bus is on the left side of the road. Several pedestrians are on the right side of the road, including a male wearing a white shirt and dark pants who is running across the crosswalk.",
+  "summary": "The vehicle is driving on a wet urban road with a bus on the left. A male wearing a white shirt and dark pants suddenly runs across the crosswalk from the right side of the road. The pedestrian's sudden appearance creates a dangerous situation as he is running into the vehicle's path.",
+  "actions": "The vehicle is maintaining a steady speed on a wet road. The driver is likely proceeding cautiously due to the presence of the bus on the left and the potential for pedestrians crossing the road. The vehicle may need to decelerate if the pedestrian continues to run across the road.",
+  "key_objects": "1) Right side: A male wearing a white shirt and dark pants, approximately 5 meters away, running across the crosswalk into the vehicle's path. 2) Left side: A green and red bus, approximately 3 meters away, potentially obstructing the view of pedestrians.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

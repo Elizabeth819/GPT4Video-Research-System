@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_020",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person (adult, gender not clearly discernible, wearing a dark jacket and pants) riding a black scooter/motorcycle. Another person (adult, gender not clearly discernible, wearing a dark jacket and pants, carrying a bag) walking across the crosswalk.",
+  "summary": "The video begins with the autonomous vehicle driving straight on a multi-lane road lined with trees and buildings. Traffic appears moderate with other vehicles ahead and alongside. As the vehicle approaches a marked crosswalk, a black scooter/motorcycle, which was previously visible on the left side of the road, enters the crosswalk from the left. The scooter then appears to fall onto its side on the crosswalk, and the rider is seen dismounting or falling off. Simultaneously, another pedestrian is observed walking across the crosswalk from the left. The vehicle initiates rapid deceleration and comes to a stop in response to the incident unfolding directly in its path on the crosswalk.",
+  "actions": "The vehicle was initially maintaining a consistent speed and driving straight in its current lane. As it approached the crosswalk (around 10.0s), and a motorcycle entered the crosswalk from the left and subsequently fell, the vehicle initiated rapid deceleration. This action was taken to prevent a collision with the fallen motorcycle and its rider, who became an immediate obstruction on the crosswalk. The driver's response was a direct and necessary safety measure to the sudden and dangerous incident unfolding directly in the vehicle's path.",
+  "key_objects": "1) On the left side of the image, then center: A black scooter/motorcycle. This object was initially approaching the crosswalk from the left side of the road, then entered the crosswalk and fell onto its side directly in the vehicle's path, necessitating an immediate and rapid stop. 2) On the left side of the image, then center: A person (rider) wearing dark clothing. This individual was riding the scooter and then fell with it onto the crosswalk, becoming a direct obstruction in front of the vehicle and requiring the vehicle to stop. 3) On the left side of the image, then center: A pedestrian wearing dark clothing and carrying a bag. This individual was walking across the crosswalk from the left side of the road, also in the vehicle's potential path, contributing to the complex situation requiring the vehicle to stop.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_2_002",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rural Road",
+    "characters": "Several individuals, appearing to be construction workers and possibly residents, are visible near the roadside.  One man is seen bending over near the road, possibly working.",
+    "summary": "The video shows a vehicle driving down a narrow rural road.  On the left side of the road, there are several individuals, some appearing to be construction workers based on their attire and activities. They are engaged in activities near a pile of construction materials.  A man is seen bending over near the road, possibly picking up or placing something. The road appears relatively clear except for the workers' presence. The vehicle maintains a slow and steady speed throughout the segment, navigating carefully around the individuals near the road.",
+    "actions": "The vehicle maintains a slow and steady speed throughout the 10-second segment.  The driver appears to be exercising caution, adjusting speed and trajectory to maintain a safe distance from the individuals working near the road.  The slow speed is likely a precautionary measure due to the presence of people and potential obstacles near the road.",
+    "key_objects": "Left side: Several individuals, approximately 5-10 meters away, working near a pile of construction materials.  Their presence necessitates a cautious driving approach. One man is approximately 3 meters away, bending over near the road, potentially posing a sudden obstruction.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_2_002",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.2s",
+    "scene_theme": "Rural Road",
+    "characters": "Several individuals are visible on the left side of the road, appearing to be involved in some form of construction or maintenance work.  One individual is seen bending over near the road, possibly working on something.  On the right side of the road, there are other individuals, their activities unclear from the provided frames.",
+    "summary": "The video shows a vehicle approaching a section of road where several people are working.  The individuals on the left appear to be involved in construction or road work, while those on the right are less clearly visible.  The vehicle is moving slowly, and there is no immediate indication of any dangerous interactions. The scene is set in a rural area with buildings visible in the background.  Over the course of the four frames, the vehicle maintains a slow and steady pace, approaching the group of people working on the road. There is no sudden movement from any individuals that would indicate a potential hazard.",
+    "actions": "The vehicle is approaching a group of people working on or near the road. The vehicle maintains a slow and steady speed, indicating a cautious approach to the work zone.  There is no evidence of braking or acceleration within the observed frames.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

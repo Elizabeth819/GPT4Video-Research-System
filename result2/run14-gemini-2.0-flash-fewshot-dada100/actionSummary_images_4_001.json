@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_001",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male cyclist in dark clothing, wearing a cap, approximately 30 years old.",
+  "summary": "The vehicle is driving on a road with parked vehicles and trees on the left side. A male cyclist wearing dark clothing and a cap suddenly appears from behind a row of trees on the left side of the road. The cyclist is riding at a moderate speed and is crossing the road, directly entering the vehicle's path. The cyclist's sudden appearance from behind the trees creates a dangerous ghost probing situation, requiring immediate reaction from the driver.",
+  "actions": "The self-driving vehicle is maintaining a steady speed. As the cyclist suddenly appears from behind the trees, the vehicle will need to decelerate to avoid a potential collision. The driver needs to be prepared to take evasive action.",
+  "key_objects": "1) Left side: A male cyclist in dark clothing and a cap, approximately 5 meters away, suddenly emerging from behind a row of trees and crossing the road. 2) Left side: A row of trees, approximately 7 meters away, creating a visual obstruction that hides the cyclist until emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, and a cyclist. The child is on the right side of the image, darting into the road. The adult is also on the right side, following the child. The cyclist is on the right side, moving towards the road.",
+  "summary": "The video sequence shows a vehicle driving at night in an urban area. Initially, the road is clear, but a child suddenly darts out from the right side of the road, followed by an adult. This is a clear case of 'ghost probing' as the child and adult were hidden by parked vehicles and roadside structures until the moment of emergence, creating an immediate collision risk. In another sequence, a pedestrian with a child suddenly emerges from behind a parked vehicle on the left side, directly into the path of the observer vehicle. In the final sequence, a vehicle suddenly emerges from behind a building at an intersection, entering the main road perpendicular to the observer vehicle's path.",
+  "actions": "The child and adult on the right side suddenly dart into the road, creating an immediate collision risk. The pedestrian with a child on the left side also creates a sudden obstruction. The vehicle emerging from behind the building at the intersection poses a significant danger.",
+  "key_objects": "Parked vehicles on both sides of the road, roadside structures, a cyclist, and a vehicle emerging from behind a building.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_119",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a white sedan, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a city road in rainy weather. The traffic light ahead is red, and several vehicles are waiting at the intersection. A black sedan is positioned in front of the observer vehicle, while a white sedan is seen moving from the right side lane to the left side lane, potentially causing a cut-in situation. Additionally, a black car on the left side is moving forward, possibly overtaking the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The vehicle is slowing down due to the red traffic light ahead and the presence of other vehicles. The observer vehicle is keeping a safe distance from the black sedan in front and is monitoring the white sedans movement from the right side lane.",
+        "key_objects": "1) Front: A black sedan, approximately 5 meters away, stationary at the intersection. 2) Right: A white sedan, approximately 3 meters away, moving from the right side lane to the left side lane, potentially causing a cut-in. 3) Left: A black car, approximately 2 meters away, moving forward, possibly overtaking the observer vehicle.",
+        "key_actions": "cut-in, left-side overtaken",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

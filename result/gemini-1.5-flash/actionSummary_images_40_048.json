@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_40_048",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a black sedan, driver of a silver SUV",
+        "summary": "In this segment, the vehicle is stopped at a traffic light in an urban area. The black sedan in front remains stationary throughout the frames. The silver SUV on the right side gradually moves forward and eventually overtakes the black sedan and the observer vehicle.",
+        "actions": "The self-driving vehicle remains stationary at the traffic light. The silver SUV on the right side accelerates and overtakes the observer vehicle and the black sedan ahead.",
+        "key_objects": "1) Front: A black sedan, approximately 2 meters away, stationary. 2) Right: A silver SUV, approximately 3 meters away, accelerating and overtaking the observer vehicle.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "accelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

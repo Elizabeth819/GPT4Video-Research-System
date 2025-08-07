@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_002",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "End_Timestamp": "11.3s",
+    "scene_theme": "Calm",
+    "characters": "None",
+    "summary": "In this segment, the vehicle is driving on a rural road with no significant changes in the environment. There are no pedestrians or vehicles in the immediate vicinity that pose any danger.",
+    "actions": "The vehicle maintains a consistent speed and direction throughout the segment. There are no obstacles or other vehicles that require any change in speed or direction.",
+    "key_objects": "None",
+    "key_actions": "none",
+    "next_action": {
+        "speed_control": "consistent speed driving",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

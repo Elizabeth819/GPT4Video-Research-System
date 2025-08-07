@@ -1,0 +1,43 @@
+{
+  "video_id": "images_1_023",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.2s",
+  "summary": "From 0.0s to 4.0s, the self-driving car is approaching a crosswalk with several people crossing. At 2.4s, a person wearing a white top and dark pants falls in the middle of the road. From 4.0s to 7.2s, the self-driving car is braking and swerving to the left to avoid the person lying on the road.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "striped shirt and light-colored pants",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal",
+      "location": "right side of the road"
+    },
+    {
+      "gender": "female",
+      "clothing": "white top and dark pants",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal, then falling",
+      "location": "middle of the road"
+    },
+    {
+      "gender": "male",
+      "clothing": "light-colored top and dark pants",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal",
+      "location": "right side of the road"
+    }
+  ],
+  "key_objects": [
+    "Middle of the road: A female wearing a white top and dark pants, approximately 5 meters away, falls suddenly, causing the vehicle to brake and swerve."
+  ],
+  "actions": "The vehicle is initially approaching a crosswalk at a moderate speed. Upon observing a person falling in the middle of the road, the vehicle initiates emergency braking and swerving to the left to avoid a collision. The initial speed was likely chosen to safely navigate the crosswalk with pedestrians.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "turning",
+    "lane_control": "change to left lane"
+  },
+  "key_actions": "none"
+}

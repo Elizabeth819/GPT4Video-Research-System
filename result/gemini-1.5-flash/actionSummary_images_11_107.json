@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_107",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "6.2s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a silver sedan, driver of a white truck",
+        "summary": "In this segment, the vehicle is driving on a busy highway. A silver sedan is directly ahead, and a white truck is on the right side. The traffic is dense, and the vehicles are moving at a moderate speed. The white truck on the right side appears to be merging into the lane of the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while keeping a safe distance from the silver sedan ahead. The vehicle is also monitoring the white truck on the right side, which is attempting to merge into the lane.",
+        "key_objects": "1) Front: A silver sedan, approximately 5 meters away, maintaining a steady speed. 2) Right: A white truck, approximately 3 meters away, attempting to merge into the lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

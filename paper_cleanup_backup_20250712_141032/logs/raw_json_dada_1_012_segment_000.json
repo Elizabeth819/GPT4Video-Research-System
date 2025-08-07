@@ -1,0 +1,19 @@
+
+{
+  "video_id": "dada_1_012",
+  "segment_id": "segment_000",
+  "Start_Timestamp": "0.0s",
+  "sentiment": "Neutral",
+  "End_Timestamp": "9.0s",
+  "scene_theme": "Urban",
+  "characters": "Driver of a white sedan",
+  "summary": "In this segment, the vehicle is driving on an urban road with parked cars on both sides. A white sedan is ahead, maintaining a consistent distance. There are pedestrians on the right side of the road, including a person in a yellow jacket who appears to be crossing the street.",
+  "actions": "The self-driving vehicle maintains a steady speed, keeping a safe distance from the white sedan ahead. The vehicle is cautious due to the presence of pedestrians on the right side of the road.",
+  "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a consistent speed. 2) Right side: A person in a yellow jacket, approximately 5 meters away, crossing the street.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "consistent speed driving",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

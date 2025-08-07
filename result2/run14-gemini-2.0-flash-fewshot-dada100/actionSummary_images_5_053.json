@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_053",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A white sedan is parked on the left side of the road. A male cyclist wearing dark clothing is riding towards the vehicle.",
+  "summary": "The vehicle is driving down a narrow road with buildings on either side. A white sedan is parked on the left side of the road. A male cyclist wearing dark clothing is riding towards the vehicle. The cyclist is visible from a distance and does not suddenly appear, so there is no ghost probing incident.",
+  "actions": "The vehicle is maintaining a steady speed and driving straight down the road. The driver is likely proceeding cautiously due to the narrow road and parked vehicle.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

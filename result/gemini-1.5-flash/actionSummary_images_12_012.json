@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_12_012",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.3s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a black SUV, driver of a white sedan, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a multi-lane urban road. The traffic is moderate with vehicles moving steadily. A black SUV is directly ahead, a white sedan is in the adjacent left lane, and a black car is in the adjacent right lane. The black car on the right appears to be moving closer to the observer vehicles lane.",
+        "actions": "The self-driving vehicle maintains a steady speed and lane position, keeping a safe distance from the black SUV ahead. The vehicle is vigilant as the black car on the right shows signs of potentially merging into the observer vehicles lane.",
+        "key_objects": "1) Front: A black SUV, approximately 10 meters away, moving steadily. 2) Left side: A white sedan, approximately 15 meters away, moving steadily. 3) Right side: A black car, approximately 5 meters away, moving closer to the observer vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

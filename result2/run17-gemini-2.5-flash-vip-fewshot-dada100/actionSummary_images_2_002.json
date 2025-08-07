@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_2_002",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Three male adults on the left side of the road, one male adult carrying a barrel on the road.",
+    "summary": "The vehicle is driving on a narrow road in a rural area. Three male adults are standing on the left side of the road. One male adult is carrying a barrel and walking towards the center of the road, potentially creating a dangerous situation.",
+    "actions": "The self-driving vehicle is moving at a slow speed on a narrow road. The driver is likely proceeding cautiously due to the presence of people on the side of the road and the limited space.",
+    "key_objects": "1) Left side: A male adult, approximately 3 meters away, carrying a barrel and walking towards the center of the road, potentially obstructing the vehicle's path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_2_002",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.2s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Two male adults on the left side of the road, one male adult in front of the vehicle.",
+    "summary": "The vehicle is on a narrow road in a residential area. There are two male adults standing on the left side of the road. There is another male adult in front of the vehicle, bending over and appearing to be working on something in the road. The presence of people in the road creates a potentially dangerous situation.",
+    "actions": "The vehicle is approaching the group of people in the road. The driver is likely slowing down due to the presence of people in the road.",
+    "key_objects": "1) Left side: Two male adults, approximately 3 meters away, standing on the side of the road. 2) Front: A male adult, approximately 2 meters away, bending over and working in the road, potentially obstructing the vehicle's path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

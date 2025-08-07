@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_14_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a winding rural road with clear weather conditions. The road is empty, and there are no other vehicles or pedestrians visible in the frames. The vehicle is maintaining a consistent speed and direction throughout the segment.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction while navigating the winding road. There are no obstacles or other vehicles present, allowing for smooth driving.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

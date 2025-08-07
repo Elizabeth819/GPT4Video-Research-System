@@ -1,0 +1,94 @@
+{
+  "system_info": {
+    "name": "WiseAD A100 Ghost Probing Detection",
+    "version": "1.0",
+    "description": "使用WiseAD YOLO模型进行鬼探头检测",
+    "created_date": "2025-07-16"
+  },
+  "processing_config": {
+    "max_videos": 100,
+    "azure_storage_container": "dada-videos",
+    "frame_analysis_interval": 3,
+    "batch_size": 4,
+    "video_pattern": "images_[1-5]_XXX.avi"
+  },
+  "wisead_model_config": {
+    "model_type": "yolov8s",
+    "confidence_threshold": 0.5,
+    "device": "cuda",
+    "memory_optimization": true,
+    "a100_optimized": true
+  },
+  "ghost_detection_rules": {
+    "sudden_appearance_threshold": 0.7,
+    "proximity_danger_distance": 50,
+    "speed_change_threshold": 0.8,
+    "unexpected_movement_score": 0.6,
+    "ghost_detection_sensitivity": "high"
+  },
+  "target_classes": {
+    "ghost_probing_relevant": [
+      "person", "bicycle", "car", "motorcycle", "bus", "truck",
+      "traffic light", "stop sign", "parking meter"
+    ],
+    "high_risk_classes": ["person", "bicycle", "motorcycle"],
+    "vehicle_classes": ["car", "bus", "truck"]
+  },
+  "analysis_parameters": {
+    "pixel_distance_threshold": 100,
+    "area_change_ratio_threshold": 0.5,
+    "frame_width_assumption": 640,
+    "frame_height_assumption": 480,
+    "vehicle_position_ratio": 0.8
+  },
+  "output_format": {
+    "structure": "wisead_ghost_analysis",
+    "filename_pattern": "wisead_ghost_{video_id}.json",
+    "summary_report": true,
+    "detailed_frame_analysis": true
+  },
+  "azure_ml_config": {
+    "compute_target": "wisead-a100-lowpri",
+    "environment": "AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10",
+    "gpu_optimization": true,
+    "storage_integration": true,
+    "local_inference": true
+  },
+  "performance_settings": {
+    "gpu_memory_fraction": 0.8,
+    "torch_cudnn_benchmark": true,
+    "torch_cuda_empty_cache": true,
+    "progress_report_interval": 100
+  },
+  "expected_videos": [
+    "images_1_001", "images_1_002", "images_1_003", "images_1_004", "images_1_005",
+    "images_1_006", "images_1_007", "images_1_008", "images_1_009", "images_1_010",
+    "images_1_011", "images_1_012", "images_1_013", "images_1_014", "images_1_015",
+    "images_1_016", "images_1_017", "images_1_018", "images_1_019", "images_1_020",
+    "images_1_021", "images_1_022", "images_1_023", "images_1_024", "images_1_025",
+    "images_1_026", "images_1_027", 
+    "images_2_001", "images_2_002", "images_2_003", "images_2_004",
+    "images_3_001", "images_3_002", "images_3_003", "images_3_004", "images_3_005",
+    "images_3_006", "images_3_007",
+    "images_4_001", "images_4_002", "images_4_003", "images_4_004", "images_4_005",
+    "images_4_006", "images_4_007", "images_4_008",
+    "images_5_001", "images_5_002", "images_5_003", "images_5_004", "images_5_005",
+    "images_5_006", "images_5_007", "images_5_008", "images_5_009", "images_5_010",
+    "images_5_011", "images_5_012", "images_5_013", "images_5_014", "images_5_015",
+    "images_5_016", "images_5_017", "images_5_018", "images_5_019", "images_5_020",
+    "images_5_021", "images_5_022", "images_5_023", "images_5_024", "images_5_025",
+    "images_5_026", "images_5_027", "images_5_028", "images_5_029", "images_5_030",
+    "images_5_031", "images_5_032", "images_5_033", "images_5_034", "images_5_035",
+    "images_5_036", "images_5_037", "images_5_038", "images_5_039", "images_5_040",
+    "images_5_041", "images_5_042", "images_5_043", "images_5_044", "images_5_045",
+    "images_5_046", "images_5_047", "images_5_048", "images_5_049", "images_5_050",
+    "images_5_051", "images_5_052", "images_5_053", "images_5_054"
+  ],
+  "comparison_baseline": {
+    "reference_system": "GPT-4.1_Balanced",
+    "baseline_f1": 0.712,
+    "baseline_recall": 0.963,
+    "baseline_precision": 0.565,
+    "comparison_method": "performance_metrics"
+  }
+} 

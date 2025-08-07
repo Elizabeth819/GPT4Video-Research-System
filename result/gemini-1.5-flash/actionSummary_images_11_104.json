@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_104",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "8.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Highway Driving",
+        "characters": "Driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on a highway. The white SUV ahead is maintaining a consistent speed and lane position. The road is clear with moderate traffic.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position, following the white SUV ahead. The vehicle is keeping a safe distance from the SUV, ensuring smooth driving without sudden changes in speed or direction.",
+        "key_objects": "1) Front: A white SUV, approximately 10 meters away, maintaining a consistent speed and lane position.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_104",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "11.1s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a white Range Rover",
+        "summary": "In this segment, the vehicle is driving on a highway. Ahead, a white Range Rover is stopped in the lane. The driver mentions that the traffic is slow-moving.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and distance from the white Range Rover ahead. Over the past 1.1 seconds, the vehicles speed has remained steady, maintaining a safe distance of approximately 2 meters from the vehicle ahead.",
+        "key_objects": "1) Front: A white Range Rover, approximately 2 meters away, stopped in the lane, causing the self-driving vehicle to maintain a steady speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

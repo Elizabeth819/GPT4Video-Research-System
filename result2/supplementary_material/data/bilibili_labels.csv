@@ -1,0 +1,21 @@
+video_filename,video_id,video_type,extraction_timestamp,ground_truth_time,description,video_title
+001_可怕的鬼探头，过马路的时候一定不要跑，特别是小孩子_哔哩哔哩_bilibili.mp4,001,ghosting,8s,5s,pedestrian emergence,可怕的鬼探头_过马路的时候一定不要跑_特别是小孩子
+001_像他这样开车谁都不会让，这种操作不是变道而是加塞插队_哔哩哔哩_bilibili.mp4,001,cutin,10s,7s,aggressive lane change,像他这样开车谁都不会让_这种操作不是变道而是加塞插队
+002_开车如果遇到加塞插队的，大家不要生气，会有人帮我们出气的_哔哩哔哩_bilibili.mp4,002,cutin,8s,3s,highway merge attempt,开车如果遇到加塞插队的_大家不要生气_会有人帮我们出气的
+002_开车最怕遇到鬼探头，相信大家都经历过，但是狗探头你经历过吗？_哔哩哔哩_bilibili.mp4,002,ghosting,3s,-1s,no safety-critical events (dog probing),开车最怕遇到鬼探头_相信大家都经历过_但是狗探头你经历过吗？
+003_车主以为他要加塞，结果一脚油门没想到出现鬼探头，这可倒霉了_哔哩哔哩_bilibili.mp4,003,ghosting,8s,3s,cyclist emergence from blind spot,车主以为他要加塞_结果一脚油门没想到出现鬼探头_这可倒霉了
+003_汽车鬼探头太可怕了，这种地方盲区非常大，稍有不慎就会酿成大祸_哔哩哔哩_bilibili.mp4,003_alt,ghosting,6s,12s,failed merge attempt (ghost probing scenario),汽车鬼探头太可怕了_这种地方盲区非常大_稍有不慎就会酿成大祸
+003_在高速上敢这样超车.mp4,003_highway,cutin,6s,-,highway overtaking,在高速上敢这样超车
+004_本田车主想加塞，结果技术不行把前面的车追尾了，这下倒霉了吧_哔哩哔哩_bilibili.mp4,004,cutin,100s,6s,highway lane change with collision,本田车主想加塞_结果技术不行把前面的车追尾了_这下倒霉了吧
+004_鬼探头真的很可怕，反应迟钝就要倒霉，奉劝有些电瓶车主检讨自己_哔哩哔哩_bilibili.mp4,004,ghosting,5s,8s,motorcycle sudden appearance,鬼探头真的很可怕_反应迟钝就要倒霉_奉劝有些电瓶车主检讨自己
+005_一个电瓶车坐四个人，而且还是鬼探头，这位家长你是咋想的？_哔哩哔哩_bilibili.mp4,005,ghosting,5s,4s,pedestrian from parked cars (electric bike with 4 people),一个电瓶车坐四个人_而且还是鬼探头_这位家长你是咋想的？
+005_以为他要加塞1min.mp4,005,cutin,44s,15s,aggressive overtaking,以为他要加塞1min
+006_高速开车不存在加塞-1min.mp4,006,cutin,40s,10s,merge without signaling,高速开车不存在加塞-1min
+006_三轮车鬼探头，还好车主反应快，不然就倒霉了_哔哩哔哩_bilibili.mp4,006,ghosting,6s,9s,cyclist from intersection (tricycle),三轮车鬼探头_还好车主反应快_不然就倒霉了
+007_车主起步有点慢-1min.mp4,007,cutin,7s,5s,lane change in traffic,车主起步有点慢-1min
+007_监控行车记录鬼探头惊险一幕_哔哩哔哩_bilibili.mp4,007,ghosting,34s,2s,pedestrian sudden emergence,监控行车记录鬼探头惊险一幕
+008_鬼探头遇上右侧超车-1min.mp4,008_3s,ghosting,3s,7s,motorcycle from blind spot,鬼探头遇上右侧超车-1min
+008_这样变道加塞你能忍.mp4,008,cutin,16s,8s,highway merge failure,这样变道加塞你能忍
+009_这才是正确的加塞变道.mp4,009,cutin,43s,14s,aggressive lane switch,这才是正确的加塞变道
+010_技术不行就不要这样加塞.mp4,010,cutin,23s,9s,highway cutting maneuver,技术不行就不要这样加塞
+010_小伙突然鬼探头-1min.mp4,010,ghosting,2s,6s,cyclist sudden appearance,小伙突然鬼探头-1min

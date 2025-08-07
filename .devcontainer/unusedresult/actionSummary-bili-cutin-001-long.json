@@ -1,0 +1,223 @@
+[
+    {
+        "video_id": "003",
+        "Start_Timestamp": "0.2s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a rural road with dense greenery on the right side. The driver mentions the potential danger of an unfamiliar road with a hidden intersection on the right. Suddenly, a black car emerges from the right side, cutting into the road in front of the self vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching a hidden intersection. Suddenly, a black car cuts in from the right side, forcing the self vehicle to potentially take evasive action. The self vehicle continues straight after the black car cuts in.",
+        "key_objects": "1) Right side: Dense greenery, approximately 2 meters away, blocking the view of the intersection. 2) Right side: A black car, approximately 5 meters away, suddenly cutting into the road from the right side, directly in front of the self vehicle.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a rural road. The driver mentions the need to be cautious and observe carefully, especially at intersections without traffic lights. Suddenly, a black car appears from the left side and collides with the self vehicle. Both vehicles do not yield, leading to a collision.",
+        "actions": "The self-driving vehicle is moving straight on a rural road. The driver is advised to be cautious and observe carefully. Suddenly, a black car appears from the left side and collides with the self vehicle. The collision occurs because both vehicles do not yield at the intersection.",
+        "key_objects": "1) Left side: A black car, approximately 5 meters away, suddenly moving from the left side of the road towards the right side, directly into the vehicles path, causing a collision.",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "21.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "30.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black car, driver of a yellow car",
+        "summary": "In this segment, the self-driving vehicle is approaching an intersection. A black car on the right side is moving forward, potentially cutting in front of the self-driving vehicle. The driver discusses the concept of yielding at intersections, mentioning that both parties might share responsibility, but the one yielding might bear more. The scene then shifts to a highway where a yellow car is ahead of the self-driving vehicle. The driver comments on a typical case of yielding speed but not lane.",
+        "actions": "The self-driving vehicle maintains a steady speed while approaching the intersection, observing the black car on the right. The driver discusses the rules of yielding at intersections. Later, the self-driving vehicle continues on the highway, maintaining a safe distance from the yellow car ahead.",
+        "key_objects": "1) Right side: A black car, approximately 2 meters away, moving forward and potentially cutting in front of the self-driving vehicle. 2) Front: A yellow car, approximately 10 meters away, maintaining a steady speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "maintain current speed",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "31.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "40.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a yellow car, driver of a blue taxi, driver of a white car",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road. A blue taxi on the left side attempts to cut in from the left lane into the self-driving vehicles lane. The self-driving vehicles driver tries to steer to the right to avoid the taxi, nearly colliding with a white car on the right side. The driver is advised to either collide with the taxi or decelerate to let the taxi pass.",
+        "actions": "The self-driving vehicles driver attempts to steer to the right to avoid the blue taxi cutting in from the left lane. This maneuver almost results in a collision with a white car on the right side. The driver is advised to either collide with the taxi or decelerate to let the taxi pass.",
+        "key_objects": "1) Left side: A blue taxi, approximately 1 meter away, attempting to cut in from the left lane into the self-driving vehicles lane. 2) Right side: A white car, approximately 2 meters away, nearly collided with the self-driving vehicle as it steered to the right.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "51.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "60.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the white car, driver of the truck",
+        "summary": "In this segment, the self vehicle is driving on a road when a white car from the opposite direction attempts to overtake a truck. The white car moves into the self vehicles lane, causing a potential collision. The self vehicle does not have enough distance to stop in time, resulting in a collision with the white car.",
+        "actions": "The self vehicle is driving straight when a white car from the opposite direction suddenly overtakes a truck and enters the self vehicles lane. The self vehicle does not have enough time to brake and collides with the white car.",
+        "key_objects": "1) Front: A white car, approximately 5 meters away, overtaking a truck and entering the self vehicles lane, causing a potential collision. 2) Front-left: A truck, approximately 10 meters away, being overtaken by the white car.",
+        "key_actions": "cut-in, collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "61.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "70.0s",
+        "scene_theme": "Informative",
+        "characters": "White car, black car",
+        "summary": "In this segment, the video shows a white car on the left side of the road, with a dirt road and some trees in the background. The audio discusses the possibility of turning right into an empty space if encountered with such a situation. The scene then transitions to an intersection with a green light where both turning and straight-going vehicles are moving. A black car is seen on the left side, and a white car is seen moving straight through the intersection.",
+        "actions": "The self-driving vehicle is approaching an intersection with a green light. The driver is considering the option of turning right into an empty space if needed. The vehicle maintains a steady speed and direction as it approaches and moves through the intersection.",
+        "key_objects": "1) Left side: A white car, approximately 2 meters away, stationary on the side of the road. 2) Left side: A black car, approximately 3 meters away, moving towards the intersection. 3) Front: A white car, approximately 5 meters away, moving straight through the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "71.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "80.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, white car, motorcyclist",
+        "summary": "In this segment, the vehicle is approaching an intersection with a red light. A white car is seen on the right side, and a motorcyclist is crossing the intersection from the left. The driver comments on the need to observe carefully, noting that the white car might not slow down despite the green light time being insufficient. The scene then transitions to a mountain road.",
+        "actions": "The self-driving vehicle is approaching an intersection with a red light. The driver is cautious about the white car on the right, which might not slow down. The vehicle maintains a steady speed and prepares to stop at the red light. The scene then transitions to a mountain road.",
+        "key_objects": "1) Right side: A white car, approximately 2 meters away, moving towards the intersection, potentially not slowing down. 2) Left side: A motorcyclist, approximately 5 meters away, crossing the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "81.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "90.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, approaching tricycle",
+        "summary": "The vehicle is driving on a narrow mountain road with a cliff on the right side. The driver mentions the road is dangerous and there is a sharp turn ahead. As the vehicle approaches the turn, a tricycle suddenly appears from the opposite direction, creating a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a cautious speed due to the narrow and dangerous road conditions. The driver is alert and mentions the potential danger of vehicles suddenly appearing. The vehicle encounters a tricycle coming from the opposite direction, requiring immediate attention to avoid a collision.",
+        "key_objects": "1) Right side: A cliff, approximately 1 meter away, posing a constant danger if the vehicle veers off the road. 2) Front: A tricycle, approximately 5 meters away, approaching from the opposite direction, creating a potential collision risk.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "brake",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "91.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "100.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white car",
+        "summary": "In this segment, the vehicle is navigating a winding road. The driver comments on the need to slow down on curves. A white car from the opposite direction is seen crossing the center line, causing a potential hazard. The driver criticizes the opposing driver for not staying in their lane.",
+        "actions": "The self-driving vehicle is navigating a winding road and encounters a white car from the opposite direction crossing the center line. The driver slows down to avoid a collision. The white cars driver is criticized for not staying in their lane.",
+        "key_objects": "1) Front-left: A white car, approximately 5 meters away, crossing the center line, causing a potential hazard.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "101.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "110.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black SUV, driver of a white truck",
+        "summary": "In this segment, the vehicle is navigating a curved road. The driver comments on the difficulty of driving on such curves, mentioning that honking is ineffective if the other driver doesnt know how to drive. As the vehicle approaches an intersection, a black SUV on the right side suddenly swerves to the right to avoid a white truck making a left turn, causing a potential collision.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating the curve. Upon approaching the intersection, the driver notices a black SUV swerving to the right to avoid a white truck making a left turn. The self-driving vehicle needs to be cautious and possibly decelerate to avoid any potential collision.",
+        "key_objects": "1) Right side: A black SUV, approximately 5 meters away, swerving to the right to avoid a white truck making a left turn, directly into the vehicles path. 2) Front: A white truck, approximately 10 meters away, making a left turn at the intersection, causing the black SUV to swerve.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "111.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "120.0s",
+        "scene_theme": "Dramatic",
+        "characters": "White truck, black car",
+        "summary": "In this segment, a white truck is seen in the middle of an intersection, while a black car on the right side flips over. The self-driving vehicle continues to drive on a highway, maintaining a steady speed. The driver comments on the situation, mentioning the responsibility of the lane-changing vehicle and the importance of yielding.",
+        "actions": "The self-driving vehicle maintains a steady speed on the highway, observing the flipped black car and the white truck in the intersection. The driver comments on the situation, emphasizing the importance of yielding. The self-driving vehicle does not take any evasive actions as it is already on a different road.",
+        "key_objects": "1) Right side: A black car, approximately 10 meters away, flipped over and lying on its side. 2) Middle: A white truck, approximately 15 meters away, stationary in the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "121.0s",
+        "sentiment": "Positive",
+        "End_Timestamp": "130.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self vehicle, white car, grey car",
+        "summary": "In this segment, the self vehicle is driving on a highway. Initially, a white car is seen on the left lane and a grey car is in the middle lane. The self vehicle is in the right lane. The self vehicle overtakes the grey car from the right side and then moves into the middle lane. The white car also moves into the middle lane ahead of the self vehicle. The self vehicle maintains a smooth and swift maneuver throughout the sequence.",
+        "actions": "The self vehicle overtakes the grey car from the right side and then moves into the middle lane. The white car also moves into the middle lane ahead of the self vehicle. The driver demonstrates quick and smooth reactions, indicative of an experienced driver.",
+        "key_objects": "1) Left side: A white car, approximately 5 meters away, moving into the middle lane ahead of the self vehicle. 2) Middle: A grey car, approximately 3 meters away, being overtaken by the self vehicle.",
+        "key_actions": "right-side overtaking",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "003",
+        "Start_Timestamp": "131.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "140.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Multiple vehicles, including a red truck and a white car",
+        "summary": "In this segment, the self-driving vehicle is approaching an intersection with a green light. Multiple vehicles are seen moving in both directions. Suddenly, a red truck from the left side of the frame appears to be running a red light, creating a potential collision hazard.",
+        "actions": "The self-driving vehicle is maintaining its lane and speed while approaching the intersection. The driver needs to be cautious as the red truck from the left side is running a red light, posing a significant risk of collision.",
+        "key_objects": "1) Left side: A red truck, approximately 10 meters away, running a red light and moving towards the intersection. 2) Front: Multiple vehicles, approximately 20 meters away, moving through the intersection.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight right shift"
+        }
+    }
+]

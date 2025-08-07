@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_037",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a gray sedan",
+        "summary": "In this segment, the vehicle is driving on a city road. A gray sedan is parked on the right side of the road. Throughout the frames, a black car from the left lane moves into the self-vehicles lane, causing the self-vehicle to decelerate to avoid collision.",
+        "actions": "The self-driving vehicle decelerates to avoid collision with the black car that is merging from the left lane into the self-vehicles lane. The vehicle maintains a safe distance from the gray sedan parked on the right side.",
+        "key_objects": "1) Left side: A black car, approximately 5 meters away, merging into the self-vehicles lane, causing the self-vehicle to decelerate. 2) Right side: A gray sedan, approximately 2 meters away, parked on the roadside.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

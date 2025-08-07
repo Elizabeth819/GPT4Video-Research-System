@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.9s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male pedestrian, adult, wearing dark clothing; drivers of a large white truck, two motorcycles, and a green bus.",
+  "summary": "In this segment, the vehicle is driving on a rural or semi-urban road under clear sky conditions. On the right side of the road, there are low buildings, a wall, and a pile of dirt, which act as visual obstructions. On the left side, there are trees and residential buildings further down the road. At approximately 6.0 seconds into the video, a male pedestrian suddenly emerges from behind the obstructions on the right side of the road, stepping directly into the vehicle's path with minimal warning. The pedestrian proceeds to cross the road directly in front of the vehicle, creating an immediate and severe collision risk. Concurrently, other vehicles, including a large white truck, two motorcycles, and later a green bus, are observed on the left side of the road, moving in the opposite direction.",
+  "actions": "The self-driving vehicle was initially maintaining a steady speed as it approached the section of the road with visual obstructions on the right. Upon the sudden and unexpected emergence of an object (pedestrian) from behind these obstructions, the vehicle initiated rapid deceleration and emergency braking. This immediate and forceful braking action was taken to prevent a direct collision with the object that unexpectedly entered the vehicle's path, demonstrating a critical response to an immediate safety hazard and prioritizing collision avoidance.",
+  "key_objects": "1) Right side: A male pedestrian, adult, wearing dark clothing, suddenly emerging from behind a low building/wall and a pile of dirt at approximately 6.0 seconds, and then proceeding to cross directly into the vehicle's path. Initially about 10-15 meters away, rapidly closing to within 1-2 meters. 2) Right side: A low building/wall and a pile of dirt, acting as a significant visual obstruction on the right side of the road, from behind which the pedestrian emerged, making early detection impossible.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

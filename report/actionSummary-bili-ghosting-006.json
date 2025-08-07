@@ -1,0 +1,155 @@
+[
+    {
+        "video_id": "006",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a green tricycle, driver of a red truck",
+        "summary": "In this segment, the vehicle is driving on a road with greenery on both sides. The driver mentions the need to be cautious due to the many intersections ahead. A red truck is seen ahead, and a green tricycle suddenly appears from the right side, crossing the road in front of the vehicle. The tricycle driver is not paying attention, leading to a potential accident.",
+        "actions": "The self-driving vehicle maintains a steady speed while approaching the intersections. The driver is alert and mentions the need for caution. The green tricycle suddenly cuts in from the right side, causing the self-driving vehicle to slow down to avoid a collision.",
+        "key_objects": "1) Right side: A green tricycle, approximately 2 meters away, suddenly moving from the right side of the road towards the left, directly into the vehicles path. 2) Front: A red truck, approximately 10 meters away, moving straight ahead.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a green tricycle, driver of a red car",
+        "summary": "In this segment, the video shows a green tricycle turning onto the road, which is noted as an incorrect maneuver. Later, a red car is seen speeding on the road. The driver comments on the speed of the small car.",
+        "actions": "The green tricycle makes an improper turn onto the road, potentially causing a hazard. The red car is observed speeding, which could be dangerous given the road conditions.",
+        "key_objects": "1) Front: A green tricycle, approximately 5 meters away, turning onto the road, potentially causing a hazard. 2) Front-right: A red car, approximately 10 meters away, speeding on the road, posing a potential danger.",
+        "key_actions": "cut-in, speeding",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "20.99994286171575s",
+        "sentiment": "Negative",
+        "End_Timestamp": "29.99991837387964s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a small car, electric scooter rider",
+        "summary": "In this segment, the vehicle is driving on a busy road at night. The driver mentions that the small car is overtaking, but suddenly an electric scooter crosses the road, making it difficult to avoid. The road is complex with many vehicles and electric scooters. The self-driving car maintains its lane and speed, navigating through the traffic.",
+        "actions": "The self-driving vehicle is maintaining its lane and speed while navigating through a busy road with many vehicles and electric scooters. The driver is cautious due to the sudden appearance of an electric scooter crossing the road.",
+        "key_objects": "1) Front-left: A small car, approximately 10 meters away, overtaking another vehicle. 2) Front-right: An electric scooter, approximately 5 meters away, crossing the road suddenly.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "30.999915653008962s",
+        "sentiment": "Negative",
+        "End_Timestamp": "39.999891165172855s",
+        "scene_theme": "Dramatic",
+        "characters": "Young man on an electric bike, other vehicles on the road",
+        "summary": "In this segment, a young man on an electric bike is seen riding in the middle of the road, attempting to overtake a car in front. Despite the recommendation to ride on the right side, he chooses to overtake from the middle. Subsequently, he loses control and falls off his bike without any collision with other vehicles.",
+        "actions": "The young man on the electric bike attempts to overtake a car from the middle of the road, loses control, and falls off his bike. The self-driving vehicle maintains a steady speed and direction, observing the incident.",
+        "key_objects": "1) Middle: A young man on an electric bike, approximately 5 meters away, attempting to overtake a car from the middle of the road, loses control and falls. 2) Left side: A white car, approximately 10 meters away, being overtaken by the electric bike.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "40.99988844430218s",
+        "sentiment": "Negative",
+        "End_Timestamp": "49.99986395646607s",
+        "scene_theme": "Dramatic",
+        "characters": "Woman pushing a cart, driver of the white car, driver of the blue car",
+        "summary": "In this segment, a woman on the right side of the road is pushing a cart and appears to be preparing to cross the street. The white car in front of the self vehicle is starting to move. The blue car on the left side is also moving forward. The woman with the cart is moving closer to the center of the road, potentially creating a hazardous situation.",
+        "actions": "The self-driving vehicle is maintaining a low speed, likely due to the presence of the woman pushing the cart and the moving vehicles ahead. The driver is being cautious to avoid any potential collision. The self vehicle is maintaining a safe distance from the white car in front.",
+        "key_objects": "1) Right side: A woman in a blue shirt, approximately 5 meters away, pushing a cart and moving towards the center of the road. 2) Front: A white car, approximately 10 meters away, starting to move forward. 3) Left side: A blue car, approximately 8 meters away, also moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "50.99986123559539s",
+        "sentiment": "Negative",
+        "End_Timestamp": "59.99983674775928s",
+        "scene_theme": "Dramatic",
+        "characters": "Man in grey shirt, driver of white SUV, driver of red car",
+        "summary": "In this segment, a man in a grey shirt is seen running across the road from the left side, directly in front of a white SUV and a blue car. The white SUV and blue car are moving forward, and the man narrowly avoids being hit. The scene then shifts to an intersection without traffic lights, where a green van and a white SUV are seen crossing. A red car suddenly appears from the right side, cutting across the path of the self vehicle, causing the driver to exclaim in surprise.",
+        "actions": "The self vehicle is driving straight and encounters a man running across the road from the left side, narrowly avoiding a collision. The self vehicle then approaches an intersection without traffic lights, where a red car suddenly cuts across its path from the right side, causing the driver to react in surprise.",
+        "key_objects": "1) Left side: A man in a grey shirt, approximately 5 meters away, running across the road from left to right, directly in front of the white SUV and blue car. 2) Right side: A red car, approximately 3 meters away, suddenly cutting across the path of the self vehicle from right to left.",
+        "key_actions": "ghost probing, cut-in",
+        "next_action": {
+            "speed_control": "brake",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "60.99983402688861s",
+        "sentiment": "Negative",
+        "End_Timestamp": "69.99980953905249s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a truck",
+        "summary": "In this segment, the vehicle is driving on a city road during the day and then transitions to a highway at night. Initially, the road is clear with no immediate obstacles. The driver comments on the importance of checking the left side for vehicles and not assuming that other drivers will yield. Later, the scene changes to a highway at night where the self vehicle is following a truck. The driver advises not to be rigid in following rules.",
+        "actions": "The self-driving vehicle maintains a steady speed on the city road, ensuring to check for vehicles on the left side. Upon transitioning to the highway at night, the vehicle follows a truck at a safe distance, maintaining a cautious approach.",
+        "key_objects": "1) Front: A truck, approximately 10 meters away, moving steadily on the highway. 2) Left side: No immediate obstacles or vehicles in the city road scene.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "70.99980681818182s",
+        "sentiment": "Negative",
+        "End_Timestamp": "79.99978233034571s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a large truck",
+        "summary": "In this segment, the white sedan ahead signals a lane change, causing a dramatic situation. The large truck on the right side makes an emergency maneuver to avoid collision. The white sedans lane change is abrupt and dangerous, with another large truck nearby.",
+        "actions": "The white sedan ahead signals a lane change, causing the large truck on the right to make an emergency maneuver. The white sedans lane change is abrupt and dangerous, with another large truck nearby. The self-driving vehicle maintains a safe distance and speed to avoid potential collision.",
+        "key_objects": "1) Front-left: A white sedan, approximately 5 meters away, signaling a lane change, causing potential danger. 2) Right side: A large truck, approximately 10 meters away, making an emergency maneuver to avoid collision.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "80.99977960947503s",
+        "sentiment": "Negative",
+        "End_Timestamp": "89.99975512163893s",
+        "scene_theme": "Dramatic",
+        "characters": "Pedestrian with phone, driver of white car",
+        "summary": "In this segment, the vehicle is preparing to make a left turn at an intersection. A pedestrian on the left side of the road is walking while using a phone and has not yet crossed the zebra crossing. The pedestrian appears to be unaware of the traffic, causing concern for the driver. The pedestrian suddenly realizes the vehicles presence and reacts with a startle.",
+        "actions": "The self-driving vehicle is preparing to make a left turn. The driver notices a pedestrian on the left side of the road who is distracted by their phone and has not yet crossed the zebra crossing. The driver is cautious and slows down to avoid any potential collision. The pedestrian eventually notices the vehicle and reacts with a startle.",
+        "key_objects": "1) Left side: A pedestrian in a colorful jacket, approximately 3 meters away, walking while using a phone, moving towards the zebra crossing. 2) Front: A white car, approximately 5 meters away, preparing to make a left turn.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

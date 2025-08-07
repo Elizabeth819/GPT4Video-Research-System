@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_049",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person walking on the right side of the road, appearing from frame 3 onwards, wearing dark clothing. A person on a bicycle, wearing light-colored clothing, suddenly emerging from behind a parked car on the right side of the road at approximately 4.1 seconds.",
+  "summary": "The video depicts a vehicle navigating a narrow, tree-lined street with numerous cars parked on both the left and right sides, significantly constricting the available driving space. The vehicle proceeds cautiously at a slow speed. At approximately 4.1 seconds into the video (Frame 7), a cyclist unexpectedly emerges from behind a parked silver car on the right side of the road, darting directly into the vehicle's path. This sudden appearance, previously obscured by the parked vehicle, creates an immediate collision risk. The driver reacts promptly to avoid impact. After the cyclist clears the immediate danger zone, the vehicle continues to move forward slowly, maintaining vigilance due to the challenging road conditions.",
+  "actions": "The vehicle initially proceeds at a slow and cautious speed, navigating a confined road environment where parked cars on both sides significantly reduce the available driving lane. The driver maintains a central position within the narrow passage, indicating an awareness of the limited space and potential for hidden hazards. Upon the sudden emergence of a cyclist from behind a parked car on the right side of the road (a classic 'ghost probing' scenario), the driver immediately initiates a rapid deceleration, likely applying brakes, and makes a subtle steering adjustment to the left to create necessary clearance and prevent a collision. This decisive action demonstrates a high priority for safety in response to the unexpected and immediate threat. Following the successful avoidance of the cyclist, the vehicle resumes a slow forward movement, indicating continued caution in the challenging and unpredictable urban setting.",
+  "key_objects": "1) Position: Right side of the image: A parked silver car. This vehicle served as a critical physical obstruction, completely obscuring the cyclist from the driver's view until the moment of emergence, directly enabling the ghost probing incident. 2) Position: Right side of the image, emerging from behind the silver car: A person on a bicycle. This individual suddenly darted into the vehicle's path from behind the obstruction, creating an immediate and dangerous collision risk, which constitutes the core of the ghost probing behavior.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_045",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several cars are visible in the traffic ahead. A silver SUV is in the lane to the left. The road is lined with trees and a metal barrier on the left side.",
+  "summary": "The vehicle is driving on a road with moderate traffic. There are several cars ahead in the same lane, and a silver SUV is visible in the adjacent lane to the left. The road is lined with trees and a metal barrier on the left side. The traffic appears to be moving slowly, with cars maintaining a close distance to each other. The weather is sunny, and visibility is good. There are no immediate dangerous behaviors observed.",
+  "actions": "The vehicle is maintaining a slow speed, likely due to the heavy traffic conditions. The driver is keeping a safe distance from the car in front and monitoring the adjacent lane. The vehicle is staying in its current lane and not attempting to overtake or change lanes. The driver is likely adjusting speed based on the flow of traffic ahead.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

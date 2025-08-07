@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_016",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) Female scooter rider, approximately 20-30 years old, wearing a dark jacket and a white helmet. 2) Two individuals (gender and age unclear) standing near a parked black car on the left side of the road.",
+  "summary": "In this segment, the self-driving vehicle is positioned on an urban road, approaching an intersection or a bend. On the right side of the road, a black SUV is parked, creating a significant visual obstruction. A white scooter, ridden by a female wearing a helmet and dark clothing, suddenly emerges from behind this parked black SUV on the right side of the vehicle's path. The scooter immediately enters the main road, crossing directly in front of the self-driving vehicle with minimal warning, creating an immediate and dangerous 'ghost probing' situation. On the left side, another black car is parked with its trunk open, and two people are standing nearby.",
+  "actions": "The self-driving vehicle appears to be either stationary or moving at a very low speed at the beginning of the segment. As the white scooter suddenly emerges from behind the parked black SUV on the right, directly into the vehicle's path, the vehicle immediately initiates rapid deceleration and comes to a complete stop. This action is taken to prevent a collision with the scooter, which appeared unexpectedly from a blind spot created by the parked obstruction.",
+  "key_objects": "1) Right side: A white scooter with a female rider, approximately 3-5 meters away, suddenly emerging from behind a parked black SUV and crossing the vehicle's path from right to left. 2) Right side: A black SUV, approximately 5-7 meters away, parked and creating a visual obstruction that completely hid the approaching scooter until its sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

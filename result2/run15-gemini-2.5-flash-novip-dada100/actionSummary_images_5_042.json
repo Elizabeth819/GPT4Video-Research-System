@@ -1,0 +1,21 @@
+{
+  "timestamp": "11:07:21 - 11:07:28",
+  "summary": "An autonomous driving vehicle (dashcam perspective) is navigating a city street and approaches an intersection. A scooter suddenly crosses the vehicle's path from the right side, resulting in a collision.",
+  "actions": "The dashcam vehicle is driving forward, approaching an intersection. Other vehicles are seen moving or parked. A scooter appears from the right side of the road and proceeds to cross the intersection directly in front of the dashcam vehicle, leading to an impact.",
+  "characters": [
+    "Dashcam vehicle (implied autonomous or human-driven)",
+    "Scooter rider",
+    "Other drivers/pedestrians (background)"
+  ],
+  "key_objects": [
+    "Dashcam vehicle",
+    "Scooter",
+    "Intersection",
+    "Crosswalk",
+    "Traffic lights",
+    "Buildings",
+    "Parked cars"
+  ],
+  "key_actions": "The scooter crosses the intersection from the right side, directly in the path of the approaching dashcam vehicle. A collision occurs between the dashcam vehicle and the scooter. Based on the provided definition of 'ghost probing' (vehicle suddenly appearing from a blind spot and aggressively cutting into traffic), this specific incident does not fully meet the 'suddenly appearing from a blind spot' criterion. The scooter was visible on the right side of the road before it entered the crosswalk, rather than emerging from a completely obscured position behind a large vehicle or building at the last moment. While it aggressively cut into traffic and created a dangerous situation, its initial appearance was not from a complete blind spot.",
+  "next_action": "The immediate aftermath of the collision, including potential injury assessment for the scooter rider, vehicle damage assessment, and the initiation of a traffic incident investigation."
+}

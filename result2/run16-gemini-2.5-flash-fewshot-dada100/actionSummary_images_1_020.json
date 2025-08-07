@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_020",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult person in light-colored clothing (possibly white or light grey shirt/jacket), walking.",
+  "summary": "In this segment, the self-driving vehicle is traveling at night on a multi-lane road. Initially, a motorcycle is observed on the right side of the road. The vehicle proceeds past a structure resembling a gas station or rest stop on the right. As the vehicle continues, it approaches a section of the road with a low white roadside barrier on the right. Suddenly, at approximately 12.3 seconds, an adult person wearing light-colored clothing emerges abruptly from behind this white barrier and steps directly into the vehicle's path. The person was completely obscured by the barrier until their sudden appearance, creating an immediate and highly dangerous 'ghost probing' situation with minimal reaction time for the driver. The vehicle's headlights illuminate the person as they appear directly in front of the vehicle.",
+  "actions": "The self-driving vehicle is initially maintaining a consistent speed on the road. Upon the sudden and unexpected emergence of the pedestrian from behind the roadside barrier on the right side, the vehicle immediately initiates rapid deceleration. This emergency braking is a direct response to the pedestrian's sudden appearance from an obstructed view, aiming to prevent a collision by reducing speed as quickly as possible.",
+  "key_objects": "1) Right side: An adult person, wearing light-colored clothing, approximately 5-10 meters away, suddenly emerging from behind a roadside barrier and stepping directly into the vehicle's path, creating an immediate collision risk. 2) Right side: A low white roadside barrier/structure, extending along the right side of the road, acting as a physical obstruction that completely hides the pedestrian until their sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

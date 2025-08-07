@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_3_003",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017/04/06 11:09:48",
+    "End_Timestamp": "2017/04/06 11:09:52",
+    "summary": "The vehicle is approaching an intersection. A cyclist on the right side of the road suddenly falls in front of the car, causing an immediate collision.",
+    "actions": "The vehicle is moving forward at an intersection. The driver likely did not anticipate the cyclist falling.",
+    "key_objects": [
+      "cyclist",
+      "vehicle",
+      "intersection"
+    ],
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "emergency braking",
+      "direction_control": "swerve if possible",
+      "lane_control": "maintain lane initially, swerve only if necessary"
+    }
+  }
+]

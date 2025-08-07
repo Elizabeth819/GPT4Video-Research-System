@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_027",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "9.0s",
+    "scene_theme": "Rural Road Driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a car",
+    "summary": "The video shows a car driving on a narrow, rural road.  The road is relatively clear of other vehicles for most of the sequence.  From approximately 6.8 seconds onwards, a red dump truck is visible ahead, seemingly exiting a side road or driveway on the right. The truck appears to be moving slowly and does not impede the path of the observer vehicle. No other significant events or near misses occur.",
+    "actions": "The self-driving vehicle maintains a consistent speed throughout the 9-second sequence, navigating a gentle curve in the road.  The vehicle stays in its lane and adjusts speed subtly to maintain a safe distance from the red dump truck that appears in the later frames. The driver's actions suggest a cautious and controlled driving style appropriate for the rural road conditions.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

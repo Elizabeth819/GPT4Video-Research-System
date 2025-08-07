@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_30_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a blue truck, driver of a white truck",
+        "summary": "In this segment, the vehicle is driving on a highway. Ahead, there are two trucks, one blue and one white, traveling in the same direction. The blue truck is in the left lane, and the white truck is in the right lane. The self-driving vehicle maintains a consistent speed and distance from the trucks ahead.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and distance from the trucks ahead, ensuring safe driving conditions. The vehicle is staying in its lane without making any sudden movements.",
+        "key_objects": "1) Front left: A blue truck, approximately 20 meters away, traveling in the left lane. 2) Front right: A white truck, approximately 25 meters away, traveling in the right lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_30_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue truck, driver of a large tanker truck",
+        "summary": "In this segment, the vehicle is driving on a highway. A blue truck on the left side suddenly cuts into the lane of the self-driving vehicle, causing the vehicle to decelerate. The large tanker truck ahead maintains its position in the center lane.",
+        "actions": "The self-driving vehicle decelerates to avoid a collision with the blue truck that cuts into its lane from the left side. The vehicle maintains a safe distance from the large tanker truck ahead.",
+        "key_objects": "1) Left side: A blue truck, approximately 5 meters away, cutting into the self-driving vehicles lane. 2) Front: A large tanker truck, approximately 20 meters away, maintaining its position in the center lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

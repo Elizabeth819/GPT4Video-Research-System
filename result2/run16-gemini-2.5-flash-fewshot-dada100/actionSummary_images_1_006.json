@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child (young person) wearing a light blue jacket and a black backpack. Other characters include various drivers of cars and motorcycles, and pedestrians on the sidewalks.",
+  "summary": "In this segment, the self-driving vehicle is navigating a dense urban street with heavy traffic. The vehicle is moving slowly, surrounded by other cars and motorcycles. As the vehicle proceeds, a black sedan on the left side of the road, which was previously obscuring the view, suddenly reveals a child (young person) who darts out from behind it directly into the vehicle's path. This sudden appearance from behind an obstruction creates an immediate and dangerous 'ghost probing' situation, requiring an emergency response from the vehicle.",
+  "actions": "The self-driving vehicle is initially moving at a slow, consistent speed, typical for dense urban traffic conditions. Upon the sudden and unexpected emergence of the child from behind the black sedan on the left side (at approximately 10.0s), the vehicle immediately initiates rapid deceleration and emergency braking. This action is taken to prevent a collision with the child who has unexpectedly entered the vehicle's direct path with minimal warning time.",
+  "key_objects": "1) Left side: A child (young person), approximately 2-3 meters away, wearing a light blue jacket and a black backpack, suddenly emerging from behind a black sedan and stepping directly into the vehicle's path. 2) Left side: A black sedan, approximately 5-7 meters away, acting as a significant visual obstruction that completely hid the child until their sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

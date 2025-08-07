@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_021",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male pedestrian, approximately 20-30 years old, wearing a white shirt and dark pants, running across the road. Other pedestrians are visible on the right sidewalk.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a wet urban road, following closely behind a large red and green bus. As the bus proceeds forward and clears the view, a male pedestrian suddenly emerges from behind the bus on the left side of the road. The pedestrian runs directly into the crosswalk, entering the vehicle's path with minimal warning, creating an immediate and dangerous 'ghost probing' situation. The vehicle initiates braking in response to the sudden appearance of the pedestrian.",
+  "actions": "The self-driving vehicle was initially following the bus at a moderate speed, maintaining a safe distance. Upon the sudden and unexpected emergence of the pedestrian from behind the large bus on the left side, the vehicle immediately initiated rapid deceleration and braking. This action was taken to prevent a collision with the pedestrian who suddenly entered the vehicle's path from a visually obstructed area.",
+  "key_objects": "1) Left side: A large red and green bus, approximately 5-10 meters ahead, acting as a significant visual obstruction that completely hid the pedestrian until their sudden emergence. 2) Left side: A male pedestrian, approximately 5-10 meters away, suddenly emerging from behind the bus and running across the crosswalk directly into the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

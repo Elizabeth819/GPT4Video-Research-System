@@ -1,0 +1,169 @@
+2025-07-29 15:02:41,367 - INFO - Azure OpenAI API配置成功
+2025-07-29 15:02:41,367 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-29 15:02:41,367 - INFO - Deployment: gpt-4o-global
+2025-07-29 15:02:41,367 - INFO - Temperature: 0, Enhanced with Few-shot Examples
+2025-07-29 15:02:41,379 - INFO - 加载校正后的ground truth标签: 199个视频
+2025-07-29 15:02:41,379 - INFO - 🚀 开始Run 8重新运行实验
+2025-07-29 15:02:41,387 - INFO - 📊 找到 126 个视频文件
+2025-07-29 15:02:41,472 - INFO - 🎬 开始分析视频: images_1_001
+2025-07-29 15:02:41,709 - INFO - 📤 发送API请求: images_1_001
+2025-07-29 15:02:43,792 - ERROR - API请求失败: 401
+2025-07-29 15:02:43,793 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:02:43,804 - ERROR - ❌ API响应为空: images_1_001
+2025-07-29 15:02:44,813 - INFO - 🎬 开始分析视频: images_1_002
+2025-07-29 15:02:45,103 - INFO - 📤 发送API请求: images_1_002
+2025-07-29 15:02:47,042 - ERROR - API请求失败: 401
+2025-07-29 15:02:47,042 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:02:47,047 - ERROR - ❌ API响应为空: images_1_002
+2025-07-29 15:02:48,053 - INFO - 🎬 开始分析视频: images_1_003
+2025-07-29 15:02:48,324 - INFO - 📤 发送API请求: images_1_003
+2025-07-29 15:02:50,283 - ERROR - API请求失败: 401
+2025-07-29 15:02:50,283 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:02:50,295 - ERROR - ❌ API响应为空: images_1_003
+2025-07-29 15:02:51,304 - INFO - 🎬 开始分析视频: images_1_004
+2025-07-29 15:02:51,534 - INFO - 📤 发送API请求: images_1_004
+2025-07-29 15:02:53,472 - ERROR - API请求失败: 401
+2025-07-29 15:02:53,473 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:02:53,482 - ERROR - ❌ API响应为空: images_1_004
+2025-07-29 15:02:54,492 - INFO - 🎬 开始分析视频: images_1_005
+2025-07-29 15:02:54,719 - INFO - 📤 发送API请求: images_1_005
+2025-07-29 15:02:56,816 - ERROR - API请求失败: 401
+2025-07-29 15:02:56,817 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:02:56,829 - ERROR - ❌ API响应为空: images_1_005
+2025-07-29 15:02:57,838 - INFO - 🎬 开始分析视频: images_1_006
+2025-07-29 15:02:58,126 - INFO - 📤 发送API请求: images_1_006
+2025-07-29 15:03:00,103 - ERROR - API请求失败: 401
+2025-07-29 15:03:00,103 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:00,107 - ERROR - ❌ API响应为空: images_1_006
+2025-07-29 15:03:01,114 - INFO - 🎬 开始分析视频: images_1_007
+2025-07-29 15:03:01,435 - INFO - 📤 发送API请求: images_1_007
+2025-07-29 15:03:03,537 - ERROR - API请求失败: 401
+2025-07-29 15:03:03,537 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:03,549 - ERROR - ❌ API响应为空: images_1_007
+2025-07-29 15:03:04,559 - INFO - 🎬 开始分析视频: images_1_008
+2025-07-29 15:03:04,750 - INFO - 📤 发送API请求: images_1_008
+2025-07-29 15:03:06,647 - ERROR - API请求失败: 401
+2025-07-29 15:03:06,647 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:06,653 - ERROR - ❌ API响应为空: images_1_008
+2025-07-29 15:03:07,662 - INFO - 🎬 开始分析视频: images_1_009
+2025-07-29 15:03:07,943 - INFO - 📤 发送API请求: images_1_009
+2025-07-29 15:03:09,587 - ERROR - API请求失败: 401
+2025-07-29 15:03:09,587 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:09,591 - ERROR - ❌ API响应为空: images_1_009
+2025-07-29 15:03:10,598 - INFO - 🎬 开始分析视频: images_1_010
+2025-07-29 15:03:10,870 - INFO - 📤 发送API请求: images_1_010
+2025-07-29 15:03:18,289 - ERROR - API请求失败: 401
+2025-07-29 15:03:18,290 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:18,304 - ERROR - ❌ API响应为空: images_1_010
+2025-07-29 15:03:19,313 - INFO - 🎬 开始分析视频: images_1_011
+2025-07-29 15:03:19,590 - INFO - 📤 发送API请求: images_1_011
+2025-07-29 15:03:21,551 - ERROR - API请求失败: 401
+2025-07-29 15:03:21,551 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:21,559 - ERROR - ❌ API响应为空: images_1_011
+2025-07-29 15:03:22,567 - INFO - 🎬 开始分析视频: images_1_012
+2025-07-29 15:03:22,855 - INFO - 📤 发送API请求: images_1_012
+2025-07-29 15:03:24,830 - ERROR - API请求失败: 401
+2025-07-29 15:03:24,830 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:24,841 - ERROR - ❌ API响应为空: images_1_012
+2025-07-29 15:03:25,849 - INFO - 🎬 开始分析视频: images_1_013
+2025-07-29 15:03:26,118 - INFO - 📤 发送API请求: images_1_013
+2025-07-29 15:03:28,037 - ERROR - API请求失败: 401
+2025-07-29 15:03:28,037 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:28,047 - ERROR - ❌ API响应为空: images_1_013
+2025-07-29 15:03:29,054 - INFO - 🎬 开始分析视频: images_1_014
+2025-07-29 15:03:29,276 - INFO - 📤 发送API请求: images_1_014
+2025-07-29 15:03:31,166 - ERROR - API请求失败: 401
+2025-07-29 15:03:31,166 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:31,169 - ERROR - ❌ API响应为空: images_1_014
+2025-07-29 15:03:32,172 - INFO - 🎬 开始分析视频: images_1_015
+2025-07-29 15:03:32,434 - INFO - 📤 发送API请求: images_1_015
+2025-07-29 15:03:34,374 - ERROR - API请求失败: 401
+2025-07-29 15:03:34,374 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:34,377 - ERROR - ❌ API响应为空: images_1_015
+2025-07-29 15:03:35,379 - INFO - 🎬 开始分析视频: images_1_016
+2025-07-29 15:03:35,625 - INFO - 📤 发送API请求: images_1_016
+2025-07-29 15:03:37,631 - ERROR - API请求失败: 401
+2025-07-29 15:03:37,631 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:37,638 - ERROR - ❌ API响应为空: images_1_016
+2025-07-29 15:03:38,648 - INFO - 🎬 开始分析视频: images_1_017
+2025-07-29 15:03:38,958 - INFO - 📤 发送API请求: images_1_017
+2025-07-29 15:03:41,113 - ERROR - API请求失败: 401
+2025-07-29 15:03:41,113 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:41,120 - ERROR - ❌ API响应为空: images_1_017
+2025-07-29 15:03:42,130 - INFO - 🎬 开始分析视频: images_1_018
+2025-07-29 15:03:42,437 - INFO - 📤 发送API请求: images_1_018
+2025-07-29 15:03:44,499 - ERROR - API请求失败: 401
+2025-07-29 15:03:44,499 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:44,506 - ERROR - ❌ API响应为空: images_1_018
+2025-07-29 15:03:45,515 - INFO - 🎬 开始分析视频: images_1_019
+2025-07-29 15:03:45,752 - INFO - 📤 发送API请求: images_1_019
+2025-07-29 15:03:47,852 - ERROR - API请求失败: 401
+2025-07-29 15:03:47,853 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:47,859 - ERROR - ❌ API响应为空: images_1_019
+2025-07-29 15:03:48,867 - INFO - 🎬 开始分析视频: images_1_020
+2025-07-29 15:03:49,138 - INFO - 📤 发送API请求: images_1_020
+2025-07-29 15:03:51,027 - ERROR - API请求失败: 401
+2025-07-29 15:03:51,027 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:51,033 - ERROR - ❌ API响应为空: images_1_020
+2025-07-29 15:03:52,041 - INFO - 🎬 开始分析视频: images_1_021
+2025-07-29 15:03:52,297 - INFO - 📤 发送API请求: images_1_021
+2025-07-29 15:03:54,018 - ERROR - API请求失败: 401
+2025-07-29 15:03:54,019 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:54,023 - ERROR - ❌ API响应为空: images_1_021
+2025-07-29 15:03:55,030 - INFO - 🎬 开始分析视频: images_1_022
+2025-07-29 15:03:55,301 - INFO - 📤 发送API请求: images_1_022
+2025-07-29 15:03:57,221 - ERROR - API请求失败: 401
+2025-07-29 15:03:57,221 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:03:57,234 - ERROR - ❌ API响应为空: images_1_022
+2025-07-29 15:03:58,244 - INFO - 🎬 开始分析视频: images_1_023
+2025-07-29 15:03:58,515 - INFO - 📤 发送API请求: images_1_023
+2025-07-29 15:04:00,552 - ERROR - API请求失败: 401
+2025-07-29 15:04:00,552 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:04:00,558 - ERROR - ❌ API响应为空: images_1_023
+2025-07-29 15:04:01,566 - INFO - 🎬 开始分析视频: images_1_024
+2025-07-29 15:04:01,816 - INFO - 📤 发送API请求: images_1_024
+2025-07-29 15:04:04,406 - ERROR - API请求失败: 401
+2025-07-29 15:04:04,406 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:04:04,412 - ERROR - ❌ API响应为空: images_1_024
+2025-07-29 15:04:05,421 - INFO - 🎬 开始分析视频: images_1_025
+2025-07-29 15:04:05,647 - INFO - 📤 发送API请求: images_1_025
+2025-07-29 15:04:07,184 - ERROR - API请求失败: 401
+2025-07-29 15:04:07,184 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:04:07,188 - ERROR - ❌ API响应为空: images_1_025
+2025-07-29 15:04:08,194 - INFO - 🎬 开始分析视频: images_1_026
+2025-07-29 15:04:08,449 - INFO - 📤 发送API请求: images_1_026
+2025-07-29 15:04:10,342 - ERROR - API请求失败: 401
+2025-07-29 15:04:10,342 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:04:10,348 - ERROR - ❌ API响应为空: images_1_026
+2025-07-29 15:04:11,357 - INFO - 🎬 开始分析视频: images_1_027
+2025-07-29 15:04:11,650 - INFO - 📤 发送API请求: images_1_027
+2025-07-29 15:04:13,551 - ERROR - API请求失败: 401
+2025-07-29 15:04:13,551 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:04:13,557 - ERROR - ❌ API响应为空: images_1_027
+2025-07-29 15:04:14,565 - INFO - 🎬 开始分析视频: images_2_001
+2025-07-29 15:04:14,782 - INFO - 📤 发送API请求: images_2_001
+2025-07-29 15:04:16,686 - ERROR - API请求失败: 401
+2025-07-29 15:04:16,686 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:04:16,691 - ERROR - ❌ API响应为空: images_2_001
+2025-07-29 15:04:17,699 - INFO - 🎬 开始分析视频: images_2_002
+2025-07-29 15:04:17,944 - INFO - 📤 发送API请求: images_2_002
+2025-07-29 15:04:19,883 - ERROR - API请求失败: 401
+2025-07-29 15:04:19,883 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:04:19,887 - ERROR - ❌ API响应为空: images_2_002
+2025-07-29 15:04:20,895 - INFO - 🎬 开始分析视频: images_2_003
+2025-07-29 15:04:21,176 - INFO - 📤 发送API请求: images_2_003
+2025-07-29 15:04:23,134 - ERROR - API请求失败: 401
+2025-07-29 15:04:23,134 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:04:23,140 - ERROR - ❌ API响应为空: images_2_003
+2025-07-29 15:04:24,149 - INFO - 🎬 开始分析视频: images_2_004
+2025-07-29 15:04:24,380 - INFO - 📤 发送API请求: images_2_004
+2025-07-29 15:04:26,094 - ERROR - API请求失败: 401
+2025-07-29 15:04:26,095 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:04:26,100 - ERROR - ❌ API响应为空: images_2_004
+2025-07-29 15:04:27,107 - INFO - 🎬 开始分析视频: images_3_001
+2025-07-29 15:04:27,380 - INFO - 📤 发送API请求: images_3_001
+2025-07-29 15:04:29,283 - ERROR - API请求失败: 401
+2025-07-29 15:04:29,283 - ERROR - 响应内容: {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+2025-07-29 15:04:29,292 - ERROR - ❌ API响应为空: images_3_001
+2025-07-29 15:04:30,303 - INFO - 🎬 开始分析视频: images_3_002
+2025-07-29 15:04:30,607 - INFO - 📤 发送API请求: images_3_002

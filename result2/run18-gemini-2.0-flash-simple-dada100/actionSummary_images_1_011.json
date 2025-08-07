@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_011",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene includes several vehicles on a road with trees and buildings on either side. There are pedestrians, including a woman and a child, near a parked silver car on the right side of the road. The child is wearing a pink dress, and the woman is holding a baby.",
+  "summary": "The vehicle is driving on a road with moderate traffic. Initially, the vehicle maintains a steady speed. As the vehicle approaches a parked silver car on the right side of the road, a child suddenly emerges from the car, attempting to cross the road. The driver is forced to brake suddenly to avoid hitting the child. The woman is standing next to the car, holding a baby.",
+  "actions": "The vehicle initially maintains a constant speed, following the road. As the vehicle approaches the parked car, the driver likely anticipates potential hazards and prepares to react. Upon seeing the child emerge from the parked car, the driver initiates emergency braking to avoid a collision. The driver's actions are directly influenced by the sudden appearance of the child and the need to prevent an accident.",
+  "key_objects": "1) Right: Parked silver car, medium distance, obstructs view of pedestrians. 2) Right: Child in pink dress, short distance, suddenly emerges from the parked car and attempts to cross the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

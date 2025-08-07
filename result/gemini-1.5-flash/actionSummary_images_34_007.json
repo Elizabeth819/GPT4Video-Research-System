@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_34_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist, pedestrians",
+        "summary": "In this segment, the vehicle is driving through different environments. Initially, it is on a rural road with no immediate obstacles. Later, it encounters a motorcyclist on the right side of the road in an urban area. Finally, the vehicle is in a congested area with multiple pedestrians and vehicles, including a motorcyclist on the left side.",
+        "actions": "The self-driving vehicle maintains a steady speed on the rural road. Upon entering the urban area, it slows down due to the presence of a motorcyclist on the right side. In the final frame, the vehicle is almost at a stop due to heavy traffic and pedestrians on the right side.",
+        "key_objects": "1) Right side: A motorcyclist, approximately 5 meters away, moving parallel to the vehicle. 2) Left side: A motorcyclist, approximately 3 meters away, moving slowly. 3) Front: Multiple pedestrians, approximately 2-5 meters away, walking along the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, person on a scooter, pedestrians",
+        "summary": "In this segment, the vehicle is driving on a narrow road with heavy traffic. A white sedan is ahead, and a person on a scooter is positioned in front of the sedan. Several pedestrians are walking on the right side of the road.",
+        "actions": "The self-driving vehicle is maintaining a slow speed due to the heavy traffic and the presence of the scooter and pedestrians. The vehicle is keeping a safe distance from the white sedan ahead.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, moving slowly due to traffic. 2) Front: A person on a scooter, approximately 3 meters away, stationary. 3) Right: Pedestrians, approximately 2 meters away, walking along the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_007",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "10.5s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist in red shirt, pedestrians",
+        "summary": "In this segment, the vehicle is driving on a road with moderate traffic. A white sedan is ahead on the left side, and a motorcyclist in a red shirt is on the right side. Several pedestrians are walking on the right side of the road. The motorcyclist appears to be moving forward, while the pedestrians are walking towards the road.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through moderate traffic. The vehicle is keeping a safe distance from the white sedan ahead and the motorcyclist on the right side.",
+        "key_objects": "1) Left side: A white sedan, approximately 5 meters away, moving slowly in traffic. 2) Right side: A motorcyclist in a red shirt, approximately 3 meters away, moving forward. 3) Right side: Pedestrians, approximately 2 meters away, walking towards the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "video_id": "dada_1_006",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00",
+    "End_Timestamp": "00:00:09",
+    "summary": "The vehicle is driving on a city street with parked cars on the right. A pedestrian suddenly appears from behind a parked car and starts crossing the street. The pedestrian is relatively close to the vehicle when first visible.",
+    "actions": "The vehicle is driving straight. The driver will likely need to brake to avoid the pedestrian.",
+    "key_objects": [
+      "pedestrian",
+      "parked cars",
+      "vehicle"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "decrease speed",
+      "direction_control": "straight",
+      "lane_control": "maintain lane"
+    }
+  },
+  {
+    "video_id": "dada_1_006",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "0.33",
+    "summary": "A child suddenly appears from behind a parked car, directly in front of the ego vehicle. The child is very close, creating an immediate collision risk.",
+    "actions": "The ego vehicle is driving straight. A child suddenly appears from behind a parked car. The driver will need to brake immediately to avoid a collision.",
+    "key_objects": [
+      "ego vehicle",
+      "child",
+      "parked car"
+    ],
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "emergency brake",
+      "direction_control": "none",
+      "lane_control": "maintain lane"
+    }
+  }
+]

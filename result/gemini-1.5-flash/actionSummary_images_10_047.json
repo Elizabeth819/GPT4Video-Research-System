@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_047",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a red truck, driver of a white van, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Initially, a red truck is seen on the left side, followed by a white van on the right side. As the vehicle progresses, a motorcyclist appears from the left side and overtakes the vehicle. Towards the end, the vehicle approaches a roundabout with a white sedan ahead.",
+        "actions": "The self-driving vehicle maintains a consistent speed while navigating through the urban road. It keeps a safe distance from the vehicles on both sides and adjusts its speed slightly to accommodate the motorcyclist overtaking from the left side.",
+        "key_objects": "1) Left side: A red truck, approximately 5 meters away, parked and partially blocking the view. 2) Right side: A white van, approximately 3 meters away, parked and blocking the view. 3) Left side: A motorcyclist, approximately 2 meters away, overtaking the vehicle. 4) Front: A white sedan, approximately 20 meters away, approaching a roundabout.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

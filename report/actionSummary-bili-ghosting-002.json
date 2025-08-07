@@ -1,0 +1,240 @@
+[
+    {
+        "video_id": "002",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Dog",
+        "summary": "In this segment, the vehicle is driving on a narrow road with parked cars on both sides. A black dog suddenly appears from the left side of the road and crosses to the right side. The driver expresses surprise and relief that no accident occurred.",
+        "actions": "The self-driving vehicle maintains a slow speed as it navigates the narrow road. The driver is cautious due to the sudden appearance of the dog, which crosses the road from left to right. The vehicle does not accelerate and continues to move slowly to avoid any potential collision.",
+        "key_objects": "1) Left side: A black dog, approximately 5 meters away, suddenly moving from the left side of the road towards the right side, directly into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self vehicle",
+        "summary": "In this segment, the self vehicle is driving on a narrow road with trees and parked cars on both sides. Initially, the road is clear, but as the vehicle progresses, it encounters a curve where another car is approaching from the opposite direction. The driver of the self vehicle maintains a safe speed and navigates the curve carefully.",
+        "actions": "The self vehicle maintains a safe speed while driving on a narrow road. As it approaches a curve, the driver notices an oncoming car and continues to drive cautiously. The driver’s actions are focused on ensuring safety while navigating the curve.",
+        "key_objects": "1) Front: A white car, approximately 10 meters away, approaching from the opposite direction, likely to pass by the self vehicle. 2) Left side: Parked cars, approximately 2 meters away, stationary and not posing an immediate threat. 3) Right side: Trees and bushes, approximately 3 meters away, stationary and not posing an immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "maintain current speed",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "21.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "30.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue sedan, driver of a white van",
+        "summary": "In this segment, the self-driving vehicle is navigating a curved road. At 21.0s, a white van is seen on the left side of the road, and a blue sedan is approaching from the opposite direction. By 22.0s, the blue sedan is closer, and by 23.0s, it is very close to the self-driving vehicle. The blue sedan continues to approach, and by 24.0s, it is almost parallel to the self-driving vehicle. From 25.0s to 26.0s, the blue sedan is seen passing by the self-driving vehicle. The scene then transitions to a night setting from 27.0s to 30.0s, where the self-driving vehicle is driving on a straight road with streetlights. The driver mentions a suggestion about a voice-activated brake system that activates upon hearing a scream.",
+        "actions": "The self-driving vehicle maintains a steady speed while navigating the curved road and passing the blue sedan. The vehicle then transitions to a straight road at night, continuing to drive steadily.",
+        "key_objects": "1) Left side: A white van, approximately 5 meters away, parked and partially blocking the view. 2) Front: A blue sedan, approximately 10 meters away, approaching from the opposite direction and passing by the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "31.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "40.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver",
+        "summary": "In this segment, the vehicle is driving on a dimly lit road at night. The driver is discussing the importance of braking for safety. The car ahead is visible in the distance. As the video progresses, the self-driving vehicle continues to follow the car ahead. However, in the final frames, the self-driving vehicle appears to veer off the road, possibly due to not braking in time, as indicated by the drivers comments.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while following the car ahead. The driver emphasizes the importance of braking for safety. In the final frames, the vehicle veers off the road, indicating a potential failure to brake in time.",
+        "key_objects": "1) Front: A red car, approximately 20 meters away, maintaining a steady speed. 2) Right side: Roadside vegetation, approximately 1 meter away, indicating the vehicle is veering off the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "brake",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "41.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "50.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Yellow car, white car",
+        "summary": "In this segment, the vehicle is driving on a road under an overpass. The driver comments on another driver who appears to be asleep and questions how they can brake in such a state. The yellow car ahead is moving steadily, while the white car on the right side is also moving forward. The self-driving vehicle maintains a steady speed and lane, following the yellow car.",
+        "actions": "The self-driving vehicle maintains a steady speed and lane, following the yellow car ahead. The driver comments on the potential danger of a driver falling asleep and not braking.",
+        "key_objects": "1) Front: A yellow car, approximately 10 meters away, moving steadily forward. 2) Right: A white car, approximately 15 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "51.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "60.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, vehicles on the road",
+        "summary": "In this segment, the vehicle is approaching an intersection. The driver is expressing confusion and concern about a potential brake failure. The road ahead is clear, but the driver is cautious. The self-driving vehicle maintains a steady speed and does not show any signs of sudden braking or acceleration. The driver mentions the possibility of brake failure and the lack of screeching sounds, indicating a potential mechanical issue.",
+        "actions": "The self-driving vehicle maintains a steady speed while approaching the intersection. The driver is cautious and attentive, possibly due to concerns about brake functionality. The vehicle does not accelerate or decelerate abruptly, indicating a controlled approach to the intersection.",
+        "key_objects": "1) Front: Clear road ahead, approximately 20 meters away, no immediate obstacles or vehicles in the path. 2) Left side: A blue car, approximately 5 meters away, moving forward. 3) Right side: A white car, approximately 10 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "61.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "70.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Truck, white car, red car",
+        "summary": "In this segment, a truck is seen making a left turn at an intersection. A white car is moving straight at a high speed from the left side. The truck and the white car collide in the middle of the intersection, causing a significant disturbance. The driver comments on the loud noise and the potential danger if the car owner is not paying attention.",
+        "actions": "The truck makes a left turn while the white car moves straight at high speed, leading to a collision in the intersection. The self-driving vehicle remains stationary, observing the incident.",
+        "key_objects": "1) Front-left: A truck, approximately 10 meters away, making a left turn. 2) Left: A white car, approximately 15 meters away, moving straight at high speed. 3) Front: A red car, approximately 20 meters away, approaching the intersection.",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "71.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "80.0s",
+        "scene_theme": "Dramatic",
+        "characters": "White car, other vehicles",
+        "summary": "In this segment, a white car is seen making a left turn at an intersection. As it turns, a vehicle traveling straight from the opposite direction collides with it. The audio discusses the responsibility for the accident, mentioning that the straight-going vehicle was given the right of way because it had the headlight on, while the left-turning vehicle had the tail light on.",
+        "actions": "The white car is making a left turn at an intersection. During the turn, it collides with a vehicle traveling straight from the opposite direction. The collision occurs because the straight-going vehicle had the right of way.",
+        "key_objects": "1) Front-left: A white car, approximately 5 meters away, making a left turn at the intersection. 2) Front-right: A vehicle traveling straight, approximately 10 meters away, colliding with the white car.",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "81.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "90.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, driver of a large construction vehicle",
+        "summary": "In this segment, the vehicle is driving on a road when a motorcyclist appears from the right side. The motorcyclist is seen approaching the intersection and then braking. However, the motorcyclist does not come to a complete stop and collides with a large construction vehicle that is making a left turn.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the motorcyclist approaching from the right. The motorcyclist attempts to brake but fails to stop in time, resulting in a collision with the construction vehicle. The self-driving vehicle continues to move forward cautiously, maintaining a safe distance from the incident.",
+        "key_objects": "1) Right side: A motorcyclist, approximately 5 meters away, approaching the intersection and braking but not stopping, leading to a collision with a construction vehicle. 2) Front: A large construction vehicle, approximately 10 meters away, making a left turn and colliding with the motorcyclist.",
+        "key_actions": "ghost probing, collision",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "91.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "100.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, Electric scooter rider",
+        "summary": "In this segment, the vehicle is driving on a road when it encounters an electric scooter rider. The driver comments on the speed and the near collision with the scooter. The scooter rider is seen riding erratically and eventually crashes into a parked car. The driver expresses frustration and concern over the incident.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the erratic behavior of the electric scooter rider. The driver comments on the dangerous riding and the subsequent crash into a parked car. The vehicle does not take any evasive actions but continues to monitor the situation.",
+        "key_objects": "1) Front: An electric scooter rider, approximately 5 meters away, riding erratically and eventually crashing into a parked car. 2) Right: A parked car, approximately 3 meters away, involved in the collision with the scooter rider.",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "101.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "110.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrian on the ground",
+        "summary": "In this segment, the video starts with a pedestrian lying on the ground next to a white sedan parked improperly on the right side of the road. The driver comments on the improper parking and the pedestrians lack of attention. The scene then shifts to a moving vehicle following another car on a road. The driver mentions that the car ahead is braking.",
+        "actions": "The self-driving vehicle is approaching a white sedan parked improperly on the right side of the road, with a pedestrian lying on the ground next to it. The self-driving vehicle continues to approach the white sedan and the pedestrian. In the last 5 frames, the self-driving vehicle is following another car in front, which suddenly brakes.",
+        "key_objects": "1) Right side: A white sedan, approximately 5 meters away, parked improperly on the roadside, with a pedestrian lying on the ground next to it. 2) Front: A car, approximately 10 meters away, suddenly braking.",
+        "key_actions": "sudden braking",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "111.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "120.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrian in white dress",
+        "summary": "In this segment, the vehicle is driving on a road with multiple lanes. The driver mentions preparing to change lanes because the car ahead is about to park. A pedestrian in a white dress is seen crossing the road from the left side. The car ahead brakes, which the driver notes as a reminder rather than an obstruction. The scene transitions to nighttime, showing a truck ahead and another vehicle approaching from the opposite direction.",
+        "actions": "The self-driving vehicle is preparing to change lanes to avoid the car ahead that is about to park. The driver is cautious due to the pedestrian crossing the road and the braking of the car ahead. The scene transitions to nighttime, indicating a change in driving conditions.",
+        "key_objects": "1) Front-left: A white sedan, approximately 10 meters away, braking and preparing to park. 2) Left side: A pedestrian in a white dress, approximately 5 meters away, crossing the road from left to right. 3) Front: A truck, approximately 20 meters away, driving ahead. 4) Right side: An approaching vehicle, approximately 30 meters away, coming from the opposite direction.",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "steer to circumvent",
+            "lane_control": "change to left lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "121.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "130.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self vehicle",
+        "summary": "In this segment, the vehicle is driving on a poorly maintained road at night. The driver comments on the dangerous conditions and the unfamiliarity of the road. The vehicle encounters significant bumps, causing the driver to express concern about hitting the car roof. The road conditions are visibly rough, with potholes and uneven surfaces.",
+        "actions": "The self-driving vehicle is navigating a poorly maintained road at night, encountering significant bumps and potholes. The driver is driving cautiously but is still affected by the rough road conditions, which cause the vehicle to jolt and the driver to express concern about hitting the car roof.",
+        "key_objects": "1) Front-left: A white car, approximately 5 meters away, moving forward on the same road, likely to encounter the same rough conditions. 2) Front-right: A red truck, approximately 10 meters away, moving forward on the same road, also likely to encounter the same rough conditions.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "002",
+        "Start_Timestamp": "131.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "140.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self vehicle",
+        "summary": "In this segment, the self vehicle is driving at night on a poorly lit road. The driver comments on the importance of not driving too fast, especially when unfamiliar with the road at night. The driver also mentions the proper use of headlights at night. A vehicle with its low beam headlights on is approaching from the opposite direction, and the driver notes that the low beam is too close.",
+        "actions": "The self vehicle is maintaining a steady speed while driving on a dark road. The driver is cautious about the road conditions and the approaching vehicle with its low beam headlights on. The self vehicles speed is controlled to ensure safety in the dark environment.",
+        "key_objects": "1) Front: An approaching vehicle with low beam headlights on, approximately 50 meters away, moving towards the self vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

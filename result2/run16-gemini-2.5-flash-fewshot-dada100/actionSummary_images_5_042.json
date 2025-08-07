@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_042",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter, wearing dark clothing with an orange vest or lining.",
+  "summary": "In this segment, the vehicle is driving on an urban road, approaching and entering a busy intersection. Buildings line both sides of the road, creating visual obstructions at the corners of the intersection. As the vehicle proceeds through the intersection, a person on a scooter suddenly emerges from behind a building on the left side, entering the vehicle's direct path with extremely minimal reaction time. This sudden and unexpected appearance leads to an immediate dangerous situation where the scooter rider falls directly in front of the vehicle.",
+  "actions": "The self-driving vehicle was maintaining a consistent speed as it approached and entered the intersection. Upon the sudden and unforeseen emergence of a scooter and its rider from behind the building on the left side of the intersection, the vehicle immediately initiated rapid deceleration and emergency braking. This decisive action was taken to prevent or mitigate a direct collision with the suddenly appearing obstacle in its path, prioritizing safety in response to the unexpected event.",
+  "key_objects": "1) Left side: A person on a scooter, approximately 2-3 meters away, suddenly emerging from behind a building at the intersection and entering the vehicle's path, resulting in a fall. 2) Left side: A large building (identified as ABC bank building), approximately 10-15 meters away, located at the corner of the intersection, which created a significant visual obstruction that completely hid the approaching scooter until it emerged into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

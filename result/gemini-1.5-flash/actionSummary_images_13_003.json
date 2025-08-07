@@ -1,0 +1,106 @@
+[
+    {
+        "video_id": "dada_13_003",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A dark-colored SUV",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Maintaining a consistent distance ahead of the ego vehicle."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a 5-second segment of a car driving on a city road. The road is relatively clear with other vehicles maintaining a safe distance.  The ego vehicle maintains a steady speed and follows the vehicle in front. No unusual or dangerous events occur during this period.",
+        "actions": "The ego vehicle maintains a consistent speed and following distance from the vehicle ahead.  There are no observable changes in speed or direction during this 5-second segment. The driving appears to be smooth and controlled, adapting to the flow of traffic.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_13_003",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A child on a scooter, wearing a red jacket",
+                "distance": "2",
+                "behavior or action impacting the vehicle": "Crossing the road from right to left, appearing suddenly from behind a parked car."
+            },
+            {
+                "Position": "Front",
+                "Object description": "A person on a motorcycle, wearing dark clothing",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching the intersection from the right, crossing the road."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "child",
+                "gender": "male",
+                "clothing": "red jacket",
+                "transportation": "scooter",
+                "behavior": "crossing the road from right to left, appearing suddenly from behind a parked car."
+            },
+            {
+                "age": "adult",
+                "gender": "male",
+                "clothing": "dark clothing",
+                "transportation": "motorcycle",
+                "behavior": "approaching the intersection from the right, crossing the road."
+            }
+        ],
+        "summary": "The video shows a busy intersection. At approximately 5.0 seconds, a child on a red scooter suddenly darts out from behind a parked car on the right, crossing the road directly in front of the vehicle.  The child's sudden appearance presents a significant ghost probing hazard.  Simultaneously, a person on a motorcycle approaches the intersection from the right, also crossing the road. While the motorcycle rider is more visible, their crossing path still presents a potential collision risk. The speed of the scooter is relatively low, but the sudden appearance is the critical factor. The motorcycle is moving at a moderate speed. Both situations require immediate driver attention and potential braking.",
+        "actions": "The vehicle maintains a steady speed, approaching the intersection cautiously. The driver appears to be paying attention to the traffic conditions, but the sudden appearance of the child on the scooter necessitates a rapid response.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_13_003",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.6s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A dark-colored sedan",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Maintaining a consistent speed and distance from the self-vehicle."
+            },
+            {
+                "Position": "Front-left",
+                "Object description": "A motorcyclist wearing a dark jacket",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Crossing the intersection; poses a potential collision risk if the self-vehicle does not maintain caution."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket",
+                "transportation_method": "Motorcycle",
+                "behavior": "Crossing the intersection"
+            }
+        ],
+        "summary": "The video shows a street intersection with moderate traffic. The self-vehicle is approaching the intersection. A dark-colored sedan is traveling ahead of the self-vehicle, maintaining a safe distance. A motorcyclist wearing a dark jacket is crossing the intersection from left to right. The motorcyclist's path intersects with the self-vehicle's path, creating a potential collision risk if the self-vehicle does not slow down or stop.",
+        "actions": "The self-vehicle is approaching the intersection at a moderate speed. The driver appears to be maintaining a safe following distance from the vehicle in front. There is no indication of braking or acceleration based on the provided frames.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

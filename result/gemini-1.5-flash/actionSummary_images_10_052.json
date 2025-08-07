@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_052",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Multiple vehicles and individuals are present, including a white sedan, cyclists, and motorcyclists. The scene shows potential for sudden movements and unpredictable behavior from various road users.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the busy urban road. The driver is likely being cautious due to the presence of multiple vehicles and individuals, including a white sedan, cyclists, and motorcyclists. The vehicles speed and direction are consistent, indicating careful driving to avoid collisions.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving slowly and potentially about to change lanes. 2) Left side: A cyclist, approximately 5 meters away, moving towards the road. 3) Right side: A motorcyclist, approximately 7 meters away, moving parallel to the vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

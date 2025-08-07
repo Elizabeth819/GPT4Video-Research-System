@@ -1,0 +1,830 @@
+{
+  "metadata": {
+    "model": "CLIP-Enhanced-Temporal",
+    "device": "GPU",
+    "total_videos": 10,
+    "successful_videos": 10,
+    "failed_videos": 0,
+    "detected_ghost_probing": 6,
+    "timestamp": "20250722_025127",
+    "improvements": [
+      "Lowered detection threshold from 0.3 to 0.15",
+      "Added temporal pattern analysis",
+      "Increased frame count to 16 for better temporal analysis",
+      "Multi-dimensional detection scoring"
+    ]
+  },
+  "processed_videos_details": [
+    {
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_001.avi",
+      "file_size_mb": 5.059446334838867,
+      "total_frames": 440,
+      "extracted_frames": 16,
+      "extraction_time": 0.28380298614501953
+    },
+    {
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_002.avi",
+      "file_size_mb": 5.066123962402344,
+      "total_frames": 344,
+      "extracted_frames": 16,
+      "extraction_time": 0.2309882640838623
+    },
+    {
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_003.avi",
+      "file_size_mb": 3.1865177154541016,
+      "total_frames": 316,
+      "extracted_frames": 16,
+      "extraction_time": 0.1950826644897461
+    },
+    {
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_004.avi",
+      "file_size_mb": 11.355792999267578,
+      "total_frames": 462,
+      "extracted_frames": 16,
+      "extraction_time": 0.2777261734008789
+    },
+    {
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_005.avi",
+      "file_size_mb": 7.865228652954102,
+      "total_frames": 428,
+      "extracted_frames": 16,
+      "extraction_time": 0.2835195064544678
+    },
+    {
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_006.avi",
+      "file_size_mb": 7.205196380615234,
+      "total_frames": 424,
+      "extracted_frames": 16,
+      "extraction_time": 0.2587306499481201
+    },
+    {
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_007.avi",
+      "file_size_mb": 8.537094116210938,
+      "total_frames": 424,
+      "extracted_frames": 16,
+      "extraction_time": 0.247084379196167
+    },
+    {
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_008.avi",
+      "file_size_mb": 3.2028579711914062,
+      "total_frames": 172,
+      "extracted_frames": 16,
+      "extraction_time": 0.2055339813232422
+    },
+    {
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_009.avi",
+      "file_size_mb": 1.6893024444580078,
+      "total_frames": 182,
+      "extracted_frames": 16,
+      "extraction_time": 0.14655375480651855
+    },
+    {
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_010.avi",
+      "file_size_mb": 13.148386001586914,
+      "total_frames": 680,
+      "extracted_frames": 16,
+      "extraction_time": 0.2506899833679199
+    }
+  ],
+  "results": [
+    {
+      "video_id": "images_1_001",
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_001.avi",
+      "ghost_probing_label": "yes",
+      "confidence": 0.846,
+      "ghost_type": "high_confidence",
+      "summary": "增强分析完成，最大帧间变化: 0.2124",
+      "key_actions": "时序分析16帧，降低阈值检测",
+      "risk_level": "high",
+      "emergency_action_needed": "yes",
+      "model": "CLIP-Enhanced-Temporal",
+      "timestamp": "2025-07-22T02:51:23.443506",
+      "processing_time": 1.349017,
+      "frames_analyzed": 16,
+      "device": "cuda",
+      "detection_scores": {
+        "sudden_appearance": 1.0,
+        "temporal_consistency": 0.6333333333333333,
+        "gradient_analysis": 0.8521902561187744,
+        "overall_confidence": 0.8456570768356323
+      },
+      "detection_reasoning": {
+        "max_change_vs_threshold": "0.2124 vs 0.15",
+        "sudden_changes": 1,
+        "continuous_regions": 2,
+        "max_gradient": 0.12782853841781616
+      },
+      "temporal_analysis": {
+        "frame_changes": [
+          0.0845765471458435,
+          0.21240508556365967,
+          0.17022418975830078,
+          0.03942060470581055,
+          0.024563848972320557,
+          0.006813168525695801,
+          0.014666318893432617,
+          0.011949717998504639,
+          0.004021286964416504,
+          0.010021209716796875,
+          0.008016347885131836,
+          0.09481227397918701,
+          0.12089228630065918,
+          0.0166742205619812,
+          0.1195523738861084
+        ],
+        "max_change": 0.21240508556365967,
+        "mean_change": 0.06257396539052328,
+        "std_change": 0.06502846665872755,
+        "sudden_change_threshold": 0.1926308987079784,
+        "sudden_change_count": 1,
+        "sudden_change_indices": [
+          1
+        ],
+        "continuous_change_regions": [
+          [
+            1,
+            2
+          ],
+          [
+            12,
+            12
+          ]
+        ],
+        "max_gradient": 0.12782853841781616,
+        "gradient_peaks": [
+          0,
+          2,
+          14
+        ],
+        "high_change_frames": [
+          1,
+          2,
+          12
+        ]
+      },
+      "analysis_time": 1.063,
+      "thresholds_used": {
+        "sudden_appearance": 0.15,
+        "high_confidence": 0.2,
+        "temporal_pattern": 0.12
+      }
+    },
+    {
+      "video_id": "images_1_002",
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_002.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.2,
+      "ghost_type": "none",
+      "summary": "增强分析完成，最大帧间变化: 0.0926",
+      "key_actions": "时序分析16帧，降低阈值检测",
+      "risk_level": "low",
+      "emergency_action_needed": "no",
+      "model": "CLIP-Enhanced-Temporal",
+      "timestamp": "2025-07-22T02:51:23.886612",
+      "processing_time": 0.442949,
+      "frames_analyzed": 16,
+      "device": "cuda",
+      "detection_scores": {
+        "sudden_appearance": 0.0,
+        "temporal_consistency": 0.3333333333333333,
+        "gradient_analysis": 0.0,
+        "overall_confidence": 0.09999999999999999
+      },
+      "detection_reasoning": {
+        "max_change_vs_threshold": "0.0926 vs 0.15",
+        "sudden_changes": 1,
+        "continuous_regions": 0,
+        "max_gradient": 0.027523159980773926
+      },
+      "temporal_analysis": {
+        "frame_changes": [
+          0.0693807601928711,
+          0.041942715644836426,
+          0.038883090019226074,
+          0.04797261953353882,
+          0.04282689094543457,
+          0.09256422519683838,
+          0.034174978733062744,
+          0.03751790523529053,
+          0.06979012489318848,
+          0.032383084297180176,
+          0.024135470390319824,
+          0.012591063976287842,
+          0.015297293663024902,
+          0.014712214469909668,
+          0.015681922435760498
+        ],
+        "max_change": 0.09256422519683838,
+        "mean_change": 0.039323623975118,
+        "std_change": 0.022398658530408334,
+        "sudden_change_threshold": 0.08412094103593468,
+        "sudden_change_count": 1,
+        "sudden_change_indices": [
+          5
+        ],
+        "continuous_change_regions": [],
+        "max_gradient": 0.027523159980773926,
+        "gradient_peaks": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "high_change_frames": []
+      },
+      "analysis_time": 0.21,
+      "thresholds_used": {
+        "sudden_appearance": 0.15,
+        "high_confidence": 0.2,
+        "temporal_pattern": 0.12
+      }
+    },
+    {
+      "video_id": "images_1_003",
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_003.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.2,
+      "ghost_type": "none",
+      "summary": "增强分析完成，最大帧间变化: 0.0970",
+      "key_actions": "时序分析16帧，降低阈值检测",
+      "risk_level": "low",
+      "emergency_action_needed": "no",
+      "model": "CLIP-Enhanced-Temporal",
+      "timestamp": "2025-07-22T02:51:24.290308",
+      "processing_time": 0.403523,
+      "frames_analyzed": 16,
+      "device": "cuda",
+      "detection_scores": {
+        "sudden_appearance": 0.0,
+        "temporal_consistency": 0.3333333333333333,
+        "gradient_analysis": 0.0,
+        "overall_confidence": 0.09999999999999999
+      },
+      "detection_reasoning": {
+        "max_change_vs_threshold": "0.0970 vs 0.15",
+        "sudden_changes": 1,
+        "continuous_regions": 0,
+        "max_gradient": 0.02586287260055542
+      },
+      "temporal_analysis": {
+        "frame_changes": [
+          0.07065558433532715,
+          0.04527783393859863,
+          0.06252259016036987,
+          0.09700357913970947,
+          0.034586429595947266,
+          0.046391069889068604,
+          0.03544306755065918,
+          0.01122140884399414,
+          0.03176426887512207,
+          0.04106748104095459,
+          0.011602580547332764,
+          0.009339094161987305,
+          0.034062981605529785,
+          0.029286086559295654,
+          0.05082988739013672
+        ],
+        "max_change": 0.09700357913970947,
+        "mean_change": 0.04073692957560222,
+        "std_change": 0.022683428486081243,
+        "sudden_change_threshold": 0.08610378654776471,
+        "sudden_change_count": 1,
+        "sudden_change_indices": [
+          3
+        ],
+        "continuous_change_regions": [],
+        "max_gradient": 0.02586287260055542,
+        "gradient_peaks": [
+          0,
+          2,
+          4
+        ],
+        "high_change_frames": []
+      },
+      "analysis_time": 0.2064,
+      "thresholds_used": {
+        "sudden_appearance": 0.15,
+        "high_confidence": 0.2,
+        "temporal_pattern": 0.12
+      }
+    },
+    {
+      "video_id": "images_1_004",
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_004.avi",
+      "ghost_probing_label": "yes",
+      "confidence": 0.502,
+      "ghost_type": "potential",
+      "summary": "增强分析完成，最大帧间变化: 0.1559",
+      "key_actions": "时序分析16帧，降低阈值检测",
+      "risk_level": "medium",
+      "emergency_action_needed": "yes",
+      "model": "CLIP-Enhanced-Temporal",
+      "timestamp": "2025-07-22T02:51:24.778924",
+      "processing_time": 0.48847,
+      "frames_analyzed": 16,
+      "device": "cuda",
+      "detection_scores": {
+        "sudden_appearance": 0.7796221971511841,
+        "temporal_consistency": 0.6333333333333333,
+        "gradient_analysis": 0.0,
+        "overall_confidence": 0.5018488788604736
+      },
+      "detection_reasoning": {
+        "max_change_vs_threshold": "0.1559 vs 0.15",
+        "sudden_changes": 1,
+        "continuous_regions": 1,
+        "max_gradient": 0.04908943176269531
+      },
+      "temporal_analysis": {
+        "frame_changes": [
+          0.055794358253479004,
+          0.09555649757385254,
+          0.09091293811798096,
+          0.0448228120803833,
+          0.03742486238479614,
+          0.07339614629745483,
+          0.07530057430267334,
+          0.03322708606719971,
+          0.08076709508895874,
+          0.09488976001739502,
+          0.10053455829620361,
+          0.12186789512634277,
+          0.15592443943023682,
+          0.02765178680419922,
+          0.07674121856689453
+        ],
+        "max_change": 0.15592443943023682,
+        "mean_change": 0.07765413522720337,
+        "std_change": 0.033744430908194414,
+        "sudden_change_threshold": 0.14514299704359218,
+        "sudden_change_count": 1,
+        "sudden_change_indices": [
+          12
+        ],
+        "continuous_change_regions": [
+          [
+            11,
+            12
+          ]
+        ],
+        "max_gradient": 0.04908943176269531,
+        "gradient_peaks": [
+          12,
+          14
+        ],
+        "high_change_frames": [
+          11,
+          12
+        ]
+      },
+      "analysis_time": 0.2087,
+      "thresholds_used": {
+        "sudden_appearance": 0.15,
+        "high_confidence": 0.2,
+        "temporal_pattern": 0.12
+      }
+    },
+    {
+      "video_id": "images_1_005",
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_005.avi",
+      "ghost_probing_label": "yes",
+      "confidence": 0.501,
+      "ghost_type": "potential",
+      "summary": "增强分析完成，最大帧间变化: 0.1555",
+      "key_actions": "时序分析16帧，降低阈值检测",
+      "risk_level": "medium",
+      "emergency_action_needed": "yes",
+      "model": "CLIP-Enhanced-Temporal",
+      "timestamp": "2025-07-22T02:51:25.280184",
+      "processing_time": 0.501062,
+      "frames_analyzed": 16,
+      "device": "cuda",
+      "detection_scores": {
+        "sudden_appearance": 0.7777097821235657,
+        "temporal_consistency": 0.6333333333333333,
+        "gradient_analysis": 0.0,
+        "overall_confidence": 0.5010839128494262
+      },
+      "detection_reasoning": {
+        "max_change_vs_threshold": "0.1555 vs 0.15",
+        "sudden_changes": 1,
+        "continuous_regions": 1,
+        "max_gradient": 0.036425888538360596
+      },
+      "temporal_analysis": {
+        "frame_changes": [
+          0.15554195642471313,
+          0.11911606788635254,
+          0.09436053037643433,
+          0.06217581033706665,
+          0.08322250843048096,
+          0.07260024547576904,
+          0.05379217863082886,
+          0.03929406404495239,
+          0.05122584104537964,
+          0.08979904651641846,
+          0.07632029056549072,
+          0.01910024881362915,
+          0.01694267988204956,
+          0.016704976558685303,
+          0.03351879119873047
+        ],
+        "max_change": 0.15554195642471313,
+        "mean_change": 0.06558101574579875,
+        "std_change": 0.038157760102529456,
+        "sudden_change_threshold": 0.14189653595085766,
+        "sudden_change_count": 1,
+        "sudden_change_indices": [
+          0
+        ],
+        "continuous_change_regions": [
+          [
+            0,
+            0
+          ]
+        ],
+        "max_gradient": 0.036425888538360596,
+        "gradient_peaks": [
+          0,
+          1,
+          10,
+          11
+        ],
+        "high_change_frames": [
+          0
+        ]
+      },
+      "analysis_time": 0.2156,
+      "thresholds_used": {
+        "sudden_appearance": 0.15,
+        "high_confidence": 0.2,
+        "temporal_pattern": 0.12
+      }
+    },
+    {
+      "video_id": "images_1_006",
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_006.avi",
+      "ghost_probing_label": "yes",
+      "confidence": 0.866,
+      "ghost_type": "high_confidence",
+      "summary": "增强分析完成，最大帧间变化: 0.2168",
+      "key_actions": "时序分析16帧，降低阈值检测",
+      "risk_level": "high",
+      "emergency_action_needed": "yes",
+      "model": "CLIP-Enhanced-Temporal",
+      "timestamp": "2025-07-22T02:51:25.759202",
+      "processing_time": 0.478847,
+      "frames_analyzed": 16,
+      "device": "cuda",
+      "detection_scores": {
+        "sudden_appearance": 1.0,
+        "temporal_consistency": 0.9666666666666666,
+        "gradient_analysis": 0.5869114398956299,
+        "overall_confidence": 0.8660734319686889
+      },
+      "detection_reasoning": {
+        "max_change_vs_threshold": "0.2168 vs 0.15",
+        "sudden_changes": 2,
+        "continuous_regions": 2,
+        "max_gradient": 0.08803671598434448
+      },
+      "temporal_analysis": {
+        "frame_changes": [
+          0.12173539400100708,
+          0.0336986780166626,
+          0.04310983419418335,
+          0.054527223110198975,
+          0.0831747055053711,
+          0.04698920249938965,
+          0.04499471187591553,
+          0.05155426263809204,
+          0.047972917556762695,
+          0.21677303314208984,
+          0.18754518032073975,
+          0.042960524559020996,
+          0.01600724458694458,
+          0.01658564805984497,
+          0.051262736320495605
+        ],
+        "max_change": 0.21677303314208984,
+        "mean_change": 0.07059275309244792,
+        "std_change": 0.05733820584577048,
+        "sudden_change_threshold": 0.18526916478398886,
+        "sudden_change_count": 2,
+        "sudden_change_indices": [
+          9,
+          10
+        ],
+        "continuous_change_regions": [
+          [
+            0,
+            0
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "max_gradient": 0.08803671598434448,
+        "gradient_peaks": [
+          0,
+          8,
+          10,
+          11
+        ],
+        "high_change_frames": [
+          0,
+          9,
+          10
+        ]
+      },
+      "analysis_time": 0.2181,
+      "thresholds_used": {
+        "sudden_appearance": 0.15,
+        "high_confidence": 0.2,
+        "temporal_pattern": 0.12
+      }
+    },
+    {
+      "video_id": "images_1_007",
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_007.avi",
+      "ghost_probing_label": "yes",
+      "confidence": 0.374,
+      "ghost_type": "low_confidence",
+      "summary": "增强分析完成，最大帧间变化: 0.1261",
+      "key_actions": "时序分析16帧，降低阈值检测",
+      "risk_level": "low",
+      "emergency_action_needed": "yes",
+      "model": "CLIP-Enhanced-Temporal",
+      "timestamp": "2025-07-22T02:51:26.215712",
+      "processing_time": 0.456344,
+      "frames_analyzed": 16,
+      "device": "cuda",
+      "detection_scores": {
+        "sudden_appearance": 0.0,
+        "temporal_consistency": 0.6333333333333333,
+        "gradient_analysis": 0.6142644087473552,
+        "overall_confidence": 0.37427932262420655
+      },
+      "detection_reasoning": {
+        "max_change_vs_threshold": "0.1261 vs 0.15",
+        "sudden_changes": 1,
+        "continuous_regions": 1,
+        "max_gradient": 0.09213966131210327
+      },
+      "temporal_analysis": {
+        "frame_changes": [
+          0.12611687183380127,
+          0.033977210521698,
+          0.04397231340408325,
+          0.04457700252532959,
+          0.04521775245666504,
+          0.07706546783447266,
+          0.05457186698913574,
+          0.035615384578704834,
+          0.05654245615005493,
+          0.03025919198989868,
+          0.01755368709564209,
+          0.026368916034698486,
+          0.047503769397735596,
+          0.04422241449356079,
+          0.02877897024154663
+        ],
+        "max_change": 0.12611687183380127,
+        "mean_change": 0.04748955170313517,
+        "std_change": 0.025217165485124086,
+        "sudden_change_threshold": 0.09792388267338334,
+        "sudden_change_count": 1,
+        "sudden_change_indices": [
+          0
+        ],
+        "continuous_change_regions": [
+          [
+            0,
+            0
+          ]
+        ],
+        "max_gradient": 0.09213966131210327,
+        "gradient_peaks": [
+          0,
+          1
+        ],
+        "high_change_frames": [
+          0
+        ]
+      },
+      "analysis_time": 0.2071,
+      "thresholds_used": {
+        "sudden_appearance": 0.15,
+        "high_confidence": 0.2,
+        "temporal_pattern": 0.12
+      }
+    },
+    {
+      "video_id": "images_1_008",
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_008.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.2,
+      "ghost_type": "none",
+      "summary": "增强分析完成，最大帧间变化: 0.1121",
+      "key_actions": "时序分析16帧，降低阈值检测",
+      "risk_level": "low",
+      "emergency_action_needed": "no",
+      "model": "CLIP-Enhanced-Temporal",
+      "timestamp": "2025-07-22T02:51:26.631766",
+      "processing_time": 0.415903,
+      "frames_analyzed": 16,
+      "device": "cuda",
+      "detection_scores": {
+        "sudden_appearance": 0.0,
+        "temporal_consistency": 0.0,
+        "gradient_analysis": 0.0,
+        "overall_confidence": 0.0
+      },
+      "detection_reasoning": {
+        "max_change_vs_threshold": "0.1121 vs 0.15",
+        "sudden_changes": 0,
+        "continuous_regions": 0,
+        "max_gradient": 0.04065263271331787
+      },
+      "temporal_analysis": {
+        "frame_changes": [
+          0.02445542812347412,
+          0.06510806083679199,
+          0.08017057180404663,
+          0.03427320718765259,
+          0.08282816410064697,
+          0.07437163591384888,
+          0.08001160621643066,
+          0.09149551391601562,
+          0.11208736896514893,
+          0.05428493022918701,
+          0.08946973085403442,
+          0.045826852321624756,
+          0.035002708435058594,
+          0.04746967554092407,
+          0.011390447616577148
+        ],
+        "max_change": 0.11208736896514893,
+        "mean_change": 0.06188306013743083,
+        "std_change": 0.027549957208922313,
+        "sudden_change_threshold": 0.11698297455527545,
+        "sudden_change_count": 0,
+        "sudden_change_indices": [],
+        "continuous_change_regions": [],
+        "max_gradient": 0.04065263271331787,
+        "gradient_peaks": [
+          0,
+          14
+        ],
+        "high_change_frames": []
+      },
+      "analysis_time": 0.2083,
+      "thresholds_used": {
+        "sudden_appearance": 0.15,
+        "high_confidence": 0.2,
+        "temporal_pattern": 0.12
+      }
+    },
+    {
+      "video_id": "images_1_009",
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_009.avi",
+      "ghost_probing_label": "yes",
+      "confidence": 0.667,
+      "ghost_type": "high_confidence",
+      "summary": "增强分析完成，最大帧间变化: 0.1669",
+      "key_actions": "时序分析16帧，降低阈值检测",
+      "risk_level": "high",
+      "emergency_action_needed": "yes",
+      "model": "CLIP-Enhanced-Temporal",
+      "timestamp": "2025-07-22T02:51:26.988975",
+      "processing_time": 0.357061,
+      "frames_analyzed": 16,
+      "device": "cuda",
+      "detection_scores": {
+        "sudden_appearance": 0.8342739939689636,
+        "temporal_consistency": 0.6333333333333333,
+        "gradient_analysis": 0.47848006089528405,
+        "overall_confidence": 0.6672536158561706
+      },
+      "detection_reasoning": {
+        "max_change_vs_threshold": "0.1669 vs 0.15",
+        "sudden_changes": 1,
+        "continuous_regions": 1,
+        "max_gradient": 0.0717720091342926
+      },
+      "temporal_analysis": {
+        "frame_changes": [
+          0.03274726867675781,
+          0.044275760650634766,
+          0.08206093311309814,
+          0.060272037982940674,
+          0.043734729290008545,
+          0.10236924886703491,
+          0.0650634765625,
+          0.16685479879379272,
+          0.06488341093063354,
+          0.02331078052520752,
+          0.02211695909500122,
+          0.020549893379211426,
+          0.02569425106048584,
+          0.01825183629989624,
+          0.008525609970092773
+        ],
+        "max_change": 0.16685479879379272,
+        "mean_change": 0.05204739967981974,
+        "std_change": 0.03996844739336907,
+        "sudden_change_threshold": 0.13198429446655788,
+        "sudden_change_count": 1,
+        "sudden_change_indices": [
+          7
+        ],
+        "continuous_change_regions": [
+          [
+            7,
+            7
+          ]
+        ],
+        "max_gradient": 0.0717720091342926,
+        "gradient_peaks": [
+          8
+        ],
+        "high_change_frames": [
+          7
+        ]
+      },
+      "analysis_time": 0.2086,
+      "thresholds_used": {
+        "sudden_appearance": 0.15,
+        "high_confidence": 0.2,
+        "temporal_pattern": 0.12
+      }
+    },
+    {
+      "video_id": "images_1_010",
+      "video_path": "/mnt/azureml/cr/j/57f4f8882b23485281e96bb0140878f0/cap/data-capability/wd/INPUT_video_data/images_1_010.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.2,
+      "ghost_type": "none",
+      "summary": "增强分析完成，最大帧间变化: 0.1195",
+      "key_actions": "时序分析16帧，降低阈值检测",
+      "risk_level": "low",
+      "emergency_action_needed": "no",
+      "model": "CLIP-Enhanced-Temporal",
+      "timestamp": "2025-07-22T02:51:27.447910",
+      "processing_time": 0.458768,
+      "frames_analyzed": 16,
+      "device": "cuda",
+      "detection_scores": {
+        "sudden_appearance": 0.0,
+        "temporal_consistency": 0.0,
+        "gradient_analysis": 0.0,
+        "overall_confidence": 0.0
+      },
+      "detection_reasoning": {
+        "max_change_vs_threshold": "0.1195 vs 0.15",
+        "sudden_changes": 0,
+        "continuous_regions": 0,
+        "max_gradient": 0.03715682029724121
+      },
+      "temporal_analysis": {
+        "frame_changes": [
+          0.11952900886535645,
+          0.08237218856811523,
+          0.045221686363220215,
+          0.05436718463897705,
+          0.0952959656715393,
+          0.09095114469528198,
+          0.09538555145263672,
+          0.05720090866088867,
+          0.046963274478912354,
+          0.06824302673339844,
+          0.06732499599456787,
+          0.06135404109954834,
+          0.025354325771331787,
+          0.0076517462730407715,
+          0.011874258518218994
+        ],
+        "max_change": 0.11952900886535645,
+        "mean_change": 0.06193928718566895,
+        "std_change": 0.030824043832965067,
+        "sudden_change_threshold": 0.12358737485159908,
+        "sudden_change_count": 0,
+        "sudden_change_indices": [],
+        "continuous_change_regions": [],
+        "max_gradient": 0.03715682029724121,
+        "gradient_peaks": [
+          0,
+          1
+        ],
+        "high_change_frames": []
+      },
+      "analysis_time": 0.2061,
+      "thresholds_used": {
+        "sudden_appearance": 0.15,
+        "high_confidence": 0.2,
+        "temporal_pattern": 0.12
+      }
+    }
+  ]
+}

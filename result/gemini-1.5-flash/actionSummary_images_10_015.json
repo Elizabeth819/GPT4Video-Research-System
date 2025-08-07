@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_015",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "1.9s",
+        "scene_theme": "Parking Garage",
+        "characters": "Driver of a red car, Driver of a white car",
+        "summary": "In this segment, the vehicle is navigating through a parking garage. The red car ahead is stationary, while the white car on the right side is also parked. The self-driving vehicle is approaching the red car and the pillar in the middle.",
+        "actions": "The self-driving vehicle is moving forward at a slow speed, maintaining a safe distance from the red car ahead and the pillar in the middle. The vehicle is preparing to navigate around the pillar.",
+        "key_objects": "1) Front: A red car, approximately 5 meters away, stationary. 2) Right: A white car, approximately 7 meters away, parked.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

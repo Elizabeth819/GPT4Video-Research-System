@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_031",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car approaching an intersection. There are other vehicles present, including a white car on the left and a green three-wheeled vehicle on the right. A person on a scooter appears from the right side of the road. Later, two people are seen picking up items in the middle of the road.",
+  "summary": "The vehicle approaches an intersection. Initially, the road appears clear, but a scooter suddenly appears from the right side. Subsequently, two people are seen in the middle of the road, apparently picking up items that have fallen. This creates a dangerous situation as they are vulnerable to oncoming traffic.",
+  "actions": "The vehicle is initially moving forward at a steady speed. As the scooter appears, the driver likely prepares to brake. When the two people appear in the road, the driver likely brakes to avoid hitting them. The driver is proceeding with caution due to the unexpected obstacles in the road.",
+  "key_objects": "1) Right side: A scooter emerges from behind a building, creating a potential collision hazard. Distance: Medium, Behavior impact: High. 2) Center: Two people are in the middle of the road picking up items. Distance: Close, Behavior impact: High.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

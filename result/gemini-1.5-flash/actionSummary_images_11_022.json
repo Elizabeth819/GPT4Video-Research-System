@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_022",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist on a yellow scooter",
+        "summary": "In this segment, the vehicle is driving on a city road. Initially, a white sedan is seen on the left side of the road. As the vehicle progresses, a blue car appears on the left side, and a cyclist on a yellow scooter is seen on the right side of the road. The cyclist is moving towards the center of the road, potentially causing a dangerous situation.",
+        "actions": "The self-driving vehicle maintains a consistent speed while navigating through the city road. The vehicle is likely to decelerate due to the presence of the cyclist moving towards the center of the road, which poses a potential collision risk.",
+        "key_objects": "1) Left side: A white sedan, approximately 5 meters away, moving forward. 2) Left side: A blue car, approximately 10 meters away, moving forward. 3) Right side: A cyclist on a yellow scooter, approximately 3 meters away, moving towards the center of the road.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_022",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.9s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a road with moderate traffic. A white sedan is ahead in the same lane, and a van is on the right side. The road is lined with trees, and the weather appears clear.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, keeping a safe distance from the white sedan ahead. The vehicle is staying in its lane and not making any sudden movements.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a steady speed. 2) Right: A van, approximately 10 meters away, moving parallel to the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

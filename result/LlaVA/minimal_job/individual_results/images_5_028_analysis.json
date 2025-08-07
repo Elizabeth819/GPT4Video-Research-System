@@ -1,0 +1,46 @@
+{
+  "视频信息": {
+    "视频ID": "images_5_028",
+    "检测类型": "🟡 紧急制动",
+    "准确性评估": "⚠️ 漏检",
+    "Ground Truth": "7s: ghost probing",
+    "处理时间": "0.32秒"
+  },
+  "检测结果详情": {
+    "关键动作": "emergency braking due to traffic situation",
+    "场景概述": "Video analysis shows emergency braking due to traffic situation scenario with max frame change of 0.1403",
+    "场景主题": "Routine",
+    "情感色调": "Neutral",
+    "关键对象": "1) Front view: traffic objects at various distances 2) Road environment: routine conditions",
+    "下一步动作": {
+      "speed_control": "deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  "技术分析": {
+    "最大帧变化": 0.1403,
+    "平均帧变化": 0.0617,
+    "帧变化序列": [
+      0.0414,
+      0.0403,
+      0.0402,
+      0.0335,
+      0.0363,
+      0.0442,
+      0.1403,
+      0.1246,
+      0.054
+    ],
+    "置信度分数": 0.08415137529373169,
+    "突然变化次数": 0,
+    "分析时间": "0.1331秒",
+    "检测方法": "GPT-4.1-Balanced-Prompt + CLIP"
+  },
+  "模型元数据": {
+    "模型": "LLaVA-GPT-4.1-Balanced-Prompt",
+    "时间戳": "2025-07-22T03:20:26.263573",
+    "设备": "cuda",
+    "帧数": 10
+  }
+}

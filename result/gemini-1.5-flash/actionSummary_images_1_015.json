@@ -1,0 +1,97 @@
+[
+    {
+        "video_id": "dada_1_015",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "Two individuals, appearing to be adult males, one wearing a dark-colored shirt and the other a light-colored shirt, standing near a parked truck.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "They suddenly step into the road from behind the parked truck, creating a potential ghost probing situation."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "Adult",
+                "clothing": "Dark-colored shirt",
+                "transportation": "On foot",
+                "behavior": "Suddenly steps into the road from behind a parked truck."
+            },
+            {
+                "gender": "Male",
+                "age": "Adult",
+                "clothing": "Light-colored shirt",
+                "transportation": "On foot",
+                "behavior": "Suddenly steps into the road from behind a parked truck."
+            }
+        ],
+        "summary": "The video shows a car driving down a narrow street. At approximately 5 meters in front of the vehicle, two adult males suddenly step into the road from behind a parked truck.  One is wearing a dark shirt, the other a light shirt. This action creates a potential ghost probing scenario, posing an immediate risk of collision. The speed of the individuals is difficult to ascertain from the limited frames, but their sudden appearance necessitates immediate action from the driver.",
+        "actions": "The vehicle maintains a slow, steady speed throughout the observed 5-second segment.  The driver appears to be cautiously navigating the narrow street, likely due to the presence of parked vehicles and limited visibility around corners. The consistent speed suggests a proactive approach to managing potential hazards.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_015",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "7.1s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A person on a motorcycle",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching the intersection from the right, potentially crossing the path of the vehicle."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A person on a motorcycle",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Moving slowly, but could potentially cut in front of the vehicle if it turns right."
+            },
+            {
+                "Position": "Left",
+                "Object description": "A person walking",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Walking at a moderate pace, not posing an immediate threat."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark colored shirt and pants",
+                "transportation": "Motorcycle",
+                "behavior": "Approaching intersection from right, potentially crossing vehicle's path."
+            },
+            {
+                "gender": "Male",
+                "age": "20-30",
+                "clothing": "Light colored shirt and pants",
+                "transportation": "Motorcycle",
+                "behavior": "Moving slowly on the right, potential cut-in if vehicle turns right."
+            },
+            {
+                "gender": "Female",
+                "age": "40-50",
+                "clothing": "Dark colored dress",
+                "transportation": "Walking",
+                "behavior": "Walking at a moderate pace on the left, not posing an immediate threat."
+            }
+        ],
+        "summary": "The video shows a car approaching an intersection. A person on a motorcycle is approaching the intersection from the right, potentially crossing the path of the vehicle. Another person on a motorcycle is moving slowly on the right, and a person is walking on the left. The situation requires caution as the motorcycle from the right could potentially cause a collision if it does not yield to the car.",
+        "actions": "The vehicle is approaching the intersection at a moderate speed. The driver appears to be maintaining a safe following distance from the vehicle in front. The driver is observing the surrounding traffic and pedestrians.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

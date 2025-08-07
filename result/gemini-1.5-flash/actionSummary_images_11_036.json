@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_036",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. Ahead, a white sedan is moving in the same lane. A bus is visible in the adjacent lane on the right, and another white car is approaching from the right lane. The distance between the self-driving vehicle and the white sedan ahead decreases significantly over the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed initially but starts to decelerate as the distance to the white sedan ahead decreases. The vehicle is preparing to stop or slow down significantly due to the close proximity to the white sedan ahead.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, moving in the same lane, causing the self-driving vehicle to decelerate. 2) Right: A bus, approximately 10 meters away, moving in the adjacent lane. 3) Right: Another white car, approximately 8 meters away, approaching from the right lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

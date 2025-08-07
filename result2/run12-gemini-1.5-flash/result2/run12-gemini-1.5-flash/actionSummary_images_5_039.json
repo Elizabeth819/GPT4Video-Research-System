@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_5_039",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "Driver of the recording vehicle, a scooter driver wearing a dark blue jacket and dark pants.",
+    "summary": "The video shows a traffic scene where the recording vehicle is driving on a multi-lane road.  Several vehicles are ahead, including trucks and cars. Around the 7.8s mark, a scooter driver, wearing a dark blue jacket and dark pants, attempts to overtake a line of slower-moving vehicles.  The scooter driver appears suddenly from behind a large truck, attempting to cut into the lane of the recording vehicle. The scooter driver loses control and falls, narrowly avoiding a collision with the recording vehicle. The incident appears to be a case of ghost probing due to the scooter's sudden emergence from behind the truck.",
+    "actions": "The recording vehicle maintains a consistent speed and lane position throughout the video.  The vehicle ahead also maintains a consistent speed, creating a line of traffic. The driver of the recording vehicle does not take any evasive maneuvers until the scooter driver falls.",
+    "key_objects": "1) Left side: A scooter driver wearing a dark blue jacket and dark pants, approximately 2 meters away at the time of the near-miss, suddenly emerging from behind a large truck attempting to overtake, resulting in a near collision and a fall. ",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_039",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "13.0s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "A male motorcyclist wearing a dark jacket and a face mask, and a man in a dark jacket assisting him.",
+    "summary": "The video shows a motorcyclist falling from his motorcycle in the middle of the road. The motorcycle appears to have fallen after colliding with another vehicle, though the collision itself is not visible in the provided frames. A man in a dark jacket approaches the fallen motorcyclist to assist him. The incident appears to have occurred near a large white truck, which is partially obstructing the view. The motorcyclist is lying on the ground, and the motorcycle is lying on its side.",
+    "actions": "The self-driving vehicle maintains a steady speed and continues straight ahead, observing the accident scene from a safe distance.  The driver does not take any evasive maneuvers as the accident is not directly in the path of the vehicle.",
+    "key_objects": "Front: A motorcyclist, approximately 10 meters away, fallen on the road after an apparent collision, possibly causing the vehicle to decelerate slightly to maintain a safe distance. ",
+    "key_actions": "collision",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

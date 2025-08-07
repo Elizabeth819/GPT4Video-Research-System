@@ -1,0 +1,50 @@
+{
+  "video_id": "images_1_001",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.2s",
+  "summary": "From 0.0s to 2.0s, the car is driving on a straight road with a silver car in front. A motorcycle is also visible in the distance. A male wearing a black jacket is walking on the right side of the road. At 3.0s, a young boy wearing a black jacket and pants suddenly runs into the road from the right side. From 11.4s to 14.2s, a man wearing a dark jacket is walking from right to left across the road in front of the car.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "black jacket",
+      "colors": [
+        "black"
+      ],
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal"
+    },
+    {
+      "gender": "male",
+      "clothing": "black jacket and pants",
+      "colors": [
+        "black"
+      ],
+      "age": "child",
+      "transportation_method": "running",
+      "way_of_walking": "running"
+    },
+    {
+      "gender": "male",
+      "clothing": "dark jacket",
+      "colors": [
+        "dark"
+      ],
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal"
+    }
+  ],
+  "key_objects": [
+    "Right side: A young boy wearing a black jacket and pants, approximately 5 meters away, suddenly runs into the road, creating a ghost probing situation.",
+    "Right side: A man wearing a dark jacket, approximately 8 meters away, is walking from right to left across the road, creating a potential ghost probing situation."
+  ],
+  "actions": "The vehicle is driving straight on a two-lane road. The speed appears to be moderate, likely due to the presence of other vehicles and pedestrians in the vicinity. The driver maintains a consistent speed and lane position, suggesting they are monitoring the road conditions and adjusting their driving accordingly.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "ghost probing"
+}

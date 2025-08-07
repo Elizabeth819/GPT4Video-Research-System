@@ -1,0 +1,127 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Achiam et~al.(2023)Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat et~al.}]{achiam2023gpt}
+Achiam, J.; Adler, S.; Agarwal, S.; Ahmad, L.; Akkaya, I.; Aleman, F.~L.; Almeida, D.; Altenschmidt, J.; Altman, S.; Anadkat, S.; et~al. 2023.
+\newblock Gpt-4 technical report.
+\newblock \emph{arXiv preprint arXiv:2303.08774}.
+
+\bibitem[{Alayrac et~al.(2022)Alayrac, Donahue, Luc, Miech, Barr, Hasson, Lenc, Mensch, Millican, Reynolds, Ring, Rutherford, Cabi, Han, Gong, Samangooei, Monteiro, Menick, Borgeaud, Brock, Nematzadeh, Sharifzadeh, Bińkowski, Barreira, Vinyals, Zisserman, and Simonyan}]{alayrac_flamingo_2022}
+Alayrac, J.-B.; Donahue, J.; Luc, P.; Miech, A.; Barr, I.; Hasson, Y.; Lenc, K.; Mensch, A.; Millican, K.; Reynolds, M.; Ring, R.; Rutherford, E.; Cabi, S.; Han, T.; Gong, Z.; Samangooei, S.; Monteiro, M.; Menick, J.~L.; Borgeaud, S.; Brock, A.; Nematzadeh, A.; Sharifzadeh, S.; Bińkowski, M.~a.; Barreira, R.; Vinyals, O.; Zisserman, A.; and Simonyan, K. 2022.
+\newblock Flamingo: a {Visual} {Language} {Model} for {Few}-{Shot} {Learning}.
+\newblock In Koyejo, S.; Mohamed, S.; Agarwal, A.; Belgrave, D.; Cho, K.; and Oh, A., eds., \emph{Advances in {Neural} {Information} {Processing} {Systems}}, volume~35, 23716--23736. Curran Associates, Inc.
+
+\bibitem[{Fang et~al.(2019)Fang, Yan, Qiao, Xue, and Wang}]{fang2019dada}
+Fang, J.; Yan, D.; Qiao, J.; Xue, J.; and Wang, H. 2019.
+\newblock DADA-2000: Can Driving Accident be Predicted by Driver Attention? Analyzed by A Benchmark.
+\newblock In \emph{2019 IEEE Intelligent Transportation Systems Conference (ITSC)}, 4303--4309. IEEE.
+
+\bibitem[{Fang et~al.(2023)Fang, Wang, Xie, Sun, Wu, Wang, Huang, Wang, and Cao}]{fang_eva_2023}
+Fang, Y.; Wang, W.; Xie, B.; Sun, Q.; Wu, L.; Wang, X.; Huang, T.; Wang, X.; and Cao, Y. 2023.
+\newblock {EVA}: {Exploring} the {Limits} of {Masked} {Visual} {Representation} {Learning} at {Scale}.
+\newblock In \emph{2023 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({CVPR})}, 19358--19369. Vancouver, BC, Canada: IEEE.
+\newblock ISBN 979-8-3503-0129-8.
+
+\bibitem[{Fu et~al.(2023)Fu, Li, Wen, Dou, Cai, Shi, and Qiao}]{fu_drive_2023}
+Fu, D.; Li, X.; Wen, L.; Dou, M.; Cai, P.; Shi, B.; and Qiao, Y. 2023.
+\newblock Drive {Like} a {Human}: {Rethinking} {Autonomous} {Driving} with {Large} {Language} {Models}.
+\newblock ArXiv:2307.07162 [cs].
+
+\bibitem[{Gao and Zhao(2025)}]{gao_application_2025}
+Gao, H.; and Zhao, Y. 2025.
+\newblock Application of {Vision}-{Language} {Model} to {Pedestrians} {Behavior} and {Scene} {Understanding} in {Autonomous} {Driving}.
+\newblock ArXiv:2501.06680 [cs].
+
+\bibitem[{Hong et~al.(2024)Hong, Wang, Lv, Xu, Yu, Ji, Wang, Wang, Dong, Ding, and Tang}]{hong_cogagent_2024}
+Hong, W.; Wang, W.; Lv, Q.; Xu, J.; Yu, W.; Ji, J.; Wang, Y.; Wang, Z.; Dong, Y.; Ding, M.; and Tang, J. 2024.
+\newblock {CogAgent}: {A} {Visual} {Language} {Model} for {GUI} {Agents}.
+\newblock In \emph{2024 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({CVPR})}, 14281--14290. Seattle, WA, USA: IEEE.
+\newblock ISBN 979-8-3503-5300-6.
+
+\bibitem[{Hurst et~al.(2024)Hurst, Lerer, Goucher, Perelman, Ramesh, Clark, Ostrow, Welihinda, Hayes, Radford et~al.}]{hurst2024gpt}
+Hurst, A.; Lerer, A.; Goucher, A.~P.; Perelman, A.; Ramesh, A.; Clark, A.; Ostrow, A.; Welihinda, A.; Hayes, A.; Radford, A.; et~al. 2024.
+\newblock Gpt-4o system card.
+\newblock \emph{arXiv preprint arXiv:2410.21276}.
+
+\bibitem[{Jia et~al.(2022)Jia, Tang, Chen, Cardie, Belongie, Hariharan, and Lim}]{jia_visual_2022}
+Jia, M.; Tang, L.; Chen, B.-C.; Cardie, C.; Belongie, S.; Hariharan, B.; and Lim, S.-N. 2022.
+\newblock Visual {Prompt} {Tuning}.
+\newblock ArXiv:2203.12119 [cs].
+
+\bibitem[{Karpathy and Fei-Fei(2015)}]{karpathy_deep_2015}
+Karpathy, A.; and Fei-Fei, L. 2015.
+\newblock Deep visual-semantic alignments for generating image descriptions.
+\newblock 3128--3137.
+
+\bibitem[{Liu et~al.(2023)Liu, Li, Wu, and Lee}]{liu2023visual}
+Liu, H.; Li, C.; Wu, Q.; and Lee, Y.~J. 2023.
+\newblock Visual instruction tuning.
+\newblock \emph{Advances in neural information processing systems}, 36: 34892--34916.
+
+\bibitem[{Lu et~al.(2024)Lu, Liu, Zhang, Wang, Dong, Liu, Sun, Ren, Li, Yang, Sun, Deng, Xu, Xie, and Ruan}]{lu_deepseek-vl_2024}
+Lu, H.; Liu, W.; Zhang, B.; Wang, B.; Dong, K.; Liu, B.; Sun, J.; Ren, T.; Li, Z.; Yang, H.; Sun, Y.; Deng, C.; Xu, H.; Xie, Z.; and Ruan, C. 2024.
+\newblock {DeepSeek}-{VL}: {Towards} {Real}-{World} {Vision}-{Language} {Understanding}.
+\newblock ArXiv:2403.05525 [cs].
+
+\bibitem[{Ma et~al.(2025)Ma, Cao, Sun, Pavone, and Xiao}]{ma_dolphins_2025}
+Ma, Y.; Cao, Y.; Sun, J.; Pavone, M.; and Xiao, C. 2025.
+\newblock Dolphins: {Multimodal} {Language} {Model} for {Driving}.
+\newblock In Leonardis, A.; Ricci, E.; Roth, S.; Russakovsky, O.; Sattler, T.; and Varol, G., eds., \emph{Computer {Vision} – {ECCV} 2024}, 403--420. Cham: Springer Nature Switzerland.
+\newblock ISBN 978-3-031-72995-9.
+
+\bibitem[{Mao et~al.(2023)Mao, Qian, Ye, Zhao, and Wang}]{mao2023gpt}
+Mao, J.; Qian, Y.; Ye, J.; Zhao, H.; and Wang, Y. 2023.
+\newblock Gpt-driver: Learning to drive with gpt.
+\newblock \emph{arXiv preprint arXiv:2310.01415}.
+
+\bibitem[{Peng et~al.(2023)Peng, Li, He, Galley, and Gao}]{peng_instruction_2023}
+Peng, B.; Li, C.; He, P.; Galley, M.; and Gao, J. 2023.
+\newblock Instruction {Tuning} with {GPT}-4.
+\newblock ArXiv:2304.03277 [cs].
+
+\bibitem[{Radford et~al.(2023)Radford, Kim, Xu, Brockman, McLeavey, and Sutskever}]{radford2023robust}
+Radford, A.; Kim, J.~W.; Xu, T.; Brockman, G.; McLeavey, C.; and Sutskever, I. 2023.
+\newblock Robust speech recognition via large-scale weak supervision.
+\newblock OpenAI Whisper.
+
+\bibitem[{Sima et~al.(2025)Sima, Renz, Chitta, Chen, Zhang, Xie, Beißwenger, Luo, Geiger, and Li}]{sima_drivelm_2025}
+Sima, C.; Renz, K.; Chitta, K.; Chen, L.; Zhang, H.; Xie, C.; Beißwenger, J.; Luo, P.; Geiger, A.; and Li, H. 2025.
+\newblock {DriveLM}: {Driving} with {Graph} {Visual} {Question} {Answering}.
+\newblock ArXiv:2312.14150 [cs].
+
+\bibitem[{Tian et~al.(2024{\natexlab{a}})Tian, Li, Weng, Chen, Schmerling, Wang, Ivanovic, and Pavone}]{tian2024tokenize}
+Tian, R.; Li, B.; Weng, X.; Chen, Y.; Schmerling, E.; Wang, Y.; Ivanovic, B.; and Pavone, M. 2024{\natexlab{a}}.
+\newblock Tokenize the World into Object-level Knowledge to Address Long-tail Events in Autonomous Driving.
+\newblock \emph{arXiv preprint arXiv:2407.00959}.
+
+\bibitem[{Tian et~al.(2024{\natexlab{b}})Tian, Gu, Li, Liu, Wang, Zhao, Zhan, Jia, Lang, and Zhao}]{tian_drivevlm_2024}
+Tian, X.; Gu, J.; Li, B.; Liu, Y.; Wang, Y.; Zhao, Z.; Zhan, K.; Jia, P.; Lang, X.; and Zhao, H. 2024{\natexlab{b}}.
+\newblock {DriveVLM}: {The} {Convergence} of {Autonomous} {Driving} and {Large} {Vision}-{Language} {Models}.
+\newblock ArXiv:2402.12289 [cs].
+
+\bibitem[{Vishal et~al.(2024)Vishal, Basina, Choudhary, and Chakravarthi}]{vishal_eyes_2024}
+Vishal, J.~R.; Basina, D.; Choudhary, A.; and Chakravarthi, B. 2024.
+\newblock Eyes on the {Road}: {State}-of-the-{Art} {Video} {Question} {Answering} {Models} {Assessment} for {Traffic} {Monitoring} {Tasks}.
+\newblock ArXiv:2412.01132 [cs].
+
+\bibitem[{Wu et~al.(2024)Wu, Chen, Pan, Liu, Liu, Dai, Gao, Ma, Wu, Wang, Xie, Wu, Hu, Wang, Sun, Li, Piao, Guan, Liu, Xie, You, Dong, Yu, Zhang, Zhao, Wang, and Ruan}]{wu_deepseek-vl2_2024}
+Wu, Z.; Chen, X.; Pan, Z.; Liu, X.; Liu, W.; Dai, D.; Gao, H.; Ma, Y.; Wu, C.; Wang, B.; Xie, Z.; Wu, Y.; Hu, K.; Wang, J.; Sun, Y.; Li, Y.; Piao, Y.; Guan, K.; Liu, A.; Xie, X.; You, Y.; Dong, K.; Yu, X.; Zhang, H.; Zhao, L.; Wang, Y.; and Ruan, C. 2024.
+\newblock {DeepSeek}-{VL2}: {Mixture}-of-{Experts} {Vision}-{Language} {Models} for {Advanced} {Multimodal} {Understanding}.
+\newblock ArXiv:2412.10302 [cs].
+
+\bibitem[{Xu et~al.(2024)Xu, Zhang, Xie, Zhao, Guo, Wong, Li, and Zhao}]{xu2024drivegpt4}
+Xu, Z.; Zhang, Y.; Xie, E.; Zhao, Z.; Guo, Y.; Wong, K.-Y.~K.; Li, Z.; and Zhao, H. 2024.
+\newblock Drivegpt4: Interpretable end-to-end autonomous driving via large language model.
+\newblock \emph{IEEE Robotics and Automation Letters}.
+
+\bibitem[{Yu et~al.(2020)Yu, Chen, Wang, Xian, Chen, Liu, Madhavan, and Darrell}]{yu_bdd100k_2020}
+Yu, F.; Chen, H.; Wang, X.; Xian, W.; Chen, Y.; Liu, F.; Madhavan, V.; and Darrell, T. 2020.
+\newblock {BDD100K}: {A} {Diverse} {Driving} {Dataset} for {Heterogeneous} {Multitask} {Learning}.
+\newblock 2636--2645.
+
+\bibitem[{Zhang et~al.(2025)Zhang, Yu, Tian, Fu, Li, Zeng, Xie, Shi, Zhang, Wu, Wang, Hu, Wen, Yang, Zhang, Gao, Zhang, Wang, Jin, and Tan}]{zhang_mm-rlhf_2025}
+Zhang, Y.-F.; Yu, T.; Tian, H.; Fu, C.; Li, P.; Zeng, J.; Xie, W.; Shi, Y.; Zhang, H.; Wu, J.; Wang, X.; Hu, Y.; Wen, B.; Yang, F.; Zhang, Z.; Gao, T.; Zhang, D.; Wang, L.; Jin, R.; and Tan, T. 2025.
+\newblock {MM}-{RLHF}: {The} {Next} {Step} {Forward} in {Multimodal} {LLM} {Alignment}.
+\newblock ArXiv:2502.10391 [cs].
+
+\end{thebibliography}

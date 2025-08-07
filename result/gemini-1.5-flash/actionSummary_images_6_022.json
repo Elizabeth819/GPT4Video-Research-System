@@ -1,0 +1,80 @@
+[
+    {
+        "error": "API调用出错，状态码: 400，错误信息: {\"error\":{\"code\":\"BadRequest\",\"message\":\"Invalid image data.\",\"param\":null,\"type\":null}}",
+        "status": "error",
+        "code": 400,
+        "segment_id": "segment_000"
+    },
+    {
+        "video_id": "dada_34_069",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. Ahead, a white sedan is moving steadily. Suddenly, a grey car from the left lane cuts into the self-vehicles lane at a close distance, causing a potential need for braking.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the white sedan ahead. However, the sudden cut-in from the grey car on the left lane requires the driver to decelerate to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving steadily. 2) Left: A grey car, approximately 5 meters away, cutting into the self-vehicles lane abruptly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_6_022",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a relatively empty road with sparse traffic. The road is straight, and there are no visible obstacles or pedestrians. The vehicle ahead is maintaining a consistent distance and speed.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and direction, following the vehicle ahead at a safe distance. There are no sudden changes in speed or direction observed.",
+        "key_objects": "1) Front: A vehicle, approximately 50 meters away, maintaining a consistent speed and direction.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_6_022",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, Truck driver",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, a motorcyclist is seen ahead in the same lane, moving at a moderate speed. As the vehicle approaches, the motorcyclist suddenly accelerates and moves out of the lane. Subsequently, a truck appears in the same lane, moving at a slower speed.",
+        "actions": "The self-driving vehicle maintains a consistent speed initially but then decelerates as the motorcyclist accelerates and moves out of the lane. The vehicle continues to decelerate upon noticing the truck ahead, maintaining a safe distance.",
+        "key_objects": "1) Front: A motorcyclist, approximately 10 meters away, accelerating and moving out of the lane. 2) Front: A truck, approximately 20 meters away, moving at a slower speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_6_022",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Person on the right side of the road",
+        "summary": "In this segment, the vehicle is driving on a rural road. A person is seen on the right side of the road, appearing to be in distress or injured. The person is lying on the ground, and there are debris scattered on the road.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the person on the right side of the road. The vehicle is likely preparing to decelerate to avoid any potential collision or to assist the person.",
+        "key_objects": "1) Right side: A person, approximately 2 meters away, lying on the ground, appearing to be in distress or injured. 2) Front: Debris scattered on the road, approximately 5 meters away, potentially causing the vehicle to slow down.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

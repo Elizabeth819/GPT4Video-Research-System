@@ -1,0 +1,99 @@
+video_id,ground_truth,gt_normalized,gpt4o_prediction,gemini_prediction,gpt4o_correct,gemini_correct,both_correct,both_wrong,gpt4o_better,gemini_better
+images_1_001,none,none,ghost probing,none,False,True,False,False,False,True
+images_1_002,5s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_1_003,2s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False
+images_1_004,none,none,ghost probing,none,False,True,False,False,False,True
+images_1_005,8s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_1_006,9s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False
+images_1_007,6s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_1_008,3s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_1_009,none,none,ghost probing,none,False,True,False,False,False,True
+images_1_010,15s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_1_011,11s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False
+images_1_012,11s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_1_013,8s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_1_014,5s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_1_015,5s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False
+images_1_016,4s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_1_017,17s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_1_018,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_1_019,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_1_020,none,none,ghost probing,none,False,True,False,False,False,True
+images_1_021,3s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_1_022,5s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_1_023,none,none,ghost probing,none,False,True,False,False,False,True
+images_1_024,none,none,none,none,True,True,True,False,False,False
+images_1_025,none,none,ghost probing,none,False,True,False,False,False,True
+images_1_026,none,none,ghost probing,none,False,True,False,False,False,True
+images_1_027,4s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_2_001,none,none,ghost probing,none,False,True,False,False,False,True
+images_2_002,none,none,ghost probing,none,False,True,False,False,False,True
+images_2_003,none,none,ghost probing,none,False,True,False,False,False,True
+images_2_004,none,none,ghost probing,none,False,True,False,False,False,True
+images_3_001,none,none,none,ghost probing,True,False,False,False,True,False
+images_3_002,4s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_3_003,2s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_3_004,none,none,none,none,True,True,True,False,False,False
+images_3_005,none,none,ghost probing,none,False,True,False,False,False,True
+images_3_006,4s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_3_007,3s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False
+images_4_001,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_4_002,6s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_4_003,4s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_4_004,6s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_4_005,6s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_4_006,3s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_4_007,none,none,none,none,True,True,True,False,False,False
+images_4_008,none,none,none,none,True,True,True,False,False,False
+images_5_002,cut-in,cut-in,ghost probing,ghost probing,False,False,False,True,False,False
+images_5_003,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_5_004,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_005,5s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False
+images_5_006,6s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_5_007,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_008,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_009,none,none,ghost probing,overtaking,False,False,False,True,False,False
+images_5_010,5s: ghost probing,ghost probing,ghost probing,ghost probing,True,True,True,False,False,False
+images_5_011,3s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_5_012,13s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_013,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_014,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_015,2s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_5_016,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_5_017,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_018,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_019,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_020,11s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_021,4s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_5_022,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_023,7s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_024,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_025,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_026,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_027,3s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_5_028,7s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_029,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_5_030,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_5_031,2s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_032,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_5_033,5s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_034,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_5_035,12s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_036,none,none,ghost probing,ghost probing,False,False,False,True,False,False
+images_5_037,6s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_5_038,13: cut-in,cut-in,none,none,False,False,False,True,False,False
+images_5_040,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_041,5s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_5_042,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_043,13s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_5_044,4s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_045,5s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_046,2s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_047,2s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_048,none,none,ghost probing,none,False,True,False,False,False,True
+images_5_049,3s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_050,2s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_5_051,2s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_052,3s: ghost probing,ghost probing,none,none,False,False,False,True,False,False
+images_5_053,7s: ghost probing,ghost probing,ghost probing,none,True,False,False,False,True,False
+images_5_054,none,none,none,none,True,True,True,False,False,False

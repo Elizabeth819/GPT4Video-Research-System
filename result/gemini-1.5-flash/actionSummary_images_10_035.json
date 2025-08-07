@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_035",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road. The road is relatively clear with some parked cars on the right side. As the vehicle approaches an intersection, a yellow car is seen crossing from the left side, and pedestrians are crossing the road ahead.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The vehicle is likely slowing down slightly to ensure safety as it approaches the pedestrians and the yellow car crossing from the left side.",
+        "key_objects": "1) Left side: A yellow car, approximately 20 meters away, crossing the intersection. 2) Front: Multiple pedestrians, approximately 15 meters away, crossing the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving on a city street. A white van is turning left at an intersection. A person suddenly appears from behind a fence on the right side of the road.",
+    "actions": "Ego vehicle is moving forward. The white van is turning left. A person is walking into the street.",
+    "characters": "A person is visible on the right side of the road.",
+    "key_objects": "Ego vehicle, white van, person, fence, street, intersection",
+    "key_actions": "potential ghost probing",
+    "next_action": "Ego vehicle will continue driving forward."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle continues driving. A person is walking into the street from behind a fence, creating a potential collision risk.",
+    "actions": "Ego vehicle is moving forward. A person is walking into the street.",
+    "characters": "Two people are visible on the right side of the road.",
+    "key_objects": "Ego vehicle, person, fence, street",
+    "key_actions": "ghost probing",
+    "next_action": "Ego vehicle will likely brake or swerve to avoid the pedestrian."
+  }
+]

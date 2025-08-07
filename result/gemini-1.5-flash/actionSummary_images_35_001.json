@@ -1,0 +1,74 @@
+[
+    {
+        "video_id": "dada_35_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a red car ahead",
+        "summary": "In this segment, the vehicle is driving on a highway. The red car ahead is maintaining a consistent speed and distance from the observer vehicle. There are no sudden movements or changes in the traffic flow.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the red car ahead at a safe distance. The vehicle is staying in its lane and there are no indications of any immediate need for braking or lane changes.",
+        "key_objects": "1) Front: A red car, approximately 30 meters away, maintaining a consistent speed and distance.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_35_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a highway with clear visibility and no immediate obstacles or other vehicles in close proximity. The road is straight, and there are no pedestrians or other vehicles suddenly appearing in the path.",
+        "actions": "The self-driving vehicle maintains a consistent speed and direction, driving steadily on the highway. There are no significant changes in speed or direction observed in the frames.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_35_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red car",
+        "summary": "In this segment, the vehicle is driving on a highway. A red car is seen moving from the left side lane into the self-vehicles lane abruptly, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the red cars sudden movement from the left lane into its lane. The driver may need to decelerate or take evasive action to avoid a collision.",
+        "key_objects": "1) Left side: A red car, approximately 10 meters away, moving abruptly into the self-vehicles lane, causing a potential collision risk.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_35_001",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "15.9s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a highway with no visible obstacles or other vehicles. The road is clear, and the vehicle maintains a steady speed.",
+        "actions": "The vehicle is driving at a consistent speed, maintaining its lane without any changes in direction or speed.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

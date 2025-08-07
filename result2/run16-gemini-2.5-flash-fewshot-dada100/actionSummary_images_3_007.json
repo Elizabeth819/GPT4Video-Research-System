@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A young boy (approximately 8-10 years old) wearing a blue and red shirt with a black cap, riding a small red bicycle. Another young boy (approximately 8-10 years old) wearing a blue shirt and yellow cap, riding a blue bicycle. An adult male (approximately 30-40 years old) wearing a black shirt and pants.",
+  "summary": "In this segment, the self-driving vehicle is traveling on an urban road and approaching a marked crosswalk. On the right side of the road, there are parked bicycles and trees along the sidewalk, creating a visual obstruction. A young boy on a small red bicycle suddenly emerges from behind these obstructions on the right side and enters the crosswalk directly into the vehicle's path. The boy then falls off his bicycle in front of the vehicle. The vehicle immediately comes to a complete stop. Subsequently, another young boy on a blue bicycle and an adult male approach the scene from the right side, joining the first boy in the crosswalk.",
+  "actions": "The self-driving vehicle was proceeding towards a crosswalk. Upon the sudden and unexpected emergence of a young boy on a bicycle from behind visual obstructions on the right side, directly into the vehicle's path, the vehicle initiated rapid deceleration. This immediate braking action was taken to prevent a collision with the cyclist who appeared with minimal warning. The vehicle then came to a complete stop to ensure the safety of the cyclist, especially after the cyclist fell in front of the vehicle. The vehicle remains stationary as the path ahead is obstructed by the fallen bicycle and the individuals involved in the incident.",
+  "key_objects": "1) Right side: A young boy, approximately 8-10 years old, on a small red bicycle, suddenly emerging from behind parked bicycles and roadside trees/structures and entering the crosswalk directly into the vehicle's path. 2) Right side: Parked bicycles and roadside trees/structures, approximately 5-10 meters away, acting as physical obstructions that obscured the view of the approaching cyclist until he emerged.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

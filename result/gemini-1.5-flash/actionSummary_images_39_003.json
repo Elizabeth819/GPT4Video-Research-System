@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_39_003",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black sedan, driver of a blue sedan",
+        "summary": "In this segment, the vehicle is driving on a well-lit urban road at night. The road is moderately busy with several vehicles ahead. A black sedan on the right side suddenly moves into the self-vehicles lane, causing a potential cut-in situation. The self-vehicle maintains a steady speed but needs to be cautious of the sudden lane change by the black sedan.",
+        "actions": "The self-driving vehicle maintains a steady speed while monitoring the black sedans sudden lane change from the right side. The vehicles speed remains consistent to avoid abrupt braking and potential collision.",
+        "key_objects": "1) Right side: A black sedan, approximately 5 meters away, suddenly moves into the self-vehicles lane, causing a potential cut-in situation. 2) Front: A white sedan, approximately 20 meters away, driving steadily. 3) Left side: A blue sedan, approximately 10 meters away, driving steadily.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

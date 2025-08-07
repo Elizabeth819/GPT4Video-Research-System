@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_025",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A red sedan is visible in the distance. A black sedan is approaching from the left side of the road. A person is walking on the crosswalk on the right side of the road.",
+  "summary": "The vehicle is approaching an intersection on a rainy day. The traffic light is green. A red sedan is visible in the distance, traveling in the same direction. A black sedan is approaching from the left side of the road, potentially preparing to cross the intersection. A person is walking on the crosswalk on the right side of the road. The road is wet due to the rain, which could affect braking distance.",
+  "actions": "The vehicle is approaching an intersection with a green light. The driver is likely maintaining speed to proceed through the intersection without stopping. The presence of other vehicles and a person on the crosswalk requires the driver to remain vigilant and prepared to adjust speed or direction if necessary.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_1_021",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "3.33",
+    "summary": "The ego-vehicle is driving on a wet road in an urban environment. A bus is on the left side of the ego-vehicle. A pedestrian suddenly runs across the crosswalk in front of the ego-vehicle.",
+    "actions": "The ego-vehicle should slow down and prepare to stop for the pedestrian crossing the road.",
+    "key_objects": [
+      "ego-vehicle",
+      "bus",
+      "pedestrian",
+      "crosswalk"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "straight",
+      "lane_control": "keep lane"
+    }
+  }
+]

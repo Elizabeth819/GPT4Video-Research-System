@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_024",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car driving through a city intersection on a rainy day. Other vehicles are visible on the road. The weather is overcast and wet.",
+  "summary": "The vehicle approaches an intersection on a rainy day. The driver slows down as they approach the intersection. The vehicle proceeds through the intersection after checking for cross-traffic.",
+  "actions": "The vehicle is approaching an intersection and slowing down, likely to assess the traffic situation and yield if necessary. The driver is proceeding cautiously due to the wet road conditions. The vehicle continues straight through the intersection.",
+  "key_objects": "1) Right side: Stop sign, indicates the need to stop or yield. 2) Left side: Buildings and parked cars, potential obstructions to visibility.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

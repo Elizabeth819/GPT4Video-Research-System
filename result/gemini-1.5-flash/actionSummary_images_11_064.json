@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_064",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. Ahead, a white sedan is moving in the same lane. The white sedan suddenly slows down and moves closer to the self-driving vehicle, potentially causing a collision.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the white sedan ahead. Over the past 8 seconds, the distance between the self-driving vehicle and the white sedan has decreased significantly, indicating that the white sedan has slowed down or the self-driving vehicle has accelerated.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, slowing down and moving closer to the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_064",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a silver sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. A silver sedan is ahead, initially in the same lane. The sedan then moves to the right lane, and a black car appears from the right side, moving into the self-vehicles lane.",
+        "actions": "The self-driving vehicle maintains a steady speed while following the silver sedan. As the silver sedan moves to the right lane, the self-driving vehicle continues straight. The black car from the right lane cuts into the self-vehicles lane, causing the self-driving vehicle to decelerate slightly to maintain a safe distance.",
+        "key_objects": "1) Front: A silver sedan, approximately 10 meters away, moving to the right lane. 2) Right: A black car, approximately 15 meters away, cutting into the self-vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

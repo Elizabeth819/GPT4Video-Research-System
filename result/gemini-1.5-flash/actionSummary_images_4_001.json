@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_4_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist on the left side, car ahead",
+        "summary": "In this segment, the vehicle is driving in a parking area. A cyclist appears on the left side of the frame, moving towards the vehicles path. There are parked cars ahead, and the cyclist is approaching from the left side, potentially causing a sudden obstruction.",
+        "actions": "The self-driving vehicle is maintaining a slow speed, likely due to the presence of the cyclist and parked cars ahead. The vehicle is preparing to stop or maneuver to avoid the cyclist.",
+        "key_objects": "1) Left side: A cyclist, approximately 2 meters away, moving towards the vehicles path. 2) Front: Parked cars, approximately 10 meters away, stationary.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_4_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.4s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist on the left side",
+        "summary": "In this segment, the vehicle is driving in a parking area. A cyclist on the left side is moving towards the vehicles path. The cyclist is wearing dark clothing and a cap, and is riding a bicycle. The cyclists sudden movement towards the vehicles path poses a potential danger.",
+        "actions": "The self-driving vehicle is maintaining a slow speed, likely due to the presence of the cyclist on the left side. The vehicle is preparing to stop or maneuver to avoid a collision with the cyclist.",
+        "key_objects": "1) Left side: A cyclist, approximately 2 meters away, moving towards the vehicles path, posing a potential danger.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

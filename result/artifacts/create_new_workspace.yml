@@ -1,0 +1,7 @@
+$schema: https://azuremlschemas.azureedge.net/latest/workspace.schema.json
+name: drivelm-ml-workspace
+location: eastus
+display_name: DriveLM ML Workspace
+description: Azure ML workspace for DriveLM video analysis
+hbi_workspace: false
+public_network_access: Enabled

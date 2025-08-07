@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_5_020",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a car, several other vehicles, a motorcyclist.",
+    "summary": "The video shows a car driving down a city street.  The traffic is relatively light.  Throughout the 10-second segment, a motorcyclist is visible in the right lane, maintaining a consistent distance from the observer vehicle.  Other cars are visible ahead and in the opposite lane, but no significant interactions occur. The motorcyclist remains consistently visible and does not exhibit any sudden or erratic movements.",
+    "actions": "The observer vehicle maintains a consistent speed and lane position throughout the 10-second segment.  The vehicle appears to be following the flow of traffic, adjusting speed slightly to maintain a safe distance from the vehicles ahead. There are no observable braking or acceleration maneuvers beyond those necessary for maintaining a safe following distance.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_020",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "13.4s",
+    "scene_theme": "Dangerous",
+    "sentiment": "Negative",
+    "characters": "A person riding a scooter, a person on a motorcycle, driver of the self-vehicle",
+    "summary": "The video shows a near-miss accident.  At approximately 10.0s, a person riding a dark-colored scooter is crossing the road from left to right.  Simultaneously, a person riding a motorcycle is approaching the crosswalk from the left. A woman wearing a dark blue coat and carrying a large white bag is walking across the crosswalk from left to right. The self-vehicle is approaching the crosswalk. The scooter rider almost collides with the self-vehicle, forcing the driver to brake. The motorcycle rider stops to avoid a collision with the woman. The near-miss occurs due to the scooter rider's sudden appearance and failure to yield to the self-vehicle.",
+    "actions": "The self-vehicle is traveling at a moderate speed, approaching a crosswalk. Upon observing the scooter rider crossing the road, the driver brakes to avoid a collision. The speed of the self-vehicle decreases significantly to avoid the accident.",
+    "key_objects": "1) Front: Person on a dark-colored scooter, approximately 2 meters away at 10.0s, crossing the road from left to right, nearly causing a collision with the self-vehicle. 2) Front: Woman in a dark blue coat, approximately 3 meters away at 11.7s, walking across the crosswalk from left to right, nearly causing a collision with the motorcycle. 3) Left: Person on a motorcycle, approximately 5 meters away at 11.7s, approaching the crosswalk from the left, stopping to avoid collision with the woman.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

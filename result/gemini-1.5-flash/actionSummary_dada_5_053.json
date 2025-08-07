@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving down a narrow street lined with buildings. A parked car is visible on the left side of the road. A cyclist and a pedestrian appear from behind buildings.",
+    "actions": "Ego vehicle is moving forward. A parked car is stationary on the left. A cyclist is riding towards the ego vehicle. A pedestrian is walking in the same direction as the cyclist.",
+    "characters": "Cyclist, pedestrian",
+    "key_objects": "Ego vehicle, parked car, cyclist, pedestrian, buildings",
+    "key_actions": "potential ghost probing",
+    "next_action": "Continue driving forward"
+  }
+]

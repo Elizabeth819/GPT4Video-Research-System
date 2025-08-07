@@ -1,0 +1,22 @@
+{
+  "video_id": "images_5_022",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "27.2s",
+  "summary": "The self-driving car is approaching an intersection. From 0.0s to 8.8s, the car is behind a white van, waiting at a red light. At 3.8s, a white mini truck is seen on the left side of the road. At 10.0s, the light turns green, and the car proceeds through the intersection. From 10.0s to 27.2s, the car is driving straight. At 12.5s, an overturned truck is visible in the middle of the intersection, causing significant disruption. From 15.0s to 27.2s, people and motorcycles are around the overturned truck. At 27.2s, a woman wearing a black jacket and green pants is riding a motorcycle on the right side of the road.",
+  "characters": [
+    "From 0.0s to 8.8s, the car is behind a white van.",
+    "At 3.8s, a white mini truck is seen on the left side of the road.",
+    "At 12.5s, an overturned truck is visible in the middle of the intersection.",
+    "From 15.0s to 27.2s, people and motorcycles are around the overturned truck.",
+    "At 27.2s, a woman wearing a black jacket and green pants is riding a motorcycle on the right side of the road."
+  ],
+  "actions": "From 0.0s to 8.8s, the vehicle is stopped at a red light, maintaining a safe distance behind the white van in front. The vehicle is waiting for the traffic light to change before proceeding. At 10.0s, the traffic light turns green, and the vehicle starts accelerating to proceed through the intersection. From 10.0s to 27.2s, the vehicle is driving straight, maintaining its lane. The driver is likely navigating around the overturned truck in the middle of the intersection, adjusting speed and direction to avoid collision and maintain a safe path.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_026",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "7.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A cyclist wearing light-colored clothing, a car",
+    "summary": "The vehicle is driving on a city road. A cyclist wearing light-colored clothing suddenly appears from the left side of the road, moving into the vehicle's path. The cyclist's sudden appearance creates a dangerous situation, potentially leading to a collision. The vehicle is approaching the cyclist at a moderate speed.",
+    "actions": "The self-driving vehicle is maintaining a steady speed on the road. The vehicle is moving straight. The vehicle is likely maintaining its speed due to the open road conditions ahead, but will need to decelerate due to the cyclist.",
+    "key_objects": "1) Left side: A cyclist wearing light-colored clothing, approximately 5 meters away, suddenly appearing and moving into the vehicle's path.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

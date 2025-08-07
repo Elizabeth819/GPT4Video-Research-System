@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_1_018",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017-06-22/12:26:42",
+    "End_Timestamp": "2017-06-22/12:26:51",
+    "summary": "The ego vehicle is driving on a road with parked cars on both sides. Two pedestrians suddenly appear from between parked cars and start crossing the road. The pedestrians are not at a designated crosswalk.",
+    "actions": "The ego vehicle is driving straight. The driver needs to be aware of the pedestrians crossing the road and potentially slow down or stop to avoid a collision.",
+    "key_objects": [
+      "ego vehicle",
+      "pedestrians",
+      "parked cars"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "slow down",
+      "direction_control": "straight",
+      "lane_control": "maintain lane"
+    }
+  }
+]

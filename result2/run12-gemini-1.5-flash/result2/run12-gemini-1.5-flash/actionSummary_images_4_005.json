@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_4_005",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.9s",
+    "scene_theme": "Urban Road",
+    "characters": "Driver of a car, a cyclist, pedestrians",
+    "summary": "The video shows a car driving on a city road.  A green bus is crossing the intersection ahead.  A cyclist on a bicycle with a red cover is visible in the middle of the road, approaching the intersection. Several pedestrians are walking on the sidewalk.  The cyclist appears to be crossing the road without fully yielding to the oncoming traffic. The car maintains a steady speed and navigates the intersection safely.",
+    "actions": "The self-driving vehicle maintains a consistent speed and follows the traffic rules, navigating the intersection carefully. The vehicle's speed is moderate, allowing for sufficient reaction time to any potential hazards. The driver maintains a safe following distance from the bus ahead.",
+    "key_objects": "1) Front: A green bus, approximately 20 meters away, crossing the intersection. 2) Center: A cyclist on a bicycle with a red cover, approximately 15 meters away, crossing the road. 3) Right Side: Pedestrians walking on the sidewalk, approximately 5 meters away, not directly impacting the vehicle's path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_027",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A woman wearing a pink jacket and a blue face mask is riding a scooter on the left side of the road.",
+  "summary": "The vehicle is driving on a road with parked cars on both sides. A woman wearing a pink jacket and a blue face mask is riding a scooter on the left side of the road, between the parked cars and the road. She is riding in the same direction as the vehicle. The parked cars could potentially obstruct the view of the scooter, creating a ghost probing situation if the scooter suddenly swerves into the vehicle's path.",
+  "actions": "The vehicle is maintaining a steady speed and direction on the road. The driver is likely navigating through the parked cars and monitoring the movement of the scooter on the left side of the road.",
+  "key_objects": "1) Left side: A woman on a scooter wearing a pink jacket and a blue face mask, approximately 10 meters away, riding between the parked cars and the road. 2) Left side: Parked cars, approximately 5 meters away, potentially obstructing the view of the scooter.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

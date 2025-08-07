@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_015",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.4s",
+  "summary": "The self-driving car is moving forward on a narrow road. From 0.0s to 4.1s, the car is driving on a narrow road with buildings on both sides. At 1.6s, two men are standing next to a white truck on the right side of the road. At 4.9s, the car approaches an intersection. At 5.7s, a motorcycle appears on the left side of the road. At 6.5s, a three-wheeled motorcycle is crossing the road from right to left. At 7.4s, the car is at the intersection.",
+  "actions": "The car is moving forward at a slow speed, likely due to the narrow road and the presence of pedestrians and vehicles. The driver is proceeding cautiously, maintaining a steady speed and direction to navigate the complex environment.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "Right side: A three-wheeled motorcycle, approximately 5 meters away, crossing the road from right to left, potentially causing the vehicle to decelerate or stop."
+}

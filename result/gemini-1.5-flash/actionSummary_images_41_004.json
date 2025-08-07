@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_41_004",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist, pedestrian in yellow vest",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A motorcyclist is seen moving from the center lane to the left lane, while a pedestrian in a yellow vest is crossing the road from the left side. The traffic is dense, with multiple vehicles changing lanes and moving in different directions.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the busy traffic. The driver is likely being cautious due to the presence of the motorcyclist and the pedestrian crossing the road. The vehicles speed remains steady to avoid sudden braking or collisions.",
+        "key_objects": "1) Center: A motorcyclist, approximately 10 meters away, moving from the center lane to the left lane, potentially causing a cut-in. 2) Left: A pedestrian in a yellow vest, approximately 15 meters away, crossing the road, potentially causing ghost probing.",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

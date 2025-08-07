@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_052",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person riding a scooter, wearing a light-colored jacket and helmet, appears to be female. The person is lying on the road after a collision.",
+  "summary": "The vehicle is driving at night on a road with streetlights. At timestamp 4.2s, a person on a scooter suddenly appears from the left side of the road, entering the vehicle's path. The scooter was traveling at a high speed. The vehicle collides with the scooter, and the person falls onto the road. The scooter appears to have emerged from behind a structure or another vehicle, creating a ghost probing situation. The person is now lying on the road in front of the vehicle.",
+  "actions": "The vehicle is driving straight at a consistent speed. At timestamp 4.2s, the vehicle likely initiated emergency braking upon seeing the scooter suddenly appear. The vehicle was unable to avoid the collision due to the sudden appearance of the scooter and the short distance. The vehicle comes to a stop after the collision.",
+  "key_objects": "1) Left side: A person on a scooter, approximately 3 meters away, suddenly appearing from behind an obstruction and entering the vehicle's path at high speed, leading to a collision. 2) Left side: A structure or vehicle, approximately 5 meters away, creating a visual obstruction that hid the scooter until it emerged into the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

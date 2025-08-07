@@ -1,0 +1,36 @@
+{
+  "video_id": "images_5_013",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.6s",
+  "summary": "The self-driving car is approaching an intersection at night. From 0.0s to 6.0s, the car is driving straight. At 7.0s, the traffic light turns red, and the car begins to decelerate. At 8.0s, the car stops at the intersection. From 9.0s to 14.6s, a bicycle lies in the crosswalk, and a woman is lying next to it. A motorcycle drives through the crosswalk, narrowly avoiding the woman and the bicycle. The traffic light turns green at 14.1s.",
+  "characters": [
+    {
+      "gender": "female",
+      "clothing": "dark jacket",
+      "colors": "dark",
+      "age": "adult",
+      "transportation_method": "lying on the ground",
+      "way_of_walking": "N/A"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "unknown",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_objects": [
+    "Crosswalk: A woman lying next to a bicycle in the crosswalk, approximately 5 meters away, poses a significant hazard as the car prepares to proceed through the intersection.",
+    "Crosswalk: A motorcycle driving through the crosswalk, approximately 10 meters away, narrowly avoids the woman and the bicycle."
+  ],
+  "actions": "The vehicle is approaching an intersection and decelerating from 7.0s to 8.0s because the traffic light turns red. The vehicle stops at the intersection at 8.0s to wait for the traffic light to change.",
+  "next_action": {
+    "speed_control": "accelerating",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none"
+}

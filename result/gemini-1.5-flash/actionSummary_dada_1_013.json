@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "dada_1_013",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00",
+    "End_Timestamp": "00:00:09",
+    "summary": "The vehicle is driving on a rural road. Initially, the road is clear. Then, a group of pedestrians, including children, appears on the road. Later, a bus appears and stops on the road, and people exit the bus.",
+    "actions": "The vehicle is driving forward. The driver should be aware of the pedestrians and the bus.",
+    "key_objects": [
+      "pedestrians",
+      "bus"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "reduce speed",
+      "direction_control": "maintain lane",
+      "lane_control": "none"
+    }
+  }
+]

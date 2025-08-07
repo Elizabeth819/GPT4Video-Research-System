@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child in a blue jacket, a woman with a child, and a man in a yellow jacket. The pedestrians are moving from the right side of the image to the left side, crossing the road.",
+  "summary": "The video sequence shows multiple instances of pedestrians suddenly emerging from behind parked vehicles and other obstructions, crossing the road in front of the observer vehicle. This creates a high-risk situation requiring immediate attention and action.",
+  "actions": "The observer vehicle is moving forward when pedestrians suddenly appear from the right side of the image, crossing the road. The pedestrians are initially hidden by parked vehicles and other obstructions, making their sudden appearance unexpected and dangerous.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians crossing the road, street lights, and buildings.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

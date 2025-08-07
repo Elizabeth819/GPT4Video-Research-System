@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_5_006",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rural Road",
+    "characters": "Driver of a vehicle, a person driving a three-wheeled motorized vehicle",
+    "summary": "The video shows a vehicle driving on a sunny rural road with sparse traffic.  Around the 5.6-second mark, a three-wheeled motorized vehicle emerges from a side road on the right, turning left into the main road. The three-wheeled vehicle appears to be driven by a person wearing dark clothing. The maneuver is relatively slow and doesn't appear to pose an immediate collision risk, but it does require the observer vehicle to slightly adjust its speed and maintain a safe following distance.",
+    "actions": "The observer vehicle maintains a consistent speed throughout the 10-second segment, adjusting slightly to maintain a safe distance from the three-wheeled vehicle that enters the road from the right. The road is relatively clear, allowing for consistent speed and no need for braking or lane changes.",
+    "key_objects": "Right: Three-wheeled motorized vehicle, approximately 15 meters away at initial appearance, turning left into the main road from a side road. The maneuver is slow and doesn't create an immediate collision risk.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_006",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.8s",
+    "scene_theme": "Driving on a clear road",
+    "characters": "Driver of a vehicle with a dashcam",
+    "summary": "The video shows a vehicle driving on a two-lane road with trees and some structures on either side. The road appears to be relatively empty with no other vehicles or pedestrians immediately visible. The weather is sunny.  The vehicle maintains a consistent speed and direction throughout the observed segment.",
+    "actions": "The vehicle maintains a consistent speed and direction throughout the 4.8-second segment. There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from any unseen vehicles ahead, given the empty road.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

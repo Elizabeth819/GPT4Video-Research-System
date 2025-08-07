@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "dada_27_003",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving through an urban area. The road is relatively clear with some parked cars on the sides. The vehicle maintains a steady speed and lane position throughout the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. There are no sudden changes in speed or direction, indicating a smooth and controlled driving behavior.",
+        "key_objects": "1) Left side: A white car, approximately 3 meters away, parked and blocking the view. 2) Right side: A building, approximately 5 meters away, static and posing no immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_27_003",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a white van, driver of a white sports car",
+        "summary": "In this segment, the vehicle is driving on a highway at night. The white sedan ahead is maintaining a steady speed, while the white van is further ahead in the same lane. A white sports car is overtaking the self-driving vehicle from the right side.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The white sports car on the right is overtaking the self-driving vehicle, moving ahead to take the lead position.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining a steady speed. 2) Front: A white van, approximately 20 meters away, maintaining a steady speed. 3) Right: A white sports car, approximately 5 meters away, overtaking the self-driving vehicle.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_27_003",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "12.9s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a red truck, driver of a silver car",
+        "summary": "In this segment, the vehicle is driving on a highway at night. The road is illuminated by streetlights. There are multiple vehicles ahead, including a white sedan, a white van, and a red truck. The silver car on the right side is moving closer to the self-driving vehicles lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The driver is likely monitoring the silver car on the right side, which is moving closer and may potentially cut into the lane.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining its lane. 2) Front: A white van, approximately 25 meters away, maintaining its lane. 3) Right: A red truck, approximately 15 meters away, maintaining its lane. 4) Right: A silver car, approximately 5 meters away, moving closer to the self-driving vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_8_002",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving on a rural road with a slight curve. Initially, the road is clear, but as the vehicle progresses, a red truck appears on the left side of the road, moving slowly. The road conditions are clear, and there are no immediate obstacles or pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating the curve. The vehicle is keeping a safe distance from the red truck on the left side, ensuring smooth driving without any sudden changes in speed or direction.",
+        "key_objects": "1) Left side: A red truck, approximately 20 meters away, moving slowly along the road. 2) Front: A curve in the road, approximately 30 meters away, requiring careful navigation.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_8_002",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "7.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is driving on a rural road with a guardrail on the right side. The road appears to be clear with no immediate obstacles or other vehicles in sight.",
+        "actions": "The vehicle is maintaining a consistent speed and direction, following the curve of the road. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

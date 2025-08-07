@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_023",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car, a motorcyclist, and other vehicles on a city street. The motorcyclist is involved in an accident and falls onto the road.",
+  "summary": "The video shows the car driving straight on a city street. Initially, the road appears clear. A motorcyclist approaches from the opposite direction. The motorcyclist then falls off their bike in the middle of the road. The car continues driving straight.",
+  "actions": "The vehicle is initially driving straight on a city street. The driver maintains speed as the road appears clear. As the motorcyclist falls, the driver likely initiates braking to avoid a collision.",
+  "key_objects": "1) Center: Motorcyclist, medium distance, falls off the bike, creating an immediate collision risk.\n2) Right: Building, far distance, acts as a visual obstruction initially.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

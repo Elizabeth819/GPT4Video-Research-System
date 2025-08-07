@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_040",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.5s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male electric bicycle rider in a blue top, approximately 20-30 years old; multiple pedestrians on the crosswalk.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban road during daytime, approaching a busy intersection with a crosswalk. Buildings line both sides of the street, and a metal barrier separates the vehicle's lane from the left side. As the vehicle reaches the crosswalk, an electric bicycle rider suddenly emerges from behind the metal barrier on the left side of the road, darting directly into the vehicle's path with minimal warning. This sudden appearance from behind an obstruction creates an immediate and unavoidable collision, as evidenced by the windshield cracking in subsequent frames.",
+  "actions": "The self-driving vehicle was initially maintaining a consistent speed as it approached the intersection. Upon the sudden and unexpected emergence of the electric bicycle rider from behind the visual obstruction on the left, the vehicle had insufficient time to initiate effective braking or evasive maneuvers. The immediate impact, indicated by the shattering windshield, demonstrates that the 'ghost probing' nature of the event left no reaction time for the vehicle to prevent the collision.",
+  "key_objects": "1) Left side: An electric bicycle rider, appearing to be a male in a blue top, approximately 20-30 years old, suddenly emerging from behind the metal barrier and entering the vehicle's path at the crosswalk, leading to an immediate collision. 2) Left side: A metal barrier, extending along the left side of the road, approximately 5-10 meters away, acting as a significant visual obstruction that completely hid the approaching electric bicycle rider until they darted into the vehicle's direct path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

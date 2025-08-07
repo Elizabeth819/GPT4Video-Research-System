@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_103",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "5.4s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a blue taxi, driver of a white van",
+        "summary": "In this segment, the vehicle is driving on an urban road. Initially, a blue taxi is seen ahead on the left side, and a white van is parked on the right side. The blue taxi moves closer to the self-driving vehicle, and eventually, the self-driving vehicle overtakes the blue taxi. The road is clear with moderate traffic.",
+        "actions": "The self-driving vehicle maintains a consistent speed while overtaking the blue taxi. The vehicles speed remains steady to ensure safe overtaking. The self-driving vehicle also keeps a safe distance from the parked white van on the right side.",
+        "key_objects": "1) Left side: A blue taxi, approximately 5 meters away, moving closer to the self-driving vehicle. 2) Right side: A white van, approximately 3 meters away, parked and not posing immediate danger.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

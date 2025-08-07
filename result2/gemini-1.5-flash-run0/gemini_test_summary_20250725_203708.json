@@ -1,0 +1,142 @@
+{
+  "test_summary": {
+    "timestamp": "20250725_203708",
+    "total_videos": 20,
+    "model": "Gemini-1.5-flash"
+  },
+  "performance_metrics": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5714285714285714,
+    "f1_score": 0.6153846153846153,
+    "accuracy": 0.5,
+    "stats": {
+      "TP": 8,
+      "FP": 4,
+      "TN": 2,
+      "FN": 6,
+      "ERROR": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_001.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A pedestrian suddenly appears from the right side of the road, running across the road in front of the vehicle.\",\n  \"ghost_probing_time\": \"11:03:29 (approximately)\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The pedestrian appears unexpectedly and very close to the vehicle, creating an immediate collision risk.  This qualifies as a ghost probing event because of the sudden appearance from an area partially obscured from the driver's direct view, the close proximity when he is first spotted, and the potential for immediate harm had the vehicle not been able to decelerate (the visual does not capture the potential reaction of the driver or any braking). The action violates typical traffic expectations as pedestrians usually do not cross at this point, at this speed, and without looking.\"\n}\n```\n",
+      "evaluation": "FP"
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_002.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"The video shows a car driving on a rural road. Several pedestrians and a motorcyclist are visible in the distance, moving predictably.  There is no sudden appearance of objects from blind spots.\",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"While there are pedestrians and a motorcyclist present, their presence is visible well in advance.  None of the objects appear suddenly from a blind spot or at a dangerously close distance requiring immediate emergency braking.  Their movement is also largely predictable and consistent with expected traffic behavior in a rural setting.\"\n}\n```\n",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_003.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A person suddenly appears in the road from the side of the parked car, very close to the oncoming vehicle. This person appears to have fallen from or near a parked vehicle.\",\n  \"ghost_probing_time\": \"Approximately 6 seconds\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The person is not visible in the preceding frames, appearing suddenly and very close to the vehicle's path. This constitutes a ghost probing event as it creates an immediate collision risk requiring immediate evasive action. The situation is unpredictable and violates normal traffic expectations.\"\n}\n```\n",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_004.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"The video shows a car driving on a road. There are some pedestrians and vehicles visible along the roadside.  The traffic flow is relatively slow and predictable.\",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"No objects appear suddenly from blind spots or at dangerously close distances.  The movements of all visible objects are predictable and do not require any emergency maneuvers from the recording vehicle. There are no situations observed that could be classified as ghost probing events.\"\n}\n```\n",
+      "evaluation": "TN"
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_005.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"The video shows a car driving in heavy rain on a city street.  Pedestrians with umbrellas are visible near the sidewalk. Traffic is moving slowly. There's a bus and several other cars in the scene.\",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"While the conditions are somewhat hazardous due to rain and pedestrian activity, there are no sudden appearances of objects from blind spots, nor objects appearing extremely close requiring immediate emergency maneuvers.  All pedestrian and vehicle movements are visible and within the expected range of visibility and traffic flow.  No ghost probing event is detected.\"\n}\n```\n",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_006.avi",
+      "ground_truth": "9s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_006.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"The vehicle in front suddenly stops, and a person on a scooter appears from the blind spot very close to the recording vehicle, requiring immediate braking to avoid a collision.\",\n  \"ghost_probing_time\": \"Approximately 8-9 seconds\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The scooter appears very suddenly and unexpectedly from the left blind spot when the vehicle is slowing down in traffic.  The proximity of the scooter and lack of prior visibility creates a near-miss accident situation that fits the criteria for a ghost probing event. The driver would likely need to brake abruptly to avoid a collision.\"\n}\n```\n",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_007.avi",
+      "ground_truth": "6s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_007.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"The video shows a car driving down a tree-lined street with moderate traffic. Pedestrians and cyclists are visible on the sidewalks and occasionally crossing the street.  Traffic moves at a relatively slow and steady pace.\",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"No objects appear suddenly from blind spots or at dangerously close proximity.  No situations requiring immediate emergency maneuvers are observed.  The movements of all objects are predictable and conform to normal traffic patterns. The apparent lack of 'ghost probing' is further enhanced by the clear visibility provided throughout the scene.\"\n}\n```\n",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_008.avi",
+      "ground_truth": "3s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_008.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"The vehicle is driving down a relatively quiet residential street. There are parked vehicles on the side of the road and some pedestrians and cyclists are visible, though their movements are predictable and not sudden. \",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"While there are pedestrians and cyclists present, their presence is observed well in advance and there is no sudden appearance of objects that would create an immediate collision risk.  The movement of all observed objects is consistent with normal traffic flow.  No emergency braking or swerving maneuvers are required.\"\n}\n```\n",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_009.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_009.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"Two pedestrians suddenly appear from the side of the road and cross the path of the vehicle.  They are very close to the vehicle when they are first visible.\",\n  \"ghost_probing_time\": \"19:44:48 - 19:44:50\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The pedestrians appear unexpectedly and close to the vehicle, creating a near-miss situation that requires immediate attention from the driver to avoid a collision. This fits the criteria for a ghost probing event due to the sudden appearance from a seemingly safe position and proximity to the vehicle. The event occurs between 19:44:48 and 19:44:50 on the video timestamp.\"\n}\n```\n",
+      "evaluation": "FP"
+    },
+    {
+      "video_id": "images_1_010.avi",
+      "ground_truth": "15s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_010.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A pedestrian suddenly runs across the road from the right-hand side, appearing very close to the vehicle, requiring an immediate braking response.\",\n  \"ghost_probing_time\": \"Approximately 11-12 seconds\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The pedestrian appears unexpectedly from behind a parked van, very close to the vehicle. This situation necessitates an immediate and evasive braking maneuver to avoid a collision. The sudden appearance and close proximity classify this as a ghost probing event.  The pedestrian's action violates typical traffic expectations and poses a significant immediate risk.\"\n}\n```\n",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_011.avi",
+      "ground_truth": "11s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_011.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A white Lexus RX SUV suddenly merges into the lane from the right side, relatively close to the recording vehicle. Pedestrians are also present near the gas station, further increasing the risk.\",\n  \"ghost_probing_time\": \"11:32:28\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The Lexus appears abruptly and relatively close to the recording vehicle at 11:32:28; the timing and proximity suggest a potential collision risk requiring immediate action.  This satisfies the criteria for ghost probing as it's a sudden appearance of an object from a partially obscured position (right side), very close, potentially requiring emergency response to avoid a collision. The presence of pedestrians also adds to the hazardous situation.\"\n}\n```\n",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_012.avi",
+      "ground_truth": "11s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_012.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"The video shows a car driving down a street with parked cars on both sides. There are pedestrians walking on the sidewalk and some crossing the street. Traffic is moving relatively slowly.\",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"While there are pedestrians and some traffic movement, there are no sudden appearances of objects from blind spots or objects appearing dangerously close that would require immediate emergency maneuvers.  All movements appear to be predictable and within the expected flow of traffic. No ghost probing events are detected.\"\n}\n```\n",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_013.avi",
+      "ground_truth": "8s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_013.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A large bus appears suddenly from around a bend in the road, followed by two pedestrians appearing unexpectedly close to the vehicle.\",\n  \"ghost_probing_time\": \"6-7 seconds\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The bus emerges from a blind spot relatively quickly, appearing close to the recording vehicle and requiring an immediate reaction to avoid a collision.  The pedestrians also appear abruptly and very close, requiring evasive action. Both events fulfill the criteria for ghost probing due to their suddenness and proximity, demanding an immediate and potentially emergency response from the driver.\"\n}\n```\n",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_014.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_014.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A child suddenly runs into the road from behind a parked scooter, very close to the vehicle.\",\n  \"ghost_probing_time\": \"Approximately 7-8 seconds\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The child's appearance is sudden and unexpected.  They emerge from behind a parked scooter, directly into the path of the oncoming vehicle, creating a high-risk situation requiring immediate evasive action. The distance is very short, leaving little time to react. This fits the definition of a ghost probing event.\"\n}\n```\n",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_015.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_015.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"The vehicle approaches an intersection. A child suddenly runs out from behind a parked truck into the path of the vehicle. \",\n  \"ghost_probing_time\": \"7-8 seconds\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The child's sudden appearance from a blind spot, in close proximity to the vehicle, and directly in its path constitutes a clear ghost probing event.  The situation requires an immediate evasive maneuver to avoid a collision. The child's movement is unpredictable and violates traffic expectations.\"\n}\n```\n",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_016.avi",
+      "ground_truth": "4s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_016.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A pedestrian suddenly appears from the right side of the road, crossing the road unexpectedly in front of oncoming traffic.\",\n  \"ghost_probing_time\": \"approximately 4-5 seconds\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The pedestrian's appearance is sudden and unexpected. They are very close to the vehicle when they are first visible, and their path directly intersects with the vehicle's path, creating a serious collision risk requiring immediate action to avoid an accident. This fulfills the criteria for a ghost probing event.\"\n}\n```\n",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_017.avi",
+      "ground_truth": "17s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_017.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"The video shows the car driving down a tree-lined road with moderate traffic.  Vehicles are visible and moving predictably. There is a bus alongside the car for a portion of the video, but its presence is continuous and not a sudden appearance.\",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"No objects appear suddenly from blind spots or at dangerously close distances.  Traffic flow is consistent and predictable. There are no situations that require immediate emergency maneuvers.\"\n}\n```\n",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_018.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_018.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"The video shows the car driving down a street with parked cars on both sides. Pedestrians are visible walking on the sidewalk and crossing the street.  Traffic moves relatively slowly and predictably.\",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"No objects appear suddenly from blind spots or unexpectedly close to the vehicle.  Pedestrians and other vehicles are visible well in advance, allowing for safe navigation.  There are no situations requiring immediate emergency maneuvers.\"\n}\n```\n",
+      "evaluation": "TN"
+    },
+    {
+      "video_id": "images_1_019.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_019.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A person suddenly falls onto the road from the side, directly in front of the vehicle.\",\n  \"ghost_probing_time\": \"33.5 seconds\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The person appears very suddenly and very close to the vehicle, creating an immediate and significant collision risk.  The event is unexpected and requires an immediate evasive action (braking or swerving) to avoid a collision.  This fits the definition of a ghost probing event.\"\n}\n```\n",
+      "evaluation": "FP"
+    },
+    {
+      "video_id": "images_1_020.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_020.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A motorcycle appears suddenly from the right side of the road at night, relatively close to the recording vehicle, requiring an immediate braking response.\",\n  \"ghost_probing_time\": \"approximately 2-3 seconds\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The motorcycle appears abruptly in the video, with little to no prior visual indication. It comes from the right side of the road, seemingly from a blind spot, and is within a close proximity to the recording vehicle, necessitating a sudden braking response to prevent a collision. This fulfills all the criteria for a ghost probing event.  The darkness and limited visibility likely exacerbated the situation.\"\n}\n```\n",
+      "evaluation": "FP"
+    }
+  ]
+}

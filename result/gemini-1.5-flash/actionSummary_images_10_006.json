@@ -1,0 +1,101 @@
+[
+    {
+        "video_id": "dada_10_006",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A person riding an electric scooter",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "The scooter rider is crossing the road from left to right, directly in front of the vehicle.  The rider appears to be looking down and not paying attention to traffic."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Electric scooter",
+                "behavior": "Crossing the road without looking, potentially causing a collision."
+            }
+        ],
+        "summary": "The video shows a car approaching an intersection. A male, aged 30-40, wearing a dark jacket and pants, is riding an electric scooter and crosses the road from left to right directly in front of the car. The scooter rider appears to be looking down and not paying attention to the traffic. This constitutes a ghost probing event, as the scooter rider suddenly appears in the car's path with little warning. The car is likely to need to brake suddenly to avoid a collision.",
+        "actions": "The vehicle is proceeding slowly through an intersection, likely due to the presence of other vehicles and pedestrians. The driver appears to be maintaining a cautious speed and is attentive to the surrounding environment. The vehicle maintains a straight path.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_10_006",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A person riding an orange electric scooter",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Crossing the road from right to left, approaching the vehicle's path."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Yellow-orange jacket and dark pants",
+                "transportation_method": "Orange electric scooter",
+                "behavior": "Crossing the road from right to left, at a moderate speed.  The scooter appears to be moving at a moderate pace, but the sudden crossing from behind parked vehicles makes it a ghost probing event."
+            }
+        ],
+        "summary": "The video shows a person on an orange electric scooter crossing the road from right to left. The scooter crosses in front of the vehicle's path, emerging from behind parked vehicles. This behavior is classified as 'ghost probing' due to the sudden appearance and potential for collision. The scooter is moving at a moderate speed, but the lack of anticipation makes it dangerous. The weather appears overcast, and the road is wet.",
+        "actions": "The vehicle maintains a consistent speed, likely due to the wet road conditions and the presence of other vehicles and pedestrians. The driver is alert and appears to be maintaining a safe following distance from the vehicles ahead. There are no sudden braking or acceleration maneuvers observed in this segment.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_10_006",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "15.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A white van",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Moving at a relatively slow and steady speed ahead of the ego vehicle."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A person riding a motorcycle",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Approaching from behind, then overtaking the ego vehicle."
+            }
+        ],
+        "key_actions": "right-side overtaking",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark colored jacket and pants",
+                "transportation_method": "Motorcycle",
+                "behavior": "Overtaking the ego vehicle from the right side."
+            }
+        ],
+        "summary": "The video shows a yellow car driving down a residential street.  The road is relatively clear with some parked cars on the sides.  A white van is traveling ahead of the yellow car at a moderate speed. A male, aged 30-40, wearing a dark jacket and pants, is riding a motorcycle on the right side of the road. He overtakes the yellow car from the right lane. No other significant events or near misses are observed during this segment.",
+        "actions": "The ego vehicle maintains a steady speed, keeping a safe following distance from the vehicle in front.  The driver appears to be driving cautiously and attentively, adjusting speed to maintain a safe distance from other vehicles.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    }
+]

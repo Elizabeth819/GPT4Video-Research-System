@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_38_038",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a blue van, driver of a white car, driver of a red truck",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road with moderate traffic. The blue van ahead is maintaining a steady speed, while the white car on the right lane is moving forward. A red truck is visible on the right side, initially behind the white car, and gradually overtaking the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position, following the blue van ahead. The vehicle is keeping a safe distance from the blue van and monitoring the traffic on the right side, including the white car and the red truck.",
+        "key_objects": "1) Front: A blue van, approximately 5 meters away, maintaining a steady speed. 2) Right: A white car, approximately 10 meters away, moving forward. 3) Right: A red truck, initially behind the white car, approximately 15 meters away, gradually overtaking the self-driving vehicle.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_5_029",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a green car, person on a scooter",
+        "summary": "In this segment, the vehicle is driving on a city road. The white sedan ahead is maintaining a steady speed. A green car appears from the left lane and moves ahead of the white sedan. Towards the end of the segment, a person on a scooter suddenly appears from the right side, moving into the vehicles path.",
+        "actions": "The self-driving vehicle maintains a steady speed while following the white sedan. As the green car overtakes from the left, the vehicle continues to drive straight. Towards the end, the vehicle slows down to avoid a potential collision with the person on the scooter who suddenly appears from the right side.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining a steady speed. 2) Left: A green car, approximately 5 meters away, overtaking the white sedan. 3) Right: A person on a scooter, approximately 3 meters away, suddenly moving into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

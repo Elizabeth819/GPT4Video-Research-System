@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_023",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male on a motorcycle wearing dark clothing, a silver car in the distance",
+  "summary": "The vehicle is driving on a city street. From 0.0s to 8.0s, a male on a motorcycle wearing dark clothing is seen driving in the opposite direction. At 8.0s, the motorcycle begins to turn left into the path of the self-driving vehicle. At 9.0s, the motorcycle is directly in front of the self-driving vehicle. At 10.0s, the motorcycle has crashed and the male is lying on the ground.",
+  "actions": "The self-driving vehicle is driving straight on a city street. The vehicle maintains its speed until 8.0s, when the motorcycle begins to turn left. The vehicle then begins to decelerate to avoid a collision. The vehicle is unable to avoid the collision and crashes into the motorcycle.",
+  "key_objects": "1) Front: A male on a motorcycle wearing dark clothing, approximately 10 meters away, turning left into the path of the self-driving vehicle.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

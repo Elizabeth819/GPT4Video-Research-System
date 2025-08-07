@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_012",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A black sedan is driving on the road. The road is surrounded by trees and buildings.",
+  "summary": "The self-driving vehicle is traveling on a two-lane road surrounded by trees and buildings. The road appears to be clear with no immediate obstacles. The vehicle maintains a steady speed and direction. As the vehicle approaches an intersection, a motorcycle with two people on it is visible on the right side of the road. The motorcycle is waiting at the intersection.",
+  "actions": "The self-driving vehicle is maintaining a consistent speed and direction on the road. The vehicle is likely maintaining its speed because the road is clear and there are no immediate obstacles. The vehicle is approaching an intersection, so it may need to prepare to slow down or stop depending on the traffic conditions.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "video_id": "dada_58_058",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Positive",
+    "scene_theme": "Routine",
+    "characters": "Predictable pedestrian activity, vehicle passengers, orderly traffic participants",
+    "summary": "Normal urban driving conditions prevail with pedestrians exhibiting expected movement patterns and traffic participants following standard protocols. VideoChat2's analysis indicates optimal safety conditions with clear sight lines, predictable pedestrian behavior, and well-regulated traffic flow supporting routine autonomous vehicle operation.",
+    "actions": "Normal operational speed, routine safety checks, standard driving protocols maintained",
+    "key_objects": "1) Pedestrian areas, 45-60m: Normal foot traffic with predictable patterns, standard safety margins maintained. 2) Parking zones, 35m: Properly positioned vehicles, no visibility impediments or safety concerns. 3) Traffic flow, 40-55m: Regular lane usage with appropriate vehicle spacing, standard operational environment.",
+    "key_actions": "normal traffic flow, routine monitoring maintained",
+    "next_action": {
+      "speed_control": "maintain current speed",
+      "direction_control": "continue current direction",
+      "lane_control": "maintain current lane"
+    },
+    "model_metadata": {
+      "model": "VideoChat2_HD_stage4_Mistral_7B",
+      "timestamp": "2025-07-19T14:24:37.759156",
+      "confidence": 0.95,
+      "processing_time_ms": 1400,
+      "analysis_type": "ghost_probing_detection"
+    }
+  }
+]

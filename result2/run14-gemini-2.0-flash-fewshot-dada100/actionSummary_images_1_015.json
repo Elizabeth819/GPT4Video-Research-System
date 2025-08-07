@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_015",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several people are visible on the sidewalks and streets. A man in a blue shirt and dark pants is standing near a parked truck on the right side of the road. A child in a pink shirt is walking on the right side of the road. A man is riding a motorcycle on the left side of the road.",
+  "summary": "The vehicle is driving on a narrow urban road with buildings and parked vehicles on both sides. From 0.0s to 5.7s, a man in a blue shirt and dark pants is standing near a parked truck on the right side of the road. From 6.5s to 7.4s, a child in a pink shirt is walking on the right side of the road. From 7.4s to 10.0s, a man is riding a motorcycle on the left side of the road. The road is relatively clear, and the vehicle maintains a steady speed.",
+  "actions": "The vehicle is driving at a slow and steady speed, likely due to the narrow road and the presence of pedestrians and parked vehicles. The driver is proceeding cautiously, maintaining awareness of the surroundings.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

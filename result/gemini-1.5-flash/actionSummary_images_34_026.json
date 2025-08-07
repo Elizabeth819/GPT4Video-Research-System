@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_026",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Multiple motorcyclists, cars",
+        "summary": "In this segment, the vehicle is driving through a busy urban intersection. Multiple motorcyclists are seen on the left side of the road, moving towards the intersection. Several cars are also visible, some parked on the right side and others moving through the intersection. The vehicle is approaching the intersection, and the driver needs to be cautious of the motorcyclists and cars moving in various directions.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The driver is likely monitoring the motorcyclists on the left and the cars on the right to avoid any sudden movements or collisions. The vehicles speed remains consistent, ensuring safe navigation through the busy intersection.",
+        "key_objects": "1) Left side: Multiple motorcyclists, approximately 10 meters away, moving towards the intersection. 2) Right side: Several cars, approximately 5 meters away, parked and moving through the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

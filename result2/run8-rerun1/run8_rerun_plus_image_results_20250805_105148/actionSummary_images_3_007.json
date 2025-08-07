@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians and cyclists, including a child on a bicycle, a pedestrian in a blue jacket, and a man in a yellow shirt.",
+  "summary": "The video sequence shows several instances of 'ghost probing' behavior. In the first sequence, a child on a bicycle suddenly emerges from the right side of the road, hidden by a parked vehicle, and falls in front of the observer vehicle. In the second sequence, a pedestrian in a blue jacket suddenly appears from behind a parked vehicle on the left side of the road, crossing the path of the observer vehicle. In the third sequence, a man in a yellow shirt runs across the road from the left side, emerging from behind a parked vehicle.",
+  "actions": "The child on the bicycle falls in front of the observer vehicle, the pedestrian in the blue jacket crosses the road, and the man in the yellow shirt runs across the road.",
+  "key_objects": "Parked vehicles on both sides of the road, a child on a bicycle, a pedestrian in a blue jacket, a man in a yellow shirt.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

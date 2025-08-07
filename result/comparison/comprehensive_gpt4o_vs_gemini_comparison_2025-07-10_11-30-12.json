@@ -1,0 +1,226 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-07-10_11-30-12",
+    "models_compared": "GP3S-V2-BALANCED (GPT-4o) vs Gemini-1.5-flash (REST API)",
+    "dataset": "DADA-2000 with ground truth",
+    "identical_prompts": true,
+    "identical_parameters": "interval=10s, max_frames=8",
+    "note": "Comprehensive comparison including both direct comparison and individual model performance"
+  },
+  "data_overview": {
+    "total_ground_truth_videos": 101,
+    "gpt4o_processed_videos": 5,
+    "gemini_processed_videos": 5,
+    "videos_with_both_results": 5,
+    "total_videos_with_any_result": 5,
+    "gpt4o_coverage_percentage": 4.95,
+    "gemini_coverage_percentage": 4.95
+  },
+  "direct_comparison": {
+    "videos_compared": 5,
+    "both_correct": 1,
+    "both_wrong": 1,
+    "gpt4o_better": 1,
+    "gemini_better": 2,
+    "both_correct_percentage": 20.0,
+    "gpt4o_better_percentage": 20.0,
+    "gemini_better_percentage": 40.0
+  },
+  "gpt4o_performance": {
+    "total_videos": 5,
+    "metrics": {
+      "accuracy": 40.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positives": 0,
+      "false_positives": 3,
+      "false_negatives": 0,
+      "ghost_probing_gt": 0,
+      "ghost_probing_pred": 3,
+      "total_videos": 5
+    },
+    "direct_comparison_metrics": {
+      "accuracy": 40.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positives": 0,
+      "false_positives": 3,
+      "false_negatives": 0,
+      "ghost_probing_gt": 0,
+      "ghost_probing_pred": 3,
+      "total_videos": 5
+    }
+  },
+  "gemini_performance": {
+    "total_videos": 5,
+    "metrics": {
+      "accuracy": 60.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positives": 0,
+      "false_positives": 2,
+      "false_negatives": 0,
+      "ghost_probing_gt": 0,
+      "ghost_probing_pred": 2,
+      "total_videos": 5
+    },
+    "direct_comparison_metrics": {
+      "accuracy": 60.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positives": 0,
+      "false_positives": 2,
+      "false_negatives": 0,
+      "ghost_probing_gt": 0,
+      "ghost_probing_pred": 2,
+      "total_videos": 5
+    }
+  },
+  "detailed_results": {
+    "direct_comparison": [
+      {
+        "video_id": "images_1",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": false,
+        "gemini_correct": true,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": true
+      },
+      {
+        "video_id": "images_2",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_3",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": false,
+        "gemini_correct": true,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": true
+      },
+      {
+        "video_id": "images_4",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": true,
+        "both_correct": true,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_5",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": true,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": true,
+        "gemini_better": false
+      }
+    ],
+    "gpt4o_all_results": [
+      {
+        "video_id": "images_5",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_3",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_4",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_2",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      }
+    ],
+    "gemini_all_results": [
+      {
+        "video_id": "images_1",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_3",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_4",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_2",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_5",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": false
+      }
+    ]
+  }
+}

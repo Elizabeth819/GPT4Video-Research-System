@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_34_009",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist",
+        "summary": "In this segment, the vehicle is approaching an intersection with a traffic light. Several vehicles are moving across the intersection, and a cyclist appears from the right side, moving towards the center of the intersection.",
+        "actions": "The self-driving vehicle is slowing down as it approaches the intersection, likely due to the red traffic light and the presence of crossing vehicles. The vehicle maintains a steady speed to ensure safety and avoid collisions.",
+        "key_objects": "1) Front: Multiple vehicles crossing the intersection, approximately 20 meters away, moving from left to right. 2) Right: A cyclist, approximately 15 meters away, moving towards the center of the intersection.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_009",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist, driver of a black car, driver of a yellow taxi",
+        "summary": "In this segment, the vehicle is driving through an intersection. Initially, a white sedan is seen crossing the intersection from the left side. A black car then appears from the right side, followed by a cyclist who falls in the middle of the intersection. The scene clears up, and a yellow taxi overtakes the self-driving vehicle from the right side.",
+        "actions": "The self-driving vehicle maintains a consistent speed while approaching the intersection. It slows down slightly as the cyclist falls in the middle of the intersection, ensuring safety. The vehicle then continues at a steady pace as the intersection clears up.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, crossing the intersection. 2) Right side: A black car, approximately 8 meters away, moving into the intersection. 3) Front: A cyclist, approximately 5 meters away, falling in the middle of the intersection. 4) Right side: A yellow taxi, approximately 2 meters away, overtaking the self-driving vehicle.",
+        "key_actions": "ghost probing, right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

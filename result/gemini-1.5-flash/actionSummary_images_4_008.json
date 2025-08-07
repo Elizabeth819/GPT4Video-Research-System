@@ -1,0 +1,110 @@
+[
+    {
+        "video_id": "dada_40_051",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a white van, driver of a motorcycle",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white sedan is seen moving erratically and eventually crashes into a pole. A white van and a motorcycle are also present in the scene, with the motorcycle moving towards the right side of the road.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the erratic behavior of the white sedan ahead. The vehicle is likely preparing to decelerate or stop due to the potential collision ahead.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving erratically and crashing into a pole. 2) Right: A motorcycle, approximately 5 meters away, moving towards the right side of the road. 3) Left: A white van, approximately 8 meters away, maintaining its lane.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_051",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a grey pickup truck",
+        "summary": "In this segment, the vehicle is driving on a road near a construction site. A white sedan is seen moving from the left side towards the center of the road, while a grey pickup truck is stationary on the right side. The white sedan appears to be cutting into the lane of the self-driving vehicle, causing a potential collision risk.",
+        "actions": "The self-driving vehicle needs to decelerate rapidly to avoid a collision with the white sedan that is cutting into its lane from the left side. The vehicles speed decreases significantly over the last 5 seconds, maintaining a safe distance from the grey pickup truck on the right side.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, moving towards the center of the road, cutting into the self-driving vehicles lane. 2) Right side: A grey pickup truck, stationary, approximately 5 meters away, posing no immediate threat.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_4_008",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "5.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road with moderate traffic. The road is clear ahead, and there are no immediate obstacles or vehicles posing a threat. The vehicle maintains a consistent speed and lane position throughout the segment.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. There are no sudden changes in speed or direction, indicating a routine driving scenario.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_4_008",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Routine",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road. The road is clear with moderate traffic. A white car is visible on the right side of the road, moving parallel to the self-driving vehicle. The vehicle maintains a steady speed and lane position throughout the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The driver is likely focused on keeping a safe distance from the vehicles ahead and to the right.",
+        "key_objects": "1) Right side: A white car, approximately 5 meters away, moving parallel to the self-driving vehicle. 2) Front: Multiple vehicles, approximately 20 meters away, maintaining their lanes and speeds.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_4_008",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist, pedestrian",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a white sedan is moving from the left lane to the right lane, potentially causing a cut-in. A cyclist and a pedestrian are crossing the road from the right side, posing a potential ghost probing risk.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching an intersection. The vehicle is likely preparing to decelerate due to the white sedans cut-in from the left lane and the presence of the cyclist and pedestrian crossing the road.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, moving from the left lane to the right lane, causing a potential cut-in. 2) Right side: A cyclist, approximately 15 meters away, crossing the road, posing a potential ghost probing risk. 3) Right side: A pedestrian, approximately 20 meters away, crossing the road, posing a potential ghost probing risk.",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_4_008",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "16.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist",
+        "summary": "In this segment, a female cyclist wearing a black jacket and riding a bicycle suddenly appears from the right side of the frame and collides with the vehicle. The cyclist falls onto the road in front of the vehicle.",
+        "actions": "The self-driving vehicle is forced to stop abruptly due to the sudden appearance and collision with the cyclist. The vehicles speed decreases rapidly to avoid further harm to the cyclist.",
+        "key_objects": "1) Right side: A female cyclist, approximately 1 meter away, suddenly appears and collides with the vehicle, causing the vehicle to stop abruptly.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

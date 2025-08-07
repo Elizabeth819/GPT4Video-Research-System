@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple adults are present. On the left side of the road, there are several individuals, including a woman in a red coat and two men in dark jackets, appearing to be middle-aged or elderly. On the right side, a middle-aged man wearing a dark jacket and a cap suddenly appears in the vehicle's path.",
+  "summary": "The video begins with the vehicle driving slowly on a narrow, unpaved road in what appears to be a rural or village setting. Buildings and structures are visible on both sides, with a large pile of dirt on the left and a parked white van on the right. As the vehicle proceeds, a man suddenly emerges from behind the parked white van on the right side of the road, directly into the vehicle's path. The vehicle immediately applies brakes to avoid a collision, coming to a complete stop. The man then appears to interact with the vehicle or its occupants, and other pedestrians are visible on the left side of the road.",
+  "actions": "The vehicle initially proceeds at a slow speed, navigating a narrow, unpaved road. As it approaches a section where a white van is parked on the right side, and a group of people are visible on the left, the driver's view of the immediate path ahead on the right is obstructed. A pedestrian suddenly emerges from behind the white van, directly in front of the vehicle. In response to this sudden and unexpected appearance, the vehicle executes a rapid deceleration, applying brakes forcefully to prevent a collision with the pedestrian. The vehicle then comes to a complete stop, prioritizing the safety of the pedestrian who unexpectedly entered its path.",
+  "key_objects": "1) Right side: A white van, parked, acting as a significant visual obstruction. 2) Center/Right: A middle-aged man in a dark jacket and cap, suddenly appearing from behind the white van, directly entering the vehicle's path, creating an immediate collision risk. 3) Left side: A large pile of dirt/sand, acting as a visual obstruction for the left side of the road. 4) Left side: Multiple adults standing near the dirt pile and buildings, observing the scene.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

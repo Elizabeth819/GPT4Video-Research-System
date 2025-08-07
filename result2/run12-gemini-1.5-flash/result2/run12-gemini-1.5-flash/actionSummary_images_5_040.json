@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_5_040",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of a vehicle, other vehicles, pedestrians",
+    "summary": "The video shows a vehicle driving down a city street.  The road is relatively clear with some other vehicles and pedestrians visible. Traffic appears light to moderate.  No significant events or near misses occur during the 10-second segment. The vehicle maintains a consistent speed and stays in its lane.  Pedestrians are visible crossing at a crosswalk near the end of the sequence.",
+    "actions": "The vehicle maintains a consistent speed and direction throughout the 10-second segment.  The driver appears to be following traffic laws and maintaining a safe distance from other vehicles.  The vehicle does not brake or accelerate significantly. The consistent speed suggests the driver is adapting to the flow of traffic.",
+    "key_objects": "None",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_040",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "12.7s",
+    "sentiment": "Negative",
+    "scene_theme": "Accident",
+    "characters": "Driver of the vehicle, pedestrians crossing the road",
+    "summary": "The video shows a vehicle approaching an intersection.  Pedestrians are visible crossing the crosswalk. Between frame 1 and frame 2, a collision occurs.  The vehicle's windshield is shattered, indicating a significant impact. The exact nature of the collision and the involved parties are unclear from the limited frames, but it appears a pedestrian or a vehicle may have been involved.",
+    "actions": "The vehicle is initially driving straight at a seemingly moderate speed towards the intersection.  There is no indication of braking or evasive maneuvers before the collision. The sudden impact and windshield damage suggest a lack of reaction time.",
+    "key_objects": "Front: Pedestrians crossing the crosswalk, approximately 5 meters away at the start of the sequence, then 0 meters away at impact.  The pedestrians' movement caused the collision. Right: A white van, approximately 10 meters away in the first frame, seemingly stationary and not directly involved in the collision.",
+    "key_actions": "collision",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

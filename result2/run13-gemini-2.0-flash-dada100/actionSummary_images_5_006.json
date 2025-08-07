@@ -1,0 +1,35 @@
+{
+  "video_id": "images_5_006",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.3s",
+  "summary": "The self-driving car is traveling on a straight road with trees on both sides. From 7.0s to 9.0s, a red three-wheeled vehicle with two people on it suddenly appears from the right side of the road, emerging from behind trees and bushes. This constitutes a ghost probing scenario. From 10.0s to 14.3s, the car continues driving straight, passing a series of yellow traffic cones on the right side of the road.",
+  "characters": [
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "red",
+      "age": "adult",
+      "transportation_method": "three-wheeled vehicle",
+      "way_of_walking": "N/A"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "unknown",
+      "age": "adult",
+      "transportation_method": "passenger on three-wheeled vehicle",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_objects": [
+    "Right side: A red three-wheeled vehicle with two people, approximately 15 meters away, suddenly appears from behind trees and bushes, creating a potential collision hazard."
+  ],
+  "actions": "The vehicle is driving straight on a two-lane road. The driver maintains a consistent speed, likely due to the clear road conditions and lack of immediate obstacles. The road is straight and there are no turns or lane changes required.",
+  "next_action": {
+    "speed_control": "keep speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

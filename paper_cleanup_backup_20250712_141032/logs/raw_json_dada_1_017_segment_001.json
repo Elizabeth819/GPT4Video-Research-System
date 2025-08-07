@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_017",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "End_Timestamp": "19.0s",
+    "scene_theme": "Urban",
+    "characters": "Driver of a silver sedan",
+    "summary": "In this segment, the vehicle is driving on an urban road with trees lining both sides. A silver sedan is consistently ahead of the self-driving vehicle. The road is relatively clear with moderate traffic. The self-driving vehicle maintains a steady speed and distance from the silver sedan ahead.",
+    "actions": "The self-driving vehicle maintains a consistent speed and follows the silver sedan ahead, keeping a safe distance. The vehicle does not change lanes or make any sudden movements, indicating a steady driving pattern.",
+    "key_objects": "1) Front: A silver sedan, approximately 10 meters away, maintaining a steady speed and direction.",
+    "key_actions": "none",
+    "next_action": {
+        "speed_control": "consistent speed driving",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

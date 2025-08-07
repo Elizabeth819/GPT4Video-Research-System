@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_6_029",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "0.6s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is traveling on a urban road. The road conditions appear normal with no immediate obstacles or hazards.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed driving throughout this segment. There are no sudden changes in speed or direction observed.",
+        "key_objects": "None visible in this segment.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_6_029",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "0.6s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "1.2s",
+        "scene_theme": "Suburban",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is traveling on a suburban road. The road conditions appear normal with no immediate obstacles or hazards.",
+        "actions": "The self-driving vehicle is maintaining a decelerate throughout this segment. There are no sudden changes in speed or direction observed.",
+        "key_objects": "None visible in this segment.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_6_029",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "1.2s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "1.9s",
+        "scene_theme": "Suburban",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is traveling on a suburban road. The road conditions appear normal with no immediate obstacles or hazards.",
+        "actions": "The self-driving vehicle is maintaining a accelerate throughout this segment. There are no sudden changes in speed or direction observed.",
+        "key_objects": "None visible in this segment.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "accelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

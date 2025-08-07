@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_018",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a white sedan, driver of a white SUV, driver of a red ambulance, driver of a green tricycle",
+        "summary": "In this segment, the vehicle is driving on a rural road with moderate traffic. The white sedan ahead maintains a consistent speed, while the white SUV on the left side appears to be overtaking. The red ambulance on the left side is moving forward, and the green tricycle on the right side is maintaining its lane. No sudden or dangerous actions are observed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane, following the white sedan ahead. The vehicle is keeping a safe distance from the vehicles on the left and right sides.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, maintaining a consistent speed. 2) Left side: A white SUV, approximately 3 meters away, overtaking. 3) Left side: A red ambulance, approximately 4 meters away, moving forward. 4) Right side: A green tricycle, approximately 6 meters away, maintaining its lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

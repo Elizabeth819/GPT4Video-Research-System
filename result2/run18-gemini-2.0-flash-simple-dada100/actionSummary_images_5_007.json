@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car approaching an intersection. There are other vehicles and a scooter on the road. The weather appears to be clear.",
+  "summary": "The vehicle approaches an intersection with crosswalks. Other vehicles are present, including a scooter on the left side of the road. The vehicle slows down as it approaches the intersection. A car on the right side of the road is also approaching the intersection. The vehicle proceeds through the intersection after yielding to the car on the right.",
+  "actions": "The vehicle approaches an intersection and slows down, likely to assess the traffic situation and yield if necessary. The vehicle then proceeds through the intersection after it is safe to do so. The driver is likely maintaining a safe speed and being cautious due to the presence of other vehicles and pedestrians.",
+  "key_objects": "1) Left: Scooter, medium distance, approaching the intersection, potential conflict if the vehicle turns left. 2) Right: Car, medium distance, approaching the intersection, potential conflict if the vehicle does not yield.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

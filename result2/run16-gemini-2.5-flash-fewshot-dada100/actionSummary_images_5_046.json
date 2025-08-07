@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_046",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult male on a scooter, wearing a light-colored shirt.",
+  "summary": "The video segment captures a nighttime urban driving scenario at an intersection. The self-driving vehicle is positioned at the intersection, with the traffic lights for straight-ahead movement displaying green. As the vehicle prepares to proceed or begins to move forward, an adult male on a scooter suddenly emerges from behind a dark-colored car located on the left side of the vehicle. This parked or stationary car acts as a significant visual obstruction, completely obscuring the scooter until it unexpectedly enters the vehicle's direct path. The sudden appearance of the scooter creates an immediate and high-risk collision situation, characteristic of a ghost probing incident. The road surface appears wet, suggesting recent rain.",
+  "actions": "The self-driving vehicle was either stationary at the intersection or had just begun to slowly accelerate, anticipating proceeding through the green light. Upon the sudden and unannounced emergence of the scooter from behind the obstructing vehicle on the left, the self-driving system immediately initiated rapid deceleration and braking. This swift action was taken to prevent a potential collision with the scooter that unexpectedly entered its path, demonstrating a critical safety response to an unforeseen hazard.",
+  "key_objects": "1) Left side: An adult male on a scooter, approximately 3-5 meters away, suddenly emerging from behind a dark-colored car and crossing the vehicle's path from left to right. 2) Left side: A dark-colored car, approximately 5-7 meters away, positioned at the intersection, which served as a visual obstruction completely hiding the approaching scooter until its sudden appearance.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

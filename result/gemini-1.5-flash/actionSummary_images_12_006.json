@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_12_006",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a black sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. The traffic is moderate with several vehicles ahead. A black sedan is seen on the right side, gradually moving closer to the self-driving vehicles lane. A motorcyclist is also visible ahead, maintaining a steady speed.",
+        "actions": "The self-driving vehicle maintains a consistent speed while navigating through moderate traffic. The driver is cautious of the black sedan on the right side, which appears to be moving closer to the self-driving vehicles lane.",
+        "key_objects": "1) Right side: A black sedan, approximately 2 meters away, moving closer to the self-driving vehicles lane. 2) Front: A motorcyclist, approximately 10 meters away, maintaining a steady speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_12_006",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.8s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A black sedan is seen moving from the adjacent left lane into the self-vehicles lane, causing a potential cut-in situation.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the black sedans movement. The vehicle is preparing to decelerate to avoid a collision due to the cut-in behavior of the black sedan.",
+        "key_objects": "1) Left side: A black sedan, approximately 2 meters away, moving into the self-vehicles lane, causing a potential cut-in situation.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

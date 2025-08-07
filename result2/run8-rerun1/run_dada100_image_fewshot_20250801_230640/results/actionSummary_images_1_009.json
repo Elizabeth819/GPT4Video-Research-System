@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_009",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, crossing the road from the right side. Another pedestrian is seen running across the road from the left side.",
+  "summary": "The video sequence shows a vehicle driving at night. Initially, there are pedestrians on the right side of the road. Suddenly, a child and an adult emerge from the right side, crossing the road directly in front of the vehicle. This is followed by another pedestrian running across the road from the left side. The pedestrians were initially hidden by the darkness and the roadside structures, creating a sudden and immediate danger.",
+  "actions": "The vehicle is driving straight. Pedestrians are crossing the road from both sides, creating a high-risk situation.",
+  "key_objects": "Pedestrians, roadside structures, parked vehicles.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

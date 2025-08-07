@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_14_005",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through a residential area. The vehicle is moving slowly and cautiously, with parked cars on both sides of the road. There is no significant movement from other vehicles or individuals in the frames provided.",
+        "actions": "The self-driving vehicle is driving at a slow and steady pace, maintaining a safe distance from parked cars on both sides. The vehicle is likely moving cautiously due to the narrow road and potential obstacles.",
+        "key_objects": "1) Left side: A red car, approximately 3 meters away, parked and stationary. 2) Right side: A green van, approximately 2 meters away, parked and stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_14_005",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.5s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a residential road. There are no other vehicles or pedestrians visible in the frames. The vehicle is moving at a consistent speed, and there are no immediate obstacles or potential hazards in the path.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction. There are no changes in speed or direction observed in the frames provided.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

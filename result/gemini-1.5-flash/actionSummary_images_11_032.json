@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_032",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a brown SUV, driver of a blue bus, driver of a white car",
+        "summary": "In this segment, the vehicle is driving on a busy road. A brown SUV is ahead, followed by a blue bus. A white car is visible on the left side. The road is congested, and the vehicles are moving slowly. The blue bus is moving slightly to the right, and the white car is approaching from the left lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, keeping a safe distance from the brown SUV ahead. The vehicle is also monitoring the blue bus on the right and the white car on the left to avoid any sudden movements.",
+        "key_objects": "1) Front: A brown SUV, approximately 10 meters away, moving slowly. 2) Right: A blue bus, approximately 15 meters away, moving slightly to the right. 3) Left: A white car, approximately 20 meters away, approaching from the left lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

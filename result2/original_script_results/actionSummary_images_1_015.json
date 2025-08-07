@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_1_015",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.4s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a narrow urban road. A white sedan is parked on the left side of the road. A truck is parked on the right side, partially blocking the view. A person is seen walking on the right side of the road. A motorcycle and a tricycle are also visible in the frames, moving across the road. The self-driving vehicle is approaching an intersection where a bus is seen entering from the left side.",
+        "actions": "The self-driving vehicle is driving cautiously due to the narrow road and the presence of multiple obstacles, including parked vehicles and pedestrians. The vehicles speed is gradually decreasing as it approaches the intersection, maintaining a safe distance from the obstacles.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, parked and partially blocking the view. 2) Right side: A truck, approximately 5 meters away, parked and partially blocking the view. 3) Right side: A person, approximately 3 meters away, walking towards the road. 4) Front: A motorcycle, approximately 15 meters away, moving across the road. 5) Front: A tricycle, approximately 20 meters away, moving across the road. 6) Left side: A bus, approximately 25 meters away, entering the intersection.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,56 @@
+# GPU显存监控LLaVA检测作业
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: gpu-memory-monitor-llava
+description: "LLaVA Ghost Probing Detection with detailed GPU memory monitoring"
+
+# Compute configuration  
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code source
+code: .
+
+# GPU显存监控作业
+command: >
+  echo "🖥️ 开始GPU显存监控LLaVA作业" &&
+  python --version &&
+  echo "📋 检查GPU和CUDA环境..." &&
+  nvidia-smi &&
+  python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA可用: {torch.cuda.is_available()}'); print(f'GPU总显存: {torch.cuda.get_device_properties(0).total_memory / 1024 / 1024:.0f}MB' if torch.cuda.is_available() else 'CPU模式')" &&
+  echo "🔧 安装依赖包..." &&
+  pip install decord transformers accelerate Pillow &&
+  echo "📁 检查输入数据路径..." &&
+  env | grep AZUREML_DATAREFERENCE_video_data &&
+  echo "🔍 运行GPU显存监控版检测..." &&
+  timeout 7200 python gpu_memory_monitor.py &&
+  echo "✅ GPU显存监控作业完成"
+
+# Input data  
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+# Environment variables
+environment_variables:
+  CUDA_VISIBLE_DEVICES: "0"
+  TRANSFORMERS_CACHE: "/tmp/transformers"
+  TORCH_CUDA_ARCH_LIST: "7.0;7.5;8.0;8.6"
+  PYTORCH_CUDA_ALLOC_CONF: "max_split_size_mb:128"
+
+# Experiment settings
+experiment_name: gpu-memory-monitor-experiment

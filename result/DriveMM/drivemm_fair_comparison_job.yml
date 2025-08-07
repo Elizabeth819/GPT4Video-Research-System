@@ -1,0 +1,15 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+code: ./
+command: python azure_drivemm_fair_comparison.py
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+compute: drivemm-a100-cluster
+experiment_name: drivemm_fair_comparison
+display_name: DriveMM_Fair_Comparison_20250714_160210
+description: Fair comparison of DriveMM using same prompts as GPT-4o and Gemini models
+tags:
+  model: DriveMM-Fair-Comparison
+  dataset: DADA-2000
+  task: ghost_probing_detection
+  gpu: A100-80GB
+  mode: fair_comparison
+  prompt: balanced_gpt41_compatible

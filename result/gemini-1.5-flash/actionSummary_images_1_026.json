@@ -1,0 +1,77 @@
+[
+    {
+        "video_id": "dada_1_026",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A person on a scooter, appearing to be a young adult wearing dark clothing, moving at a moderate speed.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching the vehicle's lane from the right side, potentially creating a risk of collision if they continue their current trajectory."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "Young adult",
+                "gender": "Unspecified",
+                "clothing": "Dark clothing",
+                "transportation": "Scooter",
+                "behavior": "Approaching the vehicle's lane from the right side at a moderate speed."
+            }
+        ],
+        "summary": "The video shows a white car driving at night. On the right side of the road, a young adult on a scooter is approaching the vehicle's lane. The scooter's trajectory suggests a potential collision risk if the scooter continues its current path. The scooter is moving at a moderate speed, giving the driver limited reaction time. This situation presents a 'ghost probing' scenario due to the scooter's sudden appearance in the vehicle's path from a partially obscured position.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the 5-second segment. There are no observable changes in speed or direction to suggest any evasive maneuvers or reactions to the scooter.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_026",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "6.3s",
+        "key_objects": [
+            {
+                "Position": "Left",
+                "Object description": "A person wearing a red shirt, appearing to be a young adult male, running alongside the road.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Running towards the road, potentially crossing the path of the vehicle."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A person riding a dark-colored scooter.",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Approaching the vehicle from behind, moving at a moderate speed."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "description": "A young adult male wearing a red shirt is running alongside the road, potentially posing a risk of suddenly crossing the vehicle's path.",
+                "position": "Left side of the road",
+                "behavior": "Running",
+                "speed": "Moderate",
+                "potential_danger": "High"
+            },
+            {
+                "description": "A person on a dark-colored scooter is approaching from behind on the right side of the road.",
+                "position": "Right side of the road",
+                "behavior": "Riding scooter",
+                "speed": "Moderate",
+                "potential_danger": "Moderate"
+            }
+        ],
+        "summary": "The video shows a nighttime scene. A person wearing a red shirt, appearing to be a young adult male, is running alongside the road on the left, potentially about to cross into the vehicle's path. On the right, a person on a dark-colored scooter is approaching from behind at a moderate speed. The running person presents a significant ghost probing hazard due to the low light conditions and the potential for sudden crossing. The scooter rider poses a moderate risk of collision if they change their trajectory or speed unexpectedly.",
+        "actions": "The vehicle maintains a steady speed, likely adjusting to the nighttime conditions and the presence of other road users. The driver appears to be alert and maintaining a safe following distance from any vehicles ahead.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

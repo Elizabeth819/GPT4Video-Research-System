@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_019",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A male wearing light-colored clothing, lying on the road.",
+    "summary": "The vehicle is traveling on a narrow road. A male wearing light-colored clothing is lying on the road directly in the path of the vehicle. The person is lying prone on the road, creating an immediate and dangerous obstacle.",
+    "actions": "The vehicle is moving forward on a narrow road. The driver needs to react to the person lying on the road.",
+    "key_objects": "Front: A male wearing light-colored clothing, approximately 3 meters away, lying prone on the road directly in the vehicle's path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_019",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Accident",
+    "characters": "A person lying on the road wearing a helmet and light-colored clothing.",
+    "summary": "The vehicle is traveling on a residential street. A person wearing a helmet and light-colored clothing is lying in the middle of the road. The person is directly in the path of the vehicle, creating an immediate danger.",
+    "actions": "The vehicle is likely maintaining a steady speed on the residential street. The presence of a person lying in the road directly ahead necessitates immediate braking to avoid a collision.",
+    "key_objects": "Front: A person wearing a helmet and light-colored clothing, approximately 5 meters away, lying in the middle of the road and directly in the vehicle's path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

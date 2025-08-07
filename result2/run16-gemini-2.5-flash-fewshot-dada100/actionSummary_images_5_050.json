@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_050",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult male motorcycle driver wearing dark clothing, and a child passenger wearing a pink jacket and carrying a pink backpack.",
+  "summary": "In this segment, the self-driving vehicle is stationary at an intersection. A motorcycle carrying an adult driver and a child passenger suddenly emerges from the left side of the road, from behind a landscaped median with bushes and trees that completely obstructs the view of the approaching motorcycle. The motorcycle attempts to cross the vehicle's path, resulting in a collision with the stationary vehicle. The motorcycle and its riders fall to the ground on the right side of the vehicle's front.",
+  "actions": "The self-driving vehicle is initially stopped at 0 km/h at an intersection. As a motorcycle with two riders suddenly emerges from the left side, from behind a visual obstruction, and attempts to cross the vehicle's path, a collision occurs. The vehicle remains stationary throughout the event, as indicated by the consistent 0 km/h speed reading, demonstrating that it was not in motion and did not contribute to the collision through acceleration or steering.",
+  "key_objects": "1) Left side: A motorcycle with an adult driver and a child passenger, approximately 5-10 meters away, suddenly emerging from behind a landscaped median and entering the vehicle's path, leading to a collision. 2) Left side: A landscaped median with bushes and trees, creating a significant visual obstruction that completely hides the approaching motorcycle until it emerges into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

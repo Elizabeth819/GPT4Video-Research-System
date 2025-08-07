@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_015",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows the perspective of a driver inside a car. There are other vehicles on the road. The environment appears to be a suburban or semi-urban area with buildings and roadside structures.",
+  "summary": "The vehicle starts at an intersection with a green light and proceeds straight. The vehicle then continues driving on a straight road, maintaining its lane and speed. The road has a speed limit of 80. There are buildings and roadside structures visible on both sides of the road.",
+  "actions": "The vehicle starts from a stationary position at an intersection with a green light, then accelerates to proceed straight through the intersection. The vehicle maintains a consistent speed and direction as it drives along the road. The driver is likely following the traffic signals and speed limits.",
+  "key_objects": "1) Left: Building under construction, medium distance, poses no immediate threat. 2) Right: Roadside structures and buildings, medium distance, poses no immediate threat.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

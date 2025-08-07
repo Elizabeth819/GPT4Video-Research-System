@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_038",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. Initially, the road is clear with a few vehicles ahead. As the vehicle progresses, a black car on the right side overtakes the self-driving vehicle. Later, a white sedan appears directly in front of the self-driving vehicle, moving at a slower speed.",
+        "actions": "The self-driving vehicle maintains a consistent speed initially. As the black car overtakes from the right side, the vehicle continues to drive steadily. Upon encountering the white sedan directly ahead, the self-driving vehicle decelerates to maintain a safe distance.",
+        "key_objects": "1) Right side: A black car, approximately 5 meters away, overtaking the self-driving vehicle. 2) Front: A white sedan, approximately 10 meters away, moving at a slower speed, causing the self-driving vehicle to decelerate.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_038",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.9s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road. There are multiple vehicles ahead, and a cyclist is visible on the right side of the road. The road is relatively clear, with moderate traffic.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position. The driver is likely monitoring the vehicles ahead and the cyclist on the right side to ensure safe driving.",
+        "key_objects": "1) Front: Multiple vehicles, approximately 20-30 meters away, moving in the same direction. 2) Right: A cyclist, approximately 10 meters away, moving parallel to the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

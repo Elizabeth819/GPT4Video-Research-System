@@ -1,0 +1,16 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+display_name: DriveLM A100 GPU DADA-2000 Analysis
+description: Run DriveLM with LLaMA-Adapter on A100 GPU for DADA-2000 ghost probing detection
+
+code: ./
+command: python drivelm_improved_processing.py
+
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+compute: azureml:drivemm-a100-small-cluster
+
+experiment_name: drivelm-a100-dada2000
+
+resources:
+  instance_count: 1

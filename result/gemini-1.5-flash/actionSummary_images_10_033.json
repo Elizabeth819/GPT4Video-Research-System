@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_033",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of a silver car, driver of a red SUV",
+        "summary": "In this segment, the vehicle is driving through an urban intersection. Initially, the road is clear. At 4.0s, a silver car appears from the left side, moving towards the intersection. By 8.0s, a red SUV is seen on the right side, moving into the intersection.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The vehicle is cautious as it observes the silver car approaching from the left and the red SUV from the right.",
+        "key_objects": "1) Left side: A silver car, approximately 10 meters away, approaching the intersection. 2) Right side: A red SUV, approximately 5 meters away, moving into the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_033",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a city road. A white sedan is seen on the right side, moving into the lane of the observer vehicle. The white sedan is cutting in from the adjacent lane, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while a white sedan on the right side is moving into its lane. The vehicle is likely preparing to decelerate to avoid a collision.",
+        "key_objects": "1) Right side: A white sedan, approximately 2 meters away, moving into the observer vehicles lane, causing a potential collision risk.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

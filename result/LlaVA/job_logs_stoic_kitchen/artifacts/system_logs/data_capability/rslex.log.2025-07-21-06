@@ -1,0 +1,37 @@
+2025-07-21T06:45:12.360465Z  INFO rslex: [init_environment()] initializing Environment
+2025-07-21T06:45:12.361041Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.361483Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.361910Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.362291Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.362670Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.363043Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.363397Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.363770Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.364141Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.364159Z  INFO rslex_azure_storage::adls_gen1_stream_handler::retry_strategy: [rslex-azure-storage::adls_gen1_stream_handler::AdlsGen1RetryCondition] retry configuration retry_on_append_timeout=true bad_offset_error_retry_count=3
+2025-07-21T06:45:12.364537Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.364879Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.364899Z  INFO rslex_azureml::azureml::handler: [AzureMLHandler::uri_scheme()]
+2025-07-21T06:45:12.365237Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.365585Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.366114Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.366483Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.366496Z  INFO rslex_azure_storage::adls_gen1_stream_handler::retry_strategy: [rslex-azure-storage::adls_gen1_stream_handler::AdlsGen1RetryCondition] retry configuration retry_on_append_timeout=true bad_offset_error_retry_count=3
+2025-07-21T06:45:12.366843Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.367186Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.367534Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.367912Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.368257Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.368608Z  INFO rslex_http_stream::http_client::hyper_client::hyper_client: dns resolution concurrency concurrency=150
+2025-07-21T06:45:12.368648Z  INFO rslex: [init_environment] using os managed compute resources
+2025-07-21T06:45:12.748348Z  INFO rslex_fuse::direct_volume_mount::options: [rslex-fuse::DirectVolumeOptions] Environment variable "DATASET_RESERVED_FREE_DISK_SPACE" has been set to 2146320056 env_variable_name="DATASET_RESERVED_FREE_DISK_SPACE" env_variable_value=2146320056 descriptor="rslex-fuse::DirectVolumeOptions::config_env_set"
+2025-07-21T06:45:12.748606Z  INFO rslex_fuse::direct_volume_mount::options: [rslex-fuse::DirectVolumeOptions] Environment variable "DATASET_MOUNT_BLOCK_BASED_CACHE_ENABLED" has been set to false env_variable_name="DATASET_MOUNT_BLOCK_BASED_CACHE_ENABLED" env_variable_value=false descriptor="rslex-fuse::DirectVolumeOptions::config_env_set"
+2025-07-21T06:45:12.748639Z  INFO rslex::rslex_direct_mount: [RslexURIMountContext::new] is_direct_volume_mount setting is true is_direct_volume_mount=true
+2025-07-21T06:45:12.748667Z  INFO rslex_azureml::azureml::handler: [AzureMLHandler::parse_uri()] Parse uri [azureml://subscriptions/0d3f39ba-7349-4bd7-8122-649ff18f0a4a/resourcegroups/llava-resourcegroup/workspaces/llava-workspace/datastores/workspaceblobstore/paths/DADA-100-videos/]
+2025-07-21T06:45:12.857373Z  INFO rslex_azureml::data_store::resolver: [CachedResolver::resolve()] DataStore resolved info=DataStoreInfo { id: "workspaceblobstore", workspace: WorkspaceInfo { azure_subscription_id: "0d3f39ba-7349-4bd7-8122-649ff18f0a4a", azure_resource_group: "llava-resourcegroup", name: "llava-workspace" } } datastore_name=Some("workspaceblobstore") datastore_type=Some(AzureBlob) container_name=Some("azureml-blobstore-0921ad01-5a49-42c5-9059-fe561c78fa8d") account_name=Some("llavaworstoragea223ed2d6") endpoint=Some("core.windows.net")
+2025-07-21T06:45:12.878985Z  WARN rslex_http_stream::http_service_client::error_mapped_http_service_client: [rslex-http-stream::http_service_client] non-successful response host=llavaworstoragea223ed2d6.blob.core.windows.net method=HEAD request_uri=https://llavaworstoragea223ed2d6.blob.core.windows.net/azureml-blobstore-0921ad01-5a49-42c5-9059-fe561c78fa8d/DADA-100-videos error=HttpServiceError { service: "azure_blob", inner_error: The specified blob does not exist. } status=404 client_request_id=Some("0c4427fd-05ce-497c-9e4c-4e9f330f86d4") service_request_id=Some("8040b6d1-e01e-0059-250b-fad27e000000")
+2025-07-21T06:45:12.882247Z ERROR rslex::python_error_handling: [[uri_mount::init_fuse_mount]()] Execution has failed with: ScriptExecution.StreamAccess.NotFound, The requested stream was not found. Please make sure the request uri is correct.. native_error=error in streaming from input data sources
+	StreamError(NotFound)
+=> stream not found
+	NotFound
+2025-07-21T06:45:13.335590Z  INFO rslex: [release_environment()] releasing Environment

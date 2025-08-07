@@ -1,0 +1,1075 @@
+{
+  "report_info": {
+    "timestamp": "2025-07-17T11:00:31.783524",
+    "analysis_type": "WiseAD Ghost Probing Results Extraction",
+    "total_videos": 99,
+    "version": "1.0"
+  },
+  "summary_statistics": {
+    "total_videos_processed": 99,
+    "total_ghost_events": 3304,
+    "high_risk_events": 1447,
+    "potential_events": 1857,
+    "average_events_per_video": 33.37373737373738,
+    "videos_with_ghosts": 93,
+    "videos_without_ghosts": 6
+  },
+  "detailed_results": {
+    "images_1_001": {
+      "video_id": "images_1_001",
+      "ghost_events": 36,
+      "high_risk_events": 16,
+      "potential_events": 20,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:28",
+      "end_time": "2025-07-16 12:30:33",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_001.json"
+    },
+    "images_1_002": {
+      "video_id": "images_1_002",
+      "ghost_events": 11,
+      "high_risk_events": 4,
+      "potential_events": 7,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:33",
+      "end_time": "2025-07-16 12:30:34",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_002.json"
+    },
+    "images_1_003": {
+      "video_id": "images_1_003",
+      "ghost_events": 11,
+      "high_risk_events": 4,
+      "potential_events": 7,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:34",
+      "end_time": "2025-07-16 12:30:36",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_003.json"
+    },
+    "images_1_004": {
+      "video_id": "images_1_004",
+      "ghost_events": 13,
+      "high_risk_events": 5,
+      "potential_events": 8,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:36",
+      "end_time": "2025-07-16 12:30:38",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_004.json"
+    },
+    "images_1_005": {
+      "video_id": "images_1_005",
+      "ghost_events": 78,
+      "high_risk_events": 35,
+      "potential_events": 43,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:38",
+      "end_time": "2025-07-16 12:30:40",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_005.json"
+    },
+    "images_1_006": {
+      "video_id": "images_1_006",
+      "ghost_events": 48,
+      "high_risk_events": 21,
+      "potential_events": 27,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:40",
+      "end_time": "2025-07-16 12:30:42",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_006.json"
+    },
+    "images_1_007": {
+      "video_id": "images_1_007",
+      "ghost_events": 32,
+      "high_risk_events": 14,
+      "potential_events": 18,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:42",
+      "end_time": "2025-07-16 12:30:44",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_007.json"
+    },
+    "images_1_008": {
+      "video_id": "images_1_008",
+      "ghost_events": 12,
+      "high_risk_events": 5,
+      "potential_events": 7,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:44",
+      "end_time": "2025-07-16 12:30:45",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_008.json"
+    },
+    "images_1_009": {
+      "video_id": "images_1_009",
+      "ghost_events": 0,
+      "high_risk_events": 0,
+      "potential_events": 0,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:45",
+      "end_time": "2025-07-16 12:30:46",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_009.json"
+    },
+    "images_1_010": {
+      "video_id": "images_1_010",
+      "ghost_events": 47,
+      "high_risk_events": 21,
+      "potential_events": 26,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:46",
+      "end_time": "2025-07-16 12:30:49",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_010.json"
+    },
+    "images_1_011": {
+      "video_id": "images_1_011",
+      "ghost_events": 45,
+      "high_risk_events": 20,
+      "potential_events": 25,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:49",
+      "end_time": "2025-07-16 12:30:51",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_011.json"
+    },
+    "images_1_012": {
+      "video_id": "images_1_012",
+      "ghost_events": 72,
+      "high_risk_events": 32,
+      "potential_events": 40,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:51",
+      "end_time": "2025-07-16 12:30:54",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_012.json"
+    },
+    "images_1_013": {
+      "video_id": "images_1_013",
+      "ghost_events": 11,
+      "high_risk_events": 4,
+      "potential_events": 7,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:54",
+      "end_time": "2025-07-16 12:30:55",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_013.json"
+    },
+    "images_1_014": {
+      "video_id": "images_1_014",
+      "ghost_events": 21,
+      "high_risk_events": 9,
+      "potential_events": 12,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:55",
+      "end_time": "2025-07-16 12:30:57",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_014.json"
+    },
+    "images_1_015": {
+      "video_id": "images_1_015",
+      "ghost_events": 30,
+      "high_risk_events": 13,
+      "potential_events": 17,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:57",
+      "end_time": "2025-07-16 12:30:58",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_015.json"
+    },
+    "images_1_016": {
+      "video_id": "images_1_016",
+      "ghost_events": 32,
+      "high_risk_events": 14,
+      "potential_events": 18,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:58",
+      "end_time": "2025-07-16 12:30:59",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_016.json"
+    },
+    "images_1_018": {
+      "video_id": "images_1_018",
+      "ghost_events": 63,
+      "high_risk_events": 28,
+      "potential_events": 35,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:30:59",
+      "end_time": "2025-07-16 12:31:01",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_018.json"
+    },
+    "images_1_019": {
+      "video_id": "images_1_019",
+      "ghost_events": 4,
+      "high_risk_events": 1,
+      "potential_events": 3,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:01",
+      "end_time": "2025-07-16 12:31:03",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_019.json"
+    },
+    "images_1_020": {
+      "video_id": "images_1_020",
+      "ghost_events": 0,
+      "high_risk_events": 0,
+      "potential_events": 0,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:03",
+      "end_time": "2025-07-16 12:31:05",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_020.json"
+    },
+    "images_1_021": {
+      "video_id": "images_1_021",
+      "ghost_events": 19,
+      "high_risk_events": 8,
+      "potential_events": 11,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:05",
+      "end_time": "2025-07-16 12:31:06",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_021.json"
+    },
+    "images_1_022": {
+      "video_id": "images_1_022",
+      "ghost_events": 61,
+      "high_risk_events": 27,
+      "potential_events": 34,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:06",
+      "end_time": "2025-07-16 12:31:08",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_022.json"
+    },
+    "images_1_023": {
+      "video_id": "images_1_023",
+      "ghost_events": 18,
+      "high_risk_events": 8,
+      "potential_events": 10,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:08",
+      "end_time": "2025-07-16 12:31:09",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_023.json"
+    },
+    "images_1_024": {
+      "video_id": "images_1_024",
+      "ghost_events": 5,
+      "high_risk_events": 2,
+      "potential_events": 3,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:09",
+      "end_time": "2025-07-16 12:31:10",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_024.json"
+    },
+    "images_1_025": {
+      "video_id": "images_1_025",
+      "ghost_events": 2,
+      "high_risk_events": 0,
+      "potential_events": 2,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:10",
+      "end_time": "2025-07-16 12:31:10",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_025.json"
+    },
+    "images_1_026": {
+      "video_id": "images_1_026",
+      "ghost_events": 16,
+      "high_risk_events": 7,
+      "potential_events": 9,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:10",
+      "end_time": "2025-07-16 12:31:12",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_026.json"
+    },
+    "images_1_027": {
+      "video_id": "images_1_027",
+      "ghost_events": 0,
+      "high_risk_events": 0,
+      "potential_events": 0,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:12",
+      "end_time": "2025-07-16 12:31:13",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_1_027.json"
+    },
+    "images_2_001": {
+      "video_id": "images_2_001",
+      "ghost_events": 92,
+      "high_risk_events": 41,
+      "potential_events": 51,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:13",
+      "end_time": "2025-07-16 12:31:15",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_2_001.json"
+    },
+    "images_2_002": {
+      "video_id": "images_2_002",
+      "ghost_events": 40,
+      "high_risk_events": 18,
+      "potential_events": 22,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:15",
+      "end_time": "2025-07-16 12:31:17",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_2_002.json"
+    },
+    "images_2_003": {
+      "video_id": "images_2_003",
+      "ghost_events": 79,
+      "high_risk_events": 35,
+      "potential_events": 44,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:17",
+      "end_time": "2025-07-16 12:31:20",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_2_003.json"
+    },
+    "images_2_004": {
+      "video_id": "images_2_004",
+      "ghost_events": 33,
+      "high_risk_events": 14,
+      "potential_events": 19,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:20",
+      "end_time": "2025-07-16 12:31:21",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_2_004.json"
+    },
+    "images_3_001": {
+      "video_id": "images_3_001",
+      "ghost_events": 94,
+      "high_risk_events": 42,
+      "potential_events": 52,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:21",
+      "end_time": "2025-07-16 12:31:23",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_3_001.json"
+    },
+    "images_3_002": {
+      "video_id": "images_3_002",
+      "ghost_events": 41,
+      "high_risk_events": 18,
+      "potential_events": 23,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:23",
+      "end_time": "2025-07-16 12:31:24",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_3_002.json"
+    },
+    "images_3_003": {
+      "video_id": "images_3_003",
+      "ghost_events": 10,
+      "high_risk_events": 4,
+      "potential_events": 6,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:24",
+      "end_time": "2025-07-16 12:31:25",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_3_003.json"
+    },
+    "images_3_004": {
+      "video_id": "images_3_004",
+      "ghost_events": 52,
+      "high_risk_events": 23,
+      "potential_events": 29,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:25",
+      "end_time": "2025-07-16 12:31:27",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_3_004.json"
+    },
+    "images_3_005": {
+      "video_id": "images_3_005",
+      "ghost_events": 35,
+      "high_risk_events": 15,
+      "potential_events": 20,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:27",
+      "end_time": "2025-07-16 12:31:29",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_3_005.json"
+    },
+    "images_3_006": {
+      "video_id": "images_3_006",
+      "ghost_events": 9,
+      "high_risk_events": 4,
+      "potential_events": 5,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:29",
+      "end_time": "2025-07-16 12:31:30",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_3_006.json"
+    },
+    "images_3_007": {
+      "video_id": "images_3_007",
+      "ghost_events": 59,
+      "high_risk_events": 26,
+      "potential_events": 33,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:30",
+      "end_time": "2025-07-16 12:31:32",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_3_007.json"
+    },
+    "images_4_001": {
+      "video_id": "images_4_001",
+      "ghost_events": 47,
+      "high_risk_events": 21,
+      "potential_events": 26,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:32",
+      "end_time": "2025-07-16 12:31:34",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_4_001.json"
+    },
+    "images_4_002": {
+      "video_id": "images_4_002",
+      "ghost_events": 18,
+      "high_risk_events": 8,
+      "potential_events": 10,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:34",
+      "end_time": "2025-07-16 12:31:35",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_4_002.json"
+    },
+    "images_4_003": {
+      "video_id": "images_4_003",
+      "ghost_events": 42,
+      "high_risk_events": 18,
+      "potential_events": 24,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:35",
+      "end_time": "2025-07-16 12:31:37",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_4_003.json"
+    },
+    "images_4_004": {
+      "video_id": "images_4_004",
+      "ghost_events": 12,
+      "high_risk_events": 5,
+      "potential_events": 7,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:37",
+      "end_time": "2025-07-16 12:31:38",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_4_004.json"
+    },
+    "images_4_005": {
+      "video_id": "images_4_005",
+      "ghost_events": 42,
+      "high_risk_events": 18,
+      "potential_events": 24,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:38",
+      "end_time": "2025-07-16 12:31:39",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_4_005.json"
+    },
+    "images_4_006": {
+      "video_id": "images_4_006",
+      "ghost_events": 14,
+      "high_risk_events": 6,
+      "potential_events": 8,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:39",
+      "end_time": "2025-07-16 12:31:41",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_4_006.json"
+    },
+    "images_4_007": {
+      "video_id": "images_4_007",
+      "ghost_events": 49,
+      "high_risk_events": 22,
+      "potential_events": 27,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:41",
+      "end_time": "2025-07-16 12:31:42",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_4_007.json"
+    },
+    "images_4_008": {
+      "video_id": "images_4_008",
+      "ghost_events": 47,
+      "high_risk_events": 21,
+      "potential_events": 26,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:42",
+      "end_time": "2025-07-16 12:31:45",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_4_008.json"
+    },
+    "images_5_001": {
+      "video_id": "images_5_001",
+      "ghost_events": 30,
+      "high_risk_events": 13,
+      "potential_events": 17,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:45",
+      "end_time": "2025-07-16 12:31:46",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_001.json"
+    },
+    "images_5_002": {
+      "video_id": "images_5_002",
+      "ghost_events": 18,
+      "high_risk_events": 8,
+      "potential_events": 10,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:46",
+      "end_time": "2025-07-16 12:31:48",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_002.json"
+    },
+    "images_5_003": {
+      "video_id": "images_5_003",
+      "ghost_events": 72,
+      "high_risk_events": 32,
+      "potential_events": 40,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:48",
+      "end_time": "2025-07-16 12:31:51",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_003.json"
+    },
+    "images_5_004": {
+      "video_id": "images_5_004",
+      "ghost_events": 0,
+      "high_risk_events": 0,
+      "potential_events": 0,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:51",
+      "end_time": "2025-07-16 12:31:53",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_004.json"
+    },
+    "images_5_005": {
+      "video_id": "images_5_005",
+      "ghost_events": 32,
+      "high_risk_events": 14,
+      "potential_events": 18,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:53",
+      "end_time": "2025-07-16 12:31:55",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_005.json"
+    },
+    "images_5_006": {
+      "video_id": "images_5_006",
+      "ghost_events": 0,
+      "high_risk_events": 0,
+      "potential_events": 0,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:55",
+      "end_time": "2025-07-16 12:31:57",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_006.json"
+    },
+    "images_5_007": {
+      "video_id": "images_5_007",
+      "ghost_events": 11,
+      "high_risk_events": 4,
+      "potential_events": 7,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:57",
+      "end_time": "2025-07-16 12:31:58",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_007.json"
+    },
+    "images_5_008": {
+      "video_id": "images_5_008",
+      "ghost_events": 15,
+      "high_risk_events": 6,
+      "potential_events": 9,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:31:58",
+      "end_time": "2025-07-16 12:32:00",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_008.json"
+    },
+    "images_5_009": {
+      "video_id": "images_5_009",
+      "ghost_events": 36,
+      "high_risk_events": 16,
+      "potential_events": 20,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:00",
+      "end_time": "2025-07-16 12:32:02",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_009.json"
+    },
+    "images_5_010": {
+      "video_id": "images_5_010",
+      "ghost_events": 18,
+      "high_risk_events": 8,
+      "potential_events": 10,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:02",
+      "end_time": "2025-07-16 12:32:05",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_010.json"
+    },
+    "images_5_011": {
+      "video_id": "images_5_011",
+      "ghost_events": 0,
+      "high_risk_events": 0,
+      "potential_events": 0,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:05",
+      "end_time": "2025-07-16 12:32:07",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_011.json"
+    },
+    "images_5_012": {
+      "video_id": "images_5_012",
+      "ghost_events": 10,
+      "high_risk_events": 4,
+      "potential_events": 6,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:07",
+      "end_time": "2025-07-16 12:32:09",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_012.json"
+    },
+    "images_5_013": {
+      "video_id": "images_5_013",
+      "ghost_events": 38,
+      "high_risk_events": 17,
+      "potential_events": 21,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:09",
+      "end_time": "2025-07-16 12:32:11",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_013.json"
+    },
+    "images_5_014": {
+      "video_id": "images_5_014",
+      "ghost_events": 59,
+      "high_risk_events": 26,
+      "potential_events": 33,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:11",
+      "end_time": "2025-07-16 12:32:13",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_014.json"
+    },
+    "images_5_015": {
+      "video_id": "images_5_015",
+      "ghost_events": 4,
+      "high_risk_events": 1,
+      "potential_events": 3,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:13",
+      "end_time": "2025-07-16 12:32:14",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_015.json"
+    },
+    "images_5_016": {
+      "video_id": "images_5_016",
+      "ghost_events": 57,
+      "high_risk_events": 25,
+      "potential_events": 32,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:14",
+      "end_time": "2025-07-16 12:32:16",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_016.json"
+    },
+    "images_5_017": {
+      "video_id": "images_5_017",
+      "ghost_events": 23,
+      "high_risk_events": 10,
+      "potential_events": 13,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:16",
+      "end_time": "2025-07-16 12:32:17",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_017.json"
+    },
+    "images_5_018": {
+      "video_id": "images_5_018",
+      "ghost_events": 20,
+      "high_risk_events": 9,
+      "potential_events": 11,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:17",
+      "end_time": "2025-07-16 12:32:19",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_018.json"
+    },
+    "images_5_019": {
+      "video_id": "images_5_019",
+      "ghost_events": 56,
+      "high_risk_events": 25,
+      "potential_events": 31,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:19",
+      "end_time": "2025-07-16 12:32:21",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_019.json"
+    },
+    "images_5_020": {
+      "video_id": "images_5_020",
+      "ghost_events": 45,
+      "high_risk_events": 20,
+      "potential_events": 25,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:21",
+      "end_time": "2025-07-16 12:32:23",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_020.json"
+    },
+    "images_5_021": {
+      "video_id": "images_5_021",
+      "ghost_events": 19,
+      "high_risk_events": 8,
+      "potential_events": 11,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:23",
+      "end_time": "2025-07-16 12:32:24",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_021.json"
+    },
+    "images_5_022": {
+      "video_id": "images_5_022",
+      "ghost_events": 149,
+      "high_risk_events": 67,
+      "potential_events": 82,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:24",
+      "end_time": "2025-07-16 12:32:28",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_022.json"
+    },
+    "images_5_023": {
+      "video_id": "images_5_023",
+      "ghost_events": 11,
+      "high_risk_events": 4,
+      "potential_events": 7,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:28",
+      "end_time": "2025-07-16 12:32:30",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_023.json"
+    },
+    "images_5_024": {
+      "video_id": "images_5_024",
+      "ghost_events": 21,
+      "high_risk_events": 9,
+      "potential_events": 12,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:30",
+      "end_time": "2025-07-16 12:32:32",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_024.json"
+    },
+    "images_5_025": {
+      "video_id": "images_5_025",
+      "ghost_events": 12,
+      "high_risk_events": 5,
+      "potential_events": 7,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:32",
+      "end_time": "2025-07-16 12:32:33",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_025.json"
+    },
+    "images_5_026": {
+      "video_id": "images_5_026",
+      "ghost_events": 27,
+      "high_risk_events": 12,
+      "potential_events": 15,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:33",
+      "end_time": "2025-07-16 12:32:35",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_026.json"
+    },
+    "images_5_027": {
+      "video_id": "images_5_027",
+      "ghost_events": 50,
+      "high_risk_events": 22,
+      "potential_events": 28,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:35",
+      "end_time": "2025-07-16 12:32:36",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_027.json"
+    },
+    "images_5_028": {
+      "video_id": "images_5_028",
+      "ghost_events": 28,
+      "high_risk_events": 12,
+      "potential_events": 16,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:36",
+      "end_time": "2025-07-16 12:32:38",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_028.json"
+    },
+    "images_5_029": {
+      "video_id": "images_5_029",
+      "ghost_events": 80,
+      "high_risk_events": 36,
+      "potential_events": 44,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:38",
+      "end_time": "2025-07-16 12:32:40",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_029.json"
+    },
+    "images_5_030": {
+      "video_id": "images_5_030",
+      "ghost_events": 96,
+      "high_risk_events": 43,
+      "potential_events": 53,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:40",
+      "end_time": "2025-07-16 12:32:43",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_030.json"
+    },
+    "images_5_031": {
+      "video_id": "images_5_031",
+      "ghost_events": 17,
+      "high_risk_events": 7,
+      "potential_events": 10,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:43",
+      "end_time": "2025-07-16 12:32:43",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_031.json"
+    },
+    "images_5_032": {
+      "video_id": "images_5_032",
+      "ghost_events": 62,
+      "high_risk_events": 27,
+      "potential_events": 35,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:43",
+      "end_time": "2025-07-16 12:32:45",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_032.json"
+    },
+    "images_5_033": {
+      "video_id": "images_5_033",
+      "ghost_events": 1,
+      "high_risk_events": 0,
+      "potential_events": 1,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:45",
+      "end_time": "2025-07-16 12:32:46",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_033.json"
+    },
+    "images_5_034": {
+      "video_id": "images_5_034",
+      "ghost_events": 38,
+      "high_risk_events": 17,
+      "potential_events": 21,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:46",
+      "end_time": "2025-07-16 12:32:48",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_034.json"
+    },
+    "images_5_035": {
+      "video_id": "images_5_035",
+      "ghost_events": 65,
+      "high_risk_events": 29,
+      "potential_events": 36,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:48",
+      "end_time": "2025-07-16 12:32:50",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_035.json"
+    },
+    "images_5_036": {
+      "video_id": "images_5_036",
+      "ghost_events": 18,
+      "high_risk_events": 8,
+      "potential_events": 10,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:50",
+      "end_time": "2025-07-16 12:32:51",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_036.json"
+    },
+    "images_5_037": {
+      "video_id": "images_5_037",
+      "ghost_events": 1,
+      "high_risk_events": 0,
+      "potential_events": 1,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:51",
+      "end_time": "2025-07-16 12:32:52",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_037.json"
+    },
+    "images_5_038": {
+      "video_id": "images_5_038",
+      "ghost_events": 31,
+      "high_risk_events": 13,
+      "potential_events": 18,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:52",
+      "end_time": "2025-07-16 12:32:55",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_038.json"
+    },
+    "images_5_039": {
+      "video_id": "images_5_039",
+      "ghost_events": 56,
+      "high_risk_events": 25,
+      "potential_events": 31,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:55",
+      "end_time": "2025-07-16 12:32:57",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_039.json"
+    },
+    "images_5_040": {
+      "video_id": "images_5_040",
+      "ghost_events": 45,
+      "high_risk_events": 20,
+      "potential_events": 25,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:57",
+      "end_time": "2025-07-16 12:32:59",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_040.json"
+    },
+    "images_5_041": {
+      "video_id": "images_5_041",
+      "ghost_events": 40,
+      "high_risk_events": 18,
+      "potential_events": 22,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:32:59",
+      "end_time": "2025-07-16 12:33:00",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_041.json"
+    },
+    "images_5_042": {
+      "video_id": "images_5_042",
+      "ghost_events": 47,
+      "high_risk_events": 21,
+      "potential_events": 26,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:00",
+      "end_time": "2025-07-16 12:33:01",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_042.json"
+    },
+    "images_5_043": {
+      "video_id": "images_5_043",
+      "ghost_events": 51,
+      "high_risk_events": 22,
+      "potential_events": 29,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:01",
+      "end_time": "2025-07-16 12:33:03",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_043.json"
+    },
+    "images_5_044": {
+      "video_id": "images_5_044",
+      "ghost_events": 25,
+      "high_risk_events": 11,
+      "potential_events": 14,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:03",
+      "end_time": "2025-07-16 12:33:05",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_044.json"
+    },
+    "images_5_045": {
+      "video_id": "images_5_045",
+      "ghost_events": 23,
+      "high_risk_events": 10,
+      "potential_events": 13,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:05",
+      "end_time": "2025-07-16 12:33:06",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_045.json"
+    },
+    "images_5_046": {
+      "video_id": "images_5_046",
+      "ghost_events": 25,
+      "high_risk_events": 11,
+      "potential_events": 14,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:06",
+      "end_time": "2025-07-16 12:33:07",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_046.json"
+    },
+    "images_5_047": {
+      "video_id": "images_5_047",
+      "ghost_events": 52,
+      "high_risk_events": 23,
+      "potential_events": 29,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:07",
+      "end_time": "2025-07-16 12:33:08",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_047.json"
+    },
+    "images_5_048": {
+      "video_id": "images_5_048",
+      "ghost_events": 40,
+      "high_risk_events": 18,
+      "potential_events": 22,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:08",
+      "end_time": "2025-07-16 12:33:10",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_048.json"
+    },
+    "images_5_049": {
+      "video_id": "images_5_049",
+      "ghost_events": 27,
+      "high_risk_events": 12,
+      "potential_events": 15,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:10",
+      "end_time": "2025-07-16 12:33:11",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_049.json"
+    },
+    "images_5_050": {
+      "video_id": "images_5_050",
+      "ghost_events": 5,
+      "high_risk_events": 2,
+      "potential_events": 3,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:11",
+      "end_time": "2025-07-16 12:33:11",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_050.json"
+    },
+    "images_5_051": {
+      "video_id": "images_5_051",
+      "ghost_events": 15,
+      "high_risk_events": 6,
+      "potential_events": 9,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:11",
+      "end_time": "2025-07-16 12:33:13",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_051.json"
+    },
+    "images_5_052": {
+      "video_id": "images_5_052",
+      "ghost_events": 2,
+      "high_risk_events": 0,
+      "potential_events": 2,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:13",
+      "end_time": "2025-07-16 12:33:14",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_052.json"
+    },
+    "images_5_053": {
+      "video_id": "images_5_053",
+      "ghost_events": 15,
+      "high_risk_events": 6,
+      "potential_events": 9,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:14",
+      "end_time": "2025-07-16 12:33:15",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_053.json"
+    },
+    "images_5_054": {
+      "video_id": "images_5_054",
+      "ghost_events": 64,
+      "high_risk_events": 28,
+      "potential_events": 36,
+      "processing_status": "completed",
+      "start_time": "2025-07-16 12:33:15",
+      "end_time": "2025-07-16 12:33:18",
+      "output_file": "/tmp/wisead_ghost_probing_9se_4n8k/results/wisead_ghost_images_5_054.json"
+    }
+  },
+  "top_ghost_videos": [
+    [
+      "images_5_022",
+      149,
+      67,
+      82
+    ],
+    [
+      "images_5_030",
+      96,
+      43,
+      53
+    ],
+    [
+      "images_3_001",
+      94,
+      42,
+      52
+    ],
+    [
+      "images_2_001",
+      92,
+      41,
+      51
+    ],
+    [
+      "images_5_029",
+      80,
+      36,
+      44
+    ],
+    [
+      "images_2_003",
+      79,
+      35,
+      44
+    ],
+    [
+      "images_1_005",
+      78,
+      35,
+      43
+    ],
+    [
+      "images_1_012",
+      72,
+      32,
+      40
+    ],
+    [
+      "images_5_003",
+      72,
+      32,
+      40
+    ],
+    [
+      "images_5_035",
+      65,
+      29,
+      36
+    ]
+  ],
+  "risk_distribution": {
+    "high_risk_percentage": 43.795399515738495,
+    "potential_risk_percentage": 56.204600484261505
+  }
+}

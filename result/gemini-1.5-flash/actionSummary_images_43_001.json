@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_43_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Two individuals on scooters, one individual on a bicycle",
+        "summary": "In this segment, the vehicle is driving on an urban road. Two individuals on scooters and one individual on a bicycle are visible on the right side of the road. The individuals on scooters are wearing yellow and blue clothing, respectively. The individual on the bicycle is wearing a white shirt and blue pants. The road ahead is clear, and the vehicle is maintaining a steady speed.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and keeping a safe distance from the scooters and bicycle on the right side. The vehicle is driving straight without any sudden changes in direction or speed.",
+        "key_objects": "1) Right side: Two individuals on scooters, approximately 2-3 meters away, moving forward at a steady pace. 2) Right side: One individual on a bicycle, approximately 2-3 meters away, moving forward at a steady pace.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

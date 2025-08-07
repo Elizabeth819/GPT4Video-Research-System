@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_111",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a highway. The road is clear with moderate traffic. The vehicle maintains a consistent speed and lane position throughout the segment. There are no sudden movements or dangerous behaviors observed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The driver is likely ensuring a safe distance from the vehicles ahead and to the sides. The vehicles speed appears steady, and there are no indications of braking or accelerating.",
+        "key_objects": "1) Front: A black car, approximately 30 meters away, maintaining a steady speed and lane position. 2) Right: A white car, approximately 20 meters away, maintaining a steady speed and lane position.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_111",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.4s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. The traffic is dense, and the self-driving vehicle is closely following a black sedan. The black sedan suddenly slows down, causing the self-driving vehicle to rapidly decelerate to avoid a collision.",
+        "actions": "The self-driving vehicle is forced to rapidly decelerate due to the sudden slowing down of the black sedan ahead. The vehicles speed decreases significantly over the last 3.4 seconds, maintaining a very close distance to the black sedan in the final frame.",
+        "key_objects": "1) Front: A black sedan, approximately 1 meter away, suddenly slowing down, causing the self-driving vehicle to decelerate rapidly. 2) Right: A blue SUV, approximately 3 meters away, maintaining its lane and speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

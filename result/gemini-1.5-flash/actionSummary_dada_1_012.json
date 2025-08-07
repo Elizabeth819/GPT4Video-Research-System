@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_1_012",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "2017/04/21 12:55:40",
+    "End_Timestamp": "2017/04/21 12:55:43",
+    "summary": "The vehicle is driving on a city street with parked cars on the right side. A pedestrian is walking between parked cars on the right side of the road.",
+    "actions": "The vehicle is maintaining its lane and speed. The driver should be aware of pedestrians potentially crossing the street from behind parked cars.",
+    "key_objects": [
+      "vehicle",
+      "pedestrian",
+      "parked cars"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "stay in lane",
+      "lane_control": "none"
+    }
+  }
+]

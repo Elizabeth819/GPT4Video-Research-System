@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_004",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "End_Timestamp": "14.9s",
+    "scene_theme": "Dramatic",
+    "characters": "Male pedestrian",
+    "summary": "In this segment, a male pedestrian wearing dark clothing suddenly appears from the right side of the road and runs across the street, directly in front of the vehicle. The pedestrian emerges from behind a row of trees, creating a sudden and dangerous situation.",
+    "actions": "The self-driving vehicle is forced to decelerate rapidly to avoid a collision with the pedestrian who suddenly appeared from the right side of the road. The vehicles speed decreases significantly over the frames as the pedestrian crosses the road.",
+    "key_objects": "1) Right side: A male pedestrian wearing dark clothing, approximately 5 meters away, running across the road from behind a row of trees, causing the vehicle to decelerate rapidly.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

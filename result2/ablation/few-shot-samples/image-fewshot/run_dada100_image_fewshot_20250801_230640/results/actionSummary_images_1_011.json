@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_011",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child in a blue jacket suddenly appears from the right side of the road, running into the driving lane.",
+  "summary": "The video sequence shows a vehicle driving at night. At around 2 seconds, a child in a blue jacket suddenly emerges from the right side of the road, running into the driving lane. This is a clear case of 'ghost probing' as the child was completely hidden by the parked vehicles and roadside structures until the moment of emergence, creating an immediate collision risk.",
+  "actions": "The child runs from the right side of the road into the driving lane, creating a sudden and immediate danger.",
+  "key_objects": "Parked vehicles on the right side of the road, roadside structures, and the child running into the driving lane.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

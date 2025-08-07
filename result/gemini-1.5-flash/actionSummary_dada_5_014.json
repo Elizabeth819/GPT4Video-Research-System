@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle approaches a gate with pedestrians crossing. The vehicle proceeds through the gate and approaches an intersection.",
+    "actions": "Ego vehicle moving forward, pedestrians crossing the road, other vehicles parked and moving in the distance.",
+    "characters": "Pedestrians",
+    "key_objects": "Gate, pedestrians, other vehicles, intersection",
+    "key_actions": "Pedestrians crossing the road in front of the ego vehicle.",
+    "next_action": "Ego vehicle will proceed through the gate and approach the intersection."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle approaches an intersection. A bus is turning left, and a scooter is proceeding straight through the intersection. A pedestrian is crossing the road.",
+    "actions": "Ego vehicle moving forward, bus turning left, scooter proceeding straight, pedestrian crossing the road.",
+    "characters": "Pedestrian, scooter driver",
+    "key_objects": "Intersection, bus, scooter, pedestrian, other vehicles",
+    "key_actions": "potential ghost probing: The scooter appears from behind the bus as the bus is turning, partially obscuring the scooter from the ego vehicle's view. This creates a potential collision risk.",
+    "next_action": "Ego vehicle will proceed through the intersection, yielding to the bus and scooter."
+  }
+]

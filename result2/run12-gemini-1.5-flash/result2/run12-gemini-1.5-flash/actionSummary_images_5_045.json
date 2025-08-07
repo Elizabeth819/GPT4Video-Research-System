@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_5_045",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Traffic",
+    "characters": "Driver of the recording vehicle and other drivers in the traffic flow.",
+    "summary": "The video shows the self-driving vehicle traveling in a line of traffic on a city road.  The traffic is relatively slow-moving and dense.  No sudden or erratic movements from other vehicles or pedestrians are observed. The road is clear of significant obstacles, and the weather appears sunny. The traffic flow is consistent throughout the 10-second segment.  No ghost probing or cut-in maneuvers are detected.",
+    "actions": "The self-driving vehicle maintains a consistent speed, matching the flow of traffic ahead.  The vehicle maintains a safe following distance from the car in front.  There are no lane changes or significant braking or acceleration events observed during this segment. The vehicle's speed is consistent with the surrounding traffic conditions, indicating adaptive cruise control or careful driver behavior.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_045",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.7s",
+    "scene_theme": "Urban driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a vehicle, other drivers in various vehicles.",
+    "summary": "The video shows a segment of urban driving. The self-driving vehicle is traveling in a lane of traffic, moving at a moderate speed.  Traffic is relatively dense, with multiple vehicles ahead and behind. The road is straight with no immediate obstacles. No unusual or dangerous events are observed in this segment.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position, adapting to the flow of traffic. The vehicle is following a safe distance from the vehicle ahead. There are no sudden braking or acceleration maneuvers.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

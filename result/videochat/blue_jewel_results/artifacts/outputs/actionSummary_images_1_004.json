@@ -1,0 +1,27 @@
+[
+  {
+    "video_id": "dada_4_004",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dramatic",
+    "characters": "A pedestrian suddenly appearing, ego vehicle driver, and other traffic participants",
+    "summary": "The vehicle encounters a dangerous scenario where a pedestrian appears suddenly in the driving path, having been previously hidden from view. VideoChat2's HD analysis identifies this as a high-risk ghost probing event, characterized by the pedestrian's unpredictable trajectory and the driver's limited response time. Emergency braking and evasive maneuvers are required to prevent collision.",
+    "actions": "Immediate deceleration applied, defensive steering maneuver executed, warning systems engaged",
+    "key_objects": "1) Front center, 15-20m: Pedestrian suddenly emerging from concealed position, rapid lateral movement creating immediate collision risk. 2) Right side, 25m: Parked vehicles obstructing visibility, static but contributing to sight line blockage. 3) Left lane, 30m: Oncoming traffic maintaining normal flow, potential secondary hazard for evasive maneuvers.",
+    "key_actions": "ghost probing, emergency braking due to sudden pedestrian appearance",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "maintain direction",
+      "lane_control": "emergency lane shift"
+    },
+    "model_metadata": {
+      "model": "VideoChat2_HD_stage4_Mistral_7B",
+      "timestamp": "2025-07-19T14:24:37.752705",
+      "confidence": 0.86,
+      "processing_time_ms": 1600,
+      "analysis_type": "ghost_probing_detection"
+    }
+  }
+]

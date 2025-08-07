@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_002",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several people are walking and riding bikes along the roadside. A man in a dark jacket is walking on the right side of the road. A person on a scooter is traveling in the opposite direction. Two people are walking on the right side of the road.",
+  "summary": "The vehicle is driving on a rural road with buildings on both sides. Several people are walking and riding bikes along the roadside. A man in a dark jacket is walking on the right side of the road. A person on a scooter is traveling in the opposite direction. Two people are walking on the right side of the road. The road is straight and the visibility is good. There are no immediate hazards.",
+  "actions": "The vehicle is maintaining a steady speed and direction. The driver is likely aware of the pedestrians and cyclists on the roadside and is driving cautiously. The vehicle is maintaining its current lane and speed.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

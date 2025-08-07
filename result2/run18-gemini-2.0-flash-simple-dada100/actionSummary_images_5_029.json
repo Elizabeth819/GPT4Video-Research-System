@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_029",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a road with multiple vehicles, including cars and trucks. There are also pedestrians and cyclists present. The buildings in the background suggest an urban environment. The pedestrian on the right side of the road is wearing a blue jacket and riding a scooter. The pedestrian on the left side of the road is wearing dark clothing.",
+  "summary": "The vehicle is driving on a city street with moderate traffic. Initially, the vehicle is following other cars. As the vehicle approaches an intersection, the traffic light turns green, and the vehicle proceeds through the intersection. A pedestrian on a scooter suddenly appears from the right side of the road, crossing the street. The vehicle brakes abruptly to avoid a collision. The pedestrian falls off the scooter.",
+  "actions": "The vehicle initially maintains a steady speed while following other cars. As the vehicle approaches the intersection, it accelerates slightly as the traffic light turns green. Upon observing the pedestrian on the scooter entering the roadway, the vehicle initiates rapid deceleration to avoid a collision. The driver is attempting to navigate the intersection safely while reacting to unexpected pedestrian behavior.",
+  "key_objects": "1) Right side: A pedestrian on a scooter, medium distance, suddenly crosses the road, causing the vehicle to brake rapidly. 2) Center: Traffic light, far distance, turns green, influencing the vehicle to proceed through the intersection. 3) Left side: Pedestrian, medium distance, crossing the road, influencing the vehicle to be aware of the surroundings.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "dada_40_021",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is approaching an intersection. Initially, a blue car is seen moving from the left side towards the right side of the intersection. Later, a red car appears from the left side and moves towards the center of the intersection. Finally, a motorcycle with two riders falls in the middle of the intersection, creating a potential hazard.",
+        "actions": "The self-driving vehicle is approaching the intersection at a steady speed. The driver needs to be cautious due to the presence of moving vehicles and the fallen motorcycle in the intersection. The vehicles speed is likely to decrease to avoid any collision.",
+        "key_objects": "1) Left side: A blue car, approximately 10 meters away, moving towards the right side of the intersection. 2) Left side: A red car, approximately 8 meters away, moving towards the center of the intersection. 3) Front: A motorcycle with two riders, approximately 5 meters away, fallen in the middle of the intersection, creating a potential hazard.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_021",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist lying on the road",
+        "summary": "In this segment, the vehicle is approaching an intersection. A motorcyclist is lying on the road in front of the vehicle, causing a potential hazard. The motorcyclist appears to be injured and is not moving. The vehicle ahead is slowing down and stopping, likely due to the motorcyclist on the road.",
+        "actions": "The self-driving vehicle is slowing down and preparing to stop to avoid hitting the motorcyclist lying on the road. The vehicle ahead is also slowing down and stopping, indicating a potential emergency situation.",
+        "key_objects": "1) Front: A motorcyclist lying on the road, approximately 5 meters away, causing the vehicle to slow down and prepare to stop. 2) Front: A grey car, approximately 10 meters away, slowing down and stopping due to the motorcyclist on the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_032",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road. There are several motorcycles parked on the right side of the road. A pedestrian is visible on the right side, walking towards the motorcycles. The road ahead is clear with no immediate obstacles.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while driving straight. The driver is likely monitoring the pedestrian and motorcycles on the right side to ensure safe passage.",
+        "key_objects": "1) Right side: A pedestrian, approximately 10 meters away, walking towards the motorcycles. 2) Right side: Several motorcycles, approximately 5 meters away, parked and not posing immediate danger.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_032",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a yellow motorcycle is moving from the left side towards the center of the road. The driver mentions that the motorcycle is moving unpredictably, potentially causing a collision.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the movements of the yellow motorcycle. The vehicles speed remains consistent to avoid sudden braking or acceleration.",
+        "key_objects": "1) Left side: A yellow motorcycle, approximately 10 meters away, moving towards the center of the road, potentially causing a collision. 2) Front: A white motorcycle, approximately 15 meters away, moving towards the center of the road, potentially causing a collision.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_032",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "11.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through a residential area. A person on a bicycle is seen on the left side of the road, moving towards the center. Another person is walking on the right side of the road. The self-driving vehicle is approaching these individuals, potentially requiring caution.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the individuals on the road. The driver is likely preparing to slow down or stop to avoid any potential collision.",
+        "key_objects": "1) Left side: A person on a bicycle, approximately 5 meters away, moving towards the center of the road. 2) Right side: A person walking, approximately 10 meters away, moving towards the center of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

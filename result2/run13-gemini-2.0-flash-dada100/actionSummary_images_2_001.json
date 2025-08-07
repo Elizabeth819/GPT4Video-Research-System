@@ -1,0 +1,49 @@
+{
+  "video_id": "images_2_001",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.1s",
+  "summary": "The self-driving car is navigating a busy street with many pedestrians, motorcycles, and three-wheeled vehicles. From 0.0s to 15.1s, the car is moving forward at a slow speed. There are several people walking on the road, and motorcycles are moving in both directions. At 14.6s, a man in a black jacket is walking from behind a blue three-wheeled vehicle on the right side of the road, potentially creating a ghost probing situation if he continues to cross the street. The road conditions appear to be wet, and the traffic is dense.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "black jacket",
+      "colors": "black",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "various",
+      "colors": "various",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "various",
+      "colors": "various",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "N/A"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "various",
+      "colors": "various",
+      "age": "adult",
+      "transportation_method": "three-wheeled vehicle",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "actions": "The vehicle is moving slowly forward, navigating through a crowded street with pedestrians and other vehicles. The driver is likely proceeding cautiously due to the high density of traffic and the presence of pedestrians walking on the road. The slow speed allows the driver to react to unexpected movements from pedestrians or other vehicles.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "[Right side]: A man in a black jacket, approximately 5 meters away, walking from behind a blue three-wheeled vehicle, potentially crossing the street and causing the vehicle to decelerate or stop."
+}

@@ -1,0 +1,10 @@
+2025-07-28 21:47:51,867 - INFO - Run 14 Gemini 2.0 Flash + Few-shot Analysis Started - 20250728_214751
+2025-07-28 21:47:51,867 - INFO - Gemini 2.0 Flash model initialized: AIzaSyBF40...
+2025-07-28 21:47:51,867 - INFO - DADA-100 videos directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos
+2025-07-28 21:47:51,867 - INFO - Output directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run14-gemini-2.0-flash-fewshot-dada100
+2025-07-28 21:47:51,868 - INFO - Found 101 video files to process
+2025-07-28 21:47:51,868 - INFO - Starting analysis of 101 videos
+2025-07-28 21:47:51,882 - INFO - Analyzing video: images_1_001
+2025-07-28 21:47:52,455 - INFO - API call attempt 1/5 for images_1_001
+2025-07-28 21:57:51,623 - ERROR - API error for images_1_001 attempt 1: Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.33.74:443: tcp handshaker shutdown
+2025-07-28 21:58:01,627 - INFO - API call attempt 2/5 for images_1_001

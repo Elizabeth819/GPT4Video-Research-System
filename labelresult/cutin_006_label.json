@@ -1,0 +1,72 @@
+[
+    {
+        "event_id": "event_002",
+        "video_id": "006_高速开车不存在加塞-1mini",
+        "start_timestamp": "10.00s",
+        "end_timestamp": "20.00s",
+        "timestamp": "2024-12-12 20:04:27",
+        "key_objects": "a golden SUV in front",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_003",
+        "video_id": "006_高速开车不存在加塞-1mini",
+        "start_timestamp": "20.00s",
+        "end_timestamp": "30.00s",
+        "timestamp": "2024-12-12 20:06:15",
+        "key_objects": "a white SUV in front right",
+        "key_actions": "cut-in, collision, improper lane change",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "006_高速开车不存在加塞-1mini",
+        "start_timestamp": "30.00s",
+        "end_timestamp": "40.00s",
+        "timestamp": "2024-12-12 20:08:50",
+        "key_objects": "a white SUV on the right",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "006_高速开车不存在加塞-1mini",
+        "start_timestamp": "40.00s",
+        "end_timestamp": "50.00s",
+        "timestamp": "2024-12-12 20:09:49",
+        "key_objects": "a black SUV on the right",
+        "key_actions": "cut-in, collision, improper lane change",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_006",
+        "video_id": "006_高速开车不存在加塞-1mini",
+        "start_timestamp": "50.00s",
+        "end_timestamp": "60.00s",
+        "timestamp": "2024-12-12 20:36:43",
+        "key_objects": "a white sedan on the left",
+        "key_actions": "cut-in, collision, improper lane change",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

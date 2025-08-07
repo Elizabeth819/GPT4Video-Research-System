@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_023",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several pedestrians are crossing the street at a crosswalk. There are multiple cars on the road. One pedestrian is lying on the road after being hit by a car.",
+  "summary": "The vehicle is initially approaching a crosswalk with pedestrians. A pedestrian is hit by a car on the left side of the road. The vehicle then comes to a stop.",
+  "actions": "The vehicle initially approaches a crosswalk, likely intending to proceed through it. However, due to a pedestrian being hit by another car on the left side of the road, the vehicle rapidly decelerates and comes to a complete stop to avoid any further accidents and assess the situation.",
+  "key_objects": "1) Left: A pedestrian lying on the road after being hit by a car, close distance, immediate danger. 2) Left: The car that hit the pedestrian, close distance, immediate danger.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

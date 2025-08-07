@@ -1,0 +1,237 @@
+2025-07-31 13:41:58,877 - INFO - 消融实验: 1 Few-shot Sample 开始
+2025-07-31 13:41:58,877 - INFO - Azure OpenAI API配置成功
+2025-07-31 13:41:58,877 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-31 13:41:58,877 - INFO - Deployment: gpt-4o-global
+2025-07-31 13:41:58,877 - INFO - Temperature: 0, Few-shot Samples: 1
+2025-07-31 13:41:58,895 - INFO - 加载ground truth标签: 201个视频
+2025-07-31 13:41:58,896 - INFO - 标签列: ['video_id', 'ground_truth_label', 'Unnamed: 2']
+2025-07-31 13:41:58,896 - INFO - 开始消融实验: 1 Few-shot Sample，处理 100 个视频
+2025-07-31 13:41:58,925 - INFO - 处理视频: images_5_048
+2025-07-31 13:42:11,749 - INFO - ✅ images_5_048: FP
+2025-07-31 13:42:11,749 - INFO - 处理视频: images_5_049
+2025-07-31 13:42:26,732 - INFO - ✅ images_5_049: FN
+2025-07-31 13:42:26,732 - INFO - 处理视频: images_1_020
+2025-07-31 13:42:40,909 - INFO - ✅ images_1_020: FN
+2025-07-31 13:42:40,910 - INFO - 处理视频: images_1_008
+2025-07-31 13:42:55,367 - INFO - ✅ images_1_008: FN
+2025-07-31 13:42:55,368 - INFO - 处理视频: images_4_005
+2025-07-31 13:43:10,518 - INFO - ✅ images_4_005: FN
+2025-07-31 13:43:10,519 - INFO - 处理视频: images_5_014
+2025-07-31 13:43:24,194 - INFO - ✅ images_5_014: TN
+2025-07-31 13:43:24,194 - INFO - 处理视频: images_5_028
+2025-07-31 13:43:39,627 - INFO - ✅ images_5_028: TP
+2025-07-31 13:43:39,628 - INFO - 处理视频: images_5_029
+2025-07-31 13:43:56,606 - INFO - ✅ images_5_029: FP
+2025-07-31 13:43:56,607 - INFO - 处理视频: images_5_001
+2025-07-31 13:44:12,780 - INFO - ✅ images_5_001: TN
+2025-07-31 13:44:12,781 - INFO - 处理视频: images_5_015
+2025-07-31 13:44:27,760 - INFO - ✅ images_5_015: FN
+2025-07-31 13:44:27,764 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_results_20250731_134158.json
+2025-07-31 13:44:27,764 - INFO - 处理视频: images_4_004
+2025-07-31 13:44:41,996 - INFO - ✅ images_4_004: FN
+2025-07-31 13:44:41,997 - INFO - 处理视频: images_1_009
+2025-07-31 13:44:53,648 - INFO - ✅ images_1_009: FP
+2025-07-31 13:44:53,649 - INFO - 处理视频: images_1_021
+2025-07-31 13:45:58,280 - ERROR - API请求超时
+2025-07-31 13:45:58,280 - ERROR - API请求失败: images_1_021
+2025-07-31 13:45:58,280 - ERROR - ❌ images_1_021.avi: 处理失败
+2025-07-31 13:45:58,280 - INFO - 处理视频: images_1_023
+2025-07-31 13:46:13,069 - INFO - ✅ images_1_023: FP
+2025-07-31 13:46:13,069 - INFO - 处理视频: images_4_006
+2025-07-31 13:46:25,389 - INFO - ✅ images_4_006: TP
+2025-07-31 13:46:25,390 - INFO - 处理视频: images_5_003
+2025-07-31 13:46:38,899 - INFO - ✅ images_5_003: TN
+2025-07-31 13:46:38,900 - INFO - 处理视频: images_5_017
+2025-07-31 13:46:53,724 - INFO - ✅ images_5_017: FP
+2025-07-31 13:46:53,726 - INFO - 处理视频: images_5_016
+2025-07-31 13:47:08,409 - INFO - ✅ images_5_016: FP
+2025-07-31 13:47:08,409 - INFO - 处理视频: images_5_002
+2025-07-31 13:48:10,872 - ERROR - API请求超时
+2025-07-31 13:48:10,874 - ERROR - API请求失败: images_5_002
+2025-07-31 13:48:10,874 - ERROR - ❌ images_5_002.avi: 处理失败
+2025-07-31 13:48:10,874 - INFO - 处理视频: images_4_007
+2025-07-31 13:48:22,828 - INFO - ✅ images_4_007: TN
+2025-07-31 13:48:22,829 - INFO - 处理视频: images_1_022
+2025-07-31 13:48:36,863 - INFO - ✅ images_1_022: TP
+2025-07-31 13:48:36,864 - INFO - 处理视频: images_1_026
+2025-07-31 13:49:39,430 - ERROR - API请求超时
+2025-07-31 13:49:39,431 - ERROR - API请求失败: images_1_026
+2025-07-31 13:49:39,432 - ERROR - ❌ images_1_026.avi: 处理失败
+2025-07-31 13:49:39,432 - INFO - 处理视频: images_4_003
+2025-07-31 13:49:53,256 - INFO - ✅ images_4_003: TP
+2025-07-31 13:49:53,258 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_results_20250731_134158.json
+2025-07-31 13:49:53,258 - INFO - 处理视频: images_5_006
+2025-07-31 13:50:05,794 - INFO - ✅ images_5_006: TP
+2025-07-31 13:50:05,795 - INFO - 处理视频: images_5_012
+2025-07-31 13:50:20,431 - INFO - ✅ images_5_012: FN
+2025-07-31 13:50:20,434 - INFO - 处理视频: images_5_013
+2025-07-31 13:50:34,616 - INFO - ✅ images_5_013: FP
+2025-07-31 13:50:34,616 - INFO - 处理视频: images_5_007
+2025-07-31 13:50:47,092 - INFO - ✅ images_5_007: FP
+2025-07-31 13:50:47,092 - INFO - 处理视频: images_4_002
+2025-07-31 13:51:49,509 - ERROR - API请求超时
+2025-07-31 13:51:49,510 - ERROR - API请求失败: images_4_002
+2025-07-31 13:51:49,510 - ERROR - ❌ images_4_002.avi: 处理失败
+2025-07-31 13:51:49,510 - INFO - 处理视频: images_1_027
+2025-07-31 13:52:51,933 - ERROR - API请求超时
+2025-07-31 13:52:51,934 - ERROR - API请求失败: images_1_027
+2025-07-31 13:52:51,934 - ERROR - ❌ images_1_027.avi: 处理失败
+2025-07-31 13:52:51,935 - INFO - 处理视频: images_1_019
+2025-07-31 13:53:06,350 - INFO - ✅ images_1_019: FP
+2025-07-31 13:53:06,351 - INFO - 处理视频: images_1_025
+2025-07-31 13:53:20,698 - INFO - ✅ images_1_025: FP
+2025-07-31 13:53:20,699 - INFO - 处理视频: images_5_039
+2025-07-31 13:53:34,144 - INFO - ✅ images_5_039: TP
+2025-07-31 13:53:34,145 - INFO - 处理视频: images_5_011
+2025-07-31 13:53:49,942 - INFO - ✅ images_5_011: FN
+2025-07-31 13:53:49,942 - INFO - 处理视频: images_5_005
+2025-07-31 13:54:04,218 - INFO - ✅ images_5_005: FP
+2025-07-31 13:54:04,218 - INFO - 处理视频: images_5_004
+2025-07-31 13:54:22,962 - INFO - ✅ images_5_004: FP
+2025-07-31 13:54:22,966 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_results_20250731_134158.json
+2025-07-31 13:54:22,966 - INFO - 处理视频: images_5_010
+2025-07-31 13:54:40,001 - INFO - ✅ images_5_010: TP
+2025-07-31 13:54:40,002 - INFO - 处理视频: images_5_038
+2025-07-31 13:54:54,128 - INFO - ✅ images_5_038: TN
+2025-07-31 13:54:54,128 - INFO - 处理视频: images_4_001
+2025-07-31 13:55:10,462 - INFO - ✅ images_4_001: FP
+2025-07-31 13:55:10,462 - INFO - 处理视频: images_1_024
+2025-07-31 13:55:25,409 - INFO - ✅ images_1_024: FP
+2025-07-31 13:55:25,409 - INFO - 处理视频: images_1_018
+2025-07-31 13:55:39,070 - INFO - ✅ images_1_018: FP
+2025-07-31 13:55:39,070 - INFO - 处理视频: images_1_001
+2025-07-31 13:55:54,801 - INFO - ✅ images_1_001: FP
+2025-07-31 13:55:54,801 - INFO - 处理视频: images_1_015
+2025-07-31 13:56:10,683 - INFO - ✅ images_1_015: TP
+2025-07-31 13:56:10,684 - INFO - 处理视频: images_5_035
+2025-07-31 13:57:13,058 - ERROR - API请求超时
+2025-07-31 13:57:13,058 - ERROR - API请求失败: images_5_035
+2025-07-31 13:57:13,059 - ERROR - ❌ images_5_035.avi: 处理失败
+2025-07-31 13:57:13,059 - INFO - 处理视频: images_5_021
+2025-07-31 13:57:26,852 - INFO - ✅ images_5_021: TP
+2025-07-31 13:57:26,853 - INFO - 处理视频: images_5_009
+2025-07-31 13:57:40,334 - INFO - ✅ images_5_009: TN
+2025-07-31 13:57:40,334 - INFO - 处理视频: images_5_008
+2025-07-31 13:57:56,864 - INFO - ✅ images_5_008: FP
+2025-07-31 13:57:56,877 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_results_20250731_134158.json
+2025-07-31 13:57:56,877 - INFO - 处理视频: images_5_020
+2025-07-31 13:58:11,516 - INFO - ✅ images_5_020: TP
+2025-07-31 13:58:11,517 - INFO - 处理视频: images_5_034
+2025-07-31 13:58:26,973 - INFO - ✅ images_5_034: FP
+2025-07-31 13:58:26,974 - INFO - 处理视频: images_1_014
+2025-07-31 13:58:42,115 - INFO - ✅ images_1_014: TP
+2025-07-31 13:58:42,115 - INFO - 处理视频: images_1_016
+2025-07-31 13:58:56,901 - INFO - ✅ images_1_016: TP
+2025-07-31 13:58:56,902 - INFO - 处理视频: images_1_002
+2025-07-31 13:59:11,302 - INFO - ✅ images_1_002: TP
+2025-07-31 13:59:11,302 - INFO - 处理视频: images_5_022
+2025-07-31 13:59:37,482 - INFO - ✅ images_5_022: FP
+2025-07-31 13:59:37,483 - INFO - 处理视频: images_5_036
+2025-07-31 13:59:53,408 - INFO - ✅ images_5_036: FP
+2025-07-31 13:59:53,409 - INFO - 处理视频: images_5_037
+2025-07-31 14:00:06,292 - INFO - ✅ images_5_037: TP
+2025-07-31 14:00:06,293 - INFO - 处理视频: images_5_023
+2025-07-31 14:00:21,150 - INFO - ✅ images_5_023: TP
+2025-07-31 14:00:21,152 - INFO - 处理视频: images_1_003
+2025-07-31 14:00:37,668 - INFO - ✅ images_1_003: TP
+2025-07-31 14:00:37,670 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_results_20250731_134158.json
+2025-07-31 14:00:37,670 - INFO - 处理视频: images_1_017
+2025-07-31 14:01:05,699 - INFO - ✅ images_1_017: FN
+2025-07-31 14:01:05,699 - INFO - 处理视频: images_1_013
+2025-07-31 14:02:08,374 - ERROR - API请求超时
+2025-07-31 14:02:08,375 - ERROR - API请求失败: images_1_013
+2025-07-31 14:02:08,376 - ERROR - ❌ images_1_013.avi: 处理失败
+2025-07-31 14:02:08,376 - INFO - 处理视频: images_1_007
+2025-07-31 14:02:23,113 - INFO - ✅ images_1_007: FN
+2025-07-31 14:02:23,113 - INFO - 处理视频: images_5_027
+2025-07-31 14:02:39,080 - INFO - ✅ images_5_027: TP
+2025-07-31 14:02:39,081 - INFO - 处理视频: images_5_033
+2025-07-31 14:02:55,470 - INFO - ✅ images_5_033: TP
+2025-07-31 14:02:55,470 - INFO - 处理视频: images_5_032
+2025-07-31 14:03:10,016 - INFO - ✅ images_5_032: FP
+2025-07-31 14:03:10,017 - INFO - 处理视频: images_5_026
+2025-07-31 14:03:22,341 - INFO - ✅ images_5_026: FP
+2025-07-31 14:03:22,342 - INFO - 处理视频: images_1_006
+2025-07-31 14:03:36,090 - INFO - ✅ images_1_006: TP
+2025-07-31 14:03:36,091 - INFO - 处理视频: images_1_012
+2025-07-31 14:03:50,555 - INFO - ✅ images_1_012: TP
+2025-07-31 14:03:50,556 - INFO - 处理视频: images_1_004
+2025-07-31 14:04:05,705 - INFO - ✅ images_1_004: FP
+2025-07-31 14:04:05,705 - INFO - 处理视频: images_1_010
+2025-07-31 14:04:28,900 - INFO - ✅ images_1_010: TP
+2025-07-31 14:04:28,905 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_results_20250731_134158.json
+2025-07-31 14:04:28,906 - INFO - 处理视频: images_5_018
+2025-07-31 14:04:43,249 - INFO - ✅ images_5_018: TN
+2025-07-31 14:04:43,250 - INFO - 处理视频: images_5_030
+2025-07-31 14:04:58,389 - INFO - ✅ images_5_030: FP
+2025-07-31 14:04:58,390 - INFO - 处理视频: images_5_024
+2025-07-31 14:05:13,864 - INFO - ✅ images_5_024: FP
+2025-07-31 14:05:13,865 - INFO - 处理视频: images_5_025
+2025-07-31 14:05:27,924 - INFO - ✅ images_5_025: TN
+2025-07-31 14:05:27,925 - INFO - 处理视频: images_5_031
+2025-07-31 14:06:30,290 - ERROR - API请求超时
+2025-07-31 14:06:30,291 - ERROR - API请求失败: images_5_031
+2025-07-31 14:06:30,291 - ERROR - ❌ images_5_031.avi: 处理失败
+2025-07-31 14:06:30,292 - INFO - 处理视频: images_5_019
+2025-07-31 14:06:45,242 - INFO - ✅ images_5_019: FP
+2025-07-31 14:06:45,243 - INFO - 处理视频: images_4_008
+2025-07-31 14:06:59,883 - INFO - ✅ images_4_008: TN
+2025-07-31 14:06:59,884 - INFO - 处理视频: images_1_011
+2025-07-31 14:07:14,520 - INFO - ✅ images_1_011: TP
+2025-07-31 14:07:14,521 - INFO - 处理视频: images_1_005
+2025-07-31 14:07:31,258 - INFO - ✅ images_1_005: TP
+2025-07-31 14:07:31,258 - INFO - 处理视频: images_2_002
+2025-07-31 14:07:45,313 - INFO - ✅ images_2_002: FP
+2025-07-31 14:07:45,313 - INFO - 处理视频: images_3_007
+2025-07-31 14:08:00,389 - INFO - ✅ images_3_007: TP
+2025-07-31 14:08:00,393 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_results_20250731_134158.json
+2025-07-31 14:08:00,394 - INFO - 处理视频: images_5_042
+2025-07-31 14:08:12,874 - INFO - ✅ images_5_042: FP
+2025-07-31 14:08:12,874 - INFO - 处理视频: images_5_043
+2025-07-31 14:08:29,401 - INFO - ✅ images_5_043: FN
+2025-07-31 14:08:29,401 - INFO - 处理视频: images_3_006
+2025-07-31 14:08:41,196 - INFO - ✅ images_3_006: TP
+2025-07-31 14:08:41,197 - INFO - 处理视频: images_2_003
+2025-07-31 14:09:43,725 - ERROR - API请求超时
+2025-07-31 14:09:43,725 - ERROR - API请求失败: images_2_003
+2025-07-31 14:09:43,726 - ERROR - ❌ images_2_003.avi: 处理失败
+2025-07-31 14:09:43,726 - INFO - 处理视频: images_2_001
+2025-07-31 14:09:59,139 - INFO - ✅ images_2_001: TN
+2025-07-31 14:09:59,140 - INFO - 处理视频: images_3_004
+2025-07-31 14:10:14,933 - INFO - ✅ images_3_004: TN
+2025-07-31 14:10:14,934 - INFO - 处理视频: images_5_041
+2025-07-31 14:10:28,859 - INFO - ✅ images_5_041: FN
+2025-07-31 14:10:28,860 - INFO - 处理视频: images_5_055
+2025-07-31 14:10:44,439 - INFO - ✅ images_5_055: TN
+2025-07-31 14:10:44,440 - INFO - 处理视频: images_5_054
+2025-07-31 14:10:58,999 - INFO - ✅ images_5_054: TN
+2025-07-31 14:10:59,001 - INFO - 处理视频: images_5_040
+2025-07-31 14:11:13,452 - INFO - ✅ images_5_040: TN
+2025-07-31 14:11:13,453 - INFO - 处理视频: images_3_005
+2025-07-31 14:11:27,377 - INFO - ✅ images_3_005: FP
+2025-07-31 14:11:27,393 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_results_20250731_134158.json
+2025-07-31 14:11:27,393 - INFO - 处理视频: images_2_004
+2025-07-31 14:11:42,789 - INFO - ✅ images_2_004: FP
+2025-07-31 14:11:42,790 - INFO - 处理视频: images_3_001
+2025-07-31 14:11:56,999 - INFO - ✅ images_3_001: TN
+2025-07-31 14:11:57,000 - INFO - 处理视频: images_5_044
+2025-07-31 14:12:16,286 - INFO - ✅ images_5_044: TP
+2025-07-31 14:12:16,287 - INFO - 处理视频: images_5_050
+2025-07-31 14:12:29,288 - INFO - ✅ images_5_050: TP
+2025-07-31 14:12:29,288 - INFO - 处理视频: images_5_051
+2025-07-31 14:12:41,796 - INFO - ✅ images_5_051: TP
+2025-07-31 14:12:41,797 - INFO - 处理视频: images_5_045
+2025-07-31 14:12:55,808 - INFO - ✅ images_5_045: TP
+2025-07-31 14:12:55,809 - INFO - 处理视频: images_3_002
+2025-07-31 14:13:09,846 - INFO - ✅ images_3_002: FP
+2025-07-31 14:13:09,847 - INFO - 处理视频: images_5_053
+2025-07-31 14:13:21,929 - INFO - ✅ images_5_053: TP
+2025-07-31 14:13:21,929 - INFO - 处理视频: images_5_047
+2025-07-31 14:13:35,607 - INFO - ✅ images_5_047: TP
+2025-07-31 14:13:35,608 - INFO - 处理视频: images_5_046
+2025-07-31 14:13:48,057 - INFO - ✅ images_5_046: TP
+2025-07-31 14:13:48,058 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_results_20250731_134158.json
+2025-07-31 14:13:48,058 - INFO - 处理视频: images_5_052
+2025-07-31 14:14:01,649 - INFO - ✅ images_5_052: TP
+2025-07-31 14:14:01,653 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_results_20250731_134158.json
+2025-07-31 14:14:01,654 - INFO - 实验报告已生成: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/ablation_1sample_report_20250731_134158.md

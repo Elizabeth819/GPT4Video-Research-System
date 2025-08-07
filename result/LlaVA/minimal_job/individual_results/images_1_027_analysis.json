@@ -1,0 +1,46 @@
+{
+  "视频信息": {
+    "视频ID": "images_1_027",
+    "检测类型": "⚠️ 潜在鬼探头",
+    "准确性评估": "✅ 正确检测",
+    "Ground Truth": "4s: ghost probing",
+    "处理时间": "0.33秒"
+  },
+  "检测结果详情": {
+    "关键动作": "potential ghost probing",
+    "场景概述": "Video analysis shows potential ghost probing scenario with max frame change of 0.1932",
+    "场景主题": "Dramatic",
+    "情感色调": "Negative",
+    "关键对象": "1) Front view: traffic objects at various distances 2) Road environment: dramatic conditions",
+    "下一步动作": {
+      "speed_control": "deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  "技术分析": {
+    "最大帧变化": 0.1932,
+    "平均帧变化": 0.1073,
+    "帧变化序列": [
+      0.1384,
+      0.0795,
+      0.0844,
+      0.1932,
+      0.1781,
+      0.1824,
+      0.0569,
+      0.0265,
+      0.0263
+    ],
+    "置信度分数": 0.15458612442016603,
+    "突然变化次数": 0,
+    "分析时间": "0.1395秒",
+    "检测方法": "GPT-4.1-Balanced-Prompt + CLIP"
+  },
+  "模型元数据": {
+    "模型": "LLaVA-GPT-4.1-Balanced-Prompt",
+    "时间戳": "2025-07-22T03:20:07.655253",
+    "设备": "cuda",
+    "帧数": 10
+  }
+}

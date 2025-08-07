@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_29_010",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue tricycle, pedestrian in white shirt",
+        "summary": "In this segment, the vehicle is driving on a narrow urban road. A blue tricycle is seen moving from the left side of the road towards the center, potentially obstructing the vehicles path. A pedestrian in a white shirt appears from the left side, walking towards the center of the road.",
+        "actions": "The self-driving vehicle is maintaining a slow speed to navigate the narrow road and avoid potential collisions with the blue tricycle and the pedestrian. The vehicles speed is gradually decreasing as the tricycle moves closer to the center of the road.",
+        "key_objects": "1) Left side: A blue tricycle, approximately 5 meters away, moving towards the center of the road, potentially obstructing the vehicles path. 2) Left side: A pedestrian in a white shirt, approximately 7 meters away, walking towards the center of the road, potentially obstructing the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

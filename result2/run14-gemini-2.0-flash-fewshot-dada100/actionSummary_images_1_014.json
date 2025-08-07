@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_014",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "9.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A young boy, approximately 5 years old, wearing a striped shirt and red pants, is walking across the road. A red three-wheeled vehicle is driving on the road. A person is riding a scooter parked on the right side of the road.",
+  "summary": "The vehicle is driving on a road in a rural area. From 0.0s to 5.0s, the vehicle is driving at a constant speed. At 6.0s, a young boy wearing a striped shirt and red pants starts to cross the road from left to right. The boy is walking and not running, but he is still a potential hazard. At 7.0s, the boy is in the middle of the road. At 8.0s, the boy is almost across the road. At 9.0s, the boy is safely on the other side of the road. The boy's sudden appearance from the left side of the road constitutes a ghost probing scenario.",
+  "actions": "The vehicle is maintaining a steady speed as it approaches the area where the boy is crossing. The driver is likely aware of the boy's presence and is prepared to decelerate if necessary. The vehicle maintains its speed because the boy is walking and not running, and the driver has enough time to react if the boy suddenly changes direction or speed.",
+  "key_objects": "1) Left side: A young boy, approximately 5 years old, wearing a striped shirt and red pants, 5 meters away, walking across the road, creating a potential ghost probing situation. 2) Left side: Buildings, approximately 10 meters away, creating visual obstruction that hides the boy until emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "video_id": "dada_1_006",
+  "segment_id": "segment_001",
+  "Start_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "End_Timestamp": "13.7s",
+  "scene_theme": "Dramatic",
+  "characters": "Child on the road",
+  "summary": "In this segment, a child suddenly appears from the left side of the road and moves into the path of the vehicle. The child is wearing a blue jacket and is approximately 1-2 meters away from the vehicle. The child continues to move towards the center of the lane, causing the vehicle to decelerate rapidly to avoid a collision.",
+  "actions": "The vehicle decelerates rapidly as the child moves into its path. The driver is forced to brake to avoid hitting the child.",
+  "key_objects": "1) Left side: A child in a blue jacket, approximately 1-2 meters away, moving into the vehicles path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

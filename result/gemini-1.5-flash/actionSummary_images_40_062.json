@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_40_062",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road with an overpass visible. A black sedan is seen moving from the right lane to the left lane, cutting in front of the observer vehicle. Additionally, a motorcyclist appears from the left side and moves across the lanes, potentially causing a dangerous situation.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the black sedan cutting in from the right lane and the motorcyclist moving across the lanes. The vehicles speed remains consistent to avoid sudden braking and maintain safety.",
+        "key_objects": "1) Right side: A black sedan, approximately 5 meters away, cutting in from the right lane to the left lane. 2) Left side: A motorcyclist, approximately 3 meters away, moving across the lanes.",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

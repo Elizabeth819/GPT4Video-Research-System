@@ -1,0 +1,100 @@
+[
+    {
+        "event_id": "event_001",
+        "video_id": "006_三轮车鬼探头，还好车主反应快，不然就倒霉了_哔哩哔哩_bilibili",
+        "start_timestamp": "0.00s",
+        "end_timestamp": "10.00s",
+        "timestamp": "2024-12-12 14:17:28",
+        "key_objects": "a tricycle from the right",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "brake",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_002",
+        "video_id": "006_三轮车鬼探头，还好车主反应快，不然就倒霉了_哔哩哔哩_bilibili",
+        "start_timestamp": "11.00s",
+        "end_timestamp": "20.00s",
+        "timestamp": "2024-12-12 14:18:26",
+        "key_objects": "an electric scooter from the left",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "006_三轮车鬼探头，还好车主反应快，不然就倒霉了_哔哩哔哩_bilibili",
+        "start_timestamp": "30.00s",
+        "end_timestamp": "40.00s",
+        "timestamp": "2024-12-12 14:20:11",
+        "key_objects": "an electric scooter from the left behind",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_006",
+        "video_id": "006_三轮车鬼探头，还好车主反应快，不然就倒霉了_哔哩哔哩_bilibili",
+        "start_timestamp": "50.00s",
+        "end_timestamp": "60.00s",
+        "timestamp": "2024-12-12 14:21:48",
+        "key_objects": "a red SUV from the left",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_008",
+        "video_id": "006_三轮车鬼探头，还好车主反应快，不然就倒霉了_哔哩哔哩_bilibili",
+        "start_timestamp": "70.00s",
+        "end_timestamp": "80.00s",
+        "timestamp": "2024-12-12 14:23:57",
+        "key_objects": "a white car in the front",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_010",
+        "video_id": "006_三轮车鬼探头，还好车主反应快，不然就倒霉了_哔哩哔哩_bilibili",
+        "start_timestamp": "110.00s",
+        "end_timestamp": "120.00s",
+        "timestamp": "2024-12-12 14:25:28",
+        "key_objects": "the truck in front",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_013",
+        "video_id": "006_三轮车鬼探头，还好车主反应快，不然就倒霉了_哔哩哔哩_bilibili",
+        "start_timestamp": "120.00s",
+        "end_timestamp": "130.00s",
+        "timestamp": "2024-12-12 14:30:56",
+        "key_objects": "a pedestrian on the right",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight left shift"
+        }
+    }
+]

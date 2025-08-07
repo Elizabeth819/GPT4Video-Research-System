@@ -1,0 +1,113 @@
+[
+    {
+        "video_id": "dada_1_011",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving down a two-lane road.  The road is relatively clear with some trees and buildings visible on either side.  Traffic is light; a few vehicles are visible in the distance, but there are no immediate threats or interactions with other vehicles or pedestrians. The self-driving vehicle maintains a consistent speed and stays within its lane throughout the 5-second sequence.",
+        "actions": "The vehicle maintains a consistent speed and stays within its lane throughout the 5-second sequence. There are no observable changes in speed or direction. The driving behavior suggests a smooth and controlled driving style, adapting to the light traffic conditions.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_011",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "10.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A silver sedan",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Maintaining a consistent speed and distance ahead of the ego vehicle."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A group of pedestrians",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Approaching the road from the sidewalk, potentially posing a ghost probing risk."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark blue jacket, light-colored pants",
+                "transportation_method": "Walking",
+                "way_of_walking": "Normal pace"
+            },
+            {
+                "gender": "Female",
+                "age": "20-30",
+                "clothing": "Light-colored dress",
+                "transportation_method": "Walking",
+                "way_of_walking": "Normal pace"
+            },
+            {
+                "gender": "Male",
+                "age": "40-50",
+                "clothing": "White shirt, dark pants",
+                "transportation_method": "Walking",
+                "way_of_walking": "Normal pace"
+            }
+        ],
+        "summary": "The video shows a car driving down a residential street.  At approximately 6.7 seconds, a group of three pedestrians (one male in a dark blue jacket and light pants, one female in a light-colored dress, and one male in a white shirt and dark pants) are seen approaching the road from the right-hand sidewalk.  They appear to be walking at a normal pace, but their proximity to the road and potential for suddenly stepping into the path of the vehicle presents a significant 'ghost probing' risk. The car in front maintains a safe distance throughout the sequence. The potential for a collision with the pedestrians is high if they unexpectedly enter the road.",
+        "actions": "The ego vehicle maintains a consistent speed and distance from the vehicle in front.  There are no observable changes in speed or direction during this segment. The driver appears to be maintaining a safe following distance and is attentive to the road ahead.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_011",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.7s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A young girl, approximately 2-3 years old, wearing a pink dress",
+                "distance": "2 meters",
+                "behavior or action impacting the vehicle": "runs into the road from behind a parked car, creating a ghost probing situation."
+            },
+            {
+                "Position": "Center",
+                "Object description": "An adult woman, appearing to be the girl's mother, wearing a dark-colored jacket",
+                "distance": "3 meters",
+                "behavior or action impacting the vehicle": "is seen momentarily distracted, failing to fully restrain the child, contributing to the ghost probing event."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "2-3",
+                "gender": "female",
+                "clothing": "pink dress",
+                "transportation": "on foot",
+                "behavior": "runs into the road from behind a parked car"
+            },
+            {
+                "age": "30-40",
+                "gender": "female",
+                "clothing": "dark-colored jacket",
+                "transportation": "on foot",
+                "behavior": "walking, momentarily distracted, failing to fully restrain the child"
+            }
+        ],
+        "summary": "A young girl in a pink dress suddenly runs into the road from behind a parked silver car directly in front of the vehicle.  An adult woman, presumably her mother, wearing a dark jacket, is seen nearby and appears momentarily distracted. The girl's sudden dash into the road creates a high-risk ghost probing situation, requiring immediate braking action from the vehicle. The speed of the girl is relatively fast, increasing the danger level.",
+        "actions": "The vehicle maintains a relatively slow speed, likely due to the presence of pedestrians and parked cars along the road. The driver appears to be alert and attentive to the surrounding environment.  The vehicle's speed is consistent with the need to maintain control and safety in a potentially hazardous area.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

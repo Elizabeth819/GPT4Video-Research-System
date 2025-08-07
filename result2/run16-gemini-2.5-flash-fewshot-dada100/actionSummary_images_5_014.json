@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_014",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male pedestrian in dark clothing, person on a dark scooter/motorcycle wearing a red helmet and dark clothing, bus driver, drivers of other vehicles (black sedan, white car, white SUV)",
+  "summary": "In this segment, the self-driving vehicle is initially stopped at an entrance gate, waiting for a barrier to lift. After the barrier is raised, the vehicle proceeds slowly through an archway into a busy intersection. As the vehicle navigates this area, a large green bus crosses its path from left to right. Immediately following the bus, a person on a dark scooter, previously obscured by the bus, suddenly emerges from behind it on the right side and moves directly into the vehicle's path. This sudden appearance from behind a moving obstruction creates a dangerous 'ghost probing' situation, requiring immediate evasive action.",
+  "actions": "The self-driving vehicle is initially stationary, waiting for the entrance barrier to lift. Once the barrier is raised, the vehicle begins to accelerate slowly and proceeds cautiously through the archway. As it enters the open intersection, the vehicle maintains a slow speed due to the presence of multiple crossing entities. When a large green bus crosses its path from left to right, the vehicle likely maintains its slow speed or prepares to yield. Immediately after the bus clears, a person on a scooter suddenly emerges from behind the bus on the right side, moving into the vehicle's path. The vehicle initiates rapid deceleration or emergency braking in response to this unexpected and sudden appearance, prioritizing collision avoidance.",
+  "key_objects": "1) Right side: A green bus, approximately 5-10 meters away, moving from left to right, acting as a moving obstruction that temporarily hides other traffic. 2) Right side: A person on a dark scooter/motorcycle, wearing a red helmet and dark clothing, approximately 3-5 meters away, suddenly emerging from behind the green bus and entering the vehicle's path from right to left.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

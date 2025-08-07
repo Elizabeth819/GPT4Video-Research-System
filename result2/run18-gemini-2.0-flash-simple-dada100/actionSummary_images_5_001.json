@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver navigating a city street at night. There are pedestrians visible on the sidewalks and crossing the street. Other vehicles are present, including cars and motorcycles. The pedestrians appear to be of various ages and are dressed in casual clothing. The vehicles are typical city cars.",
+  "summary": "The vehicle starts driving on a straight road at night. There are buildings and shops on both sides of the road. The vehicle approaches an intersection with a traffic light. Pedestrians are crossing the street. The vehicle slows down and stops at the intersection.",
+  "actions": "The vehicle initially maintains a constant speed while driving straight. As it approaches the intersection, the driver begins to decelerate in preparation for a potential stop. The vehicle comes to a complete stop at the intersection, likely due to a red light or pedestrian crossing.",
+  "key_objects": "1) Left side: Pedestrians crossing the street, medium distance, potential collision risk if they enter the vehicle's path unexpectedly. 2) Center: Traffic light, far distance, dictates whether the vehicle can proceed through the intersection.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

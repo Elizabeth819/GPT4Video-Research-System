@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_014",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road with parked cars on both sides. The road is relatively clear with no immediate obstacles or pedestrians visible. The vehicle maintains a steady speed and direction throughout the segment.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, maintaining its lane and direction. There are no sudden changes in speed or direction, indicating a smooth and controlled driving experience.",
+        "key_objects": "1) Left side: Parked cars, approximately 2 meters away, stationary and posing no immediate threat. 2) Right side: Parked cars, approximately 2 meters away, stationary and posing no immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_014",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.7s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving through an urban area with buildings on both sides. The road ahead is clear, and there is a white sedan visible on the right side of the road.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the urban area. The vehicle is keeping a safe distance from the white sedan on the right side.",
+        "key_objects": "1) Right side: A white sedan, approximately 3 meters away, parked and partially blocking the view.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

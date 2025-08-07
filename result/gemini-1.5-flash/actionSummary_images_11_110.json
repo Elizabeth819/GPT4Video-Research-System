@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_110",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on an urban road. The road is relatively clear with a few vehicles ahead. The white SUV on the left side is maintaining a steady speed, while the white sedan in front is moving at a consistent pace. The traffic light ahead is red, indicating that the vehicles will need to stop soon.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the white sedan ahead. The vehicle is keeping a safe distance from the car in front and is preparing to stop at the upcoming red traffic light.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving at a consistent speed. 2) Left side: A white SUV, approximately 5 meters away, maintaining a steady speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_110",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "13.0s",
+        "scene_theme": "Traffic Light",
+        "characters": "Driver of a white Mazda",
+        "summary": "In this segment, the vehicle is stopped at a red traffic light. The white Mazda in front is stationary, waiting for the light to turn green. There are no pedestrians or other vehicles visible in the immediate vicinity.",
+        "actions": "The self-driving vehicle is stationary, waiting at the red light. The vehicle maintains a safe distance from the white Mazda ahead, ensuring no sudden movements or collisions.",
+        "key_objects": "1) Front: A white Mazda, approximately 3 meters away, stationary, waiting at the red light.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_12_004",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrians, cyclists",
+        "summary": "In this segment, the vehicle is driving through a busy urban intersection. Multiple pedestrians and cyclists are visible on both sides of the road. The traffic light ahead turns red, and the vehicle ahead slows down. The self-driving vehicle maintains a steady speed while approaching the intersection.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The vehicle ahead is slowing down due to the red traffic light. The self-driving vehicle is preparing to stop as the traffic light turns red.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, slowing down due to the red traffic light. 2) Left side: Multiple pedestrians, approximately 5 meters away, walking towards the intersection. 3) Right side: Cyclists, approximately 10 meters away, moving towards the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_12_004",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "14.9s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white van",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a white van is moving from the right side lane into the self-vehicles lane. The driver mentions that the van is cutting in from the adjacent lane, causing the self-vehicle to slow down.",
+        "actions": "The self-driving vehicle is slowing down to avoid a collision with the white van that is cutting in from the right side lane. Over the past 4.9 seconds, the vehicles speed gradually decreased, maintaining a safe distance from the van ahead.",
+        "key_objects": "1) Front: A white van, relatively close, approximately 5 meters away, moving from the right side lane into the self-vehicles lane, causing the self-vehicle to decelerate.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

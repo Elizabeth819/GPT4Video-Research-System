@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_093",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a white SUV, driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. The white SUV ahead is maintaining a steady speed, while the black sedan on the right lane is overtaking the white SUV. The traffic is moderate, and the vehicles are moving smoothly without any sudden changes in speed or direction.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the white SUV ahead. The black sedan on the right lane is overtaking the white SUV, but it does not pose any immediate threat to the self-driving vehicle.",
+        "key_objects": "1) Front: A white SUV, approximately 5 meters away, maintaining a steady speed. 2) Right: A black sedan, approximately 3 meters away, overtaking the white SUV.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

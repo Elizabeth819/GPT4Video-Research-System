@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_5_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Rural",
+        "characters": "Driver of a red tricycle",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, a white sedan is seen on the left side of the road. As the vehicle progresses, a red tricycle appears ahead, moving slowly and eventually stopping on the right side of the road.",
+        "actions": "The self-driving vehicle maintains a consistent speed while approaching the red tricycle. The vehicles speed remains steady as it navigates the rural road, keeping a safe distance from the tricycle ahead.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, parked and not moving. 2) Front: A red tricycle, approximately 5 meters away, moving slowly and eventually stopping on the right side of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

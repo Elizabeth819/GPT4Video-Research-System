@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "9.92s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black SUV, driver of a black car",
+        "summary": "In this segment, the vehicle is driving in the left lane of a multi-lane road. Traffic ahead is slightly congested. The vehicle is following a black SUV. A black car on the right attempts to cut into the left lane, forcing its way in front of the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while following the black SUV in the left lane. The driver is cautious due to the slight congestion ahead. The black car on the right attempts to cut into the left lane, causing the self-driving vehicle to prepare for potential braking or lane adjustment.",
+        "key_objects": "1) Front: A black SUV, approximately 5 meters away, moving slowly due to traffic congestion. 2) Right: A black car, approximately 2 meters away, attempting to cut into the left lane, posing a potential risk of collision.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "End_Timestamp": "20.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black SUV, driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a road with trees on both sides. A black SUV is ahead, and a black sedan is attempting to merge into the lane from the right side. The driver comments on the unsafe lane change by the black sedan, indicating it is cutting in. The black sedan continues to merge, causing the driver to slow down. Towards the end of the segment, the vehicle approaches an intersection with a side road on the right.",
+        "actions": "The self-driving vehicle slows down to avoid a collision with the black sedan that is cutting in from the right side. The vehicle maintains a safe distance from the black SUV ahead while monitoring the merging black sedan.",
+        "key_objects": "1) Front: A black SUV, approximately 5 meters away, maintaining a steady speed. 2) Right: A black sedan, approximately 2 meters away, merging into the lane, causing the self-driving vehicle to decelerate.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "21.0s",
+        "End_Timestamp": "30.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a rural road. A black sedan on the right side attempts to merge into the lane from a perpendicular road. Despite seeing the approaching vehicle, the black sedan continues to merge, causing a potential collision risk.",
+        "actions": "The self-driving vehicle maintains its lane and speed initially. As the black sedan merges from the right, the self-driving vehicle decelerates to avoid a collision. The black sedan continues to merge aggressively, forcing the self-driving vehicle to further decelerate.",
+        "key_objects": "1) Right side: A black sedan, approximately 5 meters away, merging from a perpendicular road, causing the self-driving vehicle to decelerate.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_id",
+        "segment_id": "Segment_000",
+        "Start_Timestamp": "31.0s",
+        "End_Timestamp": "40.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black car, bus driver",
+        "summary": "In this segment, the vehicle is driving on a rural road with a black car ahead. The driver is unsure if the black car will stop or continue moving. The scene then transitions to an urban area with heavy traffic. The self-driving vehicle is behind a white sedan and a bus, with a white car on the left side attempting to merge into the lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while following the black car on the rural road. In the urban area, the vehicle is slowing down due to heavy traffic and the potential cut-in from the white car on the left.",
+        "key_objects": "1) Front: A black car, approximately 10 meters away, moving slowly and unpredictably. 2) Left side: A white car, approximately 5 meters away, attempting to merge into the lane. 3) Front: A white sedan, approximately 8 meters away, stopped in traffic. 4) Front: A bus, approximately 12 meters away, stopped in traffic.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_005",
+        "Start_Timestamp": "41.0s",
+        "End_Timestamp": "50.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Traffic Congestion",
+        "characters": "Driver of a white sedan, driver of a black sedan, driver of a bus",
+        "summary": "In this segment, the vehicle is driving in heavy traffic. A white sedan on the left side is attempting to change lanes into the self-driving vehicles lane. The black sedan in front is maintaining its position, while a bus on the right is also moving slowly. The white sedan on the left side is forcing its way into the lane, causing potential danger.",
+        "actions": "The self-driving vehicle is maintaining a slow speed due to heavy traffic. The vehicle is keeping a safe distance from the black sedan in front. The driver is cautious of the white sedan on the left attempting to cut in.",
+        "key_objects": "1) Left side: A white sedan, approximately 2 meters away, attempting to change lanes into the self-driving vehicles lane. 2) Front: A black sedan, approximately 5 meters away, maintaining its position. 3) Right side: A bus, approximately 3 meters away, moving slowly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

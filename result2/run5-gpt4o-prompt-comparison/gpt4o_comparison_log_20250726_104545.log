@@ -1,0 +1,23 @@
+2025-07-26 10:45:45,640 - INFO - GPT-4o Prompt对比实验开始
+2025-07-26 10:45:45,640 - INFO - Azure OpenAI API配置成功
+2025-07-26 10:45:45,640 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-26 10:45:45,641 - INFO - Deployment: gpt-4o-global
+2025-07-26 10:45:45,641 - INFO - API Key: 6bce62d365eb431e991d...
+2025-07-26 10:45:45,641 - WARNING - /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/gpt4o_prompt_comparison_experiment.py:70: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  self.ground_truth = pd.read_csv(gt_path, sep='\\t')
+
+2025-07-26 10:45:45,649 - INFO - 加载ground truth标签: 101个视频
+2025-07-26 10:45:45,650 - INFO - 开始对比实验，处理 20 个视频
+2025-07-26 10:45:45,716 - INFO - 處理視頻 1/20: images_1_001.avi
+2025-07-26 10:46:16,069 - INFO - 處理視頻 2/20: images_1_002.avi
+2025-07-26 10:46:45,384 - INFO - 處理視頻 3/20: images_1_003.avi
+2025-07-26 10:47:12,929 - INFO - 處理視頻 4/20: images_1_004.avi
+2025-07-26 10:47:39,453 - INFO - 處理視頻 5/20: images_1_005.avi
+2025-07-26 10:48:09,857 - INFO - 已保存5個視頻的中間結果
+2025-07-26 10:48:09,857 - INFO - 處理視頻 6/20: images_1_006.avi
+2025-07-26 10:48:36,322 - INFO - 處理視頻 7/20: images_1_007.avi
+2025-07-26 10:49:05,357 - INFO - 處理視頻 8/20: images_1_008.avi
+2025-07-26 10:49:32,706 - INFO - 處理視頻 9/20: images_1_009.avi
+2025-07-26 10:49:59,153 - INFO - 處理視頻 10/20: images_1_010.avi
+2025-07-26 10:50:46,805 - INFO - 已保存10個視頻的中間結果
+2025-07-26 10:50:46,807 - INFO - 處理視頻 11/20: images_1_011.avi

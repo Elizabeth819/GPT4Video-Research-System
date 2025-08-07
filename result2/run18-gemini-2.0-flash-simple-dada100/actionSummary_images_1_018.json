@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_018",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a street with parked cars on both sides. There are pedestrians crossing the street in the middle of the road. A motorcyclist is driving ahead. The pedestrians appear to be middle-aged, wearing casual clothing.",
+  "summary": "The vehicle is driving on a street with parked cars on both sides. Pedestrians are crossing the street in the middle of the road. The vehicle maintains its speed initially, then slows down as it approaches the pedestrians. The pedestrians are crossing from left to right. The vehicle continues driving after the pedestrians have crossed.",
+  "actions": "The vehicle is driving straight on a road with parked cars on both sides. The vehicle maintains its speed initially, then decelerates as it approaches pedestrians crossing the road. The driver is likely slowing down to ensure the safety of the pedestrians crossing the street. After the pedestrians cross, the vehicle continues driving straight.",
+  "key_objects": "1) Left: Pedestrians, medium distance, crossing the road, causing the vehicle to decelerate to avoid collision. 2) Left and Right: Parked cars, close distance, obstructing the view and potentially creating ghost probing situations.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

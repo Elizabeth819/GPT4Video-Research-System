@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_015",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Dangerous",
+  "characters": "The scene features an unseen driver of a silver sedan, and an unseen driver of a green three-wheeled vehicle.",
+  "summary": "The video segment begins with the autonomous vehicle approaching a multi-lane intersection under an overcast sky. A silver sedan is positioned directly in front of the vehicle, also approaching the intersection. Traffic lights for the ego vehicle's direction are green. As the vehicles proceed through the intersection, a small green three-wheeled vehicle suddenly emerges from the left side of the image, crossing the intersection from a perpendicular road. This vehicle appears from behind the immediate left of the ego vehicle, which acts as a visual obstruction. The ego vehicle continues to move forward, successfully navigating the intersection. After clearing the intersection, the road opens up, and the vehicle proceeds onto a straight section of road, indicated by a speed limit sign of 80 km/h.",
+  "actions": "The vehicle initially maintains its speed as it approaches an intersection with a green traffic light, indicating it has the right of way to proceed. As it enters the intersection, a potential hazard (a three-wheeled vehicle) suddenly appears from the left, crossing the vehicle's path. The vehicle continues to move forward, indicating that its systems or the driver determined there was sufficient clearance to proceed safely without requiring immediate braking or steering input. After successfully passing the intersection and the potential hazard, the vehicle begins to accelerate, transitioning from an intersection zone to a main road where a higher speed limit (80 km/h) is indicated, allowing for increased velocity.",
+  "key_objects": "1) Left: A green three-wheeled vehicle, appearing suddenly from the left side of the image at the intersection, crossing the ego vehicle's path. This vehicle emerged from a blind spot created by the intersection's structures and the ego vehicle's own immediate vicinity, posing an immediate collision risk. 2) Front: A silver sedan, positioned directly in front of the ego vehicle, proceeding through the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

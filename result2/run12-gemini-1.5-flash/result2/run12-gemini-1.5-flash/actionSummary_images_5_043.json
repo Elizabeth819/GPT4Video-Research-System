@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_5_043",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Driving on a city road",
+    "sentiment": "Neutral",
+    "characters": "Driver of a vehicle, other vehicles on the road",
+    "summary": "The video shows a vehicle driving straight through a city intersection.  The traffic light is green for the self-driving vehicle. There are other vehicles present, including a yellow pickup truck parked on the right side of the road near the intersection and other cars moving in the same direction. The road is relatively clear, with no immediate hazards observed. The vehicle maintains a consistent speed throughout the 10-second segment.",
+    "actions": "The self-driving vehicle proceeds straight through the intersection at a consistent speed, maintaining a safe following distance from the vehicle ahead. The vehicle's speed is moderate, appropriate for the urban environment.  The driver appears to be following traffic laws and maintaining situational awareness.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_043",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "17.0s",
+    "scene_theme": "Urban driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a car, other drivers, a three-wheeled motorized cargo vehicle operator.",
+    "summary": "The video shows a car driving down a city street.  Several other vehicles are visible, parked and moving.  Around 14.7 seconds, a blue three-wheeled motorized cargo vehicle crosses the road from the right side, passing in front of the recording vehicle. The vehicle's speed is relatively low throughout the sequence. No immediate dangerous situations are observed, although the three-wheeled vehicle's crossing requires attention.",
+    "actions": "The self-driving vehicle maintains a consistent speed, navigating a city street with other vehicles present. The vehicle stays in its lane and does not appear to accelerate or decelerate significantly. The driving behavior is cautious and adaptive to the surrounding traffic.",
+    "key_objects": "Front: Several cars, approximately 20-30 meters away, moving at a similar speed. Right: A blue three-wheeled motorized cargo vehicle, approximately 5 meters away at closest approach, crossing the road from right to left.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

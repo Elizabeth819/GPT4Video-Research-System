@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving straight on a city street. A motorcycle appears from the left and proceeds straight.",
+    "actions": "Ego vehicle driving straight. Motorcycle driving straight.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, motorcycle, road, buildings",
+    "key_actions": "potential ghost probing",
+    "next_action": "Continue driving straight"
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle continues driving straight. A motorcycle has crashed in the middle of the road.",
+    "actions": "Ego vehicle driving straight. Motorcycle crashed.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, crashed motorcycle, road, buildings",
+    "key_actions": "accident",
+    "next_action": "Braking, swerving to avoid the accident"
+  }
+]

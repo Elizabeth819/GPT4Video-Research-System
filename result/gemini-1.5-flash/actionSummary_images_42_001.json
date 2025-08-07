@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_42_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road with moderate traffic. A cyclist on the right side of the road suddenly falls off the bike and lies on the ground, causing potential danger for the self-driving vehicle. The vehicle ahead is maintaining a steady speed, while the self-driving vehicle needs to react to the sudden appearance of the cyclist.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the traffic lights ahead. The vehicle is also monitoring the cyclist on the right side who has fallen off the bike, ensuring to avoid any sudden movements that could lead to a collision.",
+        "key_objects": "1) Right side: A cyclist, approximately 5 meters away, has fallen off the bike and is lying on the ground, causing potential danger for the self-driving vehicle.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

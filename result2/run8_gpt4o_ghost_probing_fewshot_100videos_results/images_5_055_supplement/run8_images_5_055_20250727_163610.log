@@ -1,0 +1,8 @@
+2025-07-27 16:36:10,243 - INFO - Run 8: 处理images_5_055.avi开始
+2025-07-27 16:36:10,243 - INFO - Azure OpenAI API配置成功
+2025-07-27 16:36:10,243 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-27 16:36:10,243 - INFO - Deployment: gpt-4o-global
+2025-07-27 16:36:10,243 - INFO - Temperature: 0 (与Run 8完全一致)
+2025-07-27 16:36:10,243 - INFO - 开始处理视频: images_5_055.avi
+2025-07-27 16:36:24,469 - INFO - 视频 images_5_055.avi: GT=unknown, 检测=emergency braking due to pedestrian crossing, 评估=FN
+2025-07-27 16:36:24,469 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8_gpt4o_ghost_probing_fewshot_100videos_results/images_5_055_supplement/run8_images_5_055_results_20250727_163610.json

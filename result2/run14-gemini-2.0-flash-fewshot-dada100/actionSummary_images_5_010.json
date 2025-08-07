@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_010",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A man wearing a red helmet and a green jacket is riding a motorcycle. The man falls off the motorcycle in the middle of the road.",
+  "summary": "The vehicle is driving on a rural road. A man wearing a red helmet and a green jacket is riding a motorcycle in the opposite direction. The man suddenly falls off the motorcycle and lands in the middle of the road, directly in the path of the vehicle. This creates a dangerous situation requiring immediate reaction from the driver.",
+  "actions": "The vehicle is driving at a constant speed on a rural road. The driver maintains the speed until the motorcyclist falls off the motorcycle. The driver will need to decelerate to avoid hitting the motorcyclist.",
+  "key_objects": "1) Front: A man wearing a red helmet and a green jacket, approximately 5 meters away, falling off a motorcycle and landing in the middle of the road.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

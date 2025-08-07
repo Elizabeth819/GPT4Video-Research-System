@@ -1,0 +1,74 @@
+[
+    {
+        "video_id": "dada_46_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving through an urban area. The road is relatively clear with a few parked cars on the sides. The vehicle maintains a steady speed and lane position throughout the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "1) Left side: A white sedan, approximately 3 meters away, parked on the roadside. 2) Right side: A white car, approximately 5 meters away, parked on the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_46_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Person on the ground, motorcycle rider",
+        "summary": "In this segment, the vehicle is driving on a city road at night. A person wearing a yellow shirt is lying on the ground in front of the vehicle, and a motorcycle rider is nearby. The situation appears to be an accident, and the vehicle is approaching the scene.",
+        "actions": "The self-driving vehicle is slowing down to avoid hitting the person lying on the ground. The vehicles speed is gradually decreasing to ensure safety and avoid collision.",
+        "key_objects": "1) Front: A person wearing a yellow shirt, approximately 5 meters away, lying on the ground, causing the vehicle to decelerate. 2) Left: A motorcycle rider, approximately 3 meters away, stationary, possibly involved in the accident.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_46_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist, pedestrian",
+        "summary": "In this segment, the vehicle is driving on a city road at night. A cyclist on the left side of the road has fallen, and a pedestrian is approaching the fallen cyclist. The cyclist is wearing a yellow jacket and appears to be injured. The pedestrian is moving towards the cyclist, possibly to assist.",
+        "actions": "The self-driving vehicle is slowing down to avoid the fallen cyclist and the approaching pedestrian. The vehicles speed is decreasing to ensure safety and avoid collision.",
+        "key_objects": "1) Left side: A cyclist wearing a yellow jacket, approximately 5 meters away, fallen on the road, causing the vehicle to slow down. 2) Left side: A pedestrian, approximately 6 meters away, approaching the fallen cyclist, potentially obstructing the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_46_001",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "15.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Child on a bicycle, child walking, adult standing",
+        "summary": "In this segment, the vehicle is driving on a city street at night. On the left side, a child on a bicycle and another child walking are present. An adult is standing nearby. The children are moving towards the road, creating a potential hazard.",
+        "actions": "The self-driving vehicle is maintaining a slow speed to avoid any sudden movements from the children. The vehicle is likely preparing to stop or decelerate further to ensure safety.",
+        "key_objects": "1) Left side: A child on a bicycle, approximately 3 meters away, moving towards the road. 2) Left side: A child walking, approximately 4 meters away, moving towards the road. 3) Left side: An adult standing, approximately 5 meters away, observing the children.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving on a city street. Several scooters and pedestrians are crossing the street. A pedestrian suddenly appears from behind parked scooters.",
+    "actions": "Ego vehicle is moving forward. Scooters are crossing the street. Pedestrians are crossing the street.",
+    "characters": "Pedestrians, scooter riders",
+    "key_objects": "Ego vehicle, scooters, pedestrians, parked scooters",
+    "key_actions": "potential ghost probing",
+    "next_action": "Continue driving forward, potentially braking if necessary."
+  }
+]

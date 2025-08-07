@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_001",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several individuals on scooters and motorcycles, some wearing helmets, are present on the road. A bus is also visible in the distance. A man is walking on the sidewalk on the right side of the road.",
+  "summary": "The vehicle is driving on a city street with moderate traffic. Several scooters and motorcycles are sharing the road. A bus is visible ahead. The road is straight and the weather appears to be clear. There are parked vehicles along the right side of the road. A man is walking on the sidewalk on the right side of the road.",
+  "actions": "The vehicle is maintaining a steady speed and driving straight ahead. The driver is likely maintaining speed due to the clear road conditions and moderate traffic. The vehicle is staying in its lane.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_11_070",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, bus driver, taxi driver",
+        "summary": "In this segment, the vehicle is driving on an urban road. The road is moderately busy with a white sedan, a bus, and a taxi visible. The white sedan is ahead on the left side, the bus is on the right side, and the taxi is on the left side. The road conditions appear normal with no immediate obstacles.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, keeping a safe distance from the vehicles ahead. The vehicle is driving straight without any sudden changes in direction or speed.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, moving forward. 2) Right side: A bus, approximately 5 meters away, moving forward. 3) Left side: A taxi, approximately 15 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_070",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "18.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving through an urban area. Initially, the road is clear with no immediate obstacles. As the vehicle progresses, a white sedan suddenly appears from the right side, cutting into the vehicles lane, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the urban area. Upon the sudden appearance of the white sedan from the right side, the vehicle needs to decelerate rapidly to avoid a collision.",
+        "key_objects": "1) Right side: A white sedan, approximately 5 meters away, suddenly cutting into the vehicles lane, causing a potential collision risk.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_070",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "20.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a road with a white sedan suddenly cutting into the lane from the left side. The white sedan is moving into the self-vehicles lane at a dangerously close distance, causing the self-vehicle to potentially need to brake suddenly.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed but may need to decelerate rapidly due to the white sedan cutting into its lane from the left side. The vehicles speed and direction are being monitored closely to avoid a collision.",
+        "key_objects": "1) Left side: A white sedan, approximately 2 meters away, cutting into the self-vehicles lane abruptly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

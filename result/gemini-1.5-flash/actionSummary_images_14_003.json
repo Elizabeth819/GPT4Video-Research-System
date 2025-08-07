@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_14_003",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black SUV",
+        "summary": "In this segment, the vehicle is driving on a narrow road with parked cars on both sides. A white sedan and a black SUV are ahead. The white sedan is moving slowly, and the black SUV is attempting to maneuver around it. The self-driving vehicle is maintaining a close distance behind the white sedan.",
+        "actions": "The self-driving vehicle is driving slowly, maintaining a close distance behind the white sedan. The vehicles speed is gradually decreasing as it approaches the white sedan and the black SUV ahead.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, moving slowly. 2) Front: A black SUV, approximately 10 meters away, attempting to maneuver around the white sedan.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

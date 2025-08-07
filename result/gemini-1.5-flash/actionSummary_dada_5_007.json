@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle approaches a roundabout. A motorcycle and a dark SUV enter the roundabout from the left. A pedestrian is crossing the street on the left.",
+    "actions": "Ego vehicle is approaching the roundabout. The motorcycle and SUV are driving through the roundabout. The pedestrian is crossing the street.",
+    "characters": "Pedestrian, driver of ego vehicle, driver of motorcycle, driver of SUV",
+    "key_objects": "Roundabout, motorcycle, SUV, pedestrian, crosswalk",
+    "key_actions": "potential ghost probing: A motorcycle appears from behind the SUV as it enters the roundabout, creating a potential collision risk.",
+    "next_action": "Ego vehicle will likely yield to traffic in the roundabout."
+  }
+]

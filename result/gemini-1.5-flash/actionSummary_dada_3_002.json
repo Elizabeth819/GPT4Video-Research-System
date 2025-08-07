@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_3_002",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "3.6",
+    "summary": "The ego-vehicle is driving on a road with a truck in front. There are pedestrians and cyclists on the sides of the road. In the last few frames, two pedestrians suddenly appear from the left side of the road, walking in front of the ego-vehicle.",
+    "actions": "The ego-vehicle is driving forward. The driver needs to be aware of the pedestrians crossing the road.",
+    "key_objects": [
+      "ego-vehicle",
+      "truck",
+      "pedestrians",
+      "cyclists"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "straight",
+      "lane_control": "keep lane"
+    }
+  }
+]

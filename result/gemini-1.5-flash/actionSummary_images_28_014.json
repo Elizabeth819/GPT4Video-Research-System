@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_28_014",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving through a residential area. A white sedan is ahead, moving slowly. A motorcyclist appears from the right side, moving towards the left side of the frame, potentially causing a collision.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the white sedan ahead. The motorcyclists sudden appearance from the right side prompts the vehicle to decelerate to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving slowly. 2) Right: A motorcyclist, approximately 5 meters away, moving towards the left side of the frame, potentially causing a collision.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

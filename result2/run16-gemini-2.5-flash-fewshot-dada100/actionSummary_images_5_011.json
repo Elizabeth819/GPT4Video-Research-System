@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_011",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person (gender and age not clearly discernible) accompanying a large animal, likely a cow or yak.",
+  "summary": "In this segment, the vehicle is driving on a rural road lined with bare trees. As the vehicle approaches, a white van is observed parked on the right side of the road. Suddenly, a large animal, accompanied by a person, emerges from behind this parked white van on the right side, stepping directly into the vehicle's path. The van acts as a significant visual obstruction, making the animal and person undetectable until their sudden appearance, creating an immediate and dangerous 'ghost probing' situation. The self-driving vehicle reacts swiftly by executing a sharp left turn onto a branching side road to avoid a collision. After the evasive maneuver, the vehicle proceeds along the newly entered, narrower road.",
+  "actions": "The self-driving vehicle is initially maintaining a steady speed while driving straight on the main road. Upon the sudden and unexpected emergence of a large animal and a person from behind a parked white van on the right side of the road, the vehicle immediately initiates rapid deceleration. Simultaneously, it executes a sharp left turn onto a branching side road. This decisive change in both speed and direction is a critical evasive maneuver, taken to prevent an imminent collision with the suddenly appearing obstruction in its direct path. Following the successful avoidance, the vehicle continues to navigate the newly entered side road.",
+  "key_objects": "1) Right side: A large animal (likely a cow or yak), approximately 5-10 meters away, suddenly emerging from behind a parked white van and stepping directly into the vehicle's path. 2) Right side: A person, approximately 5-10 meters away, accompanying the large animal and emerging from behind the parked white van. 3) Right side: A white van, approximately 10-15 meters away, parked on the side of the road, serving as a physical obstruction that completely obscured the animal and person until their sudden appearance.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

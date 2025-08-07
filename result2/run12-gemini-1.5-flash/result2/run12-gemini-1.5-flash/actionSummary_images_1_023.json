@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_023",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.0s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "Several pedestrians crossing a crosswalk, a driver in a dark-colored sedan.",
+    "summary": "The video shows a car driving down a city street.  Several pedestrians are crossing a crosswalk. A person on a scooter or motorcycle appears to lose control and fall in front of the car. The car appears to brake slightly but the person falls onto the road. The incident occurs in the middle of the road, near the crosswalk.",
+    "actions": "The vehicle maintains a relatively consistent speed until a person falls in the road, at which point the vehicle appears to slightly decelerate. The driver's actions suggest a reactive response to the unexpected fall.",
+    "key_objects": "1) Front: A person on a scooter or motorcycle, approximately 2 meters away at the time of the fall, lost control and fell into the road, causing a near-miss collision. 2) Front: Several pedestrians, approximately 5-10 meters away, crossing the crosswalk, not directly involved in the near-miss but present in the scene.",
+    "key_actions": "near-miss",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

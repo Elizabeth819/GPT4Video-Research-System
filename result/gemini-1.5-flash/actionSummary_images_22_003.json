@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_22_003",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a brown pickup truck",
+        "summary": "In this segment, the vehicle is driving on a wet rural road. Ahead, a brown pickup truck is visible. The truck suddenly starts to turn left, blocking the self-driving vehicles path.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the brown pickup truck. As the truck begins to turn left, the self-driving vehicle needs to decelerate rapidly to avoid a collision.",
+        "key_objects": "1) Front: A brown pickup truck, approximately 20 meters away, suddenly turning left, blocking the self-driving vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "brake",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

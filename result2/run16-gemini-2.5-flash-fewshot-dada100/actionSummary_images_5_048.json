@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_048",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) A person wearing a red jacket on a scooter. 2) A person in dark clothing and a helmet on a scooter.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road, approaching an intersection. Initially, a person on a red scooter is observed on the far right side, moving forward and then turning left at the upcoming intersection. As the self-driving vehicle proceeds into the intersection, a second person on a scooter suddenly emerges from behind a concrete roadside barrier on the right side of the vehicle. This emergence is sudden and unexpected, with the scooter appearing to have fallen immediately upon emergence, placing the person and scooter directly in the vehicle's immediate path with minimal reaction time, creating a critical ghost probing situation.",
+  "actions": "The self-driving vehicle is initially maintaining a consistent speed while approaching the intersection, navigating the road with other vehicles. Upon the sudden and unexpected emergence of the person and scooter from behind the concrete barrier on the right side, the vehicle would immediately initiate rapid deceleration and emergency braking to prevent or mitigate a collision, as the obstruction appeared directly in its path with no prior warning.",
+  "key_objects": "1) Right side: A concrete roadside barrier/wall, approximately 1-3 meters away, extending along the right side of the road, acting as a significant visual obstruction. 2) Right side: A person in dark clothing and a helmet, on a scooter, approximately 1-2 meters away, suddenly emerging from behind the concrete barrier and appearing to have fallen into the vehicle's immediate path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

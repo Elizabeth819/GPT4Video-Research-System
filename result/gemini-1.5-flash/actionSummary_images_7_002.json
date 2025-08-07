@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_7_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a narrow urban road. At 2.0s, a blue truck suddenly appears from the left side, moving into the self-driving vehicles lane, causing the vehicle to decelerate. The truck continues to move ahead, maintaining a close distance. At 9.0s, a pedestrian appears from the right side, crossing the road in front of the self-driving vehicle, causing the vehicle to decelerate further.",
+        "actions": "The self-driving vehicle decelerates rapidly at 2.0s due to the sudden appearance of the blue truck from the left side, which moves into the vehicles lane. The vehicle maintains a reduced speed to keep a safe distance from the truck ahead. At 9.0s, the vehicle decelerates further to avoid a pedestrian crossing from the right side.",
+        "key_objects": "1) Left side: A blue truck, approximately 2 meters away, moving into the self-driving vehicles lane, causing rapid deceleration. 2) Right side: A pedestrian, approximately 5 meters away, crossing the road in front of the self-driving vehicle, causing further deceleration.",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

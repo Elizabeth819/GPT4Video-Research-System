@@ -1,0 +1,128 @@
+Gemini-1.5-flash + Paper_Batch Prompt - 97个视频完整结果
+=======================================================
+
+实验基本信息:
+- 模型: Gemini-1.5-flash
+- Prompt版本: Paper_Batch (复杂4任务版本)
+- 视频数量: 97个 (DADA-2000前100个视频中的97个)
+- 实验时间: 2025-07-12 11:55:22
+- 来源文件: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/comparison/gemini_vs_gpt41_final_97videos_20250712_115521.json
+
+=======================================================
+
+性能指标 (Ghost Probing检测):
+- 精确度 (Precision): 61.19%
+- 召回率 (Recall): 77.36%
+- F1分数: 68.33%
+- 准确率 (Accuracy): 60.82%
+- 特异性 (Specificity): 40.91%
+
+详细统计:
+- True Positives (TP): 41
+- False Positives (FP): 26
+- False Negatives (FN): 12
+- True Negatives (TN): 18
+
+混淆矩阵:
+[18, 26]  [TN, FP]
+[12, 41]  [FN, TP]
+
+=======================================================
+
+与GPT-4.1对比 (相同97个视频):
+| 指标 | Gemini-1.5-flash | GPT-4.1 | 差异 |
+|------|------------------|---------|------|
+| 精确度 | 61.19% | 56.67% | +4.52% |
+| 召回率 | 77.36% | 96.23% | -18.87% |
+| F1分数 | 68.33% | 71.33% | -3.00% |
+| 准确率 | 60.82% | 57.73% | +3.09% |
+
+=======================================================
+
+模型一致性分析:
+- 两模型一致率: 70.10%
+- 分歧案例数: 29个 (占29.90%)
+
+典型分歧案例:
+1. images_5_002:
+   - Ground Truth: ghost probing
+   - Gemini: none (错误)
+   - GPT-4.1: ghost probing (正确)
+
+2. images_1_023:
+   - Ground Truth: none
+   - Gemini: none (正确)
+   - GPT-4.1: ghost probing (错误)
+
+3. images_1_017:
+   - Ground Truth: ghost probing
+   - Gemini: none (错误)
+   - GPT-4.1: ghost probing (正确)
+
+=======================================================
+
+Paper_Batch Prompt特征确认:
+✅ 使用了复杂的4任务Paper_Batch版本prompt
+✅ 结果包含详细的characters信息 (age, gender, clothing, transportation, behavior)
+✅ 复杂的key_objects结构 (Position, Object description, distance, behavior impact)
+✅ 极其详细的summary描述
+✅ 多时间段分析 (每个视频分多个segment)
+
+示例结果格式:
+{
+    "characters": [
+        {
+            "age": "5",
+            "gender": "male", 
+            "clothing": "dark clothing",
+            "transportation": "on foot",
+            "behavior": "running across the road"
+        }
+    ],
+    "key_objects": [
+        {
+            "Position": "Front",
+            "Object description": "A young child, appearing to be around 5 years old, wearing dark clothing",
+            "distance": "5",
+            "behavior or action impacting the vehicle": "running across the road from left to right, directly in front of the vehicle"
+        }
+    ]
+}
+
+=======================================================
+
+关键发现:
+
+1. **精确度优势**: Gemini比GPT-4.1精确度高4.52%，误报更少
+2. **召回率劣势**: Gemini召回率比GPT-4.1低18.87%，容易漏检
+3. **平衡性能**: 总体F1分数接近，但各有优势
+4. **安全性考虑**: GPT-4.1的高召回率(96.23%)更适合安全关键应用
+
+Gemini特点:
+- 更保守的判断策略，减少误报
+- 在明确案例上表现良好
+- 对边界情况可能过于谨慎
+
+GPT-4.1特点:
+- 更激进的检测策略，减少漏检
+- 高召回率确保安全性
+- 可能产生更多误报
+
+=======================================================
+
+数据来源详情:
+- 总结果文件: 745个JSON文件 (/Users/wanmeng/repository/GPT4Video-cobra-auto/result/gemini-1.5-flash/)
+- 有效分析: 97个视频成功处理
+- 缺失视频: images_2_005, images_5_043, images_5_054 (3个)
+- 处理完整性: 97/100 = 97%
+
+=======================================================
+
+结论:
+Gemini-1.5-flash配合Paper_Batch复杂prompt在97个视频上取得了68.33%的F1分数，
+表现出更高的精确度但相对较低的召回率。对于ghost probing这种安全关键场景，
+GPT-4.1的96.23%召回率可能更适合实际应用，但Gemini的61.19%精确度在研究
+分析场景中具有价值。
+
+提取时间: 2025-07-26
+基于真实实验数据的完整分析结果

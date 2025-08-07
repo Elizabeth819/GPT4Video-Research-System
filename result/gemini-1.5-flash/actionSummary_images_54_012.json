@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_54_012",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, the road is clear, but as the vehicle progresses, a dog suddenly appears from the left side of the road, running across the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the dog appears suddenly from the left side, the vehicle needs to decelerate rapidly to avoid a collision.",
+        "key_objects": "1) Left side: A dog, approximately 5 meters away, running across the road from left to right, causing the vehicle to decelerate rapidly.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_54_012",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "7.7s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a rural road. The road ahead is clear, but visibility is slightly reduced due to weather conditions. The vehicle maintains a steady speed and direction throughout the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, likely due to the clear road ahead and the absence of immediate obstacles or other vehicles in close proximity.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

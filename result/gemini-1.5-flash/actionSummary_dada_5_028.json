@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving on a city street with moderate traffic. Several cars are ahead and to the right. The ego vehicle is slowing down.",
+    "actions": "Ego vehicle is driving straight and slowing down. Other vehicles are moving in the same direction.",
+    "characters": [],
+    "key_objects": "Ego vehicle, other cars, buildings, pedestrian overpass",
+    "key_actions": "No significant actions detected.",
+    "next_action": "Continue driving straight and slowing down."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle continues to slow down as it approaches an intersection. A scooter appears from behind a parked bus on the right side of the road.",
+    "actions": "Ego vehicle is braking. A scooter is entering the roadway from behind a bus.",
+    "characters": [
+      "Scooter driver"
+    ],
+    "key_objects": "Ego vehicle, other cars, scooter, bus, pedestrian overpass",
+    "key_actions": "potential ghost probing",
+    "next_action": "Continue braking and potentially swerving to avoid the scooter."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_023",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person wearing dark clothing and a helmet is riding a motorcycle. Another person wearing dark clothing and a red helmet is riding a different motorcycle.",
+  "summary": "The video begins with the vehicle driving straight on a multi-lane road under clear daytime conditions. Initially, a motorcycle is seen ahead, turning left across the vehicle's path, which the vehicle safely passes. As the vehicle continues, approaching an intersection or a turn-off point, a second motorcycle suddenly emerges from the left side of the road, from behind a visual obstruction (likely a building or trees/parked vehicles), and makes an immediate right turn directly into the vehicle's path. This sudden appearance at approximately 9.0s creates an immediate collision risk within the analyzed timeframe.",
+  "actions": "The vehicle maintains a consistent forward speed from 0.0s to approximately 8.0s, navigating a straight road segment and safely passing a motorcycle that turned left ahead. Around 8.0s-9.0s, as the vehicle approaches a junction, a motorcycle suddenly appears from the left, entering the vehicle's lane. The driver's immediate response, implied by the sudden appearance of the hazard, would be to initiate rapid deceleration to avoid a collision, as the motorcycle's sudden entry leaves minimal reaction time.",
+  "key_objects": "1) Left side: A motorcycle, in very close proximity, suddenly emerging from behind a building/trees/parked vehicles and turning right into the vehicle's path, creating an immediate collision hazard.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

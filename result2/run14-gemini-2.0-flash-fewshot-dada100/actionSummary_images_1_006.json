@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_006",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several vehicles including cars, motorcycles, and buses are present. A young boy wearing a blue shirt and carrying a backpack is attempting to cross the road.",
+  "summary": "The vehicle is driving on a busy urban street with cars parked along the right side. From 0.0s to 9.0s, the vehicle is moving forward in traffic. At approximately 9.0s, a young boy wearing a blue shirt and carrying a backpack suddenly appears from behind a parked black car on the left side of the road and attempts to cross the street. This creates a dangerous \"ghost probing\" situation as the boy was not visible until he emerged from behind the parked car.",
+  "actions": "The vehicle is initially moving with the flow of traffic. Upon seeing the boy emerge from behind the parked car, the driver likely initiates braking to avoid a collision. The driver's action is a direct response to the sudden appearance of the boy.",
+  "key_objects": "1) Left side: A young boy wearing a blue shirt and carrying a backpack, approximately 3 meters away, suddenly emerging from behind a parked black car and attempting to cross the street. 2) Left side: A parked black car, approximately 4 meters away, creating a visual obstruction that hides the boy until he emerges into the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

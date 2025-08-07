@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_052",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child on the right side of the image, a pedestrian on the left side of the image, a cyclist on the right side of the image, and a motorcyclist on the right side of the image.",
+  "summary": "The video sequence shows multiple instances of ghost probing behavior. In the first sequence, a child suddenly emerges from behind a parked vehicle on the right side, directly entering the driving lane. In the second sequence, a pedestrian darts out from behind a parked van on the left side, creating an immediate collision risk. In the third sequence, a cyclist appears from behind a parked truck on the right side, entering the driving path. In the fourth sequence, a motorcyclist emerges from behind a roadside structure on the right side, leading to a collision.",
+  "actions": "The child runs into the driving lane from the right side, the pedestrian crosses from the left side, the cyclist enters from the right side, and the motorcyclist collides with the vehicle.",
+  "key_objects": "Parked vehicles on both sides of the road, roadside structures, and moving vehicles.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "video_id": "images_1_017",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Driving on a tree-lined road",
+    "characters": "Driver of a vehicle, other drivers in cars and buses",
+    "summary": "The video shows a car driving down a tree-lined road.  The road is relatively clear with other vehicles, including buses and cars, traveling in the same direction. The self-driving vehicle maintains a consistent speed and distance from the car ahead. No sudden appearances of vehicles or pedestrians are observed. Traffic flow is moderate.",
+    "actions": "The self-driving vehicle maintains a consistent speed and distance from the vehicle in front throughout the 10-second segment.  The vehicle stays in its lane and does not make any turns or sudden braking maneuvers. The speed appears to be moderate, adjusting slightly to maintain a safe following distance from the car ahead. This suggests a cautious and controlled driving style.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_017",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "20.0s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of a vehicle, other drivers, a motorcyclist",
+    "summary": "The video shows a car driving down a tree-lined street.  The road is relatively clear, with a few other vehicles and a motorcyclist present. The traffic is light to moderate.  The self-driving vehicle maintains a consistent speed and distance from the car ahead. Around the 13-second mark, a motorcyclist is visible on the right side of the road, moving in the same direction as the self-driving vehicle. No sudden or dangerous maneuvers are observed from other vehicles or the motorcyclist. The road is relatively clear of debris, and the weather appears sunny.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment.  The vehicle smoothly navigates a slight curve in the road. The driver appears to be maintaining a safe following distance from the vehicle in front. There is no evidence of braking or acceleration beyond normal driving adjustments.",
+    "key_objects": "None",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_017",
+    "segment_id": "segment_003",
+    "Start_Timestamp": "20.8s",
+    "End_Timestamp": "20.8s",
+    "scene_theme": "Driving on a tree-lined street",
+    "characters": "Driver of a vehicle, other drivers",
+    "summary": "The video shows a car driving down a tree-lined street.  There are other vehicles visible, including a white sedan parked on the left and a dark-colored sedan driving in the opposite direction. The road appears relatively clear, with no immediate hazards visible in this single frame.",
+    "actions": "The self-driving vehicle is proceeding straight down a tree-lined street at a moderate speed.  The speed appears consistent based on the lack of visible changes in the surrounding environment within this single frame. There are no apparent reasons for acceleration or deceleration.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

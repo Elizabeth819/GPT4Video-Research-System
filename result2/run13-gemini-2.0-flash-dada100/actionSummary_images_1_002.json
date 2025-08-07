@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_002",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "11.3s",
+  "summary": "The car is driving on a straight road in a rural area. From 0.0s to 4.0s, the car approaches two people walking on the right side of the road and a man riding a scooter on the left side of the road. From 4.0s to 6.0s, two people are crossing the road from right to left. From 6.0s to 11.3s, a man is walking on the right side of the road. The road is surrounded by buildings and trees. The weather is cloudy.",
+  "actions": "The vehicle is driving at a constant speed on a straight road. The driver is maintaining the current speed to navigate the straight road and avoid any sudden movements that could endanger the pedestrians and the scooter rider. The driver is likely assessing the situation and preparing to adjust speed or direction if necessary to ensure safety.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "Right side: Two people, approximately 10 meters away, crossing the road from right to left, potentially causing the vehicle to decelerate or stop. Left side: A man riding a scooter, approximately 15 meters away, approaching from the left side of the road, potentially causing the vehicle to decelerate or stop."
+}

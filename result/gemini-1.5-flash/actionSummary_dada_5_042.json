@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving straight on a city street. Other vehicles and pedestrians are present. A cyclist appears to be crossing the street from the left side of the road.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are moving in both directions. A cyclist is crossing the street.",
+    "characters": "Cyclist, pedestrians",
+    "key_objects": "Ego vehicle, other vehicles, cyclist, crosswalk, traffic lights",
+    "key_actions": "ghost probing",
+    "next_action": "Ego vehicle will continue straight, potentially braking to avoid the cyclist."
+  }
+]

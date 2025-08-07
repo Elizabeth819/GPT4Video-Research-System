@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_072",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "4.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclists",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. At the beginning, the road is clear with some vehicles ahead. As the vehicle progresses, a white sedan from the left side lane cuts into the self-vehicles lane. Further ahead, multiple motorcyclists are seen crossing the road from the right side.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. Upon noticing the white sedan cutting in from the left side lane, the vehicle decelerates to avoid a collision. The vehicle continues to decelerate as it approaches the motorcyclists crossing the road from the right side.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, cutting into the self-vehicles lane. 2) Right side: Multiple motorcyclists, approximately 15 meters away, crossing the road.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_6_016",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Various vehicles and pedestrians are present on both sides of the road. A motorcyclist appears from the right side and moves into the lane ahead of the self-driving vehicle.",
+        "actions": "The self-driving vehicle maintains a steady speed while navigating through the urban road. The vehicles speed remains consistent to avoid sudden braking or acceleration due to the presence of pedestrians and vehicles on both sides.",
+        "key_objects": "1) Right side: A motorcyclist, approximately 5 meters away, moving into the lane ahead of the self-driving vehicle. 2) Front: A white sedan, approximately 20 meters away, parked on the roadside, possibly about to start or turn suddenly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

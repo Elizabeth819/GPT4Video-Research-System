@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_47_023",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road. Ahead, a white sedan is moving steadily. A motorcyclist appears on the right side and suddenly loses control, causing a collision with the white sedan.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the white sedan. As the motorcyclist loses control and collides with the white sedan, the self-driving vehicle decelerates to avoid further collision.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving steadily. 2) Right: A motorcyclist, approximately 5 meters away, losing control and colliding with the white sedan.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

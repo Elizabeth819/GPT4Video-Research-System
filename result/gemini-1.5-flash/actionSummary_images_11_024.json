@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_024",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban Highway",
+        "characters": "Driver of a silver sedan, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on an urban highway. The road is clear with minimal traffic. A silver sedan is seen ahead, gradually moving from the right lane to the center lane. A black car is seen on the right side, initially in the adjacent lane and then moving closer to the self-driving vehicle.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position. The vehicle ahead, a silver sedan, moves from the right lane to the center lane, indicating a lane change. The black car on the right side moves closer to the self-driving vehicle, potentially indicating a cut-in behavior.",
+        "key_objects": "1) Front: A silver sedan, approximately 20 meters away, moving from the right lane to the center lane. 2) Right: A black car, approximately 5 meters away, moving closer to the self-driving vehicle, potentially indicating a cut-in.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_024",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. A black sedan on the right side is gradually overtaking the self-driving vehicle. The white sedan ahead is maintaining a consistent speed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The black sedan on the right side is overtaking the self-driving vehicle, moving ahead to take the lead position.",
+        "key_objects": "1) Right side: A black sedan, approximately 2 meters away, overtaking the self-driving vehicle. 2) Front: A white sedan, approximately 20 meters away, maintaining a consistent speed.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

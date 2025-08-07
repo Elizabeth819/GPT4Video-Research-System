@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_40_058",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road with moderate traffic. The white sedan ahead is maintaining a steady speed, while a motorcyclist is seen on the right side, gradually overtaking the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position, following the white sedan ahead. The motorcyclist on the right side is overtaking the self-driving vehicle, moving ahead.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining a steady speed. 2) Right: A motorcyclist, approximately 5 meters away, overtaking the self-driving vehicle.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

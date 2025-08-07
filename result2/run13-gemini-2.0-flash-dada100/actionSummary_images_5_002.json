@@ -1,0 +1,23 @@
+{
+  "video_id": "images_5_002",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.8s",
+  "summary": "The self-driving car is traveling on a narrow road in a rural area. From 0.0s to 2.0s, a white van is seen driving in the opposite direction. From 5.0s to 13.8s, a red three-wheeled vehicle is seen on the right side of the road, moving in the same direction as the self-driving car. A man wearing a light-colored jacket is standing near the three-wheeled vehicle. The road is narrow, and the three-wheeled vehicle is moving slowly, potentially creating a ghost probing situation if it were to suddenly move into the self-driving car's lane.",
+  "actions": "The vehicle is driving on a narrow road, maintaining a consistent speed. The driver is likely proceeding cautiously due to the limited space and the presence of other vehicles and individuals on the roadside. The vehicle slows down from 10.0s to 13.8s, likely to assess the situation with the three-wheeled vehicle and the man standing nearby on the right side of the road.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep left in this lane"
+  },
+  "characters": [
+    "White van: A white van is driving in the opposite direction.",
+    "Red three-wheeled vehicle: A red three-wheeled vehicle is on the right side of the road, moving in the same direction.",
+    "Man: A man wearing a light-colored jacket is standing near the three-wheeled vehicle."
+  ],
+  "key_objects": [
+    "Right side: Red three-wheeled vehicle, approximately 5 meters away, moving slowly in the same direction, potentially causing the vehicle to decelerate or stop.",
+    "Right side: Man wearing a light-colored jacket, approximately 5 meters away, standing near the three-wheeled vehicle, potentially stepping into the road."
+  ],
+  "key_actions": "none"
+}

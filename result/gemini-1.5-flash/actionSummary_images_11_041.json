@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_041",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a brown SUV",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. The traffic is moderate, with several vehicles visible ahead. The brown SUV in front of the self-driving vehicle is moving from the left lane to the center lane, causing the self-driving vehicle to decelerate rapidly to avoid a collision.",
+        "actions": "The self-driving vehicle decelerates rapidly due to the brown SUV cutting into its lane from the left lane. The vehicles speed decreases significantly over the last few seconds, maintaining a close distance to the brown SUV ahead.",
+        "key_objects": "1) Front: A brown SUV, approximately 2 meters away, moving from the left lane to the center lane, causing the self-driving vehicle to decelerate rapidly. 2) Left: A white sedan, approximately 5 meters away, maintaining its lane. 3) Right: A white van, approximately 5 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

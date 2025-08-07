@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_036",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male cyclist wearing a black jacket and a yellow helmet, approximately 30 years old.",
+  "summary": "The vehicle is approaching an intersection with several large trucks parked on the right side, obstructing the view. At approximately 8.0s, a male cyclist wearing a black jacket and a yellow helmet suddenly appears from behind a large white truck on the left side of the road, crossing the street. The cyclist's sudden appearance from behind the truck constitutes a ghost probing situation, as the driver has minimal time to react to avoid a potential collision.",
+  "actions": "The vehicle is approaching an intersection and decelerating, likely in preparation to make a turn or stop at the intersection. The deceleration is a safety measure due to the limited visibility caused by the parked trucks. The vehicle is slowing down to assess the situation at the intersection.",
+  "key_objects": "1) Left side: A male cyclist wearing a black jacket and a yellow helmet, approximately 5 meters away, suddenly emerging from behind a large white truck and crossing the street. 2) Left side: A large white truck, approximately 7 meters away, creating visual obstruction that hides the cyclist until emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

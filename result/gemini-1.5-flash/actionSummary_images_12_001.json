@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_12_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Two men, one in red jacket, one in black jacket, and a woman in red coat",
+        "summary": "In this segment, the vehicle is stationary on an urban road. On the right side, two men and a woman are interacting near a parked tricycle. The man in the red jacket is standing, while the man in the black jacket and the woman in the red coat are seated on the tricycle. The scene remains relatively static with no significant movement from the individuals or the vehicle.",
+        "actions": "The vehicle remains stationary throughout the segment. There is no change in speed or direction as the vehicle is parked.",
+        "key_objects": "1) Right side: A man in a red jacket, approximately 2 meters away, standing near a tricycle. 2) Right side: A man in a black jacket, approximately 2 meters away, seated on a tricycle. 3) Right side: A woman in a red coat, approximately 2 meters away, seated on a tricycle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_12_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.8s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist, bus driver",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white sedan is parked on the right side of the road, and a cyclist is moving ahead. A blue bus is approaching from the left side. The driver mentions the presence of multiple vehicles and pedestrians, indicating a high-risk environment.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the busy road. The driver is cautious due to the presence of multiple vehicles and pedestrians. The vehicles speed is consistent, ensuring safe navigation through the traffic.",
+        "key_objects": "1) Right side: A white sedan, approximately 5 meters away, parked and partially blocking the view. 2) Left side: A blue bus, approximately 10 meters away, approaching and moving forward. 3) Front: A cyclist, approximately 3 meters away, moving ahead and potentially crossing the vehicles path.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

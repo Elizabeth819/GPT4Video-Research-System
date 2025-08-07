@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_3_004",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Several pedestrians crossing the street, a cyclist on the right side of the road, and a car approaching the intersection.",
+    "summary": "The vehicle is approaching an intersection with multiple pedestrians crossing. A cyclist on the right side is also approaching the crosswalk. The presence of pedestrians and the cyclist creates a potentially dangerous situation requiring the vehicle to slow down or stop to avoid a collision. The traffic light ahead is not clearly visible, but the overall scene indicates a high level of pedestrian activity.",
+    "actions": "The self-driving vehicle is approaching an intersection with pedestrians crossing. The vehicle is likely slowing down in response to the pedestrian activity and the presence of the cyclist. The driver is assessing the situation to determine whether to stop or proceed cautiously through the intersection.",
+    "key_objects": "1) Front: Several pedestrians crossing the street, approximately 5-10 meters away, moving from left to right and right to left. 2) Right side: A cyclist, approximately 8 meters away, approaching the crosswalk and potentially entering the vehicle's path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_3_004",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.3s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Several cyclists and pedestrians are present at the intersection.",
+    "summary": "The vehicle is approaching an intersection with multiple cyclists and pedestrians present. A cyclist on the right side is crossing the road, potentially entering the vehicle's path. The cyclist's movement creates a potential ghost probing situation as they emerge from behind other pedestrians. The vehicle is approaching the intersection and needs to be cautious of the crossing individuals.",
+    "actions": "The vehicle is approaching an intersection. The driver is likely slowing down in anticipation of potential pedestrian or cyclist crossings. The presence of multiple individuals at the intersection necessitates a cautious approach.",
+    "key_objects": "1) Right side: A cyclist, approximately 5 meters away, crossing the road and potentially entering the vehicle's path. 2) Right side: Pedestrians, approximately 7 meters away, partially obstructing the view of the cyclist.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

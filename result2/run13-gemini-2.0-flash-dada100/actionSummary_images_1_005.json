@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_005",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.8s",
+  "summary": "The self-driving car is moving forward on a wet road in rainy weather. From 0.0s to 5.0s, many pedestrians with umbrellas are on the right side of the road. From 5.0s to 13.8s, a motorcyclist suddenly appears from behind parked cars on the right side of the road, creating a potential ghost probing situation. The motorcyclist is wearing a dark jacket and a helmet. The motorcyclist is moving at a moderate speed.",
+  "actions": "The vehicle is moving forward at a slow speed, likely due to the wet road conditions and the presence of pedestrians. The driver is maintaining a safe distance from the pedestrians on the right side of the road. The vehicle is proceeding cautiously, as indicated by its slow speed, to ensure the safety of pedestrians and other vehicles in the vicinity.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "Right side: A motorcyclist wearing a dark jacket and a helmet, approximately 5 meters away, suddenly appears from behind parked cars, creating a potential ghost probing situation."
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving on a straight road with trees and hills on both sides. Approaching an intersection.",
+    "actions": "Ego vehicle is moving forward. No other vehicles are visible initially.",
+    "characters": "None",
+    "key_objects": "Road, trees, hills, intersection, road divider",
+    "key_actions": "potential ghost probing",
+    "next_action": "Continue straight or prepare to turn"
+  }
+]

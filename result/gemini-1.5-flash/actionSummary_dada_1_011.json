@@ -1,0 +1,40 @@
+[
+  {
+    "video_id": "dada_1_011",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "11:32:19",
+    "End_Timestamp": "11:32:28",
+    "summary": "The vehicle is driving on a road with other vehicles. In the last few frames, pedestrians are visible on the right side of the road near a gas station.",
+    "actions": "The vehicle is maintaining its lane and speed. The driver should be aware of the pedestrians on the right side of the road.",
+    "key_objects": [
+      "vehicle",
+      "pedestrians",
+      "other vehicles"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain",
+      "direction_control": "straight",
+      "lane_control": "maintain"
+    }
+  },
+  {
+    "video_id": "dada_1_011",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "2017/04/04 11:32:29",
+    "End_Timestamp": "2017/04/04 11:32:33",
+    "summary": "A child suddenly exits a parked car on the side of the road and starts crossing the street. A woman is also present near the car. The child's sudden appearance from behind the car creates a potential hazard.",
+    "actions": "The vehicle should slow down and prepare to stop, as a child is crossing the road unexpectedly.",
+    "key_objects": [
+      "child",
+      "parked car",
+      "woman"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "slow down",
+      "direction_control": "maintain lane",
+      "lane_control": "none"
+    }
+  }
+]

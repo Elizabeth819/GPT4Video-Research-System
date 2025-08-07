@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "dada_1_001",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017/01/27 11:03:28",
+    "End_Timestamp": "2017/01/27 11:03:37",
+    "summary": "A child suddenly appears in the middle of the road, seemingly from the side of the road. The child is close to the vehicle and requires immediate braking.",
+    "actions": "The vehicle needs to brake immediately to avoid hitting the child in the road.",
+    "key_objects": [
+      "child",
+      "vehicle"
+    ],
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "decrease speed immediately",
+      "direction_control": "stay in lane",
+      "lane_control": "maintain lane"
+    }
+  }
+]

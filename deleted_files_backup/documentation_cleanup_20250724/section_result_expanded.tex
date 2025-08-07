@@ -1,0 +1,161 @@
+\section{Result Analysis}
+\label{sec/result}
+
+The performance of the AutoDrive-GPT system was evaluated on two critical driving scenarios: cut-in and ghost probing. The results of the experiments conducted on 10 videos for each scenario are summarized in Table \ref{tab:metrics} and illustrated in Figure \ref{fig:confusion_matrices}.
+
+One example of running ghost probing labeling is shown in Figure \ref{fig:resultjson}. 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1.0\linewidth]{resultjson.png}
+  \caption{The result json format of running a ghost probing labelling.}
+  \label{fig:resultjson}
+\end{figure}
+
+\begin{table}[h]
+  \centering
+  \small
+  \resizebox{0.5\textwidth}{!}{ % 这里强制缩小
+  \begin{tabular}{|l|c|c|c|p{2.5cm}|}
+    \hline
+    Scenario & Accuracy & Recall & F1 Score & Confusion Matrix \\
+    \hline
+    Cut-in & 0.829 & 0.935 & 0.879 & \makecell[l]{\{TP:29, FP:6, FN:2\}} \\ \hline
+    Ghost Probing & 0.885 & 0.719 & 0.793 & \makecell[l]{\{TP:23, FP:3, FN:9\}} \\
+    \hline
+  \end{tabular}
+  }
+  \caption{Final Metrics for Cut-in and Ghost Probing}
+  \label{tab:metrics}
+\end{table}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1.0\linewidth]{confusion_matrices.png}
+  \caption{Confusion Matrices for Cut-in and Ghost Probing. The model performs well on the Cut-in classification with high recall and F1 score, but shows lower performance on the Ghost Probing classification with higher false positives and lower recall.}
+  \label{fig:confusion_matrices}
+\end{figure}
+
+The results indicate that the AutoDrive-GPT system achieved an accuracy of 82.9\% for cut-in scenarios, with a high recall of 93.5\%, demonstrating its effectiveness in identifying abrupt lane changes. The F1 score of 0.879 reflects a balanced performance between precision and recall. In contrast, the ghost probing scenario yielded an accuracy of 88.5\%, but the recall was lower at 71.9\%, indicating challenges in detecting sudden appearances of pedestrians. The F1 score of 0.793 suggests room for improvement in this area.
+
+The confusion matrices further elucidate the model's performance, highlighting the true positives (TP), false positives (FP), and false negatives (FN) for each scenario. The cut-in scenario exhibited a strong performance with 29 true positives and only 2 false negatives, while the ghost probing scenario faced more challenges, with 9 false negatives indicating missed detections of pedestrians.
+
+In summary, while the AutoDrive-GPT system demonstrates robust performance in cut-in scenarios, further refinements are necessary to enhance its detection capabilities in ghost probing situations. Future work will focus on improving the model's sensitivity to sudden appearances of non-vehicular agents to ensure safer autonomous driving systems.
+
+\subsection{Comparative Analysis of Vision-Language Models}
+
+In this section, we present a comprehensive comparative analysis of three state-of-the-art vision-language models: GPT-4o, Gemini-1.5-flash, and Claude Sonnet 3.5. The evaluation was conducted on a larger dataset comprising 80 video segments from the DADA-2000 dataset, focusing on cut-in and ghost probing scenarios.
+
+\subsubsection{Experimental Setup}
+
+Our experimental framework included:
+\begin{itemize}
+    \item \textbf{Dataset}: 80 videos from DADA-2000 (images\_10\_001 to images\_10\_080)
+    \item \textbf{Models}: GPT-4o, Gemini-1.5-flash
+    \item \textbf{Evaluation Metrics}: Video-level accuracy, event-level accuracy, precision, recall, and F1 score
+    \item \textbf{Event Types}: Cut-in and ghost probing behaviors
+\end{itemize}
+
+\begin{table}[h]
+  \centering
+  \small
+  \resizebox{0.9\textwidth}{!}{
+  \begin{tabular}{|l|c|c|c|}
+    \hline
+    \textbf{Metric} & \textbf{GPT-4o} & \textbf{Gemini-1.5-flash} & \textbf{Difference} \\
+    \hline
+    Video-level Accuracy & 58.75\% & 52.50\% & +6.25\% \\
+    Event-level Accuracy & 29.55\% & 6.82\% & +22.73\% \\
+    Precision & 16.05\% & 9.38\% & +6.67\% \\
+    Recall & 29.55\% & 6.82\% & +22.73\% \\
+    F1 Score & 20.80\% & 7.89\% & +12.91\% \\
+    \hline
+  \end{tabular}
+  }
+  \caption{Overall Performance Comparison Between Vision-Language Models}
+  \label{tab:model_comparison}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \small
+  \resizebox{0.85\textwidth}{!}{
+  \begin{tabular}{|l|c|c|c|c|c|c|}
+    \hline
+    \multirow{2}{*}{\textbf{Event Type}} & \multicolumn{3}{c|}{\textbf{GPT-4o}} & \multicolumn{3}{c|}{\textbf{Gemini-1.5-flash}} \\
+    \cline{2-7}
+    & \textbf{Precision} & \textbf{Recall} & \textbf{F1} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} \\
+    \hline
+    Ghost Probing & 11.54\% & 13.64\% & 12.50\% & 11.54\% & 13.64\% & 12.50\% \\
+    Cut-in & 18.18\% & 45.45\% & 25.97\% & 0.00\% & 0.00\% & 0.00\% \\
+    \hline
+  \end{tabular}
+  }
+  \caption{Performance Metrics by Event Type}
+  \label{tab:event_type_performance}
+\end{table}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\linewidth]{model_comparison_analysis.png}
+  \caption{Comparative performance analysis of GPT-4o and Gemini-1.5-flash across multiple evaluation dimensions. The figure illustrates event detection distribution, video-level accuracy by scenario type, error patterns, prediction correlation, temporal distribution of events, and performance variation by event count.}
+  \label{fig:model_comparison}
+\end{figure}
+
+\subsubsection{Results and Analysis}
+
+\paragraph{Overall Performance.} As shown in Table \ref{tab:model_comparison}, GPT-4o consistently outperformed Gemini-1.5-flash across all key metrics. The most notable difference was observed in event-level accuracy and recall, where GPT-4o demonstrated a substantial advantage (+22.73\%). While both models achieved reasonable video-level accuracy, their ability to precisely identify and classify specific events within videos was more limited, indicating the challenging nature of the task.
+
+\paragraph{Event-Specific Performance.} Table \ref{tab:event_type_performance} reveals that both models struggled with ghost probing detection, achieving identical performance metrics (Precision: 11.54\%, Recall: 13.64\%, F1: 12.50\%). This suggests that ghost probing scenarios present inherent challenges for vision-language models regardless of their architecture. However, for cut-in detection, GPT-4o demonstrated notably superior performance (F1: 25.97\%) compared to Gemini-1.5-flash, which failed to detect any cut-in events successfully.
+
+\paragraph{Error Pattern Analysis.} Our error analysis revealed distinct patterns between the two models:
+\begin{itemize}
+    \item \textbf{GPT-4o}: Exhibited a higher false positive rate (25 instances), particularly in cut-in detection, but maintained a lower false negative rate (8 instances). This indicates a tendency toward over-prediction.
+    \item \textbf{Gemini-1.5-flash}: Demonstrated a lower false positive rate (10 instances) but a substantially higher false negative rate (28 instances), suggesting a more conservative detection approach.
+\end{itemize}
+
+\paragraph{Video Type Performance.} Further analysis revealed interesting complementary strengths:
+\begin{itemize}
+    \item \textbf{GPT-4o}: Performed exceptionally well on videos containing events (81.40\% accuracy) but struggled with event-free videos (32.43\% accuracy).
+    \item \textbf{Gemini-1.5-flash}: Exhibited strong performance on event-free videos (72.97\% accuracy) but poor performance on videos containing events (34.88\% accuracy).
+\end{itemize}
+
+This complementary pattern suggests potential benefits from ensemble approaches combining the strengths of both models.
+
+\paragraph{Visual Evidence.} As shown in Figure \ref{fig:gemini-vs-gpt}, qualitative analysis of model outputs confirmed these quantitative findings. GPT-4o provided more comprehensive and precise annotations than Gemini-1.5-flash. A concerning observation was Gemini's tendency to hallucinate timestamps, making its predictions difficult to locate and evaluate accurately within videos.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\linewidth]{gemini_vs_gpt-4o.png}
+  \caption{Comparative output analysis: GPT-4o vs. Gemini-1.5-flash. GPT-4o provides more comprehensive and temporally accurate annotations, while Gemini-1.5-flash exhibits timestamp hallucination and incomplete event detection.}
+  \label{fig:gemini-vs-gpt}
+\end{figure}
+
+\subsubsection{Limitations and Challenges}
+
+Several key challenges were identified in our evaluation:
+
+\begin{itemize}
+    \item \textbf{Ghost Probing Detection}: Both models struggled with the visual complexity of ghost probing scenarios, suggesting the need for enhanced feature extraction capabilities for detecting objects emerging from behind physical obstructions.
+    
+    \item \textbf{Timestamp Reliability}: Gemini-1.5-flash exhibited significant hallucination in timestamp generation, rendering its annotations temporally unreliable for practical applications.
+    
+    \item \textbf{Classification Balance}: GPT-4o's tendency toward false positives versus Gemini's propensity for false negatives highlights the challenge of optimizing the precision-recall trade-off in safety-critical applications.
+    
+    \item \textbf{Claude 3.5 Sonnet Evaluation}: Due to input constraints (limited to 5 images per query in the available interface) and regional API restrictions, comprehensive evaluation of Claude 3.5 Sonnet was not feasible in this study.
+\end{itemize}
+
+\subsubsection{Implications}
+
+The comparative analysis yields several important implications for autonomous driving systems:
+
+\begin{enumerate}
+    \item GPT-4o currently offers superior performance for cut-in detection tasks and maintains better overall event detection capabilities.
+    
+    \item The complementary error patterns of GPT-4o and Gemini-1.5-flash suggest potential benefits from hybrid or ensemble approaches that leverage the strengths of each model.
+    
+    \item Ghost probing detection remains challenging for all tested vision-language models, indicating a need for specialized feature extraction or targeted prompt engineering to enhance detection of objects emerging from visual obstructions.
+    
+    \item Timestamp accuracy is crucial for practical implementation, with GPT-4o offering more reliable temporal localization compared to Gemini-1.5-flash.
+\end{enumerate}
+
+These findings provide valuable insights for the continued development and refinement of vision-language models for autonomous driving applications, particularly in safety-critical scenarios involving unpredictable road user behaviors. 

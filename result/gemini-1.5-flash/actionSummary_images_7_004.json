@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_7_004",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a yellow truck, pedestrians on the right sidewalk",
+        "summary": "In this segment, the vehicle is driving on a city road. A yellow truck is moving ahead on the left side, and pedestrians are walking on the right sidewalk. The truck is gradually moving closer to the self-driving vehicles lane, potentially causing a cut-in situation. The pedestrians on the right sidewalk are walking towards the road, posing a potential ghost probing risk.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while monitoring the yellow truck on the left and the pedestrians on the right. The vehicle is preparing to decelerate if the truck cuts into its lane or if the pedestrians suddenly step onto the road.",
+        "key_objects": "1) Left side: A yellow truck, approximately 2 meters away, moving closer to the self-driving vehicles lane, potentially causing a cut-in. 2) Right side: Pedestrians, approximately 3 meters away, walking towards the road, posing a potential ghost probing risk.",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

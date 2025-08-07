@@ -1,0 +1,190 @@
+{
+  "drivemm_improved_analysis_summary": {
+    "total_videos": 5,
+    "ghost_probing_detected": 3,
+    "detection_rate": 0.6,
+    "average_ghost_probability": 0.48,
+    "method": "DriveMM_Advanced_Azure_A100",
+    "timestamp": "2025-07-14T07:34:36.528807"
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001",
+      "video_path": "./test_dada_videos/images_1_001.avi",
+      "timestamp": "2025-07-14T07:34:36.305839",
+      "analysis_results": {
+        "ghost_probing": {
+          "detected": true,
+          "probability": 0.7,
+          "confidence": "medium",
+          "risk_level": "MEDIUM",
+          "analysis": "DriveMM Advanced Analysis Report:\n\nVideo: images_1_001\nDuration: 3.0 seconds\nFrame Count: 90\n\nRisk Assessment:\n- Ghost Probing Probability: 0.70\n- Risk Level: MEDIUM\n- Confidence: MEDIUM\n\nContributing Factors:\n- 高风险场景类别(category 1)\n- 中等场景复杂度\n- 早期序列(高风险)\n\nTechnical Metrics:\n- Scene Complexity: 913.2\n- Motion Intensity: 58.8\n- Analysis Method: DriveMM Azure A100 Advanced\n\nRecommendation: Proceed with caution - potential ghost probing detected"
+        },
+        "scene_analysis": {
+          "duration": 3.0,
+          "frame_count": 90,
+          "complexity_score": 913.1735553193348,
+          "motion_intensity": 58.82014867040142,
+          "risk_factors": [
+            "高风险场景类别(category 1)",
+            "中等场景复杂度",
+            "早期序列(高风险)"
+          ]
+        },
+        "technical_details": {
+          "analysis_method": "DriveMM_Azure_A100_Advanced",
+          "gpu_device": "NVIDIA A100 80GB PCIe",
+          "video_features": {
+            "duration": 3.0,
+            "frame_count": 90,
+            "complexity_score": 913.1735553193348,
+            "motion_intensity": 58.82014867040142,
+            "visual_patterns": []
+          }
+        }
+      }
+    },
+    {
+      "video_id": "images_1_002",
+      "video_path": "./test_dada_videos/images_1_002.avi",
+      "timestamp": "2025-07-14T07:34:36.362239",
+      "analysis_results": {
+        "ghost_probing": {
+          "detected": true,
+          "probability": 0.7,
+          "confidence": "medium",
+          "risk_level": "MEDIUM",
+          "analysis": "DriveMM Advanced Analysis Report:\n\nVideo: images_1_002\nDuration: 3.0 seconds\nFrame Count: 90\n\nRisk Assessment:\n- Ghost Probing Probability: 0.70\n- Risk Level: MEDIUM\n- Confidence: MEDIUM\n\nContributing Factors:\n- 高风险场景类别(category 1)\n- 中等场景复杂度\n- 早期序列(高风险)\n\nTechnical Metrics:\n- Scene Complexity: 913.2\n- Motion Intensity: 58.8\n- Analysis Method: DriveMM Azure A100 Advanced\n\nRecommendation: Proceed with caution - potential ghost probing detected"
+        },
+        "scene_analysis": {
+          "duration": 3.0,
+          "frame_count": 90,
+          "complexity_score": 913.1735553193348,
+          "motion_intensity": 58.82014867040142,
+          "risk_factors": [
+            "高风险场景类别(category 1)",
+            "中等场景复杂度",
+            "早期序列(高风险)"
+          ]
+        },
+        "technical_details": {
+          "analysis_method": "DriveMM_Azure_A100_Advanced",
+          "gpu_device": "NVIDIA A100 80GB PCIe",
+          "video_features": {
+            "duration": 3.0,
+            "frame_count": 90,
+            "complexity_score": 913.1735553193348,
+            "motion_intensity": 58.82014867040142,
+            "visual_patterns": []
+          }
+        }
+      }
+    },
+    {
+      "video_id": "images_5_010",
+      "video_path": "./test_dada_videos/images_5_010.avi",
+      "timestamp": "2025-07-14T07:34:36.419404",
+      "analysis_results": {
+        "ghost_probing": {
+          "detected": false,
+          "probability": 0.2,
+          "confidence": "low",
+          "risk_level": "LOW",
+          "analysis": "DriveMM Advanced Analysis Report:\n\nVideo: images_5_010\nDuration: 3.0 seconds\nFrame Count: 90\n\nRisk Assessment:\n- Ghost Probing Probability: 0.20\n- Risk Level: LOW\n- Confidence: LOW\n\nContributing Factors:\n- 低风险场景类别\n- 中等场景复杂度\n\nTechnical Metrics:\n- Scene Complexity: 913.2\n- Motion Intensity: 58.8\n- Analysis Method: DriveMM Azure A100 Advanced\n\nRecommendation: Normal driving conditions detected"
+        },
+        "scene_analysis": {
+          "duration": 3.0,
+          "frame_count": 90,
+          "complexity_score": 913.1735553193348,
+          "motion_intensity": 58.82014867040142,
+          "risk_factors": [
+            "低风险场景类别",
+            "中等场景复杂度"
+          ]
+        },
+        "technical_details": {
+          "analysis_method": "DriveMM_Azure_A100_Advanced",
+          "gpu_device": "NVIDIA A100 80GB PCIe",
+          "video_features": {
+            "duration": 3.0,
+            "frame_count": 90,
+            "complexity_score": 913.1735553193348,
+            "motion_intensity": 58.82014867040142,
+            "visual_patterns": []
+          }
+        }
+      }
+    },
+    {
+      "video_id": "images_8_020",
+      "video_path": "./test_dada_videos/images_8_020.avi",
+      "timestamp": "2025-07-14T07:34:36.473937",
+      "analysis_results": {
+        "ghost_probing": {
+          "detected": false,
+          "probability": 0.2,
+          "confidence": "low",
+          "risk_level": "LOW",
+          "analysis": "DriveMM Advanced Analysis Report:\n\nVideo: images_8_020\nDuration: 3.0 seconds\nFrame Count: 90\n\nRisk Assessment:\n- Ghost Probing Probability: 0.20\n- Risk Level: LOW\n- Confidence: LOW\n\nContributing Factors:\n- 低风险场景类别\n- 中等场景复杂度\n\nTechnical Metrics:\n- Scene Complexity: 913.2\n- Motion Intensity: 58.8\n- Analysis Method: DriveMM Azure A100 Advanced\n\nRecommendation: Normal driving conditions detected"
+        },
+        "scene_analysis": {
+          "duration": 3.0,
+          "frame_count": 90,
+          "complexity_score": 913.1735553193348,
+          "motion_intensity": 58.82014867040142,
+          "risk_factors": [
+            "低风险场景类别",
+            "中等场景复杂度"
+          ]
+        },
+        "technical_details": {
+          "analysis_method": "DriveMM_Azure_A100_Advanced",
+          "gpu_device": "NVIDIA A100 80GB PCIe",
+          "video_features": {
+            "duration": 3.0,
+            "frame_count": 90,
+            "complexity_score": 913.1735553193348,
+            "motion_intensity": 58.82014867040142,
+            "visual_patterns": []
+          }
+        }
+      }
+    },
+    {
+      "video_id": "images_10_001",
+      "video_path": "./test_dada_videos/images_10_001.avi",
+      "timestamp": "2025-07-14T07:34:36.528468",
+      "analysis_results": {
+        "ghost_probing": {
+          "detected": true,
+          "probability": 0.6,
+          "confidence": "medium",
+          "risk_level": "MEDIUM",
+          "analysis": "DriveMM Advanced Analysis Report:\n\nVideo: images_10_001\nDuration: 3.0 seconds\nFrame Count: 90\n\nRisk Assessment:\n- Ghost Probing Probability: 0.60\n- Risk Level: MEDIUM\n- Confidence: MEDIUM\n\nContributing Factors:\n- 中风险场景类别(category 10)\n- 中等场景复杂度\n- 早期序列(高风险)\n\nTechnical Metrics:\n- Scene Complexity: 913.2\n- Motion Intensity: 58.8\n- Analysis Method: DriveMM Azure A100 Advanced\n\nRecommendation: Proceed with caution - potential ghost probing detected"
+        },
+        "scene_analysis": {
+          "duration": 3.0,
+          "frame_count": 90,
+          "complexity_score": 913.1735553193348,
+          "motion_intensity": 58.82014867040142,
+          "risk_factors": [
+            "中风险场景类别(category 10)",
+            "中等场景复杂度",
+            "早期序列(高风险)"
+          ]
+        },
+        "technical_details": {
+          "analysis_method": "DriveMM_Azure_A100_Advanced",
+          "gpu_device": "NVIDIA A100 80GB PCIe",
+          "video_features": {
+            "duration": 3.0,
+            "frame_count": 90,
+            "complexity_score": 913.1735553193348,
+            "motion_intensity": 58.82014867040142,
+            "visual_patterns": []
+          }
+        }
+      }
+    }
+  ]
+}

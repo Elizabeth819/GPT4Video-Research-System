@@ -1,0 +1,49 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+display_name: GPT-4.1 Balanced Ghost Probing Detection - 100 Videos
+description: GPT-4.1 balanced prompt ghost probing detection on 100 videos from categories 1-5
+experiment_name: gpt41-balanced-ghost-probing-100videos
+
+compute: azureml:gpt41-ghost-a100-cluster
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+command: >
+  echo "🚀 Starting GPT-4.1 Balanced Ghost Probing Detection" &&
+  echo "📊 System Information:" &&
+  python --version &&
+  echo "💾 Copying input files..." &&
+  cp target_100_videos_categories_1-5.txt . &&
+  cp groundtruth_labels.csv . &&
+  echo "✅ Files copied successfully" &&
+  echo "🔍 Processing 100 videos..." &&
+  python azure_gpt41_balanced_inference.py &&
+  echo "📁 Listing output files:" &&
+  ls -la *.json *.csv
+
+inputs:
+  video_list:
+    type: uri_file
+    path: ./target_100_videos_categories_1-5.txt
+  groundtruth:
+    type: uri_file  
+    path: ./groundtruth_labels.csv
+  inference_script:
+    type: uri_file
+    path: ./azure_gpt41_balanced_inference.py
+
+outputs:
+  results:
+    type: uri_folder
+
+limits:
+  timeout: 3600
+
+environment_variables:
+  PYTHONPATH: "/opt/miniconda/envs/aml_env/lib/python3.8/site-packages"
+
+tags:
+  model: "gpt-4.1-balanced"
+  task: "ghost-probing-detection"
+  dataset: "dada-2000-categories-1-5"
+  videos: "100"
+  experiment: "balanced-prompt-evaluation"

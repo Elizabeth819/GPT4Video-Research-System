@@ -1,0 +1,62 @@
+{
+  "experiment_info": {
+    "run_id": "Run 9",
+    "timestamp": "20250727_110008",
+    "video_count": 100,
+    "model": "GPT-4o (Azure)",
+    "prompt_version": "Paper_Batch Complex (4-Task) + Text Few-shot + Image Few-shot Examples",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "purpose": "Image Few-shot Learning增强ghost probing检测",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run9_gpt4o_ghost_probing_image_fewshot",
+    "few_shot_images_loaded": 14,
+    "prompt_characteristics": [
+      "4个详细任务",
+      "复杂验证流程",
+      "文本few-shot examples",
+      "图像few-shot examples",
+      "视觉模式识别增强",
+      "严格的分类标准",
+      "Temperature=0确保一致性",
+      "专注ghost probing检测",
+      "100视频完整评估"
+    ]
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n    \"video_id\": \"images_1_001.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Male pedestrian in dark clothing, approximately 30 years old\",\n    \"summary\": \"In this segment, the vehicle is driving on a narrow urban road with buildings on both sides. A male pedestrian wearing dark clothing suddenly emerges from behind a physical obstruction on the right side, which appears to be a covered structure, and runs directly into the vehicle's path. The pedestrian's sudden appearance creates a dangerous ghost probing situation.\",\n    \"actions\": \"The self-driving vehicle is maintaining a steady speed when the pedestrian suddenly appears from behind the obstruction on the right side. The vehicle immediately begins rapid deceleration to avoid a collision with the pedestrian.\",\n    \"key_objects\": \"1) Right side: A male pedestrian, approximately 30 years old wearing dark clothing, 5 meters away, suddenly emerging from behind a covered structure and running into the vehicle's path. 2) Right side: A covered structure, approximately 10 meters away, creating a visual obstruction that hides the pedestrian until emergence.\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}"
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n    \"video_id\": \"images_1_002.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"A child, approximately 5 years old, wearing dark clothing, running from the left side of the road\",\n    \"summary\": \"In this segment, the vehicle is driving on a rural road with buildings and pedestrians on both sides. A child suddenly emerges from behind a parked vehicle on the left side and runs directly into the vehicle's path. The child appears from behind the obstruction with minimal warning time, creating a dangerous ghost probing situation.\",\n    \"actions\": \"The self-driving vehicle is maintaining a steady speed when the child suddenly appears. The vehicle immediately begins rapid deceleration in response to the unexpected child emergence from behind the parked vehicle. The driver takes evasive action to avoid collision.\",\n    \"key_objects\": \"1) Left side: A child, approximately 5 years old, wearing dark clothing, 2 meters away, suddenly emerging from behind a parked vehicle and running into the vehicle's path. 2) Left side: A parked vehicle, approximately 5 meters away, creating a visual obstruction that hides the child until emergence.\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}"
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_003.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dramatic\",\n    \"characters\": \"Female pedestrian in a pink jacket, approximately 30 years old\",\n    \"summary\": \"In this segment, the vehicle is driving on a dimly lit urban road at night. The road is lined with street vendors and parked vehicles on both sides. A female pedestrian in a pink jacket suddenly emerges from the right side of the road, directly into the vehicle's path. The pedestrian appears from behind a parked white car, creating a dangerous ghost probing situation. The vehicle immediately initiates emergency braking to avoid a collision.\",\n    \"actions\": \"The self-driving vehicle is maintaining a steady speed when the pedestrian suddenly appears from the right side. The vehicle immediately begins rapid deceleration in response to the unexpected pedestrian emergence from behind the parked white car. The driver takes evasive action to avoid collision.\",\n    \"key_objects\": \"1) Right side: A female pedestrian, approximately 30 years old wearing a pink jacket, 2 meters away, suddenly emerging from behind a parked white car and stepping into the vehicle's path. 2) Right side: A white car, approximately 5 meters away, parked and creating visual obstruction that hides the pedestrian until emergence.\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n    \"video_id\": \"images_1_004.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Male pedestrian in dark clothing, approximately 40 years old\",\n    \"summary\": \"In this segment, the vehicle is driving on a rural road with minimal traffic. A male pedestrian wearing dark clothing suddenly emerges from behind a building on the right side and steps directly into the vehicle's path. The pedestrian appears from behind the obstruction with minimal warning time, creating a dangerous ghost probing situation.\",\n    \"actions\": \"The self-driving vehicle is maintaining steady speed when the pedestrian suddenly appears. The vehicle immediately begins rapid deceleration in response to the unexpected pedestrian emergence from behind the building. The driver takes evasive action to avoid collision.\",\n    \"key_objects\": \"1) Right side: A male pedestrian, approximately 40 years old wearing dark clothing, 5 meters away, suddenly emerging from behind a building and stepping into the vehicle's path. 2) Right side: A building, approximately 10 meters away, creating visual obstruction that hides the pedestrian until emergence.\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}"
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n    \"video_id\": \"images_1_005.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Multiple pedestrians, including children and adults, some holding umbrellas, crossing the street\",\n    \"summary\": \"In this segment, the vehicle is driving on a busy urban road during rainy weather. There are multiple pedestrians, including children and adults, crossing the street from the right side. Some pedestrians are holding umbrellas, which obstruct their visibility. The pedestrians are emerging from behind a parked bus on the left side and a tree on the right side, creating a potential ghost probing situation.\",\n    \"actions\": \"The self-driving vehicle is maintaining a slow speed due to the rainy conditions and the presence of pedestrians. As pedestrians begin to cross from the right side, the vehicle initiates deceleration to ensure their safety. The vehicle remains vigilant for any sudden movements from the pedestrians, especially those emerging from behind the bus and tree.\",\n    \"key_objects\": \"1) Right side: Multiple pedestrians, including children and adults, approximately 3-5 meters away, crossing the street. 2) Left side: A parked bus, approximately 5 meters away, creating a visual obstruction. 3) Right side: A tree, approximately 2 meters away, creating a visual obstruction.\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}"
+    }
+  ]
+}

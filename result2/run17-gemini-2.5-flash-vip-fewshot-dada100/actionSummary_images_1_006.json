@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_006",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "City Street",
+    "characters": "Several cars and a bus are visible on the road. A person wearing a red shirt is visible on the left side of the road.",
+    "summary": "The vehicle is driving on a city street with moderate traffic. There are several cars ahead and a bus further down the road. A person wearing a red shirt is visible on the left side of the road, potentially crossing or walking along the sidewalk. The vehicle maintains a steady speed and follows the flow of traffic.",
+    "actions": "The vehicle is maintaining a consistent speed, likely adhering to the speed limit of the city street. The driver is keeping a safe distance from the car in front and monitoring the surrounding traffic. The vehicle is staying in the current lane, following the road's path.",
+    "key_objects": "1) Left side: A person wearing a red shirt, approximately 10 meters away, potentially crossing the road.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_006",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.1s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Child in light-colored clothing",
+    "summary": "The vehicle is driving on a street with parked cars on the left. A child in light-colored clothing suddenly appears from behind a parked car on the left side of the road and enters the vehicle's path. The child's sudden appearance from behind the parked car creates a dangerous ghost probing situation.",
+    "actions": "The self-driving vehicle is maintaining a steady speed. Upon the sudden appearance of the child from behind the parked car, the vehicle will likely initiate rapid deceleration to avoid a potential collision.",
+    "key_objects": "1) Left side: A child in light-colored clothing, approximately 3 meters away, suddenly emerging from behind a parked car and entering the vehicle's path. 2) Left side: A parked car, approximately 4 meters away, creating a visual obstruction that hides the child until emergence.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

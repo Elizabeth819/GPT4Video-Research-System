@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving on a wet road in rainy conditions. The vehicle approaches a traffic light which turns green. Other vehicles are visible in the distance.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are moving in the same direction.",
+    "characters": "None",
+    "key_objects": "Traffic light, other vehicles, road, crosswalk",
+    "key_actions": "None",
+    "next_action": "Continue driving straight through the intersection."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "The ego vehicle proceeds through the intersection as the traffic light is green. A pedestrian and a motorcycle appear on the right side of the road, crossing the street.",
+    "actions": "Ego vehicle is driving through the intersection. A pedestrian and a motorcycle are crossing the street.",
+    "characters": "Pedestrian",
+    "key_objects": "Traffic light, road, crosswalk, motorcycle, pedestrian",
+    "key_actions": "potential ghost probing: A motorcycle and a pedestrian appear from behind the vehicle on the right side of the road.",
+    "next_action": "Continue driving straight."
+  }
+]

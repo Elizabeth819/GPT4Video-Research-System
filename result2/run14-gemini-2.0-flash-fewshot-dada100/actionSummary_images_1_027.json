@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_027",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "None visible in immediate vicinity",
+  "summary": "The vehicle is driving on a narrow road in a rural area. Buildings are present on both sides of the road. The road appears clear with no immediate obstacles or pedestrians visible. The vehicle approaches a gas station on the left side of the road. A red truck is parked near the gas station.",
+  "actions": "The vehicle is maintaining a consistent speed while driving on the narrow road. The driver is likely proceeding cautiously due to the limited visibility and the presence of buildings close to the road. The vehicle is approaching a gas station, but there is no indication of slowing down or turning, suggesting the driver is not planning to stop there.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

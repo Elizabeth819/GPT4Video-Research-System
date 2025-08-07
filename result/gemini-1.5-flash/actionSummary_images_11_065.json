@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_065",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Rural Road",
+        "characters": "Driver of a self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a rural road. Ahead, a truck carrying logs is visible. The truck is moving slowly, and a person on a bicycle appears on the right side of the road in the last frame.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the truck ahead at a safe distance. The vehicle is staying in its lane and adjusting its speed to match the trucks pace.",
+        "key_objects": "1) Front: A truck carrying logs, approximately 20 meters away, moving slowly. 2) Right: A person on a bicycle, approximately 5 meters away, moving forward along the side of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_065",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "11.3s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a road surrounded by trees. There are no visible pedestrians, cyclists, or other vehicles in the frames provided.",
+        "actions": "The vehicle is maintaining a consistent speed and direction, as there are no obstacles or other vehicles in the vicinity.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

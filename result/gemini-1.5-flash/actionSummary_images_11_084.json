@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_084",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating a winding road with a clear view ahead. At 7.0s, a black car appears from the right side, moving towards the self-driving vehicles lane. The self-driving vehicle maintains a steady speed and direction throughout the segment.",
+        "actions": "The self-driving vehicle maintains a consistent speed and direction while navigating the winding road. At 7.0s, the vehicle encounters a black car moving towards its lane, prompting the driver to stay alert and maintain control.",
+        "key_objects": "1) Right side: A black car, approximately 10 meters away, moving towards the self-driving vehicles lane, potentially causing a need for evasive action.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_100",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of a brown sedan",
+        "summary": "In this segment, the vehicle is driving on an urban highway. Initially, the road is clear with a few vehicles ahead. As the vehicle progresses, a brown sedan on the left side moves closer to the self-vehicles lane, potentially indicating a cut-in behavior. The self-vehicle maintains a steady speed and lane position throughout the segment.",
+        "actions": "The self-vehicle maintains a steady speed and lane position. The driver is cautious of the brown sedan on the left side, which appears to be moving closer to the self-vehicles lane.",
+        "key_objects": "1) Left side: A brown sedan, approximately 2 meters away, moving closer to the self-vehicles lane, potentially indicating a cut-in behavior.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_100",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "11.2s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban highway. Ahead, a white sedan is moving steadily in the same lane. The driver mentions that the traffic is moderate and the road is clear.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the white sedan ahead at a safe distance. The vehicle is staying in its lane and adjusting speed to match the flow of traffic.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving steadily in the same lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

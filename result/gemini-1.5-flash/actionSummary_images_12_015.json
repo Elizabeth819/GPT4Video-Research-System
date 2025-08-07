@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_12_015",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a white sedan, driver of a black car, driver of a white car",
+        "summary": "In this segment, the vehicle is driving on an urban road. The traffic is moderate, with several cars visible ahead. The white sedan is consistently in front of the observer vehicle, while a black car and another white car are seen on the right side.",
+        "actions": "The self-driving vehicle maintains a steady speed, keeping a safe distance from the white sedan ahead. The vehicle adjusts its position slightly to the left to avoid the black car merging from the right lane.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a consistent speed. 2) Right: A black car, approximately 5 meters away, merging into the observer vehicles lane. 3) Right: Another white car, approximately 3 meters away, moving parallel to the observer vehicle.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_12_015",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.1s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. A white sedan is seen on the left side of the road, moving towards the center lane. The traffic ahead is moderate, and the road is clear with no immediate obstacles.",
+        "actions": "The self-driving vehicle maintains a steady speed and lane position. The white sedan on the left is moving towards the center lane, but there is no immediate threat of collision.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, moving towards the center lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

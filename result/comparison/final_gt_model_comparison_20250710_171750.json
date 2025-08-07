@@ -1,0 +1,78 @@
+{
+  "analysis_timestamp": "2025-07-10T17:17:50.276131",
+  "ground_truth_info": {
+    "total_gt_samples": 100,
+    "positive_samples": 52,
+    "negative_samples": 48
+  },
+  "gpt4o_metrics": {
+    "model": "GPT-4o",
+    "accuracy": 0.53,
+    "precision": 0.5274725274725275,
+    "recall": 0.9230769230769231,
+    "f1_score": 0.6713286713286714,
+    "specificity": 0.10416666666666667,
+    "balanced_accuracy": 0.5136217948717949,
+    "true_positives": 48,
+    "true_negatives": 5,
+    "false_positives": 43,
+    "false_negatives": 4,
+    "total_gt_samples": 100,
+    "evaluated_samples": 100,
+    "processed_samples": 99
+  },
+  "gemini_metrics": {
+    "model": "Gemini",
+    "accuracy": 0.56,
+    "precision": 0.6052631578947368,
+    "recall": 0.4423076923076923,
+    "f1_score": 0.5111111111111111,
+    "specificity": 0.6875,
+    "balanced_accuracy": 0.5649038461538461,
+    "true_positives": 23,
+    "true_negatives": 33,
+    "false_positives": 15,
+    "false_negatives": 29,
+    "total_gt_samples": 100,
+    "evaluated_samples": 100,
+    "processed_samples": 41
+  },
+  "comparison": {
+    "accuracy": {
+      "gpt4o": 0.53,
+      "gemini": 0.56,
+      "difference": 0.030000000000000027,
+      "percentage_change": 5.660377358490571
+    },
+    "precision": {
+      "gpt4o": 0.5274725274725275,
+      "gemini": 0.6052631578947368,
+      "difference": 0.07779063042220935,
+      "percentage_change": 14.747807017543856
+    },
+    "recall": {
+      "gpt4o": 0.9230769230769231,
+      "gemini": 0.4423076923076923,
+      "difference": -0.48076923076923084,
+      "percentage_change": -52.083333333333336
+    },
+    "f1_score": {
+      "gpt4o": 0.6713286713286714,
+      "gemini": 0.5111111111111111,
+      "difference": -0.16021756021756028,
+      "percentage_change": -23.865740740740748
+    },
+    "specificity": {
+      "gpt4o": 0.10416666666666667,
+      "gemini": 0.6875,
+      "difference": 0.5833333333333334,
+      "percentage_change": 560.0
+    },
+    "balanced_accuracy": {
+      "gpt4o": 0.5136217948717949,
+      "gemini": 0.5649038461538461,
+      "difference": 0.05128205128205121,
+      "percentage_change": 9.984399375975023
+    }
+  }
+}

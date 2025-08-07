@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_12_011",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a yellow taxi",
+        "summary": "In this segment, the vehicle is driving on a city road at night. The road is well-lit with streetlights and buildings. The self-driving vehicle encounters a yellow taxi ahead, which is moving at a moderate speed. The taxi is initially on the left side and then moves to the center lane.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the yellow taxi. The vehicles speed is steady, and it keeps a safe distance from the taxi ahead. The driver is cautious due to the presence of other vehicles and potential obstacles.",
+        "key_objects": "1) Front: A yellow taxi, approximately 10 meters away, moving at a moderate speed, potentially changing lanes. 2) Left side: A blue car, approximately 15 meters away, moving parallel to the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

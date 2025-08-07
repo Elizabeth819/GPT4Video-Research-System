@@ -1,0 +1,98 @@
+video_id,ground_truth,model_result,ground_truth_label,result_category,filename
+images_1_011,True,True,11s: ghost probing,True Positive,actionSummary_images_1_011_gpt_4o.json
+images_5_046,True,True,2s: ghost probing,True Positive,actionSummary_images_5_046_gpt_4o.json
+images_5_047,True,True,2s: ghost probing,True Positive,actionSummary_images_5_047_gpt_4o.json
+images_3_007,True,True,3s: ghost probing,True Positive,actionSummary_images_3_007_gpt_4o.json
+images_5_044,True,True,4s: ghost probing,True Positive,actionSummary_images_5_044_gpt_4o.json
+images_5_012,True,True,13s: ghost probing,True Positive,actionSummary_images_5_012_gpt_4o.json
+images_5_020,True,True,11s: ghost probing,True Positive,actionSummary_images_5_020_gpt_4o.json
+images_5_031,True,True,2s: ghost probing,True Positive,actionSummary_images_5_031_gpt_4o.json
+images_1_017,True,True,17s: ghost probing,True Positive,actionSummary_images_1_017_gpt_4o.json
+images_1_014,True,True,5s: ghost probing,True Positive,actionSummary_images_1_014_gpt_4o.json
+images_5_035,True,True,12s: ghost probing,True Positive,actionSummary_images_5_035_gpt_4o.json
+images_5_028,True,True,7s: ghost probing,True Positive,actionSummary_images_5_028_gpt_4o.json
+images_4_005,True,True,6s: ghost probing,True Positive,actionSummary_images_4_005_gpt_4o.json
+images_1_005,True,True,8s: ghost probing,True Positive,actionSummary_images_1_005_gpt_4o.json
+images_4_006,True,True,3s: ghost probing,True Positive,actionSummary_images_4_006_gpt_4o.json
+images_1_013,True,True,8s: ghost probing,True Positive,actionSummary_images_1_013_gpt_4o.json
+images_5_010,True,True,5s: ghost probing,True Positive,actionSummary_images_5_010_gpt_4o.json
+images_3_006,True,True,4s: ghost probing,True Positive,actionSummary_images_3_006_gpt_4o.json
+images_1_022,True,True,5s: ghost probing,True Positive,actionSummary_images_1_022_gpt_4o.json
+images_5_053,True,True,7s: ghost probing,True Positive,actionSummary_images_5_053_gpt_4o.json
+images_5_037,True,True,6s: ghost probing,True Positive,actionSummary_images_5_037_gpt_4o.json
+images_1_021,True,True,3s: ghost probing,True Positive,actionSummary_images_1_021_gpt_4o.json
+images_5_005,True,True,5s: ghost probing,True Positive,actionSummary_images_5_005_gpt_4o.json
+images_5_052,True,True,3s: ghost probing,True Positive,actionSummary_images_5_052_gpt_4o.json
+images_5_033,True,True,5s: ghost probing,True Positive,actionSummary_images_5_033_gpt_4o.json
+images_5_023,True,True,7s: ghost probing,True Positive,actionSummary_images_5_023_gpt_4o.json
+images_1_007,True,True,6s: ghost probing,True Positive,actionSummary_images_1_007_gpt_4o.json
+images_1_010,True,True,15s: ghost probing,True Positive,actionSummary_images_1_010_gpt_4o.json
+images_5_027,True,True,3s: ghost probing,True Positive,actionSummary_images_5_027_gpt_4o.json
+images_4_003,True,True,4s: ghost probing,True Positive,actionSummary_images_4_003_gpt_4o.json
+images_3_002,True,True,4s: ghost probing,True Positive,actionSummary_images_3_002_gpt_4o.json
+images_5_051,True,True,2s: ghost probing,True Positive,actionSummary_images_5_051_gpt_4o.json
+images_1_001,True,True,2s: ghost probing,True Positive,actionSummary_images_1_001_gpt_4o.json
+images_3_003,True,True,2s: ghost probing,True Positive,actionSummary_images_3_003_gpt_4o.json
+images_5_021,True,True,4s: ghost probing,True Positive,actionSummary_images_5_021_gpt_4o.json
+images_1_012,True,True,11s: ghost probing,True Positive,actionSummary_images_1_012_gpt_4o.json
+images_4_004,True,True,6s: ghost probing,True Positive,actionSummary_images_4_004_gpt_4o.json
+images_5_043,True,True,13s: ghost probing,True Positive,actionSummary_images_5_043_gpt_4o.json
+images_1_006,True,True,9s: ghost probing,True Positive,actionSummary_images_1_006_gpt_4o.json
+images_1_003,True,True,2s: ghost probing,True Positive,actionSummary_images_1_003_gpt_4o.json
+images_1_016,True,True,4s: ghost probing,True Positive,actionSummary_images_1_016_gpt_4o.json
+images_4_002,True,True,6s: ghost probing,True Positive,actionSummary_images_4_002_gpt_4o.json
+images_1_027,True,True,4s: ghost probing,True Positive,actionSummary_images_1_027_gpt_4o.json
+images_1_002,True,True,5s: ghost probing,True Positive,actionSummary_images_1_002_gpt_4o.json
+images_5_050,True,True,2s: ghost probing,True Positive,actionSummary_images_5_050_gpt_4o.json
+images_5_025,False,False,none,True Negative,actionSummary_images_5_025_gpt_4o.json
+images_2_001,False,False,none,True Negative,actionSummary_images_2_001_gpt_4o.json
+images_5_003,False,False,none,True Negative,actionSummary_images_5_003_gpt_4o.json
+images_1_024,False,False,none,True Negative,actionSummary_images_1_024_gpt_4o.json
+images_1_023,False,False,none,True Negative,actionSummary_images_1_023_gpt_4o.json
+images_5_007,False,False,none,True Negative,actionSummary_images_5_007_gpt_4o.json
+images_4_007,False,True,none,False Positive,actionSummary_images_4_007_gpt_4o.json
+images_5_038,False,True,13: cut-in,False Positive,actionSummary_images_5_038_gpt_4o.json
+images_5_019,False,True,none,False Positive,actionSummary_images_5_019_gpt_4o.json
+images_5_034,False,True,none,False Positive,actionSummary_images_5_034_gpt_4o.json
+images_4_001,False,True,none,False Positive,actionSummary_images_4_001_gpt_4o.json
+images_1_004,False,True,none,False Positive,actionSummary_images_1_004_gpt_4o.json
+images_5_009,False,True,none,False Positive,actionSummary_images_5_009_gpt_4o.json
+images_5_001,False,True,none,False Positive,actionSummary_images_5_001_gpt_4o.json
+images_4_008,False,True,none,False Positive,actionSummary_images_4_008_gpt_4o.json
+images_5_008,False,True,none,False Positive,actionSummary_images_5_008_gpt_4o.json
+images_2_004,False,True,none,False Positive,actionSummary_images_2_004_gpt_4o.json
+images_2_003,False,True,none,False Positive,actionSummary_images_2_003_gpt_4o.json
+images_5_029,False,True,none,False Positive,actionSummary_images_5_029_gpt_4o.json
+images_5_022,False,True,none,False Positive,actionSummary_images_5_022_gpt_4o.json
+images_5_026,False,True,none,False Positive,actionSummary_images_5_026_gpt_4o.json
+images_5_014,False,True,none,False Positive,actionSummary_images_5_014_gpt_4o.json
+images_1_018,False,True,none,False Positive,actionSummary_images_1_018_gpt_4o.json
+images_5_048,False,True,none,False Positive,actionSummary_images_5_048_gpt_4o.json
+images_5_018,False,True,none,False Positive,actionSummary_images_5_018_gpt_4o.json
+images_5_042,False,True,none,False Positive,actionSummary_images_5_042_gpt_4o.json
+images_5_040,False,True,none,False Positive,actionSummary_images_5_040_gpt_4o.json
+images_1_019,False,True,none,False Positive,actionSummary_images_1_019_gpt_4o.json
+images_3_005,False,True,none,False Positive,actionSummary_images_3_005_gpt_4o.json
+images_3_001,False,True,none,False Positive,actionSummary_images_3_001_gpt_4o.json
+images_5_002,False,True,cut-in,False Positive,actionSummary_images_5_002_gpt_4o.json
+images_1_026,False,True,none,False Positive,actionSummary_images_1_026_gpt_4o.json
+images_5_013,False,True,none,False Positive,actionSummary_images_5_013_gpt_4o.json
+images_2_002,False,True,none,False Positive,actionSummary_images_2_002_gpt_4o.json
+images_5_016,False,True,none,False Positive,actionSummary_images_5_016_gpt_4o.json
+images_3_004,False,True,none,False Positive,actionSummary_images_3_004_gpt_4o.json
+images_5_004,False,True,none,False Positive,actionSummary_images_5_004_gpt_4o.json
+images_1_020,False,True,none,False Positive,actionSummary_images_1_020_gpt_4o.json
+images_5_024,False,True,none,False Positive,actionSummary_images_5_024_gpt_4o.json
+images_5_032,False,True,none,False Positive,actionSummary_images_5_032_gpt_4o.json
+images_5_017,False,True,none,False Positive,actionSummary_images_5_017_gpt_4o.json
+images_5_030,False,True,none,False Positive,actionSummary_images_5_030_gpt_4o.json
+images_1_025,False,True,none,False Positive,actionSummary_images_1_025_gpt_4o.json
+images_1_009,False,True,none,False Positive,actionSummary_images_1_009_gpt_4o.json
+images_5_036,False,True,none,False Positive,actionSummary_images_5_036_gpt_4o.json
+images_1_008,True,False,3s: ghost probing,False Negative,actionSummary_images_1_008_gpt_4o.json
+images_5_011,True,False,3s: ghost probing,False Negative,actionSummary_images_5_011_gpt_4o.json
+images_1_015,True,False,5s: ghost probing,False Negative,actionSummary_images_1_015_gpt_4o.json
+images_5_049,True,False,3s: ghost probing,False Negative,actionSummary_images_5_049_gpt_4o.json
+images_5_015,True,False,2s: ghost probing,False Negative,actionSummary_images_5_015_gpt_4o.json
+images_5_041,True,False,5s: ghost probing,False Negative,actionSummary_images_5_041_gpt_4o.json
+images_5_006,True,False,6s: ghost probing,False Negative,actionSummary_images_5_006_gpt_4o.json

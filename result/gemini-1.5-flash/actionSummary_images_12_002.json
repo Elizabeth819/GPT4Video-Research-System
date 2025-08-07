@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_12_002",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a suburban road. The road is relatively clear with sparse traffic. The vehicle maintains a steady speed and follows the lane. There are no sudden movements or dangerous actions observed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and staying within its lane. The driver is likely monitoring the surroundings and ensuring safe driving conditions.",
+        "key_objects": "1) Front: A black car, approximately 30 meters away, moving steadily in the same direction. 2) Left: A white SUV, approximately 10 meters away, moving in the same direction. 3) Right: A white car, approximately 15 meters away, parked on the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_12_002",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.8s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a yellow car",
+        "summary": "In this segment, the vehicle is driving on a road with sparse traffic. A white sedan is ahead on the left side, and a yellow car is seen approaching from behind on the left side. The yellow car overtakes the self-driving vehicle from the left side.",
+        "actions": "The self-driving vehicle maintains a steady speed and lane position. The vehicles speed remains consistent, and it does not change lanes or direction.",
+        "key_objects": "1) Left side: A white sedan, approximately 20 meters away, moving ahead. 2) Left side: A yellow car, approximately 5 meters away, overtaking the self-driving vehicle.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

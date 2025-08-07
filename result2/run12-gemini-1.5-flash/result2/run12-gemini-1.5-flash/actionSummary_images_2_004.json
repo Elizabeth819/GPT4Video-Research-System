@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_2_004",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "6.9s",
+    "scene_theme": "Urban",
+    "sentiment": "Neutral",
+    "characters": "A person on a skateboard, two pedestrians, a person on a scooter, driver of the recording vehicle.",
+    "summary": "The video shows a car driving slowly down a road.  Several people are visible ahead. A person on a skateboard crosses the road from right to left. Two pedestrians walk across the road from left to right. A person on a scooter is visible in the distance, approaching from the right. The car maintains a slow and steady speed, avoiding any collisions.",
+    "actions": "The vehicle maintains a slow and steady speed throughout the segment.  The driver appears to be cautiously navigating the area with pedestrians and other road users present.  The slow speed is likely a response to the presence of pedestrians and the need to ensure safety.",
+    "key_objects": "1) Front: Person on skateboard, approximately 10 meters away at the start, crossing the road from right to left at a moderate speed. 2) Front: Two pedestrians, approximately 15 meters away at the start, walking across the road from left to right at a normal pace. 3) Right: Person on a scooter, approximately 25 meters away at the start, approaching slowly.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

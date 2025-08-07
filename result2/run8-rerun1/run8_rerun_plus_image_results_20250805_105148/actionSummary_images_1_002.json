@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including children and adults, are observed in the images. A child in a blue jacket suddenly runs into the road from the right side in the first sequence. In the second sequence, a woman with a child on her back suddenly appears from behind a parked vehicle on the left side. In the third sequence, a man in a yellow jacket runs into the road from the left side.",
+  "summary": "The video sequences show multiple instances of 'ghost probing' behavior where pedestrians, including children, suddenly emerge from behind obstructions such as parked vehicles and buildings, directly entering the driving path with minimal reaction time.",
+  "actions": "In the first sequence, a child runs into the road from the right side, requiring immediate braking. In the second sequence, a woman with a child on her back suddenly appears from behind a parked vehicle on the left side, necessitating emergency braking. In the third sequence, a man in a yellow jacket runs into the road from the left side, also requiring immediate braking.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians, and buildings creating visual obstructions.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

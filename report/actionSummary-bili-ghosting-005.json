@@ -1,0 +1,206 @@
+[
+    {
+        "video_id": "005",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Mother on an electric scooter with three children",
+        "summary": "In this segment, the vehicle is driving on a busy street with many parked cars on the left side. The driver is cautious about potential sudden appearances of pedestrians or vehicles from between the parked cars. At 6.0s, a woman on an electric scooter with three children suddenly appears from the left side, moving into the vehicles path. The driver maintains a slow speed, which helps in avoiding a collision.",
+        "actions": "The self-driving vehicle maintains a slow speed to navigate through a busy street with many parked cars on the left side. The driver is cautious and prepared for sudden appearances of pedestrians or vehicles. At 6.0s, a woman on an electric scooter with three children suddenly appears from the left side, moving into the vehicles path. The driver continues to maintain a slow speed to avoid a collision.",
+        "key_objects": "1) Left side: A woman on an electric scooter with three children, approximately 2 meters away, suddenly moving from behind a parked car towards the right side of the road, directly into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "maintain current speed",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist with three children",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A motorcyclist carrying three children is seen ahead, which is noted as being overloaded. The self-driving car maintains a steady speed, following a white sedan in the same lane. The white sedan is driving straight and steadily.",
+        "actions": "The self-driving vehicle is maintaining a steady speed, following the white sedan ahead. The driver comments on the overloaded motorcyclist and observes the white sedan driving straight and steadily.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, driving straight and steadily. 2) Front-left: A motorcyclist carrying three children, approximately 15 meters away, moving straight.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "21.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "30.0s",
+        "scene_theme": "Dramatic",
+        "characters": "White car, blue car",
+        "summary": "In this segment, the vehicle is driving under a bridge. A white car is seen ahead, and a blue car merges from the right side. The blue car does not check and collides with the white car. Later, the scene changes to a winding road where another car is seen approaching from the front.",
+        "actions": "The self-driving vehicle maintains a steady speed while passing under the bridge. The blue car merges from the right without checking and collides with the white car. The self-driving vehicle continues on a winding road, observing another car approaching from the front.",
+        "key_objects": "1) Right side: A blue car, approximately 5 meters away, merging into the lane without checking, causing a collision with the white car. 2) Front: A white car, approximately 10 meters away, involved in a collision with the blue car. 3) Front: Another car, approximately 15 meters away, approaching from the front on a winding road.",
+        "key_actions": "cut-in, collision",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "31.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "40.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, other vehicles",
+        "summary": "In this segment, the vehicle is driving on a winding road with a cliff on the right side. The driver expresses concern about the road conditions, mentioning that it is fortunate that the area is not a cliff but a riverbed. The driver also notes that it seems like multiple vehicles have driven off the road at this spot, as the guardrail is damaged. The scene then transitions to a busy road with multiple vehicles.",
+        "actions": "The self-driving vehicle is navigating a winding road with caution due to the dangerous conditions. The driver is alert and aware of the potential hazards, including the damaged guardrail. The vehicle maintains a steady speed and stays within the lane. In the final frames, the vehicle transitions to a busy road, indicating a change in driving environment.",
+        "key_objects": "1) Right side: Cliff, approximately 5 meters away, stationary, posing a potential hazard if the vehicle veers off the road. 2) Front: Damaged guardrail, approximately 10 meters away, indicating previous accidents at this spot. 3) Surrounding: Multiple vehicles on a busy road, approximately 15 meters away, moving at varying speeds.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "41.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "50.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self vehicle, driver of the white car",
+        "summary": "In this segment, the self vehicle is driving in its lane. A white car on the right side attempts to overtake the self vehicle. The self vehicle blocks the white cars attempt to overtake, forcing it to stay behind. The white car makes another attempt to overtake from the right side towards the end of the segment.",
+        "actions": "The self vehicle maintains its lane and speed, blocking the white cars attempt to overtake. The white car on the right side tries to overtake twice but is blocked by the self vehicle.",
+        "key_objects": "1) Right side: A white car, approximately 2 meters away, attempting to overtake the self vehicle from the right side, moving forward aggressively.",
+        "key_actions": "right-side overtaking",
+        "next_action": {
+            "speed_control": "maintain current speed",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "51.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "60.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, cyclist",
+        "summary": "In this segment, the vehicle is driving on a bridge. A white SUV is ahead, and a cyclist suddenly appears from the right side, moving quickly across the road. The driver expresses surprise and concern about the cyclists sudden appearance and speed.",
+        "actions": "The self-driving vehicle maintains a steady speed while approaching the white SUV. The driver is startled by the sudden appearance of a cyclist from the right side, who is moving quickly across the road. The self-driving vehicle does not take any immediate evasive action but continues to monitor the situation.",
+        "key_objects": "1) Front: A white SUV, approximately 10 meters away, maintaining a steady speed. 2) Right side: A cyclist, approximately 5 meters away, moving quickly from the right side of the road towards the left, directly into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "61.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "70.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a road with multiple lanes. Initially, the white SUV and the black car are seen ahead. The white SUV is in the middle lane, and the black car is in the right lane. The audio mentions a potential collision and a failed attempt at insurance fraud. The self-driving car is preparing to make a right turn, as indicated by the audio and the road signs. The self-driving car is in the rightmost lane, which is designated for right turns.",
+        "actions": "The self-driving car is maintaining its position in the rightmost lane, preparing to make a right turn. The driver is cautious, likely due to the mention of a potential collision and insurance fraud attempt. The vehicles speed is steady, and it is following the road signs for the right turn.",
+        "key_objects": "1) Front-right: A white SUV, approximately 10 meters away, moving steadily in the middle lane. 2) Front-right: A black car, approximately 8 meters away, moving steadily in the right lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "turn right",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "71.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "80.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, Pedestrian on electric scooter, Truck driver",
+        "summary": "In this segment, the vehicle is approaching a right turn with a zebra crossing. The driver is warned to be cautious as a pedestrian on an electric scooter suddenly appears from the right side. The vehicle continues to move forward, and a truck is seen approaching from behind. The driver mentions the importance of maintaining a safe distance.",
+        "actions": "The self-driving vehicle is approaching a right turn with a zebra crossing. The driver is warned to be cautious as a pedestrian on an electric scooter suddenly appears from the right side. The vehicle continues to move forward, and a truck is seen approaching from behind. The driver mentions the importance of maintaining a safe distance.",
+        "key_objects": "1) Right side: A pedestrian on an electric scooter, approximately 5 meters away, suddenly appearing from the right side of the road, directly into the vehicles path. 2) Rear: A truck, approximately 10 meters away, approaching from behind.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "81.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "90.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Truck, white car",
+        "summary": "In this segment, the vehicle is driving on a wet and slippery road. The driver mentions maintaining a safe distance. Suddenly, the truck ahead brakes, causing the driver to express concern. The driver thanks the truck for not braking abruptly. The road conditions are wet and slippery, and there is an emergency situation ahead.",
+        "actions": "The self-driving vehicle maintains a safe distance from the truck ahead. The truck ahead brakes suddenly, causing the driver to express concern. The driver thanks the truck for not braking abruptly. The road is wet and slippery, contributing to the emergency situation ahead.",
+        "key_objects": "1) Front: A truck, approximately 5 meters away, braking suddenly, causing a potential hazard. 2) Right: A white car, approximately 10 meters away, moving forward.",
+        "key_actions": "sudden braking",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "91.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "100.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black BMW",
+        "summary": "In this segment, the vehicle is driving on a multi-lane urban road. The driver mentions the danger of emergency braking. The self vehicle is preparing to follow a black BMW in the right lane to change lanes to the right. However, the driver is advised to watch the front lights of the BMW. The front lights of the BMW are flashing, indicating a potential stop or slow down.",
+        "actions": "The self vehicle is preparing to change lanes to the right, following a black BMW. The driver is advised to be cautious as the BMWs front lights are flashing, indicating a potential stop or slow down. The self vehicle maintains a safe distance from the BMW, observing its behavior.",
+        "key_objects": "1) Front-right: A black BMW, approximately 10 meters away, flashing front lights, indicating a potential stop or slow down. 2) Front: A white sedan, approximately 15 meters away, moving steadily.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "101.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "110.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black car, person on an electric scooter",
+        "summary": "In this segment, the vehicle is driving on a city road. Initially, the self-driving car is behind a black car at an intersection. The black car brakes and stops. The self-driving car then moves forward. The scene changes to a night setting where the self-driving car approaches another intersection. The driver mentions preparing to turn right. At this moment, an electric scooter appears from the left side, crossing the road.",
+        "actions": "The self-driving car initially stops behind a black car at an intersection. After the black car stops, the self-driving car moves forward. Later, the self-driving car prepares to turn right at another intersection. An electric scooter appears from the left side, crossing the road.",
+        "key_objects": "1) Front: A black car, approximately 2 meters away, braking and stopping. 2) Left side: A person on an electric scooter, approximately 5 meters away, crossing the road from left to right.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "brake",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "111.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "120.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver, passenger, motorcyclist",
+        "summary": "In this segment, the vehicle is driving at night. Initially, a motorcyclist is seen on the left side of the road. The passenger alerts the driver to avoid a potential collision. The vehicle then approaches an intersection where two cars are waiting to cross. The first car is stationary.",
+        "actions": "The self-driving vehicle is alerted by the passenger to avoid a collision with a motorcyclist. The vehicle then approaches an intersection with two cars waiting to cross. The first car is stationary.",
+        "key_objects": "1) Left side: A motorcyclist, approximately 2 meters away, moving towards the left side of the road. 2) Front: Two cars, approximately 10 meters away, waiting to cross the intersection. The first car is stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,40 @@
+{
+  "video_id": "images_1_013",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "11.8s",
+  "summary": "The car is driving on a narrow road surrounded by trees and fields. From 3.0s to 5.0s, three individuals, a woman in a red dress, a girl in a red dress, and a woman in a white top and black pants, are walking on the road. At 7.0s, a green bus appears from around a bend in the road. The bus is moving slowly. From 9.0s to 11.8s, the car continues driving on the road, approaching a curve to the left.",
+  "characters": [
+    {
+      "gender": "female",
+      "clothing": "red dress",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal"
+    },
+    {
+      "gender": "female",
+      "clothing": "red dress",
+      "age": "child",
+      "transportation_method": "walking",
+      "way_of_walking": "normal"
+    },
+    {
+      "gender": "female",
+      "clothing": "white top and black pants",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal"
+    }
+  ],
+  "key_objects": [
+    "Front: A green bus, approximately 20 meters away, approaching from around a bend in the road, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving on a narrow road. The driver is maintaining a steady speed, likely due to the road conditions and limited visibility around the bends. The driver may be slowing down as they approach the group of people walking on the road and the bus.",
+  "next_action": {
+    "speed_control": "decelerating",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "ghost probing"
+}

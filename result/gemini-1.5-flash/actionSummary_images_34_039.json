@@ -1,0 +1,74 @@
+[
+    {
+        "video_id": "dada_34_039",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "3.3s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist with pink helmet",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Initially, the road ahead is clear. As the vehicle progresses, a motorcyclist with a pink helmet suddenly appears from the right side, moving into the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the motorcyclist with a pink helmet suddenly appears from the right side, the vehicle needs to decelerate to avoid a potential collision.",
+        "key_objects": "1) Right side: A motorcyclist with a pink helmet, approximately 2 meters away, suddenly moving into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_039",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a white sedan is moving steadily in the same lane. The road is clear with no immediate obstacles or pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the white sedan ahead at a safe distance. There are no sudden changes in speed or direction observed.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving steadily in the same lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_039",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a white sedan is moving steadily in the same lane. A black sedan from the adjacent left lane suddenly merges into the self-vehicles lane, causing a potential cut-in situation.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the white sedan ahead. The black sedan from the left lane merges into the self-vehicles lane, causing the self-vehicle to decelerate slightly to avoid collision.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving steadily in the same lane. 2) Left: A black sedan, approximately 10 meters away, merging into the self-vehicles lane, causing a potential cut-in situation.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_039",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "15.5s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, pedestrians on the sidewalk",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a white sedan is moving steadily in the same lane. There are pedestrians walking on the sidewalk on the right side. The traffic appears to be moderate with vehicles moving at a consistent speed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the white sedan ahead. The vehicle is keeping a safe distance from the car in front and is staying in its lane.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving steadily in the same lane. 2) Right side: Pedestrians walking on the sidewalk, approximately 5 meters away, not posing any immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

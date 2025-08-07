@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_8_020",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a rural road behind a truck. The truck is moving slowly, and the self-driving vehicle maintains a consistent distance from it. There are no sudden movements or obstacles appearing in the path.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and distance from the truck ahead. The vehicle is driving steadily without any sudden changes in speed or direction.",
+        "key_objects": "1) Front: A truck, approximately 5 meters away, moving slowly and consistently.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

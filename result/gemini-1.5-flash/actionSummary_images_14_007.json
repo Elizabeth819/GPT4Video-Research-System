@@ -1,0 +1,50 @@
+[
+    {
+        "video_id": "dada_14_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a 5-second segment of a car driving on a highway in rainy conditions. The road is relatively clear with several vehicles maintaining a safe distance. No pedestrians or cyclists are visible. The self-driving vehicle maintains a consistent speed and lane position throughout the sequence. There are no sudden appearances of objects or individuals that would trigger a key action.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 5-second video segment.  The vehicle's speed appears to be adjusted to match the flow of traffic, maintaining a safe following distance from the vehicle ahead. There are no observable changes in direction or braking during this period. The consistent speed and lane position suggest the driver is maintaining a safe and predictable driving pattern within the current traffic conditions.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep_right"
+        }
+    },
+    {
+        "video_id": "dada_14_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a highway. The road is relatively clear with a few other vehicles visible in the distance.  The weather appears overcast. No unusual or dangerous events occur within the observed timeframe. The self-vehicle maintains a consistent speed and lane position throughout the sequence.",
+        "actions": "The vehicle maintains a consistent speed and lane position throughout the 3.3-second sequence. There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle ahead. The driving behavior suggests a routine highway driving scenario.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_14_007",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "15.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a highway under overcast conditions. The road is relatively clear with a few other vehicles visible in the distance.  No pedestrians or cyclists are observed in the immediate vicinity of the vehicle. The car maintains a steady speed and stays within its lane throughout the observed period. There are no sudden movements or near-miss incidents.",
+        "actions": "The vehicle maintains a consistent speed and lane position throughout the 5-second segment.  There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle ahead. The driving behavior suggests a calm and controlled driving style.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep lane"
+        }
+    }
+]

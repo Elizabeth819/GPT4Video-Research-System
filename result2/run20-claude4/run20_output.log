@@ -1,0 +1,531 @@
+🚀 启动 Run 20: Claude 4 (claude-sonnet-4-20250514) Ghost Probing Detection 实验
+2025-08-01 10:07:39,464 - INFO - Run 20: Claude 4 Ghost Probing Detection with Few-shot Learning (100 Videos) 开始
+2025-08-01 10:07:39,464 - INFO - Claude 4 API配置成功
+2025-08-01 10:07:39,464 - INFO - Host: globalai.vip
+2025-08-01 10:07:39,464 - INFO - Model: claude-sonnet-4-20250514 (真正的Claude 4)
+2025-08-01 10:07:39,464 - INFO - Temperature: 0, Enhanced with Few-shot Examples
+2025-08-01 10:07:39,483 - INFO - 加载ground truth标签: 201个视频
+2025-08-01 10:07:39,484 - INFO - 开始Run 20实验，处理 201 个视频
+处理视频:   0%|          | 0/201 [00:00<?, ?it/s]2025-08-01 10:07:39,625 - INFO - 处理视频 1/100: images_1_001.avi
+2025-08-01 10:08:08,895 - INFO - 视频 images_1_001.avi: GT=none, 检测=none, 评估=TN
+处理视频:   0%|          | 1/201 [00:29<1:37:34, 29.27s/it]2025-08-01 10:08:08,896 - INFO - 处理视频 2/100: images_1_002.avi
+2025-08-01 10:08:32,067 - INFO - 视频 images_1_002.avi: GT=5s: ghost probing, 检测=none, 评估=FN
+处理视频:   1%|          | 2/201 [00:52<1:25:10, 25.68s/it]2025-08-01 10:08:32,067 - INFO - 处理视频 3/100: images_1_003.avi
+2025-08-01 10:08:50,693 - INFO - 视频 images_1_003.avi: GT=2s: ghost probing, 检测=ghost probing, 评估=TP
+处理视频:   1%|▏         | 3/201 [01:11<1:14:07, 22.46s/it]2025-08-01 10:08:50,696 - INFO - 处理视频 4/100: images_1_004.avi
+2025-08-01 10:09:23,699 - INFO - 视频 images_1_004.avi: GT=none, 检测=none, 评估=TN
+处理视频:   2%|▏         | 4/201 [01:44<1:27:24, 26.62s/it]2025-08-01 10:09:23,700 - INFO - 处理视频 5/100: images_1_005.avi
+2025-08-01 10:10:00,404 - INFO - 视频 images_1_005.avi: GT=8s: ghost probing, 检测=none, 评估=FN
+2025-08-01 10:10:00,406 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_5videos_20250801_100739.json
+处理视频:   2%|▏         | 5/201 [02:20<1:38:50, 30.26s/it]2025-08-01 10:10:00,406 - INFO - 处理视频 6/100: images_1_006.avi
+2025-08-01 10:10:20,630 - INFO - 视频 images_1_006.avi: GT=9s: ghost probing, 检测=ghost probing, 评估=TP
+处理视频:   3%|▎         | 6/201 [02:41<1:27:15, 26.85s/it]2025-08-01 10:10:20,631 - INFO - 处理视频 7/100: images_1_007.avi
+2025-08-01 10:10:55,051 - INFO - 视频 images_1_007.avi: GT=6s: ghost probing, 检测=none, 评估=FN
+处理视频:   3%|▎         | 7/201 [03:15<1:34:48, 29.32s/it]2025-08-01 10:10:55,052 - INFO - 处理视频 8/100: images_1_008.avi
+2025-08-01 10:11:19,487 - INFO - 视频 images_1_008.avi: GT=3s: ghost probing, 检测=none, 评估=FN
+处理视频:   4%|▍         | 8/201 [03:39<1:29:19, 27.77s/it]2025-08-01 10:11:19,488 - INFO - 处理视频 9/100: images_1_009.avi
+2025-08-01 10:11:37,460 - INFO - 视频 images_1_009.avi: GT=none, 检测=ghost probing, 评估=FP
+处理视频:   4%|▍         | 9/201 [03:57<1:19:03, 24.71s/it]2025-08-01 10:11:37,461 - INFO - 处理视频 10/100: images_1_010.avi
+2025-08-01 10:11:40,959 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.091068, need quota: ＄0.102410 (request id: 20250801101140251824530vbSSRriW)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:11:40,985 - INFO - 视频 images_1_010.avi: GT=15s: ghost probing, 检测=, 评估=ERROR
+2025-08-01 10:11:40,987 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_10videos_20250801_100739.json
+处理视频:   5%|▍         | 10/201 [04:01<57:49, 18.17s/it] 2025-08-01 10:11:40,987 - INFO - 处理视频 11/100: images_1_011.avi
+2025-08-01 10:12:02,135 - INFO - 视频 images_1_011.avi: GT=11s: ghost probing, 检测=none, 评估=FN
+处理视频:   5%|▌         | 11/201 [04:22<1:00:25, 19.08s/it]2025-08-01 10:12:02,136 - INFO - 处理视频 12/100: images_1_012.avi
+2025-08-01 10:12:04,839 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.057362, need quota: ＄0.059060 (request id: 20250801101204260920263T4AQmvnY)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:12:04,846 - INFO - 视频 images_1_012.avi: GT=11s: ghost probing, 检测=, 评估=ERROR
+处理视频:   6%|▌         | 12/201 [04:25<44:24, 14.10s/it]  2025-08-01 10:12:04,847 - INFO - 处理视频 13/100: images_1_013.avi
+2025-08-01 10:12:09,116 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.057362, need quota: ＄0.059060 (request id: 20250801101208570193397aiYptC96)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:12:09,125 - INFO - 视频 images_1_013.avi: GT=8s: ghost probing, 检测=, 评估=ERROR
+处理视频:   6%|▋         | 13/201 [04:29<34:51, 11.12s/it]2025-08-01 10:12:09,126 - INFO - 处理视频 14/100: images_1_014.avi
+2025-08-01 10:12:12,090 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.057362, need quota: ＄0.059060 (request id: 20250801101211515166556Nkgm1bby)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:12:12,102 - INFO - 视频 images_1_014.avi: GT=5s: ghost probing, 检测=, 评估=ERROR
+处理视频:   7%|▋         | 14/201 [04:32<27:00,  8.66s/it]2025-08-01 10:12:12,103 - INFO - 处理视频 15/100: images_1_015.avi
+2025-08-01 10:12:32,616 - INFO - 视频 images_1_015.avi: GT=5s: ghost probing, 检测=none, 评估=FN
+2025-08-01 10:12:32,621 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_15videos_20250801_100739.json
+处理视频:   7%|▋         | 15/201 [04:52<37:56, 12.24s/it]2025-08-01 10:12:32,621 - INFO - 处理视频 16/100: images_1_016.avi
+2025-08-01 10:12:35,213 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101234664693059zVVeiJZg)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:12:35,218 - INFO - 视频 images_1_016.avi: GT=4s: ghost probing, 检测=, 评估=ERROR
+处理视频:   8%|▊         | 16/201 [04:55<28:47,  9.34s/it]2025-08-01 10:12:35,219 - INFO - 处理视频 17/100: images_1_017.avi
+2025-08-01 10:12:38,630 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.102410 (request id: 202508011012378774097729Y25Ncin)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:12:38,655 - INFO - 视频 images_1_017.avi: GT=17s: ghost probing, 检测=, 评估=ERROR
+处理视频:   8%|▊         | 17/201 [04:59<23:11,  7.56s/it]2025-08-01 10:12:38,656 - INFO - 处理视频 18/100: images_1_018.avi
+2025-08-01 10:12:41,394 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101240762762099wBKpxshU)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:12:41,402 - INFO - 视频 images_1_018.avi: GT=none, 检测=, 评估=ERROR
+处理视频:   9%|▉         | 18/201 [05:01<18:39,  6.11s/it]2025-08-01 10:12:41,402 - INFO - 处理视频 19/100: images_1_019.avi
+2025-08-01 10:12:44,366 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101243735598480i7Pd3Omz)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:12:44,372 - INFO - 视频 images_1_019.avi: GT=none, 检测=, 评估=ERROR
+处理视频:   9%|▉         | 19/201 [05:04<15:41,  5.17s/it]2025-08-01 10:12:44,373 - INFO - 处理视频 20/100: images_1_020.avi
+2025-08-01 10:12:47,448 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101246925489470PtE16nlD)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:12:47,453 - INFO - 视频 images_1_020.avi: GT=12s: ghost probing, 检测=, 评估=ERROR
+2025-08-01 10:12:47,454 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_20videos_20250801_100739.json
+处理视频:  10%|▉         | 20/201 [05:07<13:42,  4.54s/it]2025-08-01 10:12:47,454 - INFO - 处理视频 21/100: images_1_021.avi
+2025-08-01 10:12:54,820 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101254286008449V1OEzWtC)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:12:54,832 - INFO - 视频 images_1_021.avi: GT=3s: ghost probing, 检测=, 评估=ERROR
+处理视频:  10%|█         | 21/201 [05:15<16:11,  5.39s/it]2025-08-01 10:12:54,833 - INFO - 处理视频 22/100: images_1_022.avi
+2025-08-01 10:12:57,516 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101256953320895uDjb29UM)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:12:57,529 - INFO - 视频 images_1_022.avi: GT=5s: ghost probing, 检测=, 评估=ERROR
+处理视频:  11%|█         | 22/201 [05:17<13:40,  4.58s/it]2025-08-01 10:12:57,529 - INFO - 处理视频 23/100: images_1_023.avi
+2025-08-01 10:13:00,134 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101259574921082Jpg5g3gE)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:00,141 - INFO - 视频 images_1_023.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  11%|█▏        | 23/201 [05:20<11:50,  3.99s/it]2025-08-01 10:13:00,141 - INFO - 处理视频 24/100: images_1_024.avi
+2025-08-01 10:13:02,591 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 2025080110130246522912WJWnOr7F)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:02,600 - INFO - 视频 images_1_024.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  12%|█▏        | 24/201 [05:22<10:25,  3.53s/it]2025-08-01 10:13:02,600 - INFO - 处理视频 25/100: images_1_025.avi
+2025-08-01 10:13:05,274 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101304732005101InokV4qe)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:05,280 - INFO - 视频 images_1_025.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:13:05,283 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_25videos_20250801_100739.json
+处理视频:  12%|█▏        | 25/201 [05:25<09:36,  3.28s/it]2025-08-01 10:13:05,283 - INFO - 处理视频 26/100: images_1_026.avi
+2025-08-01 10:13:07,860 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 202508011013072891740890ESK65pX)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:07,864 - INFO - 视频 images_1_026.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  13%|█▎        | 26/201 [05:28<08:57,  3.07s/it]2025-08-01 10:13:07,864 - INFO - 处理视频 27/100: images_1_027.avi
+2025-08-01 10:13:10,402 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101309903939605vJ0Jrbk3)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:10,408 - INFO - 视频 images_1_027.avi: GT=4s: ghost probing, 检测=, 评估=ERROR
+处理视频:  13%|█▎        | 27/201 [05:30<08:26,  2.91s/it]2025-08-01 10:13:10,409 - INFO - 处理视频 28/100: images_2_001.avi
+2025-08-01 10:13:13,073 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 202508011013125133392697vEiE6k1)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:13,081 - INFO - 视频 images_2_001.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  14%|█▍        | 28/201 [05:33<08:11,  2.84s/it]2025-08-01 10:13:13,081 - INFO - 处理视频 29/100: images_2_002.avi
+2025-08-01 10:13:15,846 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101315320520228LSi2dT4C)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:15,859 - INFO - 视频 images_2_002.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  14%|█▍        | 29/201 [05:36<08:05,  2.82s/it]2025-08-01 10:13:15,860 - INFO - 处理视频 30/100: images_2_003.avi
+2025-08-01 10:13:18,566 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 202508011013179912976024z6PJZCA)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:18,575 - INFO - 视频 images_2_003.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:13:18,577 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_30videos_20250801_100739.json
+处理视频:  15%|█▍        | 30/201 [05:38<07:57,  2.79s/it]2025-08-01 10:13:18,577 - INFO - 处理视频 31/100: images_2_004.avi
+2025-08-01 10:13:21,639 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 2025080110132196807904Meq3dIhi)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:21,647 - INFO - 视频 images_2_004.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  15%|█▌        | 31/201 [05:42<08:08,  2.87s/it]2025-08-01 10:13:21,648 - INFO - 处理视频 32/100: images_3_001.avi
+2025-08-01 10:13:24,505 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101323884735279Oi0s2fpU)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:24,515 - INFO - 视频 images_3_001.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  16%|█▌        | 32/201 [05:44<08:05,  2.87s/it]2025-08-01 10:13:24,515 - INFO - 处理视频 33/100: images_3_002.avi
+2025-08-01 10:13:27,066 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101326517033276Ftx9ljF9)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:27,078 - INFO - 视频 images_3_002.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  16%|█▋        | 33/201 [05:47<07:46,  2.78s/it]2025-08-01 10:13:27,079 - INFO - 处理视频 34/100: images_3_003.avi
+2025-08-01 10:13:29,626 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 202508011013292396492oGRtZ3Ye)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:29,644 - INFO - 视频 images_3_003.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  17%|█▋        | 34/201 [05:50<07:33,  2.72s/it]2025-08-01 10:13:29,645 - INFO - 处理视频 35/100: images_3_004.avi
+2025-08-01 10:13:32,288 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101331729867334quF9cTOC)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:32,301 - INFO - 视频 images_3_004.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:13:32,304 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_35videos_20250801_100739.json
+处理视频:  17%|█▋        | 35/201 [05:52<07:28,  2.70s/it]2025-08-01 10:13:32,305 - INFO - 处理视频 36/100: images_3_005.avi
+2025-08-01 10:13:35,064 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101334550916128bxsHRTKZ)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:35,068 - INFO - 视频 images_3_005.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  18%|█▊        | 36/201 [05:55<07:28,  2.72s/it]2025-08-01 10:13:35,068 - INFO - 处理视频 37/100: images_3_006.avi
+2025-08-01 10:13:37,496 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101336998059829dKlEk4HF)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:37,508 - INFO - 视频 images_3_006.avi: GT=4s: ghost probing, 检测=, 评估=ERROR
+处理视频:  18%|█▊        | 37/201 [05:57<07:12,  2.63s/it]2025-08-01 10:13:37,508 - INFO - 处理视频 38/100: images_3_007.avi
+2025-08-01 10:13:40,129 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101339610787246YJ23SQuE)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:40,142 - INFO - 视频 images_3_007.avi: GT=3s: ghost probing, 检测=, 评估=ERROR
+处理视频:  19%|█▉        | 38/201 [06:00<07:09,  2.63s/it]2025-08-01 10:13:40,142 - INFO - 处理视频 39/100: images_4_001.avi
+2025-08-01 10:13:42,894 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101342217280444jEccan3p)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:42,912 - INFO - 视频 images_4_001.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  19%|█▉        | 39/201 [06:03<07:13,  2.68s/it]2025-08-01 10:13:42,914 - INFO - 处理视频 40/100: images_4_002.avi
+2025-08-01 10:13:45,606 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 2025080110134516491613IlNcVjVI)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:45,616 - INFO - 视频 images_4_002.avi: GT=6s: ghost probing, 检测=, 评估=ERROR
+2025-08-01 10:13:45,618 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_40videos_20250801_100739.json
+处理视频:  20%|█▉        | 40/201 [06:05<07:12,  2.68s/it]2025-08-01 10:13:45,618 - INFO - 处理视频 41/100: images_4_003.avi
+2025-08-01 10:13:48,563 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 2025080110134822685141SyHd38lq)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:48,569 - INFO - 视频 images_4_003.avi: GT=4s: ghost probing, 检测=, 评估=ERROR
+处理视频:  20%|██        | 41/201 [06:08<07:22,  2.76s/it]2025-08-01 10:13:48,569 - INFO - 处理视频 42/100: images_4_004.avi
+2025-08-01 10:13:51,161 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 202508011013506337598309nZN4oPl)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:51,176 - INFO - 视频 images_4_004.avi: GT=6s: ghost probing, 检测=, 评估=ERROR
+处理视频:  21%|██        | 42/201 [06:11<07:12,  2.72s/it]2025-08-01 10:13:51,177 - INFO - 处理视频 43/100: images_4_005.avi
+2025-08-01 10:13:53,875 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101353364568790q8C0zBtX)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:53,883 - INFO - 视频 images_4_005.avi: GT=6s: ghost probing, 检测=, 评估=ERROR
+处理视频:  21%|██▏       | 43/201 [06:14<07:08,  2.71s/it]2025-08-01 10:13:53,884 - INFO - 处理视频 44/100: images_4_006.avi
+2025-08-01 10:13:56,353 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101355801191658BDRA3Ira)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:56,365 - INFO - 视频 images_4_006.avi: GT=3s: ghost probing, 检测=, 评估=ERROR
+处理视频:  22%|██▏       | 44/201 [06:16<06:55,  2.64s/it]2025-08-01 10:13:56,365 - INFO - 处理视频 45/100: images_4_007.avi
+2025-08-01 10:13:58,989 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101358469183219wKIS0ZXl)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:13:59,004 - INFO - 视频 images_4_007.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:13:59,014 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_45videos_20250801_100739.json
+处理视频:  22%|██▏       | 45/201 [06:19<06:52,  2.65s/it]2025-08-01 10:13:59,015 - INFO - 处理视频 46/100: images_4_008.avi
+2025-08-01 10:14:01,882 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101401304346610ZnPwJKDv)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:01,891 - INFO - 视频 images_4_008.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  23%|██▎       | 46/201 [06:22<07:00,  2.72s/it]2025-08-01 10:14:01,892 - INFO - 处理视频 47/100: images_5_001.avi
+2025-08-01 10:14:04,612 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 2025080110140473458492QbhRl2lk)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:04,622 - INFO - 视频 images_5_001.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  23%|██▎       | 47/201 [06:24<06:58,  2.72s/it]2025-08-01 10:14:04,623 - INFO - 处理视频 48/100: images_5_002.avi
+2025-08-01 10:14:07,466 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101406903788985E00zrdgk)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:07,479 - INFO - 视频 images_5_002.avi: GT=cut-in, 检测=, 评估=ERROR
+处理视频:  24%|██▍       | 48/201 [06:27<07:02,  2.76s/it]2025-08-01 10:14:07,479 - INFO - 处理视频 49/100: images_5_003.avi
+2025-08-01 10:14:10,225 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101409719312139jCJzkTOG)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:10,229 - INFO - 视频 images_5_003.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  24%|██▍       | 49/201 [06:30<06:59,  2.76s/it]2025-08-01 10:14:10,229 - INFO - 处理视频 50/100: images_5_004.avi
+2025-08-01 10:14:12,722 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101412190157894ev9hqgz6)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:12,727 - INFO - 视频 images_5_004.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:14:12,729 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_50videos_20250801_100739.json
+处理视频:  25%|██▍       | 50/201 [06:33<06:44,  2.68s/it]2025-08-01 10:14:12,729 - INFO - 处理视频 51/100: images_5_005.avi
+2025-08-01 10:14:15,339 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101414810974313nHL0tmmq)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:15,344 - INFO - 视频 images_5_005.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  25%|██▌       | 51/201 [06:35<06:39,  2.66s/it]2025-08-01 10:14:15,345 - INFO - 处理视频 52/100: images_5_006.avi
+2025-08-01 10:14:17,910 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101417430083242tct45KDz)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:17,921 - INFO - 视频 images_5_006.avi: GT=6s: ghost probing, 检测=, 评估=ERROR
+处理视频:  26%|██▌       | 52/201 [06:38<06:32,  2.64s/it]2025-08-01 10:14:17,921 - INFO - 处理视频 53/100: images_5_007.avi
+2025-08-01 10:14:20,700 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101420173363254WuFUQAaq)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:20,703 - INFO - 视频 images_5_007.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  26%|██▋       | 53/201 [06:41<06:36,  2.68s/it]2025-08-01 10:14:20,703 - INFO - 处理视频 54/100: images_5_008.avi
+2025-08-01 10:14:23,317 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 202508011014227657216798p6z1vMr)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:23,330 - INFO - 视频 images_5_008.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  27%|██▋       | 54/201 [06:43<06:31,  2.66s/it]2025-08-01 10:14:23,331 - INFO - 处理视频 55/100: images_5_009.avi
+2025-08-01 10:14:26,160 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101425612331008Uuylw8cD)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:26,169 - INFO - 视频 images_5_009.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:14:26,172 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_55videos_20250801_100739.json
+处理视频:  27%|██▋       | 55/201 [06:46<06:36,  2.72s/it]2025-08-01 10:14:26,173 - INFO - 处理视频 56/100: images_5_010.avi
+2025-08-01 10:14:28,834 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101428264699525rnxcP4Bc)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:28,843 - INFO - 视频 images_5_010.avi: GT=5s: ghost probing, 检测=, 评估=ERROR
+处理视频:  28%|██▊       | 56/201 [06:49<06:31,  2.70s/it]2025-08-01 10:14:28,843 - INFO - 处理视频 57/100: images_5_011.avi
+2025-08-01 10:14:31,626 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 2025080110143192298976vkJSFNUs)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:31,634 - INFO - 视频 images_5_011.avi: GT=3s: ghost probing, 检测=, 评估=ERROR
+处理视频:  28%|██▊       | 57/201 [06:52<06:33,  2.73s/it]2025-08-01 10:14:31,634 - INFO - 处理视频 58/100: images_5_012.avi
+2025-08-01 10:14:34,205 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101433711724691VhLAo2Ou)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:34,214 - INFO - 视频 images_5_012.avi: GT=13s: ghost probing, 检测=, 评估=ERROR
+处理视频:  29%|██▉       | 58/201 [06:54<06:23,  2.68s/it]2025-08-01 10:14:34,215 - INFO - 处理视频 59/100: images_5_013.avi
+2025-08-01 10:14:36,865 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101436357591837DEWzWPZw)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:36,878 - INFO - 视频 images_5_013.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  29%|██▉       | 59/201 [06:57<06:20,  2.68s/it]2025-08-01 10:14:36,879 - INFO - 处理视频 60/100: images_5_014.avi
+2025-08-01 10:14:39,532 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101438984234912mTxprcr4)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:39,546 - INFO - 视频 images_5_014.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:14:39,550 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_60videos_20250801_100739.json
+处理视频:  30%|██▉       | 60/201 [06:59<06:17,  2.68s/it]2025-08-01 10:14:39,551 - INFO - 处理视频 61/100: images_5_015.avi
+2025-08-01 10:14:42,124 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101441606678455iURvAh8X)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:42,134 - INFO - 视频 images_5_015.avi: GT=2s: ghost probing, 检测=, 评估=ERROR
+处理视频:  30%|███       | 61/201 [07:02<06:10,  2.65s/it]2025-08-01 10:14:42,135 - INFO - 处理视频 62/100: images_5_016.avi
+2025-08-01 10:14:44,777 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101444228890979emWGIkZh)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:44,781 - INFO - 视频 images_5_016.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  31%|███       | 62/201 [07:05<06:08,  2.65s/it]2025-08-01 10:14:44,781 - INFO - 处理视频 63/100: images_5_017.avi
+2025-08-01 10:14:47,388 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 2025080110144674958400276dAtK0r)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:47,395 - INFO - 视频 images_5_017.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  31%|███▏      | 63/201 [07:07<06:04,  2.64s/it]2025-08-01 10:14:47,396 - INFO - 处理视频 64/100: images_5_018.avi
+2025-08-01 10:14:50,037 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101449487735893qI8RYOCX)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:50,046 - INFO - 视频 images_5_018.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  32%|███▏      | 64/201 [07:10<06:01,  2.64s/it]2025-08-01 10:14:50,046 - INFO - 处理视频 65/100: images_5_019.avi
+2025-08-01 10:14:52,682 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101452153378349nuhLSih9)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:52,695 - INFO - 视频 images_5_019.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:14:52,699 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_65videos_20250801_100739.json
+处理视频:  32%|███▏      | 65/201 [07:13<05:59,  2.65s/it]2025-08-01 10:14:52,699 - INFO - 处理视频 66/100: images_5_020.avi
+2025-08-01 10:14:55,540 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101454944084164eLsNSCR0)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:55,553 - INFO - 视频 images_5_020.avi: GT=11s: ghost probing, 检测=, 评估=ERROR
+处理视频:  33%|███▎      | 66/201 [07:15<06:05,  2.71s/it]2025-08-01 10:14:55,554 - INFO - 处理视频 67/100: images_5_021.avi
+2025-08-01 10:14:58,015 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101457522777851ie5lnVxH)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:14:58,021 - INFO - 视频 images_5_021.avi: GT=4s: ghost probing, 检测=, 评估=ERROR
+处理视频:  33%|███▎      | 67/201 [07:18<05:53,  2.64s/it]2025-08-01 10:14:58,021 - INFO - 处理视频 68/100: images_5_022.avi
+2025-08-01 10:15:01,440 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.102410 (request id: 20250801101500777287821SBdH9drF)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:01,455 - INFO - 视频 images_5_022.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  34%|███▍      | 68/201 [07:21<06:22,  2.88s/it]2025-08-01 10:15:01,455 - INFO - 处理视频 69/100: images_5_023.avi
+2025-08-01 10:15:04,161 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101503669957215FroFmgKB)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:04,165 - INFO - 视频 images_5_023.avi: GT=7s: ghost probing, 检测=, 评估=ERROR
+处理视频:  34%|███▍      | 69/201 [07:24<06:12,  2.83s/it]2025-08-01 10:15:04,165 - INFO - 处理视频 70/100: images_5_024.avi
+2025-08-01 10:15:07,091 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 202508011015065450874767kc1sjmQ)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:07,100 - INFO - 视频 images_5_024.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:15:07,102 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_70videos_20250801_100739.json
+处理视频:  35%|███▍      | 70/201 [07:27<06:14,  2.86s/it]2025-08-01 10:15:07,102 - INFO - 处理视频 71/100: images_5_025.avi
+2025-08-01 10:15:09,568 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 2025080110150936669801rZj7KmRE)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:09,573 - INFO - 视频 images_5_025.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  35%|███▌      | 71/201 [07:29<05:56,  2.74s/it]2025-08-01 10:15:09,574 - INFO - 处理视频 72/100: images_5_026.avi
+2025-08-01 10:15:12,333 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101511684503150mwDhxojQ)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:12,341 - INFO - 视频 images_5_026.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  36%|███▌      | 72/201 [07:32<05:54,  2.75s/it]2025-08-01 10:15:12,341 - INFO - 处理视频 73/100: images_5_027.avi
+2025-08-01 10:15:15,088 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101514493033257dPBUYnrN)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:15,101 - INFO - 视频 images_5_027.avi: GT=3s: ghost probing, 检测=, 评估=ERROR
+处理视频:  36%|███▋      | 73/201 [07:35<05:52,  2.75s/it]2025-08-01 10:15:15,101 - INFO - 处理视频 74/100: images_5_028.avi
+2025-08-01 10:15:17,877 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101517344048584fNPfB3kj)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:17,890 - INFO - 视频 images_5_028.avi: GT=7s: ghost probing, 检测=, 评估=ERROR
+处理视频:  37%|███▋      | 74/201 [07:38<05:51,  2.76s/it]2025-08-01 10:15:17,891 - INFO - 处理视频 75/100: images_5_029.avi
+2025-08-01 10:15:20,653 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 2025080110152022283313wjsbgtYi)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:20,656 - INFO - 视频 images_5_029.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:15:20,657 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_75videos_20250801_100739.json
+处理视频:  37%|███▋      | 75/201 [07:41<05:48,  2.76s/it]2025-08-01 10:15:20,657 - INFO - 处理视频 76/100: images_5_030.avi
+2025-08-01 10:15:23,392 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101522750306583kPxJmq3m)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:23,399 - INFO - 视频 images_5_030.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  38%|███▊      | 76/201 [07:43<05:44,  2.76s/it]2025-08-01 10:15:23,399 - INFO - 处理视频 77/100: images_5_031.avi
+2025-08-01 10:15:25,960 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101525361901040yKBJQBlb)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:25,972 - INFO - 视频 images_5_031.avi: GT=2s: ghost probing, 检测=, 评估=ERROR
+处理视频:  38%|███▊      | 77/201 [07:46<05:35,  2.70s/it]2025-08-01 10:15:25,973 - INFO - 处理视频 78/100: images_5_032.avi
+2025-08-01 10:15:28,666 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 2025080110152877466057Rm9X43Qy)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:28,675 - INFO - 视频 images_5_032.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  39%|███▉      | 78/201 [07:49<05:32,  2.70s/it]2025-08-01 10:15:28,676 - INFO - 处理视频 79/100: images_5_033.avi
+2025-08-01 10:15:31,232 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101530722326951BlUZntS5)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:31,240 - INFO - 视频 images_5_033.avi: GT=5s: ghost probing, 检测=, 评估=ERROR
+处理视频:  39%|███▉      | 79/201 [07:51<05:24,  2.66s/it]2025-08-01 10:15:31,240 - INFO - 处理视频 80/100: images_5_034.avi
+2025-08-01 10:15:33,934 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101533328683990Nn1oIAkv)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:33,938 - INFO - 视频 images_5_034.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:15:33,939 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_80videos_20250801_100739.json
+处理视频:  40%|███▉      | 80/201 [07:54<05:23,  2.67s/it]2025-08-01 10:15:33,940 - INFO - 处理视频 81/100: images_5_035.avi
+2025-08-01 10:15:36,708 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 2025080110153617943885506Eyavp0)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:36,714 - INFO - 视频 images_5_035.avi: GT=12s: ghost probing, 检测=, 评估=ERROR
+处理视频:  40%|████      | 81/201 [07:57<05:24,  2.70s/it]2025-08-01 10:15:36,715 - INFO - 处理视频 82/100: images_5_036.avi
+2025-08-01 10:15:39,324 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101538816076506B155qN9d)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:39,342 - INFO - 视频 images_5_036.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  41%|████      | 82/201 [07:59<05:18,  2.68s/it]2025-08-01 10:15:39,342 - INFO - 处理视频 83/100: images_5_037.avi
+2025-08-01 10:15:41,841 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101541322587182N2WnxCqS)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:41,853 - INFO - 视频 images_5_037.avi: GT=6s: ghost probing, 检测=, 评估=ERROR
+处理视频:  41%|████▏     | 83/201 [08:02<05:10,  2.63s/it]2025-08-01 10:15:41,853 - INFO - 处理视频 84/100: images_5_038.avi
+2025-08-01 10:15:44,982 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 202508011015444000603411jyGbU4X)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:44,990 - INFO - 视频 images_5_038.avi: GT=13s: cut-in, 检测=, 评估=ERROR
+处理视频:  42%|████▏     | 84/201 [08:05<05:25,  2.78s/it]2025-08-01 10:15:44,991 - INFO - 处理视频 85/100: images_5_039.avi
+2025-08-01 10:15:48,194 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101547641414051M458lziA)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:48,203 - INFO - 视频 images_5_039.avi: GT=7s: ghost probing, 检测=, 评估=ERROR
+2025-08-01 10:15:48,206 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_85videos_20250801_100739.json
+处理视频:  42%|████▏     | 85/201 [08:08<05:37,  2.91s/it]2025-08-01 10:15:48,206 - INFO - 处理视频 86/100: images_5_040.avi
+2025-08-01 10:15:50,957 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 202508011015503294734886ZjFbYX3)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:50,969 - INFO - 视频 images_5_040.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  43%|████▎     | 86/201 [08:11<05:29,  2.87s/it]2025-08-01 10:15:50,970 - INFO - 处理视频 87/100: images_5_041.avi
+2025-08-01 10:15:53,450 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101552974967015Lua1Wjlf)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:53,458 - INFO - 视频 images_5_041.avi: GT=5s: ghost probing, 检测=, 评估=ERROR
+处理视频:  43%|████▎     | 87/201 [08:13<05:13,  2.75s/it]2025-08-01 10:15:53,459 - INFO - 处理视频 88/100: images_5_042.avi
+2025-08-01 10:15:56,004 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 202508011015554959142138toCrLa6)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:56,022 - INFO - 视频 images_5_042.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  44%|████▍     | 88/201 [08:16<05:04,  2.70s/it]2025-08-01 10:15:56,023 - INFO - 处理视频 89/100: images_5_043.avi
+2025-08-01 10:15:58,823 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 202508011015581296502447s4ye6Sz)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:15:58,832 - INFO - 视频 images_5_043.avi: GT=13s: ghost probing, 检测=, 评估=ERROR
+处理视频:  44%|████▍     | 89/201 [08:19<05:05,  2.73s/it]2025-08-01 10:15:58,832 - INFO - 处理视频 90/100: images_5_044.avi
+2025-08-01 10:16:01,385 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101600881278382FPqnvuqQ)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:01,397 - INFO - 视频 images_5_044.avi: GT=4s: ghost probing, 检测=, 评估=ERROR
+2025-08-01 10:16:01,400 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_90videos_20250801_100739.json
+处理视频:  45%|████▍     | 90/201 [08:21<04:57,  2.68s/it]2025-08-01 10:16:01,401 - INFO - 处理视频 91/100: images_5_045.avi
+2025-08-01 10:16:07,631 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 2025080110160781708493lx8D0OLd)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:07,645 - INFO - 视频 images_5_045.avi: GT=5s: ghost probing, 检测=, 评估=ERROR
+处理视频:  45%|████▌     | 91/201 [08:28<06:52,  3.75s/it]2025-08-01 10:16:07,646 - INFO - 处理视频 92/100: images_5_046.avi
+2025-08-01 10:16:10,105 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101609602824737w82gT99C)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:10,108 - INFO - 视频 images_5_046.avi: GT=2s: ghost probing, 检测=, 评估=ERROR
+处理视频:  46%|████▌     | 92/201 [08:30<06:06,  3.36s/it]2025-08-01 10:16:10,108 - INFO - 处理视频 93/100: images_5_047.avi
+2025-08-01 10:16:12,648 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 2025080110161291871968iAZhoNxf)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:12,656 - INFO - 视频 images_5_047.avi: GT=2s: ghost probing, 检测=, 评估=ERROR
+处理视频:  46%|████▋     | 93/201 [08:33<05:36,  3.12s/it]2025-08-01 10:16:12,656 - INFO - 处理视频 94/100: images_5_048.avi
+2025-08-01 10:16:15,348 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101614836212042uW6shsjd)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:15,352 - INFO - 视频 images_5_048.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  47%|████▋     | 94/201 [08:35<05:20,  2.99s/it]2025-08-01 10:16:15,353 - INFO - 处理视频 95/100: images_5_049.avi
+2025-08-01 10:16:17,774 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101617289528374kRBNKXqa)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:17,785 - INFO - 视频 images_5_049.avi: GT=3s: ghost probing, 检测=, 评估=ERROR
+2025-08-01 10:16:17,789 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_95videos_20250801_100739.json
+处理视频:  47%|████▋     | 95/201 [08:38<04:59,  2.83s/it]2025-08-01 10:16:17,790 - INFO - 处理视频 96/100: images_5_050.avi
+2025-08-01 10:16:20,247 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 202508011016197071888829ddhS5yO)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:20,250 - INFO - 视频 images_5_050.avi: GT=2s: ghost probing, 检测=, 评估=ERROR
+处理视频:  48%|████▊     | 96/201 [08:40<04:45,  2.72s/it]2025-08-01 10:16:20,251 - INFO - 处理视频 97/100: images_5_051.avi
+2025-08-01 10:16:23,003 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 20250801101622470578703btW06toF)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:23,013 - INFO - 视频 images_5_051.avi: GT=2s: ghost probing, 检测=, 评估=ERROR
+处理视频:  48%|████▊     | 97/201 [08:43<04:43,  2.73s/it]2025-08-01 10:16:23,013 - INFO - 处理视频 98/100: images_5_052.avi
+2025-08-01 10:16:25,546 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 2025080110162510304803rY6eooYQ)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:25,550 - INFO - 视频 images_5_052.avi: GT=3s: ghost probing, 检测=, 评估=ERROR
+处理视频:  49%|████▉     | 98/201 [08:45<04:35,  2.67s/it]2025-08-01 10:16:25,550 - INFO - 处理视频 99/100: images_5_053.avi
+2025-08-01 10:16:28,322 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.054726 (request id: 20250801101627713127515NH97cwO1)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:28,338 - INFO - 视频 images_5_053.avi: GT=7s: ghost probing, 检测=, 评估=ERROR
+处理视频:  49%|████▉     | 99/201 [08:48<04:36,  2.71s/it]2025-08-01 10:16:28,339 - INFO - 处理视频 100/100: images_5_054.avi
+2025-08-01 10:16:31,013 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 202508011016304241077702bRSCHji)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:31,064 - INFO - 视频 images_5_054.avi: GT=none, 检测=, 评估=ERROR
+2025-08-01 10:16:31,067 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_intermediate_100videos_20250801_100739.json
+处理视频:  50%|████▉     | 100/201 [08:51<04:34,  2.71s/it]2025-08-01 10:16:31,067 - INFO - 处理视频 101/100: images_5_055.avi
+2025-08-01 10:16:33,862 - ERROR - API响应格式错误: {'error': {'message': 'chat pre-consumed quota failed, user quota: ＄0.025516, need quota: ＄0.059060 (request id: 202508011016332996450695PJgka63)', 'type': 'new_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2025-08-01 10:16:33,871 - INFO - 视频 images_5_055.avi: GT=none, 检测=, 评估=ERROR
+处理视频:  50%|█████     | 101/201 [08:54<04:34,  2.74s/it]2025-08-01 10:16:33,872 - INFO - 处理视频 102/100: images_5_056.avi
+2025-08-01 10:16:33,872 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_056.avi
+2025-08-01 10:16:33,872 - INFO - 处理视频 103/100: images_5_057.avi
+2025-08-01 10:16:33,872 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_057.avi
+2025-08-01 10:16:33,872 - INFO - 处理视频 104/100: images_5_058.avi
+2025-08-01 10:16:33,873 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_058.avi
+2025-08-01 10:16:33,873 - INFO - 处理视频 105/100: images_5_059.avi
+2025-08-01 10:16:33,873 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_059.avi
+2025-08-01 10:16:33,873 - INFO - 处理视频 106/100: images_5_060.avi
+2025-08-01 10:16:33,873 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_060.avi
+2025-08-01 10:16:33,873 - INFO - 处理视频 107/100: images_5_061.avi
+2025-08-01 10:16:33,873 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_061.avi
+2025-08-01 10:16:33,873 - INFO - 处理视频 108/100: images_5_062.avi
+2025-08-01 10:16:33,874 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_062.avi
+2025-08-01 10:16:33,874 - INFO - 处理视频 109/100: images_5_063.avi
+2025-08-01 10:16:33,874 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_063.avi
+2025-08-01 10:16:33,874 - INFO - 处理视频 110/100: images_5_064.avi
+2025-08-01 10:16:33,874 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_064.avi
+2025-08-01 10:16:33,874 - INFO - 处理视频 111/100: images_5_065.avi
+2025-08-01 10:16:33,874 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_065.avi
+2025-08-01 10:16:33,874 - INFO - 处理视频 112/100: images_5_066.avi
+2025-08-01 10:16:33,874 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_066.avi
+2025-08-01 10:16:33,874 - INFO - 处理视频 113/100: images_5_067.avi
+2025-08-01 10:16:33,874 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_067.avi
+2025-08-01 10:16:33,874 - INFO - 处理视频 114/100: images_5_068.avi
+2025-08-01 10:16:33,874 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_068.avi
+2025-08-01 10:16:33,875 - INFO - 处理视频 115/100: images_5_069.avi
+2025-08-01 10:16:33,875 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_069.avi
+2025-08-01 10:16:33,875 - INFO - 处理视频 116/100: images_5_070.avi
+2025-08-01 10:16:33,875 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_070.avi
+2025-08-01 10:16:33,875 - INFO - 处理视频 117/100: images_5_071.avi
+2025-08-01 10:16:33,875 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_071.avi
+2025-08-01 10:16:33,875 - INFO - 处理视频 118/100: images_5_072.avi
+2025-08-01 10:16:33,875 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_072.avi
+2025-08-01 10:16:33,875 - INFO - 处理视频 119/100: images_5_073.avi
+2025-08-01 10:16:33,875 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_073.avi
+2025-08-01 10:16:33,875 - INFO - 处理视频 120/100: images_5_074.avi
+2025-08-01 10:16:33,876 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_074.avi
+2025-08-01 10:16:33,876 - INFO - 处理视频 121/100: images_5_075.avi
+2025-08-01 10:16:33,876 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_075.avi
+2025-08-01 10:16:33,876 - INFO - 处理视频 122/100: images_5_076.avi
+2025-08-01 10:16:33,876 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_076.avi
+2025-08-01 10:16:33,876 - INFO - 处理视频 123/100: images_5_077.avi
+2025-08-01 10:16:33,877 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_077.avi
+2025-08-01 10:16:33,877 - INFO - 处理视频 124/100: images_5_078.avi
+2025-08-01 10:16:33,877 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_078.avi
+2025-08-01 10:16:33,877 - INFO - 处理视频 125/100: images_5_079.avi
+2025-08-01 10:16:33,877 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_079.avi
+2025-08-01 10:16:33,877 - INFO - 处理视频 126/100: images_6_001.avi
+2025-08-01 10:16:33,877 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_001.avi
+2025-08-01 10:16:33,877 - INFO - 处理视频 127/100: images_6_002.avi
+2025-08-01 10:16:33,877 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_002.avi
+2025-08-01 10:16:33,877 - INFO - 处理视频 128/100: images_6_003.avi
+2025-08-01 10:16:33,877 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_003.avi
+2025-08-01 10:16:33,878 - INFO - 处理视频 129/100: images_6_004.avi
+2025-08-01 10:16:33,878 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_004.avi
+2025-08-01 10:16:33,878 - INFO - 处理视频 130/100: images_6_005.avi
+2025-08-01 10:16:33,878 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_005.avi
+2025-08-01 10:16:33,878 - INFO - 处理视频 131/100: images_6_006.avi
+2025-08-01 10:16:33,878 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_006.avi
+2025-08-01 10:16:33,878 - INFO - 处理视频 132/100: images_6_007.avi
+2025-08-01 10:16:33,878 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_007.avi
+2025-08-01 10:16:33,878 - INFO - 处理视频 133/100: images_6_008.avi
+2025-08-01 10:16:33,878 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_008.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 134/100: images_6_009.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_009.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 135/100: images_6_010.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_010.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 136/100: images_6_011.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_011.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 137/100: images_6_012.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_012.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 138/100: images_6_013.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_013.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 139/100: images_6_014.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_014.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 140/100: images_6_015.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_015.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 141/100: images_6_016.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_016.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 142/100: images_6_017.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_017.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 143/100: images_6_018.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_018.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 144/100: images_6_019.avi
+2025-08-01 10:16:33,879 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_019.avi
+2025-08-01 10:16:33,879 - INFO - 处理视频 145/100: images_6_020.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_020.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 146/100: images_6_021.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_021.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 147/100: images_6_022.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_022.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 148/100: images_6_023.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_023.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 149/100: images_6_024.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_024.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 150/100: images_6_025.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_025.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 151/100: images_6_026.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_026.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 152/100: images_6_027.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_027.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 153/100: images_6_028.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_028.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 154/100: images_6_029.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_029.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 155/100: images_6_030.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_030.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 156/100: images_6_031.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_031.avi
+2025-08-01 10:16:33,880 - INFO - 处理视频 157/100: images_6_032.avi
+2025-08-01 10:16:33,880 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_032.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 158/100: images_6_033.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_033.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 159/100: images_6_034.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_034.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 160/100: images_6_035.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_035.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 161/100: images_6_036.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_036.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 162/100: images_6_037.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_037.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 163/100: images_6_038.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_038.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 164/100: images_6_039.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_039.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 165/100: images_6_040.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_040.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 166/100: images_6_041.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_041.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 167/100: images_6_042.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_042.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 168/100: images_6_043.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_043.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 169/100: images_6_044.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_044.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 170/100: images_6_045.avi
+2025-08-01 10:16:33,881 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_045.avi
+2025-08-01 10:16:33,881 - INFO - 处理视频 171/100: images_6_046.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_046.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 172/100: images_6_047.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_047.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 173/100: images_6_048.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_048.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 174/100: images_6_049.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_049.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 175/100: images_6_050.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_050.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 176/100: images_6_051.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_051.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 177/100: images_6_052.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_052.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 178/100: images_6_053.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_053.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 179/100: images_6_054.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_054.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 180/100: images_6_055.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_055.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 181/100: images_6_056.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_056.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 182/100: images_6_057.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_057.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 183/100: images_6_058.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_058.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 184/100: images_6_059.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_059.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 185/100: images_6_060.avi
+2025-08-01 10:16:33,882 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_060.avi
+2025-08-01 10:16:33,882 - INFO - 处理视频 186/100: images_7_001.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_001.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 187/100: images_7_002.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_002.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 188/100: images_7_003.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_003.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 189/100: images_7_004.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_004.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 190/100: images_7_005.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_005.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 191/100: images_7_006.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_006.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 192/100: images_8_001.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_001.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 193/100: images_8_002.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_002.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 194/100: images_8_003.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_003.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 195/100: images_8_004.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_004.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 196/100: images_8_005.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_005.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 197/100: images_8_006.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_006.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 198/100: images_8_007.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_007.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 199/100: images_8_008.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_008.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 200/100: images_8_009.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_009.avi
+2025-08-01 10:16:33,883 - INFO - 处理视频 201/100: images_8_010.avi
+2025-08-01 10:16:33,883 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_010.avi
+处理视频: 100%|██████████| 201/201 [08:54<00:00,  2.66s/it]
+2025-08-01 10:16:33,885 - INFO - 最终结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4/run20_final_results_20250801_100739.json
+2025-08-01 10:16:33,885 - INFO - === Run 20 Performance Metrics ===
+2025-08-01 10:16:33,885 - INFO - 精确度: 0.667 (66.7%)
+2025-08-01 10:16:33,885 - INFO - 召回率: 0.250 (25.0%)
+2025-08-01 10:16:33,885 - INFO - F1分数: 0.364 (36.4%)
+2025-08-01 10:16:33,885 - INFO - 准确率: 0.364 (36.4%)
+2025-08-01 10:16:33,885 - INFO - TP: 2, FP: 1, TN: 2, FN: 6, ERROR: 90
+🎯 Run 20: Claude 4 (claude-sonnet-4-20250514) Ghost Probing Detection (100 Videos) 实验完成!
+📁 结果保存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4
+✅ Run 20 实验完成！

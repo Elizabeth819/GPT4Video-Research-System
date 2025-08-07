@@ -1,0 +1,33 @@
+{
+  "video_id": "images_1_009",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "5.5s",
+  "summary": "At night, the car is driving on a road with street lights. From 0.0s to 3.0s, two individuals, one wearing a light-colored jacket and the other wearing a blue jacket, suddenly appear in the middle of the road and begin crossing from left to right. The individuals are walking at a moderate speed. From 3.0s to 5.5s, the individuals are in the middle of the road, and the car approaches them. The individuals are walking at a moderate speed. The car is approaching the individuals at a moderate speed, which could lead to a collision.",
+  "characters": [
+    {
+      "gender": "unknown",
+      "clothing": "light-colored jacket",
+      "age": "unknown",
+      "transportation_method": "walking",
+      "behavior": "crossing the road from left to right"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "blue jacket",
+      "age": "unknown",
+      "transportation_method": "walking",
+      "behavior": "crossing the road from left to right"
+    }
+  ],
+  "key_objects": [
+    "Front: Two individuals, approximately 10 meters away, crossing the road from left to right, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a road at night. The driver is maintaining a consistent speed, likely due to the clear road ahead and the absence of immediate obstacles. The driver is proceeding cautiously, as indicated by the moderate speed, to ensure safety in the dimly lit environment.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

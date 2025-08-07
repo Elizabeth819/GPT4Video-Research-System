@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_47_009",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist",
+        "summary": "In this segment, the vehicle is driving on a city road. A white sedan is ahead, and a cyclist is on the right side of the road. The cyclist moves closer to the white sedan, eventually causing a collision.",
+        "actions": "The self-driving vehicle maintains a consistent speed while observing the white sedan and cyclist ahead. The cyclist moves closer to the white sedan, causing a collision. The self-driving vehicle slows down to avoid further incidents.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving steadily. 2) Right: A cyclist, approximately 5 meters away, moving towards the white sedan, causing a collision.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

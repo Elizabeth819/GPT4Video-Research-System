@@ -1,0 +1,55 @@
+# Azure ML Job Configuration for Video-LLaMA-2 Ghost Probing Inference
+
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+display_name: Video-LLaMA-2 Ghost Probing Detection
+description: Run Video-LLaMA-2 inference on DADA videos for ghost probing detection
+experiment_name: video-llama2-ghost-probing
+
+# Compute configuration - use our V100 cluster
+compute: azureml:video-llama2-v100-cluster
+
+# Environment configuration
+environment:
+  image: mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu20.04
+  conda_file: video_llama2_azure_env.yml
+
+# Code and inputs
+code: ./
+inputs:
+  dada_videos:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/DADA-2000-videos/
+    mode: ro_mount
+
+# Command to run
+command: >
+  python azure_video_llama2_inference.py
+  --video_data ${{inputs.dada_videos}}
+  --output_dir ${{outputs.results}}
+  --num_videos 20
+  --download_model
+
+# Outputs
+outputs:
+  results:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/video-llama2-results/
+
+# Resource limits
+limits:
+  timeout: 14400  # 4 hours
+
+# Environment variables
+environment_variables:
+  CUDA_VISIBLE_DEVICES: "0,1,2,3"
+  TOKENIZERS_PARALLELISM: "false"
+  HF_HOME: "/tmp/huggingface"
+  TRANSFORMERS_CACHE: "/tmp/transformers"
+
+# Tags
+tags:
+  model: video-llama-2-7b-finetuned
+  task: ghost-probing-detection
+  dataset: dada-2000
+  compute: v100-cluster

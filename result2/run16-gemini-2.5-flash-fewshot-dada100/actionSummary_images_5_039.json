@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_039",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.7s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male rider on a white scooter, wearing dark clothing and a face mask, approximately 20-30 years old.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road with moderate traffic. As the vehicle proceeds, passing a line of parked or slow-moving vehicles on its left, a white scooter with a male rider suddenly emerges from the right side of the road. The scooter appears from behind a white van and a large truck that were previously obscuring the view on the right. The rider attempts to cross the vehicle's path but loses control and falls directly in front of the self-driving vehicle, creating an immediate and dangerous ghost probing situation.",
+  "actions": "The self-driving vehicle is initially maintaining a steady speed. Upon the sudden appearance of the white scooter and its rider from the right side of the road at approximately 8.0 seconds, and their subsequent fall directly into the vehicle's path at approximately 9.0 seconds, the vehicle immediately initiates rapid deceleration and emergency braking. This action is taken to prevent a collision with the fallen rider and scooter, bringing the vehicle to a complete stop to ensure safety and assess the incident.",
+  "key_objects": "1) Right side: A male rider on a white scooter, approximately 5-10 meters away, suddenly emerging from behind a white van and a large truck on the right side of the road, attempting to cross the vehicle's path, and then falling directly in front of the vehicle. 2) Right side: A white van and a large truck, approximately 10-20 meters away, positioned on the right side of the road, creating a visual obstruction that partially hid the scooter until its sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

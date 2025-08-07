@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_6_028",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, two motorcyclists, pedestrian",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Ahead, two motorcyclists are traveling in the same direction. A pedestrian on the right side of the road is walking towards the road, potentially crossing. The pedestrians movement poses a risk of ghost probing behavior.",
+        "actions": "The self-driving vehicle maintains a steady speed while monitoring the pedestrians movement. The vehicle is prepared to decelerate if the pedestrian suddenly crosses the road.",
+        "key_objects": "1) Right side: A pedestrian, approximately 2 meters away, walking towards the road, potentially crossing. 2) Front: Two motorcyclists, approximately 10 meters away, traveling in the same direction.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

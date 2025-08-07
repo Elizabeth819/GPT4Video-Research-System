@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving on a road with trees on both sides. Other vehicles are visible in the distance.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are driving in the same direction.",
+    "characters": "None visible",
+    "key_objects": "Ego vehicle, other vehicles, trees, road",
+    "key_actions": "No immediate hazards detected. Normal driving conditions.",
+    "next_action": "Continue driving straight."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle is driving on a narrow road with trees on both sides. A vehicle appears to be turning onto the road from the left.",
+    "actions": "Ego vehicle is moving forward. A vehicle is turning onto the road.",
+    "characters": "None visible",
+    "key_objects": "Ego vehicle, turning vehicle, trees, road",
+    "key_actions": "potential ghost probing: A vehicle is turning onto the road from a concealed position on the left, creating a potential collision risk.",
+    "next_action": "Maintain speed and observe the turning vehicle."
+  },
+  {
+    "timestamp": "20-30s",
+    "summary": "Ego vehicle is driving on a narrow road with trees on both sides. Another vehicle is visible in the distance.",
+    "actions": "Ego vehicle is moving forward. Another vehicle is driving in the same direction.",
+    "characters": "None visible",
+    "key_objects": "Ego vehicle, other vehicle, trees, road, red and white poles",
+    "key_actions": "No immediate hazards detected. Normal driving conditions.",
+    "next_action": "Continue driving straight."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_040",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car driving on a city street. There are pedestrians on the right side of the road, and other vehicles are present. A motorcyclist is on the left side of the road. The driver is involved in an accident.",
+  "summary": "The vehicle is driving down a city street. Initially, the road appears clear, but as the vehicle approaches an intersection, a motorcyclist on the left side of the road suddenly enters the driver's path. The driver is unable to avoid a collision, resulting in an accident. The windshield is shattered.",
+  "actions": "The vehicle initially maintains a steady speed while driving straight. As the vehicle approaches the intersection, the driver likely attempts to brake to avoid the motorcyclist, but the reaction time is insufficient to prevent the collision. The vehicle then comes to an abrupt stop after the impact.",
+  "key_objects": "1) Left: Motorcyclist, medium distance, suddenly enters the driver's path from behind a barrier, causing a collision. 2) Right: Pedestrians, medium distance, crossing the street at the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

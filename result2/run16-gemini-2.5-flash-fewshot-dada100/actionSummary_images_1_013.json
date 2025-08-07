@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_013",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Two pedestrians (one adult female in red clothing, one child in pink/red clothing) walking on the right side of the road, and a driver of a green bus.",
+  "summary": "In this segment, the vehicle is driving on a rural, two-lane road with mountainous terrain and trees on both sides. Initially, the road ahead is clear. As the vehicle proceeds, two pedestrians, an adult female and a child, are observed walking on the right side of the road, moving away from the vehicle's direction of travel. Subsequently, a large green bus approaches from the opposite direction, passing the self-driving vehicle safely within its lane. There are no sudden or unexpected emergences from behind obstructions, and all observed entities are visible with ample reaction time.",
+  "actions": "The self-driving vehicle maintains a consistent speed and direction throughout the segment. It continues to follow the road's gentle curve. The vehicle does not need to alter its speed or direction significantly because the pedestrians observed on the right side of the road are walking away from the vehicle's path and remain safely on the shoulder, posing no immediate threat. Similarly, the oncoming green bus is visible from a sufficient distance, allowing the vehicle to maintain its current lane and speed for a safe and uneventful pass without requiring any evasive maneuvers or braking.",
+  "key_objects": "None requiring immediate attention",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

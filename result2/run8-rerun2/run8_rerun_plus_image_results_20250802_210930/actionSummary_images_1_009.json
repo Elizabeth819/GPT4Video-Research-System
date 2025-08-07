@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_009",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, crossing the road from the right side. Another pedestrian running from the left side. Cyclist on the right side.",
+  "summary": "The video sequence shows multiple instances of 'ghost probing' behavior. In the first sequence, a child suddenly emerges from the right side of the road, hidden by a parked vehicle, creating an immediate collision risk. In the second sequence, a pedestrian runs from the left side, hidden by a parked van, directly into the vehicle's path. In the third sequence, a pedestrian runs from the left side, hidden by a parked truck, into the vehicle's path. In the fourth sequence, two pedestrians cross the road from the right side, hidden by the darkness, creating a collision risk.",
+  "actions": "The vehicle encounters multiple sudden emergences of pedestrians from both sides of the road, hidden by parked vehicles and darkness.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians, cyclist, and roadside structures.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

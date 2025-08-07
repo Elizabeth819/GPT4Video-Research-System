@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_016",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "A person (initially on a bicycle, then walking) wearing a red top and dark pants, appearing to be an adult.",
+  "summary": "The ego vehicle is traveling on a multi-lane road under cloudy skies. Initially, the road appears clear in the ego vehicle's lane, with a red sedan on the left and a silver sedan further ahead in the middle lane. As the ego vehicle proceeds, a critical incident occurs: a person, initially on a bicycle, suddenly emerges into the middle lane from behind the silver sedan, which was directly in front of the ego vehicle. This silver sedan acted as a moving obstruction, momentarily hiding the person. The person then dismounts or was already walking, proceeding to cross the road from the right side to the left side, directly into the ego vehicle's path. The ego vehicle reacts by rapidly decelerating to avoid a collision. Other vehicles, including a red sedan and a dark grey SUV, are also present on the road, indicating moderate traffic.",
+  "actions": "The ego vehicle initially maintains a steady speed, driving straight in its lane. Upon the sudden appearance of a person (initially on a bicycle, then walking) directly in its path, emerging from behind a preceding silver sedan, the ego vehicle initiates rapid deceleration. This immediate and strong braking action is taken to prevent a collision with the pedestrian who unexpectedly entered the roadway, demonstrating a crucial safety response to an immediate and unforeseen hazard. The vehicle continues to slow down significantly, eventually coming to a near stop or very low speed, ensuring the pedestrian clears its path safely.",
+  "key_objects": "1) Middle-front: A silver sedan, approximately 10-20 meters ahead, acting as a temporary moving obstruction that momentarily obscured the view of the pedestrian. Its presence contributed to the ghost probing scenario by hiding the pedestrian's initial appearance. 2) Middle-front: A person (initially on a bicycle, then walking) wearing a red top and dark pants, appearing suddenly from behind the silver sedan and entering the ego vehicle's lane. This person is the direct cause of the ghost probing incident and the immediate danger, necessitating the ego vehicle's rapid deceleration.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

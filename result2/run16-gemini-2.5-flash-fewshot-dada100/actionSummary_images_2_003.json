@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male pedestrian in dark clothing, approximately middle-aged",
+  "summary": "In this segment, the vehicle is driving on an urban road, approaching an intersection with a marked crosswalk. Initially, a male pedestrian wearing dark clothing is observed standing on the left side of the road, near a parked white van and other vehicles. As the vehicle approaches the crosswalk, the pedestrian suddenly walks out from behind the parked white van and other vehicles, stepping directly onto the crosswalk and into the vehicle's path with minimal warning. This sudden emergence creates an immediate and dangerous ghost probing situation, leading to a rapid braking maneuver by the vehicle to avoid a collision. The pedestrian appears to stumble or fall after the vehicle stops, then gets up and looks towards the vehicle.",
+  "actions": "The self-driving vehicle is proceeding at a moderate speed towards an intersection. Upon the sudden and unexpected appearance of a male pedestrian walking into the crosswalk from behind a parked white van on the left side, the vehicle immediately initiates rapid deceleration and emergency braking. The vehicle comes to a complete stop to prevent a severe collision, demonstrating a critical safety response to the sudden obstruction in its path.",
+  "key_objects": "1) Left side: A male pedestrian, middle-aged, wearing dark clothing, approximately 2-3 meters away, suddenly walking into the crosswalk from behind parked vehicles and directly into the vehicle's path. 2) Left side: A parked white van, approximately 5-7 meters away, and other parked vehicles, creating a visual obstruction that partially hides the pedestrian's sudden movement into the crosswalk until emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

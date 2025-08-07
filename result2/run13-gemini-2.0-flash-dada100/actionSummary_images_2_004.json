@@ -1,0 +1,23 @@
+{
+  "video_id": "images_2_004",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "6.2s",
+      "characters": [
+        "Several people are walking across the road. One person is wearing a red jacket and carrying something. Another person is wearing a blue jacket. A man in a dark suit is standing on a wheeled platform.",
+        "A white SUV is approaching from the left."
+      ],
+      "summary": "From 0.0s to 6.2s, the vehicle is driving on a road with pedestrians crossing. A white SUV approaches from the left. A man in a dark suit is standing on a wheeled platform, potentially creating a ghost probing situation if he moves suddenly. Several people are walking across the road, one in a red jacket and another in a blue jacket.",
+      "actions": "The vehicle is slowing down to navigate the crosswalk with pedestrians. The driver is likely reducing speed to ensure the safety of the pedestrians crossing the road and to assess the intentions of the man on the wheeled platform.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Left]: Man in a dark suit on a wheeled platform, approximately 15 meters away, potentially moving into the vehicle's path from behind a parked car."
+    }
+  ]
+}

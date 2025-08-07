@@ -1,0 +1,35 @@
+{
+  "video_id": "images_5_008",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.0s",
+  "summary": "The self-driving car is approaching an intersection on a rainy day. A traffic officer in a yellow raincoat is standing on the right side of the road. At timestamp 10.4s, a cyclist wearing dark clothing suddenly appears from behind the traffic officer and falls onto the crosswalk. The cyclist is lying on the crosswalk. The cyclist's sudden appearance constitutes a ghost probing incident, requiring immediate braking to avoid a collision.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "yellow raincoat",
+      "colors": "yellow",
+      "age": "adult",
+      "transportation_method": "standing",
+      "way_of_walking": "standing"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "dark clothing",
+      "colors": "dark",
+      "age": "adult",
+      "transportation_method": "bicycle",
+      "way_of_walking": "riding then falling"
+    }
+  ],
+  "key_objects": [
+    "Right side: A cyclist wearing dark clothing, approximately 5 meters away, suddenly appears from behind the traffic officer and falls onto the crosswalk, creating a ghost probing situation."
+  ],
+  "actions": "The vehicle is approaching an intersection at a moderate speed. The driver is likely maintaining this speed due to the wet road conditions and the presence of a traffic officer at the intersection. The vehicle is proceeding straight, indicating the driver intends to continue through the intersection.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

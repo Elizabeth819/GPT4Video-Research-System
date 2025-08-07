@@ -1,0 +1,38 @@
+video_id,ground_truth,gt_normalized,gemini_prediction,gemini_correct
+images_1_015,5s: ghost probing,ghost probing,none,False
+images_1_004,none,none,ghost probing,False
+images_3_004,none,none,none,True
+images_4_004,6s: ghost probing,ghost probing,none,False
+images_1_018,none,none,none,True
+images_1_009,none,none,none,True
+images_4_006,3s: ghost probing,ghost probing,ghost probing,True
+images_1_023,none,none,none,True
+images_3_006,4s: ghost probing,ghost probing,none,False
+images_1_006,9s: ghost probing,ghost probing,none,False
+images_1_017,17s: ghost probing,ghost probing,none,False
+images_1_005,8s: ghost probing,ghost probing,none,False
+images_1_014,5s: ghost probing,ghost probing,ghost probing,True
+images_3_005,none,none,none,True
+images_1_020,none,none,ghost probing,False
+images_1_008,3s: ghost probing,ghost probing,none,False
+images_1_019,none,none,ghost probing,False
+images_4_007,none,none,none,True
+images_3_007,3s: ghost probing,ghost probing,ghost probing,True
+images_1_022,5s: ghost probing,ghost probing,ghost probing,True
+images_1_016,4s: ghost probing,ghost probing,none,False
+images_1_007,6s: ghost probing,ghost probing,none,False
+images_2_001,none,none,none,True
+images_1_001,none,none,ghost probing,False
+images_1_010,15s: ghost probing,ghost probing,ghost probing,True
+images_5_003,none,none,ghost probing,False
+images_1_012,11s: ghost probing,ghost probing,ghost probing,True
+images_1_003,2s: ghost probing,ghost probing,ghost probing,True
+images_2_003,none,none,ghost probing,False
+images_3_003,2s: ghost probing,ghost probing,none,False
+images_1_025,none,none,none,True
+images_1_011,11s: ghost probing,ghost probing,ghost probing,True
+images_5_002,cut-in,cut-in,ghost probing,False
+images_1_002,5s: ghost probing,ghost probing,ghost probing,True
+images_1_013,8s: ghost probing,ghost probing,none,False
+images_3_002,4s: ghost probing,ghost probing,none,False
+images_1_027,4s: ghost probing,ghost probing,none,False

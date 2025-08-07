@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_5_036",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Intersection",
+    "characters": "Driver of a car, motorcyclist",
+    "summary": "The video shows a car approaching an intersection. Several large trucks are present at the intersection, partially obstructing the view.  A motorcyclist wearing a yellow helmet and dark clothing is seen approaching from the left side, initially hidden behind a large truck. The motorcyclist then quickly emerges from behind the truck and proceeds to cross the intersection. The car maintains a steady speed and does not appear to brake or change lanes.",
+    "actions": "The self-driving vehicle approaches the intersection at a consistent speed.  The vehicle maintains its lane and does not brake or accelerate significantly throughout the 10-second segment. The vehicle's actions are consistent with normal driving behavior approaching an intersection with limited visibility due to large trucks.",
+    "key_objects": "1) Left: Motorcyclist on a scooter, wearing a yellow helmet and dark clothing, approximately 5 meters away at the start, rapidly accelerating across the intersection from behind a large truck. This action constitutes a ghost probing event. ",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_036",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.2s",
+    "scene_theme": "Urban driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a vehicle with a dashcam.",
+    "summary": "The video shows a dashcam perspective of a vehicle approaching an intersection. A large white semi-trailer truck is turning right at the intersection. A smaller yellow truck is parked on the right side of the road near the intersection. The road is relatively clear of other traffic. The self-driving vehicle is maintaining a safe distance from the turning truck and proceeding cautiously.",
+    "actions": "The self-driving vehicle is approaching the intersection at a moderate speed, maintaining a safe following distance from the large white semi-trailer truck turning right. The vehicle's speed is likely adjusted based on the turning truck's movement and the overall traffic conditions. The driver is exhibiting cautious and safe driving behavior by maintaining a safe distance and observing the traffic around them.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

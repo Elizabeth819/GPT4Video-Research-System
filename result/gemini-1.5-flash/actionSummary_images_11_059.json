@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_059",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "6.8s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving through an urban area with parked cars on both sides of the road. The road is relatively clear with moderate traffic. There are pedestrians and cyclists visible in the frames.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the urban area. The vehicle is keeping a safe distance from the parked cars and other moving vehicles. No sudden changes in speed or direction are observed.",
+        "key_objects": "1) Left side: A cyclist, approximately 5 meters away, moving forward. 2) Right side: A motorcyclist, approximately 3 meters away, moving forward. 3) Front: A white van, approximately 20 meters away, parked on the roadside. 4) Right side: A pedestrian, approximately 10 meters away, walking along the sidewalk.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

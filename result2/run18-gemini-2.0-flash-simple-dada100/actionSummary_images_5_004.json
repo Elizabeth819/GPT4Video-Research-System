@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car driving at night. There are other vehicles in the distance. There is a person on a scooter in front of the car.",
+  "summary": "The car is driving on a road at night. The car approaches a person on a scooter. The car continues to drive straight.",
+  "actions": "The vehicle is driving straight on a road at night. The vehicle maintains its speed as it approaches a person on a scooter in front of it. The vehicle approaches an intersection with a red light.",
+  "key_objects": "1) Front: Person on scooter, medium distance, moving in the same direction as the car, potentially creating a collision risk if the car doesn't maintain a safe distance. 2) Left: Intersection with red light, medium distance, requires the car to stop.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

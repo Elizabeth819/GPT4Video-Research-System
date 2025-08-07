@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_039",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a red car",
+        "summary": "In this segment, the vehicle is driving on a city road. Initially, the self-driving vehicle is behind a white sedan. As the traffic light turns green, a red car from the left side lane suddenly cuts into the self-driving vehicles lane, causing the self-driving vehicle to decelerate rapidly to avoid a collision.",
+        "actions": "The self-driving vehicle decelerates rapidly due to the sudden cut-in by the red car from the left side lane. The vehicles speed decreases significantly to avoid a collision.",
+        "key_objects": "1) Left side: A red car, approximately 2 meters away, suddenly cuts into the self-driving vehicles lane, causing the vehicle to decelerate rapidly. 2) Front: A white sedan, approximately 5 meters away, moving forward as the traffic light turns green.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_039",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "12.9s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red car, driver of a bus",
+        "summary": "In this segment, the vehicle is driving on a city road. A red car is visible on the left side, and a bus is seen overtaking from the left side in the last frame.",
+        "actions": "The self-driving vehicle maintains a consistent speed while a bus overtakes from the left side. The red car remains stationary on the left side throughout the segment.",
+        "key_objects": "1) Left side: A red car, approximately 2 meters away, stationary. 2) Left side: A bus, approximately 5 meters away, overtaking the self-driving vehicle.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

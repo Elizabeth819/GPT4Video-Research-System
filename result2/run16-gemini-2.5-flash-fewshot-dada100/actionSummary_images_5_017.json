@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_017",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person riding a black scooter/motorcycle, wearing dark clothing and a mask, approximately 20-30 years old. A pedestrian on the far left, wearing a yellow jacket.",
+  "summary": "In this segment, the self-driving vehicle is approaching an urban intersection. As the vehicle nears the intersection, a person on a black scooter/motorcycle suddenly emerges from behind a visual obstruction, specifically a bush or landscaping feature on the right side of the road at the corner of the intersection. The scooter quickly enters the vehicle's direct path, moving from right to left across the intersection, creating an immediate and dangerous 'ghost probing' situation due to the minimal reaction time available.",
+  "actions": "The self-driving vehicle is approaching an urban intersection at a moderate speed. Upon the sudden and unexpected emergence of the scooter from behind the visual obstruction on the right, the vehicle immediately initiates deceleration and likely comes to a stop or significantly slows down. This action is taken to yield to the scooter and prevent a potential collision, prioritizing the safety of the scooter rider who unexpectedly entered the vehicle's path.",
+  "key_objects": "1) Right side: A person riding a black scooter/motorcycle, approximately 5-10 meters away, suddenly emerging from behind a bush/landscaping at the intersection and entering the vehicle's path. 2) Right side: A bush/landscaping feature at the corner of the intersection, approximately 10-15 meters away, creating a visual obstruction that completely hides the approaching scooter until it emerges into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

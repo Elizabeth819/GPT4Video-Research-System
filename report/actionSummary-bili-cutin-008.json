@@ -1,0 +1,104 @@
+[
+    {
+        "video_id": "008",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "9.88s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on a busy road. The traffic ahead is heavy. A white SUV on the right side suddenly changes lanes and overtakes the self vehicle. The distance between the self vehicle and the white SUV is very close, creating a potentially dangerous situation.",
+        "actions": "The self vehicle maintains a safe distance from the car ahead. However, the white SUV on the right side suddenly changes lanes and overtakes the self vehicle, reducing the distance between the two vehicles significantly. The self vehicle needs to be cautious and possibly decelerate to avoid a collision.",
+        "key_objects": "1) Right side: A white SUV, approximately 1 meter away, suddenly changing lanes and overtaking the self vehicle, creating a potential collision risk.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "008",
+        "Start_Timestamp": "10.669637705848949s",
+        "sentiment": "Negative",
+        "End_Timestamp": "19.399341283361725s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, Driver of a white van",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road. A white SUV on the right side suddenly cuts into the lane of the self-driving vehicle without signaling, causing the self-driving vehicle to decelerate and change lanes to the left to avoid a collision. The white SUV continues to move into the lane, forcing the self-driving vehicle to take evasive action. The driver expresses frustration and anger at the reckless behavior of the SUV driver.",
+        "actions": "The self-driving vehicle decelerates and changes lanes to the left to avoid a collision with the white SUV that suddenly cuts into its lane without signaling. The self-driving vehicles speed decreases significantly as it maneuvers to avoid the SUV.",
+        "key_objects": "1) Right side: A white SUV, approximately 1 meter away, suddenly cutting into the self-driving vehicles lane, causing a potential collision. 2) Front: A white van, approximately 10 meters away, moving straight ahead.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "steer to circumvent",
+            "lane_control": "change to left lane"
+        }
+    },
+    {
+        "video_id": "008",
+        "Start_Timestamp": "20.369s",
+        "sentiment": "Negative",
+        "End_Timestamp": "29.099s",
+        "scene_theme": "Dramatic",
+        "characters": "White SUV, Blue compact car, Silver sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. A white SUV is parked on the left side of the road. A blue compact car is seen ahead in the middle lane. A silver sedan from the left lane suddenly cuts into the middle lane in front of the blue compact car, indicated by its right turn signal. The driver mentions the importance of not changing lanes abruptly like the silver sedan.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the sudden lane change of the silver sedan from the left lane to the middle lane. The driver advises caution and highlights the importance of not making abrupt lane changes. The self-driving vehicle keeps a safe distance from the vehicles ahead.",
+        "key_objects": "1) Left side: A white SUV, approximately 10 meters away, parked on the roadside, stationary. 2) Middle lane: A blue compact car, approximately 15 meters away, moving forward. 3) Left side: A silver sedan, approximately 5 meters away, cutting into the middle lane, moving right.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "008",
+        "Start_Timestamp": "30.068978989210677s",
+        "sentiment": "Negative",
+        "End_Timestamp": "38.79868256672345s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black car, driver of a white car",
+        "summary": "In this segment, the black car on the left side of the frame is seen continuously changing lanes, which is deemed unsafe. The driver of the black car is attempting to merge into the right lane to make a right turn but is doing so without proper observation. The white car ahead is maintaining its lane. The audio emphasizes that continuous lane changes are not advisable and that each lane change should be completed before attempting another.",
+        "actions": "The black car is making continuous lane changes without proper observation, which is unsafe. The self-driving vehicle is maintaining its lane and speed, observing the erratic behavior of the black car. The white car ahead is maintaining its lane and speed.",
+        "key_objects": "1) Left side: A black car, approximately 1 meter away, continuously changing lanes without proper observation, moving towards the right lane. 2) Front: A white car, approximately 10 meters away, maintaining its lane and speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "maintain current speed",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "008",
+        "Start_Timestamp": "39.76864963089154s",
+        "sentiment": "Negative",
+        "End_Timestamp": "48.49835320840432s",
+        "scene_theme": "Dramatic",
+        "characters": "Scooter rider",
+        "summary": "In this segment, a scooter rider is seen approaching from the left side of the road at a high speed. The rider skillfully maneuvers through the curves, leaning into the turns. However, the rider continues to overtake vehicles ahead while navigating the curves, which poses a potential risk.",
+        "actions": "The scooter rider is approaching from the left side at high speed, leaning into the curves and overtaking vehicles ahead. The self-driving vehicle maintains a steady speed and lane position, observing the scooters movements.",
+        "key_objects": "1) Left side: A scooter rider, approximately 10 meters away, approaching at high speed, leaning into the curves and overtaking vehicles ahead.",
+        "key_actions": "left-side overtaking",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "008",
+        "Start_Timestamp": "49.468s",
+        "sentiment": "Negative",
+        "End_Timestamp": "58.198s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white van, driver of a blue car",
+        "summary": "In this segment, the vehicle is driving on a winding road and then approaches an intersection with a green light. The driver mentions that there are two vehicles making a left turn ahead. The blue car on the left side suddenly cuts in front of the self vehicle, causing a potential hazard.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The driver is cautious due to the presence of two vehicles making a left turn ahead. The blue car on the left side suddenly cuts in front of the self vehicle, which may require the driver to brake or take evasive action.",
+        "key_objects": "1) Left side: A blue car, approximately 2 meters away, suddenly merging into the self-vehicles lane, causing a potential collision. 2) Front: A white van, approximately 10 meters away, making a left turn at the intersection.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "brake",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

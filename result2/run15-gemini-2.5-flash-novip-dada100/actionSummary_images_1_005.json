@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "A large group of young people, likely students, wearing maroon/red and white uniforms, some carrying backpacks, are visible on the right sidewalk and later crossing the street. Several adult pedestrians, some holding umbrellas due to the rain, are also seen crossing the street from both the left and right sides.",
+  "summary": "The scene takes place on a busy urban street during a rainy day. The camera vehicle is stationary or moving at an extremely slow pace, positioned behind a red compact car. There is significant pedestrian activity, with a large group of students initially gathered on the right sidewalk near a gas station, and then beginning to cross the street. A green and blue bus passes the camera vehicle on the left. As the bus clears the view, a pedestrian holding a large checkered umbrella suddenly emerges from behind it on the left side of the road, darting into the vehicle's potential path. This sudden appearance from behind the moving obstruction constitutes a 'ghost probing' incident, creating an immediate potential hazard.",
+  "actions": "The vehicle is observed to be stationary or moving at an extremely slow pace throughout the segment. This action is primarily dictated by the presence of a stationary red compact car directly ahead, indicating a halt in traffic flow or congestion. Furthermore, the high volume of pedestrian traffic, particularly a large group of students and other individuals crossing the street from both the right and later the left, necessitates extreme caution and a reduced speed or complete stop to ensure pedestrian safety. The sudden appearance of a pedestrian from behind a passing bus (a 'ghost probing' event) further validates the vehicle's cautious or stopped state, as it prevents a potential collision and prioritizes the safety of the crossing pedestrian.",
+  "key_objects": "1) Position: Left side, mid-distance: A large green and blue bus. This bus acts as a moving physical obstruction, temporarily blocking the driver's view of the road and sidewalk to the left, contributing to the 'ghost probing' incident. 2) Position: Left side, foreground, emerging from behind the bus: A pedestrian, likely an adult, holding a large checkered umbrella. This pedestrian suddenly appears from behind the bus, darting into the vehicle's path, creating an immediate hazard and triggering the 'ghost probing' behavior. 3) Position: Center, foreground: A red compact car. This vehicle is stationary directly in front of the camera vehicle, dictating the camera vehicle's speed and stopping behavior. 4) Position: Right side, mid-distance to foreground: A large group of young people, likely students, wearing maroon and white uniforms, some with umbrellas. They are initially on the sidewalk and then begin crossing the street, contributing to the overall pedestrian traffic and the need for the vehicle to proceed cautiously.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

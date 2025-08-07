@@ -1,0 +1,14 @@
+[
+    {
+        "error": "在3次尝试后，API调用仍然失败: HTTPSConnectionPool(host=https, port=443): Max retries exceeded with url: //aoai-eastus2-eliza.openai.azure.com/.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x16f86c210>: Failed to resolve https ([Errno 8] nodename nor servname provided, or not known)\"))",
+        "status": "error",
+        "retries_exhausted": true,
+        "segment_id": "segment_000"
+    },
+    {
+        "error": "在3次尝试后，API调用仍然失败: HTTPSConnectionPool(host=https, port=443): Max retries exceeded with url: //aoai-eastus2-eliza.openai.azure.com/.openai.azure.com/openai/deployments/gpt-4o-global/chat/completions?api-version=2025-01-01-preview (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x16f8744d0>: Failed to resolve https ([Errno 8] nodename nor servname provided, or not known)\"))",
+        "status": "error",
+        "retries_exhausted": true,
+        "segment_id": "segment_001"
+    }
+]

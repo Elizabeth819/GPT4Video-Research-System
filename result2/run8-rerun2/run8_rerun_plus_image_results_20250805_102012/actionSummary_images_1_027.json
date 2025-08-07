@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_027",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child in a blue jacket and a man in a yellow shirt, are observed. The child is seen crossing the road from the right side, and the man is seen running across the road from the left side.",
+  "summary": "The video sequence shows several instances of 'ghost probing' behavior. In the first sequence, a child suddenly emerges from the right side of the road, hidden by a parked vehicle, and crosses the road. In the second sequence, a man runs across the road from the left side, emerging from behind a building. Both instances create immediate collision risks.",
+  "actions": "The child and the man both suddenly appear from behind obstructions, directly entering the vehicle's path with minimal reaction time.",
+  "key_objects": "Parked vehicles on both sides of the road, buildings creating visual obstructions, pedestrians crossing the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "video_id": "images_5_005",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.1s",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "dark jacket, yellow helmet",
+      "colors": "dark, yellow",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "standing next to the motorcycle"
+    }
+  ],
+  "summary": "The self-driving car is approaching an intersection. From 0.0s to 8.0s, the car is driving straight. At 8.0s, a motorcycle is seen lying on the ground in the middle of the intersection. From 9.0s to 14.1s, a male adult wearing a dark jacket and a yellow helmet is standing next to the motorcycle. The motorcycle and the man are in the middle of the road, which could lead to a collision if the car does not slow down or change direction.",
+  "actions": "The vehicle is approaching an intersection and maintaining a constant speed. The driver is likely assessing the traffic situation at the intersection to determine whether to proceed straight or make a turn. The vehicle is maintaining its current lane and speed, indicating that the driver is preparing to navigate the intersection based on the observed conditions.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_1_016",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.8s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrian in red jacket",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. A red car is seen on the left side, and a white sedan is ahead in the same lane. At around 2.9 seconds, a pedestrian in a red jacket suddenly appears from the right side, crossing the road. The pedestrian continues to cross the road, causing the vehicle to decelerate to avoid a collision.",
+        "actions": "The self-driving vehicle decelerates to avoid a collision with the pedestrian who suddenly appeared from the right side and crossed the road. The vehicles speed decreases gradually over the 10 seconds.",
+        "key_objects": "1) Right side: A pedestrian in a red jacket, approximately 5 meters away, crossing the road from right to left, causing the vehicle to decelerate.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

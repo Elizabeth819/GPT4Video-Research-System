@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_2_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Multiple pedestrians, cyclists, and vehicles",
+        "summary": "In this segment, the vehicle is driving through a busy urban street with multiple pedestrians, cyclists, and vehicles. The road is congested, and there are people walking on both sides of the street. The vehicle is moving slowly due to the heavy traffic and the presence of pedestrians and cyclists.",
+        "actions": "The self-driving vehicle is moving at a slow speed to navigate through the congested street safely. The driver is maintaining a cautious speed to avoid collisions with pedestrians and cyclists who are moving unpredictably.",
+        "key_objects": "1) Front: Multiple pedestrians, approximately 2-5 meters away, walking across the street. 2) Left: Cyclists, approximately 3-5 meters away, moving forward. 3) Right: Vehicles parked, approximately 2-4 meters away, blocking part of the view.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_2_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "14.6s",
+        "scene_theme": "Busy Street",
+        "characters": "Multiple individuals on the street, including a man with a blue cart, a person on a scooter, and various pedestrians.",
+        "summary": "The vehicle is driving through a busy street with multiple pedestrians and vehicles. A man with a blue cart is seen on the right side of the road, and a person on a scooter is visible on the left side. The street is crowded with people walking and various small vehicles moving around.",
+        "actions": "The vehicle is driving at a slow and steady pace due to the crowded street. The driver is maintaining a cautious speed to navigate through the pedestrians and small vehicles safely.",
+        "key_objects": "1) Right side: A man with a blue cart, approximately 2 meters away, moving slowly along the sidewalk. 2) Left side: A person on a scooter, approximately 3 meters away, moving forward. 3) Front: Multiple pedestrians, approximately 5 meters away, walking in various directions.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,19 @@
+{
+  "video_id": "images_5_025",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "11.9s",
+      "summary": "The self-driving car is driving on a wet road during a rainy day. From 0.0s to 3.8s, the car is approaching a traffic light that turns green. From 5.0s to 11.9s, the car is passing through the intersection. At 7.5s, a motorcyclist wearing dark clothing is waiting at the crosswalk on the right side of the road. At 8.8s, the motorcyclist starts to cross the road. At 10.0s, the motorcyclist is in the middle of the road. At 11.1s, the motorcyclist has almost finished crossing the road. The motorcyclist's action of crossing the road while the car is passing through the intersection could be considered a potential ghost probing incident.",
+      "actions": "The vehicle is initially approaching a traffic light, which is red from 0.0s to 2.5s. The driver is maintaining speed, anticipating the light will change. At 3.8s, the traffic light turns green, and the vehicle continues through the intersection without slowing down. The driver proceeds through the intersection because the light is green.",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    }
+  ]
+}

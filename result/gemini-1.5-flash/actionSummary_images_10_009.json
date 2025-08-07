@@ -1,0 +1,57 @@
+[
+    {
+        "video_id": "dada_10_009",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A dark-colored sedan",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Maintaining a consistent distance ahead of the ego vehicle."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a 5-second segment of a car driving on a two-lane road. The road is relatively clear with sparse traffic.  The weather appears to be overcast. The ego vehicle maintains a safe following distance from the car in front. No pedestrians or other vehicles exhibit dangerous behavior.",
+        "actions": "The ego vehicle maintains a consistent speed and following distance from the vehicle ahead.  There are no observable changes in speed or direction during this 5-second segment. The driver appears to be maintaining a safe and cautious driving style.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_10_009",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a two-lane road with the self-vehicle driving in the left lane.  Traffic is light to moderate. The road is relatively straight with trees lining the right-hand side.  The weather appears overcast.  Over the 3.3-second period, the self-vehicle maintains a consistent speed and position within its lane. No unusual or dangerous events occur involving other vehicles or individuals.",
+        "actions": "The self-vehicle maintains a consistent speed and lane position throughout the observed 3.3-second period.  There are no observable changes in speed or direction. The vehicle's actions suggest a steady and predictable driving pattern, adapting to the moderate traffic flow.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep left"
+        }
+    },
+    {
+        "video_id": "dada_10_009",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a two-lane road with the self-vehicle driving in the left lane.  The road is relatively clear with a line of trees on the right. Several cars are visible ahead, maintaining a safe distance from each other.  Over the 3.3 seconds shown, there are no sudden movements or unexpected events involving pedestrians, cyclists, or other vehicles. The traffic flow is consistent and predictable.",
+        "actions": "The self-vehicle maintains a consistent speed and lane position throughout the observed period.  There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle in front. The driving behavior is smooth and predictable, indicating a safe and controlled driving style.",
+        "next_action": {
+            "speed_control": "maintain_speed",
+            "direction_control": "keep_straight",
+            "lane_control": "keep_left"
+        }
+    }
+]

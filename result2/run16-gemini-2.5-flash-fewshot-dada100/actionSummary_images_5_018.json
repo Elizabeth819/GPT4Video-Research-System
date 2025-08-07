@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_018",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Driver of a white SUV, a motorcyclist on the right side of the road, several pedestrians on the right sidewalk.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a wet urban road with multiple lanes, approaching what appears to be an intersection or a break in a median barrier. Buildings line both sides of the road, and a concrete median barrier separates the opposing traffic lanes. A white SUV suddenly emerges from the left side of the road, specifically from behind the median barrier and adjacent buildings, making a right turn directly into the self-driving vehicle's path. This sudden appearance from behind a significant obstruction, with minimal warning, constitutes a 'vehicle ghost probing' incident. The self-driving vehicle reacts by decelerating to allow the SUV to clear its path and avoid a potential collision. Towards the end of the segment, a small, dark object is seen rolling into the vehicle's lane from the right side, presenting another immediate obstacle.",
+  "actions": "The self-driving vehicle initially maintains a consistent speed as it navigates the wet road and approaches the intersection. Upon the sudden and unexpected emergence of the white SUV from the left side, which was previously completely obscured by the median barrier and buildings, the vehicle immediately initiates deceleration. This braking action is a critical safety response, allowing sufficient time and space for the turning SUV to clear the vehicle's path and prevent a collision. The vehicle's speed reduction is a direct consequence of the 'ghost probing' event, prioritizing safety. After the SUV has passed, the vehicle continues to move forward, but then a small rolling object appears in its path, indicating a need for continued cautious driving.",
+  "key_objects": "1) Left side: A white SUV, initially approximately 15-20 meters away, then closing to about 5-10 meters, suddenly emerging from behind a median barrier and buildings to make a right turn across the vehicle's path. 2) Left side: A concrete median barrier and adjacent buildings, acting as significant physical obstructions that completely hide the approaching white SUV until its sudden emergence into the intersection. 3) Center: A small, dark, rolling object, approximately 5-10 meters ahead, appearing in the vehicle's lane around 8.0s, requiring immediate attention.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

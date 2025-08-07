@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_013",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Pedestrians, vehicles",
+        "summary": "In this segment, the vehicle is driving through a busy urban street with multiple pedestrians and vehicles on both sides. The road is wet, indicating recent rain. The vehicle maintains a steady speed while navigating through the street.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the wet urban street. The vehicle is keeping a safe distance from the pedestrians and other vehicles on both sides.",
+        "key_objects": "1) Left side: A white car, approximately 5 meters away, parked. 2) Right side: Multiple motorcycles and scooters, approximately 3 meters away, parked. 3) Front: A group of pedestrians, approximately 10 meters away, walking on the sidewalk.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_013",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "14.1s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Two men on the right side of the road",
+        "summary": "In this segment, the vehicle is driving on a narrow urban road. Two men are standing on the right side of the road, near a building. The road is wet, and there are some obstacles on the right side, including a parked motorcycle and a truck.",
+        "actions": "The vehicle is driving at a slow and steady speed, maintaining a safe distance from the obstacles on the right side. The driver is cautious due to the narrow road and wet conditions.",
+        "key_objects": "1) Right side: Two men standing near a building, approximately 3 meters away, stationary. 2) Right side: A parked motorcycle, approximately 5 meters away, stationary. 3) Right side: A parked truck, approximately 10 meters away, stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

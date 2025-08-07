@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_1_027",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "0.33",
+    "summary": "The vehicle is driving on a narrow road in a rural area. There are buildings on both sides of the road. A truck is visible parked on the left side of the road near a gas station.",
+    "actions": "The vehicle is proceeding straight on the road. The driver should be aware of the narrow road and potential obstacles.",
+    "key_objects": [
+      "vehicle",
+      "road",
+      "buildings",
+      "truck"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "straight",
+      "lane_control": "stay in lane"
+    }
+  }
+]

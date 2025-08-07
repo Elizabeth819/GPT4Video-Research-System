@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_008",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "5.7s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "A cyclist on the right side of the road.",
+    "summary": "The vehicle is traveling on a road with buildings and trees lining both sides. A cyclist is visible on the right side of the road, moving in the same direction as the vehicle. The cyclist is riding close to the edge of the road. The vehicle maintains its course and speed.",
+    "actions": "The vehicle is maintaining a steady speed and direction, following the road. The driver is likely monitoring the cyclist on the right side of the road to ensure a safe distance is maintained.",
+    "key_objects": "1) Right side: A cyclist, approximately 10 meters away, moving in the same direction as the vehicle.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_51_010",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road. Various vehicles and individuals are present on both sides of the road. The vehicle maintains a steady speed and lane position throughout the segment.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position, ensuring safe navigation through the urban environment. The vehicle does not exhibit any sudden changes in speed or direction, indicating a cautious driving approach.",
+        "key_objects": "1) Left side: A white sedan, approximately 5 meters away, moving forward. 2) Right side: A black car, approximately 10 meters away, parked. 3) Front: A red tricycle, approximately 15 meters away, moving forward. 4) Right side: A green motorcycle, approximately 20 meters away, parked.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

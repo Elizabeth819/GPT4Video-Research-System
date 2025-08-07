@@ -1,0 +1,613 @@
+{
+  "metadata": {
+    "model": "LLaVA-NeXT-Video-7B-DPO",
+    "prompt_version": "balanced_gpt41_compatible",
+    "total_videos": 100,
+    "successful_videos": 0,
+    "failed_videos": 100,
+    "timestamp": "20250721_134619",
+    "video_folder": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data"
+  },
+  "results": [
+    {
+      "video_id": "images_1_001",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_001.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.185393
+    },
+    {
+      "video_id": "images_1_002",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_002.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.095543
+    },
+    {
+      "video_id": "images_1_003",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_003.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.077034
+    },
+    {
+      "video_id": "images_1_004",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_004.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.123221
+    },
+    {
+      "video_id": "images_1_005",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_005.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.093805
+    },
+    {
+      "video_id": "images_1_006",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_006.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.110663
+    },
+    {
+      "video_id": "images_1_007",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_007.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.141895
+    },
+    {
+      "video_id": "images_1_008",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_008.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.07987
+    },
+    {
+      "video_id": "images_1_009",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_009.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.161117
+    },
+    {
+      "video_id": "images_1_010",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_010.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.163816
+    },
+    {
+      "video_id": "images_1_011",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_011.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.171231
+    },
+    {
+      "video_id": "images_1_012",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_012.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.409891
+    },
+    {
+      "video_id": "images_1_013",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_013.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.164005
+    },
+    {
+      "video_id": "images_1_014",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_014.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.269104
+    },
+    {
+      "video_id": "images_1_015",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_015.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.12727
+    },
+    {
+      "video_id": "images_1_016",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_016.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.303614
+    },
+    {
+      "video_id": "images_1_017",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_017.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.350801
+    },
+    {
+      "video_id": "images_1_018",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_018.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.130038
+    },
+    {
+      "video_id": "images_1_019",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_019.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.101699
+    },
+    {
+      "video_id": "images_1_020",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_020.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.102508
+    },
+    {
+      "video_id": "images_1_021",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_021.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.119374
+    },
+    {
+      "video_id": "images_1_022",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_022.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.158661
+    },
+    {
+      "video_id": "images_1_023",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_023.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.146937
+    },
+    {
+      "video_id": "images_1_024",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_024.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.11212
+    },
+    {
+      "video_id": "images_1_025",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_025.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.07423
+    },
+    {
+      "video_id": "images_1_026",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_026.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.095421
+    },
+    {
+      "video_id": "images_1_027",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_1_027.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.096331
+    },
+    {
+      "video_id": "images_2_001",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_2_001.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.206663
+    },
+    {
+      "video_id": "images_2_002",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_2_002.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.135843
+    },
+    {
+      "video_id": "images_2_003",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_2_003.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.124393
+    },
+    {
+      "video_id": "images_2_004",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_2_004.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.129881
+    },
+    {
+      "video_id": "images_3_001",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_3_001.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.132595
+    },
+    {
+      "video_id": "images_3_002",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_3_002.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.083566
+    },
+    {
+      "video_id": "images_3_003",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_3_003.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.062067
+    },
+    {
+      "video_id": "images_3_004",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_3_004.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.132663
+    },
+    {
+      "video_id": "images_3_005",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_3_005.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.172418
+    },
+    {
+      "video_id": "images_3_006",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_3_006.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.098246
+    },
+    {
+      "video_id": "images_3_007",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_3_007.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.137516
+    },
+    {
+      "video_id": "images_4_001",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_4_001.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.096886
+    },
+    {
+      "video_id": "images_4_002",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_4_002.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.241098
+    },
+    {
+      "video_id": "images_4_003",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_4_003.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.114832
+    },
+    {
+      "video_id": "images_4_004",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_4_004.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.116843
+    },
+    {
+      "video_id": "images_4_005",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_4_005.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.178621
+    },
+    {
+      "video_id": "images_4_006",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_4_006.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.116012
+    },
+    {
+      "video_id": "images_4_007",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_4_007.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.121838
+    },
+    {
+      "video_id": "images_4_008",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_4_008.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.141934
+    },
+    {
+      "video_id": "images_5_001",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_001.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.109668
+    },
+    {
+      "video_id": "images_5_002",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_002.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.109233
+    },
+    {
+      "video_id": "images_5_003",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_003.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.256457
+    },
+    {
+      "video_id": "images_5_004",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_004.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.097189
+    },
+    {
+      "video_id": "images_5_005",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_005.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.235354
+    },
+    {
+      "video_id": "images_5_006",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_006.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.144973
+    },
+    {
+      "video_id": "images_5_007",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_007.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.126407
+    },
+    {
+      "video_id": "images_5_008",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_008.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.174197
+    },
+    {
+      "video_id": "images_5_009",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_009.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.12983
+    },
+    {
+      "video_id": "images_5_010",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_010.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.144146
+    },
+    {
+      "video_id": "images_5_011",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_011.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.123553
+    },
+    {
+      "video_id": "images_5_012",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_012.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.130851
+    },
+    {
+      "video_id": "images_5_013",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_013.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.128346
+    },
+    {
+      "video_id": "images_5_014",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_014.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.138626
+    },
+    {
+      "video_id": "images_5_015",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_015.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.178814
+    },
+    {
+      "video_id": "images_5_016",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_016.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.141944
+    },
+    {
+      "video_id": "images_5_017",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_017.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.103769
+    },
+    {
+      "video_id": "images_5_018",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_018.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.223191
+    },
+    {
+      "video_id": "images_5_019",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_019.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.170905
+    },
+    {
+      "video_id": "images_5_020",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_020.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.133481
+    },
+    {
+      "video_id": "images_5_021",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_021.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.091838
+    },
+    {
+      "video_id": "images_5_022",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_022.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.249226
+    },
+    {
+      "video_id": "images_5_023",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_023.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.152564
+    },
+    {
+      "video_id": "images_5_024",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_024.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.178574
+    },
+    {
+      "video_id": "images_5_025",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_025.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.181849
+    },
+    {
+      "video_id": "images_5_026",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_026.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.115227
+    },
+    {
+      "video_id": "images_5_027",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_027.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.187572
+    },
+    {
+      "video_id": "images_5_028",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_028.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.21306
+    },
+    {
+      "video_id": "images_5_029",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_029.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.121987
+    },
+    {
+      "video_id": "images_5_030",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_030.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.282139
+    },
+    {
+      "video_id": "images_5_031",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_031.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.073127
+    },
+    {
+      "video_id": "images_5_032",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_032.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.167454
+    },
+    {
+      "video_id": "images_5_033",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_033.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.060382
+    },
+    {
+      "video_id": "images_5_034",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_034.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.093629
+    },
+    {
+      "video_id": "images_5_035",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_035.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.150574
+    },
+    {
+      "video_id": "images_5_036",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_036.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.087809
+    },
+    {
+      "video_id": "images_5_037",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_037.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.075156
+    },
+    {
+      "video_id": "images_5_038",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_038.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.135746
+    },
+    {
+      "video_id": "images_5_039",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_039.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.160435
+    },
+    {
+      "video_id": "images_5_040",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_040.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.128973
+    },
+    {
+      "video_id": "images_5_041",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_041.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.089812
+    },
+    {
+      "video_id": "images_5_042",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_042.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.128058
+    },
+    {
+      "video_id": "images_5_043",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_043.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.141814
+    },
+    {
+      "video_id": "images_5_044",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_044.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.090509
+    },
+    {
+      "video_id": "images_5_045",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_045.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.203886
+    },
+    {
+      "video_id": "images_5_046",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_046.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.04668
+    },
+    {
+      "video_id": "images_5_047",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_047.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.098412
+    },
+    {
+      "video_id": "images_5_048",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_048.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.079022
+    },
+    {
+      "video_id": "images_5_049",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_049.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.082056
+    },
+    {
+      "video_id": "images_5_050",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_050.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.052877
+    },
+    {
+      "video_id": "images_5_051",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_051.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.072132
+    },
+    {
+      "video_id": "images_5_052",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_052.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.06269
+    },
+    {
+      "video_id": "images_5_053",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_053.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.112032
+    },
+    {
+      "video_id": "images_5_054",
+      "video_path": "/mnt/azureml/cr/j/f5cbf774b6444b9bb1dc8385b0cd844a/cap/data-capability/wd/INPUT_video_data/images_5_054.avi",
+      "error": "'Tensor' object has no attribute 'asnumpy'",
+      "processing_time": 0.141877
+    }
+  ]
+}

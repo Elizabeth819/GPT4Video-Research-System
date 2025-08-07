@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "example_video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan, driver of a red truck, driver of a blue truck, driver of a green car, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. Initially, a red truck is seen on the left side, moving forward. As the vehicle progresses, a blue truck and a green car appear on the right side, moving ahead. A motorcyclist is seen in the middle of the road, moving forward. Towards the end, a black sedan appears on the right side, moving closer to the observer vehicle.",
+        "actions": "The self-driving vehicle maintains a consistent speed while navigating through the urban road. The vehicle keeps a safe distance from the red truck on the left and the blue truck and green car on the right. The vehicle slows down slightly as the black sedan approaches from the right side.",
+        "key_objects": "1) Left side: A red truck, approximately 5 meters away, moving forward. 2) Right side: A blue truck, approximately 10 meters away, moving forward. 3) Right side: A green car, approximately 8 meters away, moving forward. 4) Middle: A motorcyclist, approximately 15 meters away, moving forward. 5) Right side: A black sedan, approximately 2 meters away, moving closer.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

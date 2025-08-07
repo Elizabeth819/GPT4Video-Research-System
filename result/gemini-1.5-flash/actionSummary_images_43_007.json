@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_43_007",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a white car, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a black sedan is stopped at a traffic light. A white car is approaching from the left side, and a motorcyclist is seen on the left side of the road. The motorcyclist falls down suddenly, creating a potential hazard.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and distance from the black sedan ahead. The vehicle is likely preparing to stop due to the traffic light and the sudden fall of the motorcyclist on the left side.",
+        "key_objects": "1) Front: A black sedan, approximately 5 meters away, stopped at a traffic light. 2) Left side: A white car, approximately 10 meters away, approaching the intersection. 3) Left side: A motorcyclist, approximately 3 meters away, has fallen down, creating a potential hazard.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

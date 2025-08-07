@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_017",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on a highway. Ahead, a white SUV is moving in the same lane. The SUV gradually moves closer to a large truck transporting cars, which is in the adjacent lane. The SUV then merges into the lane of the self-driving vehicle, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while following the white SUV. As the SUV merges into the lane, the self-driving vehicle may need to decelerate to avoid a collision.",
+        "key_objects": "1) Front: A white SUV, approximately 10 meters away, merging into the self-driving vehicles lane from the adjacent lane. 2) Right: A large truck transporting cars, approximately 15 meters away, moving in the adjacent lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_017",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, driver of a red car, driver of a white sedan",
+        "summary": "In this segment, the self-driving vehicle is traveling on a highway. The white SUV ahead is maintaining a close distance, while a red car and a white sedan are visible in adjacent lanes. The traffic is dense, and the self-driving vehicle is closely following the white SUV.",
+        "actions": "The self-driving vehicle is maintaining a close distance to the white SUV ahead, likely due to dense traffic conditions. The vehicles speed appears to be consistent, with no significant acceleration or deceleration observed.",
+        "key_objects": "1) Front: A white SUV, approximately 2 meters away, maintaining a close distance, potentially causing the self-driving vehicle to decelerate. 2) Left: A red car, approximately 5 meters away, moving forward in the adjacent lane. 3) Right: A white sedan, approximately 6 meters away, moving forward in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

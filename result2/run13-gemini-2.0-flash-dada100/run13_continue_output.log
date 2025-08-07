@@ -1,0 +1,2603 @@
+2025-07-28 15:52:27,537 - INFO - Run 13 Continue with Key2 Started - 20250728_155227
+2025-07-28 15:52:27,537 - INFO - Gemini 2.0 Flash model initialized with KEY2: AIzaSyA2nN...
+2025-07-28 15:52:27,538 - INFO - DADA-100 videos directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos
+2025-07-28 15:52:27,538 - INFO - Output directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100
+2025-07-28 15:52:27,539 - INFO - Found 84 remaining videos to process
+2025-07-28 15:52:27,539 - INFO - Already processed: 17 videos
+2025-07-28 15:52:27,539 - INFO - Starting to process 84 remaining videos with API KEY2
+============================================================
+🔄 Run 13 Continue: Gemini 2.0 Flash with API KEY2
+============================================================
+Continuing analysis:   0%|          | 0/84 [00:00<?, ?it/s]Processing images_1_018:   0%|          | 0/84 [00:00<?, ?it/s]2025-07-28 15:52:27,611 - INFO - Analyzing video: images_1_018
+2025-07-28 15:52:33,515 - INFO - Successfully analyzed images_1_018
+2025-07-28 15:52:33,524 - INFO - Saved result for images_1_018
+Processing images_1_018:   1%|          | 1/84 [00:07<10:57,  7.92s/it]Processing images_1_019:   1%|          | 1/84 [00:07<10:57,  7.92s/it]2025-07-28 15:52:35,530 - INFO - Analyzing video: images_1_019
+2025-07-28 15:52:41,594 - INFO - Successfully analyzed images_1_019
+2025-07-28 15:52:41,620 - INFO - Saved result for images_1_019
+Processing images_1_019:   2%|▏         | 2/84 [00:16<10:57,  8.02s/it]Processing images_1_020:   2%|▏         | 2/84 [00:16<10:57,  8.02s/it]2025-07-28 15:52:43,628 - INFO - Analyzing video: images_1_020
+2025-07-28 15:53:02,281 - INFO - Successfully analyzed images_1_020
+2025-07-28 15:53:02,288 - INFO - Saved result for images_1_020
+Processing images_1_020:   4%|▎         | 3/84 [00:36<18:37, 13.80s/it]Processing images_1_021:   4%|▎         | 3/84 [00:36<18:37, 13.80s/it]2025-07-28 15:53:04,290 - INFO - Analyzing video: images_1_021
+2025-07-28 15:53:09,860 - INFO - Successfully analyzed images_1_021
+2025-07-28 15:53:09,874 - INFO - Saved result for images_1_021
+Processing images_1_021:   5%|▍         | 4/84 [00:44<15:07, 11.34s/it]Processing images_1_022:   5%|▍         | 4/84 [00:44<15:07, 11.34s/it]2025-07-28 15:53:11,878 - INFO - Analyzing video: images_1_022
+2025-07-28 15:53:18,463 - INFO - Successfully analyzed images_1_022
+2025-07-28 15:53:18,483 - INFO - Saved result for images_1_022
+Processing images_1_022:   6%|▌         | 5/84 [00:52<13:38, 10.36s/it]Processing images_1_023:   6%|▌         | 5/84 [00:52<13:38, 10.36s/it]2025-07-28 15:53:20,488 - INFO - Analyzing video: images_1_023
+2025-07-28 15:53:32,309 - INFO - Successfully analyzed images_1_023
+2025-07-28 15:53:32,321 - INFO - Saved result for images_1_023
+Processing images_1_023:   7%|▋         | 6/84 [01:06<15:00, 11.54s/it]Processing images_1_024:   7%|▋         | 6/84 [01:06<15:00, 11.54s/it]2025-07-28 15:53:34,328 - INFO - Analyzing video: images_1_024
+2025-07-28 15:53:40,065 - INFO - Successfully analyzed images_1_024
+2025-07-28 15:53:40,074 - INFO - Saved result for images_1_024
+Processing images_1_024:   8%|▊         | 7/84 [01:14<13:13, 10.30s/it]Processing images_1_025:   8%|▊         | 7/84 [01:14<13:13, 10.30s/it]2025-07-28 15:53:42,078 - INFO - Analyzing video: images_1_025
+2025-07-28 15:53:47,439 - INFO - Successfully analyzed images_1_025
+2025-07-28 15:53:47,450 - INFO - Saved result for images_1_025
+Processing images_1_025:  10%|▉         | 8/84 [01:21<11:52,  9.37s/it]Processing images_1_026:  10%|▉         | 8/84 [01:21<11:52,  9.37s/it]2025-07-28 15:53:49,457 - INFO - Analyzing video: images_1_026
+2025-07-28 15:53:55,123 - INFO - Successfully analyzed images_1_026
+2025-07-28 15:53:55,135 - INFO - Saved result for images_1_026
+Processing images_1_026:  11%|█         | 9/84 [01:29<11:03,  8.84s/it]Processing images_1_027:  11%|█         | 9/84 [01:29<11:03,  8.84s/it]2025-07-28 15:53:57,137 - INFO - Analyzing video: images_1_027
+2025-07-28 15:54:01,981 - INFO - Successfully analyzed images_1_027
+2025-07-28 15:54:01,997 - INFO - Saved result for images_1_027
+Processing images_1_027:  12%|█▏        | 10/84 [01:36<10:09,  8.23s/it]Processing images_2_001:  12%|█▏        | 10/84 [01:36<10:09,  8.23s/it]2025-07-28 15:54:04,009 - INFO - Analyzing video: images_2_001
+2025-07-28 15:54:11,159 - INFO - Successfully analyzed images_2_001
+2025-07-28 15:54:11,174 - INFO - Saved result for images_2_001
+Processing images_2_001:  13%|█▎        | 11/84 [01:45<10:22,  8.52s/it]Processing images_2_002:  13%|█▎        | 11/84 [01:45<10:22,  8.52s/it]2025-07-28 15:54:13,181 - INFO - Analyzing video: images_2_002
+2025-07-28 15:54:28,460 - INFO - Successfully analyzed images_2_002
+2025-07-28 15:54:28,489 - INFO - Saved result for images_2_002
+Processing images_2_002:  14%|█▍        | 12/84 [02:02<13:26, 11.20s/it]Processing images_2_003:  14%|█▍        | 12/84 [02:02<13:26, 11.20s/it]2025-07-28 15:54:30,495 - INFO - Analyzing video: images_2_003
+2025-07-28 15:54:37,311 - INFO - Successfully analyzed images_2_003
+2025-07-28 15:54:37,340 - INFO - Saved result for images_2_003
+Processing images_2_003:  15%|█▌        | 13/84 [02:11<12:24, 10.48s/it]Processing images_2_004:  15%|█▌        | 13/84 [02:11<12:24, 10.48s/it]2025-07-28 15:54:39,342 - INFO - Analyzing video: images_2_004
+2025-07-28 15:54:45,087 - INFO - Successfully analyzed images_2_004
+2025-07-28 15:54:45,096 - INFO - Saved result for images_2_004
+Processing images_2_004:  17%|█▋        | 14/84 [02:19<11:16,  9.66s/it]Processing images_3_001:  17%|█▋        | 14/84 [02:19<11:16,  9.66s/it]2025-07-28 15:54:47,100 - INFO - Analyzing video: images_3_001
+2025-07-28 15:54:54,305 - INFO - Successfully analyzed images_3_001
+2025-07-28 15:54:54,311 - INFO - Saved result for images_3_001
+Processing images_3_001:  18%|█▊        | 15/84 [02:28<10:57,  9.53s/it]Processing images_3_002:  18%|█▊        | 15/84 [02:28<10:57,  9.53s/it]2025-07-28 15:54:56,316 - INFO - Analyzing video: images_3_002
+2025-07-28 15:55:02,881 - INFO - Successfully analyzed images_3_002
+2025-07-28 15:55:02,886 - INFO - Saved result for images_3_002
+Processing images_3_002:  19%|█▉        | 16/84 [02:37<10:28,  9.24s/it]Processing images_3_003:  19%|█▉        | 16/84 [02:37<10:28,  9.24s/it]2025-07-28 15:55:04,893 - INFO - Analyzing video: images_3_003
+2025-07-28 15:55:10,558 - INFO - Successfully analyzed images_3_003
+2025-07-28 15:55:10,567 - INFO - Saved result for images_3_003
+Processing images_3_003:  20%|██        | 17/84 [02:44<09:47,  8.77s/it]Processing images_3_004:  20%|██        | 17/84 [02:44<09:47,  8.77s/it]2025-07-28 15:55:12,570 - INFO - Analyzing video: images_3_004
+2025-07-28 15:56:11,544 - INFO - Successfully analyzed images_3_004
+2025-07-28 15:56:11,571 - INFO - Saved result for images_3_004
+Processing images_3_004:  21%|██▏       | 18/84 [03:45<26:54, 24.47s/it]Processing images_3_005:  21%|██▏       | 18/84 [03:45<26:54, 24.47s/it]2025-07-28 15:56:13,577 - INFO - Analyzing video: images_3_005
+2025-07-28 15:56:20,182 - INFO - Successfully analyzed images_3_005
+2025-07-28 15:56:20,198 - INFO - Saved result for images_3_005
+Processing images_3_005:  23%|██▎       | 19/84 [03:54<21:21, 19.71s/it]Processing images_3_006:  23%|██▎       | 19/84 [03:54<21:21, 19.71s/it]2025-07-28 15:56:22,204 - INFO - Analyzing video: images_3_006
+2025-07-28 15:56:27,535 - INFO - Successfully analyzed images_3_006
+2025-07-28 15:56:27,548 - INFO - Saved result for images_3_006
+Processing images_3_006:  24%|██▍       | 20/84 [04:01<17:03, 16.00s/it]Processing images_3_007:  24%|██▍       | 20/84 [04:01<17:03, 16.00s/it]2025-07-28 15:56:29,554 - INFO - Analyzing video: images_3_007
+2025-07-28 15:57:29,818 - INFO - Successfully analyzed images_3_007
+2025-07-28 15:57:29,829 - INFO - Saved result for images_3_007
+Processing images_3_007:  25%|██▌       | 21/84 [05:04<31:23, 29.89s/it]Processing images_4_001:  25%|██▌       | 21/84 [05:04<31:23, 29.89s/it]2025-07-28 15:57:31,836 - INFO - Analyzing video: images_4_001
+2025-07-28 15:57:38,339 - INFO - Successfully analyzed images_4_001
+2025-07-28 15:57:38,345 - INFO - Saved result for images_4_001
+Processing images_4_001:  26%|██▌       | 22/84 [05:12<24:15, 23.48s/it]Processing images_4_002:  26%|██▌       | 22/84 [05:12<24:15, 23.48s/it]2025-07-28 15:57:40,352 - INFO - Analyzing video: images_4_002
+2025-07-28 15:57:46,591 - INFO - Successfully analyzed images_4_002
+2025-07-28 15:57:46,597 - INFO - Saved result for images_4_002
+Processing images_4_002:  27%|██▋       | 23/84 [05:20<19:13, 18.91s/it]Processing images_4_003:  27%|██▋       | 23/84 [05:20<19:13, 18.91s/it]2025-07-28 15:57:48,603 - INFO - Analyzing video: images_4_003
+2025-07-28 15:57:57,397 - INFO - Successfully analyzed images_4_003
+2025-07-28 15:57:57,407 - INFO - Saved result for images_4_003
+Processing images_4_003:  29%|██▊       | 24/84 [05:31<16:28, 16.48s/it]Processing images_4_004:  29%|██▊       | 24/84 [05:31<16:28, 16.48s/it]2025-07-28 15:57:59,413 - INFO - Analyzing video: images_4_004
+2025-07-28 15:58:07,224 - INFO - Successfully analyzed images_4_004
+2025-07-28 15:58:07,230 - INFO - Saved result for images_4_004
+Processing images_4_004:  30%|██▉       | 25/84 [05:41<14:14, 14.48s/it]Processing images_4_005:  30%|██▉       | 25/84 [05:41<14:14, 14.48s/it]2025-07-28 15:58:09,233 - INFO - Analyzing video: images_4_005
+2025-07-28 15:58:16,729 - INFO - Successfully analyzed images_4_005
+2025-07-28 15:58:16,737 - INFO - Saved result for images_4_005
+Processing images_4_005:  31%|███       | 26/84 [05:51<12:33, 12.99s/it]Processing images_4_006:  31%|███       | 26/84 [05:51<12:33, 12.99s/it]2025-07-28 15:58:18,740 - INFO - Analyzing video: images_4_006
+2025-07-28 15:59:13,059 - INFO - Successfully analyzed images_4_006
+2025-07-28 15:59:13,080 - INFO - Saved result for images_4_006
+Processing images_4_006:  32%|███▏      | 27/84 [06:47<24:41, 26.00s/it]Processing images_4_007:  32%|███▏      | 27/84 [06:47<24:41, 26.00s/it]2025-07-28 15:59:15,085 - INFO - Analyzing video: images_4_007
+2025-07-28 15:59:21,268 - INFO - Successfully analyzed images_4_007
+2025-07-28 15:59:21,275 - INFO - Saved result for images_4_007
+Processing images_4_007:  33%|███▎      | 28/84 [06:55<19:16, 20.66s/it]Processing images_4_008:  33%|███▎      | 28/84 [06:55<19:16, 20.66s/it]2025-07-28 15:59:23,281 - INFO - Analyzing video: images_4_008
+2025-07-28 15:59:30,380 - INFO - Successfully analyzed images_4_008
+2025-07-28 15:59:30,401 - INFO - Saved result for images_4_008
+Processing images_4_008:  35%|███▍      | 29/84 [07:04<15:45, 17.20s/it]Processing images_5_001:  35%|███▍      | 29/84 [07:04<15:45, 17.20s/it]2025-07-28 15:59:32,408 - INFO - Analyzing video: images_5_001
+2025-07-28 15:59:41,620 - INFO - Successfully analyzed images_5_001
+2025-07-28 15:59:41,640 - INFO - Saved result for images_5_001
+Processing images_5_001:  36%|███▌      | 30/84 [07:16<13:52, 15.41s/it]Processing images_5_002:  36%|███▌      | 30/84 [07:16<13:52, 15.41s/it]2025-07-28 15:59:43,645 - INFO - Analyzing video: images_5_002
+2025-07-28 15:59:53,592 - INFO - Successfully analyzed images_5_002
+2025-07-28 15:59:53,599 - INFO - Saved result for images_5_002
+Processing images_5_002:  37%|███▋      | 31/84 [07:27<12:41, 14.37s/it]Processing images_5_003:  37%|███▋      | 31/84 [07:27<12:41, 14.37s/it]2025-07-28 15:59:55,605 - INFO - Analyzing video: images_5_003
+2025-07-28 16:00:04,348 - INFO - Successfully analyzed images_5_003
+2025-07-28 16:00:04,377 - INFO - Saved result for images_5_003
+Processing images_5_003:  38%|███▊      | 32/84 [07:38<11:31, 13.29s/it]Processing images_5_004:  38%|███▊      | 32/84 [07:38<11:31, 13.29s/it]2025-07-28 16:00:06,381 - INFO - Analyzing video: images_5_004
+2025-07-28 16:00:11,696 - INFO - Successfully analyzed images_5_004
+2025-07-28 16:00:11,713 - INFO - Saved result for images_5_004
+Processing images_5_004:  39%|███▉      | 33/84 [07:46<09:46, 11.51s/it]Processing images_5_005:  39%|███▉      | 33/84 [07:46<09:46, 11.51s/it]2025-07-28 16:00:13,718 - INFO - Analyzing video: images_5_005
+2025-07-28 16:00:22,236 - INFO - Successfully analyzed images_5_005
+2025-07-28 16:00:22,251 - INFO - Saved result for images_5_005
+Processing images_5_005:  40%|████      | 34/84 [07:56<09:20, 11.22s/it]Processing images_5_006:  40%|████      | 34/84 [07:56<09:20, 11.22s/it]2025-07-28 16:00:24,255 - INFO - Analyzing video: images_5_006
+2025-07-28 16:00:31,358 - INFO - Successfully analyzed images_5_006
+2025-07-28 16:00:31,388 - INFO - Saved result for images_5_006
+Processing images_5_006:  42%|████▏     | 35/84 [08:05<08:39, 10.59s/it]Processing images_5_007:  42%|████▏     | 35/84 [08:05<08:39, 10.59s/it]2025-07-28 16:00:33,394 - INFO - Analyzing video: images_5_007
+2025-07-28 16:00:40,217 - INFO - Successfully analyzed images_5_007
+2025-07-28 16:00:40,250 - INFO - Saved result for images_5_007
+Processing images_5_007:  43%|████▎     | 36/84 [08:14<08:03, 10.07s/it]Processing images_5_008:  43%|████▎     | 36/84 [08:14<08:03, 10.07s/it]2025-07-28 16:00:42,256 - INFO - Analyzing video: images_5_008
+2025-07-28 16:00:51,814 - INFO - Successfully analyzed images_5_008
+2025-07-28 16:00:51,833 - INFO - Saved result for images_5_008
+Processing images_5_008:  44%|████▍     | 37/84 [08:26<08:14, 10.53s/it]Processing images_5_009:  44%|████▍     | 37/84 [08:26<08:14, 10.53s/it]2025-07-28 16:00:53,834 - INFO - Analyzing video: images_5_009
+2025-07-28 16:01:02,455 - INFO - Successfully analyzed images_5_009
+2025-07-28 16:01:02,475 - INFO - Saved result for images_5_009
+Processing images_5_009:  45%|████▌     | 38/84 [08:36<08:05, 10.56s/it]Processing images_5_010:  45%|████▌     | 38/84 [08:36<08:05, 10.56s/it]2025-07-28 16:01:04,482 - INFO - Analyzing video: images_5_010
+2025-07-28 16:01:10,826 - INFO - Successfully analyzed images_5_010
+2025-07-28 16:01:10,839 - INFO - Saved result for images_5_010
+Processing images_5_010:  46%|████▋     | 39/84 [08:45<07:25,  9.90s/it]Processing images_5_011:  46%|████▋     | 39/84 [08:45<07:25,  9.90s/it]2025-07-28 16:01:12,845 - INFO - Analyzing video: images_5_011
+2025-07-28 16:01:18,720 - INFO - Successfully analyzed images_5_011
+2025-07-28 16:01:18,731 - INFO - Saved result for images_5_011
+Processing images_5_011:  48%|████▊     | 40/84 [08:53<06:49,  9.30s/it]Processing images_5_012:  48%|████▊     | 40/84 [08:53<06:49,  9.30s/it]2025-07-28 16:01:20,736 - INFO - Analyzing video: images_5_012
+2025-07-28 16:01:29,264 - INFO - Successfully analyzed images_5_012
+2025-07-28 16:01:29,279 - INFO - Saved result for images_5_012
+Processing images_5_012:  49%|████▉     | 41/84 [09:03<06:55,  9.67s/it]Processing images_5_013:  49%|████▉     | 41/84 [09:03<06:55,  9.67s/it]2025-07-28 16:01:31,285 - INFO - Analyzing video: images_5_013
+2025-07-28 16:01:40,534 - INFO - Successfully analyzed images_5_013
+2025-07-28 16:01:40,557 - INFO - Saved result for images_5_013
+Processing images_5_013:  50%|█████     | 42/84 [09:14<07:06, 10.16s/it]Processing images_5_014:  50%|█████     | 42/84 [09:14<07:06, 10.16s/it]2025-07-28 16:01:42,564 - INFO - Analyzing video: images_5_014
+2025-07-28 16:01:51,472 - INFO - Successfully analyzed images_5_014
+2025-07-28 16:01:51,502 - INFO - Saved result for images_5_014
+Processing images_5_014:  51%|█████     | 43/84 [09:25<07:06, 10.39s/it]Processing images_5_015:  51%|█████     | 43/84 [09:25<07:06, 10.39s/it]2025-07-28 16:01:53,509 - INFO - Analyzing video: images_5_015
+2025-07-28 16:01:59,582 - INFO - Successfully analyzed images_5_015
+2025-07-28 16:01:59,599 - INFO - Saved result for images_5_015
+Processing images_5_015:  52%|█████▏    | 44/84 [09:33<06:28,  9.70s/it]Processing images_5_016:  52%|█████▏    | 44/84 [09:33<06:28,  9.70s/it]2025-07-28 16:02:01,603 - INFO - Analyzing video: images_5_016
+2025-07-28 16:02:12,148 - INFO - Successfully analyzed images_5_016
+2025-07-28 16:02:12,175 - INFO - Saved result for images_5_016
+Processing images_5_016:  54%|█████▎    | 45/84 [09:46<06:52, 10.57s/it]Processing images_5_017:  54%|█████▎    | 45/84 [09:46<06:52, 10.57s/it]2025-07-28 16:02:14,181 - INFO - Analyzing video: images_5_017
+2025-07-28 16:02:20,531 - INFO - Successfully analyzed images_5_017
+2025-07-28 16:02:20,550 - INFO - Saved result for images_5_017
+Processing images_5_017:  55%|█████▍    | 46/84 [09:54<06:16,  9.91s/it]Processing images_5_018:  55%|█████▍    | 46/84 [09:54<06:16,  9.91s/it]2025-07-28 16:02:22,556 - INFO - Analyzing video: images_5_018
+2025-07-28 16:02:28,507 - INFO - Successfully analyzed images_5_018
+2025-07-28 16:02:28,522 - INFO - Saved result for images_5_018
+Processing images_5_018:  56%|█████▌    | 47/84 [10:02<05:45,  9.33s/it]Processing images_5_019:  56%|█████▌    | 47/84 [10:02<05:45,  9.33s/it]2025-07-28 16:02:30,528 - INFO - Analyzing video: images_5_019
+2025-07-28 16:02:38,290 - INFO - Successfully analyzed images_5_019
+2025-07-28 16:02:38,307 - INFO - Saved result for images_5_019
+Processing images_5_019:  57%|█████▋    | 48/84 [10:12<05:40,  9.46s/it]Processing images_5_020:  57%|█████▋    | 48/84 [10:12<05:40,  9.46s/it]2025-07-28 16:02:40,313 - INFO - Analyzing video: images_5_020
+2025-07-28 16:02:46,940 - INFO - Successfully analyzed images_5_020
+2025-07-28 16:02:46,956 - INFO - Saved result for images_5_020
+Processing images_5_020:  58%|█████▊    | 49/84 [10:21<05:22,  9.22s/it]Processing images_5_021:  58%|█████▊    | 49/84 [10:21<05:22,  9.22s/it]2025-07-28 16:02:48,963 - INFO - Analyzing video: images_5_021
+2025-07-28 16:02:54,422 - INFO - Successfully analyzed images_5_021
+2025-07-28 16:02:54,430 - INFO - Saved result for images_5_021
+Processing images_5_021:  60%|█████▉    | 50/84 [10:28<04:55,  8.70s/it]Processing images_5_022:  60%|█████▉    | 50/84 [10:28<04:55,  8.70s/it]2025-07-28 16:02:56,436 - INFO - Analyzing video: images_5_022
+2025-07-28 16:12:58,463 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_022.avi: 504 Deadline Exceeded
+2025-07-28 16:12:58,497 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.DeadlineExceeded: 504 Deadline Exceeded
+
+2025-07-28 16:12:58,513 - ERROR - Failed to analyze images_5_022
+Processing images_5_022:  61%|██████    | 51/84 [20:32<1:43:01, 187.31s/it]Processing images_5_023:  61%|██████    | 51/84 [20:32<1:43:01, 187.31s/it]2025-07-28 16:13:00,520 - INFO - Analyzing video: images_5_023
+2025-07-28 16:13:19,581 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_023.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-07-28 16:13:19,583 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+
+2025-07-28 16:13:19,589 - ERROR - Failed to analyze images_5_023
+Processing images_5_023:  62%|██████▏   | 52/84 [20:53<1:13:18, 137.44s/it]Processing images_5_024:  62%|██████▏   | 52/84 [20:53<1:13:18, 137.44s/it]2025-07-28 16:13:21,593 - INFO - Analyzing video: images_5_024
+2025-07-28 16:13:31,436 - INFO - Successfully analyzed images_5_024
+2025-07-28 16:13:31,447 - INFO - Saved result for images_5_024
+Processing images_5_024:  63%|██████▎   | 53/84 [21:05<51:32, 99.77s/it]   Processing images_5_025:  63%|██████▎   | 53/84 [21:05<51:32, 99.77s/it]2025-07-28 16:13:33,450 - INFO - Analyzing video: images_5_025
+2025-07-28 16:13:38,220 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_025.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 21
+}
+]
+2025-07-28 16:13:38,221 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 21
+}
+]
+
+2025-07-28 16:13:38,233 - ERROR - Failed to analyze images_5_025
+Processing images_5_025:  64%|██████▍   | 54/84 [21:12<35:56, 71.87s/it]Processing images_5_026:  64%|██████▍   | 54/84 [21:12<35:56, 71.87s/it]2025-07-28 16:13:40,238 - INFO - Analyzing video: images_5_026
+2025-07-28 16:13:42,206 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_026.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 17
+}
+]
+2025-07-28 16:13:42,208 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 17
+}
+]
+
+2025-07-28 16:13:42,213 - ERROR - Failed to analyze images_5_026
+Processing images_5_026:  65%|██████▌   | 55/84 [21:16<24:53, 51.50s/it]Processing images_5_027:  65%|██████▌   | 55/84 [21:16<24:53, 51.50s/it]2025-07-28 16:13:44,215 - INFO - Analyzing video: images_5_027
+2025-07-28 16:13:45,690 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_027.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-07-28 16:13:45,698 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+
+2025-07-28 16:13:45,703 - ERROR - Failed to analyze images_5_027
+Processing images_5_027:  67%|██████▋   | 56/84 [21:20<17:18, 37.10s/it]Processing images_5_028:  67%|██████▋   | 56/84 [21:20<17:18, 37.10s/it]2025-07-28 16:13:47,709 - INFO - Analyzing video: images_5_028
+2025-07-28 16:13:49,485 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_028.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2025-07-28 16:13:49,488 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 10
+}
+]
+
+2025-07-28 16:13:49,494 - ERROR - Failed to analyze images_5_028
+Processing images_5_028:  68%|██████▊   | 57/84 [21:23<12:11, 27.11s/it]Processing images_5_029:  68%|██████▊   | 57/84 [21:23<12:11, 27.11s/it]2025-07-28 16:13:51,500 - INFO - Analyzing video: images_5_029
+2025-07-28 16:13:53,369 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_029.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-07-28 16:13:53,371 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+
+2025-07-28 16:13:53,388 - ERROR - Failed to analyze images_5_029
+Processing images_5_029:  69%|██████▉   | 58/84 [21:27<08:43, 20.14s/it]Processing images_5_030:  69%|██████▉   | 58/84 [21:27<08:43, 20.14s/it]2025-07-28 16:13:55,395 - INFO - Analyzing video: images_5_030
+2025-07-28 16:13:57,231 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_030.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+2025-07-28 16:13:57,233 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+
+2025-07-28 16:13:57,239 - ERROR - Failed to analyze images_5_030
+Processing images_5_030:  70%|███████   | 59/84 [21:31<06:21, 15.26s/it]Processing images_5_031:  70%|███████   | 59/84 [21:31<06:21, 15.26s/it]2025-07-28 16:13:59,248 - INFO - Analyzing video: images_5_031
+2025-07-28 16:14:00,842 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_031.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-07-28 16:14:00,842 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+
+2025-07-28 16:14:00,844 - ERROR - Failed to analyze images_5_031
+Processing images_5_031:  71%|███████▏  | 60/84 [21:35<04:42, 11.76s/it]Processing images_5_032:  71%|███████▏  | 60/84 [21:35<04:42, 11.76s/it]2025-07-28 16:14:02,847 - INFO - Analyzing video: images_5_032
+2025-07-28 16:14:04,608 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_032.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+2025-07-28 16:14:04,613 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+
+2025-07-28 16:14:04,624 - ERROR - Failed to analyze images_5_032
+Processing images_5_032:  73%|███████▎  | 61/84 [21:39<03:35,  9.37s/it]Processing images_5_033:  73%|███████▎  | 61/84 [21:39<03:35,  9.37s/it]2025-07-28 16:14:06,632 - INFO - Analyzing video: images_5_033
+2025-07-28 16:14:08,019 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_033.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2025-07-28 16:14:08,021 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+
+2025-07-28 16:14:08,024 - ERROR - Failed to analyze images_5_033
+Processing images_5_033:  74%|███████▍  | 62/84 [21:42<02:46,  7.58s/it]Processing images_5_034:  74%|███████▍  | 62/84 [21:42<02:46,  7.58s/it]2025-07-28 16:14:10,030 - INFO - Analyzing video: images_5_034
+2025-07-28 16:14:13,031 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_034.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 47
+}
+]
+2025-07-28 16:14:13,034 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 47
+}
+]
+
+2025-07-28 16:14:13,042 - ERROR - Failed to analyze images_5_034
+Processing images_5_034:  75%|███████▌  | 63/84 [21:47<02:22,  6.81s/it]Processing images_5_035:  75%|███████▌  | 63/84 [21:47<02:22,  6.81s/it]2025-07-28 16:14:15,043 - INFO - Analyzing video: images_5_035
+2025-07-28 16:14:18,381 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_035.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-07-28 16:14:18,383 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+]
+
+2025-07-28 16:14:18,401 - ERROR - Failed to analyze images_5_035
+Processing images_5_035:  76%|███████▌  | 64/84 [21:52<02:07,  6.37s/it]Processing images_5_036:  76%|███████▌  | 64/84 [21:52<02:07,  6.37s/it]2025-07-28 16:14:20,407 - INFO - Analyzing video: images_5_036
+2025-07-28 16:14:23,424 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_036.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+]
+2025-07-28 16:14:23,425 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+]
+
+2025-07-28 16:14:23,427 - ERROR - Failed to analyze images_5_036
+Processing images_5_036:  77%|███████▋  | 65/84 [21:57<01:53,  5.97s/it]Processing images_5_037:  77%|███████▋  | 65/84 [21:57<01:53,  5.97s/it]2025-07-28 16:14:25,429 - INFO - Analyzing video: images_5_037
+2025-07-28 16:14:26,889 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_037.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-07-28 16:14:26,891 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+
+2025-07-28 16:14:26,897 - ERROR - Failed to analyze images_5_037
+Processing images_5_037:  79%|███████▊  | 66/84 [22:01<01:33,  5.22s/it]Processing images_5_038:  79%|███████▊  | 66/84 [22:01<01:33,  5.22s/it]2025-07-28 16:14:28,898 - INFO - Analyzing video: images_5_038
+2025-07-28 16:14:32,008 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_038.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-07-28 16:14:32,009 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+
+2025-07-28 16:14:32,016 - ERROR - Failed to analyze images_5_038
+Processing images_5_038:  80%|███████▉  | 67/84 [22:06<01:28,  5.19s/it]Processing images_5_039:  80%|███████▉  | 67/84 [22:06<01:28,  5.19s/it]2025-07-28 16:14:34,019 - INFO - Analyzing video: images_5_039
+2025-07-28 16:14:36,923 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_039.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+]
+2025-07-28 16:14:36,925 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+]
+
+2025-07-28 16:14:36,935 - ERROR - Failed to analyze images_5_039
+Processing images_5_039:  81%|████████  | 68/84 [22:11<01:21,  5.11s/it]Processing images_5_040:  81%|████████  | 68/84 [22:11<01:21,  5.11s/it]2025-07-28 16:14:38,941 - INFO - Analyzing video: images_5_040
+2025-07-28 16:14:41,901 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_040.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2025-07-28 16:14:41,901 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+]
+
+2025-07-28 16:14:41,905 - ERROR - Failed to analyze images_5_040
+Processing images_5_040:  82%|████████▏ | 69/84 [22:16<01:15,  5.07s/it]Processing images_5_041:  82%|████████▏ | 69/84 [22:16<01:15,  5.07s/it]2025-07-28 16:14:43,905 - INFO - Analyzing video: images_5_041
+2025-07-28 16:14:46,625 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_041.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+2025-07-28 16:14:46,626 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+
+2025-07-28 16:14:46,628 - ERROR - Failed to analyze images_5_041
+Processing images_5_041:  83%|████████▎ | 70/84 [22:21<01:09,  4.96s/it]Processing images_5_042:  83%|████████▎ | 70/84 [22:21<01:09,  4.96s/it]2025-07-28 16:14:48,632 - INFO - Analyzing video: images_5_042
+2025-07-28 16:14:51,301 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_042.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-07-28 16:14:51,303 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+
+2025-07-28 16:14:51,306 - ERROR - Failed to analyze images_5_042
+Processing images_5_042:  85%|████████▍ | 71/84 [22:25<01:03,  4.88s/it]Processing images_5_043:  85%|████████▍ | 71/84 [22:25<01:03,  4.88s/it]2025-07-28 16:14:53,312 - INFO - Analyzing video: images_5_043
+2025-07-28 16:14:56,324 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_043.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+2025-07-28 16:14:56,325 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+
+2025-07-28 16:14:56,336 - ERROR - Failed to analyze images_5_043
+Processing images_5_043:  86%|████████▌ | 72/84 [22:30<00:59,  4.92s/it]Processing images_5_044:  86%|████████▌ | 72/84 [22:30<00:59,  4.92s/it]2025-07-28 16:14:58,342 - INFO - Analyzing video: images_5_044
+2025-07-28 16:14:59,869 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_044.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+2025-07-28 16:14:59,871 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+
+2025-07-28 16:14:59,880 - ERROR - Failed to analyze images_5_044
+Processing images_5_044:  87%|████████▋ | 73/84 [22:34<00:49,  4.51s/it]Processing images_5_045:  87%|████████▋ | 73/84 [22:34<00:49,  4.51s/it]2025-07-28 16:15:01,884 - INFO - Analyzing video: images_5_045
+2025-07-28 16:15:03,719 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_045.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-07-28 16:15:03,721 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+
+2025-07-28 16:15:03,737 - ERROR - Failed to analyze images_5_045
+Processing images_5_045:  88%|████████▊ | 74/84 [22:38<00:43,  4.31s/it]Processing images_5_046:  88%|████████▊ | 74/84 [22:38<00:43,  4.31s/it]2025-07-28 16:15:05,740 - INFO - Analyzing video: images_5_046
+2025-07-28 16:15:07,113 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_046.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2025-07-28 16:15:07,115 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+
+2025-07-28 16:15:07,124 - ERROR - Failed to analyze images_5_046
+Processing images_5_046:  89%|████████▉ | 75/84 [22:41<00:36,  4.04s/it]Processing images_5_047:  89%|████████▉ | 75/84 [22:41<00:36,  4.04s/it]2025-07-28 16:15:09,131 - INFO - Analyzing video: images_5_047
+2025-07-28 16:15:10,784 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_047.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+2025-07-28 16:15:10,786 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+
+2025-07-28 16:15:10,789 - ERROR - Failed to analyze images_5_047
+Processing images_5_047:  90%|█████████ | 76/84 [22:45<00:31,  3.93s/it]Processing images_5_048:  90%|█████████ | 76/84 [22:45<00:31,  3.93s/it]2025-07-28 16:15:12,795 - INFO - Analyzing video: images_5_048
+2025-07-28 16:15:15,597 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_048.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 44
+}
+]
+2025-07-28 16:15:15,599 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 44
+}
+]
+
+2025-07-28 16:15:15,607 - ERROR - Failed to analyze images_5_048
+Processing images_5_048:  92%|█████████▏| 77/84 [22:50<00:29,  4.19s/it]Processing images_5_049:  92%|█████████▏| 77/84 [22:50<00:29,  4.19s/it]2025-07-28 16:15:17,615 - INFO - Analyzing video: images_5_049
+2025-07-28 16:15:19,116 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_049.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-07-28 16:15:19,117 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+
+2025-07-28 16:15:19,122 - ERROR - Failed to analyze images_5_049
+Processing images_5_049:  93%|█████████▎| 78/84 [22:53<00:23,  3.99s/it]Processing images_5_050:  93%|█████████▎| 78/84 [22:53<00:23,  3.99s/it]2025-07-28 16:15:21,127 - INFO - Analyzing video: images_5_050
+2025-07-28 16:15:22,560 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_050.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-07-28 16:15:22,562 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+]
+
+2025-07-28 16:15:22,570 - ERROR - Failed to analyze images_5_050
+Processing images_5_050:  94%|█████████▍| 79/84 [22:56<00:19,  3.83s/it]Processing images_5_051:  94%|█████████▍| 79/84 [22:56<00:19,  3.83s/it]2025-07-28 16:15:24,571 - INFO - Analyzing video: images_5_051
+2025-07-28 16:15:26,141 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_051.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-07-28 16:15:26,143 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+
+2025-07-28 16:15:26,149 - ERROR - Failed to analyze images_5_051
+Processing images_5_051:  95%|█████████▌| 80/84 [23:00<00:15,  3.75s/it]Processing images_5_052:  95%|█████████▌| 80/84 [23:00<00:15,  3.75s/it]2025-07-28 16:15:28,155 - INFO - Analyzing video: images_5_052
+2025-07-28 16:15:29,541 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_052.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-07-28 16:15:29,543 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+
+2025-07-28 16:15:29,550 - ERROR - Failed to analyze images_5_052
+Processing images_5_052:  96%|█████████▋| 81/84 [23:03<00:10,  3.65s/it]Processing images_5_053:  96%|█████████▋| 81/84 [23:03<00:10,  3.65s/it]2025-07-28 16:15:31,554 - INFO - Analyzing video: images_5_053
+2025-07-28 16:15:34,285 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_053.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-07-28 16:15:34,286 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+
+2025-07-28 16:15:34,292 - ERROR - Failed to analyze images_5_053
+Processing images_5_053:  98%|█████████▊| 82/84 [23:08<00:07,  3.98s/it]Processing images_5_054:  98%|█████████▊| 82/84 [23:08<00:07,  3.98s/it]2025-07-28 16:15:36,296 - INFO - Analyzing video: images_5_054
+2025-07-28 16:15:39,374 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_054.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 20
+}
+]
+2025-07-28 16:15:39,376 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 20
+}
+]
+
+2025-07-28 16:15:39,392 - ERROR - Failed to analyze images_5_054
+Processing images_5_054:  99%|█████████▉| 83/84 [23:13<00:04,  4.31s/it]Processing images_5_055:  99%|█████████▉| 83/84 [23:13<00:04,  4.31s/it]2025-07-28 16:15:41,399 - INFO - Analyzing video: images_5_055
+2025-07-28 16:15:43,319 - ERROR - Error analyzing /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_055.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-07-28 16:15:43,321 - ERROR - Traceback (most recent call last):
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 329, in analyze_video_with_gemini
+    raise e
+  File "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_with_key2.py", line 314, in analyze_video_with_gemini
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wanmeng/miniconda3/envs/cobraauto/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+
+2025-07-28 16:15:43,329 - ERROR - Failed to analyze images_5_055
+Processing images_5_055: 100%|██████████| 84/84 [23:17<00:00,  4.20s/it]Processing images_5_055: 100%|██████████| 84/84 [23:17<00:00, 16.64s/it]
+2025-07-28 16:15:45,353 - INFO - Continue analysis completed! Processed: 51, Failed: 33
+2025-07-28 16:15:45,353 - INFO - Summary saved to: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_continue_key2_summary_20250728_155227.json
+
+✅ Continue analysis completed successfully!
+📊 Processed: 51 videos
+❌ Failed: 33 videos

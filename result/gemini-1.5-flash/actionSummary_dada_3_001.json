@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_3_001",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "3.33",
+    "summary": "The vehicle is driving on a city street with moderate traffic. There are several motorcycles and cars on the road. Some motorcycles are parked on the side of the road. There are pedestrians on the sidewalks.",
+    "actions": "The vehicle is maintaining its speed and lane position. The driver is monitoring the surrounding traffic.",
+    "key_objects": [
+      "vehicle",
+      "motorcycles",
+      "pedestrians",
+      "cars"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain",
+      "direction_control": "straight",
+      "lane_control": "maintain"
+    }
+  }
+]

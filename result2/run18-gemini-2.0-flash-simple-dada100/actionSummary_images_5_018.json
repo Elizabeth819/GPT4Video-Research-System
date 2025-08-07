@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_018",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car driving on a wet road in a small town. There are pedestrians and scooters on the right side of the road. The weather is overcast.",
+  "summary": "The vehicle is driving on a wet road in a small town. The road is straight with buildings on both sides. There are pedestrians and scooters on the right side of the road. The vehicle approaches a crosswalk.",
+  "actions": "The vehicle is driving straight at a constant speed. The driver is maintaining the current lane. The vehicle is approaching a crosswalk and will likely need to slow down if pedestrians are present.",
+  "key_objects": "1) Right side: Pedestrians and scooters, medium distance, potential for crossing the road. 2) Ahead: Crosswalk, medium distance, requires monitoring for pedestrians.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

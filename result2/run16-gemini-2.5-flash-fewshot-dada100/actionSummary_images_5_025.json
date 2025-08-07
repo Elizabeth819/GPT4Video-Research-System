@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_025",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "None clearly identifiable, but a motorcycle rider is present.",
+  "summary": "The video segment captures the self-driving vehicle navigating an urban intersection under rainy or overcast conditions, indicated by the wet road and water droplets on the windshield. Initially, the vehicle is stopped at a red traffic light. As the light transitions to green, the vehicle begins to accelerate, following a red SUV and then a dark SUV through the intersection. A critical event occurs when, immediately after the dark SUV passes, a motorcycle suddenly emerges from the left side of the intersection, having been completely obscured by the moving SUV. This sudden and unexpected appearance of the motorcycle directly into the vehicle's path, with extremely limited reaction time, constitutes a vehicle ghost probing incident, creating an immediate and high-risk collision scenario. The wet road conditions further exacerbate the danger by potentially increasing braking distances and reducing visibility.",
+  "actions": "The self-driving vehicle initially decelerates and comes to a stop in response to the red traffic light at the intersection. Upon the traffic light turning green, the vehicle begins to accelerate to proceed forward. However, as a dark SUV, which was previously ahead and obscuring the view, moves through the intersection, a motorcycle unexpectedly emerges from the left side, entering the vehicle's path. In immediate response to this sudden and unforeseen obstruction, the vehicle initiates rapid deceleration and emergency braking to prevent a collision with the motorcycle.",
+  "key_objects": "1) Left side: A motorcycle, approximately 5-10 meters away, suddenly emerging from behind a dark SUV and entering the intersection from the left, directly into the vehicle's path. 2) Ahead/Left side: A dark SUV, approximately 10-15 meters away, moving through the intersection, which acted as a temporary visual obstruction, hiding the approaching motorcycle until it was too late for ample reaction time.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

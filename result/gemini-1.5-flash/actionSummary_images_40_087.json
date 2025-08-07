@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_40_087",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "3.3s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a city road. Initially, the road ahead is clear. As the vehicle progresses, a red scooter with a rider wearing a pink helmet appears from the right side, moving into the vehicles path. The scooter rider is a female, wearing a black jacket and pink helmet, and is moving from the right side of the road towards the left.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the scooter appears from the right side and moves into the vehicles path, the vehicle needs to decelerate to avoid a potential collision.",
+        "key_objects": "1) Right side: A red scooter with a female rider wearing a pink helmet, approximately 5 meters away, moving from the right side of the road towards the left, potentially causing the vehicle to decelerate.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_087",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.8s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is approaching an intersection at night. The traffic light ahead is red, and several vehicles are waiting at the intersection. A motorcycle is seen moving from the left side towards the center of the intersection, potentially causing a dangerous situation.",
+        "actions": "The self-driving vehicle is slowing down as it approaches the intersection with a red light. The vehicle maintains a steady speed to ensure safety while observing the traffic conditions ahead.",
+        "key_objects": "1) Left side: A motorcycle, approximately 10 meters away, moving towards the center of the intersection, potentially causing a dangerous situation. 2) Front: Several vehicles, approximately 20 meters away, waiting at the intersection.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

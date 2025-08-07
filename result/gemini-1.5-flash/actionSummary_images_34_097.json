@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_34_097",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "3.3s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist, car ahead, car on the right",
+        "summary": "In this segment, the vehicle is driving on a busy urban road at night. A cyclist is seen on the left side of the road, moving forward. Several cars are ahead, and a car on the right is attempting to merge into the lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed to navigate through the busy road. The vehicle is keeping a safe distance from the cyclist on the left and the cars ahead. The car on the right is attempting to merge into the lane, causing the self-driving vehicle to be cautious and maintain its lane.",
+        "key_objects": "1) Left side: A cyclist, approximately 5 meters away, moving forward. 2) Front: Several cars, approximately 10 meters away, moving slowly. 3) Right side: A car, approximately 3 meters away, attempting to merge into the lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_097",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "7.8s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a red sedan, pedestrian",
+        "summary": "In this segment, the vehicle is driving in a parking lot. A red sedan is parked on the left side of the lane. A pedestrian is walking in the middle of the lane, moving from left to right.",
+        "actions": "The self-driving vehicle is moving slowly through the parking lot, maintaining a steady speed to navigate around parked cars and pedestrians.",
+        "key_objects": "1) Left side: A red sedan, approximately 5 meters away, parked and stationary. 2) Front: A pedestrian, approximately 10 meters away, walking from left to right, potentially crossing the vehicles path.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

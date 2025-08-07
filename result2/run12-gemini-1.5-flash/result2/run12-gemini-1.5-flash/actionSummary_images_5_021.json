@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_5_021",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "5.6s",
+    "scene_theme": "Urban driving",
+    "characters": "A person on a scooter, drivers of various vehicles",
+    "summary": "The video shows a car driving down a city street.  The road is relatively clear with buildings lining both sides.  Around the 2.8-second mark, a person on a scooter wearing an orange jacket crosses the road from the left side, passing in front of the observer vehicle. The scooter appears to be moving at a moderate speed. The scooter crosses the road at a crosswalk. No immediate danger is apparent, but the scooter's trajectory brings it close to the path of the observer vehicle.",
+    "actions": "The observer vehicle maintains a consistent speed and direction throughout the observed segment.  There are no apparent changes in speed or direction in response to other vehicles or the scooter. The vehicle appears to be driving at a speed appropriate for the urban environment.",
+    "key_objects": "Left side: A person on a scooter, wearing an orange jacket, approximately 5 meters away at closest approach, crossing the road from left to right at a moderate speed.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,52 @@
+# 真正的LLaVA检测作业 - 清理版
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: real-llava-clean-detection
+description: "Real LLaVA Ghost Probing Detection using decord for video frame extraction"
+
+# Compute configuration  
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code source
+code: .
+
+# Real LLaVA analysis with proper dependencies
+command: >
+  echo "🚀 开始真正的LLaVA鬼探头检测作业" &&
+  python --version &&
+  echo "📋 检查GPU和CUDA环境..." &&
+  nvidia-smi &&
+  python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA可用: {torch.cuda.is_available()}')" &&
+  echo "🔧 安装依赖包..." &&
+  pip install decord transformers accelerate Pillow &&
+  echo "📁 检查输入数据路径..." &&
+  echo "当前工作目录:" &&
+  pwd &&
+  echo "检查环境变量:" &&
+  env | grep AZUREML_DATAREFERENCE_video_data &&
+  echo "📊 运行真正的LLaVA检测..." &&
+  timeout 7200 python real_llava_detector_fixed.py &&
+  echo "✅ 真正的LLaVA鬼探头检测作业完成"
+
+# Input data  
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+# Experiment settings
+experiment_name: real-llava-clean-experiment

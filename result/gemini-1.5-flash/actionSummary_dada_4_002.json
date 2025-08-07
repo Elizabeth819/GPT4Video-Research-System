@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_4_002",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "08:20:15",
+    "End_Timestamp": "08:20:23",
+    "summary": "The vehicle is driving on a rural road. A cyclist suddenly appears from the right side of the road, emerging from behind trees and a building. The cyclist is relatively close to the vehicle when first visible, creating a potential hazard.",
+    "actions": "The vehicle is driving straight. The driver needs to be aware of the cyclist appearing from the side.",
+    "key_objects": [
+      "vehicle",
+      "cyclist",
+      "trees",
+      "building"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed, be prepared to brake",
+      "direction_control": "stay in lane",
+      "lane_control": "none"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_6_038",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist in red shirt",
+        "summary": "In this segment, the vehicle is driving on a road with moderate traffic. A white sedan is ahead, and a cyclist in a red shirt suddenly appears from the right side, causing a collision.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the white sedan ahead. At 9.0s, a cyclist in a red shirt suddenly appears from the right side, leading to a collision at 10.0s.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining a consistent speed. 2) Right: A cyclist in a red shirt, approximately 2 meters away, suddenly appearing and causing a collision.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

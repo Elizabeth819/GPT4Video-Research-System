@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_014",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "9.0s",
+  "summary": "The self-driving car is moving forward on a narrow road in a rural area. From 0.0s to 3.0s, the car is driving slowly on the road. From 3.0s to 6.0s, a red three-wheeled vehicle appears in the distance, traveling in the same direction. At 6.0s, a young boy wearing a striped shirt and red pants suddenly appears from the right side of the road and begins to cross the road. From 6.0s to 9.0s, the car continues to move forward, and the boy is now on the left side of the road.",
+  "actions": "The vehicle is driving slowly on a narrow road, likely due to the presence of buildings and potential obstructions on either side of the road. The driver maintains a slow speed to ensure they can react to any unexpected obstacles or pedestrians that may appear. The vehicle maintains its current lane and speed, likely because the road ahead is clear and there are no immediate hazards.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep current lane"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "Right side: A young boy wearing a striped shirt and red pants, approximately 5 meters away, suddenly appears from behind a building and begins to cross the road, potentially causing the vehicle to decelerate or stop."
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_019",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "A man carrying a box, appearing to be middle-aged, wearing a dark blue jacket.",
+    "summary": "The video shows a car driving down a narrow road in a village setting.  Around the 4-second mark, a man carrying a cardboard box suddenly falls onto the road from the right side, directly in front of the approaching vehicle. He appears to stumble or trip, and the fall seems unexpected. The driver is forced to brake to avoid hitting him. The man remains on the road for the remainder of the 10-second clip.",
+    "actions": "The vehicle maintains a relatively consistent speed until approximately 4 seconds into the video, at which point the driver begins to brake rapidly in response to the man falling into the road. The vehicle slows significantly to avoid a collision.",
+    "key_objects": "Right side: A man carrying a cardboard box, approximately 2 meters away at the moment of the fall, suddenly falling onto the road, causing the driver to brake.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_019",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.0s",
+    "scene_theme": "Dangerous",
+    "sentiment": "Negative",
+    "characters": "A man in a blue jacket is crawling on the road carrying a cardboard box.",
+    "summary": "The video shows a man in a dark blue jacket crawling on the road in front of the vehicle. He appears to be carrying a cardboard box.  The man's presence on the road poses a significant collision risk. The vehicle is approaching him slowly, and the man's position and actions remain unchanged throughout the observed frames. There is no indication of the man's intention or awareness of the approaching vehicle.",
+    "actions": "The vehicle is slowing down to avoid a collision with the man crawling on the road. The driver is maintaining a safe distance and appears to be cautiously approaching the situation.",
+    "key_objects": "Front: A man in a dark blue jacket, approximately 5 meters away, crawling on the road carrying a cardboard box, posing an immediate collision risk.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

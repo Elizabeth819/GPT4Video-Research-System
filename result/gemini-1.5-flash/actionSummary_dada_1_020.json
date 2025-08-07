@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_1_020",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "3.33",
+    "summary": "The ego vehicle is driving on a two-lane road at night. There is a gas station on the right side of the road. A motorcycle is driving on the right side of the road.",
+    "actions": "The ego vehicle is driving straight on the road. The ego vehicle should be aware of the motorcycle on the right side of the road.",
+    "key_objects": [
+      "ego vehicle",
+      "motorcycle",
+      "gas station"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain",
+      "direction_control": "straight",
+      "lane_control": "keep lane"
+    }
+  }
+]

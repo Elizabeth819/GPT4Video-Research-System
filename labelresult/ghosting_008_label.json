@@ -1,0 +1,86 @@
+[
+    {
+        "event_id": "event_001",
+        "video_id": "008_鬼探头遇上右侧超车-1min",
+        "start_timestamp": "0.00s",
+        "end_timestamp": "10.00s",
+        "timestamp": "2024-12-14 21:38:07",
+        "key_objects": "a motorcyclist on the left, a truck",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_002",
+        "video_id": "008_鬼探头遇上右侧超车-1min",
+        "start_timestamp": "10.00s",
+        "end_timestamp": "20.00s",
+        "timestamp": "2024-12-14 21:41:03",
+        "key_objects": "a blue car in front",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_003",
+        "video_id": "008_鬼探头遇上右侧超车-1min",
+        "start_timestamp": "20.00s",
+        "end_timestamp": "30.00s",
+        "timestamp": "2024-12-14 21:44:50",
+        "key_objects": "a scooter on the left",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "008_鬼探头遇上右侧超车-1min",
+        "start_timestamp": "30.00s",
+        "end_timestamp": "40.00s",
+        "timestamp": "2024-12-14 21:54:17",
+        "key_objects": "a white sedan on the right",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "008_鬼探头遇上右侧超车-1min",
+        "start_timestamp": "40.00s",
+        "end_timestamp": "50.00s",
+        "timestamp": "2024-12-14 21:58:18",
+        "key_objects": "a scooter on the left",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "008_鬼探头遇上右侧超车-1min",
+        "start_timestamp": "50.00s",
+        "end_timestamp": "60.00s",
+        "timestamp": "2024-12-14 21:58:18",
+        "key_objects": "a scooter on the left, a black car",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }    
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person, possibly a child or small adult, wearing a blue/purple jacket, is seen darting into the road and then falling to the ground after a collision. Another adult person, wearing a red/orange jacket, approaches the fallen person from the right side of the road.",
+  "summary": "The video segment begins at night on a busy street with shops and stalls lining both sides. The road appears wet, reflecting the streetlights and building lights. The vehicle is driving forward, maintaining its lane. Initially, there are other vehicles on the road, including a black car on the left moving towards the camera and a white car on the right, appearing to be parked or moving slowly. Suddenly, a person in a blue/purple jacket darts out from behind the white car on the right side of the road, directly into the vehicle's path. An immediate collision occurs, and the person falls to the ground. The vehicle comes to a rapid stop. Another person in a red/orange jacket then approaches the fallen individual from the right side of the road.",
+  "actions": "The vehicle is initially driving forward at a moderate speed, maintaining its lane. Upon the sudden appearance of a pedestrian darting into the road from the right side, the vehicle performs rapid deceleration and braking. This action is taken immediately to attempt to avoid a collision with the pedestrian who unexpectedly entered the vehicle's path. The vehicle comes to a complete stop or near-stop after the impact, indicating a swift and decisive reaction to the unforeseen obstacle.",
+  "key_objects": "1) Right: A white parked car on the right side of the road served as a physical obstruction, blocking the driver's view of the pedestrian. 2) Center-Right: A person in a blue/purple jacket suddenly emerged from behind the white parked car on the right, directly entering the vehicle's path with minimal reaction time, leading to a collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_42_004",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white van, motorcyclist, pedestrian",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a white van is moving slowly. On the left side, a black car is overtaking the van. On the right side, a motorcyclist appears and then falls down, causing a pedestrian to rush to help.",
+        "actions": "The self-driving vehicle is maintaining a slow speed due to the white van ahead. The vehicles speed remains consistent to avoid collision with the van and the motorcyclist on the right side.",
+        "key_objects": "1) Front: A white van, approximately 5 meters away, moving slowly. 2) Left side: A black car, approximately 3 meters away, overtaking the van. 3) Right side: A motorcyclist, approximately 2 meters away, falls down suddenly. 4) Right side: A pedestrian, approximately 1 meter away, rushing to help the motorcyclist.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_016",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene features a driver in a vehicle, several other cars on the road, and a pedestrian in a red jacket crossing the road. The pedestrian appears to be an adult.",
+  "summary": "The vehicle is driving on a multi-lane road with other cars present. A pedestrian suddenly appears from the right side of the road and crosses into the vehicle's lane, creating a dangerous situation. The driver likely has to react to avoid hitting the pedestrian.",
+  "actions": "The vehicle maintains its speed initially. As the pedestrian appears on the right side of the road and begins to cross, the driver likely initiates braking to avoid a collision. The vehicle is driving straight, following the road's trajectory.",
+  "key_objects": "1) Right side: Pedestrian in red jacket, medium distance, crossing the road unexpectedly, causing a potential collision. 2) Left lane: Red car, medium distance, driving in the same direction, posing a potential risk if the driver swerves to avoid the pedestrian.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_018",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "sentiment": "Negative",
+    "End_Timestamp": "9.0s",
+    "scene_theme": "Dramatic",
+    "characters": "Two women crossing the road, white sedan",
+    "summary": "In this segment, the vehicle is driving on a city street with parked cars on both sides. At 4.0s, two women suddenly appear from the left side, crossing the road in front of the vehicle. The vehicle needs to decelerate to avoid a potential collision.",
+    "actions": "The self-driving vehicle decelerates to avoid hitting the two women who suddenly appeared from the left side and are crossing the road.",
+    "key_objects": "1) Left side: Two women, approximately 5 meters away, crossing the road from left to right, causing the vehicle to decelerate. 2) Front: A white sedan, approximately 10 meters away, parked on the roadside, potentially obstructing the view.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "decelerate",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

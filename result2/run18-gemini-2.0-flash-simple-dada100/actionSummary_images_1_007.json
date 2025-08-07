@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a street with cars, pedestrians, and buildings. There are people walking on the sidewalks on both sides of the road. Some are waiting at a bus stop on the left. A few cars are parked along the right side of the road. The pedestrians appear to be adults of various ages, dressed in casual clothing. The cars are a mix of sedans and vans.",
+  "summary": "The vehicle starts driving on a two-lane road with moderate traffic. Pedestrians are walking on the sidewalks on both sides of the road. The vehicle maintains its lane and speed. The road appears to be in a residential or commercial area with buildings and trees lining the street.",
+  "actions": "The vehicle is driving straight on a two-lane road. The driver is maintaining a consistent speed, likely adhering to the speed limit of the area. The vehicle is staying in its lane, following the road markings. The driver is likely monitoring the pedestrians on the sidewalks and the other vehicles on the road to ensure safe driving.",
+  "key_objects": "1) Left: Pedestrians on the sidewalk, medium distance, potential to cross the road. 2) Right: Parked cars, medium distance, potential for doors opening or cars pulling out.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

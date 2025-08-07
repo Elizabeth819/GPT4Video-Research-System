@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_25_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Rural Road",
+        "characters": "Motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road with a speed limit of 10 km/h. A motorcyclist is seen ahead, initially moving straight and then turning left towards the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the motorcyclist. The vehicles speed is consistent, and it is keeping a safe distance from the motorcyclist.",
+        "key_objects": "1) Front: A motorcyclist, approximately 20 meters away, initially moving straight and then turning left towards the vehicles path.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_25_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a road with a white sedan parked on the right side. The white sedan starts to move forward, potentially cutting into the lane of the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the white sedan on the right side. The vehicle is prepared to decelerate if the white sedan cuts into its lane.",
+        "key_objects": "1) Right side: A white sedan, approximately 2 meters away, parked initially but starts moving forward, potentially cutting into the observer vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_25_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.9s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. A white sedan is parked on the roadside, and there is a blue car parked ahead. The driver mentions that the white sedan is about to move.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the parked white sedan. The vehicles speed remains consistent, and it is keeping a safe distance from the parked cars.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, parked on the roadside, possibly about to start moving. 2) Front-left: A blue car, approximately 10 meters away, parked and blocking part of the view.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

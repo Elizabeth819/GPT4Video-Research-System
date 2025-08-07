@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_27_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist, car ahead, pedestrian",
+        "summary": "In this segment, the vehicle is driving on a busy urban road at night. There is a cyclist on the left side of the road, a pedestrian crossing from the left side, and multiple cars ahead. The cyclist is moving forward, and the pedestrian is crossing the road, potentially causing a sudden need for braking.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the busy road. The presence of the cyclist and pedestrian requires the driver to be cautious and ready to brake if necessary.",
+        "key_objects": "1) Left side: A cyclist, approximately 2 meters away, moving forward. 2) Left side: A pedestrian, approximately 3 meters away, crossing the road. 3) Front: Multiple cars, approximately 10 meters away, moving slowly.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_27_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road at night. Ahead, a black sedan is positioned in the middle of the road, possibly attempting to merge into the lane. The driver mentions the presence of multiple vehicles and pedestrians, creating a congested and potentially hazardous situation.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the congested road. The vehicle is keeping a safe distance from the black sedan ahead, which appears to be stationary or moving slowly. The driver is likely being cautious due to the high density of vehicles and pedestrians.",
+        "key_objects": "1) Front: A black sedan, approximately 5 meters away, positioned in the middle of the road, possibly attempting to merge into the lane. 2) Left side: Multiple vehicles, approximately 10 meters away, moving slowly or stationary, contributing to the congestion. 3) Right side: Multiple vehicles, approximately 10 meters away, moving slowly or stationary, contributing to the congestion.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

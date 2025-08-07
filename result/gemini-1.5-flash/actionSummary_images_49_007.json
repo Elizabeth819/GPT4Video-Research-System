@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_49_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "3.3s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving through an urban area. Initially, the road is clear, but as the vehicle progresses, a pedestrian on the right side of the road appears to be crossing. In the final frame, a motorcycle has fallen in the middle of the road, with a truck approaching from the opposite direction.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the pedestrian appears on the right side, the vehicle likely slows down to avoid any potential collision. In the final frame, the vehicle is likely to decelerate rapidly or stop to avoid the fallen motorcycle and the approaching truck.",
+        "key_objects": "1) Right side: A pedestrian, approximately 5 meters away, crossing the road. 2) Front: A fallen motorcycle, approximately 10 meters away, in the middle of the road. 3) Front: A truck, approximately 20 meters away, approaching from the opposite direction.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_49_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Multiple individuals on the road",
+        "summary": "In this segment, the vehicle is driving on a city street. Several individuals are present on the road, including a person on a scooter, a person on a bicycle, and a person kneeling in the middle of the road. The situation appears chaotic and potentially dangerous.",
+        "actions": "The self-driving vehicle is slowing down to avoid a potential collision with the individuals on the road. The vehicles speed is gradually decreasing to ensure safety.",
+        "key_objects": "1) Front: A person kneeling in the middle of the road, approximately 5 meters away, obstructing the vehicles path. 2) Left: A person on a scooter, approximately 7 meters away, moving slowly. 3) Left: A person on a bicycle, approximately 8 meters away, stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

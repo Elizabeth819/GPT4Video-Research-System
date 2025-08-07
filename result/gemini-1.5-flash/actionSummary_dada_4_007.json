@@ -1,0 +1,23 @@
+[
+  {
+    "video_id": "dada_4_007",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "3.33",
+    "summary": "The vehicle is approaching an intersection with a traffic officer present. There are pedestrians and cyclists on the left side of the road, some of whom are crossing the street. The vehicle is slowing down as it approaches the intersection.",
+    "actions": "The vehicle is slowing down and preparing to navigate the intersection. The driver is observing the traffic officer and other road users.",
+    "key_objects": [
+      "traffic officer",
+      "pedestrians",
+      "cyclists",
+      "other vehicles",
+      "intersection"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain slow speed, be prepared to stop",
+      "direction_control": "follow traffic officer's instructions, stay in lane",
+      "lane_control": "stay in lane"
+    }
+  }
+]

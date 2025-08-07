@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a bicycle or scooter, gender and age not discernible due to night conditions and distance.",
+  "summary": "In this segment, the self-driving vehicle is traveling at night on a road under an overpass. From the beginning of the video, a person on a bicycle or scooter is visible ahead in the same lane, moving slowly. The vehicle approaches this person from behind without apparent significant deceleration or evasive action. Around the 10-11 second mark, the vehicle collides with or has a very close encounter with the person on the bicycle/scooter. Following the impact, debris (a blue object) is seen on the left side of the road, and the vehicle continues to move forward.",
+  "actions": "The self-driving vehicle is driving at night under an overpass. It maintains a consistent speed while approaching a person on a bicycle or scooter who is moving slowly in the same lane ahead. Despite the clear and continuous presence of the slower-moving object in its direct path, the vehicle does not appear to initiate sufficient braking or steering adjustments in a timely manner to avoid a collision. This lack of appropriate speed and direction control in response to a visible hazard leads to an impact with the person on the bicycle/scooter. After the collision, the vehicle continues its forward motion, indicating a failure to stop and assess the situation.",
+  "key_objects": "1) Center-right to Center: A person on a bicycle or scooter, initially approximately 20-30 meters away, moving slowly in the same lane as the vehicle. This object becomes a direct obstruction to the vehicle's path, leading to a collision. 2) Left side: A blue object, approximately 5-10 meters away from the vehicle's position after the impact, appearing as debris on the road, likely from the bicycle/scooter or the person's belongings.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "video_id": "images_2_002",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "4.0s",
+      "characters": "The scene shows a narrow road in a rural area. There are buildings on both sides of the road. A white van is parked on the right side of the road. There are also some people standing on the left side of the road.",
+      "summary": "From 0.0s to 4.0s, the car is driving on a narrow road in a rural area. There are buildings on both sides of the road. A white van is parked on the right side of the road. There are also some people standing on the left side of the road. The car is approaching the people and the van.",
+      "actions": "The vehicle is moving forward at a slow speed, likely due to the narrow road and the presence of people and a parked van ahead. The driver is proceeding cautiously to navigate the limited space and avoid potential collisions.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep right in this lane"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "4.0s",
+      "End_Timestamp": "8.0s",
+      "characters": "On the left side of the road, there are three people: a woman in a red coat, an older man in a dark jacket, and another man in a black jacket. The man in the black jacket is gesturing with his right arm extended towards the road. On the right side of the road, a dark blue car is parked. A man wearing a dark jacket and pants is bending over in the road, seemingly working on something.",
+      "summary": "From 4.0s to 8.0s, the car continues to approach a group of people on the left and a man working on something in the road on the right. The man in the black jacket is gesturing, possibly indicating something to the driver. The car needs to navigate around the man working in the road.",
+      "actions": "The vehicle is slowing down as it approaches the group of people on the left and the man working in the road on the right. The driver is likely assessing the situation and preparing to maneuver around the obstacles.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep right in this lane"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "8.0s",
+      "End_Timestamp": "12.1s",
+      "characters": "On the left side of the road, there are three people: a woman in a red coat, an older man in a dark jacket, and another man in a black jacket. The man in the black jacket is now holding a clear plastic container. On the right side of the road, a dark blue car is parked. A man wearing a dark jacket and pants is bending over in the road, seemingly working on something. Another man is sitting on the ground near the parked car.",
+      "summary": "From 8.0s to 12.1s, the car is very close to the group of people on the left and the man working in the road on the right. The man in the black jacket is holding a clear plastic container. The car is navigating around the man working in the road.",
+      "actions": "The vehicle is moving very slowly, almost at a standstill, as it carefully navigates around the man working in the road. The driver is likely proceeding with extreme caution to avoid hitting the man or the parked car.",
+      "next_action": {
+        "speed_control": "accelerating",
+        "direction_control": "keep straight",
+        "lane_control": "keep right in this lane"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    },
+    {
+      "Start_Timestamp": "12.1s",
+      "End_Timestamp": "13.8s",
+      "characters": "On the left side of the road, there are three people: a woman in a red coat, an older man in a dark jacket, and another man in a black jacket. The man in the black jacket is now holding a clear plastic container. On the right side of the road, a dark blue car is parked. A man wearing a dark jacket and pants is standing up in the road. Another man is sitting on the ground near the parked car.",
+      "summary": "From 12.1s to 13.8s, the car has passed the man working in the road and is now moving past the group of people on the left. The man in the black jacket is holding a clear plastic container. The road is now clear ahead.",
+      "actions": "The vehicle is starting to accelerate as it passes the obstacles and the road ahead becomes clearer. The driver is increasing speed to resume normal driving.",
+      "next_action": {
+        "speed_control": "accelerating",
+        "direction_control": "keep straight",
+        "lane_control": "keep right in this lane"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    }
+  ]
+}

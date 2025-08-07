@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_1_011",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Driving on a two-lane road",
+    "characters": "Driver of the recording vehicle, other drivers, pedestrians",
+    "summary": "The video shows a car driving on a two-lane road with light traffic.  Several vehicles are visible ahead, maintaining a safe distance. Around the 7-second mark, a group of pedestrians are seen crossing the road from the right side, some distance ahead of the recording vehicle.  No immediate dangerous situations are observed, although the pedestrians' crossing requires attention from the driver.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane throughout the 10-second segment.  The vehicle's speed appears moderate, appropriate for the traffic conditions.  There are no observable changes in speed or direction, suggesting a smooth and steady driving pattern.",
+    "key_objects": "Front: Multiple vehicles, approximately 20-30 meters away, maintaining consistent speed and distance. Right side: Group of pedestrians, approximately 25 meters away at 7.8s, crossing the road from right to left.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_011",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.0s",
+    "scene_theme": "Dangerous",
+    "sentiment": "Negative",
+    "characters": "A young girl, an adult woman, and a driver.",
+    "summary": "The video shows a young girl running into the road from behind a parked silver car. An adult woman appears to be accompanying her. The girl runs directly into the path of the oncoming vehicle. The driver of the vehicle appears to react quickly, but the situation is extremely dangerous and could have resulted in a collision. The girl is wearing a pink dress, and the woman is wearing dark clothing. The incident occurs on a relatively quiet road with some other vehicles visible in the distance.",
+    "actions": "The self-driving vehicle maintains a steady speed until the child runs into the road. The driver then brakes rapidly to avoid a collision. The vehicle's speed decreases significantly in response to the sudden appearance of the child.",
+    "key_objects": "1) Front: A young girl in a pink dress, approximately 2 meters away at the closest point, running directly into the road from behind a parked silver car. 2) Front: An adult woman in dark clothing, approximately 3 meters away, appears to be accompanying the girl but does not prevent her from running into the road.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

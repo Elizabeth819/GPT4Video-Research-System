@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_025",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Several vehicles are visible ahead, and a blue sedan on the left side suddenly accelerates and moves into the self-vehicles lane, causing a potential collision risk.",
+        "actions": "The self-driving vehicle maintains a consistent speed while monitoring the traffic ahead. The sudden movement of the blue sedan from the left side into the self-vehicles lane requires the driver to decelerate to avoid a collision.",
+        "key_objects": "1) Left side: A blue sedan, approximately 5 meters away, suddenly accelerates and moves into the self-vehicles lane, causing a potential collision risk.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

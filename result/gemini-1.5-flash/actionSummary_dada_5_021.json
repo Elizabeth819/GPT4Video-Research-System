@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving straight on a road with buildings on both sides. There are other vehicles in the distance. A motorcyclist appears from behind concrete blocks on the left side of the road and crosses the crosswalk.",
+    "actions": "Ego vehicle is driving straight. Other vehicles are moving in the distance. A motorcyclist is crossing the road on a crosswalk.",
+    "characters": "Motorcyclist",
+    "key_objects": "Ego vehicle, other vehicles, motorcyclist, concrete blocks, crosswalk",
+    "key_actions": "potential ghost probing",
+    "next_action": "Ego vehicle will continue driving straight."
+  }
+]

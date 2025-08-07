@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_44_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a white minivan, pedestrian",
+        "summary": "In this segment, the vehicle is driving in an urban area. Initially, the road is clear with some parked cars on the right side. A black sedan is seen moving from the left side of the frame towards the center, potentially cutting into the lane. By the last frame, a white minivan is seen on the left side of the frame, and a pedestrian is visible on the right side of the frame, indicating a potential collision with a fallen scooter.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the black sedan moves towards the center, the vehicle might need to decelerate to avoid a potential cut-in. By the last frame, the vehicle should be preparing to stop or maneuver to avoid the fallen scooter and the pedestrian on the right side.",
+        "key_objects": "1) Left side: A black sedan, approximately 10 meters away, moving towards the center, potentially cutting into the lane. 2) Left side: A white minivan, approximately 15 meters away, parked. 3) Right side: A pedestrian, approximately 5 meters away, near a fallen scooter, potentially causing an obstruction.",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight left shift"
+        }
+    },
+    {
+        "video_id": "dada_44_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrian",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. A white sedan is ahead in the same lane. A bus is parked on the right side of the road. Suddenly, a person wearing dark clothing and carrying a bag runs from behind the bus into the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while following the white sedan ahead. The sudden appearance of the pedestrian from behind the bus requires immediate braking to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a steady speed. 2) Right side: A bus, approximately 15 meters away, parked on the roadside. 3) Right side: A person wearing dark clothing, approximately 10 meters away, running from behind the bus into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_44_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrian in dark clothing",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. A pedestrian in dark clothing is standing on the right side of the road, and a white sedan is moving ahead. The pedestrian appears to be taking photos or using a phone. The white sedan is moving from the right lane towards the center lane, potentially causing a cut-in situation.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the pedestrian on the right side and the white sedan moving ahead. The vehicle is likely preparing to decelerate or change lanes to avoid a potential cut-in from the white sedan.",
+        "key_objects": "1) Right side: A pedestrian in dark clothing, approximately 5 meters away, standing and using a phone, potentially distracting the driver. 2) Front: A white sedan, approximately 10 meters away, moving from the right lane towards the center lane, potentially causing a cut-in.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

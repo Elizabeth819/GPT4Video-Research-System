@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_064",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a relatively empty urban road. There are no visible pedestrians or other vehicles in close proximity. The road is clear, and the vehicle is maintaining a steady speed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, driving straight on the urban road. There are no obstacles or other vehicles requiring any change in speed or direction.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_064",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "14.6s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a black car is parked on the roadside. The driver mentions that a blue van ahead had yielded, but a collision still occurred.",
+        "actions": "The self-driving vehicle collided with the blue van, possibly due to insufficient clearance on the left side. Over the past 4.6 seconds, the vehicles speed gradually decreased, eventually reaching a stop in the last frame, maintaining a close distance from the vehicle ahead.",
+        "key_objects": "1) Front: A black car, relatively close, approximately 10 meters away, parked on the roadside, possibly about to start or turn suddenly. 2) Left: A blue van, approximately 0 meters away, has collided. It may stop for the driver to handle the situation or suddenly move forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

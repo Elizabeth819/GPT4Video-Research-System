@@ -1,0 +1,55 @@
+{
+  "video_id": "images_4_006",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.8s",
+  "summary": "The self-driving car is traveling through a tunnel at night. Initially, the car is moving at 23 km/h. As the car progresses, several individuals become visible within the tunnel. At 4.3s, a male on a bicycle, wearing a white shirt and dark pants, appears on the right side of the road. At 5.2s, a male wearing a white shirt and dark pants is kneeling in the middle of the road. At 6.1s, the car decelerates to 7 km/h. At 7.0s, the car is almost stopped, and at 7.8s, the car is stopped. The male kneeling in the middle of the road is now very close to the car.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "white shirt, dark pants",
+      "age": "adult",
+      "transportation_method": "bicycle",
+      "behavior": "riding on the right side of the road"
+    },
+    {
+      "gender": "male",
+      "clothing": "white shirt, dark pants",
+      "age": "adult",
+      "transportation_method": "kneeling",
+      "behavior": "kneeling in the middle of the road"
+    },
+    {
+      "gender": "unclear",
+      "clothing": "unclear",
+      "age": "unclear",
+      "transportation_method": "walking",
+      "behavior": "walking on the left side of the road"
+    },
+    {
+      "gender": "unclear",
+      "clothing": "unclear",
+      "age": "unclear",
+      "transportation_method": "walking",
+      "behavior": "walking on the left side of the road"
+    },
+    {
+      "gender": "unclear",
+      "clothing": "unclear",
+      "age": "unclear",
+      "transportation_method": "walking",
+      "behavior": "walking on the left side of the road"
+    }
+  ],
+  "actions": "The vehicle is initially traveling at 23 km/h. As the vehicle approaches the group of people in the tunnel, the driver decelerates to 22 km/h at 2.6s, then to 21 km/h at 3.5s, and further to 17 km/h at 5.2s. The driver is slowing down due to the presence of people in the tunnel and the reduced visibility. The vehicle decelerates further to 7 km/h at 6.1s and comes to a complete stop at 7.8s to avoid hitting the person kneeling in the middle of the road.",
+  "next_action": {
+    "speed_control": "stationary",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": [
+    "Middle: A male kneeling in the middle of the road, approximately 2 meters away, posing an immediate collision risk.",
+    "Right side: A male on a bicycle, approximately 10 meters away, approaching from the right side of the road."
+  ]
+}

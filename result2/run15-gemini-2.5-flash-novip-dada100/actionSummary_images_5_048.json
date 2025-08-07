@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_048",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult person wearing a red jacket and dark pants is riding a scooter. Other drivers are visible in a blue sedan and a white SUV, as well as other vehicles in the distance. Another person on a scooter/motorcycle is seen in the distance on the left, and another person on a scooter/motorcycle wearing dark clothing is seen on the far right in later frames.",
+  "summary": "The vehicle is driving on a multi-lane road, appearing to be an elevated section or bridge, with moderate traffic. As the vehicle approaches and enters an intersection, a person on a scooter, initially positioned on the far right side of the road, suddenly makes a sharp left turn across the vehicle's path. This maneuver occurs from behind a white SUV and a roadside barrier/median, which acted as visual obstructions, creating a 'ghost probing' scenario. The vehicle initiates rapid braking to avoid a collision. Despite the vehicle's braking, the scooter rider falls off their scooter on the right side of the vehicle, indicating a near-miss or minor contact.",
+  "actions": "The vehicle initially maintains a steady speed as it approaches the intersection. Upon the sudden and unexpected left turn of the scooter rider from the right side of the road, directly into its path, the vehicle immediately initiates rapid deceleration by applying the brakes. This action is taken to prevent a direct collision with the scooter rider who suddenly appeared from behind visual obstructions. The vehicle maintains its current lane throughout this braking maneuver, prioritizing a straight-line stop to maximize braking effectiveness and avoid swerving into other lanes.",
+  "key_objects": "1) Right side: A person on a scooter, wearing a red jacket. This individual suddenly darted out from behind a white SUV and a roadside barrier/median at an intersection, making a sharp left turn directly into the vehicle's path, creating an immediate and dangerous collision risk. This behavior caused the vehicle to brake sharply, and the scooter rider subsequently fell.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

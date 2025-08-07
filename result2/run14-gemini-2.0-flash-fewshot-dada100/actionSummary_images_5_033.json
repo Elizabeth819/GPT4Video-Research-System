@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_033",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A red sedan is driving ahead. A person on a scooter wearing a blue jacket and white helmet is seen in the distance.",
+  "summary": "The self-driving vehicle is traveling on a road at night. A red sedan is ahead of the vehicle. In the distance, a person on a scooter wearing a blue jacket and white helmet is approaching a crosswalk. The scooter is moving at a moderate speed.",
+  "actions": "The self-driving vehicle is maintaining a consistent speed and following the red sedan. The vehicle is likely maintaining a safe following distance and adjusting its speed based on the sedan's movements. The vehicle is proceeding cautiously due to the presence of the scooter in the distance.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

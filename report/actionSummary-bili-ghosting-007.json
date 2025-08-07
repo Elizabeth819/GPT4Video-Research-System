@@ -1,0 +1,110 @@
+[
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a vehicle",
+        "summary": "In this segment, the vehicle is driving on a wet road at night. The road is busy with multiple vehicles and pedestrians. The vehicle encounters a sudden obstacle in the form of a pedestrian crossing from the right side, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is driving at a moderate speed on a wet road at night. The vehicle maintains a steady speed until it encounters a pedestrian crossing from the right side, which may require the vehicle to decelerate or stop to avoid a collision.",
+        "key_objects": "1) Right side: A pedestrian, approximately 2 meters away, crossing the road suddenly from the right side, causing a potential collision risk.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "End_Timestamp": "20.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a cement truck, rider of a scooter",
+        "summary": "In this segment, the vehicle is driving on a wet road at night. A white sedan is parked on the roadside, and a cement truck is moving in the adjacent lane. A scooter rider is traveling in the bike lane. The scooter rider suddenly moves into the main lane, potentially causing a collision with the cement truck.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the traffic ahead. The vehicle is likely preparing to decelerate due to the potential hazard posed by the scooter rider moving into the main lane.",
+        "key_objects": "1) Right side: A scooter rider, approximately 5 meters away, moving from the bike lane into the main lane, potentially causing a collision with the cement truck. 2) Left side: A cement truck, approximately 10 meters away, moving forward in the adjacent lane, potentially colliding with the scooter rider.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "unknown",
+        "segment_id": "Segment_000",
+        "Start_Timestamp": "21.0s",
+        "End_Timestamp": "30.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. A white sedan is in the middle lane, and a motorcyclist is on the left side. The motorcyclist attempts to overtake the white sedan from the left but collides with the rear of a truck in the middle lane. The motorcyclist falls to the ground, and the white sedan continues moving forward. The scene then shifts to a rural road with a red truck driving ahead.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the collision between the motorcyclist and the truck. The vehicle does not take any evasive actions as the incident occurs in a different lane. The vehicles speed remains consistent, and it continues to move forward without any sudden changes in direction or speed.",
+        "key_objects": "1) Left side: A motorcyclist, approximately 5 meters away, attempting to overtake the white sedan and colliding with the truck. 2) Front: A white sedan, approximately 10 meters away, moving forward steadily. 3) Front: A truck, approximately 15 meters away, involved in the collision with the motorcyclist.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_004",
+        "Start_Timestamp": "31.0s",
+        "End_Timestamp": "40.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Rural Road",
+        "characters": "Driver of a red truck, driver of a blue tricycle",
+        "summary": "In this segment, the vehicle is driving on a rural road. A red truck is ahead, and a blue tricycle is seen moving from the right side of the road to the left, crossing the path of the red truck. The red truck continues to move forward, and the blue tricycle successfully crosses the road without any collision.",
+        "actions": "The self-driving vehicle maintains a consistent speed while observing the red truck ahead and the blue tricycle crossing the road. The vehicle does not need to take any evasive actions as the tricycle crosses safely.",
+        "key_objects": "1) Front: A red truck, approximately 20 meters away, moving forward. 2) Right: A blue tricycle, approximately 10 meters away, crossing the road from right to left.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "41.0s",
+        "End_Timestamp": "50.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, Pedestrian",
+        "summary": "In this segment, the vehicle is driving on a rural road. At 42.0s, a motorcyclist appears from the left side, crossing the road. By 43.0s, the motorcyclist has moved out of the vehicles path. At 46.0s, a pedestrian suddenly appears from the right side, moving towards the road. The scene then transitions to an urban area with parked cars on both sides. At 49.0s, another motorcyclist appears from the right side, crossing the road.",
+        "actions": "The vehicle decelerates as the motorcyclist crosses the road at 42.0s. The vehicle maintains a slow speed as the pedestrian appears at 46.0s. The vehicle continues to drive cautiously in the urban area, maintaining a slow speed due to the presence of parked cars and another motorcyclist crossing the road at 49.0s.",
+        "key_objects": "1) Left side: A motorcyclist, approximately 5 meters away, crossing the road at 42.0s. 2) Right side: A pedestrian, approximately 3 meters away, moving towards the road at 46.0s. 3) Right side: Another motorcyclist, approximately 4 meters away, crossing the road at 49.0s.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "51.0s",
+        "End_Timestamp": "60.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a red car",
+        "summary": "In this segment, the vehicle is driving through an urban area. Initially, a person is seen lying on the road, then sitting up, and finally moving to the side. The scene then shifts to a different urban road where the vehicle continues to drive straight. Pedestrians are visible on the sidewalks, and a person in blue is seen crossing the road in front of the vehicle.",
+        "actions": "The self-driving vehicle maintains a steady speed while navigating through the urban area. The vehicle slows down slightly as it approaches the person lying on the road and then resumes its speed once the person moves to the side. The vehicle continues to drive straight, maintaining a safe distance from the vehicle ahead and being cautious of pedestrians crossing the road.",
+        "key_objects": "1) Front: A person lying on the road, approximately 5 meters away, initially lying down and then sitting up, causing the vehicle to slow down. 2) Front: A person in blue, approximately 10 meters away, crossing the road, causing the vehicle to be cautious.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

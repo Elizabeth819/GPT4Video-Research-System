@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_40_009",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a black sedan, driver of a white car",
+        "summary": "In this segment, the vehicle is driving on a city road. The black sedan ahead is maintaining a consistent speed, while the white car on the right lane is slightly ahead. The road is clear with moderate traffic.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and keeping a safe distance from the black sedan ahead. The vehicle is staying in its lane without any sudden changes in direction or speed.",
+        "key_objects": "1) Front: A black sedan, approximately 10 meters away, maintaining a consistent speed. 2) Right: A white car, approximately 15 meters away, slightly ahead in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_009",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "7.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a wet urban road. A black sedan is ahead, maintaining a consistent distance. A yellow car is visible in the adjacent lane on the right, moving at a similar speed.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and distance from the black sedan ahead. The vehicle is staying in its lane and not making any sudden movements.",
+        "key_objects": "1) Front: A black sedan, approximately 10 meters away, maintaining a consistent speed and distance. 2) Right: A yellow car, approximately 15 meters away, moving at a similar speed in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_081",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a bus",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white sedan is ahead, and a bus is overtaking from the right side. The bus moves into the lane, causing the self-driving vehicle to slow down to avoid a collision.",
+        "actions": "The self-driving vehicle decelerates to maintain a safe distance from the white sedan ahead and to avoid collision with the bus overtaking from the right side. The vehicles speed gradually decreases over the 10 seconds, maintaining a safe distance from the vehicles ahead.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, moving steadily. 2) Right: A bus, approximately 2 meters away, overtaking and moving into the lane.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

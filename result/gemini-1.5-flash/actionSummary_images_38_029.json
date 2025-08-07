@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_38_029",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a red car, driver of a white truck",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road. A white truck is on the left side, a red car is in the adjacent lane, and a black sedan is ahead. The red car moves from the adjacent lane into the self-driving vehicles lane, causing a potential cut-in situation.",
+        "actions": "The self-driving vehicle maintains a consistent speed while keeping a safe distance from the black sedan ahead. The vehicle adjusts its position slightly to the right to avoid the white truck on the left.",
+        "key_objects": "1) Left side: A white truck, approximately 2 meters away, maintaining its lane. 2) Right side: A red car, approximately 3 meters away, moving into the self-driving vehicles lane. 3) Front: A black sedan, approximately 5 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

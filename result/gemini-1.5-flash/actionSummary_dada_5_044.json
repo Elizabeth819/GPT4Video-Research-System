@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving on a wet road in an urban environment. There are several vehicles parked on the right side of the road and traffic moving in both directions. A cyclist appears to be crossing the road from the left.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are parked or moving. A cyclist is crossing the road.",
+    "characters": "Cyclist",
+    "key_objects": "Vehicles, cyclist, crosswalk, buildings",
+    "key_actions": "potential ghost probing",
+    "next_action": "Continue driving forward, potentially braking for the cyclist."
+  }
+]

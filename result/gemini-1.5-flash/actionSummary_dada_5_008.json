@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is approaching an intersection on a rainy day. A pedestrian in a yellow raincoat is standing near the crosswalk. A cyclist suddenly appears from behind the pedestrian and falls in the crosswalk.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are present in the distance. Pedestrian is standing. Cyclist is riding and then falls.",
+    "characters": "Pedestrian, cyclist",
+    "key_objects": "Crosswalk, bicycle, pedestrian, other vehicles",
+    "key_actions": "ghost probing",
+    "next_action": "Ego vehicle will likely need to brake to avoid collision with the cyclist."
+  }
+]

@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 测试视频目录
+
+本项目的主要测试视频目录是 [DADA-2000-videos](mdc:DADA-2000-videos) 文件夹。此目录包含用于视频分析和处理的数据集，遵循特定的命名格式（如`images_XX_YYY.avi`）。
+
+主要批处理脚本 [ActionSummary-predict_explain-fsl-sys-En-cutin-time-paper-batch.py](mdc:ActionSummary-predict_explain-fsl-sys-En-cutin-time-paper-batch.py) 设计用于处理此目录中的视频。
+
+## 视频处理流程
+
+1. 视频文件按照规律命名（如`images_1_001.avi`）
+2. 提取视频ID用于结果关联
+3. 将分析结果保存到`result`目录中
+4. 处理日志保存到`logs`目录中
+
+## 其他测试视频
+
+项目还包含 [test_video](mdc:test_video) 目录，其中有更多测试样例，包括`cutin`和`ghosting`子目录。

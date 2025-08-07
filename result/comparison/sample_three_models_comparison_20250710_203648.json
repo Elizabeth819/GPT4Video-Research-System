@@ -1,0 +1,53 @@
+{
+  "analysis_timestamp": "2025-07-10T20:36:48.829214",
+  "note": "GPT-4.1 evaluated on smaller sample due to processing constraints",
+  "ground_truth_info": {
+    "total_gt_samples": 100,
+    "positive_samples": 52,
+    "negative_samples": 48
+  },
+  "model_results": {
+    "gpt4o": {
+      "model": "GPT-4o",
+      "sample_size": 100,
+      "accuracy": 0.53,
+      "precision": 0.5275,
+      "recall": 0.9231,
+      "f1_score": 0.6713,
+      "specificity": 0.1042,
+      "balanced_accuracy": 0.5136,
+      "true_positives": 48,
+      "true_negatives": 5,
+      "false_positives": 43,
+      "false_negatives": 4
+    },
+    "gpt41": {
+      "model": "GPT-4.1",
+      "sample_size": 14,
+      "accuracy": 0.7857142857142857,
+      "precision": 0.7857142857142857,
+      "recall": 1.0,
+      "f1_score": 0.88,
+      "specificity": 0.0,
+      "balanced_accuracy": 0.5,
+      "true_positives": 11,
+      "true_negatives": 0,
+      "false_positives": 3,
+      "false_negatives": 0
+    },
+    "gemini": {
+      "model": "Gemini",
+      "sample_size": 100,
+      "accuracy": 0.56,
+      "precision": 0.6053,
+      "recall": 0.4423,
+      "f1_score": 0.5111,
+      "specificity": 0.6875,
+      "balanced_accuracy": 0.5649,
+      "true_positives": 23,
+      "true_negatives": 33,
+      "false_positives": 15,
+      "false_negatives": 29
+    }
+  }
+}

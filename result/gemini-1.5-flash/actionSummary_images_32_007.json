@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_32_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "1.9s",
+        "scene_theme": "Cautious",
+        "characters": "Driver of a white sedan, driver of a truck, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road. Ahead, a large truck is moving slowly in the same lane. On the right side, a motorcyclist wearing a red jacket and yellow helmet is riding parallel to the truck. The motorcyclist appears to be maintaining a steady speed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed behind the truck, keeping a safe distance. The vehicle is cautious due to the presence of the motorcyclist on the right side.",
+        "key_objects": "1) Front: A large truck, approximately 10 meters away, moving slowly in the same lane. 2) Right: A motorcyclist wearing a red jacket and yellow helmet, approximately 8 meters away, riding parallel to the truck.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

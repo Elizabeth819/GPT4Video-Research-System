@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_5_010",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "16.0s",
+    "scene_theme": "Rural Road",
+    "sentiment": "Neutral",
+    "characters": "A middle-aged man wearing a dark jacket and a red helmet is seen operating a motorcycle.",
+    "summary": "The video shows a middle-aged man on a motorcycle stopped in the middle of a rural road. He appears to be having some sort of mechanical issue with his motorcycle, as he is seen inspecting it. The self-driving vehicle is approaching slowly and maintaining a safe distance. No immediate danger is present.",
+    "actions": "The self-driving vehicle is approaching the stopped motorcycle at a slow and steady speed, maintaining a safe following distance.  The driver is likely slowing down to assess the situation and ensure a safe passage around the stopped motorcycle.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

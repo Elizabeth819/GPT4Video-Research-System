@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving straight on a multi-lane road, following other cars. The traffic light turns green, and the ego vehicle proceeds through the intersection. A pedestrian falls in front of the ego vehicle.",
+    "actions": "Ego vehicle is driving straight, following other cars. Other vehicles are also moving straight. Pedestrians are crossing the street.",
+    "characters": "Pedestrians",
+    "key_objects": "Vehicles, traffic light, pedestrian crossing, pedestrian",
+    "key_actions": "potential ghost probing",
+    "next_action": "Continue driving straight"
+  },
+  {
+    "timestamp": "10-15s",
+    "summary": "The ego vehicle is stopping after a pedestrian fell in front of the vehicle.",
+    "actions": "Ego vehicle is stopping. Other vehicles are slowing down.",
+    "characters": "Pedestrians",
+    "key_objects": "Vehicles, pedestrian crossing, pedestrian",
+    "key_actions": "emergency braking",
+    "next_action": "Complete stop"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "video_id": "images_5_023",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "13.9s",
+      "summary": "The self-driving car is moving forward on a straight road in a city environment during daylight. From 0.0s to 7.5s, the car approaches an intersection with multiple lanes and directional arrows painted on the road. At 7.5s, a motorcyclist wearing a dark jacket and helmet suddenly appears from the right side of the road, initiating a left turn directly into the path of the self-driving car. This constitutes a ghost probing incident due to the sudden and unexpected appearance of the motorcyclist from a perpendicular road. From 8.8s to 10.0s, the car collides with the motorcyclist. From 10.6s to 13.9s, the motorcyclist and the motorcycle are on the ground after the collision.",
+      "actions": "The vehicle is moving forward on a straight road, approaching an intersection. The driver is likely maintaining speed to proceed through the intersection. The vehicle does not change speed or direction until the collision occurs. The collision occurs because the motorcyclist suddenly appears from the right side of the road, initiating a left turn directly into the path of the self-driving car.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keeping straight",
+        "lane_control": "keeping straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Right side]: Motorcyclist wearing a dark jacket and helmet, approximately 10 meters away, suddenly turns left into the car's path, causing a collision."
+    }
+  ]
+}

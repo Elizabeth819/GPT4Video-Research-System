@@ -1,0 +1,45 @@
+================================================================================
+VideoChat2 Ghost Probing Detection Evaluation Report
+================================================================================
+
+OVERALL PERFORMANCE METRICS:
+----------------------------------------
+Accuracy:  0.700 (70.0%)
+Precision: 0.700 (70.0%)
+Recall:    1.000 (100.0%)
+F1-Score:  0.824
+
+CONFUSION MATRIX:
+----------------------------------------
+                    Predicted
+                Ghost    Normal
+Actual Ghost       14        0
+       Normal       6        0
+
+GROUND TRUTH DISTRIBUTION:
+----------------------------------------
+Ghost Probing videos: 52
+Normal Traffic videos: 47
+Total videos: 99
+
+VIDEOCHAT2 PREDICTIONS:
+----------------------------------------
+Predicted Ghost Probing: 20
+Predicted Normal Traffic: 0
+
+VIDEOS CLASSIFIED AS NOT GHOST PROBING (Normal Traffic):
+------------------------------------------------------------
+
+DETAILED ANALYSIS:
+----------------------------------------
+
+FALSE POSITIVES (6 videos):
+Videos incorrectly classified as ghost probing:
+  images_1_020: GT=normal_traffic, Predicted=ghost_probing
+  images_1_018: GT=normal_traffic, Predicted=ghost_probing
+  images_1_001: GT=normal_traffic, Predicted=ghost_probing
+  images_1_019: GT=normal_traffic, Predicted=ghost_probing
+  images_1_004: GT=normal_traffic, Predicted=ghost_probing
+  images_1_009: GT=normal_traffic, Predicted=ghost_probing
+
+================================================================================

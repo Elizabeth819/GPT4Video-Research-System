@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_004",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "6.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a white sedan is moving steadily in the same lane. The traffic is moderate with vehicles on both sides of the road.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the white sedan ahead. The vehicle is keeping a safe distance from the car in front and is staying in its lane.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving steadily in the same lane. 2) Right: A silver car, approximately 5 meters away, moving in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

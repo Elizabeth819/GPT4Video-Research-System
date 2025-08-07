@@ -1,0 +1,58 @@
+[
+    {
+        "event_id": "event_001",
+        "video_id": "009_这才是正确的加塞变道",
+        "start_timestamp": "0.00s",
+        "end_timestamp": "10.00s",
+        "timestamp": "2024-12-12 21:19:40",
+        "key_objects": "a white sedan on the right",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_001",
+        "video_id": "009_这才是正确的加塞变道",
+        "start_timestamp": "10.00s",
+        "end_timestamp": "20.00s",
+        "timestamp": "2024-12-12 21:19:40",
+        "key_objects": "a white sedan on the right",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },    
+    {
+        "event_id": "event_004",
+        "video_id": "009_这才是正确的加塞变道",
+        "start_timestamp": "30.00s",
+        "end_timestamp": "40.00s",
+        "timestamp": "2024-12-12 21:21:55",
+        "key_objects": "self vehicle in dense fog with high beam",
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "009_这才是正确的加塞变道",
+        "start_timestamp": "40.00s",
+        "end_timestamp": "50.00s",
+        "timestamp": "2024-12-12 21:23:13",
+        "key_objects": "a black car on the left on high way",
+        "key_actions": "cut-in, collision, improper lane change",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight right shift"
+        }
+    }
+]

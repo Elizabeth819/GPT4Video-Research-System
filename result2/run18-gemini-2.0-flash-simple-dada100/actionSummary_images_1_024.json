@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_024",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene features the driver of a car, other cars on the road, and buildings and trees lining the roadside. The driver's car is dark-colored. Other cars include a white SUV and a red car in the distance. The environment appears to be a suburban or urban area.",
+  "summary": "The video shows a car driving on a road with other vehicles present. The car maintains a steady speed and direction. The environment consists of buildings and trees along the roadside. There are no immediate hazards or unusual events observed during the 10-second segment.",
+  "actions": "The vehicle is maintaining a consistent speed and direction, following the road ahead. The driver is likely monitoring the surrounding traffic and road conditions to ensure safe driving. The vehicle is staying in its lane and not making any sudden maneuvers.",
+  "key_objects": "1) Center: White SUV, medium distance, traveling in the same direction. 2) Center: Red car, far distance, traveling in the same direction.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,816 @@
+{
+  "run_info": {
+    "run_id": "Run 18",
+    "model": "gemini-2.0-flash-exp",
+    "prompt_type": "Simple Paper Batch (No Few-shot)",
+    "evaluation_timestamp": "20250730_132403"
+  },
+  "performance_metrics": {
+    "f1_score": 0.5544554455445545,
+    "precision": 0.5833333333333334,
+    "recall": 0.5283018867924528,
+    "specificity": 0.5652173913043478,
+    "accuracy": 0.5454545454545454,
+    "total_videos": 99
+  },
+  "confusion_matrix": {
+    "tp": 28,
+    "fp": 20,
+    "tn": 26,
+    "fn": 25
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle starts driving on a road with buildings on either side. Other vehicles are visible in th..."
+    },
+    {
+      "video_id": "images_1_002",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a rural road. From 0.0s to 4.0s, the vehicle is driving straight. At 4.0s,..."
+    },
+    {
+      "video_id": "images_1_003",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a road at night. Initially, the road appears relatively clear, but as the ..."
+    },
+    {
+      "video_id": "images_1_004",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a road with buildings and trees on the right. A person suddenly appears fr..."
+    },
+    {
+      "video_id": "images_1_005",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a wet road in rainy conditions. There are many pedestrians on the right si..."
+    },
+    {
+      "video_id": "images_1_006",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a city street with heavy traffic. Initially, the vehicle is moving slowly ..."
+    },
+    {
+      "video_id": "images_1_007",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle starts driving on a two-lane road with moderate traffic. Pedestrians are walking on the ..."
+    },
+    {
+      "video_id": "images_1_008",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle starts driving down a residential street with parked vehicles on the left and pedestrian..."
+    },
+    {
+      "video_id": "images_1_009",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The video shows a car driving on a road at night. Two pedestrians suddenly appear and cross the road..."
+    },
+    {
+      "video_id": "images_1_010",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a straight road with moderate traffic. The road is lined with trees and bu..."
+    },
+    {
+      "video_id": "images_1_011",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a road with moderate traffic. Initially, the vehicle maintains a steady sp..."
+    },
+    {
+      "video_id": "images_1_012",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving down a street with parked cars on the right. Pedestrians are crossing the str..."
+    },
+    {
+      "video_id": "images_1_013",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a rural road. Initially, the road is clear. As the vehicle progresses, sev..."
+    },
+    {
+      "video_id": "images_1_014",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a narrow rural road. Initially, the road appears clear, but as the vehicle..."
+    },
+    {
+      "video_id": "images_1_015",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle starts driving down a narrow street. Initially, the road appears relatively clear, but s..."
+    },
+    {
+      "video_id": "images_1_016",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a multi-lane road with other cars present. A pedestrian suddenly appears f..."
+    },
+    {
+      "video_id": "images_1_017",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving down a road with buses on either side. The vehicle maintains its lane and spe..."
+    },
+    {
+      "video_id": "images_1_018",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a street with parked cars on both sides. Pedestrians are crossing the stre..."
+    },
+    {
+      "video_id": "images_1_019",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a road in a rural area. Initially, the road appears clear. However, a man ..."
+    },
+    {
+      "video_id": "images_1_020",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The video shows a car driving at night. Initially, the road is clear. A motorcyclist appears on the ..."
+    },
+    {
+      "video_id": "images_1_021",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The video shows a car driving on a wet road in rainy conditions. A bus is present on the left side o..."
+    },
+    {
+      "video_id": "images_1_022",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle starts driving on a multi-lane road with other vehicles present. The vehicle approaches ..."
+    },
+    {
+      "video_id": "images_1_023",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is initially approaching a crosswalk with pedestrians. A pedestrian is hit by a car on t..."
+    },
+    {
+      "video_id": "images_1_024",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The video shows a car driving on a road with other vehicles present. The car maintains a steady spee..."
+    },
+    {
+      "video_id": "images_1_025",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is traveling on a highway with mountains on either side. Two construction workers are wo..."
+    },
+    {
+      "video_id": "images_1_026",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The video shows a car driving at night on a road with other vehicles. A pedestrian suddenly appears ..."
+    },
+    {
+      "video_id": "images_1_027",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a narrow road through a rural or suburban area. The road appears to be rel..."
+    },
+    {
+      "video_id": "images_2_001",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a crowded street with pedestrians and motorcyclists moving in both directi..."
+    },
+    {
+      "video_id": "images_2_002",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a narrow road in a rural area. Several people are standing and working on ..."
+    },
+    {
+      "video_id": "images_2_003",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle approaches an intersection. Initially, the vehicle is moving forward at a steady speed. ..."
+    },
+    {
+      "video_id": "images_2_004",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle approaches an intersection with pedestrians crossing the road. The pedestrians are cross..."
+    },
+    {
+      "video_id": "images_3_001",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a city street with moderate traffic. The road is straight and there are ve..."
+    },
+    {
+      "video_id": "images_3_002",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a road with barriers on both sides, approaching an intersection. There are..."
+    },
+    {
+      "video_id": "images_3_003",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle approaches an intersection. A cyclist on the right side of the frame suddenly enters the..."
+    },
+    {
+      "video_id": "images_3_004",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The video shows a car approaching an intersection with a crosswalk. Pedestrians are crossing the str..."
+    },
+    {
+      "video_id": "images_3_005",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a city street with moderate traffic. The weather appears to be overcast. T..."
+    },
+    {
+      "video_id": "images_3_006",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle approaches an intersection with a traffic light. Initially, the vehicle is in the left l..."
+    },
+    {
+      "video_id": "images_3_007",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a road with moderate traffic. Initially, the vehicle maintains its speed. ..."
+    },
+    {
+      "video_id": "images_4_001",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a road at dusk. A cyclist suddenly appears from the left side of the road,..."
+    },
+    {
+      "video_id": "images_4_002",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The video shows a car driving on a rural road. Initially, a van is seen ahead. As the car proceeds, ..."
+    },
+    {
+      "video_id": "images_4_003",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The video shows a car driving down a street with parked cars on both sides. Initially, the car is st..."
+    },
+    {
+      "video_id": "images_4_004",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle starts driving on a city street with moderate traffic. The vehicle approaches an interse..."
+    },
+    {
+      "video_id": "images_4_005",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a road with moderate traffic. A bus is in front of the vehicle. A cyclist ..."
+    },
+    {
+      "video_id": "images_4_006",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving through a tunnel at night. Initially, several pedestrians are visible in the ..."
+    },
+    {
+      "video_id": "images_4_007",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle starts at a standstill at an intersection. A traffic officer is standing on the right si..."
+    },
+    {
+      "video_id": "images_4_008",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The video shows a car driving on a city street with moderate traffic. The car approaches an intersec..."
+    },
+    {
+      "video_id": "images_5_001",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle starts driving on a straight road at night. There are buildings and shops on both sides ..."
+    },
+    {
+      "video_id": "images_5_002",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle starts driving on a rural road. A white van passes by in the opposite direction. The veh..."
+    },
+    {
+      "video_id": "images_5_003",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a city street with moderate traffic, including motorcycles and cars. Initi..."
+    },
+    {
+      "video_id": "images_5_004",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The car is driving on a road at night. The car approaches a person on a scooter. The car continues t..."
+    },
+    {
+      "video_id": "images_5_005",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle approaches an intersection with several large trucks parked on the right. As the vehicle..."
+    },
+    {
+      "video_id": "images_5_006",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a straight road with trees and hills on both sides. The road appears to be..."
+    },
+    {
+      "video_id": "images_5_007",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle approaches an intersection with crosswalks. Other vehicles are present, including a scoo..."
+    },
+    {
+      "video_id": "images_5_008",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is approaching an intersection on a rainy day. A pedestrian in a yellow raincoat is stan..."
+    },
+    {
+      "video_id": "images_5_009",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a city street with moderate traffic. Initially, the car maintains its lane..."
+    },
+    {
+      "video_id": "images_5_010",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The car is driving on a rural road. A motorcyclist appears to lose control and falls in the middle o..."
+    },
+    {
+      "video_id": "images_5_011",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a narrow rural road lined with trees. The road appears to be straight with..."
+    },
+    {
+      "video_id": "images_5_012",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle starts driving on a road with trees on both sides. It encounters another car driving in ..."
+    },
+    {
+      "video_id": "images_5_013",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle approaches an intersection at night. Initially, the view is partially obstructed by an o..."
+    },
+    {
+      "video_id": "images_5_014",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle starts by approaching a gate with pedestrians crossing. The gate opens, and the vehicle ..."
+    },
+    {
+      "video_id": "images_5_015",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle starts at an intersection with a green light and proceeds straight. The vehicle then con..."
+    },
+    {
+      "video_id": "images_5_016",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle approaches an intersection. Initially, pedestrians are near parked cars on the left. A s..."
+    },
+    {
+      "video_id": "images_5_017",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle approaches an intersection. Pedestrians are visible on the left side of the road, and a ..."
+    },
+    {
+      "video_id": "images_5_018",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a wet road in a small town. The road is straight with buildings on both si..."
+    },
+    {
+      "video_id": "images_5_019",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is initially stopped at a gate. The gate opens, and the vehicle proceeds forward. Pedest..."
+    },
+    {
+      "video_id": "images_5_020",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The video shows a car driving down a city street. Initially, the road is relatively clear with a few..."
+    },
+    {
+      "video_id": "images_5_021",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving straight on a road with buildings on both sides. There are other cars on the ..."
+    },
+    {
+      "video_id": "images_5_022",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is approaching an intersection. Initially, the vehicle is behind a white van, obscuring ..."
+    },
+    {
+      "video_id": "images_5_023",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The video shows the car driving straight on a city street. Initially, the road appears clear. A moto..."
+    },
+    {
+      "video_id": "images_5_024",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle approaches an intersection on a rainy day. The driver slows down as they approach the in..."
+    },
+    {
+      "video_id": "images_5_025",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a wet road in rainy conditions. The traffic light turns green, and the veh..."
+    },
+    {
+      "video_id": "images_5_026",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a city street and approaching an intersection. Initially, the vehicle is d..."
+    },
+    {
+      "video_id": "images_5_027",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving down a street with parked cars on both sides. A cyclist and pedestrians are p..."
+    },
+    {
+      "video_id": "images_5_028",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a city street with moderate traffic. Initially, the vehicle maintains a sp..."
+    },
+    {
+      "video_id": "images_5_029",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a city street with moderate traffic. Initially, the vehicle is following o..."
+    },
+    {
+      "video_id": "images_5_030",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving straight on a city street with moderate traffic. There are pedestrians on the..."
+    },
+    {
+      "video_id": "images_5_031",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle approaches an intersection. Initially, the road appears clear, but a scooter suddenly ap..."
+    },
+    {
+      "video_id": "images_5_032",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a road with buildings on the right and a long structure on the left. Sever..."
+    },
+    {
+      "video_id": "images_5_033",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The video shows a car driving on a road at night. The car is following a red car and approaches a cr..."
+    },
+    {
+      "video_id": "images_5_034",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The video shows a vehicle approaching an intersection at night. Initially, the traffic light is red,..."
+    },
+    {
+      "video_id": "images_5_035",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle starts driving on a city street with moderate traffic. A large bus is in front of the ve..."
+    },
+    {
+      "video_id": "images_5_036",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle approaches an intersection with limited visibility due to large trucks obstructing the v..."
+    },
+    {
+      "video_id": "images_5_037",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The video shows a car driving on a road. Initially, the road appears clear. However, a motorcyclist ..."
+    },
+    {
+      "video_id": "images_5_038",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle starts driving on a straight road in a rural area. The road is relatively empty, with so..."
+    },
+    {
+      "video_id": "images_5_040",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving down a city street. Initially, the road appears clear, but as the vehicle app..."
+    },
+    {
+      "video_id": "images_5_041",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle starts driving on a multi-lane road with other vehicles present. The vehicle approaches ..."
+    },
+    {
+      "video_id": "images_5_042",
+      "ground_truth": false,
+      "predicted": true,
+      "result_type": "FP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle starts driving down a street with buildings and parked cars on either side. A van passes..."
+    },
+    {
+      "video_id": "images_5_043",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle starts at an intersection, waits for the green light, and proceeds straight through the ..."
+    },
+    {
+      "video_id": "images_5_044",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a wet road in an urban environment. The driver approaches a crosswalk. A c..."
+    },
+    {
+      "video_id": "images_5_045",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a city street in heavy traffic. The car is moving slowly and maintaining i..."
+    },
+    {
+      "video_id": "images_5_046",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The video shows a car driving at night. The car approaches an intersection with a green light. A man..."
+    },
+    {
+      "video_id": "images_5_047",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a city street. The vehicle is approaching an intersection with crosswalks...."
+    },
+    {
+      "video_id": "images_5_048",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving on a multi-lane road with other vehicles. The road appears to be approaching ..."
+    },
+    {
+      "video_id": "images_5_049",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving down a street with cars parked on both sides. Pedestrians are visible in the ..."
+    },
+    {
+      "video_id": "images_5_050",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is approaching an intersection. A motorcycle with two riders suddenly appears from the l..."
+    },
+    {
+      "video_id": "images_5_051",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving on a road with light traffic. A red car passes in the opposite direction. A m..."
+    },
+    {
+      "video_id": "images_5_052",
+      "ground_truth": true,
+      "predicted": true,
+      "result_type": "TP",
+      "key_actions": "ghost probing",
+      "summary": "The vehicle is driving at night on a road with street lights. As the video progresses, a person lyin..."
+    },
+    {
+      "video_id": "images_5_053",
+      "ground_truth": true,
+      "predicted": false,
+      "result_type": "FN",
+      "key_actions": "none",
+      "summary": "The vehicle is driving down a narrow road in a rural area. The road is lined with buildings on both ..."
+    },
+    {
+      "video_id": "images_5_054",
+      "ground_truth": false,
+      "predicted": false,
+      "result_type": "TN",
+      "key_actions": "none",
+      "summary": "The vehicle is at an intersection, initially behind another car. The traffic light changes, and the ..."
+    }
+  ]
+}

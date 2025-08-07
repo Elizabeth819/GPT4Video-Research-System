@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_30_015",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. A large truck is moving from the adjacent left lane into the self-vehicles lane, causing the self-vehicle to decelerate rapidly to avoid collision.",
+        "actions": "The self-driving vehicle decelerates rapidly due to the truck moving into its lane from the adjacent left lane. The vehicles speed decreases significantly over the 10 seconds, maintaining a safe distance from the truck ahead.",
+        "key_objects": "1) Left side: A large truck, approximately 5 meters away, moving into the self-vehicles lane, causing the vehicle to decelerate rapidly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

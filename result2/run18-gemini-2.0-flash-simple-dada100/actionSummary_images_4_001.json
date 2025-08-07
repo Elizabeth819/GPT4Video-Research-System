@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male cyclist wearing dark clothing and a cap is riding a bicycle from left to right across the road. There are two parked cars, a white van and a white sedan, on the right side of the road. There are also trees and streetlights in the background.",
+  "summary": "The vehicle is driving on a road at dusk. A cyclist suddenly appears from the left side of the road, crossing in front of the vehicle. The cyclist emerges from behind a row of trees and parked cars, creating a potential ghost probing situation. The vehicle is approaching the cyclist's path.",
+  "actions": "The vehicle is initially moving forward at a constant speed. As the cyclist appears on the left, the driver likely initiates braking to avoid a collision. The vehicle maintains its lane position.",
+  "key_objects": "1) Left: Cyclist, approximately 5-10 meters, crossing the road, potential collision risk. 2) Left: Trees and parked cars, approximately 10-15 meters, obstructing the view of the cyclist.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

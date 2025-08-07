@@ -1,0 +1,86 @@
+[
+    {
+        "event_id": "event_001",
+        "video_id": "010_小伙突然鬼探头-1min",
+        "start_timestamp": "0.00s",
+        "end_timestamp": "10.00s",
+        "timestamp": "2024-12-15 15:57:51",
+        "key_objects": "a boy from the right",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_002",
+        "video_id": "010_小伙突然鬼探头-1min",
+        "start_timestamp": "10.00s",
+        "end_timestamp": "20.00s",
+        "timestamp": "2024-12-15 15:58:17",
+        "key_objects": "a pedestrian on a bicycle from the right",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_003",
+        "video_id": "010_小伙突然鬼探头-1min",
+        "start_timestamp": "20.00s",
+        "end_timestamp": "30.00s",
+        "timestamp": "2024-12-15 15:59:18",
+        "key_objects": "a student running across the street",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "010_小伙突然鬼探头-1min",
+        "start_timestamp": "30.00s",
+        "end_timestamp": "40.00s",
+        "timestamp": "2024-12-15 16:00:19",
+        "key_objects": "an electric scooter rider from the left",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "010_小伙突然鬼探头-1min",
+        "start_timestamp": "40.00s",
+        "end_timestamp": "50.00s",
+        "timestamp": "2024-12-15 16:00:57",
+        "key_objects": "a scooter rider from the left",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_006",
+        "video_id": "010_小伙突然鬼探头-1min",
+        "start_timestamp": "50.00s",
+        "end_timestamp": "60.00s",
+        "timestamp": "2024-12-15 16:01:20",
+        "key_objects": "an old woman from the right",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

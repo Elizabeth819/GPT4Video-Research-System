@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_3_005",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A woman in light-colored clothing.",
+    "summary": "The vehicle is driving on a city street. At timestamp 7.0s, a woman in light-colored clothing begins to cross the street from the right side at a crosswalk. The woman continues crossing the street, and by 9.0s, she is in the middle of the crosswalk.",
+    "actions": "The vehicle is driving at a moderate speed on a city street. The driver maintains speed until a woman begins crossing the street at a crosswalk. The driver will likely need to decelerate to allow the woman to cross safely.",
+    "key_objects": "1) Right side: A woman in light-colored clothing, approximately 10 meters away, crossing the street at a crosswalk.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_3_005",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "11.5s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A person wearing light-colored clothing is crossing the road at a crosswalk. A bus is approaching from the left.",
+    "summary": "The vehicle is approaching a crosswalk where a person in light-colored clothing is crossing. A bus is approaching from the left side of the road. The person crossing the road is a potential hazard.",
+    "actions": "The vehicle is maintaining its speed as it approaches the crosswalk. The driver needs to be prepared to brake if the person crossing the road does not clear the crosswalk in time or if the bus on the left approaches too quickly.",
+    "key_objects": "1) Front: A person wearing light-colored clothing, approximately 5 meters away, crossing the road at the crosswalk. 2) Left side: A bus, approximately 10 meters away, approaching the intersection.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

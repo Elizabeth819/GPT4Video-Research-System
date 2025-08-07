@@ -1,0 +1,27 @@
+{
+  "video_id": "images_1_002",
+  "segment_id": "segment_000",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "driver observing traffic conditions",
+  "summary": "High-confidence ghost probing detected in images_1_002. Sudden object appearance from blind spot creating immediate collision risk.",
+  "actions": "Emergency braking and avoidance maneuver required",
+  "key_objects": "1) Front: Sudden pedestrian/cyclist appearance, <3m distance, immediate collision risk 2) Left/Right: Potential obstacles blocking visibility",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  },
+  "drivemm_analysis": {
+    "model": "DriveMM_Fair_Comparison",
+    "prompt_version": "Balanced_GPT41_Compatible",
+    "detection_confidence": "high",
+    "analysis_method": "Standardized_Heuristic_Following_GPT4o_Gemini_Standards",
+    "frame_complexity": 125.4145140942555,
+    "frames_analyzed": 10,
+    "duration_seconds": 15.0
+  }
+}

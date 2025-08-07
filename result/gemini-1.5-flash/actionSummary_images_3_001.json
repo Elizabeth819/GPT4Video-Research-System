@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_3_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road. Various vehicles and individuals on motorcycles are present. The road is relatively clear, with some vehicles parked on the sides and others moving ahead.",
+        "actions": "The self-driving vehicle maintains a consistent speed, navigating through the urban road. It keeps a safe distance from the vehicles ahead and avoids sudden movements.",
+        "key_objects": "1) Right side: A person on a motorcycle, approximately 2 meters away, moving forward. 2) Front: A bus, approximately 20 meters away, moving forward. 3) Right side: A person on a motorcycle, approximately 5 meters away, moving forward. 4) Right side: A white car, approximately 3 meters away, parked. 5) Front: A white car, approximately 15 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_3_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "15.1s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road. The road is moderately busy with several vehicles and pedestrians visible. The vehicle maintains a consistent speed and lane position throughout the segment.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The driver is likely focused on navigating through the urban environment, ensuring safety and avoiding any sudden movements.",
+        "key_objects": "1) Front: A white truck, approximately 30 meters away, moving forward. 2) Right: A green bicycle, approximately 10 meters away, moving forward. 3) Front: A red car, approximately 20 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

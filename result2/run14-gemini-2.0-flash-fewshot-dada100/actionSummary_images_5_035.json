@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_035",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several cars, a bus, and a few pedestrians are visible. A person on a scooter is seen crossing the road.",
+  "summary": "The vehicle is driving on a city street with moderate traffic. A large bus is in front of the vehicle, partially obstructing the view. Several pedestrians are on the sidewalks, and a person on a scooter is crossing the road in the distance. The sun is bright, creating glare.",
+  "actions": "The vehicle is maintaining a steady speed, following the flow of traffic. The driver is likely maintaining a safe distance from the bus in front. The vehicle is proceeding straight through the city street.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

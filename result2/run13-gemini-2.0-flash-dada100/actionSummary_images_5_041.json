@@ -1,0 +1,23 @@
+{
+  "video_id": "images_5_041",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.0s",
+      "characters": [
+        "Several vehicles are present on the road, including white, black, and silver sedans, a white van, and a dark SUV. The vehicles are traveling in the same direction as the camera car. The road is divided into multiple lanes with lane markings. There are buildings and trees visible in the background. The weather appears to be overcast or hazy.",
+        "The camera car is approaching an intersection with traffic lights. There are other vehicles in front of and beside the camera car, also approaching the intersection."
+      ],
+      "summary": "The camera car is driving on a multi-lane road with other vehicles. The car is approaching an intersection with traffic lights. There are no immediate ghost probing incidents or cut-in behaviors observed. The traffic appears moderate. The car is moving at a moderate speed.",
+      "actions": "The vehicle is driving straight on a multi-lane road, maintaining a consistent speed. The driver is likely following the flow of traffic and adhering to the lane markings. The vehicle is approaching an intersection, so the driver is likely monitoring the traffic lights and preparing to stop or proceed based on the signal.",
+      "next_action": {
+        "speed_control": "decelerating",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    }
+  ]
+}

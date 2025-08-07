@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_028",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult person, likely a delivery rider, wearing a blue jacket and a cap, riding a red scooter with a blue delivery box attached to the back.",
+  "summary": "The video segment captures a vehicle navigating a multi-lane urban road under moderate to heavy traffic conditions. The vehicle begins at a speed of 45 km/h and progressively decelerates. At approximately 8.0 seconds into the segment, a critical 'ghost probing' incident occurs when a person on a red scooter suddenly emerges from behind a black sedan positioned on the right side of the road. This black sedan acts as a visual obstruction, completely hiding the scooter until it abruptly enters the vehicle's direct path, creating an immediate and dangerous collision risk. The vehicle continues to decelerate after this near-miss, indicating a cautious and responsive driving behavior in light of the unexpected obstruction and dynamic traffic environment. The scene is set in an urban area, featuring buildings, trees, and an overhead pedestrian bridge.",
+  "actions": "The vehicle initiates the segment at 45 km/h and consistently decelerates, reaching 32 km/h by 7.0 seconds. This deceleration is a proactive measure taken by the driver to adapt to the prevailing traffic conditions, which appear to be moderate to heavy, and to maintain a safe following distance from the vehicles ahead. The driver's speed reduction also anticipates potential hazards in an urban environment, such as pedestrian crossings or intersections, even before the 'ghost probing' incident. Following the sudden appearance of the scooter at 8.0 seconds, the vehicle briefly accelerates to 34-35 km/h (by 10.0 seconds), possibly as the immediate threat passes and the driver attempts to resume flow, but then resumes deceleration, dropping to 24 km/h by 11.9 seconds. This continued deceleration indicates the driver's sustained caution and responsiveness to the dynamic road conditions, including the presence of other vehicles (black car, bus, white car) and the overall traffic congestion, likely preparing for further slowing or a stop.",
+  "key_objects": "1) Right side: A black sedan, positioned ahead and to the right of the vehicle, serving as a physical obstruction that completely blocked the view of the scooter until its sudden emergence. 2) Right side: A person on a red scooter, suddenly darting out from behind the black sedan at approximately 8.0 seconds, directly entering the vehicle's path with minimal reaction time.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

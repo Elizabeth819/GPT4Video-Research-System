@@ -1,0 +1,49 @@
+{
+  "video_id": "images_5_016",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.8s",
+  "summary": "The self-driving car is approaching an intersection in a residential area with buildings on both sides of the road. From 0.0s to 2.0s, two individuals are standing near a parked car on the left side of the road. At 3.0s, a person on a white scooter emerges from the right side of the road, initiating a right turn onto the road the self-driving car is on. From 3.0s to 13.8s, the person on the scooter is driving in front of the self-driving car. The person on the scooter is wearing a black jacket, a white helmet, and is riding a white scooter with a red seat. The scooter is equipped with a metal frame on the back, possibly for carrying goods. The scooter is moving at a moderate speed.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "black jacket",
+      "colors": [
+        "black"
+      ],
+      "age": "adult",
+      "transportation_method": "scooter",
+      "way_of_walking": "N/A"
+    },
+    {
+      "gender": "female",
+      "clothing": "grey dress",
+      "colors": [
+        "grey"
+      ],
+      "age": "adult",
+      "transportation_method": "standing",
+      "way_of_walking": "N/A"
+    },
+    {
+      "gender": "male",
+      "clothing": "black jacket",
+      "colors": [
+        "black"
+      ],
+      "age": "adult",
+      "transportation_method": "standing",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_actions": "ghost probing",
+  "key_objects": [
+    "Right side: A person on a white scooter, approximately 10 meters away, suddenly appears from the right side of the road, turning onto the road the self-driving car is on, causing a potential need for deceleration."
+  ],
+  "actions": "The self-driving car is approaching an intersection. The car is likely proceeding cautiously due to the presence of parked cars and pedestrians near the intersection. The car is maintaining a steady speed, possibly assessing the situation before deciding to accelerate or decelerate. The car is driving in the right lane.",
+  "next_action": {
+    "speed_control": "decelerating",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  }
+}

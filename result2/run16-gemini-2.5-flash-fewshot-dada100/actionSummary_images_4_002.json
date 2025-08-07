@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) A male cyclist, approximately 30-40 years old, wearing a light-colored shirt, riding a bicycle. 2) A female cyclist, approximately 20-30 years old, wearing a white long-sleeved shirt, riding a bicycle.",
+  "summary": "In this segment, the vehicle is driving on a rural road characterized by trees and scattered buildings on both sides. Initially, a light blue van is observed ahead, which then turns off to the right side of the road. Subsequently, a male cyclist is seen crossing the road from the left side. As the vehicle continues its path, a large green bus approaches from the opposite direction and passes the vehicle on its left side. Immediately after the bus clears the view, a female cyclist suddenly emerges from directly behind the green bus on the left side, darting into the vehicle's immediate path. This sudden appearance, previously completely obscured by the bus, constitutes a clear 'vehicle ghost probing' incident, creating an immediate and dangerous collision risk.",
+  "actions": "The self-driving vehicle maintains a consistent speed and direction as it navigates the rural road. It continues to drive straight as a light blue van ahead turns off to the right. When a male cyclist crosses the road from the left side, the vehicle maintains its speed, as the cyclist is visible and crosses without creating an immediate hazard. The vehicle continues to maintain its speed as a large green bus approaches and passes from the opposite direction on the left. However, immediately after the bus passes, a female cyclist suddenly appears from behind the bus on the left side, entering the vehicle's path. In response to this sudden and unexpected emergence, the vehicle would need to initiate rapid deceleration and potentially a slight steering adjustment to the right to avoid a collision, as the cyclist's sudden appearance from behind the moving obstruction leaves minimal reaction time.",
+  "key_objects": "1) Left side: A large green bus, approximately 5-10 meters away, approaching from the opposite direction. This bus acts as a significant moving physical obstruction, completely hiding the second cyclist until it passes the self-driving vehicle. 2) Left side: A female cyclist, approximately 20-30 years old, wearing a white long-sleeved shirt, suddenly emerging from directly behind the green bus at approximately 7.1 seconds. This cyclist darts into the vehicle's path with extremely minimal reaction time, creating an immediate danger.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

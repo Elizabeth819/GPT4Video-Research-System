@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "dada_40_094",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a white van, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white sedan is seen ahead, followed by a white van and a motorcyclist. The white sedan suddenly accelerates and crashes into a pole, causing a dramatic scene.",
+        "actions": "The self-driving vehicle maintains a consistent speed while observing the traffic ahead. The white sedan ahead suddenly accelerates and crashes into a pole, causing the self-driving vehicle to prepare for emergency braking.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, suddenly accelerates and crashes into a pole. 2) Left side: A white van, approximately 5 meters away, moving steadily. 3) Right side: A motorcyclist, approximately 3 meters away, moving slowly.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_094",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white van, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a narrow urban road. A white van is ahead, moving slowly. On the right side, a motorcyclist is stationary near a shop entrance. The motorcyclist appears to be preparing to move.",
+        "actions": "The self-driving vehicle is maintaining a slow speed due to the narrow road and the presence of the white van ahead. The vehicle is keeping a safe distance from the van and monitoring the motorcyclist on the right side.",
+        "key_objects": "1) Front: A white van, approximately 5 meters away, moving slowly. 2) Right: A motorcyclist, approximately 3 meters away, stationary but potentially about to move.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_094",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white van, driver of a black car, driver of a silver minivan",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a white van is moving slowly, and a black car is parked on the left side of the road. A silver minivan is parked on the right side of the road. The road is narrow, and the vehicle is navigating through the traffic.",
+        "actions": "The self-driving vehicle is maintaining a slow and steady speed to navigate through the narrow urban road with parked vehicles on both sides. The vehicle is keeping a safe distance from the white van ahead and is cautious of the parked vehicles on both sides.",
+        "key_objects": "1) Front: A white van, approximately 5 meters away, moving slowly. 2) Left side: A black car, approximately 3 meters away, parked. 3) Right side: A silver minivan, approximately 4 meters away, parked.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_094",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "18.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a narrow urban road. Ahead, a white sedan is parked on the roadside. A motorcyclist suddenly appears from the right side, moving into the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating the narrow road. The sudden appearance of the motorcyclist from the right side may require the vehicle to decelerate or stop to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, parked on the roadside. 2) Right: A motorcyclist, approximately 2 meters away, suddenly moving into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_094",
+        "segment_id": "segment_004",
+        "Start_Timestamp": "20.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "21.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a narrow urban road. A black sedan is parked on the right side of the road. A motorcyclist appears from the left side and moves towards the center of the road. The motorcyclists sudden appearance and movement towards the center of the road could potentially lead to a collision.",
+        "actions": "The self-driving vehicle is maintaining a slow and steady speed due to the narrow road and the presence of parked vehicles on both sides. The vehicle is also keeping a safe distance from the motorcyclist who is moving towards the center of the road.",
+        "key_objects": "1) Left side: A motorcyclist, approximately 5 meters away, moving towards the center of the road, potentially causing a collision. 2) Right side: A black sedan, approximately 2 meters away, parked and partially blocking the view.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

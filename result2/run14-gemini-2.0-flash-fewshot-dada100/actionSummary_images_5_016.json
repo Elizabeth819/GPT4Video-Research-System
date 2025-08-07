@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_016",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A man in dark clothing and a helmet riding a tricycle.",
+  "summary": "The vehicle is approaching an intersection. A man wearing dark clothing and a helmet is riding a tricycle from the right side of the road, emerging from behind a building. The tricycle is moving into the vehicle's path, creating a potential ghost probing situation.",
+  "actions": "The vehicle is approaching the intersection at a steady speed. The driver is likely assessing the situation and preparing to make a turn or continue straight. The driver may need to decelerate or stop to avoid a collision with the tricycle.",
+  "key_objects": "1) Right side: A man on a tricycle, approximately 5 meters away, emerging from behind a building and moving into the vehicle's path. 2) Right side: A building, approximately 10 meters away, creating a visual obstruction that hides the tricycle until it emerges into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

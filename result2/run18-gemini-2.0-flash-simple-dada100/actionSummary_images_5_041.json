@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_041",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows multiple cars on a city street. The driver's car is in the foreground. Other cars are visible in the distance. There are buildings and trees lining the street.",
+  "summary": "The vehicle starts driving on a multi-lane road with other vehicles present. The vehicle approaches an intersection with a traffic light. The vehicle slows down and prepares to make a left turn at the intersection.",
+  "actions": "The vehicle is initially driving straight at a moderate speed. As it approaches the intersection, the driver begins to decelerate. The driver then prepares to make a left turn at the intersection, following the lane markings on the road.",
+  "key_objects": "1) Left: Cars parked along the left side of the road, potential obstruction, medium distance, could obscure pedestrians or other vehicles. 2) Front: Traffic light at the intersection, regulatory, far distance, dictates when the vehicle can proceed.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "turn left",
+    "lane_control": "maintain current lane"
+  }
+}

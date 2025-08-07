@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_013",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "In frames 4-5, there are three pedestrians on the right side of the road: a woman in a red top and dark pants, a young child in a pink/red dress, and another woman in a light-colored top and dark pants. In frames 9-10, a male pedestrian wearing a blue top and dark pants, carrying a green bag, suddenly emerges from behind a bus on the left side of the road.",
+  "summary": "The video segment begins with the autonomous vehicle driving on a rural, two-lane road with a slight curve to the right. The road is surrounded by trees and hills. Initially, the road appears clear. Around 3.0s-4.0s, three pedestrians (two women and a child) are observed walking on the right side of the road, moving away from the camera. As the vehicle continues, a large green bus approaches from the opposite direction, appearing on the left side of the road. At approximately 8.0s-9.0s, as the green bus is passing the autonomous vehicle, a male pedestrian suddenly emerges from behind the bus on the left side of the road, darting directly into the vehicle's path. This sudden appearance from behind the moving bus, which acted as a visual obstruction, creates an immediate and dangerous 'ghost probing' situation, requiring rapid evasive action from the vehicle.",
+  "actions": "The vehicle is initially driving straight on a rural road, maintaining a steady speed. As it approaches and passes pedestrians walking on the right side of the road, the vehicle maintains its current lane and speed, as the pedestrians are not in its direct path. Upon the approach of a large green bus from the opposite direction, the vehicle continues to maintain its lane, preparing for a safe pass. However, at approximately 8.0s-9.0s, a male pedestrian unexpectedly emerges from behind the passing bus on the left side of the road, running directly into the vehicle's path. In response to this sudden and critical 'ghost probing' event, the vehicle immediately initiates rapid deceleration and likely makes a slight steering adjustment to the right to avoid a collision with the pedestrian, demonstrating a swift and necessary evasive maneuver.",
+  "key_objects": "1) Left side: A large green bus, moving towards the camera and then passing on the left. This bus acts as a significant moving physical obstruction, blocking the view of the road behind it. 2) Left side: A male pedestrian, suddenly emerging from behind the green bus at approximately 8.0s-9.0s, running from the left side of the road directly into the vehicle's path, creating an immediate collision risk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

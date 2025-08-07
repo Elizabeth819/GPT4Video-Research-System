@@ -1,0 +1,41 @@
+{
+  "video_id": "images_3_002",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.3s",
+  "summary": "The self-driving car is moving forward on a road with white and red barriers on both sides. At the 0.0s timestamp, a blue truck is directly in front of the car. From 0.8s to 7.3s, a cyclist wearing a red shirt and black pants is on the left side of the road, riding slowly. At 4.0s, a man wearing a black shirt and black pants is walking from the left side of the road towards the center. At 6.5s, a man wearing a blue shirt is walking from the left side of the road towards the center. These actions could potentially lead to collisions if the car does not slow down or change direction.",
+  "actions": "The vehicle is currently driving straight on a road marked by white and red barriers. The driver is maintaining a steady speed, likely navigating through the designated path between the barriers. The presence of a truck directly ahead suggests the driver is following the flow of traffic and maintaining a safe distance. The driver is likely proceeding cautiously due to the presence of pedestrians and cyclists on the left side of the road.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none",
+  "key_objects": [],
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "red shirt, black pants",
+      "age": "adult",
+      "transportation_method": "bicycle",
+      "way_of_walking": "riding slowly",
+      "location": "left side of the road"
+    },
+    {
+      "gender": "male",
+      "clothing": "black shirt, black pants",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "walking",
+      "location": "left side of the road towards the center"
+    },
+    {
+      "gender": "male",
+      "clothing": "blue shirt",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "walking",
+      "location": "left side of the road towards the center"
+    }
+  ]
+}

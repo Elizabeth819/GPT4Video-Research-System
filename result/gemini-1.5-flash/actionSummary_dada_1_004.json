@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_1_004",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017-03-02 13:11:54",
+    "End_Timestamp": "2017-03-02 13:12:03",
+    "summary": "The vehicle is driving on a road with buildings on the right side. A pedestrian is seen crossing the road in front of the vehicle. There are also some motorcycles on the road.",
+    "actions": "The vehicle is maintaining its speed and direction. The driver should be aware of the pedestrian crossing the road.",
+    "key_objects": [
+      "pedestrian",
+      "motorcycles",
+      "buildings"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "stay straight",
+      "lane_control": "keep lane"
+    }
+  }
+]

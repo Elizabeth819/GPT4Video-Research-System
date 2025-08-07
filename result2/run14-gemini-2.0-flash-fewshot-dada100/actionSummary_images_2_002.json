@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_002",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several adults are standing on the left side of the road, near a building under construction. One adult male is bending over in the road.",
+  "summary": "The vehicle is driving on a narrow road in a rural area. Several adults are standing on the left side of the road, near a building under construction. One adult male is bending over in the road, potentially working. The road is clear ahead, and there are no immediate obstacles.",
+  "actions": "The vehicle is maintaining a steady speed on the narrow road. The driver is likely proceeding cautiously due to the presence of people near the road and the construction activity. The vehicle is staying in the center of the lane to avoid getting too close to the people on the left.",
+  "key_objects": "1) Left side: An adult male, approximately 5 meters away, bending over in the road, potentially obstructing the vehicle's path.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

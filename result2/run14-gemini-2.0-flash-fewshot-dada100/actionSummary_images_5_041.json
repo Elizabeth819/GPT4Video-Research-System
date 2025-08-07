@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_041",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several cars are visible on the road. No pedestrians or cyclists are visible in the immediate vicinity.",
+  "summary": "The vehicle is driving on a multi-lane road in an urban environment. There are several other vehicles on the road, moving in the same direction. The road appears to be wet, possibly due to recent rain. The vehicle approaches an intersection with a traffic light. The traffic light turns red, and the vehicle slows down and stops at the intersection.",
+  "actions": "The vehicle starts from a stationary position and accelerates to match the speed of the traffic flow. The vehicle maintains its lane and adjusts its speed based on the distance to the vehicle in front. As the vehicle approaches the intersection and the traffic light turns red, the driver decelerates and comes to a complete stop before the intersection.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,95 @@
+[
+    {
+        "video_id": "dada_14_012",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A person riding a motorcycle",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Approaching the vehicle at a moderate speed, maintaining a safe distance."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Motorcycle",
+                "behavior": "Riding a motorcycle at a moderate speed, maintaining a safe distance from the vehicle."
+            }
+        ],
+        "summary": "The video shows a car driving on a bridge.  The road is relatively clear with a person on a motorcycle ahead of the vehicle. The motorcycle rider is maintaining a safe distance and is not exhibiting any erratic behavior. The weather appears to be clear and sunny. There are no other vehicles or pedestrians immediately near the vehicle that pose an immediate threat.",
+        "actions": "The vehicle maintains a consistent speed, likely adjusting to the speed of the motorcycle ahead.  The driver is maintaining a safe following distance. There are no apparent obstacles or reasons for braking or acceleration.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep lane"
+        }
+    },
+    {
+        "video_id": "dada_14_012",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "Motorcyclist in dark clothing",
+                "distance": "10-15 meters",
+                "behavior or action impacting the vehicle": "Approaching the vehicle at a moderate speed, maintaining a consistent distance."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark colored jacket and pants",
+                "transportation_method": "Motorcycle",
+                "behavior": "Driving a motorcycle in the center lane, maintaining a safe distance from the vehicle."
+            }
+        ],
+        "summary": "The video shows a segment of a road on a bridge. The self-driving vehicle is traveling in the center lane. A motorcyclist in dark clothing is visible in the center lane, approaching the vehicle at a moderate speed. The motorcyclist maintains a consistent distance from the vehicle throughout the observed period. No sudden movements or dangerous behaviors are observed from the motorcyclist or other vehicles. The road conditions appear clear and dry, with no significant traffic congestion.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the observed period. There are no observable changes in speed or direction. The vehicle's actions suggest a smooth and controlled driving style, adapting to the traffic flow on the bridge.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep center lane"
+        }
+    },
+    {
+        "video_id": "dada_14_012",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.7s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A person on a motorcycle",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching the vehicle from behind at a moderate speed, then slowing down and stopping."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark colored jacket and pants",
+                "transportation_method": "Motorcycle",
+                "behavior": "Riding a motorcycle, approaching the vehicle from behind, then slowing down and stopping."
+            }
+        ],
+        "summary": "The video shows a car driving on a bridge. A person on a motorcycle is visible in the center of the frame, approaching the vehicle from behind. The motorcycle slows down and stops before reaching the car. The road is relatively clear, and there are no other significant events or potential hazards observed during this segment.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the segment. There are no observable changes in speed or direction, suggesting the driver is maintaining a steady pace and following the road's curvature.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep lane"
+        }
+    }
+]

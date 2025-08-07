@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several pedestrians, including children and adults, are visible in the images. The pedestrians are moving from the left to the right side of the road, and some are crossing the road.",
+  "summary": "The video sequence shows multiple instances of pedestrians, including children, suddenly emerging from behind parked vehicles and other obstructions on both the left and right sides of the road. These pedestrians enter the driving lane with minimal reaction time, creating immediate collision risks.",
+  "actions": "Pedestrians are crossing the road from both sides, emerging from behind parked vehicles and other obstructions.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians crossing the road, and other moving vehicles.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

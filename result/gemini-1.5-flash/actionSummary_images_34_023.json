@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_023",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a yellow car, driver of a white car, driver of a blue car",
+        "summary": "In this segment, the vehicle is driving on a city road at night. The yellow car on the left side of the frame is moving ahead and gradually cutting into the lane of the self-driving vehicle. The white car on the right side is maintaining its position, while the blue car ahead is moving forward steadily.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the yellow car cutting into its lane from the left side. The vehicle is preparing to decelerate to avoid a potential collision.",
+        "key_objects": "1) Left side: A yellow car, approximately 2 meters away, cutting into the self-driving vehicles lane. 2) Right side: A white car, approximately 3 meters away, maintaining its position. 3) Front: A blue car, approximately 10 meters away, moving forward steadily.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

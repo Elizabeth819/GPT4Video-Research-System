@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_020",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male on a motorcycle wearing a white and black jacket, and a white helmet. There is also a truck parked on the right side of the road.",
+  "summary": "The vehicle is driving on a dark road at night. From 0.0s to 6.0s, the road appears clear with another vehicle approaching in the opposite direction. At 6.0s, a motorcycle with a male rider wearing a white and black jacket and a white helmet suddenly appears from behind a parked truck on the right side of the road. The motorcycle is moving into the vehicle's lane, creating a potential collision situation. The motorcycle's sudden appearance from behind the truck constitutes a ghost probing scenario.",
+  "actions": "The vehicle is driving at a consistent speed on a straight road. The driver is maintaining the current lane. The speed is likely moderate, given the road conditions and the presence of other vehicles. The driver is proceeding cautiously due to the limited visibility at night. The vehicle maintains its speed until the motorcycle appears, at which point the driver would need to react.",
+  "key_objects": "1) Right side: A male on a motorcycle wearing a white and black jacket and a white helmet, approximately 5 meters away, suddenly emerging from behind a parked truck and moving into the vehicle's lane. 2) Right side: A parked truck, approximately 7 meters away, creating a visual obstruction that hides the motorcycle until it emerges.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

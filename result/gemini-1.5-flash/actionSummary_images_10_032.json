@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_032",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, cyclist",
+        "summary": "In this segment, the vehicle is driving on a city street. A black sedan is parked on the left side of the road. A cyclist wearing a yellow jacket is seen on the right side of the road, moving forward. The cyclist appears to be approaching the parked black sedan.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while driving on the city street. The vehicle is keeping a safe distance from the parked black sedan on the left and the cyclist on the right.",
+        "key_objects": "1) Left side: A black sedan, approximately 2 meters away, parked and partially blocking the view. 2) Right side: A cyclist wearing a yellow jacket, approximately 3 meters away, moving forward and approaching the parked black sedan.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_032",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "11.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, cyclist on a yellow bike",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A black sedan is parked on the roadside, and a cyclist on a yellow bike is moving towards the vehicle from the right side. The cyclist appears to be accelerating and may pose a risk of sudden movement into the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while monitoring the cyclists movement. The vehicle is likely preparing to decelerate or stop if the cyclist moves into its path.",
+        "key_objects": "1) Right side: A cyclist on a yellow bike, approximately 2 meters away, accelerating towards the vehicles path. 2) Front: A black sedan, approximately 5 meters away, parked on the roadside, potentially obstructing the view.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car on a city street. There are other cars on the road, and pedestrians are visible on the sidewalks and crossing the street. The pedestrians appear to be adults of varying ages and are dressed in casual clothing. A bus is stopped on the left side of the road.",
+  "summary": "The vehicle is driving on a city street with moderate traffic. The weather appears to be overcast. The vehicle approaches an intersection where a pedestrian is crossing the street. The driver slows down to allow the pedestrian to cross safely.",
+  "actions": "The vehicle maintains a steady speed initially. As it approaches the intersection, the driver observes a pedestrian beginning to cross the street. The driver then decelerates to yield to the pedestrian, ensuring their safety before proceeding through the intersection.",
+  "key_objects": "1) Left: A bus is stopped at the intersection, potentially obstructing the view of pedestrians. Distance: Medium. Behavior impact: Could obscure pedestrians.\n2) Center: A pedestrian is crossing the street at the intersection. Distance: Medium. Behavior impact: Requires the driver to yield.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

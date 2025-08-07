@@ -1,0 +1,720 @@
+{
+  "experiment_summary": {
+    "timestamp": "20250725_213943",
+    "total_videos_attempted": 98,
+    "successfully_processed": 24,
+    "failed_due_to_api_limits": 74,
+    "model": "Gemini-1.5-flash",
+    "prompt_version": "balanced_gpt41_style",
+    "api_limitation": "Exceeded quota after 24 videos in both API keys",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/gemini-1.5-flash-run1"
+  },
+  "performance_metrics": {
+    "precision": 0.6,
+    "recall": 0.2,
+    "f1_score": 0.3,
+    "accuracy": 0.4166666666666667,
+    "stats": {
+      "TP": 3,
+      "FP": 2,
+      "TN": 7,
+      "FN": 12,
+      "ERROR": 74
+    },
+    "total_processed": 24,
+    "success_rate": 0.24489795918367346
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_001.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"A person is walking along the roadside. There are other people visible in the background.\",\n  \"summary\": \"The video shows a vehicle driving down a residential road.  A person is walking alongside the road in the same direction as the vehicle.  A car is ahead of the recording vehicle; the distance between the two vehicles remains relatively constant. The environment appears to be a quiet residential street.\",\n  \"actions\": \"The vehicle maintains a steady speed and direction. The driver monitors the pedestrian and the vehicle ahead.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead of the vehicle\",\n      \"object_description\": \"Another car\",\n      \"distance\": \"Maintaining consistent distance\",\n      \"behavior_impact\": \"No immediate impact.  The distance is safe.\"\n    },\n    {\n      \"Position\": \"Right side of the road\",\n      \"object_description\": \"Person walking\",\n      \"distance\": \"Significant distance, no immediate threat\",\n      \"behavior_impact\": \"No immediate impact; pedestrian is maintaining a safe distance from the road.\"\n    }\n  ],\n  \"key_actions\": \"Maintaining safe following distance; monitoring pedestrian.\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "maintaining safe following distance; monitoring pedestrian.",
+      "evaluation": "TN"
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_002.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several pedestrians are visible walking along the roadside and a couple crossing the road.\",\n  \"summary\": \"The video shows a car driving down a relatively quiet road in a residential area. There are pedestrians walking on the side of the road and a couple crossing the road ahead.  The car maintains a consistent speed and avoids any collisions.  The road appears to be in a rural or suburban setting.\",\n  \"actions\": \"The driver maintains a steady speed and observes pedestrians. The driver slows down slightly as pedestrians cross the road.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Front: Couple crossing the road\",\n      \"distance\": \"Initially approximately 20 meters, decreasing to 5 meters\",\n      \"behavior_impact\": \"Driver reduces speed to allow pedestrians to safely cross.\"\n    },\n    {\n      \"Position\": \"Side of Road: Pedestrians walking\",\n      \"distance\": \"Maintaining a safe distance; no impact on driving behavior\",\n      \"behavior_impact\": \"Pedestrians remain on the side of the road.\"\n    },\n    {\n      \"Position\": \"Distant: Car in the opposite direction\",\n      \"distance\": \"Greater than 100 meters; No impact on driving behavior\",\n      \"behavior_impact\": \"No interaction, maintained significant distance\"\n    }\n  ],\n  \"key_actions\": \"Driver reduces speed for pedestrian crossing.\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "driver reduces speed for pedestrian crossing.",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_003.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"A woman and a child are seen on the road.  There are also other pedestrians and vehicles present in the background.\",\n  \"summary\": \"The video shows a car driving at night on a city street.  Around the 7-second mark, a woman and a child suddenly appear in the road, causing a near-miss accident. The driver of the recording vehicle appears to react and brake but comes very close to hitting the woman and child. The woman and child were in the road for a very short time before the car comes very close to them.\",\n  \"actions\": \"The observer vehicle maintains a relatively constant speed before initiating a rapid deceleration to avoid hitting a woman and child who suddenly appear in the road.  The driver of the observer vehicle shows a quick reaction time to the sudden appearance of the woman and the child.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Center, approximately 20 meters initially\",\n      \"object_description\": \"Car ahead\",\n      \"distance\": \"20 meters (decreasing)\",\n      \"behavior_impact\": \"No immediate threat\"\n    },\n    {\n      \"Position\": \"Center, abruptly appearing within 5 meters\",\n      \"object_description\": \"Woman and Child\",\n      \"distance\": \"5-2 meters\",\n      \"behavior_impact\": \"Emergency braking required to avoid collision. High-risk situation.\"\n    }\n  ],\n  \"key_actions\": \"Emergency braking to avoid collision with a woman and a child who appeared suddenly in the road; potential ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "emergency braking to avoid collision with a woman and a child who appeared suddenly in the road; potential ghost probing",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_004.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several people are visible walking along the roadside and riding motorbikes.  No identifiable individuals.\",\n  \"summary\": \"The video shows a 10-second segment of a car driving down a two-lane road outside of a city. There are buildings and sparse trees along the roadside.  Several pedestrians and motorcyclists are visible on the road and roadside. The car maintains a consistent speed and position in its lane throughout the sequence.\",\n  \"actions\": \"The vehicle maintains a steady speed and stays in its lane. The driver appears to be observant of their surroundings.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead, approximately 50 meters\",\n      \"object_description\": \"White truck/van\",\n      \"distance\": \"50m\",\n      \"behavior_impact\": \"The truck's presence is noted but does not require any immediate action.  It is a considerable distance away.\"\n    },\n    {\n      \"Position\": \"Roadside, various distances\",\n      \"object_description\": \"Pedestrians and motorcyclists\",\n      \"distance\": \"Variable, some closer some further\",\n      \"behavior_impact\": \"The presence of pedestrians and motorcyclists demands vigilance.  Maintaining a safe speed and distance is important, but they are not posing an immediate threat.\"\n    }\n  ],\n  \"key_actions\": \"Maintaining safe following distance, observing pedestrians and motorcyclists\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "maintaining safe following distance, observing pedestrians and motorcyclists",
+      "evaluation": "TN"
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_005.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several pedestrians with umbrellas are walking on the sidewalk and crossing the street. There are also some people standing near the sidewalk.\",\n  \"summary\": \"The video shows a rainy day scene on a city street. The observer vehicle is following a red car. Pedestrians are walking on the sidewalk and crossing the street. The traffic is relatively slow-moving. The road is wet from the rain. The cars are moving slowly in wet conditions. Several pedestrians cross the street, some directly in front of the red car.\",\n  \"actions\": \"The observer vehicle maintains a safe following distance from the red car ahead. The driver observes the pedestrians crossing the street.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead, approximately 10-15 meters\",\n      \"object_description\": \"Red car\",\n      \"distance\": \"10-15 meters\",\n      \"behavior_impact\": \"Maintaining a steady speed, slightly slowing at times.\"\n    },\n    {\n      \"Position\": \"Sidewalk and crossing the street\",\n      \"object_description\": \"Multiple pedestrians\",\n      \"distance\": \"Variable, from several meters to just ahead of the red car\",\n      \"behavior_impact\": \"Pedestrians crossing the street require caution and attention from vehicles.\"\n    }\n  ],\n  \"key_actions\": \"Pedestrians crossing the street, requiring cautious driving. Maintaining safe following distance.\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "pedestrians crossing the street, requiring cautious driving. maintaining safe following distance.",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_006.avi",
+      "ground_truth": "9s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_006.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several drivers and motorcyclists are visible, but no individuals are clearly identifiable.\",\n  \"summary\": \"The video shows a car driving on a city street with moderate traffic.  The traffic is relatively slow-moving. Multiple motorcyclists and cars are present. The car maintains a safe following distance from the vehicle in front.  Near the end of the 10-second segment, a pedestrian briefly appears in the crosswalk, but traffic stops before any interaction occurs.\",\n  \"actions\": \"The observer vehicle maintains a consistent speed and following distance throughout the 10-second segment. The driver shows no sign of sudden braking or acceleration.\",\n  \"key_objects\": \"1) 5 meters ahead:  Car in front, maintaining a consistent speed, no sudden movements. Behavior impact: None. \\n2) 10 meters ahead: Bus, moving slowly, no sudden lane changes. Behavior impact: None.\\n3) 2 meters ahead at 9 seconds: Pedestrian at crosswalk; traffic slows down. Behavior impact: Pedestrian crossing.\",\n  \"key_actions\": \"Pedestrian crossing at the end of the segment; traffic slows accordingly.\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```",
+      "key_actions": "pedestrian crossing at the end of the segment; traffic slows accordingly.",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_007.avi",
+      "ground_truth": "6s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_007.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several pedestrians are visible on the sidewalks, walking along the road. There is also a cyclist.\",\n  \"summary\": \"The video shows a car driving down a tree-lined street in what appears to be an urban area.  The road is relatively quiet with a moderate amount of traffic. There are pedestrians walking on both sides of the street, and some parked cars.  The self-driving vehicle maintains a safe following distance from the car ahead and smoothly navigates the road.\",\n  \"actions\": \"The vehicle maintains a consistent speed, keeping a safe distance from the vehicle in front. It smoothly maneuvers around other vehicles and does not make any sudden lane changes or braking maneuvers. \",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead, approximately 15 meters\",\n      \"object_description\": \"Another car\",\n      \"distance\": \"15 meters\",\n      \"behavior_impact\": \"Maintains a consistent speed and distance. No immediate threat.\"\n    },\n    {\n      \"Position\": \"Right Sidewalk, various distances\",\n      \"object_description\": \"Pedestrians\",\n      \"distance\": \"Variable, > 5 meters\",\n      \"behavior_impact\": \"Walking along the sidewalk; no immediate threat to the vehicle.\"\n    },\n    {\n      \"Position\": \"Right Sidewalk, distance varies\",\n      \"object_description\": \"Cyclist\",\n      \"distance\": \"Variable, >5 meters\",\n      \"behavior_impact\": \"Riding along the sidewalk; no immediate threat to the vehicle.\"\n    }\n  ],\n  \"key_actions\": \"Maintaining safe following distance, smooth navigation of urban street\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "maintaining safe following distance, smooth navigation of urban street",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_008.avi",
+      "ground_truth": "3s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_008.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several pedestrians are visible walking along the roadside.  There are also people near parked vehicles.\",\n  \"summary\": \"The video shows a vehicle driving down a residential street lined with trees and parked vehicles.  The road is relatively narrow.  Several pedestrians are walking along the side of the road, some appear to be crossing at various points. The vehicle maintains a slow and steady speed throughout the segment.\",\n  \"actions\": \"The vehicle maintains a consistent speed, and the driver appears to be attentive to the surroundings.  The driver slows down slightly when pedestrians are near the road.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Center: Approaching pedestrians\",\n      \"distance\": \"Varied, closest at approximately 5 meters\",\n      \"behavior_impact\": \"Driver slightly reduces speed in response to pedestrians. No immediate threat.\"\n    },\n    {\n      \"Position\": \"Left side: Parked vehicles\",\n      \"distance\": \"3-5 meters\",\n      \"behavior_impact\": \"Parked vehicles restrict visibility, but do not directly impact the vehicle's movement.\"\n    },\n    {\n      \"Position\": \"Ahead: No immediate threat\",\n      \"distance\": \"20+ meters\",\n      \"behavior_impact\": \"Road is clear and other vehicles are not an immediate threat\"\n    }\n  ],\n  \"key_actions\": \"Pedestrians crossing the road; driver maintains safe following distance.\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "pedestrians crossing the road; driver maintains safe following distance.",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_009.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_009.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Two pedestrians, possibly a parent and child, are walking across a road at night.\",\n  \"summary\": \"The video shows a car driving at night on a multi-lane road. Two pedestrians, appearing to be a parent and child, suddenly cross the road from the right-hand side in front of the vehicle. The pedestrians are initially quite far from the vehicle but move into a more dangerous proximity during the video segment. The driver is then forced to initiate emergency braking to avoid a collision.\",\n  \"actions\": \"The driver observed the pedestrians crossing.  The driver reacted by initiating emergency braking to avoid a collision. \",\n  \"key_objects\": [\n    {\n      \"Position\": \"Center, initially far, then closer to vehicle\",\n      \"object_description\": \"Two pedestrians (adult and child)\",\n      \"distance\": \"Initially approximately 20 meters, decreasing to approximately 5 meters\",\n      \"behavior_impact\": \"Sudden crossing of the road, created a significant risk of collision. Required immediate emergency braking by the vehicle.\"\n    },\n    {\n      \"Position\": \"Far, maintaining distance\",\n      \"object_description\": \"Vehicles in the opposite lane\",\n      \"distance\": \"Significant distance and not a risk in the ten-second timeframe\",\n      \"behavior_impact\": \"No immediate impact on the observer vehicle.\"\n    }\n  ],\n  \"key_actions\": \"Emergency braking due to pedestrian crossing, potential ghost probing (pedestrians appeared suddenly and unexpectedly in a high-risk situation at night).\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "emergency braking due to pedestrian crossing, potential ghost probing (pedestrians appeared suddenly and unexpectedly in a high-risk situation at night).",
+      "evaluation": "FP"
+    },
+    {
+      "video_id": "images_1_010.avi",
+      "ground_truth": "15s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_010.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"A man on a motorcycle and a pedestrian are visible in the scene.\",\n  \"summary\": \"The video shows a car driving down a relatively empty road.  In the middle of the video, a man on a motorcycle crosses from right to left, seemingly ignoring the oncoming traffic.  Shortly after, a pedestrian suddenly runs across the road in front of the car, forcing the driver to brake to avoid a collision. \",\n  \"actions\": \"The driver maintains a steady speed initially.  Upon seeing the pedestrian, the driver brakes hard to avoid a collision. \",\n  \"key_objects\": \"1) Far: Large truck, approximately 50 meters, maintains distance and lane; 2) Middle: Motorcycle, approximately 15 meters, crosses the road unexpectedly; 3) Near: Pedestrian, approximately 5 meters, suddenly runs across the road; 4) Far: Other vehicles, approximately 100 meters, travelling in the same direction, not impacting behaviour.\",\n  \"key_actions\": \"Emergency braking due to pedestrian crossing, unexpected motorcycle crossing\",\n  \"next_action\": {\n    \"speed_control\": \"deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "emergency braking due to pedestrian crossing, unexpected motorcycle crossing",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_011.avi",
+      "ground_truth": "11s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_011.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several people are visible walking near a gas station on the side of the road.  No individuals are directly interacting with the vehicles.\",\n  \"summary\": \"The video shows a 10-second segment of driving on a two-lane road. The observer vehicle maintains a steady speed, following other vehicles at a safe distance. Other vehicles are driving in a generally predictable manner.  Toward the end of the sequence, pedestrians are visible crossing the road near a gas station.\",\n  \"actions\": \"The observer vehicle maintains a consistent speed and follows the traffic flow. No sudden braking or lane changes occur.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead, approximately 15-20 meters\",\n      \"object_description\": \"Dark-colored SUV\",\n      \"distance\": \"15-20 meters\",\n      \"behavior_impact\": \"Maintaining a safe following distance\"\n    },\n    {\n      \"Position\": \"Ahead, approximately 5-10 meters\",\n      \"object_description\": \"Light-colored sedan\",\n      \"distance\": \"5-10 meters\",\n      \"behavior_impact\": \"Maintaining a safe following distance\"\n    },\n        {\n      \"Position\": \"Right side of the road, 10-15 meters away\",\n      \"object_description\": \"Pedestrians crossing road\",\n      \"distance\": \"10-15 meters\",\n      \"behavior_impact\": \"No immediate threat, but requires attentiveness\"\n    }\n  ],\n  \"key_actions\": \"Maintaining safe following distance, observing pedestrians crossing\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "maintaining safe following distance, observing pedestrians crossing",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_012.avi",
+      "ground_truth": "11s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_012.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several pedestrians are visible on the sidewalk and briefly crossing the street.  No other significant characters.\",\n  \"summary\": \"The video shows a dashcam perspective of a vehicle driving down a city street.  There is parked traffic on both sides of the road.  The self-driving car maintains a consistent speed while following a car in front. Several pedestrians are seen walking on the sidewalk and a group crosses the street. The traffic flow is generally consistent. \",\n  \"actions\": \"The self-vehicle maintains a steady speed and follows the car in front at a safe distance. The driver shows no overt reactions or actions.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Front of the self-vehicle\",\n      \"object_description\": \"Another car\",\n      \"distance\": \"Approximately 10-15 meters\",\n      \"behavior_impact\": \"Maintaining consistent distance, no immediate threat.\"\n    },\n    {\n      \"Position\": \"Sidewalk and street crossing\",\n      \"object_description\": \"Pedestrians\",\n      \"distance\": \"Variable, from 5-20 meters\",\n      \"behavior_impact\": \"Pedestrians crossing the street in a controlled manner.  Self-vehicle slows slightly, keeping distance and safe speed.\"\n    }\n  ],\n  \"key_actions\": \"Pedestrians crossing the street; vehicle maintains a safe following distance.\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "pedestrians crossing the street; vehicle maintains a safe following distance.",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_013.avi",
+      "ground_truth": "8s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_013.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Two individuals walking along the side of the road, possibly children, and a driver in the observer vehicle.\",\n  \"summary\": \"The video shows a car driving on a rural road.  At approximately the 8-second mark, two individuals, appearing to be children, suddenly cross the road from the side. This happens very quickly and unexpectedly.  Prior to this, the vehicle was following a green bus which is driving on a rural road. The road conditions appear uneven, suggesting a relatively low speed.\",\n  \"actions\": \"The observer vehicle maintains its speed until the sudden appearance of the two individuals crossing the road, then the driver begins to brake.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead, approximately 30 meters initially, decreasing rapidly\",\n      \"object_description\": \"Green bus\",\n      \"distance\": \"Decreasing rapidly\",\n      \"behavior_impact\": \"The bus's presence does not initially pose a direct threat but provides context for traffic flow.\"\n    },\n    {\n      \"Position\": \"Crossing the road, approximately 5 meters from the observer vehicle when first noticed\",\n      \"object_description\": \"Two individuals (children)\",\n      \"distance\": \"Decreasing rapidly\",\n      \"behavior_impact\": \"Sudden appearance and rapid movement cause a high-risk situation, resulting in emergency braking.\"\n    }\n  ],\n  \"key_actions\": \"Emergency braking due to pedestrian crossing, potential ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "emergency braking due to pedestrian crossing, potential ghost probing",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_014.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_014.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several people are visible on the sidewalks and near buildings.  A child briefly runs into the street.\",\n  \"summary\": \"The video shows a car driving down a narrow, two-lane road in a rural or village setting.  There are buildings and people on both sides of the road.  The car maintains a slow and steady pace.  A child runs into the road unexpectedly, forcing the car to slow further.  A tricycle and several motorbikes are parked along the street.  Overall, traffic moves slowly and predictably.\",\n  \"actions\": \"The driver maintains a slow and steady speed, paying attention to the surroundings. The driver slows further and shows caution when a child runs out in the road.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead, approximately 20 meters\",\n      \"object_description\": \"A car driving at a similar speed\",\n      \"behavior_impact\": \"No immediate threat, maintaining a safe following distance\"\n    },\n    {\n      \"Position\": \"Right side of road, 2-3 meters away\",\n      \"object_description\": \"Child running into the street.\",\n      \"behavior_impact\": \"Sudden appearance necessitates immediate deceleration to avoid collision.\"\n    },\n    {\n      \"Position\": \"Various positions along roadside\",\n      \"object_description\": \"Pedestrians and parked motorcycles and a tricycle.\",\n      \"behavior_impact\": \"No immediate danger, but contributes to overall need for caution.\"\n    }\n  ],\n  \"key_actions\": \"Emergency braking due to child running into the street.\",\n  \"next_action\": {\n    \"speed_control\": \"deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "emergency braking due to child running into the street.",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_015.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_015.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Several pedestrians, cyclists, and drivers are visible.  A child appears unexpectedly near the road.\",\n  \"summary\": \"The video shows a car driving down a street with moderate traffic. There are parked cars along the sides of the road. As the car approaches an intersection, a child runs out from behind a parked truck into the street. The child's unexpected appearance and close proximity to the vehicle constitutes a dangerous situation that demands immediate action by the driver.\",\n  \"actions\": \"The driver of the vehicle maintains speed for several seconds, and then brakes hard and steers slightly to the right, narrowly avoiding a collision with the child. \",\n  \"key_objects\": [\n    {\n      \"Position\": \"Front, initially at a distance; then very close\",\n      \"object_description\": \"Child pedestrian\",\n      \"distance\": \"Initially ~15 meters; then < 2 meters (approximately 1-2 vehicle lengths)\",\n      \"behavior_impact\": \"High risk, sudden appearance from a blind spot, necessitates emergency braking and slight steering adjustment\"\n    },\n    {\n      \"Position\": \"Ahead and to the right\",\n      \"object_description\": \"Parked truck\",\n      \"distance\": \"8-10 meters\",\n      \"behavior_impact\": \"Obstructs the view, potentially contributing to late detection of the child\"\n    },\n    {\n      \"Position\": \"Various positions, moderate distances\",\n      \"object_description\": \"Pedestrians and cyclists\",\n      \"distance\": \"10-20 meters\",\n      \"behavior_impact\": \"Present in the environment, but not directly involved in the near-miss incident\"\n    }\n  ],\n  \"key_actions\": \"High-confidence ghost probing (child); emergency braking; slight steering adjustment to the right\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```",
+      "key_actions": "high-confidence ghost probing (child); emergency braking; slight steering adjustment to the right",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_016.avi",
+      "ground_truth": "4s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_016.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"A pedestrian in red clothing is the main character.  There are other drivers and possibly passengers in other vehicles visible in the background, but they are not central to the action.\",\n  \"summary\": \"The video shows a car driving on a multi-lane road.  Around the 4 second mark, a pedestrian suddenly appears from the side of the road and crosses in front of the vehicle. The pedestrian crosses the lanes without regard to oncoming traffic.  The driver is forced to brake quickly to avoid a collision.\",\n  \"actions\": \"The observer vehicle maintains its lane until a pedestrian unexpectedly crosses the road. The driver then brakes rapidly to avoid hitting the pedestrian.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Front of vehicle, approximately 20-30 meters initially\",\n      \"object_description\": \"Brown sedan\",\n      \"distance\": \"Decreasing\",\n      \"behavior_impact\": \"The distance to the brown sedan decreases steadily while maintaining a safe following distance.\"\n    },\n    {\n      \"Position\": \"Approaching from the right side of the road, crosses in front of the vehicle.\",\n      \"object_description\": \"Pedestrian in red clothing\",\n      \"distance\": \"Decreasing rapidly\",\n      \"behavior_impact\": \"Pedestrian appears suddenly, creating an emergency braking situation.\"\n    }\n  ],\n  \"key_actions\": \"Emergency braking due to pedestrian crossing\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "emergency braking due to pedestrian crossing",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_017.avi",
+      "ground_truth": "17s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_017.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"No people are clearly visible in the video, although there may be drivers and passengers in the vehicles.\",\n  \"summary\": \"The video shows a car driving down a tree-lined street with moderate traffic.  The car maintains a safe following distance from the vehicle in front. Other cars are present, including buses and a yellow taxi.  The scene is relatively calm and uneventful. Toward the end of the sequence the vehicle approaches a pedestrian crossing.\",\n  \"actions\": \"The observer vehicle maintains a consistent speed and lane position throughout the 10-second segment.  The car ahead maintains a steady speed and the distance between the two cars remains consistent.  No sudden braking or lane changes occur.\",\n  \"key_objects\": \"1) 5 meters ahead: Gray sedan, maintaining consistent speed and distance. No impact on observer vehicle behavior. 2) 10 meters ahead: Yellow taxi, maintaining consistent speed and distance. No impact on observer vehicle behavior. 3) Approaching: Pedestrian crossing, requires caution and potential speed reduction\",\n  \"key_actions\": \"Approaching pedestrian crossing\",\n  \"next_action\": {\n    \"speed_control\": \"deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "approaching pedestrian crossing",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_018.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_018.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several pedestrians are visible crossing the street and walking along the sidewalk.  No other significant characters are observed.\",\n  \"summary\": \"The video shows a car driving down a city street with parked cars on both sides. The traffic is relatively light.  Several pedestrians are crossing the street and walking along the sidewalks. The self-vehicle maintains a consistent speed and distance from the vehicles in front.  There are no near misses or collisions.\",\n  \"actions\": \"The self-vehicle maintains a steady speed and follows the car in front at a safe distance. The driver adjusts slightly to maintain safe distance from the vehicles ahead. \",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead of the self-vehicle\",\n      \"object_description\": \"White sedan\",\n      \"distance\": \"Approximately 10-15 meters throughout the sequence\",\n      \"behavior_impact\": \"The white sedan maintains a steady speed, providing ample following distance for the self-vehicle.\"\n    },\n    {\n      \"Position\": \"Crossing the street in front of self-vehicle\",\n      \"object_description\": \"Pedestrians\",\n      \"distance\": \"Varies, but pedestrians maintain a safe distance from the self-vehicle, crossing when there is an adequate gap in traffic.\",\n      \"behavior_impact\": \"Requires the self-vehicle to modulate speed slightly to ensure safety while pedestrians are crossing.\"\n    }\n  ],\n  \"key_actions\": \"Maintaining safe following distance, modulating speed for pedestrian crossings.\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "maintaining safe following distance, modulating speed for pedestrian crossings.",
+      "evaluation": "TN"
+    },
+    {
+      "video_id": "images_1_019.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_019.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"A man is seen suddenly falling onto the road in front of the vehicle.\",\n  \"summary\": \"The video shows a car driving down a narrow road in a rural or residential area.  A man unexpectedly falls onto the road from the side, directly in front of the moving vehicle. The man appears to be carrying a box. The car is close enough that it almost collides with the man. The driver reacts and almost avoids collision, but it is a very close call.\",\n  \"actions\": \"The driver maintains a relatively slow speed. When the man falls, the driver brakes immediately to avoid collision. \",\n  \"key_objects\": [\n    {\n      \"Position\": \"Center of the road\",\n      \"object_description\": \"Man falling onto the road\",\n      \"distance\": \"Very close (almost hit)\",\n      \"behavior_impact\": \"Requires immediate braking to avoid collision\"\n    }\n  ],\n  \"key_actions\": \"Emergency braking due to unexpected pedestrian in the road; potential ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```",
+      "key_actions": "emergency braking due to unexpected pedestrian in the road; potential ghost probing",
+      "evaluation": "FP"
+    },
+    {
+      "video_id": "images_1_020.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_020.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"A driver is visible in the self-driving vehicle. A motorcyclist is visible ahead of the vehicle.\",\n  \"summary\": \"The video shows a nighttime driving scene on a two-lane road. The self-driving vehicle maintains a safe following distance from a vehicle ahead. A motorcyclist is traveling in the same direction, maintaining a consistent distance from the self-driving vehicle. The road is relatively empty, with minimal traffic.  The scene is mostly uneventful.\",\n  \"actions\": \"The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment. The motorcyclist also maintains a consistent speed and lane position.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead, approximately 30 meters\",\n      \"object_description\": \"Car\",\n      \"distance\": \"30 meters\",\n      \"behavior_impact\": \"Maintaining a safe distance\"\n    },\n    {\n      \"Position\": \"Right side of the road, keeping roughly 5-7 meters distance\",\n      \"object_description\": \"Motorcyclist\",\n      \"distance\": \"5-7 meters\",\n      \"behavior_impact\": \"No immediate threat, maintaining distance.\"\n    }\n  ],\n  \"key_actions\": \"Maintaining safe following distance, monitoring surrounding traffic\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "maintaining safe following distance, monitoring surrounding traffic",
+      "evaluation": "TN"
+    },
+    {
+      "video_id": "images_1_021.avi",
+      "ground_truth": "3s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_021.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several pedestrians are visible on the sidewalk and crossing the street.  A person is seen crossing the crosswalk during the observed period.\",\n  \"summary\": \"The video shows a car driving down a city street in the rain. A large bus is beside the observer vehicle.  Pedestrians are visible on the sidewalk and several are crossing the street at a crosswalk. The traffic appears to be moving at a moderate pace. A car is visible ahead in the distance maintaining a steady distance. \",\n  \"actions\": \"The observer vehicle maintains a steady speed, navigating the city street alongside a bus. The driver does not appear to take any significant actions beyond maintaining speed and position.  The pedestrian crosses slowly and safely.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead, approximately 10-15 meters\",\n      \"object_description\": \"Car\",\n      \"distance\": \"10-15 meters\",\n      \"behavior_impact\": \"Maintaining a safe following distance\"\n    },\n    {\n      \"Position\": \"Sidewalk and crosswalk\",\n      \"object_description\": \"Pedestrians\",\n      \"distance\": \"Variable (closest at approximately 5 meters)\",\n      \"behavior_impact\": \"Observer vehicle must maintain speed and be prepared for pedestrian crossing. \"\n    },\n    {\n      \"Position\": \"Adjacent Lane\",\n      \"object_description\": \"Bus\",\n      \"distance\": \"Close, approximately 1 meter (maintaining lane)\",\n      \"behavior_impact\": \"Slight limitation on maneuverability, requires alertness to ensure safe following distance is maintained\"\n    }\n  ],\n  \"key_actions\": \"Pedestrian crossing, maintaining safe following distance\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```",
+      "key_actions": "pedestrian crossing, maintaining safe following distance",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_022.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_1_023.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_1_024.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_1_025.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_025.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Two individuals walking along the side of a highway.\",\n  \"summary\": \"The video shows a vehicle driving on a highway. Two individuals are walking along the side of the road, close to the edge.  They appear to be walking in the same direction as the vehicle. The vehicle maintains a relatively constant speed throughout the 10-second clip.  The distance between the vehicle and the pedestrians remains largely unchanged, posing a potential collision risk.\",\n  \"actions\": \"The vehicle maintains speed and direction. The driver observes the pedestrians.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Side of the road, initially approximately 20-25 meters ahead of the vehicle.\",\n      \"object_description\": \"Two pedestrians walking.\",\n      \"distance\": \"Decreasing slowly but consistently.\",\n      \"behavior_impact\": \"Potential collision risk if the pedestrians suddenly step into the road or if the vehicle's speed is not adjusted.\"\n    }\n  ],\n  \"key_actions\": \"Potential collision with pedestrians. Maintaining distance.\",\n  \"next_action\": {\n    \"speed_control\": \"deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "potential collision with pedestrians. maintaining distance.",
+      "evaluation": "TN"
+    },
+    {
+      "video_id": "images_1_026.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_1_027.avi",
+      "ground_truth": "4s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_2_001.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_2_002.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_2_003.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_2_004.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_2_004.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Two pedestrians are walking across the road in front of the vehicle.  One is wearing a red jacket, the other appears to be wearing a blue jacket.\",\n  \"summary\": \"The video shows a vehicle driving down a road approaching two pedestrians walking across the road. The pedestrians are walking relatively slowly and at a safe distance from the car. The car maintains a steady speed and the pedestrians do not appear to be in immediate danger.\",\n  \"actions\": \"The vehicle maintains speed and continues straight ahead. The pedestrians cross the road at a safe pace, with no indication of sudden movement or hazard.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Front: Pedestrians\",\n      \"distance\": \"Approximately 15-20 meters initially, decreasing to 10-15 meters\",\n      \"behavior_impact\": \"Pedestrians are crossing the road, requiring the vehicle to monitor their progress and maintain a safe distance.\"\n    },\n    {\n      \"Position\": \"Front: Parked cars\",\n      \"distance\": \"20-30 meters\",\n      \"behavior_impact\": \"Parked cars do not impact the vehicle's path.\"\n    }\n  ],\n  \"key_actions\": \"Pedestrians crossing the road, safe distance maintained\",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```\n",
+      "key_actions": "pedestrians crossing the road, safe distance maintained",
+      "evaluation": "TN"
+    },
+    {
+      "video_id": "images_3_001.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_3_001.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Routine\",\n  \"characters\": \"Several people on motorbikes and pedestrians are visible along the roadside and crossing the street.\",\n  \"summary\": \"The video shows a car driving down a city street.  There are various motorbikes and pedestrians present. The traffic is relatively light, with the car maintaining a consistent speed and distance from other vehicles. Motorbikes move around the car in predictable ways and no sudden movements are observed. Pedestrians cross the road at a crosswalk.\",\n  \"actions\": \"The vehicle maintains a consistent speed and lane position throughout the 10-second segment. The driver appears to be maintaining a safe following distance from other vehicles and reacting appropriately to pedestrians crossing the road.\",\n  \"key_objects\": [\n    {\n      \"Position\": \"Ahead, approximately 20 meters\",\n      \"object_description\": \"Motorbike\",\n      \"distance\": \"20 meters\",\n      \"behavior_impact\": \"The motorbike is moving at a consistent speed and does not affect the car's behavior\"\n    },\n    {\n      \"Position\": \"Ahead, approximately 15 meters\",\n      \"object_description\": \"Bus\",\n      \"distance\": \"15 meters\",\n      \"behavior_impact\": \"Bus moving at a slower pace than the car; no impact on the car's behavior\"\n    },\n    {\n      \"Position\": \"Right side, roadside\",\n      \"object_description\": \"Pedestrians crossing the crosswalk\",\n      \"distance\": \"Variable, ranging from far to near\",\n      \"behavior_impact\": \"The car safely slows as the pedestrians cross the road\"\n    }\n  ],\n  \"key_actions\": \"Safe driving, safe distance maintained to vehicles and pedestrians crossing at a crosswalk. \",\n  \"next_action\": {\n    \"speed_control\": \"maintain speed\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}\n```",
+      "key_actions": "safe driving, safe distance maintained to vehicles and pedestrians crossing at a crosswalk. ",
+      "evaluation": "TN"
+    },
+    {
+      "video_id": "images_3_002.avi",
+      "ground_truth": "4s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_3_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_3_004.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_3_005.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_3_006.avi",
+      "ground_truth": "4s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_3_007.avi",
+      "ground_truth": "3s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_4_001.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_4_002.avi",
+      "ground_truth": "6s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_4_003.avi",
+      "ground_truth": "4s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_4_004.avi",
+      "ground_truth": "6s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_4_005.avi",
+      "ground_truth": "6s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_4_006.avi",
+      "ground_truth": "3s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_4_007.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_4_008.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_001.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_002.avi",
+      "ground_truth": "cut-in",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_003.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_004.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_005.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_006.avi",
+      "ground_truth": "6s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_007.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_008.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_009.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_010.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_011.avi",
+      "ground_truth": "3s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_012.avi",
+      "ground_truth": "13s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_013.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_014.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_015.avi",
+      "ground_truth": "2s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_016.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_017.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_018.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_019.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_020.avi",
+      "ground_truth": "11s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_021.avi",
+      "ground_truth": "4s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_022.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_023.avi",
+      "ground_truth": "7s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_024.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_025.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_026.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_027.avi",
+      "ground_truth": "3s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_028.avi",
+      "ground_truth": "7s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_029.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_030.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_031.avi",
+      "ground_truth": "2s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_032.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_033.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_034.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_035.avi",
+      "ground_truth": "12s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_036.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_037.avi",
+      "ground_truth": "6s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_038.avi",
+      "ground_truth": "13: cut-in",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_040.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_041.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_042.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_043.avi",
+      "ground_truth": "13s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_044.avi",
+      "ground_truth": "4s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_045.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_046.avi",
+      "ground_truth": "2s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_047.avi",
+      "ground_truth": "2s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_048.avi",
+      "ground_truth": "none",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_049.avi",
+      "ground_truth": "3s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_050.avi",
+      "ground_truth": "2s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_051.avi",
+      "ground_truth": "2s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_052.avi",
+      "ground_truth": "3s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    },
+    {
+      "video_id": "images_5_053.avi",
+      "ground_truth": "7s: ghost probing",
+      "gemini_result": null,
+      "key_actions": "",
+      "evaluation": "ERROR"
+    }
+  ],
+  "api_issues": {
+    "first_api_key_quota_reached": "After ~24 videos",
+    "second_api_key_quota_reached": "Immediately (0 additional videos)",
+    "total_quota_errors": 74
+  }
+}

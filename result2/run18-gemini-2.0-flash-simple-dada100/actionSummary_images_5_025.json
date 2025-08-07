@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_025",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car on a rainy day. Other vehicles are visible on the road. A pedestrian is visible on the right side of the road.",
+  "summary": "The vehicle is driving on a wet road in rainy conditions. The traffic light turns green, and the vehicle proceeds through the intersection. A pedestrian is visible on the right side of the road, waiting to cross.",
+  "actions": "The vehicle starts from a stationary position at a traffic light. The traffic light turns green, and the vehicle accelerates to proceed through the intersection. The driver maintains the current lane and speed, adjusting slightly for the wet road conditions.",
+  "key_objects": "1) Right side: Pedestrian, medium distance, waiting to cross the street. 2) Front: Other vehicles, medium distance, proceeding through the intersection.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

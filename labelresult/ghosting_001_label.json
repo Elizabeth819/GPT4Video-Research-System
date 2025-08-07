@@ -1,0 +1,80 @@
+[
+    {
+        "event_id": "event_001",        
+        "video_id": "001",
+        "start_timestamp": "1s",
+        "end_timestamp": "10.0s",
+        "key_object": "a girl in red",
+        "key_actions": "ghost probing",        
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "brake",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_002",
+        "video_id": "001",
+        "start_timestamp": "11s",
+        "end_timestamp": "20.0s",
+        "key_objects": "a child in a coat",        
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_003",
+        "video_id": "001",
+        "start_timestamp": "31s",
+        "end_timestamp": "40.0s",
+        "key_objects": "a man riding a bicycle",        
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "brake",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "001",
+        "start_timestamp": "41.0s",
+        "end_timestamp": "50.0s",
+        "key_objects": "child in a coat",        
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "brake",
+            "lane_control": "maintain current lane"
+        }
+    },    
+    {
+        "event_id": "event_005",
+        "video_id": "001",
+        "start_timestamp": "61.0s",
+        "end_timestamp": "70.0s",
+        "key_objects": "a white car in the left",        
+        "key_actions": "left-side overtaking",
+        "next_action": {
+            "speed_control": "deceleration",
+            "direction_control": "move to the right slightly",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_006",
+        "video_id": "001",
+        "start_timestamp": "71s",
+        "end_timestamp": "80.0s",
+        "key_objects": "a child in a t-shirt",        
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "slow down",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }    
+]

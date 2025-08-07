@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_020",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area with several parked vehicles on both sides. The road ahead is clear, but there are potential obstacles such as parked cars and pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the urban area. The driver is cautious due to the presence of parked vehicles and pedestrians on both sides of the road.",
+        "key_objects": "1) Left side: A white van, approximately 5 meters away, parked and partially blocking the view. 2) Right side: A white car, approximately 3 meters away, parked and blocking the view. 3) Front: A pedestrian, approximately 10 meters away, standing near a parked vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_020",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.6s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area with several parked vehicles and pedestrians visible. The vehicle is moving at a steady pace, and there are no immediate threats or sudden movements from other objects.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, navigating through the urban area without any sudden changes. The driver is likely observing the surroundings for any potential hazards.",
+        "key_objects": "1) Front: A white van, approximately 10 meters away, parked and stationary. 2) Left: A group of pedestrians, approximately 15 meters away, standing near the building. 3) Right: A silver car, approximately 8 meters away, parked and stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

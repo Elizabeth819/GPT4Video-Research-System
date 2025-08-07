@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_015",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a silver sedan in front of the self-driving vehicle. There is a person on a scooter on the left side of the road.",
+  "summary": "The self-driving vehicle is proceeding through an intersection with a green light. A silver sedan is in front of the self-driving vehicle. A person on a scooter is on the left side of the road, waiting to cross the intersection. The road conditions are clear, and the weather is overcast. The traffic density is light.",
+  "actions": "The vehicle is proceeding through an intersection with a green light. The driver is maintaining a steady speed, likely because the intersection is clear and the traffic light is green. The vehicle is staying in the right lane, following the silver sedan in front.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

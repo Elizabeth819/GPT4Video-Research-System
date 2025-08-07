@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_050",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a truck",
+        "summary": "In this segment, the self-driving vehicle is traveling on a highway at night. A black sedan is seen ahead, initially in the same lane, and then moving to the left lane. The truck is ahead in the same lane. The black sedan suddenly cuts into the self-driving vehicles lane from the left lane, causing a potential collision risk.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the truck ahead. The black sedans sudden lane change from the left lane into the self-driving vehicles lane forces the self-driving vehicle to decelerate to avoid a collision.",
+        "key_objects": "1) Front: A black sedan, approximately 5 meters away, suddenly cuts into the self-driving vehicles lane from the left lane. 2) Front: A truck, approximately 20 meters away, moving steadily in the same lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

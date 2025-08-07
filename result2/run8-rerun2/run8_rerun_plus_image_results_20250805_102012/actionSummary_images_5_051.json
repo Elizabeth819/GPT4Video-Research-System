@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_051",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, cyclists, and drivers observed. Notable characters include a child on the right side of the road in the first sequence, a woman with a child crossing from the left in the second sequence, a man running from the left in the third sequence, and a man on a scooter in the fourth sequence.",
+  "summary": "The video sequence shows multiple instances of potential 'ghost probing' behavior. In the first sequence, a child suddenly appears on the right side of the road. In the second sequence, a woman with a child emerges from between parked cars on the left side. In the third sequence, a man runs from the left side of the road. In the fourth sequence, a man on a scooter suddenly appears from the right side of the road.",
+  "actions": "The observer vehicle encounters several sudden appearances of pedestrians and a scooter from behind obstructions, creating immediate collision risks.",
+  "key_objects": "Parked cars on both sides of the road, a child on the right side, a woman with a child crossing from the left, a man running from the left, and a man on a scooter from the right.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

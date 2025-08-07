@@ -1,0 +1,436 @@
+2025-07-31 18:56:38,102 - INFO - Run 19: Claude 4 Ghost Probing Detection with Few-shot Learning (100 Videos) 开始
+2025-07-31 18:56:38,103 - INFO - Claude 4 API配置成功
+2025-07-31 18:56:38,103 - INFO - Host: globalai.vip
+2025-07-31 18:56:38,103 - INFO - Model: claude-3-7-sonnet-20250219
+2025-07-31 18:56:38,103 - INFO - Temperature: 0, Enhanced with Few-shot Examples
+2025-07-31 18:56:38,107 - INFO - 加载ground truth标签: 201个视频
+2025-07-31 18:56:38,108 - INFO - 开始Run 19实验，处理 201 个视频
+2025-07-31 18:56:38,141 - INFO - 处理视频 1/100: images_1_001.avi
+2025-07-31 18:57:04,997 - INFO - 视频 images_1_001.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 18:57:04,998 - INFO - 处理视频 2/100: images_1_002.avi
+2025-07-31 18:57:32,249 - INFO - 视频 images_1_002.avi: GT=5s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:57:32,250 - INFO - 处理视频 3/100: images_1_003.avi
+2025-07-31 18:58:02,473 - INFO - 视频 images_1_003.avi: GT=2s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 18:58:02,474 - INFO - 处理视频 4/100: images_1_004.avi
+2025-07-31 18:58:33,830 - INFO - 视频 images_1_004.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 18:58:33,831 - INFO - 处理视频 5/100: images_1_005.avi
+2025-07-31 18:58:56,426 - INFO - 视频 images_1_005.avi: GT=8s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:58:56,428 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_5videos_20250731_185638.json
+2025-07-31 18:58:56,428 - INFO - 处理视频 6/100: images_1_006.avi
+2025-07-31 18:59:21,110 - INFO - 视频 images_1_006.avi: GT=9s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:59:21,111 - INFO - 处理视频 7/100: images_1_007.avi
+2025-07-31 18:59:45,238 - INFO - 视频 images_1_007.avi: GT=6s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:59:45,239 - INFO - 处理视频 8/100: images_1_008.avi
+2025-07-31 19:00:26,328 - INFO - 视频 images_1_008.avi: GT=3s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:00:26,329 - INFO - 处理视频 9/100: images_1_009.avi
+2025-07-31 19:00:59,045 - INFO - 视频 images_1_009.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:00:59,045 - INFO - 处理视频 10/100: images_1_010.avi
+2025-07-31 19:01:45,675 - INFO - 视频 images_1_010.avi: GT=15s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:01:45,678 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_10videos_20250731_185638.json
+2025-07-31 19:01:45,679 - INFO - 处理视频 11/100: images_1_011.avi
+2025-07-31 19:02:05,978 - INFO - 视频 images_1_011.avi: GT=11s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:02:05,979 - INFO - 处理视频 12/100: images_1_012.avi
+2025-07-31 19:02:29,425 - INFO - 视频 images_1_012.avi: GT=11s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:02:29,425 - INFO - 处理视频 13/100: images_1_013.avi
+2025-07-31 19:02:52,354 - INFO - 视频 images_1_013.avi: GT=8s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:02:52,354 - INFO - 处理视频 14/100: images_1_014.avi
+2025-07-31 19:03:19,175 - INFO - 视频 images_1_014.avi: GT=5s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:03:19,175 - INFO - 处理视频 15/100: images_1_015.avi
+2025-07-31 19:03:48,336 - INFO - 视频 images_1_015.avi: GT=5s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:03:48,338 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_15videos_20250731_185638.json
+2025-07-31 19:03:48,339 - INFO - 处理视频 16/100: images_1_016.avi
+2025-07-31 19:04:18,426 - INFO - 视频 images_1_016.avi: GT=4s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:04:18,426 - INFO - 处理视频 17/100: images_1_017.avi
+2025-07-31 19:05:07,776 - INFO - 视频 images_1_017.avi: GT=17s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:05:07,777 - INFO - 处理视频 18/100: images_1_018.avi
+2025-07-31 19:05:34,084 - INFO - 视频 images_1_018.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:05:34,084 - INFO - 处理视频 19/100: images_1_019.avi
+2025-07-31 19:05:54,291 - INFO - 视频 images_1_019.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:05:54,292 - INFO - 处理视频 20/100: images_1_020.avi
+2025-07-31 19:06:12,679 - INFO - 视频 images_1_020.avi: GT=12s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:06:12,681 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_20videos_20250731_185638.json
+2025-07-31 19:06:12,681 - INFO - 处理视频 21/100: images_1_021.avi
+2025-07-31 19:06:49,908 - INFO - 视频 images_1_021.avi: GT=3s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:06:49,909 - INFO - 处理视频 22/100: images_1_022.avi
+2025-07-31 19:07:17,799 - INFO - 视频 images_1_022.avi: GT=5s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:07:17,800 - INFO - 处理视频 23/100: images_1_023.avi
+2025-07-31 19:07:42,302 - INFO - 视频 images_1_023.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:07:42,302 - INFO - 处理视频 24/100: images_1_024.avi
+2025-07-31 19:08:01,832 - INFO - 视频 images_1_024.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:08:01,834 - INFO - 处理视频 25/100: images_1_025.avi
+2025-07-31 19:08:30,479 - INFO - 视频 images_1_025.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:08:30,481 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_25videos_20250731_185638.json
+2025-07-31 19:08:30,482 - INFO - 处理视频 26/100: images_1_026.avi
+2025-07-31 19:08:59,241 - INFO - 视频 images_1_026.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:08:59,241 - INFO - 处理视频 27/100: images_1_027.avi
+2025-07-31 19:09:25,794 - INFO - 视频 images_1_027.avi: GT=4s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:09:25,795 - INFO - 处理视频 28/100: images_2_001.avi
+2025-07-31 19:09:52,640 - INFO - 视频 images_2_001.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:09:52,641 - INFO - 处理视频 29/100: images_2_002.avi
+2025-07-31 19:10:13,396 - INFO - 视频 images_2_002.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:10:13,397 - INFO - 处理视频 30/100: images_2_003.avi
+2025-07-31 19:10:40,758 - INFO - 视频 images_2_003.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:10:40,761 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_30videos_20250731_185638.json
+2025-07-31 19:10:40,761 - INFO - 处理视频 31/100: images_2_004.avi
+2025-07-31 19:11:01,457 - INFO - 视频 images_2_004.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:11:01,458 - INFO - 处理视频 32/100: images_3_001.avi
+2025-07-31 19:11:24,469 - INFO - 视频 images_3_001.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:11:24,470 - INFO - 处理视频 33/100: images_3_002.avi
+2025-07-31 19:12:24,644 - INFO - 视频 images_3_002.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:12:24,645 - INFO - 处理视频 34/100: images_3_003.avi
+2025-07-31 19:12:57,341 - INFO - 视频 images_3_003.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:12:57,342 - INFO - 处理视频 35/100: images_3_004.avi
+2025-07-31 19:13:19,708 - INFO - 视频 images_3_004.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:13:19,711 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_35videos_20250731_185638.json
+2025-07-31 19:13:19,712 - INFO - 处理视频 36/100: images_3_005.avi
+2025-07-31 19:13:43,397 - INFO - 视频 images_3_005.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:13:43,398 - INFO - 处理视频 37/100: images_3_006.avi
+2025-07-31 19:14:11,128 - INFO - 视频 images_3_006.avi: GT=4s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:14:11,128 - INFO - 处理视频 38/100: images_3_007.avi
+2025-07-31 19:14:45,612 - INFO - 视频 images_3_007.avi: GT=3s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:14:45,613 - INFO - 处理视频 39/100: images_4_001.avi
+2025-07-31 19:15:08,221 - INFO - 视频 images_4_001.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:15:08,222 - INFO - 处理视频 40/100: images_4_002.avi
+2025-07-31 19:15:40,763 - INFO - 视频 images_4_002.avi: GT=6s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:15:40,764 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_40videos_20250731_185638.json
+2025-07-31 19:15:40,764 - INFO - 处理视频 41/100: images_4_003.avi
+2025-07-31 19:16:16,897 - INFO - 视频 images_4_003.avi: GT=4s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:16:16,897 - INFO - 处理视频 42/100: images_4_004.avi
+2025-07-31 19:16:48,820 - INFO - 视频 images_4_004.avi: GT=6s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:16:48,821 - INFO - 处理视频 43/100: images_4_005.avi
+2025-07-31 19:17:18,944 - INFO - 视频 images_4_005.avi: GT=6s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:17:18,945 - INFO - 处理视频 44/100: images_4_006.avi
+2025-07-31 19:17:49,878 - INFO - 视频 images_4_006.avi: GT=3s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:17:49,879 - INFO - 处理视频 45/100: images_4_007.avi
+2025-07-31 19:18:25,052 - INFO - 视频 images_4_007.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:18:25,054 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_45videos_20250731_185638.json
+2025-07-31 19:18:25,054 - INFO - 处理视频 46/100: images_4_008.avi
+2025-07-31 19:18:47,417 - INFO - 视频 images_4_008.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:18:47,418 - INFO - 处理视频 47/100: images_5_001.avi
+2025-07-31 19:19:08,435 - INFO - 视频 images_5_001.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:19:08,436 - INFO - 处理视频 48/100: images_5_002.avi
+2025-07-31 19:19:40,622 - INFO - 视频 images_5_002.avi: GT=cut-in, 检测=none, 评估=FN
+2025-07-31 19:19:40,623 - INFO - 处理视频 49/100: images_5_003.avi
+2025-07-31 19:20:03,717 - INFO - 视频 images_5_003.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:20:03,718 - INFO - 处理视频 50/100: images_5_004.avi
+2025-07-31 19:20:25,046 - INFO - 视频 images_5_004.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:20:25,049 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_50videos_20250731_185638.json
+2025-07-31 19:20:25,050 - INFO - 处理视频 51/100: images_5_005.avi
+2025-07-31 19:20:51,748 - INFO - 视频 images_5_005.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:20:51,748 - INFO - 处理视频 52/100: images_5_006.avi
+2025-07-31 19:21:12,471 - INFO - 视频 images_5_006.avi: GT=6s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:21:12,472 - INFO - 处理视频 53/100: images_5_007.avi
+2025-07-31 19:21:32,099 - INFO - 视频 images_5_007.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:21:32,099 - INFO - 处理视频 54/100: images_5_008.avi
+2025-07-31 19:21:52,954 - INFO - 视频 images_5_008.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:21:52,955 - INFO - 处理视频 55/100: images_5_009.avi
+2025-07-31 19:22:12,395 - INFO - 视频 images_5_009.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:22:12,400 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_55videos_20250731_185638.json
+2025-07-31 19:22:12,401 - INFO - 处理视频 56/100: images_5_010.avi
+2025-07-31 19:22:37,068 - INFO - 视频 images_5_010.avi: GT=5s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:22:37,069 - INFO - 处理视频 57/100: images_5_011.avi
+2025-07-31 19:23:06,531 - INFO - 视频 images_5_011.avi: GT=3s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:23:06,531 - INFO - 处理视频 58/100: images_5_012.avi
+2025-07-31 19:23:27,747 - INFO - 视频 images_5_012.avi: GT=13s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:23:27,748 - INFO - 处理视频 59/100: images_5_013.avi
+2025-07-31 19:23:58,215 - INFO - 视频 images_5_013.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:23:58,216 - INFO - 处理视频 60/100: images_5_014.avi
+2025-07-31 19:24:21,637 - INFO - 视频 images_5_014.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:24:21,643 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_60videos_20250731_185638.json
+2025-07-31 19:24:21,644 - INFO - 处理视频 61/100: images_5_015.avi
+2025-07-31 19:24:44,556 - INFO - 视频 images_5_015.avi: GT=2s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:24:44,557 - INFO - 处理视频 62/100: images_5_016.avi
+2025-07-31 19:25:08,334 - INFO - 视频 images_5_016.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:25:08,334 - INFO - 处理视频 63/100: images_5_017.avi
+2025-07-31 19:25:50,133 - INFO - 视频 images_5_017.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:25:50,133 - INFO - 处理视频 64/100: images_5_018.avi
+2025-07-31 19:26:13,113 - INFO - 视频 images_5_018.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:26:13,113 - INFO - 处理视频 65/100: images_5_019.avi
+2025-07-31 19:26:36,853 - INFO - 视频 images_5_019.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:26:36,857 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_65videos_20250731_185638.json
+2025-07-31 19:26:36,857 - INFO - 处理视频 66/100: images_5_020.avi
+2025-07-31 19:26:57,937 - INFO - 视频 images_5_020.avi: GT=11s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:26:57,937 - INFO - 处理视频 67/100: images_5_021.avi
+2025-07-31 19:27:38,441 - INFO - 视频 images_5_021.avi: GT=4s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:27:38,441 - INFO - 处理视频 68/100: images_5_022.avi
+2025-07-31 19:28:24,778 - INFO - 视频 images_5_022.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:28:24,779 - INFO - 处理视频 69/100: images_5_023.avi
+2025-07-31 19:28:45,610 - INFO - 视频 images_5_023.avi: GT=7s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:28:45,611 - INFO - 处理视频 70/100: images_5_024.avi
+2025-07-31 19:29:08,498 - INFO - 视频 images_5_024.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:29:08,505 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_70videos_20250731_185638.json
+2025-07-31 19:29:08,505 - INFO - 处理视频 71/100: images_5_025.avi
+2025-07-31 19:29:31,089 - INFO - 视频 images_5_025.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:29:31,090 - INFO - 处理视频 72/100: images_5_026.avi
+2025-07-31 19:30:05,214 - INFO - 视频 images_5_026.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:30:05,215 - INFO - 处理视频 73/100: images_5_027.avi
+2025-07-31 19:30:35,049 - INFO - 视频 images_5_027.avi: GT=3s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:30:35,050 - INFO - 处理视频 74/100: images_5_028.avi
+2025-07-31 19:31:19,609 - INFO - 视频 images_5_028.avi: GT=7s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:31:19,610 - INFO - 处理视频 75/100: images_5_029.avi
+2025-07-31 19:31:39,666 - INFO - 视频 images_5_029.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:31:39,671 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_75videos_20250731_185638.json
+2025-07-31 19:31:39,671 - INFO - 处理视频 76/100: images_5_030.avi
+2025-07-31 19:32:09,594 - INFO - 视频 images_5_030.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:32:09,594 - INFO - 处理视频 77/100: images_5_031.avi
+2025-07-31 19:32:36,959 - INFO - 视频 images_5_031.avi: GT=2s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:32:36,960 - INFO - 处理视频 78/100: images_5_032.avi
+2025-07-31 19:33:11,110 - INFO - 视频 images_5_032.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:33:11,111 - INFO - 处理视频 79/100: images_5_033.avi
+2025-07-31 19:33:36,095 - INFO - 视频 images_5_033.avi: GT=5s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:33:36,096 - INFO - 处理视频 80/100: images_5_034.avi
+2025-07-31 19:34:03,140 - INFO - 视频 images_5_034.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:34:03,145 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_80videos_20250731_185638.json
+2025-07-31 19:34:03,145 - INFO - 处理视频 81/100: images_5_035.avi
+2025-07-31 19:34:25,885 - INFO - 视频 images_5_035.avi: GT=12s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:34:25,886 - INFO - 处理视频 82/100: images_5_036.avi
+2025-07-31 19:34:47,686 - INFO - 视频 images_5_036.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:34:47,687 - INFO - 处理视频 83/100: images_5_037.avi
+2025-07-31 19:35:16,011 - INFO - 视频 images_5_037.avi: GT=6s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:35:16,012 - INFO - 处理视频 84/100: images_5_038.avi
+2025-07-31 19:35:38,665 - INFO - 视频 images_5_038.avi: GT=13s: cut-in, 检测=none, 评估=FN
+2025-07-31 19:35:38,666 - INFO - 处理视频 85/100: images_5_039.avi
+2025-07-31 19:35:59,948 - INFO - 视频 images_5_039.avi: GT=7s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:35:59,952 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_85videos_20250731_185638.json
+2025-07-31 19:35:59,953 - INFO - 处理视频 86/100: images_5_040.avi
+2025-07-31 19:36:41,338 - INFO - 视频 images_5_040.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:36:41,339 - INFO - 处理视频 87/100: images_5_041.avi
+2025-07-31 19:37:14,282 - INFO - 视频 images_5_041.avi: GT=5s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:37:14,283 - INFO - 处理视频 88/100: images_5_042.avi
+2025-07-31 19:37:43,911 - INFO - 视频 images_5_042.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:37:43,913 - INFO - 处理视频 89/100: images_5_043.avi
+2025-07-31 19:38:04,692 - INFO - 视频 images_5_043.avi: GT=13s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:38:04,693 - INFO - 处理视频 90/100: images_5_044.avi
+2025-07-31 19:38:30,595 - INFO - 视频 images_5_044.avi: GT=4s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:38:30,601 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_90videos_20250731_185638.json
+2025-07-31 19:38:30,602 - INFO - 处理视频 91/100: images_5_045.avi
+2025-07-31 19:38:52,366 - INFO - 视频 images_5_045.avi: GT=5s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:38:52,367 - INFO - 处理视频 92/100: images_5_046.avi
+2025-07-31 19:39:20,265 - INFO - 视频 images_5_046.avi: GT=2s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:39:20,266 - INFO - 处理视频 93/100: images_5_047.avi
+2025-07-31 19:39:47,355 - INFO - 视频 images_5_047.avi: GT=2s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:39:47,355 - INFO - 处理视频 94/100: images_5_048.avi
+2025-07-31 19:40:25,593 - INFO - 视频 images_5_048.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:40:25,594 - INFO - 处理视频 95/100: images_5_049.avi
+2025-07-31 19:40:56,823 - INFO - 视频 images_5_049.avi: GT=3s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:40:56,828 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_95videos_20250731_185638.json
+2025-07-31 19:40:56,828 - INFO - 处理视频 96/100: images_5_050.avi
+2025-07-31 19:41:32,944 - INFO - 视频 images_5_050.avi: GT=2s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:41:32,945 - INFO - 处理视频 97/100: images_5_051.avi
+2025-07-31 19:41:54,113 - INFO - 视频 images_5_051.avi: GT=2s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:41:54,113 - INFO - 处理视频 98/100: images_5_052.avi
+2025-07-31 19:42:30,642 - INFO - 视频 images_5_052.avi: GT=3s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 19:42:30,643 - INFO - 处理视频 99/100: images_5_053.avi
+2025-07-31 19:42:53,542 - INFO - 视频 images_5_053.avi: GT=7s: ghost probing, 检测=none, 评估=FN
+2025-07-31 19:42:53,543 - INFO - 处理视频 100/100: images_5_054.avi
+2025-07-31 19:43:26,941 - INFO - 视频 images_5_054.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 19:43:26,946 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_100videos_20250731_185638.json
+2025-07-31 19:43:26,946 - INFO - 处理视频 101/100: images_5_055.avi
+2025-07-31 19:43:53,531 - INFO - 视频 images_5_055.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 19:43:53,532 - INFO - 处理视频 102/100: images_5_056.avi
+2025-07-31 19:43:53,532 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_056.avi
+2025-07-31 19:43:53,532 - INFO - 处理视频 103/100: images_5_057.avi
+2025-07-31 19:43:53,532 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_057.avi
+2025-07-31 19:43:53,532 - INFO - 处理视频 104/100: images_5_058.avi
+2025-07-31 19:43:53,532 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_058.avi
+2025-07-31 19:43:53,532 - INFO - 处理视频 105/100: images_5_059.avi
+2025-07-31 19:43:53,532 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_059.avi
+2025-07-31 19:43:53,532 - INFO - 处理视频 106/100: images_5_060.avi
+2025-07-31 19:43:53,532 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_060.avi
+2025-07-31 19:43:53,532 - INFO - 处理视频 107/100: images_5_061.avi
+2025-07-31 19:43:53,532 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_061.avi
+2025-07-31 19:43:53,532 - INFO - 处理视频 108/100: images_5_062.avi
+2025-07-31 19:43:53,532 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_062.avi
+2025-07-31 19:43:53,532 - INFO - 处理视频 109/100: images_5_063.avi
+2025-07-31 19:43:53,532 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_063.avi
+2025-07-31 19:43:53,532 - INFO - 处理视频 110/100: images_5_064.avi
+2025-07-31 19:43:53,532 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_064.avi
+2025-07-31 19:43:53,533 - INFO - 处理视频 111/100: images_5_065.avi
+2025-07-31 19:43:53,533 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_065.avi
+2025-07-31 19:43:53,533 - INFO - 处理视频 112/100: images_5_066.avi
+2025-07-31 19:43:53,533 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_066.avi
+2025-07-31 19:43:53,533 - INFO - 处理视频 113/100: images_5_067.avi
+2025-07-31 19:43:53,533 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_067.avi
+2025-07-31 19:43:53,533 - INFO - 处理视频 114/100: images_5_068.avi
+2025-07-31 19:43:53,533 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_068.avi
+2025-07-31 19:43:53,533 - INFO - 处理视频 115/100: images_5_069.avi
+2025-07-31 19:43:53,533 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_069.avi
+2025-07-31 19:43:53,533 - INFO - 处理视频 116/100: images_5_070.avi
+2025-07-31 19:43:53,533 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_070.avi
+2025-07-31 19:43:53,533 - INFO - 处理视频 117/100: images_5_071.avi
+2025-07-31 19:43:53,533 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_071.avi
+2025-07-31 19:43:53,533 - INFO - 处理视频 118/100: images_5_072.avi
+2025-07-31 19:43:53,533 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_072.avi
+2025-07-31 19:43:53,533 - INFO - 处理视频 119/100: images_5_073.avi
+2025-07-31 19:43:53,533 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_073.avi
+2025-07-31 19:43:53,533 - INFO - 处理视频 120/100: images_5_074.avi
+2025-07-31 19:43:53,533 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_074.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 121/100: images_5_075.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_075.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 122/100: images_5_076.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_076.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 123/100: images_5_077.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_077.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 124/100: images_5_078.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_078.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 125/100: images_5_079.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_5_079.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 126/100: images_6_001.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_001.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 127/100: images_6_002.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_002.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 128/100: images_6_003.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_003.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 129/100: images_6_004.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_004.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 130/100: images_6_005.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_005.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 131/100: images_6_006.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_006.avi
+2025-07-31 19:43:53,534 - INFO - 处理视频 132/100: images_6_007.avi
+2025-07-31 19:43:53,534 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_007.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 133/100: images_6_008.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_008.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 134/100: images_6_009.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_009.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 135/100: images_6_010.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_010.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 136/100: images_6_011.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_011.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 137/100: images_6_012.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_012.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 138/100: images_6_013.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_013.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 139/100: images_6_014.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_014.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 140/100: images_6_015.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_015.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 141/100: images_6_016.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_016.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 142/100: images_6_017.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_017.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 143/100: images_6_018.avi
+2025-07-31 19:43:53,535 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_018.avi
+2025-07-31 19:43:53,535 - INFO - 处理视频 144/100: images_6_019.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_019.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 145/100: images_6_020.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_020.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 146/100: images_6_021.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_021.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 147/100: images_6_022.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_022.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 148/100: images_6_023.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_023.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 149/100: images_6_024.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_024.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 150/100: images_6_025.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_025.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 151/100: images_6_026.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_026.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 152/100: images_6_027.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_027.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 153/100: images_6_028.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_028.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 154/100: images_6_029.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_029.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 155/100: images_6_030.avi
+2025-07-31 19:43:53,536 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_030.avi
+2025-07-31 19:43:53,536 - INFO - 处理视频 156/100: images_6_031.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_031.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 157/100: images_6_032.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_032.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 158/100: images_6_033.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_033.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 159/100: images_6_034.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_034.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 160/100: images_6_035.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_035.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 161/100: images_6_036.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_036.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 162/100: images_6_037.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_037.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 163/100: images_6_038.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_038.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 164/100: images_6_039.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_039.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 165/100: images_6_040.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_040.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 166/100: images_6_041.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_041.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 167/100: images_6_042.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_042.avi
+2025-07-31 19:43:53,537 - INFO - 处理视频 168/100: images_6_043.avi
+2025-07-31 19:43:53,537 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_043.avi
+2025-07-31 19:43:53,538 - INFO - 处理视频 169/100: images_6_044.avi
+2025-07-31 19:43:53,538 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_044.avi
+2025-07-31 19:43:53,538 - INFO - 处理视频 170/100: images_6_045.avi
+2025-07-31 19:43:53,538 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_045.avi
+2025-07-31 19:43:53,538 - INFO - 处理视频 171/100: images_6_046.avi
+2025-07-31 19:43:53,538 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_046.avi
+2025-07-31 19:43:53,538 - INFO - 处理视频 172/100: images_6_047.avi
+2025-07-31 19:43:53,538 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_047.avi
+2025-07-31 19:43:53,538 - INFO - 处理视频 173/100: images_6_048.avi
+2025-07-31 19:43:53,538 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_048.avi
+2025-07-31 19:43:53,538 - INFO - 处理视频 174/100: images_6_049.avi
+2025-07-31 19:43:53,538 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_049.avi
+2025-07-31 19:43:53,539 - INFO - 处理视频 175/100: images_6_050.avi
+2025-07-31 19:43:53,539 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_050.avi
+2025-07-31 19:43:53,539 - INFO - 处理视频 176/100: images_6_051.avi
+2025-07-31 19:43:53,539 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_051.avi
+2025-07-31 19:43:53,539 - INFO - 处理视频 177/100: images_6_052.avi
+2025-07-31 19:43:53,539 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_052.avi
+2025-07-31 19:43:53,539 - INFO - 处理视频 178/100: images_6_053.avi
+2025-07-31 19:43:53,539 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_053.avi
+2025-07-31 19:43:53,539 - INFO - 处理视频 179/100: images_6_054.avi
+2025-07-31 19:43:53,539 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_054.avi
+2025-07-31 19:43:53,539 - INFO - 处理视频 180/100: images_6_055.avi
+2025-07-31 19:43:53,539 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_055.avi
+2025-07-31 19:43:53,539 - INFO - 处理视频 181/100: images_6_056.avi
+2025-07-31 19:43:53,539 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_056.avi
+2025-07-31 19:43:53,539 - INFO - 处理视频 182/100: images_6_057.avi
+2025-07-31 19:43:53,539 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_057.avi
+2025-07-31 19:43:53,539 - INFO - 处理视频 183/100: images_6_058.avi
+2025-07-31 19:43:53,539 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_058.avi
+2025-07-31 19:43:53,539 - INFO - 处理视频 184/100: images_6_059.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_059.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 185/100: images_6_060.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_6_060.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 186/100: images_7_001.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_001.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 187/100: images_7_002.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_002.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 188/100: images_7_003.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_003.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 189/100: images_7_004.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_004.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 190/100: images_7_005.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_005.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 191/100: images_7_006.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_7_006.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 192/100: images_8_001.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_001.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 193/100: images_8_002.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_002.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 194/100: images_8_003.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_003.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 195/100: images_8_004.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_004.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 196/100: images_8_005.avi
+2025-07-31 19:43:53,540 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_005.avi
+2025-07-31 19:43:53,540 - INFO - 处理视频 197/100: images_8_006.avi
+2025-07-31 19:43:53,541 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_006.avi
+2025-07-31 19:43:53,541 - INFO - 处理视频 198/100: images_8_007.avi
+2025-07-31 19:43:53,541 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_007.avi
+2025-07-31 19:43:53,541 - INFO - 处理视频 199/100: images_8_008.avi
+2025-07-31 19:43:53,541 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_008.avi
+2025-07-31 19:43:53,541 - INFO - 处理视频 200/100: images_8_009.avi
+2025-07-31 19:43:53,541 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_009.avi
+2025-07-31 19:43:53,541 - INFO - 处理视频 201/100: images_8_010.avi
+2025-07-31 19:43:53,541 - WARNING - 视频不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_8_010.avi
+2025-07-31 19:43:53,545 - INFO - 最终结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_final_results_20250731_185638.json
+2025-07-31 19:43:53,545 - INFO - === Run 19 Performance Metrics ===
+2025-07-31 19:43:53,545 - INFO - 精确度: 0.488 (48.8%)
+2025-07-31 19:43:53,545 - INFO - 召回率: 0.377 (37.7%)
+2025-07-31 19:43:53,545 - INFO - F1分数: 0.426 (42.6%)
+2025-07-31 19:43:53,545 - INFO - 准确率: 0.465 (46.5%)
+2025-07-31 19:43:53,546 - INFO - TP: 20, FP: 21, TN: 27, FN: 33, ERROR: 0

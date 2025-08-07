@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The video shows the perspective of a driver in a car. The environment consists of a road flanked by trees and hills on either side. In later frames, a red three-wheeled vehicle with passengers is visible on the left side of the road.",
+  "summary": "The vehicle is driving on a straight road with trees and hills on both sides. The road appears to be clear of traffic. As the video progresses, the vehicle approaches an intersection. A red three-wheeled vehicle emerges from the left side of the road, crossing the intersection.",
+  "actions": "The vehicle maintains a consistent speed while driving straight on the road. The driver is likely maintaining speed due to the clear road conditions and lack of immediate obstacles. The vehicle approaches an intersection and continues straight.",
+  "key_objects": "1) Left: A red three-wheeled vehicle emerges from behind trees at an intersection, posing a potential collision risk. Distance: Medium. Behavior impact: Requires driver to be alert and potentially brake or swerve. 2) Right: Trees and hills line the right side of the road, creating a visual barrier at the intersection. Distance: Medium. Behavior impact: Obstructs the driver's view of potential hazards.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "$dada_21_001",
+        "segment_id": "Segment_000",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Rural Road",
+        "characters": "Motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road. A motorcyclist appears from the left side and moves towards the center of the road, eventually overtaking the vehicle and continuing ahead.",
+        "actions": "The self-driving vehicle maintains a consistent speed while the motorcyclist approaches from the left side and overtakes the vehicle. The vehicle does not change its speed or direction, indicating a steady driving behavior.",
+        "key_objects": "1) Left side: A motorcyclist, approximately 10 meters away, approaching the vehicle and overtaking it. 2) Front: A motorcyclist, approximately 5 meters away, moving ahead after overtaking the vehicle.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

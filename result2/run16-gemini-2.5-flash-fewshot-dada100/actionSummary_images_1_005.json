@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A group of students (children/teenagers) in maroon and white uniforms are gathered on the right sidewalk. A female pedestrian, adult, wearing dark clothing and holding a plaid umbrella, crosses the road from the left side. Other pedestrians with umbrellas are visible on the left side of the road.",
+  "summary": "The video segment captures a driving scenario on a wet urban road during what appears to be daytime, indicated by the date and time stamp (2017/03/10 12:02:30). The road surface is visibly wet, suggesting recent or ongoing rain. The self-driving vehicle is positioned behind a red car, which is stationary or moving very slowly. On the left side of the road, a large green bus is seen moving forward, passing the self-driving vehicle and the red car. As the green bus proceeds, it creates a significant visual obstruction. Suddenly, a female pedestrian, holding a plaid umbrella, emerges from behind the moving green bus on the left side of the road, stepping directly into the vehicle's potential path. This sudden appearance from behind a moving obstruction with minimal warning time constitutes a classic 'ghost probing' incident. On the right side of the road, a group of students in uniform are gathered on the sidewalk near a gas station, observing the traffic.",
+  "actions": "The self-driving vehicle is initially moving slowly or stationary, following a red car on a wet urban road. The vehicle maintains its position behind the red car, indicating it is adhering to traffic flow and maintaining a safe following distance. As a large green bus passes on the left, creating a visual barrier, the vehicle's sensors detect a pedestrian suddenly emerging from behind the bus. In response to this unexpected 'ghost probing' event, the vehicle immediately initiates braking to reduce speed and prevent a potential collision with the pedestrian who has entered the roadway. The vehicle's action is a direct and necessary safety response to the sudden appearance of the pedestrian from a blind spot created by the moving bus.",
+  "key_objects": "1) Left side: A large green bus, approximately 5-10 meters away, moving forward and acting as a dynamic physical obstruction that completely hides the pedestrian until emergence. 2) Left side: A female pedestrian, adult, holding a plaid umbrella, approximately 3-5 meters away, suddenly emerging from behind the moving green bus and stepping into the vehicle's path, creating an immediate collision risk. 3) Center-front: A red car, approximately 2-3 meters away, stationary or moving slowly, dictating the immediate traffic flow ahead of the self-driving vehicle.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

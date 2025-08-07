@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_010",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a relatively empty road with no visible pedestrians or other vehicles posing immediate danger. The road is clear, and there are no obstacles or sudden movements from any objects.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, driving straight on the road. There are no changes in speed or direction observed in the frames provided.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_010",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.5s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a straight road. A white sedan is visible on the left side of the road, initially parked and then starting to move forward. The road ahead is clear with no immediate obstacles.",
+        "actions": "The self-driving vehicle maintains a steady speed and direction, as there are no immediate threats or obstacles in its path. The vehicle is driving at a consistent speed, keeping a safe distance from the white sedan on the left.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, initially parked and then starting to move forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,19 @@
+{
+  "video_id": "images_4_004",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.0s",
+      "summary": "The self-driving car is moving forward on a city street with buildings on both sides. From 0.0s to 2.0s, the car is driving behind another car. At 2.0s, a cyclist wearing a light-colored shirt and dark pants is riding a bicycle on the right side of the road, separated from the car by a barrier. From 6.0s to 9.0s, the car approaches an intersection under an overpass. The traffic light is red, and there are several people and vehicles waiting to cross the intersection. A cyclist wearing a blue shirt is on the right side of the road, waiting to cross.",
+      "actions": "The vehicle is driving straight on a city road, following the car in front. The driver is maintaining a safe distance from the car ahead. As the vehicle approaches the intersection, the driver slows down because the traffic light is red.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    }
+  ]
+}

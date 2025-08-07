@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_30_005",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a truck",
+        "summary": "In this segment, the vehicle is approaching a traffic light intersection. A white sedan is parked on the left side of the road. A truck suddenly appears from the left side and cuts into the lane, causing dust and debris to fly. The trucks abrupt movement poses a significant danger to the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The sudden appearance of the truck from the left side forces the vehicle to decelerate rapidly to avoid a collision.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, parked and stationary. 2) Left side: A truck, approximately 5 meters away, suddenly cuts into the lane, causing dust and debris to fly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

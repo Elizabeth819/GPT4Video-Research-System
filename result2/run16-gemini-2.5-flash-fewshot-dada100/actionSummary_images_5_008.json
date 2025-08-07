@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_008",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) Left side: A cyclist, gender and age unknown, wearing dark clothing, who falls to the ground after a collision. 2) Right side: A person in a bright yellow/green raincoat, standing near a structure, observing the scene.",
+  "summary": "In this segment, the vehicle is driving on a wet urban road, approaching an intersection or crosswalk. The road surface is visibly wet, indicating rain or recent rain. A red car is observed moving on the left side of the road, ahead of the self-driving vehicle. Suddenly, a cyclist on a bicycle emerges from the left side of the road, darting out from behind the moving red car and partially obscured by roadside trees and buildings. The cyclist enters the vehicle's path with minimal warning time, creating an immediate and unavoidable collision. The impact causes the cyclist and bicycle to fall to the ground directly in front of the vehicle.",
+  "actions": "The self-driving vehicle was initially proceeding at a consistent speed, navigating the wet road conditions. Upon the sudden and unexpected emergence of the cyclist from behind the moving red car and other roadside obstructions (trees and buildings), the vehicle immediately initiated rapid deceleration and emergency braking. The visible splash of water in the frames around the time of impact indicates a forceful braking action on the wet surface, as the vehicle attempts to mitigate the collision with the suddenly appearing cyclist.",
+  "key_objects": "1) Left side: A cyclist on a bicycle, initially obscured, then approximately 3-5 meters away, suddenly emerging from behind a moving red car and roadside trees/buildings, darting into the vehicle's path and resulting in a collision. 2) Left side: A red car, approximately 5-10 meters away, moving in the same direction, temporarily acting as a visual obstruction that obscured the cyclist's view until emergence. 3) Left side: Roadside trees and buildings, creating a stationary visual barrier that further obscured the cyclist's approach.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

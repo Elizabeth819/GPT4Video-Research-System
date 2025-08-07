@@ -1,0 +1,129 @@
+{
+  "experiment_info": {
+    "experiment_type": "DADA-100 Few-shot Ablation",
+    "timestamp": "20250802_071843",
+    "dataset": "DADA-100-videos",
+    "model": "GPT-4o (Azure)",
+    "prompt_version": "Run8-Rerun + Text Few-shot + 9 Image Few-shot",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "purpose": "消融实验：评估9张鬼探头图像few-shot在DADA-100上的性能提升",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640",
+    "dataset_info": {
+      "total_videos": 101,
+      "video_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos",
+      "ground_truth_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/labels.csv"
+    },
+    "fewshot_config": {
+      "text_fewshot_examples": 3,
+      "image_fewshot_examples": 9,
+      "image_sequences": 3,
+      "images_per_sequence": 3,
+      "sequence_pattern": "before-during-after"
+    },
+    "enhanced_characteristics": [
+      "基于run8-rerun的完全相同prompt",
+      "4个详细任务分析",
+      "3个文本few-shot examples",
+      "9张鬼探头图像visual examples",
+      "DADA-100专门标注数据集",
+      "Temperature=0确保一致性",
+      "专注ghost probing检测性能评估"
+    ]
+  },
+  "processed_videos": [
+    {
+      "video_id": "images_1_001",
+      "status": "success",
+      "duration": 14.67,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/results/actionSummary_images_1_001.json"
+    },
+    {
+      "video_id": "images_1_002",
+      "status": "success",
+      "duration": 11.47,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/results/actionSummary_images_1_002.json"
+    },
+    {
+      "video_id": "images_1_003",
+      "status": "success",
+      "duration": 10.53,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/results/actionSummary_images_1_003.json"
+    },
+    {
+      "video_id": "images_1_004",
+      "status": "success",
+      "duration": 15.4,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/results/actionSummary_images_1_004.json"
+    },
+    {
+      "video_id": "images_1_005",
+      "status": "success",
+      "duration": 14.27,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/results/actionSummary_images_1_005.json"
+    },
+    {
+      "video_id": "images_1_006",
+      "status": "success",
+      "duration": 14.13,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/results/actionSummary_images_1_006.json"
+    },
+    {
+      "video_id": "images_1_007",
+      "status": "success",
+      "duration": 14.13,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/results/actionSummary_images_1_007.json"
+    },
+    {
+      "video_id": "images_1_008",
+      "status": "success",
+      "duration": 5.73,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/results/actionSummary_images_1_008.json"
+    },
+    {
+      "video_id": "images_1_009",
+      "status": "success",
+      "duration": 6.07,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/results/actionSummary_images_1_009.json"
+    },
+    {
+      "video_id": "images_1_010",
+      "status": "success",
+      "duration": 22.67,
+      "frames_extracted": 20,
+      "fewshot_images_used": 9,
+      "total_images_sent": 29,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/results/actionSummary_images_1_010.json"
+    }
+  ],
+  "successful_analyses": 10,
+  "failed_analyses": 0,
+  "processing_errors": []
+}

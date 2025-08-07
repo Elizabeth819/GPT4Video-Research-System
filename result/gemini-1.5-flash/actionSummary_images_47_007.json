@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_47_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area with parked cars on both sides of the road. The vehicle is moving at a steady pace, maintaining a safe distance from the parked cars. No pedestrians or other vehicles are seen making sudden movements or entering the vehicles path.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, maintaining a safe distance from the parked cars on both sides of the road. The vehicle is keeping straight and not making any turns or sudden stops.",
+        "key_objects": "1) Left side: A black car, approximately 2 meters away, parked and stationary. 2) Right side: A white car, approximately 3 meters away, parked and stationary. 3) Front: A red car, approximately 5 meters away, parked and stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a city road. A motorcycle is seen moving from the left side of the road towards the center lane, potentially causing a collision.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the motorcycles movement. The vehicle is likely preparing to decelerate or stop to avoid a collision.",
+        "key_objects": "1) Left side: A motorcycle, approximately 5 meters away, moving towards the center lane, potentially causing a collision.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_007",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.6s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a green and white taxi",
+        "summary": "In this segment, the vehicle is driving on an urban road. A green and white taxi is visible on the right side of the road, moving slightly towards the center lane. The road ahead is clear with some pedestrians visible in the distance.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while driving straight. The vehicle is keeping a safe distance from the taxi on the right side, which is moving slightly towards the center lane.",
+        "key_objects": "1) Right side: A green and white taxi, approximately 3 meters away, moving slightly towards the center lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,46 @@
+{
+  "视频信息": {
+    "视频ID": "images_2_004",
+    "检测类型": "✅ 正常交通",
+    "准确性评估": "✅ 正确判断为正常",
+    "Ground Truth": "none",
+    "处理时间": "0.31秒"
+  },
+  "检测结果详情": {
+    "关键动作": "normal traffic flow",
+    "场景概述": "Video analysis shows normal traffic flow scenario with max frame change of 0.1195",
+    "场景主题": "Safe",
+    "情感色调": "Positive",
+    "关键对象": "1) Front view: traffic objects at various distances 2) Road environment: safe conditions",
+    "下一步动作": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  "技术分析": {
+    "最大帧变化": 0.1195,
+    "平均帧变化": 0.0816,
+    "帧变化序列": [
+      0.0777,
+      0.0778,
+      0.0645,
+      0.0921,
+      0.1195,
+      0.0688,
+      0.0779,
+      0.0889,
+      0.0669
+    ],
+    "置信度分数": 0.2,
+    "突然变化次数": 0,
+    "分析时间": "0.1367秒",
+    "检测方法": "GPT-4.1-Balanced-Prompt + CLIP"
+  },
+  "模型元数据": {
+    "模型": "LLaVA-GPT-4.1-Balanced-Prompt",
+    "时间戳": "2025-07-22T03:20:09.124377",
+    "设备": "cuda",
+    "帧数": 10
+  }
+}

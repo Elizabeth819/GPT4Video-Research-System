@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_1_006",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "9.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-vehicle, motorcyclists, pedestrians, bus driver",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Initially, there are multiple motorcyclists on the left side of the road. As the vehicle progresses, it encounters a bus ahead and several parked cars on both sides. Towards the end, a pedestrian suddenly appears from the right side, crossing the road in front of the vehicle, creating a potential collision risk.",
+        "actions": "The self-vehicle is driving at a moderate speed, maintaining a safe distance from the bus ahead. The vehicle slows down as it approaches the pedestrian crossing the road from the right side, indicating a need for immediate braking to avoid a collision.",
+        "key_objects": "1) Left side: Multiple motorcyclists, approximately 5 meters away, moving forward. 2) Front: A bus, approximately 20 meters away, moving forward. 3) Right side: A pedestrian, approximately 2 meters away, crossing the road suddenly.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_006",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Child on the road",
+        "summary": "In this segment, a child suddenly appears from the left side of the road and moves into the path of the vehicle. The child is wearing a blue jacket and is approximately 1-2 meters away from the vehicle. The child continues to move towards the center of the lane, causing the vehicle to decelerate rapidly to avoid a collision.",
+        "actions": "The vehicle decelerates rapidly as the child moves into its path. The driver is forced to brake to avoid hitting the child.",
+        "key_objects": "1) Left side: A child in a blue jacket, approximately 1-2 meters away, moving into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

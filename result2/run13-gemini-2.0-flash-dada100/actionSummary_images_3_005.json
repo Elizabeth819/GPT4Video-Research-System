@@ -1,0 +1,33 @@
+{
+  "video_id": "images_3_005",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "11.4s",
+  "summary": "The self-driving car is moving on a city road with buildings on both sides. From 0.0s to 6.0s, the car is driving straight. At 6.0s, a male motorcyclist wearing a white helmet and dark clothing is seen on the right side of the road. From 7.0s to 11.4s, the car approaches an intersection with a bus stopped on the left side. A male wearing a blue jacket is crossing the road from left to right in front of the bus. The car slows down to prepare to stop at the intersection.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "white helmet, dark clothing",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "behavior": "riding on the right side of the road"
+    },
+    {
+      "gender": "male",
+      "clothing": "blue jacket",
+      "age": "adult",
+      "transportation_method": "walking",
+      "behavior": "crossing the road from left to right in front of the bus"
+    }
+  ],
+  "key_objects": [
+    "Left side: A male wearing a blue jacket, approximately 10 meters away, crossing the road from left to right in front of the bus, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a city road. The driver slows down as approaching an intersection with a bus stopped on the left side, likely preparing to stop for the pedestrian crossing the road.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "none"
+}

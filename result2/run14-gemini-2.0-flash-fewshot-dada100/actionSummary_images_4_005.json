@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_005",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A bus, a red car, a cyclist wearing a red jacket and black pants, and another cyclist.",
+  "summary": "The vehicle is driving on a road with multiple lanes in the same direction. Initially, a bus is ahead in the same lane. A red car is on the left side of the road. As the vehicle approaches an intersection, a cyclist wearing a red jacket and black pants starts to cross the road from the right side. Another cyclist is also present on the right side of the road.",
+  "actions": "The vehicle is maintaining a steady speed, following the lane markings. The driver is likely maintaining speed to keep pace with the flow of traffic and is preparing to navigate the upcoming intersection. The vehicle is driving straight.",
+  "key_objects": "1) Right side: A cyclist wearing a red jacket and black pants, approximately 10 meters away, crossing the road. 2) Right side: Another cyclist, approximately 15 meters away, on the side of the road.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

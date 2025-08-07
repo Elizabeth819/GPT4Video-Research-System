@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_040",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, cyclists, and drivers. The child is wearing a blue jacket and is seen darting into the road from the right side. The adult is also on the right side, possibly accompanying the child. Cyclists are present on the right side of the road in some frames.",
+  "summary": "The video sequence shows a vehicle driving through various urban environments. In the first set of frames, a child suddenly runs into the road from the right side, emerging from behind a parked vehicle, creating an immediate collision risk. In the second set of frames, a pedestrian with a child suddenly appears from behind a parked vehicle on the left side, crossing the road. In the third set of frames, a pedestrian suddenly runs into the road from the left side, emerging from behind a parked vehicle, creating an immediate collision risk.",
+  "actions": "The vehicle is moving forward at a steady pace. In the first set of frames, the child on the right side suddenly runs into the road, requiring immediate braking. In the second set of frames, the pedestrian with a child on the left side suddenly appears, requiring immediate braking. In the third set of frames, the pedestrian on the left side suddenly runs into the road, requiring immediate braking.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians, cyclists, and street lights. The parked vehicles create visual obstructions, hiding the pedestrians until they suddenly appear in the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

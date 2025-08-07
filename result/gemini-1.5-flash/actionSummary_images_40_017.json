@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_40_017",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "2.7s",
+        "scene_theme": "Highway",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is traveling on a highway road. The road conditions appear normal with no immediate obstacles or hazards.",
+        "actions": "The self-driving vehicle is maintaining a accelerate throughout this segment. There are no sudden changes in speed or direction observed.",
+        "key_objects": "None visible in this segment.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "accelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_017",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "2.7s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "5.5s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is traveling on a urban road. The road conditions appear normal with no immediate obstacles or hazards.",
+        "actions": "The self-driving vehicle is maintaining a decelerate throughout this segment. There are no sudden changes in speed or direction observed.",
+        "key_objects": "None visible in this segment.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_017",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "5.5s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.2s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is traveling on a urban road. The road conditions appear normal with no immediate obstacles or hazards.",
+        "actions": "The self-driving vehicle is maintaining a decelerate throughout this segment. There are no sudden changes in speed or direction observed.",
+        "key_objects": "None visible in this segment.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

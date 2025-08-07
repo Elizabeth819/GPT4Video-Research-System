@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_016",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Adult female in a red coat, approximately 50 years old, crossing the road; red sedan; silver sedan",
+  "summary": "The vehicle is traveling on a highway. From timestamp 3.9s to 6.8s, an adult female wearing a red coat is seen crossing the road from right to left. She appears from behind a roadside barrier, creating a potential ghost probing situation. The vehicle is approaching an area with buildings and roadside barriers, which could obstruct the view of pedestrians or vehicles.",
+  "actions": "The vehicle maintains a consistent speed initially. From timestamp 3.9s to 6.8s, the vehicle decelerates as a female in a red coat is crossing the road. The driver is likely slowing down to ensure the pedestrian can safely cross and to avoid a potential collision.",
+  "key_objects": "1) Right side: Adult female in a red coat, approximately 5 meters away, crossing the road from behind a roadside barrier, creating a potential ghost probing situation. 2) Right side: Roadside barrier, approximately 3 meters away, obstructing the view of the pedestrian until she is already crossing the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

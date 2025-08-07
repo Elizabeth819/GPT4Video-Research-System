@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult person is riding a bicycle. The person is wearing dark clothing, and the bicycle appears to have some reflective elements, making it visible under the vehicle's headlights.",
+  "summary": "The scene takes place at night, with the vehicle driving under a complex overpass or elevated road structure. The road ahead is illuminated by the vehicle's headlights. From the initial frame at 0.0s, a person on a bicycle is visible in the distance, positioned in the center-right portion of the vehicle's lane, traveling towards the vehicle. As the video progresses, the vehicle continues to approach the cyclist. By 9.0s, the cyclist is significantly closer and remains directly in the vehicle's path. At 10.0s, the cyclist is very close, directly in front of the vehicle, necessitating immediate evasive action.",
+  "actions": "The vehicle initially maintains a steady speed and direction as it proceeds straight under the overpass. As the cyclist, who is traveling in the opposite direction, becomes increasingly closer and remains in the vehicle's direct path, the vehicle begins to decelerate. This deceleration is a critical safety response, aimed at reducing the closing speed and increasing the available reaction time to prevent a collision with the oncoming cyclist. The driver is actively applying brakes to manage the hazardous situation created by the cyclist's presence in the lane.",
+  "key_objects": "1) Position: Center-right of the image, moving towards the vehicle: A person on a bicycle. This object is directly in the vehicle's path, creating an immediate collision risk and requiring the vehicle to perform rapid deceleration and potentially an evasive steering maneuver.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "turn left",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_4_003",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017/04/20 08:32:13",
+    "End_Timestamp": "2017/04/20 08:32:21",
+    "summary": "The vehicle is driving on a street with parked cars on both sides. A pedestrian walks out from between parked cars on the right side of the road.",
+    "actions": "The vehicle is driving straight. The driver should be aware of pedestrians potentially crossing the street from between parked cars.",
+    "key_objects": [
+      "vehicle",
+      "pedestrian",
+      "parked cars"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed, be prepared to brake",
+      "direction_control": "stay in lane",
+      "lane_control": "none"
+    }
+  }
+]

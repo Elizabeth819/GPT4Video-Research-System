@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is approaching an intersection. A white car is to the left. A person on a scooter appears from behind a small green vehicle on the right. A pedestrian appears to be picking something up in the middle of the road.",
+    "actions": "Ego vehicle is moving forward. White car is stationary. Scooter is moving into the intersection. Pedestrian is picking up an object.",
+    "characters": "Pedestrian, scooter driver",
+    "key_objects": "Ego vehicle, white car, scooter, pedestrian, green vehicle, intersection",
+    "key_actions": "potential ghost probing: Scooter appears from behind the green vehicle.",
+    "next_action": "Ego vehicle will continue moving forward."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_008",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "16.5s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Female cyclist with long dark hair, wearing a dark jacket and light pants, approximately 20-30 years old; Male pedestrian on the right sidewalk; Driver of a black sedan; Driver of a white van; Driver of a small scooter/motorcycle.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane urban road during daytime, approaching a busy intersection. As the vehicle nears the crosswalk, a large building on the right side of the road acts as a significant visual obstruction, completely hiding any approaching traffic or pedestrians from the cross-street or sidewalk. A female cyclist suddenly emerges from behind this building, darting into the crosswalk directly into the vehicle's path with minimal warning. This sudden appearance from behind an obstruction creates an immediate and unavoidable dangerous situation, resulting in the cyclist falling in front of the vehicle.",
+  "actions": "The self-driving vehicle is initially proceeding towards the intersection at a moderate speed, navigating typical urban traffic conditions. As it approaches the crosswalk, a female cyclist unexpectedly appears from behind a large building on the right side, which had completely obstructed her from view. In response to this sudden and unannounced emergence, the vehicle immediately initiates emergency braking, leading to rapid deceleration to avoid or mitigate a collision. The vehicle comes to a complete stop after the cyclist falls directly in its path.",
+  "key_objects": "1) Right side: A large, multi-story building with a curved glass facade, located at the corner of the intersection. This building serves as a significant physical obstruction, completely blocking the view of the cross-street and sidewalk until a subject emerges from behind it. 2) Right side: A female cyclist, approximately 20-30 years old, riding a bicycle. She suddenly emerges from behind the aforementioned building at approximately 14.4 seconds, entering the crosswalk directly into the vehicle's path, creating an immediate collision risk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

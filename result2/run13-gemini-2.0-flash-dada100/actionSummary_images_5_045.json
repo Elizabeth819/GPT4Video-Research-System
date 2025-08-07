@@ -1,0 +1,15 @@
+{
+  "video_id": "images_5_045",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "11.3s",
+  "summary": "The self-driving car is currently in a traffic jam, moving slowly in the right lane. The road is surrounded by trees and buildings. There are metal barriers on the left side of the road. The traffic is heavy, with multiple cars ahead. From 0.0s to 11.3s, the car is moving slowly in the right lane, and there are no immediate dangerous actions detected. The car is surrounded by other vehicles, and there are no pedestrians or cyclists visible. The weather appears to be sunny and clear. The car is moving at a very slow speed due to the traffic jam.",
+  "actions": "The vehicle is currently driving slowly in a traffic jam. The driver is likely maintaining a slow speed to avoid collisions with the surrounding vehicles. The vehicle is staying in the right lane, likely because the other lanes are also congested. The driver is likely monitoring the surrounding traffic and maintaining a safe following distance from the vehicle in front.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

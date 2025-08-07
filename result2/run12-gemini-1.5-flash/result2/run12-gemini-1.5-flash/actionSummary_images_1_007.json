@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_007",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Street",
+    "sentiment": "Neutral",
+    "characters": "Multiple pedestrians, drivers of various vehicles.",
+    "summary": "The video shows a car driving down a tree-lined urban street.  The road is relatively clear with some pedestrian traffic on the sidewalks. Several vehicles are visible in the distance, moving in the same direction.  Pedestrians are walking along the sidewalks on both sides of the street. No immediate dangerous situations are observed; traffic flow is consistent and moderate.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment.  The vehicle smoothly navigates the street, adjusting speed slightly to maintain a safe distance from other vehicles and pedestrians.  There are no sudden braking or acceleration events.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_007",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.1s",
+    "scene_theme": "Urban Road",
+    "sentiment": "Neutral",
+    "characters": "A driver in a car, pedestrians, a person on a bicycle.",
+    "summary": "The video shows a car driving down a city street lined with trees and buildings.  Pedestrians are walking on the sidewalks on both sides of the street. A person on a bicycle is visible on the right side of the street. The car maintains a consistent speed and stays in its lane. No sudden movements or near-miss incidents are observed during this segment. The traffic is light.",
+    "actions": "The self-driving vehicle maintains a consistent speed and stays in its lane throughout the observed segment.  There are no observable changes in speed or direction. The vehicle's actions suggest a routine driving scenario with light traffic.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

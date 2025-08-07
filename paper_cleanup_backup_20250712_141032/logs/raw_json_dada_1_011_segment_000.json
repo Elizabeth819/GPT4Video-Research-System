@@ -1,0 +1,19 @@
+
+{
+  "video_id": "dada_1_011",
+  "segment_id": "segment_000",
+  "Start_Timestamp": "0.0s",
+  "sentiment": "Neutral",
+  "End_Timestamp": "9.0s",
+  "scene_theme": "Calm",
+  "characters": "Driver of the self-vehicle",
+  "summary": "In this segment, the vehicle is driving on a suburban road with light traffic. The road is clear with a few parked cars on the right side. The vehicle maintains a steady speed and lane position throughout the segment.",
+  "actions": "The self-driving vehicle maintains a consistent speed and lane position. There are no sudden changes in speed or direction, indicating a calm driving environment.",
+  "key_objects": "1) Right side: A black car, approximately 10 meters away, parked and not posing any immediate threat. 2) Right side: A white car, approximately 15 meters away, parked and not posing any immediate threat.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "consistent speed driving",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

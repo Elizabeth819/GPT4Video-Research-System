@@ -1,0 +1,14 @@
+{
+    "subscription_id": "0d3f39ba-7349-4bd7-8122-649ff18f0a4a",
+    "resource_group": "drivelm-rg",
+    "workspace_name": "drivelm-ml-workspace",  
+    "experiment_name": "drivemm_real_analysis",
+    "compute_target": "h100-cluster",
+    "environment": "AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10",
+    "script": "azure_drivemm_real_inference.py",
+    "input_data": "azure://drivelmmstorage2e932dad7/dada-videos/",
+    "output_data": "azure://drivelmmstorage2e932dad7/drivemm-results/",
+    "parameters": {
+      "batch_size": 1
+    }
+  }

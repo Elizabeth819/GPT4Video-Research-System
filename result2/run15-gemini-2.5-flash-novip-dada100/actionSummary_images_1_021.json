@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_021",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male pedestrian wearing a white shirt and dark pants is seen running across a pedestrian crossing. Other pedestrians are visible on the sidewalks on both sides of the road.",
+  "summary": "The video segment captures a vehicle navigating a wet urban street. Initially, the vehicle is following a large red and green bus on its left. As the vehicle approaches a marked pedestrian crossing, its view of the right side of the road is momentarily obstructed by a red car and then a white car, both moving or stationary on the right. Suddenly, a male pedestrian, previously hidden by these vehicles and the roadside buildings, darts out from the right side of the frame, running rapidly onto the pedestrian crossing directly into the vehicle's path. The vehicle immediately initiates rapid braking to avoid a collision, successfully coming to a complete stop as the pedestrian clears the lane and continues across the road.",
+  "actions": "The vehicle was initially moving forward at a moderate speed, maintaining its lane while following a large red and green bus on its left. As the vehicle approached a pedestrian crossing, a sudden and unexpected appearance of a pedestrian from behind a red car and a white car on the right side of the road prompted an immediate and rapid deceleration. The driver applied the brakes forcefully to prevent a collision with the pedestrian who darted into the vehicle's path with minimal warning. This decisive braking action was taken to prioritize the safety of the pedestrian and to avert an imminent accident, bringing the vehicle to a complete stop until the pedestrian had safely cleared the crosswalk.",
+  "key_objects": "1) Right side: A male pedestrian, approximately 5-10 meters away, suddenly darting onto the pedestrian crossing from behind a red car and a white car, creating an immediate collision risk. \n2) Right side: A red car, approximately 10-15 meters away, initially obstructing the view of the pedestrian before they emerged. \n3) Right side: A white car, approximately 10-15 meters away, further obstructing the view of the pedestrian after the red car moved. \n4) Left side: A large red and green bus, approximately 5-15 meters away, moving forward in the adjacent lane, acting as a visual obstruction on the left.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

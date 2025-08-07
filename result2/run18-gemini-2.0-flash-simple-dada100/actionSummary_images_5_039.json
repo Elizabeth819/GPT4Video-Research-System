@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_039",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car, with other vehicles on the road. Later in the video, a man is seen standing next to a fallen scooter on the road.",
+  "summary": "The video starts with the car driving on a multi-lane road with other vehicles. The car maintains its lane and speed. Around the 9-second mark, the car approaches a scene where a scooter has fallen on the road, and a man is standing next to it. The car begins to decelerate.",
+  "actions": "The vehicle initially maintains a constant speed and lane position, following the flow of traffic. As the vehicle approaches the accident scene with the fallen scooter and the man, the driver begins to decelerate to avoid a collision and assess the situation.",
+  "key_objects": "1) Left: Fallen scooter on the road, medium distance, poses a collision risk. 2) Left: Man standing next to the scooter, medium distance, poses a collision risk.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

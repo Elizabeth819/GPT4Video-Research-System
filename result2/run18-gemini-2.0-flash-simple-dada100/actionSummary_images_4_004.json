@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car driving on a city street. There are other cars on the road, and pedestrians and cyclists are visible on the sidewalks and crosswalks. The buildings are tall and dense, indicating an urban environment. The cyclist is wearing casual clothing and riding a bicycle. The pedestrians are wearing various types of clothing.",
+  "summary": "The vehicle starts driving on a city street with moderate traffic. The vehicle approaches an intersection under a bridge. The traffic light turns red, and the vehicle stops at the intersection. Pedestrians and cyclists are crossing the street.",
+  "actions": "The vehicle is initially driving at a moderate speed, maintaining its lane. As it approaches the intersection, the driver likely observes the traffic light changing and begins to decelerate. The vehicle comes to a complete stop at the intersection due to the red light.",
+  "key_objects": "1) Right: Cyclist, medium distance, crossing the street, potential collision if the car doesn't stop. 2) Front: Traffic light, far distance, turns red, causing the car to stop.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

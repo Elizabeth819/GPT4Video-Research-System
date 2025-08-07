@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_019",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Adult male, wearing a blue shirt and dark pants, lying in the middle of the road.",
+  "summary": "The vehicle is driving on a narrow road in a rural area. At approximately 3.0s, an adult male wearing a blue shirt and dark pants suddenly appears in the middle of the road. The man is lying down and appears to be injured or unconscious. The vehicle will need to take immediate action to avoid hitting the man.",
+  "actions": "The vehicle is driving at a moderate speed on a narrow road. The driver is likely maintaining this speed due to the road conditions and limited visibility. The vehicle will need to decelerate rapidly to avoid the man lying in the road.",
+  "key_objects": "1) Front: Adult male, wearing a blue shirt and dark pants, approximately 5 meters away, lying in the middle of the road, creating an immediate obstacle.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_023",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.2s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several pedestrians are crossing the road at a crosswalk. A black sedan is stopped in the middle of the road, and a person is lying on the ground next to it. Other vehicles are present on the road.",
+  "summary": "The vehicle is approaching a crosswalk where several pedestrians are crossing. A black sedan has stopped abruptly in the middle of the road, and a person is lying on the ground next to the car. This suggests a possible collision or accident has occurred. The situation presents a significant hazard to the self-driving vehicle and other road users.",
+  "actions": "The self-driving vehicle is proceeding forward. The driver will likely need to decelerate or stop to avoid the stopped black sedan and the person lying on the ground. The driver is assessing the situation and preparing to take evasive action if necessary.",
+  "key_objects": "1) Front: A black sedan, approximately 10 meters away, stopped abruptly in the middle of the road, creating an immediate obstacle. 2) Front: A person, approximately 10 meters away, lying on the ground next to the black sedan, indicating a potential accident and requiring immediate attention.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

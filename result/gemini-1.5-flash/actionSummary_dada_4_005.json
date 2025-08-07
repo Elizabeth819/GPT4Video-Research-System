@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_4_005",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00.000",
+    "End_Timestamp": "00:00:03.333",
+    "summary": "The vehicle is driving on a road with multiple lanes in each direction. There is a bus in front of the vehicle. At an intersection, a cyclist appears from behind the bus and starts crossing the road.",
+    "actions": "The vehicle is driving straight. The driver should be aware of the cyclist crossing the road.",
+    "key_objects": [
+      "vehicle",
+      "bus",
+      "cyclist"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed, be prepared to slow down",
+      "direction_control": "stay in lane",
+      "lane_control": "none"
+    }
+  }
+]

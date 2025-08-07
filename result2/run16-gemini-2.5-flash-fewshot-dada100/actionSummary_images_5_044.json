@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_044",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter or e-bike, wearing dark clothing, appears to be an adult.",
+  "summary": "In this segment, the self-driving vehicle is navigating a wet urban road with multiple lanes and parked vehicles on the right side. The weather appears overcast or rainy, as indicated by the wet road surface and the activation of the windshield wiper. As the vehicle approaches a crosswalk, a person on a scooter or e-bike suddenly emerges from behind a parked white van on the right side of the road. This individual quickly enters the vehicle's path, creating a 'ghost probing' scenario due to the sudden appearance from behind a visual obstruction with minimal reaction time for the driver.",
+  "actions": "The self-driving vehicle is initially maintaining a moderate speed appropriate for the urban environment and wet road conditions. As the vehicle approaches the crosswalk and the person on the scooter suddenly appears from behind the parked white van on the right side (between 1.8s and 2.8s), the vehicle immediately initiates deceleration. The activation of the windshield wiper around 3.7s suggests a responsive action, possibly related to the driver's immediate reaction to the sudden hazard or a general increase in caution due to the wet conditions and the unexpected emergence. The vehicle slows down to allow the scooter rider to clear its path, demonstrating a safety-first response to avoid a potential collision.",
+  "key_objects": "1) Right side: A person on a scooter/e-bike, approximately 5-7 meters away when first visible, suddenly emerging from behind a parked white van and crossing the vehicle's path, creating an immediate collision risk. 2) Right side: A parked white van/minivan, approximately 8-10 meters away, serving as a physical obstruction that completely hid the approaching scooter rider until their sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

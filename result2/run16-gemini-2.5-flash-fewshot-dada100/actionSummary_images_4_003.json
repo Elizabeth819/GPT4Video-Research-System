@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male pedestrian, adult, wearing a dark jacket and light pants, pushing a bicycle.",
+  "summary": "In this segment, the self-driving vehicle is initially stationary on an urban road with parked cars lining both sides. As the vehicle begins to move forward, a male pedestrian pushing a bicycle suddenly emerges from behind a parked red car on the right side of the road. The red car, with its trunk open, acts as a significant visual obstruction, completely hiding the pedestrian until he steps directly into the vehicle's path. This sudden appearance with minimal warning time creates an immediate and dangerous 'ghost probing' situation, requiring the vehicle to take evasive action.",
+  "actions": "The self-driving vehicle is initially stationary (0km/h from 0.0s to 4.8s). As the scene progresses, the vehicle begins to accelerate, reaching 13km/h by 5.8s. However, upon the sudden emergence of the pedestrian from behind the parked red car, the vehicle immediately initiates rapid deceleration, reducing its speed to 9km/h by 6.7s, then 5km/h by 7.7s, and finally coming to a complete stop at 0km/h by 8.6s. This rapid deceleration and stop are taken to prevent a collision with the pedestrian who unexpectedly entered the vehicle's path from a blind spot.",
+  "key_objects": "1) Right side: A male pedestrian, adult, pushing a bicycle, approximately 2-3 meters away when first visible, suddenly emerging from behind a parked red car and its open trunk, stepping directly into the vehicle's path. 2) Right side: A red car with an open trunk, parked, approximately 5 meters away, creating a visual obstruction that completely hides the pedestrian until their sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

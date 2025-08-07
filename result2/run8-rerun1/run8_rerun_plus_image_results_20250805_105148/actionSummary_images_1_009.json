@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_009",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, crossing the road from the right side. Another pedestrian, a young man, crossing from the left side.",
+  "summary": "The video sequence shows multiple instances of pedestrians suddenly crossing the road from both the left and right sides, emerging from behind parked vehicles and other obstructions. This creates a high-risk situation for the observer vehicle, requiring immediate braking and collision avoidance maneuvers.",
+  "actions": "Pedestrians crossing the road from both sides, creating potential collision risks.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians emerging from behind these vehicles.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

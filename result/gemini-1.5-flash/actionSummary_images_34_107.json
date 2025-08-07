@@ -1,0 +1,26 @@
+[
+    {
+        "error": "API调用出错，状态码: 400，错误信息: {\"error\":{\"code\":\"BadRequest\",\"message\":\"Invalid image data.\",\"param\":null,\"type\":null}}",
+        "status": "error",
+        "code": 400,
+        "segment_id": "segment_000"
+    },
+    {
+        "video_id": "dada_34_107",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.4s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a red car, driver of a yellow taxi",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A black sedan is moving from the left side towards the center lane, potentially cutting in front of the observer vehicle. A red car is approaching from the right side, and a yellow taxi is visible in the background.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while monitoring the black sedans movement from the left side. The vehicle is also keeping an eye on the red car approaching from the right side.",
+        "key_objects": "1) Left side: A black sedan, approximately 2 meters away, moving towards the center lane, potentially cutting in front of the observer vehicle. 2) Right side: A red car, approximately 3 meters away, approaching the observer vehicle. 3) Front: A yellow taxi, approximately 10 meters away, moving forward.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_072",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a grey sedan, driver of a white bus",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. The traffic is dense, and the vehicle is following a grey sedan closely. A white sedan on the right side is attempting to merge into the lane, potentially causing a cut-in situation. The white bus ahead is maintaining its lane.",
+        "actions": "The self-driving vehicle is maintaining a close distance to the grey sedan ahead, likely due to heavy traffic. The vehicles speed appears to be steady, with occasional deceleration to match the traffic flow. The white sedan on the right side is attempting to merge into the lane, which may require the self-driving vehicle to adjust its speed or lane position.",
+        "key_objects": "1) Front: A grey sedan, approximately 5 meters away, maintaining a steady speed. 2) Right: A white sedan, approximately 2 meters away, attempting to merge into the lane. 3) Front: A white bus, approximately 10 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_072",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "11.2s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white sedan is seen on the right side, moving closer to the self-driving vehicles lane. The driver mentions that the sedan is cutting in from the adjacent lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while monitoring the white sedan on the right side. The vehicles speed remains steady to avoid sudden braking or collision.",
+        "key_objects": "1) Right side: A white sedan, approximately 1 meter away, moving closer to the self-driving vehicles lane, indicating a potential cut-in behavior.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

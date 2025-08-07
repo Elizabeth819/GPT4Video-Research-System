@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_020",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male adult on a black scooter wearing a black jacket, a white car in front, two adults crossing the street on the left side of the road.",
+  "summary": "The self-driving vehicle is traveling on a city street with buildings and trees lining both sides. There is a white car in front of the self-driving vehicle. At timestamp 2.0s, a male adult on a black scooter suddenly appears from the right side of the road, crossing the street. At timestamp 9.0s, two adults are crossing the street on the left side of the road.",
+  "actions": "The self-driving vehicle is maintaining a steady speed, following the white car in front. The vehicle may need to decelerate due to the scooter crossing the street and the two adults crossing the street on the left side of the road.",
+  "key_objects": "1) Right side: A male adult on a black scooter, approximately 10 meters away, suddenly crossing the street. 2) Left side: Two adults, approximately 15 meters away, crossing the street.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

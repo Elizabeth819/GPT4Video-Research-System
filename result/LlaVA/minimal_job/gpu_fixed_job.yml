@@ -1,0 +1,54 @@
+# GPU加速的真正LLaVA检测作业 - 修复版
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: real-llava-gpu-fixed
+description: "Real LLaVA Ghost Probing Detection with GPU acceleration and decord fix"
+
+# Compute configuration  
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code source
+code: .
+
+# GPU-accelerated LLaVA analysis
+command: >
+  echo "🚀 开始GPU加速的真正LLaVA鬼探头检测作业" &&
+  python --version &&
+  echo "📋 检查GPU和CUDA环境..." &&
+  nvidia-smi &&
+  python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA可用: {torch.cuda.is_available()}'); print(f'GPU: {torch.cuda.get_device_name() if torch.cuda.is_available() else \"N/A\"}')" &&
+  echo "🔧 安装依赖包..." &&
+  pip install decord transformers accelerate Pillow &&
+  echo "📁 检查输入数据路径..." &&
+  env | grep AZUREML_DATAREFERENCE_video_data &&
+  echo "📊 运行GPU加速的真正LLaVA检测..." &&
+  timeout 7200 python real_llava_gpu_fixed.py &&
+  echo "✅ GPU加速的LLaVA鬼探头检测作业完成"
+
+# Input data  
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+# Environment variables for GPU
+environment_variables:
+  CUDA_VISIBLE_DEVICES: "0"
+  TORCH_CUDA_ARCH_LIST: "7.0;7.5;8.0;8.6"
+
+# Experiment settings
+experiment_name: real-llava-gpu-experiment

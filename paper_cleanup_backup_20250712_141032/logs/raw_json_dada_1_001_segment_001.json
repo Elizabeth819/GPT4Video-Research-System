@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_001",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "End_Timestamp": "14.2s",
+    "scene_theme": "Dramatic",
+    "characters": "Pedestrian on the right, pedestrian crossing from left to right",
+    "summary": "In this segment, the vehicle is driving on a road with a red car ahead. A pedestrian on the right side of the road starts moving towards the center, while another pedestrian suddenly appears from the left side and crosses the road in front of the vehicle.",
+    "actions": "The self-driving vehicle is likely to decelerate due to the pedestrian crossing from the left side, which poses an immediate danger. The vehicles speed decreases to avoid a potential collision.",
+    "key_objects": "1) Left side: A pedestrian, approximately 2 meters away, suddenly crossing the road from left to right, causing the vehicle to decelerate. 2) Right side: A pedestrian, approximately 5 meters away, moving towards the center of the road, potentially causing further caution.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "decelerate",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

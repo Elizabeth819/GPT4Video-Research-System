@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle starts at an intersection with a green light and proceeds to drive straight on a highway. A silver car is in front of the ego vehicle. A scooter with a trailer is on the left side of the road.",
+    "actions": "Ego vehicle starts moving forward. The silver car is driving ahead. The scooter is entering the intersection from the left.",
+    "characters": [],
+    "key_objects": "Ego vehicle, silver car, scooter with trailer, traffic lights, intersection",
+    "key_actions": "The scooter entering the intersection from the left could be considered a 'potential ghost probing' situation as it is partially obscured by the left side of the vehicle and could potentially create a collision risk if the ego vehicle accelerates quickly.",
+    "next_action": "Ego vehicle will continue driving straight."
+  }
+]

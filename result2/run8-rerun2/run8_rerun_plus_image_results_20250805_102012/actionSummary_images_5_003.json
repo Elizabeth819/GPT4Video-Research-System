@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, cyclists, and motorcyclists observed. A child in a blue jacket suddenly appears from the right side of the image, darting into the road. In another sequence, a woman with a child on her back suddenly appears from the left side of the image, running into the road. In the final sequence, a motorcyclist with two passengers suddenly appears from the right side of the image, leading to a collision.",
+  "summary": "The video sequence shows multiple instances of 'ghost probing' behavior. In the first instance, a child suddenly appears from the right side of the image, darting into the road from behind a parked vehicle. In the second instance, a woman with a child on her back suddenly appears from the left side of the image, running into the road from behind a parked vehicle. In the final instance, a motorcyclist with two passengers suddenly appears from the right side of the image, leading to a collision.",
+  "actions": "The observer vehicle should immediately brake to avoid collision with the child, the woman, and the motorcyclist. The vehicle should also be prepared to take emergency maneuvers if necessary.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians, cyclists, motorcyclists, and street lights.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "emergency maneuver",
+    "lane_control": "maintain current lane"
+  }
+}

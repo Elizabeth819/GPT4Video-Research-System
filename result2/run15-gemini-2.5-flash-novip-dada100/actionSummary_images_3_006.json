@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a bicycle, wearing light-colored clothing, is seen crossing the road from the left side of the frame.",
+  "summary": "The video segment begins with the autonomous vehicle driving in the middle lane of a multi-lane road, following a dark-colored SUV. The road features clear lane markings, including arrows indicating straight and turn options. As the vehicle approaches an intersection, the SUV ahead activates its brake lights and begins to decelerate, coming to a stop. The autonomous vehicle mirrors this action, smoothly decelerating and coming to a complete stop behind the SUV at a marked crosswalk. Immediately after the vehicle stops, a person on a bicycle suddenly emerges from the left side of the frame, from behind the stopped SUV and roadside foliage, and proceeds to cross the road on the crosswalk. This sudden appearance constitutes a 'ghost probing' incident, although the autonomous vehicle's timely stop prevented an immediate collision.",
+  "actions": "The vehicle is initially moving forward, maintaining a consistent speed and a safe following distance from the dark-colored SUV ahead. As the lead SUV approaches the intersection (visible from Frame 4 onwards) and its brake lights illuminate (Frame 4), indicating deceleration or stopping, the autonomous vehicle begins to decelerate. This deceleration is a proactive response to the changing traffic conditions ahead, anticipating a stop at the intersection. The vehicle continues to brake smoothly, bringing itself to a complete stop behind the lead SUV by Frame 8, ensuring a safe distance is maintained and adhering to traffic flow, likely in response to a red traffic light or to yield to crossing pedestrians/cyclists at the crosswalk.",
+  "key_objects": "1) Left side: A red SUV, positioned directly in front of the autonomous vehicle, acts as a physical obstruction, partially obscuring the view of the crosswalk and anything approaching from the left. Its presence contributes to the 'ghost probing' scenario by hiding the cyclist. 2) Left side: A cyclist, appearing suddenly from behind the red SUV and roadside foliage at the crosswalk in Frame 9, directly entering the vehicle's potential path. This sudden emergence with minimal prior visibility is the core element of the 'ghost probing' behavior.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_5_026",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of the observer vehicle, a man in dark clothing exiting a building, a woman in red clothing exiting a building.",
+    "summary": "The video shows the observer vehicle driving on a city road.  A man in dark clothing and a woman in red clothing exit a building on the right side of the road. The man appears to be carrying something.  The woman walks towards the man, and both then cross the road in front of the observer vehicle. The man and woman's crossing of the road is relatively slow, but their initial emergence from behind the building could be considered a potential 'ghost probing' event due to limited visibility before their appearance.",
+    "actions": "The observer vehicle maintains a consistent speed, appearing to navigate a relatively clear road. There are no immediate changes in speed or direction observed in response to the pedestrians.",
+    "key_objects": "1) Right: A man in dark clothing, approximately 5 meters away initially, exiting a building and crossing the road in front of the vehicle. 2) Right: A woman in red clothing, approximately 6 meters away initially, exiting a building and crossing the road in front of the vehicle.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_026",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.3s",
+    "scene_theme": "Residential area",
+    "characters": "A man and a woman are interacting near the vehicle.  The woman appears to be wearing a red jacket. The man is wearing a dark suit.",
+    "summary": "The video shows a car stopped in front of a residential building. A man and a woman are interacting near the front of the vehicle. The woman appears to be handing something to the man. There are no other vehicles or pedestrians immediately threatening the vehicle's path. The scene is relatively calm and there are no apparent dangerous actions.",
+    "actions": "The vehicle is stationary.  The driver appears to be waiting while the man and woman interact near the vehicle. There is no indication of any immediate need to change speed or direction.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_009",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A man wearing a red helmet riding a scooter",
+  "summary": "The vehicle is driving on a road with moderate traffic. From 0.0s to 10.0s, the vehicle approaches an intersection. At 9.0s, a man wearing a red helmet on a scooter suddenly appears from behind a large, covered object on the left side of the road, entering the vehicle's lane. This constitutes a ghost probing incident due to the sudden appearance from behind an obstruction.",
+  "actions": "The vehicle is driving at a consistent speed, approaching an intersection. The driver likely intends to proceed straight through the intersection. The vehicle maintains its lane position. The driver may need to decelerate or brake to avoid a collision with the scooter.",
+  "key_objects": "1) Left side: A man wearing a red helmet on a scooter, approximately 5 meters away, suddenly emerging from behind a large covered object and entering the vehicle's lane. 2) Left side: A large covered object, approximately 3 meters away, creating a visual obstruction that hides the scooter until it emerges into the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

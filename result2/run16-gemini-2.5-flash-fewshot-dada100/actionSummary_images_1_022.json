@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_022",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male pedestrian in a blue t-shirt and dark pants, approximately 20-30 years old. Other cyclists and pedestrians are visible on the right sidewalk later in the segment.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban road with multiple lanes. As the vehicle approaches a marked crosswalk, a line of vehicles is stopped or moving slowly on the right side of the road, including a dark SUV positioned near the crosswalk. A male pedestrian suddenly emerges from behind this dark SUV on the right side, stepping directly onto the crosswalk and into the vehicle's path. The SUV acts as a significant visual obstruction, making the pedestrian's appearance sudden and unexpected, creating an immediate and dangerous 'ghost probing' situation with minimal reaction time for the driver.",
+  "actions": "The self-driving vehicle is initially moving forward on the urban road. Upon the sudden and unexpected appearance of a male pedestrian from behind a dark SUV on the right side of the road at the crosswalk (around 5.0s-6.0s), the vehicle immediately initiates rapid deceleration and applies braking. This decisive action is taken to prevent a collision with the pedestrian who entered the vehicle's path without prior warning due to the visual obstruction. The vehicle comes to a near stop to ensure the safety of the pedestrian.",
+  "key_objects": "1) Right side: A dark SUV, approximately 5-10 meters away, stopped near the crosswalk, serving as a physical obstruction that completely hid the pedestrian until their emergence. 2) Right side, then center: A male pedestrian, approximately 20-30 years old, wearing a blue t-shirt and dark pants, suddenly emerging from behind the dark SUV and stepping onto the crosswalk directly into the vehicle's path. At the point of emergence, he is approximately 3-5 meters away.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

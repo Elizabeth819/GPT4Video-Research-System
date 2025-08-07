@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.9s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A pedestrian, likely an adult male, wearing dark clothing (jacket/coat).",
+  "summary": "The video begins with the vehicle driving forward on a clear day along a two-lane road. On the right side of the road, there are buildings and bare trees that act as significant visual obstructions. As the vehicle approaches the 6.0-second mark, a pedestrian suddenly emerges from behind these buildings on the right side, darting directly into the vehicle's path. This sudden appearance, with minimal warning due to the obstruction, creates an immediate and severe collision risk. The vehicle is forced to take emergency evasive action, likely involving rapid deceleration and braking, to avoid hitting the pedestrian. The pedestrian continues to cross the road, narrowly avoiding impact with the vehicle. Concurrently, a large white truck is seen approaching from the opposite direction on the left side of the road, followed by a green bus.",
+  "actions": "The vehicle was initially maintaining a steady forward speed, driving straight in its lane. At approximately 6.0 seconds, upon the sudden and unexpected appearance of a pedestrian from behind a building on the right side of the road, the vehicle initiated rapid deceleration and emergency braking. This immediate and forceful braking action was taken due to the pedestrian's sudden entry into the vehicle's direct path, which created an unavoidable and high-risk collision scenario with extremely limited reaction time for the driver. The vehicle's speed was drastically reduced to prevent an impact with the pedestrian.",
+  "key_objects": "1) Position: Right side of the road, then directly in front: A pedestrian, an adult wearing dark clothing. This pedestrian suddenly darted out from behind a building, directly into the vehicle's path, creating an immediate and severe collision risk.\n2) Position: Right side of the road: Buildings and bare trees. These structures acted as physical obstructions, completely blocking the driver's view of the pedestrian until they emerged, making detection impossible prior to their sudden appearance.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

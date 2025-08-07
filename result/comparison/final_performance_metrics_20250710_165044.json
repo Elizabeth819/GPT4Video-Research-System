@@ -1,0 +1,83 @@
+{
+  "analysis_timestamp": "2025-07-10T16:50:44.481567",
+  "dataset_info": {
+    "ground_truth_file": "result/groundtruth_labels.csv",
+    "common_videos_count": 1,
+    "positive_samples": 0,
+    "negative_samples": 1,
+    "video_list": [
+      "images_1_001"
+    ]
+  },
+  "gpt4o_metrics": {
+    "model": "GPT-4o",
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "specificity": 0.0,
+    "balanced_accuracy": 0.0,
+    "true_positives": 0,
+    "true_negatives": 0,
+    "false_positives": 1,
+    "false_negatives": 0,
+    "total_samples": 1
+  },
+  "gemini_metrics": {
+    "model": "Gemini",
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "specificity": 0.0,
+    "balanced_accuracy": 0.0,
+    "true_positives": 0,
+    "true_negatives": 0,
+    "false_positives": 1,
+    "false_negatives": 0,
+    "total_samples": 1
+  },
+  "comparison": {
+    "accuracy": {
+      "gpt4o": 0.0,
+      "gemini": 0.0,
+      "difference": 0.0,
+      "percentage_change": 0
+    },
+    "precision": {
+      "gpt4o": 0.0,
+      "gemini": 0.0,
+      "difference": 0.0,
+      "percentage_change": 0
+    },
+    "recall": {
+      "gpt4o": 0.0,
+      "gemini": 0.0,
+      "difference": 0.0,
+      "percentage_change": 0
+    },
+    "f1_score": {
+      "gpt4o": 0.0,
+      "gemini": 0.0,
+      "difference": 0.0,
+      "percentage_change": 0
+    },
+    "specificity": {
+      "gpt4o": 0.0,
+      "gemini": 0.0,
+      "difference": 0.0,
+      "percentage_change": 0
+    },
+    "balanced_accuracy": {
+      "gpt4o": 0.0,
+      "gemini": 0.0,
+      "difference": 0.0,
+      "percentage_change": 0
+    }
+  },
+  "model_comparison_summary": {
+    "gpt4o": 0,
+    "gemini": 0,
+    "tie": 6
+  }
+}

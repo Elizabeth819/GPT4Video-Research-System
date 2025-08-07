@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_009",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter/motorcycle, wearing a red helmet and a brown jacket, is observed.",
+  "summary": "The video segment captures a vehicle driving on a multi-lane road with moderate traffic. Initially, the vehicle maintains its lane and follows a silver sedan. As it progresses, road markings indicating a left turn become visible on the road surface. A white sedan is observed in the adjacent right lane, moving alongside the vehicle. Suddenly, at approximately 13.3 seconds, a person on a scooter/motorcycle, wearing a red helmet and a brown jacket, emerges abruptly from behind this white sedan on the right side of the road. The scooter darts directly into the vehicle's path, creating an immediate and high-risk collision scenario due to the minimal reaction time available to the driver.",
+  "actions": "The vehicle is initially driving straight, maintaining a consistent speed and a safe following distance behind a silver sedan in its lane. As the vehicle approaches an intersection or turn-off, indicated by a left-turn arrow on the road, a person on a scooter suddenly emerges from behind a white sedan in the adjacent right lane, cutting across the vehicle's path. This unexpected and sudden appearance of the scooter necessitates an immediate and rapid deceleration or braking action from the vehicle to avoid a potential collision, demonstrating a reactive safety measure to the sudden obstruction.",
+  "key_objects": "1) Right side: A white sedan, acting as a moving visual obstruction that obscured the view of the scooter. 2) Right side, then center: A person on a scooter/motorcycle, wearing a red helmet and brown jacket, who suddenly emerged from behind the white sedan, directly entering the vehicle's path, creating an immediate danger.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

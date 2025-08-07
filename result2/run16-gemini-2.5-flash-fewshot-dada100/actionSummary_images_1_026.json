@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_026",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A pedestrian wearing a red/orange shirt, gender and age not clearly discernible but appears to be an adult.",
+  "summary": "In this segment, the self-driving vehicle is traveling on an urban road during twilight hours. The road has multiple lanes and is populated with other vehicles, including a white sedan and several scooters. As the vehicle proceeds, a pedestrian, wearing a distinctive red/orange shirt, suddenly emerges from the right side of the road. This pedestrian appears from behind a white sedan that was moving forward, which acted as a visual obstruction. The pedestrian steps directly into the vehicle's path with minimal warning, creating an immediate and dangerous 'ghost probing' situation.",
+  "actions": "The self-driving vehicle is initially maintaining a consistent forward speed. Upon the sudden and unexpected appearance of the pedestrian from behind the white sedan on the right side of the road, the vehicle would immediately initiate rapid deceleration or emergency braking. This urgent action is taken to mitigate the high risk of collision posed by the pedestrian's sudden entry into the vehicle's direct path, which allowed for very little reaction time.",
+  "key_objects": "1) Right side: A pedestrian, wearing a red/orange shirt, approximately 5-10 meters away, suddenly emerging from behind a white sedan and stepping directly into the vehicle's path. 2) Right side: A white sedan, approximately 10-15 meters away, moving forward and acting as a significant visual obstruction that completely hid the pedestrian until their sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

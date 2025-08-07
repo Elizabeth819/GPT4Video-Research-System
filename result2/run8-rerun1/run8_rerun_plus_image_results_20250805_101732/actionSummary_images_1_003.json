@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child in a blue jacket and a woman in a pink jacket. The child is seen running across the road from the right side, and the woman follows shortly after.",
+  "summary": "The video sequence shows a vehicle driving at night on a road with streetlights and some traffic. At around 2 seconds, a child suddenly runs across the road from the right side, emerging from behind a parked vehicle. The child is followed by a woman who appears to be trying to catch up with the child. The child falls in the middle of the road, and the woman reaches the child and helps them up. This is a clear case of 'ghost probing' as the child was completely hidden by the parked vehicle until the moment of emergence, creating an immediate collision risk.",
+  "actions": "The child runs across the road from the right side, followed by a woman. The child falls in the middle of the road, and the woman helps the child up.",
+  "key_objects": "Parked vehicles on the right side of the road, a child running across the road, a woman following the child.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

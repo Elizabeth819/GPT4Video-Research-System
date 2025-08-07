@@ -1,0 +1,9 @@
+{
+  "timestamp": "11:03:28-11:03:29",
+  "summary": "A child suddenly runs into the road from the right side, directly in front of the camera vehicle, holding a stick.",
+  "actions": "child running into road, camera vehicle likely reacting to avoid collision",
+  "characters": "child, camera vehicle (driver's perspective)",
+  "key_objects": "child, road, roadside area, camera vehicle, stick",
+  "key_actions": "sudden appearance of a pedestrian in the vehicle's path; no ghost probing detected as this specific maneuver involves a pedestrian, not a vehicle cutting into traffic.",
+  "next_action": "child moving out of the road, camera vehicle continuing to proceed cautiously"
+}

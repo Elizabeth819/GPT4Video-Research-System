@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_037",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals on a motorcycle, wearing helmets and dark clothing.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road during what appears to be late afternoon or early morning, with the sun causing some glare on the right side of the frame. The road initially appears clear. As the vehicle proceeds, a motorcycle with two riders suddenly emerges from behind a raised grassy median and bushes on the left side of the road. The motorcycle appears to be entering the main road from a hidden merging point or side road, creating an immediate and unexpected obstruction in the vehicle's path with minimal reaction time.",
+  "actions": "The self-driving vehicle is initially maintaining a consistent speed and direction on the straight road. Upon the sudden and unexpected emergence of the motorcycle from the left side, the vehicle immediately initiates deceleration to reduce speed and avoid a potential collision. The vehicle also likely makes a slight steering adjustment to maintain a safe distance as the motorcycle crosses its path.",
+  "key_objects": "1) Left side: A motorcycle with two riders, approximately 5-10 meters away, suddenly emerging from behind a raised grassy median and bushes, entering the vehicle's path from a hidden merging point. 2) Left side: A raised grassy median with dense bushes, approximately 10-15 meters away, creating a significant visual obstruction that completely hid the approaching motorcycle until its sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

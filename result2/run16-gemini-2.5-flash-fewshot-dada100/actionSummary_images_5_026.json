@@ -1,0 +1,9 @@
+{
+  "timestamp": "0-17s",
+  "summary": "A dashcam view of a street scene with moving traffic and pedestrians. The scene culminates with a pedestrian falling in front of the dashcam vehicle.",
+  "actions": "Vehicles moving in traffic lanes, dashcam vehicle appears to be stopped or moving slowly, pedestrians are present on the sidewalk/roadside, one pedestrian falls in front of the vehicle.",
+  "characters": "White van, silver sedan, white SUV (parked), male pedestrian, female pedestrian (in red), dashcam vehicle.",
+  "key_objects": "Road, traffic lanes, buildings, trees, parked vehicles, pedestrians, building entrance/exit.",
+  "key_actions": "Pedestrian falling in front of the vehicle; no ghost probing detected as no vehicle suddenly appeared from a blind spot and aggressively cut into traffic.",
+  "next_action": "Pedestrian getting up, potential interaction between the vehicle and the pedestrians."
+}

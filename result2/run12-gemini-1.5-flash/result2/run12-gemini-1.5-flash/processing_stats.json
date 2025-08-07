@@ -1,0 +1,15 @@
+{
+  "total_videos": 10,
+  "success_count": 8,
+  "failed_count": 0,
+  "skipped_count": 2,
+  "total_processing_time": 96.0572235584259,
+  "average_processing_time": 12.007152944803238,
+  "completion_time": "2025-07-30T10:44:45.469950",
+  "configuration": {
+    "interval": 10,
+    "frames": 10,
+    "output_dir": "result2/run12-gemini-1.5-flash",
+    "processes": 1
+  }
+}

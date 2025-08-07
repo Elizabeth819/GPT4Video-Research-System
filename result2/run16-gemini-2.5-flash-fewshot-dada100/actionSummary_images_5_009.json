@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_009",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter/motorcycle, wearing a red helmet and a light brown jacket.",
+  "summary": "In this segment, the vehicle is driving on a multi-lane urban road with moderate traffic. Initially, the vehicle maintains a steady course, following other vehicles. As it approaches an intersection, a silver sedan and then a red sedan on the left begin to turn. Suddenly, at approximately 13.3 seconds, a person on a scooter, wearing a red helmet and light brown jacket, emerges from behind a median with covered structures and the turning vehicles on the left side. This sudden appearance creates an immediate and dangerous \"ghost probing\" situation as the scooter rider enters the vehicle's path with minimal warning, requiring an immediate evasive response.",
+  "actions": "The self-driving vehicle maintains a consistent speed and direction during the initial part of the segment, navigating urban traffic. As it approaches the intersection and other vehicles begin to turn, the vehicle continues its forward path. Upon the sudden and unexpected emergence of a scooter rider from behind the visual obstruction of the median and turning cars on the left side, the vehicle immediately initiates rapid deceleration and likely makes slight steering adjustments to the right to avoid a collision, prioritizing the safety of both the vehicle's occupants and the scooter rider.",
+  "key_objects": "1) Left side: A person on a scooter/motorcycle, wearing a red helmet and light brown jacket, approximately 2-3 meters away, suddenly emerging from behind a median and a turning vehicle, directly entering the vehicle's path. 2) Left side: A median with covered structures, approximately 5-10 meters away, creating a visual obstruction that hid the scooter rider until emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

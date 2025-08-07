@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_019",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) A male pedestrian, approximately 20-30 years old, wearing dark clothing. 2) A person on a red scooter/motorcycle. 3) A person on a blue/purple scooter/motorcycle.",
+  "summary": "In this segment, the self-driving vehicle is positioned at the entrance of what appears to be a campus or large complex, initially facing a closed gate. As the gate begins to open and rise, a male pedestrian wearing dark clothing suddenly emerges from behind the opening gate on the left side, walking directly across the vehicle's intended path. Almost immediately after, a person on a red scooter/motorcycle suddenly appears from behind a large building structure on the left, entering the main road. Concurrently, a person on a blue/purple scooter/motorcycle suddenly emerges from behind a parked silver sedan on the right side, also entering the vehicle's path. All three instances represent classic 'ghost probing' scenarios, as the entities appear abruptly from behind significant visual obstructions (the gate, the building, and the parked car), creating immediate potential collision situations and requiring rapid defensive action from the vehicle. The scene is characterized by multiple unexpected entries into the vehicle's path from hidden areas.",
+  "actions": "The self-driving vehicle is initially stationary, positioned in front of a closed gate. As the gate begins to open, the vehicle maintains its stopped position or proceeds with extreme caution and very slow speed. This cautious approach is necessitated by the immediate appearance of a pedestrian from behind the opening gate on the left, followed by a red scooter emerging from behind the building on the left, and a blue/purple scooter emerging from behind a parked car on the right. The vehicle's primary action is to remain stopped or to perform rapid deceleration from any minimal forward movement to avoid collision with these multiple entities that suddenly enter its path from visually obstructed areas. The vehicle prioritizes safety by not proceeding until the path is clear of these unexpected obstacles.",
+  "key_objects": "1) Left side: An opening gate, initially blocking the view of the path ahead, creating a visual obstruction. 2) Left side: A male pedestrian, approximately 20-30 years old, wearing dark clothing, suddenly emerging from behind the opening gate and walking across the vehicle's path. 3) Left side: A large building structure, creating a visual obstruction at the entrance. 4) Left side: A person on a red scooter/motorcycle, suddenly emerging from behind the building structure and entering the vehicle's path. 5) Right side: A parked silver sedan, approximately 5-7 meters away, creating a visual obstruction. 6) Right side: A person on a blue/purple scooter/motorcycle, suddenly emerging from behind the parked silver sedan and entering the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

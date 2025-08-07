@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_5_014",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.6s",
+    "scene_theme": "Traffic Intersection",
+    "characters": "A person on a motorcycle, a person walking, several cars, a bus",
+    "summary": "The video shows a traffic intersection. A person on a motorcycle wearing a red helmet and dark clothing is seen crossing the road from left to right.  A pedestrian in dark clothing is also crossing the road from left to right. A green bus is traveling in the same direction as the observer vehicle, and several other cars are visible. The motorcycle and pedestrian cross the road in front of the observer vehicle, requiring the vehicle to slow down. No collisions occur.",
+    "actions": "The observer vehicle slows down as a person on a motorcycle and a pedestrian cross the road in front of it. The vehicle maintains a safe following distance from the vehicles ahead. The vehicle does not change lanes or make any turns.",
+    "key_objects": "1) Front: Person on a motorcycle, approximately 5 meters away, crossing the road from left to right. 2) Front: Pedestrian, approximately 7 meters away, crossing the road from left to right.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

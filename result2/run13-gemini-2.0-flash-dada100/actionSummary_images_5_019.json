@@ -1,0 +1,26 @@
+{
+  "video_id": "images_5_019",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.1s",
+  "summary": "The self-driving car is approaching a building entrance with a gate. From 0.0s to 4.0s, the gate is closed. At 4.0s, a man in a black jacket is walking across the street from left to right. At 5.0s, the gate opens. From 6.0s to 14.1s, there are several people and vehicles moving around the entrance. At 7.0s, a man in a black jacket is walking across the street from left to right. At 8.0s, a man in a black jacket is riding a scooter from left to right. At 9.0s, a man in a black jacket is riding a scooter from left to right. At 10.0s, a man in a black jacket is riding a scooter from left to right. At 11.0s, a man in a black jacket is riding a scooter from left to right. At 12.0s, a man in a black jacket is riding a scooter from left to right. At 13.0s, a man in a black jacket is riding a scooter from left to right. At 14.1s, a man in a black jacket is riding a scooter from left to right.",
+  "actions": "From 0.0s to 5.0s, the vehicle is stopped in front of a closed gate, likely waiting for it to open. From 5.0s to 14.1s, the vehicle is slowly moving forward, navigating through the entrance area. The vehicle is proceeding cautiously due to the presence of people and vehicles moving around the entrance.",
+  "next_action": {
+    "speed_control": "accelerating",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "characters": [
+    "At 4.0s, a man in a black jacket is walking across the street from left to right.",
+    "At 7.0s, a man in a black jacket is walking across the street from left to right.",
+    "At 8.0s, a man in a black jacket is riding a scooter from left to right.",
+    "At 9.0s, a man in a black jacket is riding a scooter from left to right.",
+    "At 10.0s, a man in a black jacket is riding a scooter from left to right.",
+    "At 11.0s, a man in a black jacket is riding a scooter from left to right.",
+    "At 12.0s, a man in a black jacket is riding a scooter from left to right.",
+    "At 13.0s, a man in a black jacket is riding a scooter from left to right.",
+    "At 14.1s, a man in a black jacket is riding a scooter from left to right."
+  ],
+  "key_objects": "none",
+  "key_actions": "none"
+}

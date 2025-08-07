@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car approaching an intersection. There are other vehicles on the road, including cars, vans, and a motorcycle. A pedestrian is visible on the right side of the road, near the crosswalk. The pedestrian is an adult male, wearing dark clothing.",
+  "summary": "The vehicle approaches an intersection. Initially, the vehicle is moving forward at a steady speed. As it approaches the intersection, a pedestrian begins to cross the road from the right side, partially obscured by parked vehicles. The driver initiates braking to avoid a collision with the pedestrian.",
+  "actions": "The vehicle initially maintains a constant speed as it approaches the intersection. Upon observing the pedestrian starting to cross the road from behind parked vehicles, the driver initiates braking to slow down and avoid a potential collision. The braking action is a direct response to the pedestrian's unexpected appearance in the vehicle's path.",
+  "key_objects": "1) Right side: Pedestrian, medium distance, crossing the road unexpectedly, causing the driver to brake. 2) Right side: Parked vehicles, medium distance, partially obscuring the pedestrian's view and the driver's view of the pedestrian.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

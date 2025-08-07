@@ -1,0 +1,230 @@
+{
+  "cutin_001_label.json": {
+    "accuracy": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": {
+      "cut-in": {
+        "TP": 4,
+        "FP": 0,
+        "FN": 0
+      }
+    }
+  },
+  "cutin_002_label.json": {
+    "accuracy": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "confusion_matrix": {
+      "cut-in": {
+        "TP": 1,
+        "FP": 1,
+        "FN": 1
+      }
+    }
+  },
+  "cutin_003_label.json": {
+    "accuracy": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": {
+      "cut-in": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 0
+      }
+    }
+  },
+  "cutin_004_label.json": {
+    "accuracy": 0.8,
+    "recall": 1.0,
+    "f1": 0.888888888888889,
+    "confusion_matrix": {
+      "cut-in": {
+        "TP": 4,
+        "FP": 1,
+        "FN": 0
+      }
+    }
+  },
+  "cutin_005_label.json": {
+    "accuracy": 1.0,
+    "recall": 0.6666666666666666,
+    "f1": 0.8,
+    "confusion_matrix": {
+      "cut-in": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 1
+      }
+    }
+  },
+  "cutin_006_label.json": {
+    "accuracy": 0.75,
+    "recall": 1.0,
+    "f1": 0.8571428571428571,
+    "confusion_matrix": {
+      "cut-in": {
+        "TP": 3,
+        "FP": 1,
+        "FN": 0
+      }
+    }
+  },
+  "cutin_007_label.json": {
+    "accuracy": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": {
+      "cut-in": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 0
+      }
+    }
+  },
+  "cutin_008_label.json": {
+    "accuracy": 0.4,
+    "recall": 1.0,
+    "f1": 0.5714285714285715,
+    "confusion_matrix": {
+      "cut-in": {
+        "TP": 2,
+        "FP": 3,
+        "FN": 0
+      }
+    }
+  },
+  "cutin_009_label.json": {
+    "accuracy": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": {
+      "cut-in": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 0
+      }
+    }
+  },
+  "cutin_010_label.json": {
+    "accuracy": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": {
+      "cut-in": {
+        "TP": 4,
+        "FP": 0,
+        "FN": 0
+      }
+    }
+  },
+  "ghosting_001_label.json": {
+    "accuracy": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": {
+      "ghost probing": {
+        "TP": 5,
+        "FP": 0,
+        "FN": 0
+      }
+    }
+  },
+  "ghosting_002_label.json": {
+    "accuracy": 1.0,
+    "recall": 0.6666666666666666,
+    "f1": 0.8,
+    "confusion_matrix": {
+      "ghost probing": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 1
+      }
+    }
+  },
+  "ghosting_004_label.json": {
+    "accuracy": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571,
+    "confusion_matrix": {
+      "ghost probing": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 1
+      }
+    }
+  },
+  "ghosting_005_label.json": {
+    "accuracy": 0.75,
+    "recall": 1.0,
+    "f1": 0.8571428571428571,
+    "confusion_matrix": {
+      "ghost probing": {
+        "TP": 3,
+        "FP": 1,
+        "FN": 0
+      }
+    }
+  },
+  "ghosting_006_label.json": {
+    "accuracy": 0.0,
+    "recall": 0,
+    "f1": 0,
+    "confusion_matrix": {
+      "ghost probing": {
+        "TP": 0,
+        "FP": 2,
+        "FN": 0
+      }
+    }
+  },
+  "ghosting_007_label.json": {
+    "accuracy": 1.0,
+    "recall": 0.6666666666666666,
+    "f1": 0.8,
+    "confusion_matrix": {
+      "ghost probing": {
+        "TP": 4,
+        "FP": 0,
+        "FN": 2
+      }
+    }
+  },
+  "ghosting_008_label.json": {
+    "accuracy": 1.0,
+    "recall": 0.3333333333333333,
+    "f1": 0.5,
+    "confusion_matrix": {
+      "ghost probing": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 2
+      }
+    }
+  },
+  "ghosting_009_label.json": {
+    "accuracy": 1.0,
+    "recall": 0.3333333333333333,
+    "f1": 0.5,
+    "confusion_matrix": {
+      "ghost probing": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 2
+      }
+    }
+  },
+  "ghosting_010_label.json": {
+    "accuracy": 1.0,
+    "recall": 0.8,
+    "f1": 0.888888888888889,
+    "confusion_matrix": {
+      "ghost probing": {
+        "TP": 4,
+        "FP": 0,
+        "FN": 1
+      }
+    }
+  }
+}

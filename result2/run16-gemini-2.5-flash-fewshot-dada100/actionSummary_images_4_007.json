@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A male traffic police officer in a white helmet and reflective vest, multiple drivers in various vehicles (sedans, SUVs), and a person on a scooter/motorcycle.",
+  "summary": "In this segment, the self-driving vehicle is positioned at an urban intersection under clear sky conditions. A male traffic police officer is standing prominently in the middle of the intersection, on the right side of the image, actively directing traffic. Throughout the 10 seconds, various vehicles, including a dark blue sedan, a light blue taxi, a white SUV, a silver sedan, and a person on a scooter/motorcycle, are observed moving across the intersection from both the left and right sides, passing in front of the self-driving vehicle. The traffic flow appears to be managed and orderly due to the officer's presence, with no sudden or unexpected emergences from behind visual obstructions.",
+  "actions": "The self-driving vehicle is stationary or moving at a very low speed at the intersection from 0.0s to 10.0s. This action is taken to yield to cross-traffic and to comply with the traffic flow directed by the police officer present in the intersection. The vehicle maintains its position, allowing other vehicles and a scooter to pass safely through the intersection, indicating a cautious and compliant driving behavior in a controlled traffic environment. There is no acceleration or significant deceleration as the vehicle holds its position.",
+  "key_objects": "1) Right side: A male traffic police officer, approximately 5-10 meters away, standing in the middle of the intersection and directing traffic. 2) Left side: Multiple vehicles (dark blue sedan, light blue taxi, white SUV) and a person on a scooter/motorcycle, approximately 5-15 meters away, moving across the intersection from left to right. 3) Right side: A silver sedan, approximately 5-10 meters away, moving across the intersection from right to left.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

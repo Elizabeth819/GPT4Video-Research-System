@@ -1,0 +1,101 @@
+[
+    {
+        "video_id": "dada_1_006",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "Group of motorcyclists and scooter riders",
+                "distance": "5-10 meters",
+                "behavior or action impacting the vehicle": "Approaching the intersection, some appear to be attempting to cross the road without fully yielding to the oncoming traffic."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and helmet",
+                "transportation": "Motorcycle",
+                "behavior": "Approaching intersection, potentially ignoring traffic signals."
+            },
+            {
+                "gender": "Male",
+                "age": "20-30",
+                "clothing": "Light colored jacket and helmet",
+                "transportation": "Scooter",
+                "behavior": "Approaching intersection, weaving through traffic."
+            },
+            {
+                "gender": "Male",
+                "age": "40-50",
+                "clothing": "Red safety helmet and dark jacket",
+                "transportation": "Motorcycle",
+                "behavior": "Approaching intersection, seemingly cautious but still in a potentially dangerous position."
+            }
+        ],
+        "summary": "The video shows a car approaching an intersection. A group of motorcyclists and scooter riders are seen in front of the car, some appearing to attempt to cross the road without fully yielding to oncoming traffic. This creates a potential ghost probing scenario, as the riders emerge from between other vehicles, creating a sudden and unexpected obstacle for the car. The riders' behavior is erratic, with some weaving through traffic and others seemingly ignoring traffic signals. The potential for a collision is high due to the close proximity of the riders to the car and their unpredictable movements. The speed of the approaching motorcyclists and scooter riders is moderate, but their unpredictable behavior increases the risk of a collision.",
+        "actions": "The vehicle is maintaining a slow, steady speed as it approaches the intersection. This is likely a precautionary measure due to the presence of other vehicles and the potential for pedestrians or cyclists to cross the road unexpectedly. The driver is likely observing the traffic conditions closely and preparing to stop or slow down further if necessary.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_006",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A line of vehicles including cars and buses",
+                "distance": "10-20 meters",
+                "behavior or action impacting the vehicle": "The line of vehicles is moving slowly, causing the self-vehicle to maintain a low speed."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows the self-vehicle driving in a line of traffic. The traffic is moving slowly, and the self-vehicle maintains a low speed. There are no pedestrians or other vehicles exhibiting dangerous behavior. The road is relatively clear, with no immediate obstacles.",
+        "actions": "The self-vehicle is driving at a low speed due to slow-moving traffic ahead. The driver is maintaining a safe following distance from the vehicle in front. There are no sudden changes in speed or direction.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_006",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.8s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A young child, appearing to be around 5-7 years old, with short dark hair, wearing a light blue jacket and dark pants, riding a scooter.",
+                "distance": "2",
+                "behavior or action impacting the vehicle": "Suddenly darts out from behind a parked black car into the path of the vehicle."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "5-7",
+                "gender": "male",
+                "clothing": "light blue jacket, dark pants",
+                "transportation": "scooter",
+                "behavior": "Suddenly darts out from behind a parked car into the path of the vehicle."
+            }
+        ],
+        "summary": "The video shows a car driving on a city street. At approximately 10.0 seconds, a young boy, around 5-7 years old, wearing a light blue jacket and dark pants, suddenly darts out from behind a parked black car directly in front of the vehicle on a scooter. The child's sudden appearance creates a near-miss situation, requiring the driver to react quickly to avoid a collision. The child's speed is difficult to estimate precisely from the images, but the action appears very fast, leaving little reaction time for the driver. The incident highlights the danger of unexpected pedestrian behavior and the importance of driver vigilance.",
+        "actions": "The vehicle maintains a consistent speed, appearing to be driving at a moderate pace appropriate for city traffic conditions.  The driver's actions suggest a focus on maintaining a safe following distance from the vehicle ahead. The driver's speed and following distance indicate a cautious and defensive driving style, prioritizing safety.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

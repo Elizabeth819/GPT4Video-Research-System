@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_015",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.2s",
+    "scene_theme": "Urban driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a white sedan, several pedestrians, a motorcyclist, tricycle driver, drivers of other vehicles.",
+    "summary": "The video shows a white sedan driving through a busy urban area.  The road is relatively narrow.  At approximately 2.3 seconds, a person carrying a long object walks across the road in front of the vehicle, requiring the driver to slow down.  Around 5.8 seconds, a tricycle and a motorcyclist are visible, navigating the intersection.  The overall traffic density is moderate, with several other vehicles and pedestrians present. No immediate dangerous situations are observed, although the close proximity of pedestrians and vehicles necessitates cautious driving.",
+    "actions": "The self-driving vehicle maintains a slow and steady speed throughout the 8.2 seconds of the video.  The driver appears to be cautiously navigating the intersection and adjusting speed to accommodate pedestrians and other vehicles.  The vehicle maintains its lane and does not make any sudden maneuvers.",
+    "key_objects": "1) Front: Pedestrian carrying a long object, approximately 5 meters away at 2.3 seconds, crossing the road, requiring a speed reduction from the self-driving vehicle. 2) Front: Tricycle, approximately 10 meters away at 5.8 seconds, navigating the intersection, requiring the self-driving vehicle to maintain a safe distance. 3) Right: Motorcyclist, approximately 8 meters away at 5.8 seconds, navigating the intersection, requiring the self-driving vehicle to maintain a safe distance.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

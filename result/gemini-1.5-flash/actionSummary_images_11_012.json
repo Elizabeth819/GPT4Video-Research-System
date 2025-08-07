@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_012",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a brown sedan",
+        "summary": "In this segment, the vehicle is driving through an urban area. Initially, the vehicle is following a brown sedan. The road is busy with multiple vehicles visible on both sides. The brown sedan ahead is moving steadily, and there are no sudden movements or dangerous actions observed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the brown sedan. The vehicle is keeping a safe distance from the car ahead and is driving straight without any sudden changes in direction or speed.",
+        "key_objects": "1) Front: A brown sedan, approximately 10 meters away, moving steadily. 2) Left side: Multiple parked vehicles, approximately 5 meters away, stationary. 3) Right side: Multiple parked vehicles, approximately 5 meters away, stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_012",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "15.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, pedestrians",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. The road is lined with parked cars on both sides, and there is a pedestrian barrier in the middle. The vehicle ahead is a white SUV, and there are pedestrians walking along the barrier. The driver mentions the need to be cautious due to the presence of pedestrians and parked cars.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the urban road. The driver is cautious due to the presence of pedestrians and parked cars, ensuring to keep a safe distance from the vehicle ahead and the pedestrians.",
+        "key_objects": "1) Front: A white SUV, approximately 10 meters away, moving steadily. 2) Left side: A red bus, approximately 5 meters away, parked. 3) Right side: A pedestrian in black clothing, approximately 2 meters away, walking along the barrier.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,19 @@
+
+{
+  "video_id": "dada_1_020",
+  "segment_id": "segment_001",
+  "Start_Timestamp": "10.0s",
+  "End_Timestamp": "14.2s",
+  "sentiment": "Negative",
+  "scene_theme": "Dramatic",
+  "characters": "Person on the right side",
+  "summary": "In this segment, the vehicle is driving at night on a road with minimal traffic. A person suddenly appears from the right side of the road, emerging from behind a physical obstruction, and moves into the vehicles path.",
+  "actions": "The self-driving vehicle is maintaining a steady speed. However, due to the sudden appearance of the person from the right side, the vehicle needs to decelerate rapidly to avoid a potential collision.",
+  "key_objects": "1) Right side: A person, approximately 5 meters away, emerging from behind a physical obstruction and moving into the vehicles path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

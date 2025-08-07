@@ -1,0 +1,201 @@
+{
+  "experiment_info": {
+    "run_id": "Run 20",
+    "timestamp": "20250801_100739",
+    "video_count": 100,
+    "model": "Claude 4 (claude-sonnet-4-20250514)",
+    "prompt_version": "Paper_Batch Complex (4-Task) + Few-shot Examples",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "purpose": "真正的Claude 4模型测试，使用与Run 8完全相同的prompt和few-shot配置",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run20-claude4",
+    "prompt_characteristics": [
+      "4个详细任务",
+      "复杂验证流程",
+      "详细的few-shot examples",
+      "严格的分类标准",
+      "Temperature=0确保一致性",
+      "专注ghost probing检测",
+      "100视频完整评估",
+      "与Run 8完全相同的prompt",
+      "真正的Claude 4模型验证"
+    ]
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "key_actions": "none",
+      "evaluation": "TN",
+      "raw_result": " Looking at this sequence of dashcam footage from January 27, 2017, I can analyze the driving scenario and identify key behaviors.Based on my analysis of the sequential dashcam images and understanding of ghost probing behavior from the research, I can see this is a typical urban driving scenario. Let me analyze the sequence frame by frame and identify any potential ghost probing situations.\n\n```json\n{\n    \"video_id\": \"images_1_001.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"One pedestrian in dark clothing visible on the right side of the road in the later frames, approximately adult age, walking along the roadside away from the vehicle's path\",\n    \"summary\": \"In this segment, the vehicle is driving through what appears to be a small town or village street during daytime hours. The road is a two-lane street with a yellow center line and white edge markings. Red decorative lanterns are strung across the street overhead, suggesting this may be during a Chinese New Year celebration period. The vehicle maintains steady forward progress at moderate speed. Buildings line both sides of the street, with some commercial storefronts visible. A red sedan is consistently visible ahead in the same lane, maintaining distance. In the later frames, a single pedestrian becomes visible on the right side of the road, walking along the roadside but not entering the vehicle's path. The driving conditions are clear with good visibility throughout the sequence.\",\n    \"actions\": \"The self-driving vehicle maintains consistent moderate speed throughout the sequence, following behind a red sedan at a safe following distance. The vehicle stays centered in its lane with no sudden movements or speed changes required. The driver demonstrates defensive driving by maintaining appropriate spacing from the vehicle ahead and monitoring the road environment. No evasive maneuvers or emergency responses are taken as the traffic situation remains stable and predictable throughout the observed timeframe.\",\n    \"key_objects\": \"1) Front center: Red sedan, approximately 25-30 meters ahead, traveling in the same direction and maintaining steady speed in the same lane. 2) Right side: Adult pedestrian in dark clothing, approximately 15-20 meters away, walking along the right roadside parallel to traffic flow, not presenting an immediate crossing threat. 3) Overhead: Red decorative lanterns strung across the street, indicating possible festival period but not affecting traffic flow.\",\n    \"key_actions\": \"none\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "none",
+      "evaluation": "FN",
+      "raw_result": " ```json\n{\n    \"video_id\": \"images_1_002.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Several pedestrians visible in later frames: adults in winter clothing walking along the roadside, including individuals in dark jackets and casual wear\",\n    \"summary\": \"In this segment, the vehicle is driving through a rural or suburban area on a paved road during what appears to be late winter or early spring, evidenced by bare trees and overcast skies. The road is relatively wide with buildings, houses, and small commercial structures on both sides. The vehicle maintains a steady speed throughout most of the sequence, passing through what appears to be a small town or village center. There are pedestrians visible on the roadside, particularly in the later frames, walking normally along the sides of the road. The driving conditions appear calm with good visibility despite the overcast weather. Red and orange banners or decorative elements are visible spanning across the road, suggesting some kind of celebration or festival period. The vehicle continues straight ahead with no sudden changes in direction or speed required.\",\n    \"actions\": \"The self-driving vehicle maintains consistent forward motion at a moderate speed appropriate for the residential/commercial area. The driver maintains steady direction control, keeping the vehicle centered in the travel lane. No sudden braking, acceleration, or steering adjustments are observed throughout the sequence. The vehicle demonstrates normal driving behavior suitable for navigating through a populated area with pedestrian activity, maintaining safe speeds that allow for adequate reaction time to any potential hazards.\",\n    \"key_objects\": \"1) Right side: Multiple pedestrians in winter clothing, approximately 5-8 meters away, walking normally along the roadside without entering the vehicle's path. 2) Both sides: Various buildings and structures including residential houses and small commercial buildings, approximately 10-15 meters away, lining the road but not obstructing visibility. 3) Overhead: Red and orange decorative banners spanning the road, approximately 4-5 meters high, indicating possible festival or celebration period.\",\n    \"key_actions\": \"none\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": " ```json\n{\n    \"video_id\": \"images_1_003.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Person in bright orange/red clothing, approximately adult-aged, appearing to be kneeling or crouching in the roadway\",\n    \"summary\": \"In this nighttime urban driving segment, the vehicle is traveling on a main street with Chinese signage visible and a prominent blue-lit high-rise building in the background. The scene progresses from normal driving conditions to a dangerous situation where a person wearing bright orange/red clothing suddenly appears in the roadway ahead. The person emerges from behind a white parked car on the right side of the road and moves into the vehicle's direct path, creating a classic ghost probing scenario. The individual appears to be kneeling or crouching in the middle of the road, making them a significant obstacle that requires immediate driver response.\",\n    \"actions\": \"The self-driving vehicle initially maintains steady nighttime driving speed on the urban street. As the sequence progresses and the person in orange clothing becomes visible emerging from behind the parked white car, the vehicle begins to slow down in response to the developing hazardous situation. The driver recognizes the pedestrian has moved from behind the visual obstruction created by the parked vehicle directly into the travel lane, requiring immediate deceleration and potential steering adjustments to avoid collision.\",\n    \"key_objects\": \"1) Center/Right: Person in bright orange/red clothing, approximately 15-20 meters ahead initially, decreasing to 5-10 meters, emerging from behind parked white car and positioning themselves in the roadway creating immediate collision risk. 2) Right side: White parked car, approximately 10-15 meters away, serving as the visual obstruction that initially concealed the pedestrian until their sudden emergence into the roadway.\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "key_actions": "none",
+      "evaluation": "TN",
+      "raw_result": " Looking at this sequential video footage from a dashcam, I can analyze the driving scenario and potential safety concerns.I notice the search results are about \"ghost cars\" (police vehicles) and \"phantom traffic jams\" rather than the specific \"ghost probing\" (鬼探头) phenomenon I need to analyze. Let me search for the correct traffic safety term.Based on my analysis of the sequential dashcam footage from this 10-second period, I can now provide a comprehensive assessment of the driving scenario:\n\n```json\n{\n    \"video_id\": \"images_1_004.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"No pedestrians or cyclists visible in the immediate vicinity during this segment\",\n    \"summary\": \"In this segment, the self-driving vehicle is traveling on a straight, paved road through what appears to be a rural or suburban area during daytime hours with clear weather conditions. The road features a yellow centerline and appears to be a two-lane highway. The vehicle passes through an area with various buildings on both sides including residential structures, commercial buildings, and some industrial facilities. There are bare trees indicating late winter or early spring conditions. The road is mostly clear of traffic with only occasional vehicles visible in the distance. Power lines run parallel to the road, and the terrain appears relatively flat. Throughout the sequence, the vehicle maintains steady forward motion with no sudden changes in direction or speed.\",\n    \"actions\": \"The self-driving vehicle maintains consistent speed and direction throughout the 10-second segment. The vehicle is traveling at what appears to be a moderate speed appropriate for the road conditions, estimated around 40-50 mph based on the rate of passing roadside objects. No braking, acceleration, or steering adjustments are observed during this period. The vehicle stays centered in its lane and follows the natural curve of the road. The driving behavior indicates normal cruise control operation with no immediate hazards requiring intervention.\",\n    \"key_objects\": \"1) Left side: Various residential and commercial buildings, approximately 50-100 meters away, stationary and posing no immediate traffic concerns. 2) Right side: Mixed residential and industrial buildings with some parked vehicles, approximately 30-80 meters away, all stationary. 3) Ahead: Clear road surface with yellow centerline markings, extending several hundred meters with good visibility.\",\n    \"key_actions\": \"none\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "key_actions": "none",
+      "evaluation": "FN",
+      "raw_result": " Looking at this sequence of 10 dashcam images from March 10, 2017, I can see a rainy day urban driving scenario in what appears to be a Chinese city. Let me analyze this frame by frame for any ghost probing behavior and driving actions.Based on my analysis of the 10 sequential dashcam images, I can see this is a rainy urban driving scenario with pedestrians taking shelter and navigating flooded streets. Let me provide a comprehensive analysis:\n\n```json\n{\n    \"video_id\": \"images_1_005.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Multiple pedestrians of various ages using umbrellas for rain protection, including adults in casual clothing, some wearing dark colored jackets and light colored shirts, seeking shelter under building overhangs and trees along the sidewalk\",\n    \"summary\": \"In this 10-second segment, the vehicle is driving through a Chinese urban area during moderate to heavy rainfall on March 10, 2017. The road surface shows significant water accumulation creating flooding conditions typical of urban drainage issues during heavy rain. Multiple pedestrians with umbrellas are visible taking shelter under building overhangs and trees along both sides of the street. The red car ahead maintains steady speed through the wet conditions. Chinese signage is visible on storefronts indicating a commercial district. Despite the challenging weather conditions with reduced visibility and wet road surfaces, traffic flow remains orderly with no sudden movements or dangerous behaviors observed. The scene shows typical urban rain management with people adapting to weather conditions by seeking shelter.\",\n    \"actions\": \"The self-driving vehicle maintains a cautious and steady speed appropriate for wet road conditions throughout the sequence. The vehicle follows the red car ahead at a safe following distance of approximately 15-20 meters, which is appropriate given the reduced visibility and wet braking conditions. The driver demonstrates defensive driving by maintaining consistent speed rather than making sudden acceleration or deceleration movements that could cause loss of traction on the flooded road surface. The vehicle stays centered in its lane and does not attempt any lane changes, which is prudent given the reduced visibility from rain and standing water on the roadway.\",\n    \"key_objects\": \"1) Front center: Red sedan, approximately 15-20 meters ahead, maintaining steady speed and serving as lead vehicle to follow. 2) Right side: Multiple pedestrians with umbrellas, approximately 5-8 meters away, taking shelter under building overhangs and not entering roadway. 3) Road surface: Significant water accumulation creating flooding conditions throughout the driving path. 4) Both sides: Commercial buildings and trees providing shelter for pedestrians, approximately 3-5 meters from road edge.\",\n    \"key_actions\": \"none\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_006.avi",
+      "ground_truth": "9s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": " ```json\n{\n    \"video_id\": \"images_1_006.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Multiple motorcyclists and scooter riders in the intersection, including individuals wearing helmets and casual clothing, appearing to be delivery workers or commuters\",\n    \"summary\": \"In this segment, the vehicle is driving through a busy urban intersection in what appears to be a Chinese city. The road has multiple lanes with parked vehicles on both sides creating visual obstructions. Throughout the sequence, there are several motorcycles and scooters navigating through traffic. A critical ghost probing incident occurs when a motorcyclist suddenly emerges from behind parked vehicles on the left side of the road and enters the driving path. The motorcyclist was completely hidden by the line of parked cars until the moment of emergence, creating a dangerous situation with minimal reaction time. The intersection shows typical urban congestion with buses, cars, and two-wheeled vehicles sharing the road space.\",\n    \"actions\": \"The self-driving vehicle initially maintains steady speed while navigating through the urban intersection with heavy traffic. When the motorcyclist suddenly appears from behind the parked vehicles on the left side, the vehicle must respond quickly to avoid collision. The driver applies braking and adjusts steering slightly to accommodate the unexpected presence of the motorcycle that emerged from the visual obstruction created by parked cars. The vehicle demonstrates defensive driving behavior in response to the unpredictable movement of the motorcyclist who appeared without warning from behind the obstruction.\",\n    \"key_objects\": \"1) Left side: A motorcyclist wearing a helmet, approximately 3-4 meters away, suddenly emerging from behind a line of parked white and dark vehicles, entering the main driving path with minimal warning time. 2) Left side: Multiple parked vehicles including white sedans and dark cars, approximately 5-8 meters away, creating a continuous visual obstruction that completely hides approaching motorcycles until they emerge into traffic. 3) Center-right: A blue and red public bus, approximately 15-20 meters away, occupying the right portion of the road and contributing to traffic congestion.\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_007.avi",
+      "ground_truth": "6s: ghost probing",
+      "key_actions": "none",
+      "evaluation": "FN",
+      "raw_result": " Looking at this sequential dash cam footage, I can analyze the driving scenario and potential safety concerns.Based on my analysis of this sequential dash cam footage from what appears to be a Chinese urban street, here is my detailed assessment:\n\n```json\n{\n    \"video_id\": \"images_1_007.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Various pedestrians of mixed ages walking on sidewalks, including adults in casual clothing; one person in red visible on right sidewalk; minimal pedestrian activity overall\",\n    \"summary\": \"This dash cam footage shows a vehicle traveling through a tree-lined urban street in what appears to be a Chinese city during daytime hours. The road features a central dividing line with mature trees creating a canopy overhead on both sides. The vehicle maintains steady forward progress along this moderately trafficked street with buildings and storefronts visible on both sides. Throughout the sequence, there are parked vehicles along the right side of the road, pedestrians walking on sidewalks, and occasional oncoming traffic. The lighting conditions are good with natural daylight filtering through the tree canopy. Blue directional road signs are visible overhead indicating this is a main thoroughfare. The overall scene depicts normal urban driving conditions with no apparent safety hazards or unusual incidents occurring.\",\n    \"actions\": \"The self-driving vehicle maintains a consistent moderate speed throughout the sequence, staying in the center of its lane while navigating the tree-lined street. The driver demonstrates cautious but confident driving behavior, maintaining appropriate following distance from any vehicles ahead and adjusting speed slightly to accommodate the urban environment with pedestrians and parked cars. The vehicle continues straight without any lane changes or significant steering adjustments, indicating clear road conditions ahead and normal traffic flow.\",\n    \"key_objects\": \"1) Right side: Multiple parked vehicles positioned along the curb at distances of 10-20 meters, creating some visual obstructions but not blocking driver visibility of pedestrian areas. 2) Both sides: Mature trees creating overhead canopy at 15-25 meters height, providing shade but not obstructing forward vision. 3) Right side: Scattered pedestrians on sidewalk at 8-15 meters distance, walking normally with no sudden movements toward the roadway.\",\n    \"key_actions\": \"none\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_008.avi",
+      "ground_truth": "3s: ghost probing",
+      "key_actions": "none",
+      "evaluation": "FN",
+      "raw_result": " ```json\n{\n    \"video_id\": \"images_1_008.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Several pedestrians visible at various distances along the tree-lined street, including individuals walking on sidewalks and near parked vehicles\",\n    \"summary\": \"In this segment, the vehicle is driving through a tree-lined urban street during what appears to be winter or late fall, evidenced by bare trees and overcast conditions. The road surface appears wet or damp, suggesting recent precipitation or humid conditions. Multiple vehicles are parked along both sides of the street, including white trucks and vans on the left side and various passenger vehicles. The driving environment shows moderate urban density with pedestrians present but maintaining safe distances from the roadway. Yellow traffic cones are visible in some frames, indicating possible road work or traffic management. The vehicle maintains a steady course down the center of the road with good visibility ahead despite the overcast conditions.\",\n    \"actions\": \"The self-driving vehicle maintains a consistent moderate speed throughout the sequence, demonstrating cautious driving behavior appropriate for the wet road conditions and urban environment. The vehicle stays centered in its lane while navigating between parked vehicles on both sides. The driver maintains steady speed control without sudden acceleration or deceleration, indicating awareness of the potentially slippery road surface and the presence of pedestrians and parked vehicles. The vehicle's trajectory remains straight and stable, showing good lane discipline in the narrow street corridor created by parked vehicles.\",\n    \"key_objects\": \"1) Left side: Multiple white commercial vehicles and trucks parked along the street, approximately 3-5 meters away, creating a corridor but not obstructing traffic flow. 2) Right side: Various parked passenger vehicles including sedans and SUVs, approximately 3-4 meters away, maintaining clear passage for through traffic. 3) Center and sides: Several pedestrians at safe distances from the roadway, approximately 10-15 meters away, walking on sidewalks and not presenting immediate safety concerns. 4) Road surface: Yellow traffic cones visible in later frames, approximately 20-30 meters ahead, indicating possible road work or traffic management zone.\",\n    \"key_actions\": \"none\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_009.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": " ```json\n{\n    \"video_id\": \"images_1_009.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Multiple pedestrians including adults and children of various ages crossing the road, wearing casual clothing in browns, blues, and light colors\",\n    \"summary\": \"In this nighttime segment, the self-driving vehicle is traveling on a well-lit urban road with street lamps. The sequence shows a dangerous ghost probing scenario where multiple pedestrians, including what appears to be a family group with children, suddenly emerge from behind parked vehicles and road infrastructure on the right side of the road. The pedestrians cross directly into the vehicle's path without warning. The obstruction from parked cars and roadside structures creates a classic ghost probing situation where the pedestrians are completely hidden until they step into the roadway. The vehicle's headlights illuminate the scene as the pedestrians continue crossing from right to left across the vehicle's travel lane.\",\n    \"actions\": \"The self-driving vehicle is initially maintaining steady nighttime driving speed when the pedestrians suddenly appear from behind obstructions on the right side. The vehicle immediately begins emergency braking response as multiple pedestrians emerge and cross directly into the travel path. The driver must take immediate evasive action to avoid collision with the group of pedestrians who appeared with minimal reaction time due to being hidden behind parked vehicles and roadside infrastructure.\",\n    \"key_objects\": \"1) Right side: Multiple pedestrians including adults and children, approximately 2-4 meters away, suddenly emerging from behind parked vehicles and crossing directly into the vehicle's path. 2) Right side: Parked vehicles and roadside infrastructure, approximately 5-8 meters away, creating visual obstruction that completely hides the pedestrians until they emerge into the roadway. 3) Center: The group of pedestrians actively crossing from right to left across the vehicle's travel lane, creating immediate collision risk.\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_010.avi",
+      "ground_truth": "15s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_011.avi",
+      "ground_truth": "11s: ghost probing",
+      "key_actions": "none",
+      "evaluation": "FN",
+      "raw_result": " ```json\n{\n    \"video_id\": \"images_1_011.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Various vehicle drivers including drivers of white sedans, SUVs, and other passenger vehicles visible throughout the sequence\",\n    \"summary\": \"In this segment, the self-driving vehicle is traveling on a multi-lane urban road with moderate traffic density during daytime hours. The road appears to be a main thoroughfare with commercial buildings and gas stations visible on both sides. Throughout the sequence, the vehicle maintains steady forward motion while navigating through normal traffic conditions. The road has clear lane markings and the weather conditions appear clear with good visibility. Various vehicles are present including white sedans, SUVs, and other passenger cars traveling in the same direction. The vehicle passes by commercial establishments including what appears to be a gas station with red signage on the right side. Traffic flow appears normal with vehicles maintaining appropriate following distances and speeds.\",\n    \"actions\": \"The self-driving vehicle maintains consistent speed and direction throughout the sequence, demonstrating normal highway driving behavior. The vehicle stays within its lane boundaries and maintains appropriate following distance from vehicles ahead. No sudden speed changes or steering adjustments are observed, indicating stable driving conditions. The vehicle appears to be traveling at a steady moderate speed appropriate for the urban road environment. The driver maintains proper lane positioning and follows normal traffic flow patterns without any defensive maneuvers or emergency responses required.\",\n    \"key_objects\": \"1) Front center: White sedan approximately 30-40 meters ahead, maintaining steady speed in the same lane, no immediate impact on driving behavior. 2) Right side: Commercial gas station with red signage and canopy structure, stationary roadside infrastructure at approximately 20-30 meters distance, no behavioral impact. 3) Left side: Landscaped median with trees and vegetation, stationary roadside feature, no immediate behavioral impact.\",\n    \"key_actions\": \"none\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_012.avi",
+      "ground_truth": "11s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_013.avi",
+      "ground_truth": "8s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_014.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_015.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "none",
+      "evaluation": "FN",
+      "raw_result": " ```json\n{\n    \"video_id\": \"images_1_015.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Small child in dark clothing visible in frame 5, approximately 3-5 years old, walking on the right side of the street\",\n    \"summary\": \"In this segment, the vehicle is driving through a small urban area with Chinese signage visible on storefronts. The road is relatively narrow with various parked vehicles including buses, trucks, and cars on both sides. The driving environment shows typical small-town traffic conditions with mixed vehicle types. In the middle of the sequence, a small child becomes visible on the right side of the street but remains at a safe distance from the roadway. The vehicle maintains steady progress through the area, navigating around parked vehicles and maintaining appropriate spacing from other road users. The overall scene represents normal urban driving conditions without immediate safety threats.\",\n    \"actions\": \"The self-driving vehicle maintains consistent moderate speed throughout the sequence, appropriate for the narrow urban street conditions. The vehicle demonstrates careful navigation around parked buses and trucks on both sides of the road. When the child appears on the right side in the middle frames, the vehicle continues at steady speed as the child remains safely positioned away from the vehicle's path on the sidewalk area. The driver maintains awareness of the mixed traffic environment while progressing forward without need for sudden speed or direction changes.\",\n    \"key_objects\": \"1) Right side: A small child, approximately 3-5 years old in dark clothing, about 8-10 meters away, walking on the right side of the street but remaining safely away from the vehicle's path. 2) Both sides: Multiple parked vehicles including buses and trucks creating narrow passage, approximately 2-3 meters on each side, requiring careful navigation but not posing immediate collision risk.\",\n    \"key_actions\": \"none\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_016.avi",
+      "ground_truth": "4s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_017.avi",
+      "ground_truth": "17s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_018.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_019.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_020.avi",
+      "ground_truth": "12s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_021.avi",
+      "ground_truth": "3s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_022.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_023.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_024.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_025.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    }
+  ]
+}

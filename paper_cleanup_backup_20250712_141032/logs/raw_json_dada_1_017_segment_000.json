@@ -1,0 +1,19 @@
+
+{
+  "video_id": "dada_1_017",
+  "segment_id": "segment_000",
+  "Start_Timestamp": "0.0s",
+  "sentiment": "Neutral",
+  "End_Timestamp": "9.0s",
+  "scene_theme": "Urban",
+  "characters": "Driver of a black sedan, driver of a yellow taxi, bus driver",
+  "summary": "In this segment, the vehicle is driving on an urban road with multiple lanes. A black sedan is seen merging from the right side lane into the self-vehicles lane. A yellow taxi is visible ahead in the left lane. The bus on the right side is stationary.",
+  "actions": "The self-driving vehicle maintains a steady speed while the black sedan merges into its lane from the right side. The vehicle keeps a safe distance from the merging sedan and the yellow taxi ahead.",
+  "key_objects": "1) Right side: A black sedan, approximately 2 meters away, merging into the self-vehicles lane. 2) Left side: A yellow taxi, approximately 10 meters away, driving ahead in the left lane.",
+  "key_actions": "cut-in",
+  "next_action": {
+    "speed_control": "consistent speed driving",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

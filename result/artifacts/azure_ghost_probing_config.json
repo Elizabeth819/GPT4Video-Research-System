@@ -1,0 +1,90 @@
+{
+  "system_info": {
+    "name": "Azure ML A100 Ghost Probing Analysis",
+    "version": "1.0",
+    "description": "GPT-4.1 Balanced Prompt for Fair Comparison",
+    "created_date": "2025-07-16"
+  },
+  "processing_config": {
+    "max_videos": 100,
+    "azure_storage_container": "dada-videos",
+    "frame_interval_seconds": 10,
+    "frames_per_interval": 10,
+    "video_pattern": "images_[1-5]_XXX.avi"
+  },
+  "gpt41_api_config": {
+    "api_temperature": 0.3,
+    "max_tokens": 2000,
+    "model_type": "gpt-4.1",
+    "api_version": "2024-02-15-preview",
+    "max_retry_attempts": 3,
+    "retry_wait_multiplier": 2,
+    "retry_wait_max": 60
+  },
+  "baseline_comparison": {
+    "reference_system": "GPT-4.1_Balanced",
+    "baseline_f1": 0.712,
+    "baseline_recall": 0.963,
+    "baseline_precision": 0.565,
+    "baseline_accuracy": 0.576,
+    "baseline_videos": 99,
+    "evaluation_strategy": "any_segment_detection"
+  },
+  "prompt_config": {
+    "prompt_version": "GPT41_Balanced_Identical",
+    "prompt_source": "ActionSummary-gpt41-balanced-prompt.py",
+    "identical_to_baseline": true,
+    "ghost_probing_categories": {
+      "high_confidence": "ghost probing",
+      "potential": "potential ghost probing", 
+      "normal_traffic": "descriptive terms"
+    }
+  },
+  "output_format": {
+    "structure": "identical_to_gpt41_balanced",
+    "filename_pattern": "{video_id}.json",
+    "summary_report": true,
+    "comparison_metrics": true
+  },
+  "azure_ml_config": {
+    "compute_target": "wisead-a100-lowpri",
+    "environment": "AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10",
+    "gpu_optimization": true,
+    "storage_integration": true
+  },
+  "expected_videos": [
+    "images_1_001", "images_1_002", "images_1_003", "images_1_004", "images_1_005",
+    "images_1_006", "images_1_007", "images_1_008", "images_1_009", "images_1_010",
+    "images_1_011", "images_1_012", "images_1_013", "images_1_014", "images_1_015",
+    "images_1_016", "images_1_017", "images_1_018", "images_1_019", "images_1_020",
+    "images_1_021", "images_1_022", "images_1_023", "images_1_024", "images_1_025",
+    "images_1_026", "images_1_027", 
+    "images_2_001", "images_2_002", "images_2_003", "images_2_004",
+    "images_3_001", "images_3_002", "images_3_003", "images_3_004", "images_3_005",
+    "images_3_006", "images_3_007",
+    "images_4_001", "images_4_002", "images_4_003", "images_4_004", "images_4_005",
+    "images_4_006", "images_4_007", "images_4_008",
+    "images_5_001", "images_5_002", "images_5_003", "images_5_004", "images_5_005",
+    "images_5_006", "images_5_007", "images_5_008", "images_5_009", "images_5_010",
+    "images_5_011", "images_5_012", "images_5_013", "images_5_014", "images_5_015",
+    "images_5_016", "images_5_017", "images_5_018", "images_5_019", "images_5_020",
+    "images_5_021", "images_5_022", "images_5_023", "images_5_024", "images_5_025",
+    "images_5_026", "images_5_027", "images_5_028", "images_5_029", "images_5_030",
+    "images_5_031", "images_5_032", "images_5_033", "images_5_034", "images_5_035",
+    "images_5_036", "images_5_037", "images_5_038", "images_5_039", "images_5_040",
+    "images_5_041", "images_5_042", "images_5_043", "images_5_044", "images_5_045",
+    "images_5_046", "images_5_047", "images_5_048", "images_5_049", "images_5_050",
+    "images_5_051", "images_5_052", "images_5_053", "images_5_054"
+  ],
+  "evaluation_metrics": {
+    "primary_metrics": ["f1_score", "recall", "precision", "accuracy"],
+    "comparison_with_baseline": true,
+    "confusion_matrix": true,
+    "per_video_analysis": true
+  },
+  "azure_openai_config": {
+    "api_version": "2024-02-15-preview",
+    "deployment": "gpt-4o",
+    "use_only_azure": true
+  }
+} 

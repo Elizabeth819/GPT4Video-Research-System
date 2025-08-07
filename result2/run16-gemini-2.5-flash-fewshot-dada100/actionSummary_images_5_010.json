@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_010",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male rider on a motorcycle, wearing a red helmet and a dark green jacket with dark pants.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a rural road. As the vehicle approaches a slight bend in the road with trees on the left side, a male rider on a motorcycle suddenly emerges from behind the visual obstruction created by the bend and trees. The motorcycle appears directly in the vehicle's path with minimal warning. Immediately upon emergence, the rider loses control of the motorcycle and falls onto the road directly in front of the vehicle, creating an immediate and dangerous obstruction.",
+  "actions": "The self-driving vehicle is initially maintaining a steady speed while navigating the road. Upon the sudden and unexpected emergence of the motorcycle from behind the visual obstruction on the left side of the road, and the subsequent fall of the rider and motorcycle directly into its path, the vehicle initiates rapid deceleration. The vehicle comes to a complete stop to avoid collision with the fallen motorcycle and rider, prioritizing safety.",
+  "key_objects": "1) Left side: A male rider on a motorcycle, approximately 5-10 meters away, suddenly emerging from behind a bend in the road and trees, then losing control and falling directly into the vehicle's path. 2) Left side: Trees and a bend in the road, creating a significant visual obstruction that completely hid the approaching motorcycle until it was very close to the vehicle.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

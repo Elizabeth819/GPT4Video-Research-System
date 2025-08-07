@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_4_006",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017/03/05 18:56:25",
+    "End_Timestamp": "2017/03/05 18:56:33",
+    "summary": "The vehicle is driving through a tunnel. Several pedestrians and cyclists are present in the tunnel. A pedestrian suddenly appears very close to the vehicle and falls down in front of the vehicle, requiring emergency braking.",
+    "actions": "The vehicle is initially driving at 23 km/h. The driver brakes hard to avoid hitting the pedestrian who fell in front of the car.",
+    "key_objects": [
+      "pedestrians",
+      "cyclists",
+      "tunnel",
+      "vehicle"
+    ],
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "emergency stop",
+      "direction_control": "none",
+      "lane_control": "maintain lane"
+    }
+  }
+]

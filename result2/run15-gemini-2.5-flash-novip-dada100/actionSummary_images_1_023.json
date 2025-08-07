@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_023",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A female pedestrian wearing white pants and a dark top is involved in a collision. Several other pedestrians, including a male in a striped shirt, are visible on the right side of the crosswalk.",
+  "summary": "The video segment begins with the ego vehicle approaching a pedestrian crossing on a multi-lane urban road under clear, sunny weather conditions. A silver sedan is positioned on the left side of the image, slightly ahead of the ego vehicle, also approaching the crosswalk. As the vehicles near the crossing, a female pedestrian suddenly emerges from behind the silver sedan, which had been obstructing the view of her approach. She steps directly onto the crosswalk and into the path of the silver sedan, resulting in an immediate collision. The pedestrian is struck by the silver sedan and falls to the ground. The ego vehicle, observing the incident unfold, rapidly decelerates and comes to a complete stop well before reaching the collision site, demonstrating a highly responsive and safe driving maneuver.",
+  "actions": "The ego vehicle is initially proceeding straight, maintaining a steady speed as it approaches a pedestrian crossing. Upon witnessing a sudden and unexpected collision involving a silver sedan on its left and a pedestrian, the ego vehicle initiates rapid deceleration. This immediate braking action is taken to prevent any involvement in the accident, ensure the safety of its occupants, and avoid exacerbating the dangerous situation. The vehicle successfully comes to a complete stop at a safe distance from the collision point, indicating a proactive and defensive driving response to an unforeseen hazard.",
+  "key_objects": "1) Left: A silver sedan, positioned on the left side of the image, is driving parallel to the ego vehicle. It acts as a significant visual obstruction, hiding the pedestrian's approach until the last moment, and is directly involved in the collision. 2) Left: A female pedestrian, initially obscured by the silver sedan, suddenly appears from behind it and steps onto the crosswalk, directly entering the path of the silver sedan. This sudden emergence from behind an obstruction with minimal reaction time constitutes a ghost probing behavior, leading to the collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

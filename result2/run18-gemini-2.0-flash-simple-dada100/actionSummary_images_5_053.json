@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_053",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver navigating a narrow road in a rural area. There are buildings on both sides of the road. A white car is parked on the left side of the road. A person on a bicycle is seen further down the road.",
+  "summary": "The vehicle is driving down a narrow road in a rural area. The road is lined with buildings on both sides. A white car is parked on the left side of the road. As the vehicle progresses, a cyclist becomes visible further down the road.",
+  "actions": "The vehicle is driving straight down a narrow road. The speed appears to be slow and steady, likely due to the confined space and the presence of buildings close to the road. The driver maintains the current lane.",
+  "key_objects": "1) Left: Parked white car, medium distance, could potentially obstruct view or movement. 2) Center: Cyclist, far distance, moving in the same direction, potential for interaction.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

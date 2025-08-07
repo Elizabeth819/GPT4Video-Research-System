@@ -1,0 +1,19 @@
+
+{
+  "video_id": "dada_1_010",
+  "segment_id": "segment_000",
+  "Start_Timestamp": "0.0s",
+  "sentiment": "Negative",
+  "End_Timestamp": "9.0s",
+  "scene_theme": "Dramatic",
+  "characters": "motorcyclist ahead, truck on the left",
+  "summary": "In this segment, the vehicle is driving on a road with a high wall on the right side. A motorcyclist appears ahead, moving from the right side of the road to the center. A large truck is visible on the left side of the road, moving in the same direction as the self-vehicle.",
+  "actions": "The self-driving vehicle is maintaining a steady speed while keeping a safe distance from the motorcyclist ahead. The vehicle is also staying in its lane, ensuring it does not get too close to the truck on the left.",
+  "key_objects": "1) Front: A motorcyclist, approximately 10 meters away, moving from the right side to the center of the road, potentially causing the vehicle to decelerate. 2) Left side: A large truck, approximately 15 meters away, moving in the same direction, requiring the vehicle to maintain its lane position.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "decelerate",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

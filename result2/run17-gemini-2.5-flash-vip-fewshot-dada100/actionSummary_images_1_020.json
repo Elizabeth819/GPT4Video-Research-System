@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_020",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "None visible in immediate vicinity",
+    "summary": "The self-driving vehicle is traveling on a straight urban road. There are buildings on the right side of the road. No pedestrians or other vehicles are visible in the immediate vicinity. The driving conditions appear to be routine.",
+    "actions": "The self-driving vehicle is maintaining a consistent speed and direction on the straight road. No changes in speed or direction are observed, indicating a stable driving condition. The vehicle is likely following the road's path and maintaining a safe distance from any potential obstacles.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_020",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.7s",
+    "sentiment": "Neutral",
+    "scene_theme": "Routine",
+    "characters": "None visible in immediate vicinity",
+    "summary": "The vehicle is moving forward on a straight road. There are no visible pedestrians or vehicles in the immediate vicinity. The driving conditions appear routine with no immediate safety concerns.",
+    "actions": "The self-driving vehicle maintains a consistent speed and direction on the road. No sudden changes in speed or direction are required as there are no obstacles or safety concerns present. The vehicle continues with normal driving behavior.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

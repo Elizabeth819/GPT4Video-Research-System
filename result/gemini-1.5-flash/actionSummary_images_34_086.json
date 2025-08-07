@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_086",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a white SUV, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a city road approaching an intersection. A white sedan is seen on the left side, and a white SUV is ahead in the same lane. A motorcyclist is approaching from the left side. The white sedan suddenly cuts into the lane of the self-driving vehicle, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The white SUV ahead is slowing down, and the white sedan on the left side suddenly cuts into the lane, forcing the self-driving vehicle to decelerate to avoid a collision.",
+        "key_objects": "1) Left side: A white sedan, approximately 5 meters away, suddenly cuts into the self-driving vehicles lane. 2) Front: A white SUV, approximately 10 meters away, slowing down. 3) Left side: A motorcyclist, approximately 15 meters away, approaching the intersection.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

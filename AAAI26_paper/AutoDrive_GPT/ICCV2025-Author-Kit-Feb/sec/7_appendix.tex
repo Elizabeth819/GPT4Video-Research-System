@@ -1,0 +1,140 @@
+\appendix
+
+\section{COBRA Implementation Details}
+\label{appendix:cobra_implementation}
+
+This section provides detailed implementation specifications for the COBRA framework to ensure reproducibility and address reviewer concerns about technical completeness.
+
+\subsection{Adaptive Segmentation Algorithm Implementation}
+The adaptive segmentation module implements optical flow analysis using the Lucas-Kanade method with the following parameters:
+\begin{itemize}
+\item \textbf{Window Size}: 15x15 pixels for corner detection
+\item \textbf{Max Iterations}: 30 iterations for optical flow computation
+\item \textbf{Convergence Threshold}: 0.03 pixels for flow vector stability
+\item \textbf{Motion Threshold}: $\theta_{motion} = 2.5$ pixels/frame (empirically optimized)
+\end{itemize}
+
+The segmentation decision function is implemented as:
+\begin{verbatim}
+def adaptive_segmentation(video_path, motion_threshold=2.5):
+    cap = cv2.VideoCapture(video_path)
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    
+    segments = []
+    current_segment_start = 0
+    
+    for frame_idx in range(0, total_frames, int(fps)):
+        motion_magnitude = calculate_optical_flow_magnitude(frame_idx)
+        
+        if motion_magnitude > motion_threshold:
+            segment_length = 5  # seconds
+        else:
+            segment_length = 10  # seconds
+            
+        segments.append((current_segment_start, 
+                        current_segment_start + segment_length))
+        current_segment_start += segment_length
+    
+    return segments
+\end{verbatim}
+
+\subsection{Hybrid Frame Sampling Implementation}
+The hybrid sampling strategy combines uniform temporal sampling with saliency-based selection:
+
+\begin{verbatim}
+def hybrid_frame_sampling(segment, target_frames=10):
+    uniform_frames = 7
+    saliency_frames = 3
+    
+    # Uniform sampling
+    uniform_indices = np.linspace(0, len(segment)-1, 
+                                 uniform_frames, dtype=int)
+    
+    # Saliency-based sampling
+    saliency_scores = []
+    for frame in segment:
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        laplacian_var = cv2.Laplacian(gray, cv2.CV_64F).var()
+        saliency_scores.append(laplacian_var)
+    
+    # Select top-3 saliency frames excluding uniform samples
+    remaining_indices = set(range(len(segment))) - set(uniform_indices)
+    saliency_indices = sorted(remaining_indices, 
+                             key=lambda x: saliency_scores[x], 
+                             reverse=True)[:saliency_frames]
+    
+    return uniform_indices.tolist() + saliency_indices
+\end{verbatim}
+
+\subsection{Audio Processing Pipeline Configuration}
+The audio processing module uses the following configuration:
+\begin{itemize}
+\item \textbf{Sampling Rate}: 16kHz (optimized for speech recognition)
+\item \textbf{Audio Format}: WAV, 16-bit depth
+\item \textbf{Noise Reduction}: Spectral subtraction with 6dB noise floor estimation
+\item \textbf{Whisper Model}: whisper-1 via Azure Cognitive Services
+\item \textbf{Language Detection}: Automatic (supports en, zh, jp, ko)
+\end{itemize}
+
+\subsection{Performance Optimization Details}
+COBRA implements several optimization strategies:
+\begin{enumerate}
+\item \textbf{Memory Management}: Frame buffers limited to 1GB with automatic cleanup
+\item \textbf{Parallel Processing}: ThreadPoolExecutor with 4 worker threads for I/O operations
+\item \textbf{Caching}: Intermediate results cached using pickle with LRU eviction
+\item \textbf{Error Recovery}: Exponential backoff retry mechanism (max 3 attempts)
+\end{enumerate}
+
+The complete COBRA source code is available at: \texttt{[repository\_url\_placeholder]} for full reproducibility.
+
+\section{Prompt Tuning Details}
+\label{appendix:prompt_tuning}
+There are several prompt tuning strategies that can be used to enhance the performance of GPT-4o in the context of autonomous driving behavior prediction. These strategies include:
+\subsection{multi-image video input}
+GPT-4o supports up to 20 images input, enabling it to process a sequence of images extracted from video data. This capability allows the model to analyze temporal changes and extract meaningful information from consecutive frames. 
+
+\subsection{Chain-of-Thought (CoT) Reasoning}
+Chain-of-Thought (CoT) reasoning is a technique that enables GPT-4o to perform complex reasoning tasks by breaking down the problem into a series of intermediate steps. This approach allows the model to handle multi-step reasoning processes more effectively, improving its ability to interpret and predict driving behaviors in complex scenarios. By explicitly modeling the sequence of reasoning steps, CoT enhances the model's interpretability and accuracy in decision-making.
+
+  1) Thought1: You are VideoAnalyzerGPT analyzing a series of SEQUENCIAL images taken from a video
+
+  2) Thought2: Focus on the changes in the relative positions, distances, and speeds of objects, particularly the car in front
+
+  3) Thought3: Pay special attention to any signs of deceleration or closing distance between the car in front and the observer vehicle.
+
+  4) Thought4: Describe any changes in the car's speed, distance from the observer vehicle, and how these might indicate a potential  
+                need for braking or collision avoidance.
+
+  5) Thought5: Based on the sequence of images, predict the next action that the observer vehicle should take. 
+
+  6) Thought6: If the car ahead is decelerating and the distance is closing rapidly, suggest whether braking is necessary to avoid a 
+               collision. 
+
+  7) Thought7: Examine the sequential images for visual cues...Consider how these cues change from one frame to the next, and describe 
+               the need for the observer vehicle to take action, such as braking, based on these changes. 
+
+\subsection{Image-Based Few-Shot Learning}
+Image-based few-shot learning enhances the ability to learn spatial relative positions, augmenting in cross-modal alignment. For example:
+
+Below are time series example images and their corresponding analysis to help you understand how to analyze and label the images:
+\begin{verbatim}
+  {fsl_base64_payload} -> {assistant_response}
+  \end{verbatim}
+
+\subsection{Structured Output}
+GPT-4o supports structured output, enabling it to generate well-organized and formatted responses. This capability is particularly useful for generating JSON, XML, or other structured data formats, which can be easily parsed and utilized by downstream applications. We use json format and specify key colummns like "key\_actions", "start\_timestamp", "end\_timestamp", and "next\_actions" in the output.
+
+\subsection{Multi-task prompting}
+**Task 1: Identify and Predict potential very near future time "Ghosting" 、Cut-in.,etc Behavior**
+
+**Task 2: Explain Current Driving Actions**
+
+**Task 3: Predict Next Driving Action**  
+
+\subsection{Position-guided text prompting}
+In order to guide the model to understand relative position of objects in the image, we tell the gpt-4o model to know its oberving position:
+
+Assume the viewpoint is standing from at the bottom center of the image. Describe whether the objects are on the left or right side of this central point.
+  
+The full prompt is in the attached code.

@@ -1,0 +1,9 @@
+{
+  "timestamp": "16:49:34 - 16:49:36",
+  "summary": "A white car suddenly appears from a blind spot on the right side of the road, aggressively cutting into the main traffic lane directly in front of the dashcam vehicle, creating a dangerous situation.",
+  "actions": "The dashcam vehicle is driving straight on a two-lane road. A white car emerges from a side road/driveway on the right and attempts to turn left or cross the main road, cutting off the dashcam vehicle.",
+  "characters": "Driver of the dashcam vehicle (implied, autonomous system), driver of the white car.",
+  "key_objects": "Dashcam vehicle, white car, main road, side road/intersection, roadside buildings and trees (creating blind spot).",
+  "key_actions": "Ghost probing detected. The white car performs a dangerous cut-in maneuver, appearing abruptly from behind roadside obstructions and entering the path of the dashcam vehicle without sufficient clearance.",
+  "next_action": "The autonomous driving system would likely initiate an emergency braking maneuver or evasive steering to avoid a collision with the white car. The white car would continue its turn/crossing."
+}

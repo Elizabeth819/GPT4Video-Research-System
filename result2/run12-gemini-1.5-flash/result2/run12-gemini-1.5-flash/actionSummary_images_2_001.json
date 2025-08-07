@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_2_001",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Street Scene",
+    "sentiment": "Neutral",
+    "characters": "Numerous pedestrians, motorcyclists, and e-bike riders.  Several individuals are carrying shopping bags or umbrellas.  The clothing is typical of everyday wear.",
+    "summary": "The video shows a car driving slowly down a narrow street in what appears to be a city in China. The street is crowded with pedestrians, many walking in the street itself, and numerous slow-moving motorized two-wheeled vehicles such as motorcycles and e-bikes.  The weather is overcast and possibly rainy. The road is wet. The car maintains a slow and steady speed, navigating carefully through the dense traffic.  No sudden or dangerous events occur within this 10-second segment.",
+    "actions": "The vehicle maintains a consistently slow speed throughout the 10-second segment, likely due to the high density of pedestrians and slow-moving vehicles in the roadway.  The driver is navigating carefully, adjusting speed and direction to avoid collisions with other road users. The vehicle remains in its lane.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_2_001",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.7s",
+    "scene_theme": "Urban Street Scene",
+    "sentiment": "Neutral",
+    "characters": "Multiple pedestrians, including those on scooters and a person pushing a handcart; drivers of various vehicles.",
+    "summary": "The video shows a narrow urban street with moderate pedestrian and vehicle traffic.  The self-driving vehicle is moving slowly, navigating through a congested area.  Pedestrians are walking on both sides of the street, and several scooters and a small motorized cart are also present.  The scene is relatively static, with no sudden or erratic movements observed. The overall traffic flow is slow and consistent.",
+    "actions": "The self-driving vehicle maintains a slow and steady speed, adapting to the congested traffic conditions.  The vehicle carefully navigates around pedestrians and other vehicles, maintaining a safe distance.  There are no sudden braking or acceleration maneuvers observed. The vehicle's speed is consistent with the surrounding traffic flow.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Multiple pedestrians of varying ages and genders, one male in dark clothing, one male in an orange shirt; one person on a motorcycle.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban street at night, characterized by brightly lit commercial buildings and shops lining both sides of the road. As the vehicle approaches an intersection, it encounters a clearly marked pedestrian crosswalk. Multiple individuals, including pedestrians and a person on a motorcycle, begin to cross the road from both the left and right sides of the vehicle's path. The vehicle responds by initiating a controlled deceleration and coming to a complete stop at the crosswalk, yielding to the crossing traffic. The scene depicts a routine urban driving scenario where the vehicle prioritizes safety by stopping for pedestrians at a designated crossing.",
+  "actions": "The self-driving vehicle is initially maintaining a steady speed as it approaches an urban intersection. Upon recognizing the pedestrian crosswalk and observing multiple pedestrians and a motorcyclist entering the crosswalk from both the left and right sides, the vehicle initiates a controlled deceleration. This deceleration is a direct response to the presence of crossing individuals, demonstrating the vehicle's adherence to traffic laws and its priority for pedestrian safety. The vehicle comes to a complete stop at the crosswalk, waiting for the crossing path to clear before proceeding.",
+  "key_objects": "1) Left side: A male pedestrian in dark clothing, approximately 5-10 meters ahead, crossing the road from left to right on the crosswalk, prompting the vehicle to stop. 2) Right side: A male pedestrian in an orange shirt, approximately 5-10 meters ahead, crossing the road from right to left on the crosswalk, prompting the vehicle to stop. 3) Left side: A person on a motorcycle, approximately 5-10 meters ahead, crossing the road from left to right on the crosswalk, contributing to the need for the vehicle to stop.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

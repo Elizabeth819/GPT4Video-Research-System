@@ -1,0 +1,57 @@
+2025-07-29 12:59:56,436 - INFO - Gemini 2.5 Flash model initialized: AIzaSyA2nN...
+2025-07-29 12:59:56,436 - INFO - Starting retry for 5 failed videos
+Retrying failed videos:   0%|          | 0/5 [00:00<?, ?it/s]2025-07-29 12:59:56,455 - INFO - Analyzing video: images_1_001
+2025-07-29 12:59:57,148 - INFO - API call attempt 1/3 for images_1_001
+2025-07-29 13:00:06,641 - INFO - Successfully analyzed images_1_001
+2025-07-29 13:00:06,644 - INFO - Saved result for images_1_001
+Retrying failed videos:  20%|██        | 1/5 [00:10<00:40, 10.19s/it]2025-07-29 13:00:06,645 - INFO - Analyzing video: images_1_017
+2025-07-29 13:00:07,761 - INFO - API call attempt 1/3 for images_1_017
+2025-07-29 13:00:20,275 - ERROR - Failed to parse JSON response for images_1_017: Expecting ',' delimiter: line 8 column 78 (char 965)
+2025-07-29 13:00:20,275 - ERROR - Response text: ```json
+{
+  "timestamp": "0-21s",
+  "summary": "The camera car is driving on a multi-lane urban road lined with trees. It observes various vehicles, including buses and cars, and proceeds through an intersection.",
+  "actions": "Driving forward, maintaining lane, observing surrounding traffic, passing a bus, approaching and passing an intersection.",
+  "characters": "Camera car, green bus, blue/white bus, gray sedan, yellow taxi, other cars, motorcycles.",
+  "key_objects": "Road, traffic lanes, ...
+2025-07-29 13:00:20,275 - INFO - API call attempt 2/3 for images_1_017
+2025-07-29 13:00:31,978 - ERROR - Failed to parse JSON response for images_1_017: Expecting ',' delimiter: line 8 column 78 (char 965)
+2025-07-29 13:00:31,979 - ERROR - Response text: ```json
+{
+  "timestamp": "0-21s",
+  "summary": "The camera car is driving on a multi-lane urban road lined with trees. It observes various vehicles, including buses and cars, and proceeds through an intersection.",
+  "actions": "Driving forward, maintaining lane, observing surrounding traffic, passing a bus, approaching and passing an intersection.",
+  "characters": "Camera car, green bus, blue/white bus, gray sedan, yellow taxi, other cars, motorcycles.",
+  "key_objects": "Road, traffic lanes, ...
+2025-07-29 13:00:31,979 - INFO - API call attempt 3/3 for images_1_017
+2025-07-29 13:00:43,537 - ERROR - Failed to parse JSON response for images_1_017: Expecting ',' delimiter: line 8 column 78 (char 965)
+2025-07-29 13:00:43,537 - ERROR - Response text: ```json
+{
+  "timestamp": "0-21s",
+  "summary": "The camera car is driving on a multi-lane urban road lined with trees. It observes various vehicles, including buses and cars, and proceeds through an intersection.",
+  "actions": "Driving forward, maintaining lane, observing surrounding traffic, passing a bus, approaching and passing an intersection.",
+  "characters": "Camera car, green bus, blue/white bus, gray sedan, yellow taxi, other cars, motorcycles.",
+  "key_objects": "Road, traffic lanes, ...
+2025-07-29 13:00:43,537 - ERROR - Failed to analyze images_1_017 after 3 attempts
+Retrying failed videos:  40%|████      | 2/5 [00:47<01:17, 25.90s/it]2025-07-29 13:00:43,540 - INFO - Analyzing video: images_1_025
+2025-07-29 13:00:46,912 - INFO - API call attempt 1/3 for images_1_025
+2025-07-29 13:00:55,083 - INFO - Successfully analyzed images_1_025
+2025-07-29 13:00:55,084 - INFO - Saved result for images_1_025
+Retrying failed videos:  60%|██████    | 3/5 [00:58<00:38, 19.34s/it]2025-07-29 13:00:55,085 - INFO - Analyzing video: images_5_012
+2025-07-29 13:00:55,900 - INFO - API call attempt 1/3 for images_5_012
+2025-07-29 13:01:08,862 - ERROR - Empty response for images_5_012
+2025-07-29 13:01:08,862 - INFO - API call attempt 2/3 for images_5_012
+2025-07-29 13:01:21,475 - ERROR - Empty response for images_5_012
+2025-07-29 13:01:21,476 - INFO - API call attempt 3/3 for images_5_012
+2025-07-29 13:01:31,429 - INFO - Successfully analyzed images_5_012
+2025-07-29 13:01:31,436 - INFO - Saved result for images_5_012
+Retrying failed videos:  80%|████████  | 4/5 [01:34<00:26, 26.06s/it]2025-07-29 13:01:31,437 - INFO - Analyzing video: images_5_026
+2025-07-29 13:01:35,258 - INFO - API call attempt 1/3 for images_5_026
+2025-07-29 13:01:43,841 - INFO - Successfully analyzed images_5_026
+2025-07-29 13:01:43,845 - INFO - Saved result for images_5_026
+Retrying failed videos: 100%|██████████| 5/5 [01:47<00:00, 21.14s/it]Retrying failed videos: 100%|██████████| 5/5 [01:47<00:00, 21.48s/it]
+2025-07-29 13:01:43,847 - INFO - Retry completed! Success: 4, Failed: 1
+
+✅ Retry Results:
+📊 Successful: 4
+❌ Failed: 1

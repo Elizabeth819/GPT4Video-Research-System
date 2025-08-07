@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_30_014",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Truck on the right, car ahead",
+        "summary": "In this segment, the vehicle is driving on a highway. A truck is consistently visible on the right side, maintaining its lane. The car ahead is moving steadily in the same lane as the observer vehicle. Towards the end of the segment, an obstacle appears in the lane ahead, potentially causing a need for sudden braking.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while keeping a safe distance from the car ahead. The truck on the right is maintaining its lane without any sudden movements. As the obstacle appears in the lane ahead, the vehicle may need to decelerate or change lanes to avoid a collision.",
+        "key_objects": "1) Right side: A truck, approximately 10 meters away, maintaining its lane. 2) Front: A car, approximately 30 meters away, moving steadily. 3) Front: An obstacle, approximately 20 meters away, appearing suddenly in the lane.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "change to left lane"
+        }
+    }
+]

@@ -1,0 +1,1844 @@
+{
+  "experiment_info": {
+    "run_id": "Run 14",
+    "timestamp": "20250728_220744",
+    "model": "gemini-2.0-flash-exp",
+    "prompt_version": "VIP Professional + Few-shot Examples",
+    "total_videos": 101,
+    "processed_videos": 101,
+    "failed_videos": 0,
+    "processing_parameters": {
+      "interval": 10,
+      "max_frames": 10,
+      "temperature": 0,
+      "max_output_tokens": 4000
+    },
+    "key_features": [
+      "VIP Professional Prompt",
+      "Few-shot Learning Examples",
+      "Dual API Key Strategy",
+      "Enhanced Error Handling",
+      "Temperature=0 for Consistency"
+    ]
+  },
+  "results": {
+    "images_1_001": {
+      "video_id": "images_1_001",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A silver sedan is driving on the road. A man in dark clothing is walking on the right side of the road. A child is seen running across the road with a stick in their hand.",
+      "summary": "The self-driving vehicle is traveling on a road with buildings on either side. From 0.0s to 2.0s, a silver sedan is seen driving in the opposite direction. At 2.0s, a child wearing dark clothing suddenly runs across the road from left to right, holding a stick. From 7.0s to 10.0s, a man in dark clothing is walking on the right side of the road, approaching the vehicle's path.",
+      "actions": "The vehicle is maintaining a steady speed. The driver may need to decelerate or brake if the man on the right side of the road continues to walk into the vehicle's path. The vehicle maintained its speed after the child crossed the road.",
+      "key_objects": "1) Left side: A child wearing dark clothing, approximately 5 meters away, suddenly running across the road from left to right. 2) Right side: A man in dark clothing, approximately 10 meters away, walking towards the road and potentially into the vehicle's path.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_002": {
+      "video_id": "images_1_002",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several people are walking and riding bikes along the roadside. A man in a dark jacket is walking on the right side of the road. A person on a scooter is traveling in the opposite direction. Two people are walking on the right side of the road.",
+      "summary": "The vehicle is driving on a rural road with buildings on both sides. Several people are walking and riding bikes along the roadside. A man in a dark jacket is walking on the right side of the road. A person on a scooter is traveling in the opposite direction. Two people are walking on the right side of the road. The road is straight and the visibility is good. There are no immediate hazards.",
+      "actions": "The vehicle is maintaining a steady speed and direction. The driver is likely aware of the pedestrians and cyclists on the roadside and is driving cautiously. The vehicle is maintaining its current lane and speed.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_003": {
+      "video_id": "images_1_003",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A child wearing a blue jacket and a woman wearing a pink jacket are present on the road. A white car is parked on the right side of the road with its trunk open.",
+      "summary": "The vehicle is driving on a road at night. From 0.0s to 2.0s, the road appears clear. At 3.0s, a child wearing a blue jacket suddenly appears in the middle of the road. At 5.0s, the child is lying on the road. From 6.0s to 10.0s, a woman wearing a pink jacket is seen attending to the child on the road next to a white car with its trunk open on the right side of the road.",
+      "actions": "The vehicle is driving at a consistent speed on a straight road. The driver likely maintains the speed due to the absence of immediate obstacles or traffic concerns in the initial frames. The driver may need to decelerate due to the presence of the child and woman on the road.",
+      "key_objects": "1) Center: A child wearing a blue jacket, approximately 10 meters away, suddenly appearing in the middle of the road. 2) Right side: A white car, approximately 5 meters away, parked with its trunk open, potentially obstructing the view of the child and woman. 3) Center: A woman wearing a pink jacket, approximately 3 meters away, attending to the child on the road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_004": {
+      "video_id": "images_1_004",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A man wearing dark clothing is seen on the right side of the road. There are also several motorcycles and a truck visible in the distance.",
+      "summary": "The vehicle is driving on a road with buildings and trees on the right side. From 0.0s to 6.0s, the vehicle is driving at a constant speed. At 7.0s, a man wearing dark clothing suddenly appears from behind a building on the right side of the road and begins to cross the street. The man is walking at a normal pace. At 8.0s, the man is in the middle of the road. At 9.0s, the man is almost across the road. At 10.0s, the man is safely across the road. This sudden appearance constitutes a ghost probing incident.",
+      "actions": "The vehicle maintains a consistent speed initially, likely assessing the clear road ahead. As the vehicle approaches the area where the man is crossing, the driver likely anticipates potential hazards and prepares to react. The vehicle is driving at a constant speed.",
+      "key_objects": "1) Right side: A man wearing dark clothing, approximately 5 meters away, suddenly appearing from behind a building and crossing the road. 2) Right side: A building, approximately 10 meters away, creating a visual obstruction that hides the man until he emerges into the road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_005": {
+      "video_id": "images_1_005",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A group of students wearing school uniforms and carrying umbrellas are on the right side of the road. A motorcyclist wearing a dark jacket and helmet is attempting to cross the road from right to left.",
+      "summary": "The vehicle is driving on a wet urban road with moderate traffic. A large group of students is gathered on the right side of the road, near what appears to be a school or bus stop. A motorcyclist wearing a dark jacket and helmet is attempting to cross the road from right to left, potentially obscured by the group of students and parked cars, creating a potential ghost probing situation. The road is wet, which could affect braking distance.",
+      "actions": "The self-driving vehicle is maintaining a steady speed, likely adjusting to the wet road conditions. The vehicle is proceeding straight, monitoring the group of students and the motorcyclist on the right side of the road. The driver is likely anticipating the need to decelerate or stop if the motorcyclist enters the vehicle's path unexpectedly.",
+      "key_objects": "1) Right side: A motorcyclist wearing a dark jacket and helmet, approximately 10 meters away, attempting to cross the road from right to left, potentially obscured by the group of students and parked cars. 2) Right side: A large group of students wearing school uniforms and carrying umbrellas, approximately 5 meters away, potentially obstructing the view of the motorcyclist.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_006": {
+      "video_id": "images_1_006",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several vehicles including cars, motorcycles, and buses are present. A young boy wearing a blue shirt and carrying a backpack is attempting to cross the road.",
+      "summary": "The vehicle is driving on a busy urban street with cars parked along the right side. From 0.0s to 9.0s, the vehicle is moving forward in traffic. At approximately 9.0s, a young boy wearing a blue shirt and carrying a backpack suddenly appears from behind a parked black car on the left side of the road and attempts to cross the street. This creates a dangerous \"ghost probing\" situation as the boy was not visible until he emerged from behind the parked car.",
+      "actions": "The vehicle is initially moving with the flow of traffic. Upon seeing the boy emerge from behind the parked car, the driver likely initiates braking to avoid a collision. The driver's action is a direct response to the sudden appearance of the boy.",
+      "key_objects": "1) Left side: A young boy wearing a blue shirt and carrying a backpack, approximately 3 meters away, suddenly emerging from behind a parked black car and attempting to cross the street. 2) Left side: A parked black car, approximately 4 meters away, creating a visual obstruction that hides the boy until he emerges into the vehicle's path.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_007": {
+      "video_id": "images_1_007",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several pedestrians are walking on the sidewalks. A red sedan is crossing the road at a crosswalk on the left side of the road. A white van is parked on the right side of the road with two people standing near it. A man in a blue shirt is running across the road from right to left.",
+      "summary": "The vehicle is driving on a two-lane road with sidewalks on both sides. There are several pedestrians walking on the sidewalks. A red sedan is crossing the road at a crosswalk on the left side of the road. A white van is parked on the right side of the road with two people standing near it. A man in a blue shirt is running across the road from right to left. The road conditions are normal with moderate traffic.",
+      "actions": "The vehicle is maintaining a steady speed and direction on the road. The driver is likely maintaining the speed to adhere to the speed limit and ensure safety in the presence of pedestrians and other vehicles. The vehicle is keeping straight in the current lane.",
+      "key_objects": "None requiring immediate attention",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_008": {
+      "video_id": "images_1_008",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several people are visible on the right side of the road. A man in a blue jacket is standing near a parked vehicle. Further down the road, a man in a yellow shirt is walking. A cyclist is also present on the right side of the road.",
+      "summary": "The vehicle is driving on a road with parked vehicles on the left and people on the right. The road appears to be in a residential or commercial area. Several individuals are walking and standing near the roadside. A cyclist is also present. The vehicle maintains a steady speed and direction.",
+      "actions": "The vehicle is maintaining a consistent speed and direction, navigating the road with parked vehicles on the left and people on the right. The driver is likely maintaining the current speed due to the presence of pedestrians and parked vehicles, ensuring a safe driving distance and reaction time.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_009": {
+      "video_id": "images_1_009",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Two individuals, one wearing a light brown jacket and the other wearing a blue jacket, appear to be young adults. They are crossing the road together.",
+      "summary": "The vehicle is driving on a road at night. From timestamp 0.0s to 5.5s, two individuals, one in a light brown jacket and the other in a blue jacket, are seen walking across the road. They appear to be young adults. At timestamp 5.5s, the individuals are in the middle of the road, directly in the path of the vehicle, creating a dangerous situation. The vehicle is approaching them at a speed that could lead to a collision if no action is taken.",
+      "actions": "The vehicle is maintaining a steady speed as it drives down the road. The driver is likely unaware of the two individuals crossing the road ahead until they are clearly visible in the vehicle's path. The vehicle will likely need to decelerate rapidly to avoid a collision.",
+      "key_objects": "1) Front: Two young adults, one in a light brown jacket and the other in a blue jacket, approximately 5 meters away, crossing the road directly in the vehicle's path. They are creating an immediate danger of collision.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_010": {
+      "video_id": "images_1_010",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several vehicles including a red truck and a white van are visible in the distance. A person on a motorcycle is seen on the right side of the road.",
+      "summary": "The self-driving vehicle is traveling on a straight road with a high wall on the right side. In the distance, several vehicles, including a red truck, are visible. A person on a motorcycle is seen on the right side of the road, moving in the same direction as the self-driving vehicle. The road conditions appear to be clear and the weather is sunny. There are trees lining the left side of the road.",
+      "actions": "The vehicle is maintaining a consistent speed and direction, following the lane markings on the road. The driver is likely maintaining speed to keep pace with the traffic flow and is staying in the current lane due to the straight road and lack of immediate need to change lanes.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_011": {
+      "video_id": "images_1_011",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several vehicles are on the road. A silver sedan is parked on the right side of the road. A woman in a black shirt and a little girl in a pink dress are near the silver sedan.",
+      "summary": "The vehicle is driving on a road with moderate traffic. From 0.0s to 10.0s, the vehicle maintains its lane and speed. A silver sedan is parked on the right side of the road. A woman in a black shirt and a little girl in a pink dress are near the silver sedan. The little girl is about to cross the road.",
+      "actions": "The vehicle is maintaining a consistent speed and direction, following the road's path. The driver is likely monitoring the surrounding traffic and road conditions to ensure safe driving.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_012": {
+      "video_id": "images_1_012",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several pedestrians are walking along the right side of the road. A woman in a light-colored coat is standing near a parked car on the right side of the road. Several cars are parked along the right side of the road.",
+      "summary": "The vehicle is driving on a road with parked cars on the right side. Several pedestrians are walking along the right side of the road. A woman in a light-colored coat is standing near a parked car on the right side of the road. From 0.0s to 10.0s, the car is driving straight. The parked cars on the right side of the road could potentially obstruct the view of pedestrians crossing the street, creating a ghost probing situation.",
+      "actions": "The vehicle is maintaining a steady speed while driving straight on the road. The driver is likely maintaining this speed to keep up with the flow of traffic and to avoid causing any disruptions. The driver is also likely keeping a safe distance from the parked cars on the right side of the road to avoid any potential collisions.",
+      "key_objects": "1) Right side: A woman in a light-colored coat, approximately 5 meters away, standing near a parked car and potentially about to cross the street. 2) Right side: Parked cars, approximately 3 meters away, potentially obstructing the view of pedestrians crossing the street.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_013": {
+      "video_id": "images_1_013",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "From timestamp 2.0s to 5.0s, there are three females and one child. One female is wearing a red dress, one female is wearing a white shirt and black pants, and one female is wearing a white shirt and a brown skirt. The child is wearing a red dress. From timestamp 6.0s to 8.0s, there is a green bus.",
+      "summary": "The vehicle is driving on a rural road. From timestamp 2.0s to 5.0s, there are three females and one child walking on the road. From timestamp 6.0s to 8.0s, there is a green bus driving on the road. The road is clear and there are no other vehicles or pedestrians in the immediate vicinity.",
+      "actions": "The vehicle is maintaining a steady speed on the rural road. The driver is likely maintaining this speed due to the clear road conditions and lack of immediate obstacles. The vehicle is also maintaining its current lane as there is no need to change lanes.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_014": {
+      "video_id": "images_1_014",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A young boy, approximately 5 years old, wearing a striped shirt and red pants, is walking across the road. A red three-wheeled vehicle is driving on the road. A person is riding a scooter parked on the right side of the road.",
+      "summary": "The vehicle is driving on a road in a rural area. From 0.0s to 5.0s, the vehicle is driving at a constant speed. At 6.0s, a young boy wearing a striped shirt and red pants starts to cross the road from left to right. The boy is walking and not running, but he is still a potential hazard. At 7.0s, the boy is in the middle of the road. At 8.0s, the boy is almost across the road. At 9.0s, the boy is safely on the other side of the road. The boy's sudden appearance from the left side of the road constitutes a ghost probing scenario.",
+      "actions": "The vehicle is maintaining a steady speed as it approaches the area where the boy is crossing. The driver is likely aware of the boy's presence and is prepared to decelerate if necessary. The vehicle maintains its speed because the boy is walking and not running, and the driver has enough time to react if the boy suddenly changes direction or speed.",
+      "key_objects": "1) Left side: A young boy, approximately 5 years old, wearing a striped shirt and red pants, 5 meters away, walking across the road, creating a potential ghost probing situation. 2) Left side: Buildings, approximately 10 meters away, creating visual obstruction that hides the boy until emergence.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_015": {
+      "video_id": "images_1_015",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several people are visible on the sidewalks and streets. A man in a blue shirt and dark pants is standing near a parked truck on the right side of the road. A child in a pink shirt is walking on the right side of the road. A man is riding a motorcycle on the left side of the road.",
+      "summary": "The vehicle is driving on a narrow urban road with buildings and parked vehicles on both sides. From 0.0s to 5.7s, a man in a blue shirt and dark pants is standing near a parked truck on the right side of the road. From 6.5s to 7.4s, a child in a pink shirt is walking on the right side of the road. From 7.4s to 10.0s, a man is riding a motorcycle on the left side of the road. The road is relatively clear, and the vehicle maintains a steady speed.",
+      "actions": "The vehicle is driving at a slow and steady speed, likely due to the narrow road and the presence of pedestrians and parked vehicles. The driver is proceeding cautiously, maintaining awareness of the surroundings.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_016": {
+      "video_id": "images_1_016",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Adult female in a red coat, approximately 50 years old, crossing the road; red sedan; silver sedan",
+      "summary": "The vehicle is traveling on a highway. From timestamp 3.9s to 6.8s, an adult female wearing a red coat is seen crossing the road from right to left. She appears from behind a roadside barrier, creating a potential ghost probing situation. The vehicle is approaching an area with buildings and roadside barriers, which could obstruct the view of pedestrians or vehicles.",
+      "actions": "The vehicle maintains a consistent speed initially. From timestamp 3.9s to 6.8s, the vehicle decelerates as a female in a red coat is crossing the road. The driver is likely slowing down to ensure the pedestrian can safely cross and to avoid a potential collision.",
+      "key_objects": "1) Right side: Adult female in a red coat, approximately 5 meters away, crossing the road from behind a roadside barrier, creating a potential ghost probing situation. 2) Right side: Roadside barrier, approximately 3 meters away, obstructing the view of the pedestrian until she is already crossing the road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_017": {
+      "video_id": "images_1_017",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several vehicles including a yellow taxi and a grey sedan are visible on the road. A bus is on the right side of the road.",
+      "summary": "The self-driving vehicle is traveling on a road with moderate traffic. A bus is present on the right side, and a grey sedan is ahead in the same lane. A yellow taxi is visible in the oncoming lane. The road is straight, and the weather appears to be clear. There are trees lining both sides of the road.",
+      "actions": "The self-driving vehicle is maintaining a consistent speed and following the lane markings. The vehicle is likely adjusting its speed based on the distance to the grey sedan ahead to maintain a safe following distance. The vehicle is keeping a safe distance from the bus on the right.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_018": {
+      "video_id": "images_1_018",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Two adults, one wearing a light-colored shirt and dark pants, and the other wearing a dark-patterned shirt and dark pants, are walking across the road. A motorcyclist is driving in the same direction as the car.",
+      "summary": "The vehicle is driving on a road with parked cars on both sides. Two adults are walking across the road from left to right. A motorcyclist is driving in the same direction as the car. The two adults walking across the road are partially obscured by the parked cars, creating a potential ghost probing situation.",
+      "actions": "The vehicle is maintaining a steady speed. The driver is likely aware of the parked cars and the potential for pedestrians to emerge from behind them. The vehicle is maintaining its current lane.",
+      "key_objects": "1) Left side: Two adults, approximately 10 meters away, walking across the road from behind parked cars, potentially causing the vehicle to decelerate or stop. 2) Ahead: A motorcyclist, approximately 20 meters away, driving in the same direction.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_019": {
+      "video_id": "images_1_019",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Adult male, wearing a blue shirt and dark pants, lying in the middle of the road.",
+      "summary": "The vehicle is driving on a narrow road in a rural area. At approximately 3.0s, an adult male wearing a blue shirt and dark pants suddenly appears in the middle of the road. The man is lying down and appears to be injured or unconscious. The vehicle will need to take immediate action to avoid hitting the man.",
+      "actions": "The vehicle is driving at a moderate speed on a narrow road. The driver is likely maintaining this speed due to the road conditions and limited visibility. The vehicle will need to decelerate rapidly to avoid the man lying in the road.",
+      "key_objects": "1) Front: Adult male, wearing a blue shirt and dark pants, approximately 5 meters away, lying in the middle of the road, creating an immediate obstacle.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_020": {
+      "video_id": "images_1_020",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male on a motorcycle wearing a white and black jacket, and a white helmet. There is also a truck parked on the right side of the road.",
+      "summary": "The vehicle is driving on a dark road at night. From 0.0s to 6.0s, the road appears clear with another vehicle approaching in the opposite direction. At 6.0s, a motorcycle with a male rider wearing a white and black jacket and a white helmet suddenly appears from behind a parked truck on the right side of the road. The motorcycle is moving into the vehicle's lane, creating a potential collision situation. The motorcycle's sudden appearance from behind the truck constitutes a ghost probing scenario.",
+      "actions": "The vehicle is driving at a consistent speed on a straight road. The driver is maintaining the current lane. The speed is likely moderate, given the road conditions and the presence of other vehicles. The driver is proceeding cautiously due to the limited visibility at night. The vehicle maintains its speed until the motorcycle appears, at which point the driver would need to react.",
+      "key_objects": "1) Right side: A male on a motorcycle wearing a white and black jacket and a white helmet, approximately 5 meters away, suddenly emerging from behind a parked truck and moving into the vehicle's lane. 2) Right side: A parked truck, approximately 7 meters away, creating a visual obstruction that hides the motorcycle until it emerges.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_021": {
+      "video_id": "images_1_021",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A green and red bus is on the left side of the road. Several pedestrians are on the right side of the road, including a male wearing a white shirt and dark pants who is running across the crosswalk.",
+      "summary": "The vehicle is driving on a wet urban road with a bus on the left. A male wearing a white shirt and dark pants suddenly runs across the crosswalk from the right side of the road. The pedestrian's sudden appearance creates a dangerous situation as he is running into the vehicle's path.",
+      "actions": "The vehicle is maintaining a steady speed on a wet road. The driver is likely proceeding cautiously due to the presence of the bus on the left and the potential for pedestrians crossing the road. The vehicle may need to decelerate if the pedestrian continues to run across the road.",
+      "key_objects": "1) Right side: A male wearing a white shirt and dark pants, approximately 5 meters away, running across the crosswalk into the vehicle's path. 2) Left side: A green and red bus, approximately 3 meters away, potentially obstructing the view of pedestrians.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_022": {
+      "video_id": "images_1_022",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several parked cars on the right side of the road, a white van driving in the opposite direction, two cyclists on the right side of the road.",
+      "summary": "The self-driving vehicle is proceeding straight on a multi-lane road in an urban environment. There are several parked cars on the right side of the road. A white van is driving in the opposite direction. Two cyclists are riding on the right side of the road, near the sidewalk. The traffic light ahead is red, and the vehicle is approaching an intersection.",
+      "actions": "The vehicle is maintaining a consistent speed and direction, following the lane markings. The driver is likely monitoring the traffic light and preparing to stop if it remains red. The vehicle is also maintaining awareness of the cyclists on the right side of the road.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_023": {
+      "video_id": "images_1_023",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.2s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several pedestrians are crossing the road at a crosswalk. A black sedan is stopped in the middle of the road, and a person is lying on the ground next to it. Other vehicles are present on the road.",
+      "summary": "The vehicle is approaching a crosswalk where several pedestrians are crossing. A black sedan has stopped abruptly in the middle of the road, and a person is lying on the ground next to the car. This suggests a possible collision or accident has occurred. The situation presents a significant hazard to the self-driving vehicle and other road users.",
+      "actions": "The self-driving vehicle is proceeding forward. The driver will likely need to decelerate or stop to avoid the stopped black sedan and the person lying on the ground. The driver is assessing the situation and preparing to take evasive action if necessary.",
+      "key_objects": "1) Front: A black sedan, approximately 10 meters away, stopped abruptly in the middle of the road, creating an immediate obstacle. 2) Front: A person, approximately 10 meters away, lying on the ground next to the black sedan, indicating a potential accident and requiring immediate attention.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_024": {
+      "video_id": "images_1_024",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene features a white van driving ahead of the self-driving vehicle. A red sedan is also visible in the distance.",
+      "summary": "The self-driving vehicle is traveling on a straight road during daylight hours. A white van is driving ahead in the same lane. A red sedan is visible further ahead in the distance. The road has buildings and trees on either side. There are no immediate dangerous behaviors observed.",
+      "actions": "The self-driving vehicle is maintaining a consistent speed and following the white van ahead. The vehicle is likely maintaining its speed due to the clear road conditions and the absence of immediate obstacles. The vehicle is keeping a safe distance from the van.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_025": {
+      "video_id": "images_1_025",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "4.2s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Two individuals, one wearing an orange jacket and dark pants, and the other wearing a dark jacket and dark pants, are initially standing near the guardrail on the left side of the road. The individual in the dark jacket then begins to run across the road from left to right.",
+      "summary": "The vehicle is traveling on a rural road with mountains on either side. Initially, two individuals are standing near the guardrail on the left side of the road. One of the individuals, wearing a dark jacket and dark pants, suddenly starts running across the road from left to right, creating a potential ghost probing situation as they enter the vehicle's path unexpectedly.",
+      "actions": "The vehicle is maintaining a steady speed on the rural road. The driver is likely maintaining speed due to the open road and lack of immediate obstacles. However, the sudden appearance of the individual running across the road may require the driver to decelerate or take evasive action.",
+      "key_objects": "1) Left side: An individual wearing a dark jacket and dark pants, approximately 15 meters away, suddenly running across the road from left to right. 2) Left side: An individual wearing an orange jacket and dark pants, approximately 17 meters away, standing near the guardrail.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_026": {
+      "video_id": "images_1_026",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A white car, a motorcycle, and a female adult in a pink shirt and yellow backpack.",
+      "summary": "The vehicle is driving on a road with a median. A white car is driving in the opposite direction. A motorcycle is driving in the same direction as the vehicle. A female adult in a pink shirt and yellow backpack is crossing the road from left to right. The female adult is crossing the road without looking, and the motorcycle is approaching her quickly. The female adult is creating a dangerous situation.",
+      "actions": "The vehicle is driving at a constant speed. The vehicle is maintaining its lane. The vehicle is not changing its speed or direction. The vehicle is driving at a constant speed because there are no obstacles in its path.",
+      "key_objects": "1) Left side: A female adult in a pink shirt and yellow backpack, approximately 10 meters away, crossing the road without looking, creating a potential collision with the motorcycle. 2) Left side: A motorcycle, approximately 15 meters away, approaching the female adult quickly.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_1_027": {
+      "video_id": "images_1_027",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "None visible in immediate vicinity",
+      "summary": "The vehicle is driving on a narrow road in a rural area. Buildings are present on both sides of the road. The road appears clear with no immediate obstacles or pedestrians visible. The vehicle approaches a gas station on the left side of the road. A red truck is parked near the gas station.",
+      "actions": "The vehicle is maintaining a consistent speed while driving on the narrow road. The driver is likely proceeding cautiously due to the limited visibility and the presence of buildings close to the road. The vehicle is approaching a gas station, but there is no indication of slowing down or turning, suggesting the driver is not planning to stop there.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_2_001": {
+      "video_id": "images_2_001",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several pedestrians and motorcyclists are present on the road. The pedestrians include men and women of varying ages, some carrying items. The motorcyclists are riding scooters and motorcycles, navigating through the crowded street.",
+      "summary": "The vehicle is driving on a busy urban street with a high density of pedestrians and motorcyclists. The road is filled with people walking and riding scooters and motorcycles. The vehicle is proceeding cautiously through the crowded environment. There are people walking on the road and on the sidewalks on both sides of the road. The vehicle is navigating through the crowd.",
+      "actions": "The vehicle is moving at a slow speed due to the heavy pedestrian and motorcycle traffic. The driver is likely maintaining a low speed to ensure the safety of pedestrians and other vehicles. The vehicle is keeping direction and maintaining its current lane.",
+      "key_objects": "None requiring immediate attention",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_2_002": {
+      "video_id": "images_2_002",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several adults are standing on the left side of the road, near a building under construction. One adult male is bending over in the road.",
+      "summary": "The vehicle is driving on a narrow road in a rural area. Several adults are standing on the left side of the road, near a building under construction. One adult male is bending over in the road, potentially working. The road is clear ahead, and there are no immediate obstacles.",
+      "actions": "The vehicle is maintaining a steady speed on the narrow road. The driver is likely proceeding cautiously due to the presence of people near the road and the construction activity. The vehicle is staying in the center of the lane to avoid getting too close to the people on the left.",
+      "key_objects": "1) Left side: An adult male, approximately 5 meters away, bending over in the road, potentially obstructing the vehicle's path.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_2_003": {
+      "video_id": "images_2_003",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male on a motorcycle wearing a blue jacket, several pedestrians, and multiple vehicles including cars and vans.",
+      "summary": "The self-driving vehicle is approaching an intersection. A male on a motorcycle wearing a blue jacket suddenly appears from behind a parked truck on the right side of the road, entering the intersection. The motorcycle's sudden appearance constitutes a ghost probing scenario. A male pedestrian is also visible on the left side of the road, beginning to cross the street. The pedestrian is wearing a dark jacket and dark pants. The pedestrian is walking at a normal pace. The pedestrian is approximately 50 years old.",
+      "actions": "The self-driving vehicle is approaching an intersection and maintains its speed. The driver may be anticipating a green light or believes there is sufficient time to cross the intersection before any other vehicles or pedestrians enter the path. The vehicle will likely need to decelerate due to the motorcycle entering the intersection.",
+      "key_objects": "1) Right side: A male on a motorcycle wearing a blue jacket, approximately 5 meters away, suddenly emerging from behind a parked truck and entering the intersection. 2) Right side: A parked truck, approximately 7 meters away, creating a visual obstruction that hides the motorcycle until it enters the intersection.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_2_004": {
+      "video_id": "images_2_004",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several people are visible: A person in a red jacket, a person in a blue jacket, and a person in a dark suit carrying a package. All appear to be adults.",
+      "summary": "The vehicle is driving on a road with buildings on the right and a parking area on the left. Initially, a person in a red jacket is seen crossing the road from right to left. Then, a person in a blue jacket and another in a dark suit are seen crossing from left to right. The person in the dark suit is carrying a package and crosses in front of the vehicle. The presence of these individuals crossing the road creates a potentially dangerous situation, especially the person in the dark suit who crosses closer to the vehicle.",
+      "actions": "The vehicle is initially approaching an intersection and maintains a steady speed. As the individuals begin to cross the road, the vehicle likely decelerates to ensure the safety of the pedestrians. The driver is cautious due to the presence of people crossing the road.",
+      "key_objects": "1) Right side: A person in a red jacket, approximately 8 meters away, crossing the road from right to left. 2) Left side: A person in a blue jacket, approximately 10 meters away, crossing the road from left to right. 3) Left side: A person in a dark suit carrying a package, approximately 5 meters away, crossing the road from left to right directly in front of the vehicle.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_001": {
+      "video_id": "images_3_001",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several individuals on scooters and motorcycles, some wearing helmets, are present on the road. A bus is also visible in the distance. A man is walking on the sidewalk on the right side of the road.",
+      "summary": "The vehicle is driving on a city street with moderate traffic. Several scooters and motorcycles are sharing the road. A bus is visible ahead. The road is straight and the weather appears to be clear. There are parked vehicles along the right side of the road. A man is walking on the sidewalk on the right side of the road.",
+      "actions": "The vehicle is maintaining a steady speed and driving straight ahead. The driver is likely maintaining speed due to the clear road conditions and moderate traffic. The vehicle is staying in its lane.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_002": {
+      "video_id": "images_3_002",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A blue truck with license plate A537CV is in front of the car. A person on a bicycle wearing a red shirt is on the left side of the road. A person wearing a black shirt is walking on the right side of the road. A person on a scooter is on the right side of the road.",
+      "summary": "The vehicle is driving on a road with a blue truck in front. A person on a bicycle wearing a red shirt is on the left side of the road. A person wearing a black shirt is walking on the right side of the road. A person on a scooter is on the right side of the road. The road is clear and there are no immediate safety concerns.",
+      "actions": "The vehicle is maintaining a steady speed and following the blue truck in front. The driver is likely maintaining a safe following distance and observing the surrounding environment for any potential hazards. The vehicle is driving at a moderate speed, likely due to the presence of other vehicles and people in the vicinity.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_003": {
+      "video_id": "images_3_003",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A woman in an orange jacket and dark pants riding a bicycle, a person on a red scooter, and a person on a black motorcycle.",
+      "summary": "The vehicle approaches an intersection with a red light. A woman on a bicycle, wearing an orange jacket and dark pants, suddenly appears from the right side of the vehicle and attempts to cross the intersection. The bicyclist collides with the front of the vehicle. There is also a person on a red scooter and a person on a black motorcycle in the intersection.",
+      "actions": "The vehicle is approaching an intersection and does not appear to be slowing down initially, possibly due to the driver assuming the intersection is clear. The vehicle then collides with the bicyclist who suddenly entered the vehicle's path.",
+      "key_objects": "1) Right side: A woman on a bicycle, wearing an orange jacket and dark pants, approximately 2 meters away, suddenly appearing and crossing the intersection, leading to a collision. 2) Front: The intersection itself, approximately 5 meters away, where multiple vehicles and individuals are present, increasing the risk of collisions.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_004": {
+      "video_id": "images_3_004",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Two pedestrians, a male in a white shirt and a female in a blue shirt, are crossing the street. A motorcyclist with an orange box is on the left side of the road. Several other people are on the sidewalks.",
+      "summary": "The vehicle is approaching an intersection with pedestrians crossing. A male in a white shirt and a female in a blue shirt are crossing the street from left to right. A motorcyclist with an orange box is on the left side of the road, moving into the intersection. The traffic light is red for the vehicle, and the vehicle is approaching the intersection. At approximately 9.5 seconds, a motorcyclist suddenly appears from the left side of the road, crossing into the vehicle's path, resulting in a collision.",
+      "actions": "The vehicle is approaching an intersection and maintains its speed initially. As the vehicle approaches the intersection, the driver likely anticipates the need to stop due to the red light and the presence of pedestrians crossing. The vehicle does not decelerate until the motorcyclist suddenly appears, at which point a collision occurs.",
+      "key_objects": "1) Left side: A motorcyclist, approximately 2 meters away, suddenly appearing from the left side of the road and crossing into the vehicle's path, leading to a collision. 2) Left side: A motorcyclist with an orange box, approximately 10 meters away, moving into the intersection.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_005": {
+      "video_id": "images_3_005",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A male wearing a dark jacket is crossing the road at a crosswalk. A blue and white bus is stopped on the left side of the road.",
+      "summary": "The vehicle is approaching an intersection with a crosswalk. A male wearing a dark jacket is crossing the road at the crosswalk. A blue and white bus is stopped on the left side of the road, potentially obstructing the view of pedestrians approaching the crosswalk from that side. The vehicle maintains its speed as the male is already in the crosswalk and there is no immediate danger.",
+      "actions": "The vehicle is maintaining its speed as it approaches the intersection. The driver is likely aware of the crosswalk and the potential for pedestrians. The vehicle does not decelerate because the male is already in the crosswalk and there is sufficient distance.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_006": {
+      "video_id": "images_3_006",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A gray SUV, a male cyclist wearing a light-colored shirt and dark pants, and other vehicles at the intersection.",
+      "summary": "The vehicle is approaching an intersection with a traffic light. Initially, the road appears clear, but as the vehicle gets closer to the intersection, a male cyclist wearing a light-colored shirt and dark pants suddenly appears from the right side of the road, crossing the crosswalk. The cyclist's sudden appearance creates a potential ghost probing situation as the cyclist was not visible until entering the vehicle's path. The traffic light is visible, but its status is not clear. Other vehicles are present at the intersection, indicating moderate traffic.",
+      "actions": "The vehicle is initially driving straight at a consistent speed, approaching the intersection. As the cyclist appears, the driver will likely need to decelerate or brake to avoid a collision. The driver's actions will depend on the cyclist's speed and trajectory, as well as the traffic light status.",
+      "key_objects": "1) Right side: A male cyclist wearing a light-colored shirt and dark pants, approximately 5 meters away, suddenly crossing the crosswalk and entering the vehicle's path. 2) Right side: Trees and roadside structures, approximately 10 meters away, creating a partial visual obstruction that hides the cyclist until emergence.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_3_007": {
+      "video_id": "images_3_007",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Two young boys and an adult male on bicycles crossing the road at a crosswalk. One boy is wearing a blue shirt and a black cap, and he falls off his red bicycle. The other boy is wearing a yellow hat and a blue outfit. The adult male is wearing a black shirt.",
+      "summary": "The vehicle is driving on a city street with moderate traffic. From 0.0s to 4.0s, the vehicle approaches a crosswalk. At 4.0s, a young boy on a red bicycle falls in the middle of the road. From 4.0s to 10.0s, the boy attempts to get up while another boy and an adult male on bicycles approach and cross the road. The fallen boy and his bicycle are directly in the path of the vehicle, creating a dangerous situation.",
+      "actions": "The vehicle is driving at a moderate speed and maintains its lane. As the vehicle approaches the crosswalk, the driver likely anticipates pedestrians or cyclists crossing. Upon seeing the boy fall off his bicycle, the driver would need to prepare to decelerate or stop to avoid a collision.",
+      "key_objects": "1) Front: A young boy wearing a blue shirt and a black cap, approximately 5 meters away, falling off his red bicycle directly into the vehicle's path. 2) Front: A red bicycle, approximately 4 meters away, lying on the road in the vehicle's path. 3) Front: Another boy wearing a yellow hat and a blue outfit, approximately 6 meters away, approaching the fallen boy on a bicycle. 4) Front: An adult male wearing a black shirt, approximately 7 meters away, approaching the fallen boy on a bicycle.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_001": {
+      "video_id": "images_4_001",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male cyclist in dark clothing, wearing a cap, approximately 30 years old.",
+      "summary": "The vehicle is driving on a road with parked vehicles and trees on the left side. A male cyclist wearing dark clothing and a cap suddenly appears from behind a row of trees on the left side of the road. The cyclist is riding at a moderate speed and is crossing the road, directly entering the vehicle's path. The cyclist's sudden appearance from behind the trees creates a dangerous ghost probing situation, requiring immediate reaction from the driver.",
+      "actions": "The self-driving vehicle is maintaining a steady speed. As the cyclist suddenly appears from behind the trees, the vehicle will need to decelerate to avoid a potential collision. The driver needs to be prepared to take evasive action.",
+      "key_objects": "1) Left side: A male cyclist in dark clothing and a cap, approximately 5 meters away, suddenly emerging from behind a row of trees and crossing the road. 2) Left side: A row of trees, approximately 7 meters away, creating a visual obstruction that hides the cyclist until emergence.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_002": {
+      "video_id": "images_4_002",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A middle-aged woman wearing a white long-sleeve shirt and dark pants is riding a bicycle from the left side of the road.",
+      "summary": "The vehicle is driving on a rural road. From 7.1s to 8.0s, a middle-aged woman wearing a white long-sleeve shirt and dark pants is riding a bicycle from the left side of the road. She is emerging from behind a building, creating a potential ghost probing situation. The cyclist's speed is moderate, and she is heading towards the road.",
+      "actions": "The vehicle is driving at a constant speed on a straight road. The driver maintains the current speed because the road ahead is clear until 7.1s. The driver may need to decelerate if the cyclist continues to approach the road.",
+      "key_objects": "1) Left side: A middle-aged woman on a bicycle, approximately 10 meters away, emerging from behind a building and approaching the road. The building is obstructing the view of the cyclist until she is relatively close to the road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_003": {
+      "video_id": "images_4_003",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Adult male in a dark suit and glasses, approximately 35 years old, walking from the left side of the road.",
+      "summary": "The vehicle is driving on a street with cars parked on both sides. From 0.0s to 5.8s, the vehicle is stationary. At 5.8s, the vehicle starts moving forward. At 6.7s, the vehicle is moving at 13km/h. From 7.7s to 10.0s, the vehicle decelerates and comes to a stop. An adult male in a dark suit and glasses walks from behind a parked car on the left side of the road, creating a potential ghost probing situation. The man is walking into the street.",
+      "actions": "The vehicle is initially stopped, likely waiting for traffic to clear or for a safe opportunity to proceed. The vehicle then accelerates to navigate through the street. The vehicle decelerates and stops due to the adult male walking into the street from behind a parked car.",
+      "key_objects": "1) Left side: Adult male in a dark suit and glasses, approximately 3 meters away, walking from behind a parked car and into the street, causing the vehicle to decelerate and stop. 2) Left side: Parked car, approximately 2 meters away, obstructing the view of the adult male until he emerges into the street.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_004": {
+      "video_id": "images_4_004",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several vehicles including a red sedan and a silver sedan, a cyclist wearing blue clothing, and several pedestrians are visible.",
+      "summary": "The vehicle is driving on a multi-lane road in an urban environment. Initially, the road is relatively clear with a silver sedan in front. As the vehicle approaches an intersection under an overpass, a cyclist wearing blue clothing is seen crossing the road from right to left. Several pedestrians are also visible on the sidewalks. The traffic light is visible and changes from green to yellow and then to red. The vehicle slows down and stops at the intersection.",
+      "actions": "The vehicle maintains a steady speed initially, following the silver sedan. As the vehicle approaches the intersection, the driver observes the traffic light changing and begins to decelerate. The presence of the cyclist and pedestrians near the intersection likely contributes to the decision to slow down and stop safely at the red light.",
+      "key_objects": "None requiring immediate attention",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_005": {
+      "video_id": "images_4_005",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A bus, a red car, a cyclist wearing a red jacket and black pants, and another cyclist.",
+      "summary": "The vehicle is driving on a road with multiple lanes in the same direction. Initially, a bus is ahead in the same lane. A red car is on the left side of the road. As the vehicle approaches an intersection, a cyclist wearing a red jacket and black pants starts to cross the road from the right side. Another cyclist is also present on the right side of the road.",
+      "actions": "The vehicle is maintaining a steady speed, following the lane markings. The driver is likely maintaining speed to keep pace with the flow of traffic and is preparing to navigate the upcoming intersection. The vehicle is driving straight.",
+      "key_objects": "1) Right side: A cyclist wearing a red jacket and black pants, approximately 10 meters away, crossing the road. 2) Right side: Another cyclist, approximately 15 meters away, on the side of the road.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_006": {
+      "video_id": "images_4_006",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several people are walking inside the tunnel. A male, approximately 20 years old, wearing a white shirt, dark pants, and a black backpack, is kneeling in the middle of the road. Another male is riding a scooter.",
+      "summary": "The vehicle is driving into a tunnel. Several people are walking inside the tunnel. A male, approximately 20 years old, wearing a white shirt, dark pants, and a black backpack, is kneeling in the middle of the road, directly in the vehicle's path. Another male is riding a scooter. The kneeling man is a significant hazard, and the scooter could also become a ghost probing incident if it suddenly changes direction.",
+      "actions": "The vehicle is initially driving at 23 km/h and decelerates to 0 km/h as it approaches the tunnel entrance due to the presence of people in the roadway. The driver is likely slowing down to assess the situation and avoid a potential collision with the kneeling man or other pedestrians.",
+      "key_objects": "1) Front: A male, approximately 20 years old, wearing a white shirt, dark pants, and a black backpack, approximately 5 meters away, kneeling in the middle of the road, directly in the vehicle's path. 2) Front: A male on a scooter, approximately 10 meters away, potentially moving into the vehicle's path.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_007": {
+      "video_id": "images_4_007",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A traffic officer wearing a white hat and a reflective vest is standing in the middle of the road. There is a male cyclist wearing dark clothing riding on the left side of the road. There is also a male on a scooter wearing dark clothing on the left side of the road.",
+      "summary": "The vehicle is approaching an intersection in a city during daytime. A traffic officer is standing in the middle of the road, directing traffic. A male cyclist wearing dark clothing is riding on the left side of the road. A male on a scooter wearing dark clothing is also on the left side of the road. The traffic officer is visible and there are no immediate ghost probing incidents, but the cyclist and scooter could potentially become a ghost probing incident if they suddenly change direction.",
+      "actions": "The vehicle is approaching an intersection and slowing down, likely in response to the traffic officer in the middle of the road. The driver is likely assessing the traffic situation and preparing to follow the officer's directions. The vehicle is maintaining its lane and preparing to navigate the intersection safely.",
+      "key_objects": "None",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_4_008": {
+      "video_id": "images_4_008",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A few cars are visible in the distance. A male pedestrian is walking on the right side of the road. A woman on a bicycle is approaching from the left side of the road.",
+      "summary": "The self-driving vehicle is proceeding along a multi-lane road in an urban environment during daylight hours. Initially, the road is relatively clear with a few cars visible in the distance. As the vehicle approaches an intersection, a male pedestrian is seen walking on the right side of the road, and a woman on a bicycle approaches from the left. The traffic light ahead turns red, prompting the vehicle to prepare to stop.",
+      "actions": "The vehicle maintains a consistent speed as it approaches the intersection. As the traffic light turns red, the vehicle begins to decelerate in preparation for stopping at the intersection. The deceleration is gradual and controlled, indicating a safe and cautious approach to the red light.",
+      "key_objects": "None requiring immediate attention",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_001": {
+      "video_id": "images_5_001",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several pedestrians on the sidewalks, a white sedan on the right side of the road, and other vehicles in the distance.",
+      "summary": "The self-driving vehicle is proceeding down a road at night. The road is lined with buildings and shops. There are several pedestrians on the sidewalks. A white sedan is visible on the right side of the road, moving in the same direction. The vehicle approaches an intersection with a crosswalk. The traffic light ahead is red.",
+      "actions": "The vehicle is maintaining a steady speed as it approaches the intersection. The driver is likely slowing down in anticipation of the red light. The vehicle is staying in its lane and preparing to stop at the intersection.",
+      "key_objects": "None requiring immediate attention",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_002": {
+      "video_id": "images_5_002",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A white van is driving on the road. A red truck is parked on the left side of the road. A man in a white shirt is standing on the left side of the road.",
+      "summary": "The self-driving vehicle is traveling on a road in a rural area. From 0.0s to 4.0s, the vehicle is approaching a white van. From 5.0s to 10.0s, the vehicle is approaching a red truck parked on the left side of the road. A man in a white shirt is standing on the left side of the road, near the red truck.",
+      "actions": "The vehicle is driving at a constant speed on a straight road. The driver is maintaining the speed because the road is clear and there are no immediate obstacles. The vehicle is approaching a parked red truck on the left side of the road.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_003": {
+      "video_id": "images_5_003",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several motorcyclists, a white pickup truck, and a group of people including a woman in a green shirt, a girl in a pink dress, and a small child, are present in the scene. The motorcyclists are wearing dark clothing. The woman appears to be helping the girl and child who are near a fallen motorcycle.",
+      "summary": "The vehicle is driving on a city street with moderate traffic. Initially, several motorcyclists and a white pickup truck are visible ahead. As the vehicle progresses, a concerning scene unfolds: a motorcycle has fallen in the middle of the road, and a woman in a green shirt, a girl in a pink dress, and a small child are near the fallen motorcycle. The woman appears to be assisting the girl and child, potentially creating a dangerous situation as they are obstructing the lane.",
+      "actions": "The vehicle is initially maintaining a steady speed, navigating through moderate traffic. As the scene with the fallen motorcycle and people becomes apparent, the driver likely begins to decelerate to assess the situation and avoid a potential collision. The driver is proceeding with caution due to the obstruction in the lane.",
+      "key_objects": "1) Center: A fallen motorcycle, approximately 15 meters away, obstructing the lane and creating a potential hazard. 2) Center: A woman in a green shirt, a girl in a pink dress, and a small child, approximately 15 meters away, standing near the fallen motorcycle and potentially obstructing the lane.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_004": {
+      "video_id": "images_5_004",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A person on a scooter, wearing light-colored clothing, is traveling in the same direction as the vehicle.",
+      "summary": "The vehicle is driving on a road at night. From 0.0s to 8.0s, a person on a scooter is visible ahead, traveling in the same direction. The scooter is in the same lane as the vehicle. The scooter is moving at a slow speed. From 8.0s to 10.0s, the vehicle approaches an intersection with a red traffic light on the left side. There is construction on the right side of the road, partially obstructing the view of the intersection.",
+      "actions": "The vehicle is driving at a moderate speed, maintaining its lane. The driver is likely trying to maintain a safe distance from the scooter ahead. The vehicle is approaching an intersection with a red light, so the driver will likely need to prepare to stop.",
+      "key_objects": "1) Front: A person on a scooter, approximately 20 meters away, traveling slowly in the same lane, potentially requiring the vehicle to decelerate. 2) Left side: A red traffic light at the intersection, approximately 30 meters away, requiring the vehicle to prepare to stop. 3) Right side: Construction site, approximately 10 meters away, partially obstructing the view of the intersection.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_005": {
+      "video_id": "images_5_005",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male, approximately 30 years old, wearing a yellow helmet and dark clothing, is standing next to a fallen motorcycle in the middle of the road.",
+      "summary": "The vehicle is approaching an intersection with several large trucks parked on the right side. From timestamp 8.0s to 10.0s, a male, approximately 30 years old, wearing a yellow helmet and dark clothing, is standing next to a fallen motorcycle in the middle of the road. The motorcycle and the man are directly in the path of the vehicle, creating a dangerous situation.",
+      "actions": "The vehicle is approaching the intersection at a steady speed. The driver is likely assessing the traffic situation and preparing to navigate the intersection. The presence of the fallen motorcycle and the man standing next to it will require the driver to take immediate action to avoid a collision.",
+      "key_objects": "1) Front: A male, approximately 30 years old, wearing a yellow helmet and dark clothing, standing next to a fallen motorcycle, approximately 5 meters away, directly obstructing the vehicle's path. 2) Right side: Several large trucks, approximately 10 meters away, parked and potentially obstructing the view of other vehicles or pedestrians.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_006": {
+      "video_id": "images_5_006",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "None visible in immediate vicinity",
+      "summary": "The vehicle is driving on a two-lane road with trees and hills on either side. The weather is clear and sunny. There are no visible pedestrians or other vehicles in close proximity. The road appears to be straight and the driving conditions are normal.",
+      "actions": "The vehicle is maintaining a consistent speed and driving straight ahead. The driver is likely maintaining the speed due to the clear road conditions and lack of obstacles.",
+      "key_objects": "None requiring immediate attention",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_007": {
+      "video_id": "images_5_007",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A person on a scooter wearing a red jacket, a black SUV, and a white police car.",
+      "summary": "The self-driving vehicle approaches an intersection. From 5.0s to 8.0s, a black SUV crosses the intersection from the right. At 7.0s, a person on a scooter wearing a red jacket approaches the intersection from the left. At 8.0s, a white police car also begins to cross the intersection from the right, following the black SUV. The person on the scooter in red is at risk of colliding with the black SUV and the police car.",
+      "actions": "The self-driving vehicle is approaching an intersection and decelerating, likely in preparation to yield or stop, given the presence of crosswalks and potential cross-traffic. The deceleration is a safety measure to assess the situation before proceeding into the intersection.",
+      "key_objects": "1) Left side: A person on a scooter wearing a red jacket, approximately 10 meters away, approaching the intersection and potentially entering the vehicle's path. 2) Right side: A black SUV, approximately 15 meters away, crossing the intersection and potentially obstructing the vehicle's path. 3) Right side: A white police car, approximately 20 meters away, crossing the intersection and potentially obstructing the vehicle's path.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_008": {
+      "video_id": "images_5_008",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male cyclist, approximately 30 years old, wearing dark clothing, lying on the crosswalk after falling off his bicycle. A traffic warden in a bright yellow raincoat is standing on the right side of the road.",
+      "summary": "The vehicle approaches a crosswalk on a rainy day. A male cyclist, approximately 30 years old and wearing dark clothing, falls off his bicycle in the middle of the crosswalk. The cyclist is now lying on the ground. A traffic warden in a bright yellow raincoat is standing on the right side of the road, observing the situation. The cyclist's fall creates a dangerous situation requiring immediate attention and potential emergency response from the vehicle.",
+      "actions": "The vehicle is approaching the intersection at a steady speed. The driver likely intends to proceed through the intersection, but the sudden fall of the cyclist in the crosswalk necessitates immediate braking to avoid a collision. The driver must assess the situation and prepare to stop safely.",
+      "key_objects": "1) Front: A male cyclist, approximately 30 years old, wearing dark clothing, lying on the crosswalk after falling off his bicycle, approximately 5 meters away, creating an immediate obstruction and potential collision hazard. 2) Right side: A traffic warden in a bright yellow raincoat, standing on the side of the road, approximately 10 meters away, potentially ready to assist but not directly impacting the vehicle's path.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_009": {
+      "video_id": "images_5_009",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A man wearing a red helmet riding a scooter",
+      "summary": "The vehicle is driving on a road with moderate traffic. From 0.0s to 10.0s, the vehicle approaches an intersection. At 9.0s, a man wearing a red helmet on a scooter suddenly appears from behind a large, covered object on the left side of the road, entering the vehicle's lane. This constitutes a ghost probing incident due to the sudden appearance from behind an obstruction.",
+      "actions": "The vehicle is driving at a consistent speed, approaching an intersection. The driver likely intends to proceed straight through the intersection. The vehicle maintains its lane position. The driver may need to decelerate or brake to avoid a collision with the scooter.",
+      "key_objects": "1) Left side: A man wearing a red helmet on a scooter, approximately 5 meters away, suddenly emerging from behind a large covered object and entering the vehicle's lane. 2) Left side: A large covered object, approximately 3 meters away, creating a visual obstruction that hides the scooter until it emerges into the vehicle's path.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_010": {
+      "video_id": "images_5_010",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A man wearing a red helmet and a green jacket is riding a motorcycle. The man falls off the motorcycle in the middle of the road.",
+      "summary": "The vehicle is driving on a rural road. A man wearing a red helmet and a green jacket is riding a motorcycle in the opposite direction. The man suddenly falls off the motorcycle and lands in the middle of the road, directly in the path of the vehicle. This creates a dangerous situation requiring immediate reaction from the driver.",
+      "actions": "The vehicle is driving at a constant speed on a rural road. The driver maintains the speed until the motorcyclist falls off the motorcycle. The driver will need to decelerate to avoid hitting the motorcyclist.",
+      "key_objects": "1) Front: A man wearing a red helmet and a green jacket, approximately 5 meters away, falling off a motorcycle and landing in the middle of the road.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_011": {
+      "video_id": "images_5_011",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a white car driving on a narrow road with trees on both sides. There are no visible pedestrians or other vehicles in close proximity that pose an immediate threat.",
+      "summary": "The vehicle is driving on a narrow road lined with trees on both sides. The road is straight, and visibility is good. There are no immediate hazards or other vehicles posing a threat. The weather appears clear, and the driving conditions are routine. The car maintains a steady speed.",
+      "actions": "The vehicle is maintaining a consistent speed and direction, likely due to the clear road conditions and lack of obstacles. The driver is navigating a straight path with no need for sudden maneuvers or changes in speed. The driving behavior suggests a routine and safe driving environment.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_012": {
+      "video_id": "images_5_012",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A black sedan is driving on the road. The road is surrounded by trees and buildings.",
+      "summary": "The self-driving vehicle is traveling on a two-lane road surrounded by trees and buildings. The road appears to be clear with no immediate obstacles. The vehicle maintains a steady speed and direction. As the vehicle approaches an intersection, a motorcycle with two people on it is visible on the right side of the road. The motorcycle is waiting at the intersection.",
+      "actions": "The self-driving vehicle is maintaining a consistent speed and direction on the road. The vehicle is likely maintaining its speed because the road is clear and there are no immediate obstacles. The vehicle is approaching an intersection, so it may need to prepare to slow down or stop depending on the traffic conditions.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_013": {
+      "video_id": "images_5_013",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several cars are visible at the intersection. A person is lying in the crosswalk with a bicycle next to them. A motorcycle with two people is approaching the crosswalk.",
+      "summary": "The vehicle is approaching an intersection at night. The traffic light is red. A person is lying in the crosswalk with a bicycle next to them, potentially injured. A motorcycle with two people is approaching the crosswalk from the left side. The person lying in the crosswalk creates a dangerous situation as they are directly in the path of oncoming traffic, including the self-driving vehicle if it were to proceed through the intersection. The motorcycle approaching the crosswalk from the left side could potentially hit the person lying in the crosswalk.",
+      "actions": "The vehicle is approaching an intersection and decelerating, likely in response to the red traffic light. The vehicle is preparing to stop before the crosswalk to avoid hitting the person lying in the road. The deceleration is a safety measure to prevent a collision with the person and bicycle in the crosswalk.",
+      "key_objects": "1) Front: A person lying in the crosswalk with a bicycle, approximately 5 meters away, creating an immediate obstacle in the vehicle's path. 2) Left side: A motorcycle with two people, approximately 10 meters away, approaching the crosswalk and potentially posing a threat to the person lying in the road.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_014": {
+      "video_id": "images_5_014",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "From 0.0s to 4.0s, two people are walking across the street. From 4.0s to 10.0s, a person on a motorcycle is on the right side of the road.",
+      "summary": "From 0.0s to 4.0s, the vehicle is driving through an archway with two people walking across the street in front of the vehicle. From 4.0s to 10.0s, the vehicle is driving on a road with a person on a motorcycle on the right side of the road. The bus is on the left side of the road.",
+      "actions": "From 0.0s to 4.0s, the vehicle is driving slowly through an archway, likely due to the presence of pedestrians crossing the road. From 4.0s to 10.0s, the vehicle is driving at a constant speed, maintaining its lane and direction, as there are no immediate obstacles or safety concerns.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_015": {
+      "video_id": "images_5_015",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "The scene shows a silver sedan in front of the self-driving vehicle. There is a person on a scooter on the left side of the road.",
+      "summary": "The self-driving vehicle is proceeding through an intersection with a green light. A silver sedan is in front of the self-driving vehicle. A person on a scooter is on the left side of the road, waiting to cross the intersection. The road conditions are clear, and the weather is overcast. The traffic density is light.",
+      "actions": "The vehicle is proceeding through an intersection with a green light. The driver is maintaining a steady speed, likely because the intersection is clear and the traffic light is green. The vehicle is staying in the right lane, following the silver sedan in front.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_016": {
+      "video_id": "images_5_016",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A man in dark clothing and a helmet riding a tricycle.",
+      "summary": "The vehicle is approaching an intersection. A man wearing dark clothing and a helmet is riding a tricycle from the right side of the road, emerging from behind a building. The tricycle is moving into the vehicle's path, creating a potential ghost probing situation.",
+      "actions": "The vehicle is approaching the intersection at a steady speed. The driver is likely assessing the situation and preparing to make a turn or continue straight. The driver may need to decelerate or stop to avoid a collision with the tricycle.",
+      "key_objects": "1) Right side: A man on a tricycle, approximately 5 meters away, emerging from behind a building and moving into the vehicle's path. 2) Right side: A building, approximately 10 meters away, creating a visual obstruction that hides the tricycle until it emerges into the intersection.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_017": {
+      "video_id": "images_5_017",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A woman with long brown hair wearing a brown jacket and black pants is riding a black scooter. A woman wearing a yellow coat is walking on the left side of the road.",
+      "summary": "The vehicle is approaching an intersection. A woman on a black scooter suddenly appears from the right side of the road, crossing the intersection. The scooter emerges from behind a line of trees and bushes, partially obstructing the view. The woman is wearing a brown jacket and black pants. Simultaneously, a woman wearing a yellow coat is walking on the left side of the road, preparing to cross the street. The scooter's sudden appearance creates a potential ghost probing situation.",
+      "actions": "The vehicle is approaching an intersection at a steady speed. The driver is likely maintaining speed to cross the intersection. The driver may need to decelerate if the scooter continues to cross the intersection without yielding.",
+      "key_objects": "1) Right side: A woman on a black scooter, approximately 5 meters away, suddenly emerging from behind trees and bushes and crossing the intersection. 2) Left side: A woman wearing a yellow coat, approximately 10 meters away, walking towards the intersection and preparing to cross the street.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_018": {
+      "video_id": "images_5_018",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several motorcycles parked on the right side of the road. A white SUV is parked on the right side of the road. A motorcyclist wearing dark clothing is riding on the right side of the road.",
+      "summary": "The vehicle is driving on a wet urban road with buildings on both sides. There are several motorcycles parked on the right side of the road. A white SUV is parked on the right side of the road. A motorcyclist wearing dark clothing is riding on the right side of the road. The road ahead is clear with good visibility.",
+      "actions": "The self-driving vehicle is maintaining a consistent speed and direction on the wet road. The driver is likely maintaining a safe distance from the parked vehicles and the motorcyclist on the right side of the road. The vehicle is driving at a moderate speed, likely due to the wet road conditions.",
+      "key_objects": "None requiring immediate attention",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_019": {
+      "video_id": "images_5_019",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A male pedestrian in a black jacket is walking across the street. Two people are standing near a parked silver car. A person is on the ground near the front of the car. A person is riding a scooter on the left side of the road.",
+      "summary": "The vehicle is approaching an entrance to a building complex. A male pedestrian wearing a black jacket is walking across the street from left to right. Two people are standing near a parked silver car on the right side of the road. A person is on the ground near the front of the car, possibly examining something. A person is riding a scooter on the left side of the road. The vehicle is approaching the entrance at a slow speed.",
+      "actions": "The vehicle is approaching the entrance to the building complex. The driver is likely slowing down to navigate the entrance and observe the surroundings, including the pedestrian crossing the street and the people near the parked car. The driver is proceeding cautiously due to the presence of people and vehicles in the area.",
+      "key_objects": "None",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_020": {
+      "video_id": "images_5_020",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male adult on a black scooter wearing a black jacket, a white car in front, two adults crossing the street on the left side of the road.",
+      "summary": "The self-driving vehicle is traveling on a city street with buildings and trees lining both sides. There is a white car in front of the self-driving vehicle. At timestamp 2.0s, a male adult on a black scooter suddenly appears from the right side of the road, crossing the street. At timestamp 9.0s, two adults are crossing the street on the left side of the road.",
+      "actions": "The self-driving vehicle is maintaining a steady speed, following the white car in front. The vehicle may need to decelerate due to the scooter crossing the street and the two adults crossing the street on the left side of the road.",
+      "key_objects": "1) Right side: A male adult on a black scooter, approximately 10 meters away, suddenly crossing the street. 2) Left side: Two adults, approximately 15 meters away, crossing the street.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_021": {
+      "video_id": "images_5_021",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A man wearing an orange shirt and a white helmet is riding a burgundy scooter across the crosswalk from left to right.",
+      "summary": "The vehicle is approaching an intersection in a city with buildings on both sides of the road. From 0.0s to 5.1s, the vehicle is driving straight. At 5.1s, a man wearing an orange shirt and a white helmet is riding a burgundy scooter across the crosswalk from left to right. The scooter emerges from behind a parked dark SUV on the left side of the road, creating a potential ghost probing situation.",
+      "actions": "The vehicle is driving straight at a constant speed. The driver is likely maintaining speed to cross the intersection. The driver may need to decelerate if the scooter continues to cross the road.",
+      "key_objects": "1) Left side: A man wearing an orange shirt and a white helmet riding a burgundy scooter, approximately 5 meters away, crossing the road from left to right and emerging from behind a parked dark SUV. 2) Left side: A parked dark SUV, approximately 7 meters away, creating a visual obstruction that hides the scooter until it emerges into the intersection.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_022": {
+      "video_id": "images_5_022",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several cars, a bus, and a few motorcycles are visible at the intersection. There are also a few pedestrians on the sidewalks.",
+      "summary": "The self-driving vehicle is approaching an intersection. There are several vehicles in front, including a white van directly ahead. To the left, there's a gas station and a bus. On the right, there are buildings and some pedestrian activity. The vehicle is maintaining its current lane and speed as it approaches the intersection.",
+      "actions": "The vehicle is approaching an intersection and maintaining its speed. The driver is likely assessing the traffic light and the surrounding vehicles to prepare for a potential stop or turn.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_023": {
+      "video_id": "images_5_023",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male on a motorcycle wearing dark clothing, a silver car in the distance",
+      "summary": "The vehicle is driving on a city street. From 0.0s to 8.0s, a male on a motorcycle wearing dark clothing is seen driving in the opposite direction. At 8.0s, the motorcycle begins to turn left into the path of the self-driving vehicle. At 9.0s, the motorcycle is directly in front of the self-driving vehicle. At 10.0s, the motorcycle has crashed and the male is lying on the ground.",
+      "actions": "The self-driving vehicle is driving straight on a city street. The vehicle maintains its speed until 8.0s, when the motorcycle begins to turn left. The vehicle then begins to decelerate to avoid a collision. The vehicle is unable to avoid the collision and crashes into the motorcycle.",
+      "key_objects": "1) Front: A male on a motorcycle wearing dark clothing, approximately 10 meters away, turning left into the path of the self-driving vehicle.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_024": {
+      "video_id": "images_5_024",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several vehicles are visible in the distance. A motorcyclist wearing dark clothing is on the right side of the road.",
+      "summary": "The vehicle is approaching an intersection on a rainy day. Visibility is reduced due to the rain. Several vehicles are visible in the distance, and a motorcyclist wearing dark clothing is on the right side of the road, approaching the intersection. The motorcyclist is riding on the right side of the road, potentially preparing to turn right at the intersection.",
+      "actions": "The vehicle is approaching an intersection and maintaining a steady speed. The driver is likely assessing the traffic conditions and preparing to either proceed through the intersection or stop, depending on the traffic light and the presence of other vehicles or pedestrians. The vehicle is maintaining its current lane and not showing any immediate signs of changing direction.",
+      "key_objects": "1) Right side: A motorcyclist wearing dark clothing, approximately 20 meters away, approaching the intersection and potentially preparing to turn right.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_025": {
+      "video_id": "images_5_025",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A red sedan is visible in the distance. A black sedan is approaching from the left side of the road. A person is walking on the crosswalk on the right side of the road.",
+      "summary": "The vehicle is approaching an intersection on a rainy day. The traffic light is green. A red sedan is visible in the distance, traveling in the same direction. A black sedan is approaching from the left side of the road, potentially preparing to cross the intersection. A person is walking on the crosswalk on the right side of the road. The road is wet due to the rain, which could affect braking distance.",
+      "actions": "The vehicle is approaching an intersection with a green light. The driver is likely maintaining speed to proceed through the intersection without stopping. The presence of other vehicles and a person on the crosswalk requires the driver to remain vigilant and prepared to adjust speed or direction if necessary.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_026": {
+      "video_id": "images_5_026",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A man in a black jacket and black pants, a woman in a red jacket and black pants, both adults.",
+      "summary": "The vehicle is approaching an intersection. From 0.0s to 4.0s, the vehicle is driving straight. From 4.0s to 10.0s, a man in a black jacket and black pants suddenly appears from the right side of the road, followed by a woman in a red jacket and black pants. They are standing on the road, potentially obstructing the vehicle's path. The man and woman are standing near the entrance of a building, and they are partially obscured by the building's gate and surrounding greenery, creating a potential ghost probing situation.",
+      "actions": "The vehicle is driving straight at a constant speed. The driver is likely maintaining speed to cross the intersection. However, the sudden appearance of the man and woman on the right side of the road may require the driver to decelerate or stop to avoid a collision.",
+      "key_objects": "1) Right side: A man in a black jacket and black pants, approximately 5 meters away, suddenly appearing from behind the building's gate and standing on the road. 2) Right side: A woman in a red jacket and black pants, approximately 5 meters away, standing next to the man on the road. 3) Right side: The building's gate and surrounding greenery, approximately 3 meters away, creating a visual obstruction that partially hides the man and woman until they are closer to the road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_027": {
+      "video_id": "images_5_027",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A woman wearing a pink jacket and a blue face mask is riding a scooter on the left side of the road.",
+      "summary": "The vehicle is driving on a road with parked cars on both sides. A woman wearing a pink jacket and a blue face mask is riding a scooter on the left side of the road, between the parked cars and the road. She is riding in the same direction as the vehicle. The parked cars could potentially obstruct the view of the scooter, creating a ghost probing situation if the scooter suddenly swerves into the vehicle's path.",
+      "actions": "The vehicle is maintaining a steady speed and direction on the road. The driver is likely navigating through the parked cars and monitoring the movement of the scooter on the left side of the road.",
+      "key_objects": "1) Left side: A woman on a scooter wearing a pink jacket and a blue face mask, approximately 10 meters away, riding between the parked cars and the road. 2) Left side: Parked cars, approximately 5 meters away, potentially obstructing the view of the scooter.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_028": {
+      "video_id": "images_5_028",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male on a red scooter wearing a blue jacket and a helmet, a bus on the right side of the road, several cars in front of the vehicle.",
+      "summary": "The vehicle is driving on a city street with moderate traffic. From 0.0s to 7.0s, the vehicle is traveling at a speed between 45km/h and 32km/h. At 7.0s, a male on a red scooter wearing a blue jacket and a helmet suddenly appears from behind a dark gray car on the right side of the road. The scooter is moving from right to left, crossing the road. The bus on the right side of the road is obstructing the view of the scooter, creating a ghost probing situation. From 7.0s to 10.0s, the vehicle decelerates from 32km/h to 29km/h.",
+      "actions": "The vehicle is initially driving at 45km/h and gradually decelerates to 32km/h as it approaches an intersection with moderate traffic. The deceleration is likely due to the presence of other vehicles in front and the anticipation of potential pedestrian or vehicle crossings at the intersection. The vehicle decelerates further to 29km/h after a scooter appears from behind a car on the right side of the road.",
+      "key_objects": "1) Right side: A male on a red scooter wearing a blue jacket and a helmet, approximately 5 meters away, suddenly appearing from behind a dark gray car and crossing the road. 2) Right side: A dark gray car, approximately 3 meters away, obstructing the view of the scooter until it emerges.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_029": {
+      "video_id": "images_5_029",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male wearing a blue jacket is lying on the road. There are other vehicles on the road, including a green taxi and a white van.",
+      "summary": "The vehicle is approaching an intersection. Initially, the traffic light is not visible, but it becomes visible later in the sequence. A male wearing a blue jacket is lying on the road in the intersection. The traffic light turns red, and the vehicle begins to slow down. The male lying on the road is a significant hazard.",
+      "actions": "The vehicle is initially driving at a steady speed, following the car in front. As the vehicle approaches the intersection and the traffic light turns red, the driver begins to decelerate to prepare for a stop. The presence of a person lying in the road necessitates a cautious approach and potential emergency stop.",
+      "key_objects": "1) Front: A male wearing a blue jacket, approximately 5 meters away, lying on the road in the intersection, posing an immediate collision risk. 2) Front: A red traffic light, approximately 15 meters away, indicating the need to stop.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_030": {
+      "video_id": "images_5_030",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several cars, a blue and yellow taxi, a bus in the distance, a man riding a white electric bike, two women standing on the sidewalk, and a red three-wheeled vehicle.",
+      "summary": "The self-driving vehicle is traveling on a city street with moderate traffic. There are parked cars on both sides of the road. A blue and yellow taxi is driving ahead of the self-driving vehicle. A man on a white electric bike is crossing the street from left to right. Two women are standing on the sidewalk to the right, near a red three-wheeled vehicle. The overall scene appears to be a typical urban environment with normal traffic flow.",
+      "actions": "The self-driving vehicle is maintaining a consistent speed and following the flow of traffic. The vehicle is keeping a safe distance from the taxi in front. The driver is likely monitoring the man on the electric bike as he crosses the street, but no immediate action is required as the cyclist is not directly in the vehicle's path. The vehicle is maintaining its current lane.",
+      "key_objects": "None requiring immediate attention",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_031": {
+      "video_id": "images_5_031",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A white car, a green three-wheeled vehicle, a person riding a scooter, and two people picking up items on the road.",
+      "summary": "The vehicle is approaching an intersection. Initially, a white car is visible on the left side of the road. A green three-wheeled vehicle is on the right side. As the vehicle proceeds, a person on a scooter appears from behind the three-wheeled vehicle, crossing the road. Further ahead, two people are picking up items that appear to have fallen onto the road, creating a potential obstruction.",
+      "actions": "The vehicle is moving forward at a consistent speed, approaching the intersection. The driver is likely assessing the traffic conditions and preparing to navigate the intersection safely. The vehicle maintains its current lane and speed, indicating an intention to proceed straight through the intersection, unless the people picking up items on the road cause the vehicle to decelerate.",
+      "key_objects": "1) Right side: A person on a scooter, approximately 10 meters away, emerging from behind the three-wheeled vehicle and crossing the road. 2) Front: Two people, approximately 15 meters away, picking up items on the road, potentially obstructing the vehicle's path.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_032": {
+      "video_id": "images_5_032",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several motorcycles parked on the right side of the road, a man in dark clothing walking on the right sidewalk, a white SUV parked on the right side of the road, a man in a red hat standing on the left side of the road, and a group of people sitting on the left side of the road.",
+      "summary": "The vehicle is driving on a road with buildings on both sides. Several motorcycles are parked on the right side of the road, partially obstructing the view of the sidewalk. A man in dark clothing is walking on the right sidewalk. A white SUV is parked on the right side of the road. On the left side of the road, a man in a red hat is standing, and a group of people are sitting. At approximately 7.0s, a yellow motorcycle emerges from the right side of the road from a perpendicular road, and the driver crashes into the motorcycle. This is a ghost probing incident.",
+      "actions": "The vehicle is driving at a constant speed. The driver is maintaining the current lane. The driver does not appear to be slowing down or changing direction. The driver is likely maintaining speed because the road ahead appears clear, and there are no immediate obstacles in the vehicle's path. The driver is not aware of the potential danger of the motorcycle emerging from the perpendicular road.",
+      "key_objects": "1) Right side: A yellow motorcycle, approximately 3 meters away, suddenly emerging from a perpendicular road and entering the vehicle's path. 2) Right side: Parked motorcycles, approximately 5 meters away, partially obstructing the view of the perpendicular road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_033": {
+      "video_id": "images_5_033",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A red sedan is driving ahead. A person on a scooter wearing a blue jacket and white helmet is seen in the distance.",
+      "summary": "The self-driving vehicle is traveling on a road at night. A red sedan is ahead of the vehicle. In the distance, a person on a scooter wearing a blue jacket and white helmet is approaching a crosswalk. The scooter is moving at a moderate speed.",
+      "actions": "The self-driving vehicle is maintaining a consistent speed and following the red sedan. The vehicle is likely maintaining a safe following distance and adjusting its speed based on the sedan's movements. The vehicle is proceeding cautiously due to the presence of the scooter in the distance.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_034": {
+      "video_id": "images_5_034",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A person on a scooter wearing a dark jacket and light pants is in front of the car. There are other vehicles and people on the sidewalks.",
+      "summary": "The vehicle is at a red light at a crosswalk. A person on a scooter is stopped in front of the car at the crosswalk. The light turns green at 3.0s. The scooter starts to move forward through the crosswalk. At 9.0s, the scooter is crossing the crosswalk.",
+      "actions": "The vehicle is stopped at a red light. The vehicle remains stopped until the light turns green at 3.0s. The vehicle starts to move forward when the light turns green, following the scooter in front of it.",
+      "key_objects": "1) Front: A person on a scooter, approximately 2 meters away, moving slowly through the crosswalk after the light turns green.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_035": {
+      "video_id": "images_5_035",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several cars, a bus, and a few pedestrians are visible. A person on a scooter is seen crossing the road.",
+      "summary": "The vehicle is driving on a city street with moderate traffic. A large bus is in front of the vehicle, partially obstructing the view. Several pedestrians are on the sidewalks, and a person on a scooter is crossing the road in the distance. The sun is bright, creating glare.",
+      "actions": "The vehicle is maintaining a steady speed, following the flow of traffic. The driver is likely maintaining a safe distance from the bus in front. The vehicle is proceeding straight through the city street.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_036": {
+      "video_id": "images_5_036",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male cyclist wearing a black jacket and a yellow helmet, approximately 30 years old.",
+      "summary": "The vehicle is approaching an intersection with several large trucks parked on the right side, obstructing the view. At approximately 8.0s, a male cyclist wearing a black jacket and a yellow helmet suddenly appears from behind a large white truck on the left side of the road, crossing the street. The cyclist's sudden appearance from behind the truck constitutes a ghost probing situation, as the driver has minimal time to react to avoid a potential collision.",
+      "actions": "The vehicle is approaching an intersection and decelerating, likely in preparation to make a turn or stop at the intersection. The deceleration is a safety measure due to the limited visibility caused by the parked trucks. The vehicle is slowing down to assess the situation at the intersection.",
+      "key_objects": "1) Left side: A male cyclist wearing a black jacket and a yellow helmet, approximately 5 meters away, suddenly emerging from behind a large white truck and crossing the street. 2) Left side: A large white truck, approximately 7 meters away, creating visual obstruction that hides the cyclist until emergence.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_037": {
+      "video_id": "images_5_037",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A person wearing a helmet and dark clothing is riding a motorcycle on the left side of the road.",
+      "summary": "The vehicle is driving on a two-lane road. On the left side of the road, a person wearing a helmet and dark clothing is riding a motorcycle. The motorcycle is initially obscured by roadside vegetation and then emerges onto the road, potentially creating a ghost probing situation if the motorcycle enters the vehicle's lane suddenly.",
+      "actions": "The vehicle is maintaining a consistent speed and direction on the road. The driver is likely monitoring the motorcycle on the left side of the road to assess its potential impact on the vehicle's path. The vehicle is driving at a moderate speed, allowing for sufficient reaction time if the motorcycle makes a sudden move.",
+      "key_objects": "1) Left side: A person on a motorcycle, approximately 15 meters away, initially obscured by roadside vegetation and then emerging onto the road. 2) Left side: Roadside vegetation, approximately 10 meters away, creating a partial visual obstruction that hides the motorcycle until it emerges.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_038": {
+      "video_id": "images_5_038",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "From 0.0s to 2.0s, there are two people on the left side of the road, one wearing a red jacket and the other wearing a pink jacket. From 6.0s to 10.0s, there is a man riding a tricycle on the right side of the road.",
+      "summary": "The vehicle is driving on a rural road with buildings on both sides. From 0.0s to 2.0s, two people are walking on the left side of the road. From 6.0s to 10.0s, a man is riding a tricycle on the right side of the road. The road ahead is clear with good visibility.",
+      "actions": "The self-driving vehicle is maintaining a consistent speed and direction on the road. The driver is driving at a constant speed because the road is clear and there are no obstacles in the way.",
+      "key_objects": "None requiring immediate attention",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_039": {
+      "video_id": "images_5_039",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male in a dark jacket and jeans, approximately 25 years old, is standing next to a white scooter that has fallen on the road. Several cars and trucks are parked on the left side of the road.",
+      "summary": "From 0.0s to 10.0s, the vehicle is driving on a road with several parked cars and trucks on the left side. At 9.0s, a white scooter is seen lying on the road, and a male in a dark jacket and jeans is standing next to it. The scooter and the male are in the middle of the road, creating a potential hazard for the vehicle.",
+      "actions": "The vehicle is maintaining a steady speed, likely due to the presence of other vehicles on the road. The driver is likely assessing the situation with the fallen scooter and the person standing next to it to determine the best course of action.",
+      "key_objects": "1) Center: A white scooter, approximately 15 meters away, lying on the road, creating an obstruction. 2) Center: A male in a dark jacket and jeans, approximately 15 meters away, standing next to the scooter, potentially moving into the vehicle's path.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_040": {
+      "video_id": "images_5_040",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male motorcyclist wearing a blue jacket and a blue helmet, several pedestrians on the right side of the road, and other vehicles in the distance.",
+      "summary": "The vehicle is driving on a city street with buildings on both sides. From 0.0s to 6.0s, the vehicle is approaching an intersection. At 6.0s, the traffic light turns green. At 9.0s, a male motorcyclist wearing a blue jacket and a blue helmet suddenly appears from the left side of the road, crossing the intersection. The motorcyclist's sudden appearance constitutes a ghost probing incident, as he was obscured by buildings until he entered the vehicle's path. At 10.0s, the vehicle crashes into the motorcyclist.",
+      "actions": "The vehicle is initially driving at a steady speed, approaching an intersection. As the traffic light turns green at 6.0s, the vehicle maintains its speed, proceeding through the intersection. The driver does not appear to anticipate the motorcyclist's sudden appearance, resulting in a collision.",
+      "key_objects": "1) Left side: A male motorcyclist wearing a blue jacket and a blue helmet, approximately 5 meters away, suddenly appearing from behind buildings and crossing the intersection. 2) Left side: Buildings on the left side of the road, approximately 10 meters away, creating a visual obstruction that hides the motorcyclist until he enters the intersection.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_041": {
+      "video_id": "images_5_041",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several cars are visible on the road. No pedestrians or cyclists are visible in the immediate vicinity.",
+      "summary": "The vehicle is driving on a multi-lane road in an urban environment. There are several other vehicles on the road, moving in the same direction. The road appears to be wet, possibly due to recent rain. The vehicle approaches an intersection with a traffic light. The traffic light turns red, and the vehicle slows down and stops at the intersection.",
+      "actions": "The vehicle starts from a stationary position and accelerates to match the speed of the traffic flow. The vehicle maintains its lane and adjusts its speed based on the distance to the vehicle in front. As the vehicle approaches the intersection and the traffic light turns red, the driver decelerates and comes to a complete stop before the intersection.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_042": {
+      "video_id": "images_5_042",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A man in a dark blue jacket and black pants is riding a scooter. The man is wearing an orange vest. The man is approximately 40 years old.",
+      "summary": "The vehicle is approaching an intersection. A man on a scooter is approaching the intersection from the left side. The man on the scooter is wearing a dark blue jacket, black pants, and an orange vest. The man on the scooter is not visible until he enters the intersection. The man on the scooter is traveling at a high rate of speed. The man on the scooter collides with the vehicle.",
+      "actions": "The vehicle is approaching an intersection at a steady speed. The driver is likely maintaining speed to cross the intersection before the light changes. The driver does not appear to be slowing down or preparing to stop.",
+      "key_objects": "1) Left side: A man on a scooter, approximately 5 meters away, suddenly appearing from the left side of the intersection and colliding with the vehicle. The man is wearing a dark blue jacket, black pants, and an orange vest.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_043": {
+      "video_id": "images_5_043",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "White sedan, yellow truck, blue tricycle",
+      "summary": "The self-driving vehicle is approaching an intersection with a green light. A white sedan is making a left turn from the opposite direction. A yellow truck is parked on the right side of the road. A blue tricycle is approaching the intersection from the right side.",
+      "actions": "The self-driving vehicle is approaching an intersection with a green light, so it maintains its speed. The driver is likely aware of the white sedan making a left turn from the opposite direction and the yellow truck parked on the right side of the road. The driver is also aware of the blue tricycle approaching the intersection from the right side.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_044": {
+      "video_id": "images_5_044",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male cyclist wearing a grey jacket and dark pants, riding a bicycle with a red basket on the back. Several cars are parked along the right side of the road.",
+      "summary": "The vehicle is driving on a wet urban road with parked cars on the right. At approximately 5.5 seconds, a male cyclist wearing a grey jacket and dark pants suddenly emerges from behind the parked cars on the right side of the road, crossing the street. The cyclist's sudden appearance from behind the parked cars constitutes a ghost probing situation, as the driver has minimal time to react. The cyclist is riding a bicycle with a red basket on the back.",
+      "actions": "The vehicle is driving at a moderate speed on a wet road. The driver likely maintains speed due to the presence of other vehicles ahead and the expectation of a clear path. Upon the sudden appearance of the cyclist, the driver would need to initiate braking to avoid a collision.",
+      "key_objects": "1) Right side: A male cyclist wearing a grey jacket and dark pants, approximately 5 meters away, suddenly emerging from behind parked cars and crossing the road. 2) Right side: Parked cars, approximately 3 meters away, creating a visual obstruction that hides the cyclist until emergence.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_045": {
+      "video_id": "images_5_045",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several cars are visible in the traffic ahead. A silver SUV is in the lane to the left. The road is lined with trees and a metal barrier on the left side.",
+      "summary": "The vehicle is driving on a road with moderate traffic. There are several cars ahead in the same lane, and a silver SUV is visible in the adjacent lane to the left. The road is lined with trees and a metal barrier on the left side. The traffic appears to be moving slowly, with cars maintaining a close distance to each other. The weather is sunny, and visibility is good. There are no immediate dangerous behaviors observed.",
+      "actions": "The vehicle is maintaining a slow speed, likely due to the heavy traffic conditions. The driver is keeping a safe distance from the car in front and monitoring the adjacent lane. The vehicle is staying in its current lane and not attempting to overtake or change lanes. The driver is likely adjusting speed based on the flow of traffic ahead.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_046": {
+      "video_id": "images_5_046",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A male adult, wearing a white shirt and light-colored shorts, is riding a scooter from left to right across the road.",
+      "summary": "The vehicle is at an intersection at night. The traffic light is green. A male adult wearing a white shirt and light-colored shorts is riding a scooter from the left side of the road, crossing into the vehicle's path. The scooter emerges from behind a line of parked cars, creating a ghost probing situation. The scooter is moving at a moderate speed.",
+      "actions": "The vehicle is approaching an intersection with a green light, maintaining a steady speed. The driver is likely proceeding through the intersection, assuming right-of-way. The vehicle may need to decelerate or brake if the scooter continues to cross the road.",
+      "key_objects": "1) Left side: A male adult on a scooter, approximately 5 meters away, crossing the road from left to right, emerging from behind parked cars. 2) Left side: Parked cars, approximately 7 meters away, obstructing the view of the scooter until it enters the vehicle's path.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_047": {
+      "video_id": "images_5_047",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "Several people on scooters and motorcycles, and pedestrians are visible. A woman with long dark hair, wearing a green shirt and dark pants, is crossing the street.",
+      "summary": "The vehicle is exiting a tunnel and approaching a busy intersection. There are several scooters and motorcycles moving in different directions. A woman with long dark hair, wearing a green shirt and dark pants, is crossing the street from left to right. She is walking at a normal pace and does not appear to be aware of the approaching vehicle. The scooters and motorcycles are moving at varying speeds, creating a potentially chaotic situation. The woman crossing the street is creating a dangerous situation because she is not paying attention to the traffic.",
+      "actions": "The vehicle is exiting a tunnel and approaching an intersection. The vehicle is maintaining a steady speed as it exits the tunnel. The driver is likely assessing the traffic situation at the intersection to determine the appropriate course of action. The vehicle is maintaining its current lane as it approaches the intersection.",
+      "key_objects": "1) Left side: A woman with long dark hair, wearing a green shirt and dark pants, approximately 5 meters away, crossing the street and potentially entering the vehicle's path. 2) Front: Several scooters and motorcycles, approximately 10-15 meters away, moving in different directions and creating a potentially chaotic situation.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_048": {
+      "video_id": "images_5_048",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A man in a red jacket riding a scooter on the right side of the road, several other vehicles including a silver sedan and a white SUV, and another person on a scooter further ahead.",
+      "summary": "The vehicle is driving on a multi-lane road with other vehicles present. A man in a red jacket is riding a scooter on the right side of the road. As the vehicle approaches an intersection, the man on the scooter begins to cross the road from the right, potentially creating a dangerous situation. The scooter emerges from behind a barrier on the right side of the road, creating a potential ghost probing scenario. Another person on a scooter is visible further ahead.",
+      "actions": "The vehicle is maintaining a steady speed on the road. As the vehicle approaches the intersection, the driver may need to decelerate or take evasive action to avoid a collision with the scooter crossing the road. The driver is likely maintaining speed to keep up with the flow of traffic.",
+      "key_objects": "1) Right side: A man in a red jacket on a scooter, approximately 10 meters away, crossing the road and potentially entering the vehicle's path. 2) Right side: A barrier, approximately 8 meters away, partially obstructing the view of the scooter until it emerges into the intersection.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_049": {
+      "video_id": "images_5_049",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A person walking in the middle of the road, wearing dark clothing, appears to be an adult.",
+      "summary": "The vehicle is driving on a road with parked cars on both sides. A person is walking in the middle of the road ahead. The person is wearing dark clothing and appears to be an adult. The road is straight and the visibility is fair. The person is walking away from the vehicle.",
+      "actions": "The vehicle is maintaining a steady speed and direction. The driver is likely aware of the person walking in the road ahead and is preparing to adjust speed or direction if necessary. The vehicle is maintaining its current lane.",
+      "key_objects": "1) Front: A person walking in the middle of the road, approximately 20 meters away, walking away from the vehicle.",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_050": {
+      "video_id": "images_5_050",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "From 0.0s to 3.0s, the road appears clear. At 3.1s, a motorcycle with two occupants (likely a male driver and a female passenger) is seen emerging from the left side of the road. The driver is wearing dark clothing, and the passenger is wearing a pink jacket and carrying a pink backpack. At 4.0s, the motorcycle is in the middle of the road. At 5.0s, the motorcycle crashes, and the two occupants fall onto the road.",
+      "summary": "The vehicle is traveling on a straight road. Initially, the road appears clear. However, starting at 3.1s, a motorcycle with two occupants suddenly emerges from the left side of the road, crossing into the vehicle's path. The motorcycle appears to be turning onto the road from a side street or driveway obscured by trees and bushes, creating a ghost probing situation. At 5.0s, the motorcycle crashes, and the two occupants fall onto the road, creating a dangerous situation.",
+      "actions": "The vehicle is initially traveling at a constant speed on a straight road. As the motorcycle emerges from the left, the vehicle likely initiates emergency braking to avoid a collision. The vehicle's speed is likely decreasing rapidly after the motorcycle appears.",
+      "key_objects": "1) Left side: A motorcycle with two occupants (male driver in dark clothing, female passenger in pink jacket), approximately 5 meters away, suddenly emerging from behind trees and bushes and crossing into the vehicle's path, leading to a crash. 2) Left side: Trees and bushes, approximately 10 meters away, creating a visual obstruction that hides the motorcycle until it emerges onto the road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_051": {
+      "video_id": "images_5_051",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A man in a white jacket and dark pants, approximately 30-40 years old, is standing next to a scooter on the left side of the road. There is a red sedan driving in the opposite direction.",
+      "summary": "The vehicle is approaching an intersection. From 0.0s to 2.0s, a red sedan is driving in the opposite direction. From 2.0s to 10.0s, a man in a white jacket and dark pants is standing next to a scooter on the left side of the road at the intersection. The man appears to be preparing to cross the road with the scooter. This creates a potential ghost probing situation if the man suddenly attempts to cross the road without checking for oncoming traffic.",
+      "actions": "The vehicle is maintaining a steady speed as it approaches the intersection. The driver is likely assessing the situation and preparing to react to any potential hazards, such as the man with the scooter potentially crossing the road.",
+      "key_objects": "1) Left side: A man in a white jacket and dark pants, approximately 3 meters away, standing next to a scooter and potentially preparing to cross the road, creating a potential ghost probing situation. 2) Left side: A truck parked on the left side of the road, approximately 15 meters away, potentially obstructing the view of the man with the scooter.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_052": {
+      "video_id": "images_5_052",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A person riding a scooter, wearing a light-colored jacket and helmet, appears to be female. The person is lying on the road after a collision.",
+      "summary": "The vehicle is driving at night on a road with streetlights. At timestamp 4.2s, a person on a scooter suddenly appears from the left side of the road, entering the vehicle's path. The scooter was traveling at a high speed. The vehicle collides with the scooter, and the person falls onto the road. The scooter appears to have emerged from behind a structure or another vehicle, creating a ghost probing situation. The person is now lying on the road in front of the vehicle.",
+      "actions": "The vehicle is driving straight at a consistent speed. At timestamp 4.2s, the vehicle likely initiated emergency braking upon seeing the scooter suddenly appear. The vehicle was unable to avoid the collision due to the sudden appearance of the scooter and the short distance. The vehicle comes to a stop after the collision.",
+      "key_objects": "1) Left side: A person on a scooter, approximately 3 meters away, suddenly appearing from behind an obstruction and entering the vehicle's path at high speed, leading to a collision. 2) Left side: A structure or vehicle, approximately 5 meters away, creating a visual obstruction that hid the scooter until it emerged into the vehicle's path.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_053": {
+      "video_id": "images_5_053",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "A white sedan is parked on the left side of the road. A male cyclist wearing dark clothing is riding towards the vehicle.",
+      "summary": "The vehicle is driving down a narrow road with buildings on either side. A white sedan is parked on the left side of the road. A male cyclist wearing dark clothing is riding towards the vehicle. The cyclist is visible from a distance and does not suddenly appear, so there is no ghost probing incident.",
+      "actions": "The vehicle is maintaining a steady speed and driving straight down the road. The driver is likely proceeding cautiously due to the narrow road and parked vehicle.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_054": {
+      "video_id": "images_5_054",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Neutral",
+      "scene_theme": "Routine",
+      "characters": "Several cars are visible at the intersection. A white sedan is on the left, and a black sedan is directly in front of the self-driving vehicle. A gold sedan is approaching from the right.",
+      "summary": "The self-driving vehicle is approaching an intersection in a city during daytime. There are several other vehicles present. A white sedan is to the left, and a black sedan is directly ahead. A gold sedan is approaching the intersection from the right. The traffic light ahead is visible, but its color is not clear. The vehicle is proceeding at a steady speed.",
+      "actions": "The vehicle is approaching an intersection and maintaining its current speed. The driver is likely assessing the traffic light and the movement of other vehicles to determine whether to proceed through the intersection or stop. The vehicle is keeping a safe distance from the car in front.",
+      "key_objects": "none",
+      "key_actions": "none",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    },
+    "images_5_055": {
+      "video_id": "images_5_055",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "10.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "A female adult wearing a pink shirt and dark pants is walking on the left side of the road. Several parked cars are visible on both sides of the road. A male adult wearing a black jacket and green pants is riding a blue scooter on the right side of the road.",
+      "summary": "From 0.0s to 4.0s, the vehicle is driving on a road with parked cars on both sides. A female adult wearing a pink shirt and dark pants is walking on the left side of the road. From 8.0s to 10.0s, a male adult wearing a black jacket and green pants is riding a blue scooter on the right side of the road, potentially creating a dangerous situation if the scooter suddenly enters the vehicle's path from behind the parked cars.",
+      "actions": "The vehicle is driving at a slow speed, likely due to the presence of parked cars and pedestrians in the vicinity. The driver is maintaining a steady course, navigating through the narrow road.",
+      "key_objects": "1) Right side: A male adult on a blue scooter, approximately 5 meters away, potentially emerging from behind parked cars and entering the vehicle's path. 2) Right side: Parked cars, approximately 3 meters away, creating visual obstruction that could hide the scooter until it emerges into the road.",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      }
+    }
+  }
+}

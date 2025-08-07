@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_041",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "None visible in immediate vicinity requiring specific description.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane urban road during daytime. As the vehicle progresses, it approaches a busy intersection with multiple lanes and traffic lights. Other vehicles are observed on the road, some moving and some stopped at the intersection. The vehicle gradually slows down and comes to a complete stop at the intersection, aligning itself in a lane that appears to allow for both straight movement and a left turn. There are no sudden or unexpected appearances of pedestrians, cyclists, or vehicles from behind obstructions that would constitute a 'ghost probing' incident. The overall driving scenario is a routine approach and stop at a traffic-controlled intersection.",
+  "actions": "The self-driving vehicle initially maintains a steady speed as it approaches the intersection. Upon observing the increasing traffic density ahead and the presence of stopped vehicles at the intersection, the vehicle begins to decelerate. This deceleration is a controlled and deliberate action taken to safely reduce speed and prepare for a stop. The vehicle then comes to a complete stop, positioning itself in the appropriate lane, indicating a response to either a red traffic light or the flow of traffic ahead that has halted.",
+  "key_objects": "1) Left side: A white van, initially visible on a side road/shoulder, moving slowly or parked, approximately 10-15 meters away. 2) Left side: A white sedan, visible on a side road/shoulder, approximately 8-12 meters away. 3) Left side: A dark-colored SUV, observed turning left or entering the main road from a side street, approximately 5-10 meters away. 4) Center/Right side: Multiple vehicles, including sedans and SUVs, stopped ahead at the intersection, approximately 5-20 meters away, indicating a halt in traffic flow. 5) Center/Right side: Traffic lights, visible above the intersection, approximately 20-30 meters away, controlling the flow of traffic.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

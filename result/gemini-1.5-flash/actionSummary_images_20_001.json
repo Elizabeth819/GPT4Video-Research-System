@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_20_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Calm",
+        "characters": "Car ahead",
+        "summary": "In this segment, the vehicle is driving on a relatively empty road with sparse traffic. The car ahead maintains a consistent distance and speed throughout the frames. There are no sudden movements or obstacles that could pose immediate danger.",
+        "actions": "The self-driving vehicle maintains a steady speed and direction, following the car ahead at a safe distance. There are no significant changes in speed or direction observed.",
+        "key_objects": "1) Front: A black car, approximately 30 meters away, maintaining a consistent speed and distance.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

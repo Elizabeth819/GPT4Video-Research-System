@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_018",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "11.1s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) Male pedestrian, adult, wearing a light-colored shirt and dark pants. 2) Female pedestrian, adult, wearing a patterned shirt and dark pants. 3) Motorcyclist in the distance.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban road with parked vehicles lining the right side. As the vehicle proceeds, two pedestrians, a male and a female, suddenly emerge from behind a parked white SUV on the right side of the road. They step directly into the vehicle's path with minimal warning, creating an immediate and dangerous 'ghost probing' situation. The vehicle is forced to react quickly to avoid a collision.",
+  "actions": "The self-driving vehicle is initially traveling at a moderate speed on an urban street. Upon the sudden and unexpected appearance of two pedestrians from behind a parked white SUV on the right side of the road, the vehicle immediately initiates rapid deceleration. This decisive braking action is taken to prevent a collision with the pedestrians who unexpectedly entered the vehicle's path, as their presence was completely obscured by the parked vehicle until their emergence, leaving minimal reaction time for the driver.",
+  "key_objects": "1) Right side: A male pedestrian, adult, approximately 2-3 meters away, suddenly emerging from behind a parked white SUV and stepping into the vehicle's path. 2) Right side: A female pedestrian, adult, approximately 2-3 meters away, suddenly emerging from behind a parked white SUV and stepping into the vehicle's path alongside the male pedestrian. 3) Right side: A white SUV, approximately 5-7 meters away, parked on the side of the road, creating a significant visual obstruction that completely hid the pedestrians until they emerged.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

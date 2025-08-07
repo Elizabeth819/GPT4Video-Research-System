@@ -1,0 +1,22 @@
+\section{Experiment}
+\label{sec/experiment}
+
+\subsection{Dataset and Preprocessing}
+We evaluate the proposed AutoDrive-GPT system on the open dataset on Bilibili \footnote{www.bilibili.com}, which contains a diverse range of driving scenarios, including sudden appearances of pedestrians, lane changes, and collisions. The website consists hundreds of video clips, each having an audio commentary. We carefully selected 20 videos from the Bilibili dataset for testing. The reason we did not use a large dataset is that it is hard to find ghost probing and cut-in videos captured by front cameras of vehicles in its public videos.
+
+To further strengthen our evaluation, we expanded the dataset by adding 100 additional videos from the DADA-2000 dataset, which provides a wider variety of challenging driving events. 
+
+We compare the performance of AutoDrive-GPT with the state-of-the-art methods for autonomous driving behavior labelling and prediction. The evaluation metrics include precision, recall, and F1 score. We also conduct a qualititativa analysis of the generated text outputs to assess the system's interpretability and cohesive reasoning.
+
+\subsection{Experiment Methods}
+The experiment methods are as follows:
+
+1. Data Preprocessing:
+    We preprocess the video data using the COBRA framework, implementing the 5-stage pipeline detailed in Section~\ref{sec/3_system}. COBRA processes videos with adaptive segmentation (5-10 second intervals based on motion analysis), hybrid frame sampling (10 frames per segment), and multimodal audio processing using Azure Whisper API. To validate COBRA's effectiveness, we conducted systematic comparison against alternative video processing approaches including standard OpenCV processing, MoviePy, and basic uniform sampling methods. The results demonstrate COBRA's superior performance in both processing efficiency and information retention quality.
+
+2. Model Labelling and Reasoning:
+    We label the video data using the GPT-4o model, extracting key driving behaviors such as ghost probing and cut-in events, then predict next actions based on the key action label, but for this experiment only key actions are evaluated in the experiment, predictions are not in the scope of evaluation.
+
+3. Prompt Tuning \cite{jia_visual_2022, liu2023visual}:
+    Prompt tuning is a crucial component of our approach, enabling GPT-4o to effectively interpret and predict driving behaviors. In this section, we detail the design of prompts, the tuning methodology. The detailed prompt tuning process is provided in Appendix \ref{appendix:prompt_tuning}.
+  

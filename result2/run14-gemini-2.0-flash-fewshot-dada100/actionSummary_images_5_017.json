@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_017",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A woman with long brown hair wearing a brown jacket and black pants is riding a black scooter. A woman wearing a yellow coat is walking on the left side of the road.",
+  "summary": "The vehicle is approaching an intersection. A woman on a black scooter suddenly appears from the right side of the road, crossing the intersection. The scooter emerges from behind a line of trees and bushes, partially obstructing the view. The woman is wearing a brown jacket and black pants. Simultaneously, a woman wearing a yellow coat is walking on the left side of the road, preparing to cross the street. The scooter's sudden appearance creates a potential ghost probing situation.",
+  "actions": "The vehicle is approaching an intersection at a steady speed. The driver is likely maintaining speed to cross the intersection. The driver may need to decelerate if the scooter continues to cross the intersection without yielding.",
+  "key_objects": "1) Right side: A woman on a black scooter, approximately 5 meters away, suddenly emerging from behind trees and bushes and crossing the intersection. 2) Left side: A woman wearing a yellow coat, approximately 10 meters away, walking towards the intersection and preparing to cross the street.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "video_id": "images_5_043",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "16.3s",
+  "summary": "The self-driving car starts at a complete stop at an intersection. From 0.0s to 5.0s, the car remains stationary, waiting for the traffic light to turn green. At 5.0s, the traffic light turns green, and the car begins to move forward into the intersection. From 5.0s to 16.3s, the car proceeds straight through the intersection. At 15.6s, a blue tricycle suddenly appears from the right side of the road, crossing the intersection. The tricycle's sudden appearance constitutes a potential ghost probing incident. The car continues to move forward, navigating the intersection and maintaining its lane.",
+  "characters": [
+    {
+      "mode_of_transportation": "car",
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "white",
+      "age": "unknown",
+      "way_of_walking": "N/A"
+    },
+    {
+      "mode_of_transportation": "car",
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "white",
+      "age": "unknown",
+      "way_of_walking": "N/A"
+    },
+    {
+      "mode_of_transportation": "tricycle",
+      "gender": "male",
+      "clothing": "unknown",
+      "colors": "blue",
+      "age": "adult",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_objects": [
+    "Right side: A blue tricycle, approximately 5 meters away, crossing the intersection, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is initially stopped at an intersection, likely waiting for a green light. From 0.0s to 5.0s, the vehicle remains stationary. At 5.0s, the vehicle begins to accelerate and proceeds straight through the intersection. The vehicle is driving straight to continue along its intended route after the traffic light turned green.",
+  "next_action": {
+    "speed_control": "accelerating",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

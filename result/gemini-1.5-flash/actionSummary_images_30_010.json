@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_30_010",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white SUV, driver of a green truck",
+        "summary": "In this segment, the vehicle is driving on an urban road. A white SUV is ahead, moving slightly to the right lane. A green truck is visible further ahead in the same lane. The road is wet, indicating recent rain.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the white SUV. The SUV moves slightly to the right lane, possibly to overtake the green truck ahead. The self-driving vehicle keeps a safe distance from both the SUV and the truck.",
+        "key_objects": "1) Front: A white SUV, approximately 15 meters away, moving slightly to the right lane, possibly overtaking the green truck. 2) Front: A green truck, approximately 30 meters away, moving slowly in the same lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

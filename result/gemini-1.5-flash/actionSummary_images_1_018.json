@@ -1,0 +1,72 @@
+[
+    {
+        "video_id": "dada_1_018",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A man on a scooter",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Approaching from the center of the road, crossing the path of the vehicle."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Light-colored shirt and dark pants",
+                "transportation_method": "Scooter",
+                "behavior": "Riding a scooter in the center of the road, crossing the path of the vehicle without looking."
+            }
+        ],
+        "summary": "The video shows a car driving down a street.  A man on a scooter, wearing a light-colored shirt and dark pants, appears to be in his 30s or 40s, is seen approaching from the center of the road and crossing directly in front of the vehicle. The scooter rider does not appear to check for oncoming traffic before crossing. This action constitutes a 'ghost probing' event due to the sudden appearance of the scooter in the vehicle's path, leaving minimal reaction time for the driver. The speed of the scooter appears to be moderate, adding to the potential danger.",
+        "actions": "The vehicle maintains a consistent speed throughout the 5-second segment.  There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicles ahead. The consistent speed suggests the driver is navigating a relatively clear section of the road with no immediate need for braking or acceleration.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_018",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "Two men, one wearing a light-colored short-sleeved shirt and dark shorts, the other in a darker shirt and shorts, appear to be arguing or engaging in a physical altercation.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "They are standing in the road, potentially obstructing traffic.  Their actions are unpredictable and could cause them to suddenly move into the path of the vehicle."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": "Two men are seen arguing or fighting in the road ahead of the vehicle. One is wearing a light-colored short-sleeved shirt and dark shorts; the other is wearing a darker shirt and shorts. Their behavior is erratic and unpredictable.",
+        "summary": "The video shows two men engaged in a physical altercation in the road directly ahead of the vehicle.  Their actions are unpredictable and pose a significant risk of collision. The men are approximately 5 meters in front of the vehicle.  The driver needs to react quickly to avoid a potential accident. The situation is classified as 'ghost probing' due to the sudden appearance of the men in the road and the lack of time for the driver to react.",
+        "actions": "The vehicle is moving forward at a relatively slow speed. This is likely due to the presence of other vehicles and the need to maintain a safe following distance. The driver is maintaining a cautious speed to allow for reaction time to any unexpected events.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_018",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "10.8s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving down a street with parked cars on both sides.  The road is relatively clear. There are no pedestrians or cyclists visible in the frames provided. The car maintains a steady speed and stays in its lane. No unusual or dangerous events occur during this 5-second segment.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the 5-second segment.  There is no indication of braking, acceleration, or lane changes. The vehicle's movement suggests a steady, controlled driving pattern in response to the clear road conditions.",
+        "next_action": {
+            "speed_control": "maintain_speed",
+            "direction_control": "straight",
+            "lane_control": "keep_lane"
+        }
+    }
+]

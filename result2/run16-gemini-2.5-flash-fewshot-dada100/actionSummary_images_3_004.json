@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.7s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male pedestrian in white shirt, female pedestrian in dark clothing, scooter rider with orange box, scooter rider with green/blue box, several people on the right sidewalk, male cyclist on yellow bicycle, female cyclist in black shirt on a dark bicycle.",
+  "summary": "In this segment, the self-driving vehicle is stopped at an urban intersection with a crosswalk, likely waiting for traffic and pedestrians to clear, as indicated by the red traffic lights. Initially, several pedestrians and scooters cross the intersection from left to right. A silver minivan also crosses from left to right, temporarily obscuring a scooter behind it. At approximately 11.1 seconds, a female cyclist suddenly emerges from behind a stationary gold/beige car and a group of people standing on the right side of the road, darting directly into the vehicle's path on the crosswalk. This sudden appearance from behind a significant visual obstruction creates an immediate and unavoidable dangerous situation, resulting in the cyclist falling to the ground directly in front of the vehicle at approximately 12.6 seconds.",
+  "actions": "The self-driving vehicle is initially stopped at the intersection, observing the flow of pedestrians and cross-traffic. The vehicle maintains its stopped position as a silver minivan and a scooter pass through the intersection. Upon the sudden and unexpected emergence of the female cyclist from behind the visual obstruction on the right side at approximately 11.1 seconds, the vehicle initiates emergency braking. This rapid deceleration is a direct, reactive measure to the immediate collision threat posed by the cyclist's 'ghost probing' behavior, aiming to mitigate the impact or avoid a collision, which unfortunately results in the cyclist falling in front of the vehicle.",
+  "key_objects": "1) Right side: A female cyclist, approximately 20-30 years old, wearing a black shirt and dark pants, on a dark bicycle, suddenly emerging from behind a parked gold/beige car and a group of people on the sidewalk at approximately 11.1s, entering the vehicle's path. This sudden appearance from behind an obstruction creates an immediate collision risk. 2) Right side: A gold/beige car, approximately 5-7 meters away, parked or stopped near the crosswalk, acting as a primary visual obstruction that hides the approaching cyclist until emergence. 3) Right side: A group of people and bicycles on the sidewalk, approximately 5-10 meters away, further contributing to the visual obstruction that concealed the cyclist.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

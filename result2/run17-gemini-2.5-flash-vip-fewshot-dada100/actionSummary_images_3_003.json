@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_3_003",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "4.3s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A person on a bicycle wearing light-colored clothing.",
+    "summary": "The vehicle is approaching an intersection. A person on a bicycle wearing light-colored clothing is crossing the intersection from right to left. The cyclist is moving at a moderate speed and appears to be proceeding without stopping, creating a potential collision hazard.",
+    "actions": "The vehicle is approaching an intersection and maintaining its speed. The driver is likely assessing the traffic light and crosswalk conditions to determine whether to proceed through the intersection or stop. The vehicle is maintaining speed, possibly because the driver anticipates being able to safely cross the intersection before the cyclist reaches the vehicle's path.",
+    "key_objects": "1) Right side: A person on a bicycle wearing light-colored clothing, approximately 5 meters away, crossing the intersection from right to left and approaching the vehicle's path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_035",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, pedestrians, other vehicles",
+        "summary": "In this segment, the vehicle is driving on an urban road. There are multiple vehicles ahead, including a white sedan. Pedestrians and other vehicles are present on both sides of the road.",
+        "actions": "The self-driving vehicle is maintaining a steady speed, keeping a safe distance from the white sedan ahead. The vehicle is navigating through an urban area with moderate traffic.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining a steady speed. 2) Left side: A red tricycle, approximately 15 meters away, moving slowly. 3) Right side: A black car, approximately 5 meters away, parked.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_035",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrian",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white sedan is ahead, maintaining a steady speed. A pedestrian suddenly appears from the left side, moving quickly towards the center of the road.",
+        "actions": "The self-driving vehicle maintains a steady speed while following the white sedan ahead. The sudden appearance of the pedestrian from the left side may require the vehicle to decelerate or stop to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a steady speed. 2) Left side: A pedestrian, approximately 5 meters away, suddenly moving towards the center of the road.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

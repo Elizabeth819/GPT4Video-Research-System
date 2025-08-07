@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including children and adults, are observed in the images. The pedestrians are seen crossing the road from both the left and right sides, often emerging from behind parked vehicles or other obstructions.",
+  "summary": "The video sequence shows several instances of pedestrians, including children, suddenly emerging from behind parked vehicles and other obstructions, directly into the path of the observer vehicle. These sudden appearances create immediate collision risks, requiring quick reaction times to avoid accidents.",
+  "actions": "In the first set of images, a child suddenly appears from the right side of the road, emerging from behind a parked vehicle. In the second set, a woman with a child suddenly appears from the left side, crossing the road. In the third set, a man suddenly runs across the road from the left side, emerging from behind a parked vehicle. In the fourth set, a child suddenly runs across the road from the right side, emerging from behind a parked vehicle.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians crossing the road, street lights, and roadside structures.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

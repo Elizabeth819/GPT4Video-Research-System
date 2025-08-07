@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_021",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "8.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "Driver of a white sedan, motorcyclists",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, a white sedan is seen ahead on the left side of the lane. As the vehicle progresses, two motorcyclists appear on the right side of the lane. The road is clear with no immediate obstacles.",
+        "actions": "The self-driving vehicle maintains a steady speed and lane position. The vehicle is driving at a consistent speed, keeping a safe distance from the white sedan ahead and the motorcyclists on the right side.",
+        "key_objects": "1) Front left: A white sedan, approximately 20 meters away, maintaining its lane. 2) Right side: Two motorcyclists, approximately 15 meters away, riding steadily in their lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_021",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.9s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "Motorcyclist on the right side",
+        "summary": "In this segment, the vehicle is driving on a rural road. A motorcyclist is visible on the right side of the road, gradually approaching the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and direction. The vehicle is keeping a safe distance from the motorcyclist on the right side.",
+        "key_objects": "1) Right side: A motorcyclist, approximately 10 meters away, approaching the vehicles path.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

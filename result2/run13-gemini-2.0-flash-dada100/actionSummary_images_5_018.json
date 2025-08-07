@@ -1,0 +1,29 @@
+{
+  "video_id": "images_5_018",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "9.0s",
+  "summary": "The self-driving car is moving forward on a wet road in a residential area. From 2.0s to 5.0s, a person on a scooter is seen on the right side of the road, moving in the same direction as the car. The scooter is approximately 20 meters away. From 6.0s to 9.0s, the car approaches a crosswalk. A white SUV is seen crossing from the left side of the road at 7.0s. The road conditions are wet, and there are buildings on both sides of the road.",
+  "characters": [
+    {
+      "gender": "male",
+      "age": "adult",
+      "clothing": "dark jacket",
+      "colors": [
+        "black"
+      ],
+      "transportation_method": "scooter",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_objects": [
+    "Left side: White SUV crossing the road, approximately 15 meters away, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a wet road. The speed appears to be moderate, adjusting to the road conditions and maintaining a safe distance from other vehicles. The vehicle is likely maintaining its current speed due to the wet road conditions and the presence of other vehicles and individuals on the road.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_39_017",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, rider on a scooter",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white sedan is ahead, and a scooter rider appears from the right side, moving towards the left. The scooter riders movement is unpredictable and poses a potential danger. The truck on the left side is moving forward, potentially cutting into the lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while closely monitoring the scooter riders unpredictable movement. The vehicle is also keeping an eye on the truck on the left side, which is moving forward and may cut into the lane.",
+        "key_objects": "1) Right side: A male rider on a scooter, approximately 2 meters away, moving towards the left, potentially causing ghost probing. 2) Left side: A large truck, approximately 1 meter away, moving forward and potentially cutting into the lane.",
+        "key_actions": "ghost probing, cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

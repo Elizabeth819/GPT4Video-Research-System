@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_4_001",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Night driving near an exit",
+    "characters": "A person riding a bicycle, driver of the recording vehicle",
+    "summary": "The video shows a nighttime scene where the recording vehicle is approaching an exit. A person on a bicycle is visible on the right side of the road, moving towards the vehicle's path. The cyclist appears to be crossing from the right side of the road, potentially creating a collision hazard. The cyclist is wearing dark clothing, making them less visible in the low-light conditions. The cyclist's speed is moderate, and they seem to be unaware of the approaching vehicle.  The vehicle is slowing down as it approaches the cyclist.",
+    "actions": "The vehicle is slowing down in anticipation of the cyclist crossing the road. The driver is maintaining a safe distance from the parked vehicles on the right side of the road. The vehicle is keeping to its lane and maintaining a steady speed, adjusting speed to avoid a potential collision with the cyclist.",
+    "key_objects": "1) Right: A person on a bicycle, approximately 5 meters away, crossing the road from right to left, potentially causing a collision. ",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_4_001",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.2s",
+    "scene_theme": "Night driving",
+    "sentiment": "Neutral",
+    "characters": "A male cyclist wearing dark clothing riding a bicycle.",
+    "summary": "The video shows a cyclist riding a bicycle on a path adjacent to the road at dusk.  The cyclist is visible from the beginning of the segment and maintains a consistent distance from the vehicle. No sudden movements or dangerous actions are observed from the cyclist. The vehicle maintains a steady speed and keeps a safe distance from the cyclist.",
+    "actions": "The vehicle maintains a consistent speed throughout the segment, indicating a steady and controlled driving pattern. There are no observable changes in speed or direction. The vehicle remains in its lane and does not exhibit any braking or acceleration.",
+    "key_objects": "Left side: A male cyclist wearing dark clothing, approximately 5 meters away, moving parallel to the vehicle at a slow and steady pace.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

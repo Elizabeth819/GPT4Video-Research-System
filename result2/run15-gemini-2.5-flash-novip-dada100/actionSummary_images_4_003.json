@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "In the scene, there are several pedestrians and a cyclist. On the right side of the road, a person in dark clothing (possibly a male) is seen walking on the sidewalk from frame 4 onwards. In frame 6, a male cyclist wearing dark clothing suddenly appears from behind a parked red car on the right, entering the road. Later, from frame 7 onwards, another male pedestrian in a suit is visible walking on the right sidewalk.",
+  "summary": "The video begins with the autonomous vehicle stationary on a narrow urban street, surrounded by parked cars on both sides. A grey minivan is positioned directly in front of the vehicle. As the video progresses, the grey minivan starts to move forward. Concurrently, a male cyclist unexpectedly emerges from behind a red parked car on the right side of the road, darting directly into the vehicle's path. The autonomous vehicle, which had just begun to accelerate, rapidly decelerates and comes to a complete stop to avoid a collision with the cyclist. The incident highlights a classic 'ghost probing' scenario due to the sudden appearance of the cyclist from behind a visual obstruction.",
+  "actions": "The vehicle remains stationary at 0km/h from 0.0s to 3.8s (Frames 1-5), likely due to the presence of the grey minivan directly in front and the narrow road conditions, indicating a wait for the path to clear or for traffic to proceed. From 4.8s to 5.8s (Frames 6-7), the vehicle begins to accelerate, reaching 13km/h, as the grey minivan in front has moved forward, signaling an opportunity to advance. However, from 6.7s to 8.6s (Frames 8-10), the vehicle rapidly decelerates from 13km/h to 0km/h and comes to a complete stop. This abrupt braking action is a direct and necessary response to the sudden appearance of a cyclist from behind a parked red car on the right, who unexpectedly entered the vehicle's immediate path, creating an imminent collision risk. The deceleration and stop were executed to ensure safety and prevent an accident.",
+  "key_objects": "1) Right side: A red parked car, acting as a physical obstruction, is located on the right side of the road. It completely blocks the view of the area behind it, making it impossible to detect the approaching cyclist until they emerge. This obstruction is crucial for the 'ghost probing' classification. \n2) Right side: A male cyclist, wearing dark clothing, suddenly emerges from behind the red parked car at approximately 4.8s (Frame 6). The cyclist darts directly into the vehicle's path with minimal reaction time, forcing the vehicle to perform an emergency stop to avoid a collision. This sudden appearance from behind the obstruction is the core element of the ghost probing incident.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

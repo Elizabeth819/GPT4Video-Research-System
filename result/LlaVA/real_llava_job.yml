@@ -1,0 +1,53 @@
+# 真实LLaVA鬼探头检测作业
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: real-llava-ghost-probing
+description: "Real LLaVA Ghost Probing Detection using LLaVA-NeXT-Video-7B-DPO with balanced GPT-4.1 prompt"
+
+# Compute configuration  
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code source
+code: .
+
+# Real LLaVA analysis command
+command: >
+  echo "🚀 开始真实LLaVA鬼探头检测作业" &&
+  python --version &&
+  echo "📋 检查GPU和CUDA环境..." &&
+  nvidia-smi &&
+  python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA可用: {torch.cuda.is_available()}'); print(f'GPU数量: {torch.cuda.device_count()}'); print(f'当前GPU: {torch.cuda.current_device()}' if torch.cuda.is_available() else 'No GPU')" &&
+  echo "📁 检查输入数据路径..." &&
+  echo "当前工作目录:" &&
+  pwd &&
+  ls -la . &&
+  echo "检查LLaVA-NeXT目录:" &&
+  ls -la ./LLaVA-NeXT/ || echo "LLaVA-NeXT目录不存在" &&
+  echo "🔧 安装必要依赖..." &&
+  pip install opencv-python Pillow transformers accelerate decord &&
+  echo "📊 运行真实LLaVA检测..." &&
+  timeout 3600 python llava_real_ghost_detector.py &&
+  echo "✅ 真实LLaVA鬼探头检测作业完成"
+
+# Input data  
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+# Experiment settings
+experiment_name: real-llava-experiment

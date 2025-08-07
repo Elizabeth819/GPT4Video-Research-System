@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_014",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a blue car",
+        "summary": "In this segment, the vehicle is driving on a wet road in an urban area. Initially, a white sedan is ahead in the same lane. As the vehicle progresses, a blue car from the left lane cuts into the self-vehicles lane, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the blue car from the left lane cuts into the self-vehicles lane, the vehicle needs to decelerate to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, moving forward. 2) Left: A blue car, approximately 10 meters away, cutting into the self-vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_014",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a blue car, driver of a yellow truck",
+        "summary": "In this segment, the vehicle is driving on a wet urban road. The white sedan ahead is moving towards the left lane, while the blue car on the left side is approaching the intersection. The yellow truck on the left side is parked. The traffic light is green.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the intersection. The white sedan ahead is moving towards the left lane, potentially causing a cut-in situation. The blue car on the left side is approaching the intersection, which may require the self-driving vehicle to decelerate.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving towards the left lane, potentially causing a cut-in situation. 2) Left side: A blue car, approximately 15 meters away, approaching the intersection, may require the self-driving vehicle to decelerate.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

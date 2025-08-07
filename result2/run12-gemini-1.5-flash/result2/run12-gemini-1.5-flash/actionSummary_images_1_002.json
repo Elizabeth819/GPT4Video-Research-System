@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_1_002",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rural Road",
+    "characters": "Two pedestrians, a motorcyclist, and the driver of the recording vehicle.",
+    "summary": "The video shows a car driving on a narrow rural road.  Between 3.3s and 5.6s, two pedestrians, one appearing to be female wearing a dark coat and the other male in a lighter jacket, cross the road from right to left. They are approximately 10-15 meters ahead of the vehicle when they begin crossing.  Their crossing is relatively slow and they do not appear to rush. A motorcyclist is visible further ahead, traveling in the same direction as the recording vehicle. No immediate danger is presented by the pedestrians or motorcyclist. The road is relatively clear except for the pedestrians and motorcyclist.",
+    "actions": "The vehicle maintains a consistent speed throughout the 10-second segment, adapting speed to the presence of pedestrians and the motorcyclist ahead.  The driver appears to maintain a safe following distance from the motorcyclist. No braking or acceleration is noticeably observed.",
+    "key_objects": "1) Front: Two pedestrians (one female in a dark coat, one male in a lighter jacket), approximately 10-15 meters away, crossing the road from right to left at a slow pace. 2) Front: Motorcyclist, approximately 20-25 meters away, traveling in the same direction as the recording vehicle at a similar speed.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_002",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.7s",
+    "sentiment": "Neutral",
+    "End_Timestamp": "10.7s",
+    "scene_theme": "Rural Road",
+    "characters": "None",
+    "summary": "The video shows a single frame of a vehicle driving on a rural road. The road is relatively empty with buildings and a small bridge visible in the distance.  No other vehicles or pedestrians are immediately present. The road appears to be dry and the weather seems clear.",
+    "actions": "The vehicle is driving straight ahead at a seemingly moderate speed.  There are no immediate indications of braking, acceleration, or lane changes. The driver appears to be maintaining a safe distance from the roadside.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

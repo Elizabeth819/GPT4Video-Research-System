@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_041",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child in a blue jacket suddenly appears from the right side of the image, darting into the road. In another sequence, a woman with a child suddenly appears from the left side of the image, crossing the road.",
+  "summary": "The video sequence shows multiple instances of ghost probing behavior. In the first sequence, a child suddenly emerges from the right side of the image, directly into the path of the vehicle. In the second sequence, a woman with a child suddenly appears from the left side of the image, crossing the road. Both instances involve sudden appearances from behind physical obstructions, creating immediate collision risks.",
+  "actions": "The child and the woman with a child both suddenly appear from behind parked vehicles, directly entering the driving lane.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians suddenly emerging from behind these vehicles.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

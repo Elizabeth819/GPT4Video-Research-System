@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a busy intersection with pedestrians, cyclists, and vehicles. There are people of various ages and genders. Some are wearing casual clothing, while others are on bicycles or motorcycles. A person is lying on the ground after an accident.",
+  "summary": "The video shows a car approaching an intersection with a crosswalk. Pedestrians are crossing the street. A motorcyclist suddenly appears from the left side of the car, and an accident occurs. The motorcyclist falls to the ground.",
+  "actions": "The vehicle approaches an intersection at a moderate speed. The driver likely intends to proceed straight through the intersection. The vehicle then rapidly decelerates and stops due to the sudden appearance of a motorcyclist and the subsequent collision.",
+  "key_objects": "1) Left: Motorcyclist, medium distance, suddenly appears from behind other vehicles, causing a collision. 2) Center: Pedestrians, medium distance, crossing the street, potentially distracting the driver.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_037",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red Jeep",
+        "summary": "In this segment, the vehicle is driving on a multi-lane highway. Initially, the vehicle is maintaining a safe distance from the cars ahead. As the vehicle progresses, it approaches a red Jeep in the same lane. The red Jeep suddenly slows down, causing the self-driving vehicle to rapidly decelerate to avoid a collision.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed initially but then rapidly decelerates as it approaches the red Jeep, which suddenly slows down. This action is taken to avoid a potential collision.",
+        "key_objects": "1) Front: A red Jeep, approximately 2 meters away, suddenly slowing down, causing the self-driving vehicle to decelerate rapidly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

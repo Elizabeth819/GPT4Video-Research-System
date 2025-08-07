@@ -1,0 +1,36 @@
+{
+  "video_id": "images_5_007",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "11.6s",
+  "summary": "The self-driving car approaches an intersection with crosswalks. From 6.0s to 8.0s, a motorcyclist wearing a red jacket appears from the left side of the road, crossing the intersection. At 8.0s, a dark SUV enters the intersection from the right. At 9.0s, the motorcyclist is in the middle of the intersection, and the SUV is also proceeding through the intersection. At 10.0s, the motorcyclist is almost across the intersection, and the SUV has cleared the intersection. The motorcyclist wearing a red jacket is moving at a moderate speed, creating a potential ghost probing situation as they approach from behind the obstruction of the intersection.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "red jacket",
+      "colors": "red",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "N/A"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "dark",
+      "colors": "dark",
+      "age": "unknown",
+      "transportation_method": "SUV",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_objects": [
+    "Left side: Motorcyclist wearing a red jacket, approximately 15 meters away, crossing the intersection, potentially causing the vehicle to decelerate or stop.",
+    "Right side: Dark SUV, approximately 20 meters away, entering the intersection, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is approaching an intersection and slowing down, likely preparing to yield or stop if necessary. The driver is likely assessing the traffic conditions at the intersection to determine the appropriate course of action. The vehicle slows down to navigate the intersection safely, considering the presence of other vehicles and the motorcyclist.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

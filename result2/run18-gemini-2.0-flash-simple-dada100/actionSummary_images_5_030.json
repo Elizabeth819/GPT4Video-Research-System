@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_030",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a street with cars, pedestrians, and buildings. There are several pedestrians on the right side of the road, some waiting to cross. A man on a bicycle is crossing the road from left to right. There are cars parked on both sides of the street. The weather appears to be sunny.",
+  "summary": "The vehicle is driving straight on a city street with moderate traffic. There are pedestrians on the sidewalks and some crossing the street. The vehicle maintains a consistent speed and direction. A man on a bicycle crosses the road in front of the vehicle.",
+  "actions": "The vehicle is driving straight at a consistent speed. The driver is maintaining the current lane and adjusting speed to match the flow of traffic. The vehicle is approaching an intersection with pedestrians crossing.",
+  "key_objects": "1) Right side: Pedestrians waiting to cross the street, medium distance, potential to enter the roadway. 2) Left side: Man on a bicycle crossing the road, medium distance, potential to enter the roadway.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

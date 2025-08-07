@@ -1,0 +1,33 @@
+{
+  "video_id": "images_5_038",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "16.7s",
+  "summary": "The self-driving car is traveling on a straight road in a rural area with buildings on both sides. From 0.0s to 2.0s, a woman in a red jacket is walking on the left side of the road. From 5.0s to 6.0s, a silver mini truck is crossing the road from the left. From 11.0s to 14.0s, a man on a tricycle loaded with goods is traveling on the right side of the road. The road conditions are clear with light traffic.",
+  "characters": [
+    {
+      "gender": "female",
+      "clothing": "red jacket",
+      "colors": "red",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "normal"
+    },
+    {
+      "gender": "male",
+      "clothing": "unknown",
+      "colors": "unknown",
+      "age": "adult",
+      "transportation_method": "tricycle",
+      "way_of_walking": "normal"
+    }
+  ],
+  "key_objects": [],
+  "actions": "The vehicle is driving straight on a rural road. The speed appears constant, suggesting the driver is maintaining a steady pace suitable for the road conditions and visibility. The driver is likely monitoring the road for potential hazards, such as pedestrians or other vehicles.",
+  "next_action": {
+    "speed_control": "keep speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none"
+}

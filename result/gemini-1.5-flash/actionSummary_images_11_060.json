@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_060",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "4.9s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a gray sedan",
+        "summary": "In this segment, the vehicle is driving in an urban area. The gray sedan ahead is moving steadily, and the traffic light is green. The road is clear with moderate traffic.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the gray sedan ahead. The vehicle is keeping a safe distance from the car in front, ensuring smooth driving through the intersection.",
+        "key_objects": "1) Front: A gray sedan, approximately 10 meters away, moving steadily. 2) Left side: A blue car, approximately 5 meters away, parked and not posing any immediate threat. 3) Right side: A yellow taxi, approximately 15 meters away, moving in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

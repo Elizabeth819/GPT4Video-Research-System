@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car approaching an intersection. There are several large trucks parked on the right side of the road. A person is standing next to a motorcycle that is lying on the ground in the middle of the intersection. The person appears to be wearing a dark jacket and a light-colored helmet.",
+  "summary": "The vehicle approaches an intersection with several large trucks parked on the right. As the vehicle gets closer, a motorcycle is seen lying on the ground in the middle of the intersection, with a person standing next to it. The driver will need to stop to avoid hitting the person and the motorcycle.",
+  "actions": "The vehicle is initially moving forward at a constant speed as it approaches the intersection. As the motorcycle and person become visible, the driver will need to brake to avoid a collision. The driver is likely slowing down to assess the situation and determine the best course of action.",
+  "key_objects": "1) Right: Large trucks parked on the side of the road, medium distance, obstruct the view of the intersection. 2) Center: Motorcycle lying on the ground, short distance, immediate collision risk. 3) Center: Person standing next to the motorcycle, short distance, immediate collision risk.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

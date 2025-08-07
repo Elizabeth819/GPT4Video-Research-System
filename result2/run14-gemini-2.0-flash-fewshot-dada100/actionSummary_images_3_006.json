@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_006",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A gray SUV, a male cyclist wearing a light-colored shirt and dark pants, and other vehicles at the intersection.",
+  "summary": "The vehicle is approaching an intersection with a traffic light. Initially, the road appears clear, but as the vehicle gets closer to the intersection, a male cyclist wearing a light-colored shirt and dark pants suddenly appears from the right side of the road, crossing the crosswalk. The cyclist's sudden appearance creates a potential ghost probing situation as the cyclist was not visible until entering the vehicle's path. The traffic light is visible, but its status is not clear. Other vehicles are present at the intersection, indicating moderate traffic.",
+  "actions": "The vehicle is initially driving straight at a consistent speed, approaching the intersection. As the cyclist appears, the driver will likely need to decelerate or brake to avoid a collision. The driver's actions will depend on the cyclist's speed and trajectory, as well as the traffic light status.",
+  "key_objects": "1) Right side: A male cyclist wearing a light-colored shirt and dark pants, approximately 5 meters away, suddenly crossing the crosswalk and entering the vehicle's path. 2) Right side: Trees and roadside structures, approximately 10 meters away, creating a partial visual obstruction that hides the cyclist until emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

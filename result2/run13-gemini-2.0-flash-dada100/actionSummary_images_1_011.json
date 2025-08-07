@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_011",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.6s",
+  "summary": "The self-driving car is traveling on a two-lane road with light traffic. From 0.0s to 4.0s, the car is driving straight. From 4.0s to 13.6s, the car approaches an intersection with a gas station on the right. At 12.0s, a silver car is parked on the right side of the road. At 13.2s, a man in a blue shirt opens the driver's side door of the silver car, and a young girl in a pink dress starts to run across the road from behind the car. A woman holding a baby is standing on the sidewalk to the right of the parked car. This constitutes a ghost probing incident due to the sudden appearance of the child from behind the parked car.",
+  "actions": "From 0.0s to 4.0s, the vehicle maintains a constant speed while driving straight on a two-lane road. The driver is likely maintaining speed due to the open road and light traffic. From 4.0s to 13.6s, the vehicle continues straight, likely preparing to pass the intersection ahead. The driver maintains speed, possibly assessing the situation at the intersection.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep left in this lane"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "Right side: A young girl in a pink dress, approximately 3 meters away, running across the road from behind the parked silver car, causing a potential need for immediate braking."
+}

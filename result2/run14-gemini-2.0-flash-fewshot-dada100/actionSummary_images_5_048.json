@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_048",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A man in a red jacket riding a scooter on the right side of the road, several other vehicles including a silver sedan and a white SUV, and another person on a scooter further ahead.",
+  "summary": "The vehicle is driving on a multi-lane road with other vehicles present. A man in a red jacket is riding a scooter on the right side of the road. As the vehicle approaches an intersection, the man on the scooter begins to cross the road from the right, potentially creating a dangerous situation. The scooter emerges from behind a barrier on the right side of the road, creating a potential ghost probing scenario. Another person on a scooter is visible further ahead.",
+  "actions": "The vehicle is maintaining a steady speed on the road. As the vehicle approaches the intersection, the driver may need to decelerate or take evasive action to avoid a collision with the scooter crossing the road. The driver is likely maintaining speed to keep up with the flow of traffic.",
+  "key_objects": "1) Right side: A man in a red jacket on a scooter, approximately 10 meters away, crossing the road and potentially entering the vehicle's path. 2) Right side: A barrier, approximately 8 meters away, partially obstructing the view of the scooter until it emerges into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

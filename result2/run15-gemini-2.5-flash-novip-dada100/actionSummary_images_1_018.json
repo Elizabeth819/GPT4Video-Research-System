@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_018",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two adult pedestrians are present; one is wearing a light-colored shirt and dark pants, and the other is in a patterned shirt and dark pants. They are seen crossing the street from the right side of the road towards the left.",
+  "summary": "The scene depicts a vehicle driving on a multi-lane urban road under bright, sunny conditions. The road is lined with numerous parked cars on both the left and right sides, creating visual obstructions. As the vehicle proceeds, two pedestrians suddenly emerge from behind a parked white SUV on the right side of the road, darting directly into the vehicle's path. This sudden appearance, characteristic of 'ghost probing,' creates an immediate and dangerous collision risk. The vehicle appears to react promptly by decelerating to avoid impact, successfully allowing the pedestrians to cross safely. The pedestrians continue their crossing, moving from the right side of the vehicle's path to the left, and the vehicle then continues to move forward cautiously.",
+  "actions": "The vehicle is initially moving forward at a moderate speed. Upon the sudden appearance of two pedestrians emerging from behind a parked white SUV on the right side of the road (around 3.0s-4.0s), the driver initiated a rapid deceleration, likely applying brakes, to avoid a potential collision. This action was a direct and necessary response to the unexpected and immediate obstruction of the vehicle's path by the pedestrians, who appeared with minimal reaction time due to the visual barrier created by the parked vehicle. After the pedestrians cleared the immediate path (around 5.0s-6.0s), the vehicle maintained its forward direction within its current lane, continuing to proceed cautiously.",
+  "key_objects": "1) Right side: A parked white SUV serves as a physical obstruction, completely blocking the view of the pedestrians until they emerge from behind it. 2) Right side, emerging from behind the white SUV: Two pedestrians suddenly dart out from behind the parked vehicle, directly entering the vehicle's path with minimal warning, creating an immediate danger.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

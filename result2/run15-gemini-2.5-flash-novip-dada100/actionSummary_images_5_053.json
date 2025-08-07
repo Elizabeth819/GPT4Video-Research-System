@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_053",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals on bicycles. One emerges from the left side of the road, and another from the right side.",
+  "summary": "The video captures a vehicle navigating a narrow, unpaved road lined with buildings and parked vehicles, creating significant visual obstructions. The driver proceeds cautiously due to the confined space and limited visibility. As the vehicle moves forward, a person on a bicycle suddenly emerges from behind a dark vehicle and a building on the left side of the road, directly entering the vehicle's path. Almost immediately after, another person on a bicycle suddenly appears from behind a building on the right side of the road, also entering the vehicle's path. Both instances represent classic 'ghost probing' scenarios, where individuals unexpectedly appear from behind visual barriers with minimal reaction time, posing an immediate collision risk.",
+  "actions": "The vehicle is proceeding at a cautious and relatively slow speed through a narrow, obstructed road. This speed is maintained due to the inherent dangers of limited visibility caused by buildings and parked vehicles on both sides, which create blind spots and potential hidden hazards. The driver maintains a straight course, carefully navigating the confined space. The sustained slow speed is a proactive measure to allow for increased reaction time should any unexpected obstacles or individuals emerge from behind the numerous visual obstructions present in this environment. Upon the sudden emergence of hidden obstacles (cyclists) from behind these visual obstructions, the driver would be compelled to react by braking and potentially making minor steering adjustments to avoid a collision, demonstrating a response to the high-risk environment.",
+  "key_objects": "1) Left side: A dark vehicle (possibly a small truck or van) and a building wall, acting as physical obstructions that block the driver's view. 2) Left side: A person on a bicycle, emerging suddenly from behind the dark vehicle and building, directly into the vehicle's path, creating an immediate collision risk. 3) Right side: A building wall, acting as a physical obstruction that blocks the driver's view. 4) Right side: A person on a bicycle, emerging suddenly from behind the building, directly into the vehicle's path, creating an immediate collision risk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

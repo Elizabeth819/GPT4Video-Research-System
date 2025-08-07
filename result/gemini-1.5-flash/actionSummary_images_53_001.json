@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "$dada_53_001",
+        "segment_id": "Segment_000",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Routine",
+        "characters": "Car ahead",
+        "summary": "In this segment, the vehicle is driving on a highway. The car ahead is maintaining a consistent speed and lane position. There are no sudden movements or obstacles visible in the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position, following the car ahead at a safe distance. There are no changes in speed or direction observed.",
+        "key_objects": "1) Front: A black car, approximately 30 meters away, maintaining a consistent speed and lane position.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

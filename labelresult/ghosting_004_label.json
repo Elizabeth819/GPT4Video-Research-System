@@ -1,0 +1,106 @@
+[
+    {
+        "event_id": "event_001",        
+        "video_id": "ghosting_004",
+        "start_timestamp": "1s",
+        "end_timestamp": "10.0s",
+        "key_object": "an electric scooter",
+        "key_actions": "ghost probing",        
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_002",
+        "video_id": "ghosting_004",
+        "start_timestamp": "31.0s",
+        "end_timestamp": "40.0s",
+        "key_objects": "a black car on the right",        
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_003",
+        "video_id": "ghosting_004",
+        "start_timestamp": "41.0s",
+        "end_timestamp": "50.0s",
+        "key_objects": "a truck from right",        
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "ghosting_004",
+        "start_timestamp": "51.0s",
+        "end_timestamp": "60.0s",
+        "key_objects": "a scooter from the right",        
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "ghosting_004",
+        "start_timestamp": "71.0s",
+        "end_timestamp": "80.0s",
+        "key_objects": "a running pedestrian on the right",        
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_007",
+        "video_id": "ghosting_004",
+        "start_timestamp": "91.0s",
+        "end_timestamp": "100.0s",
+        "key_objects": "an electric scooter from the left",        
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_008",
+        "video_id": "ghosting_004",
+        "start_timestamp": "110.0s",
+        "end_timestamp": "120.0s",
+        "key_objects": "a sedan from the front-right",        
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "brake",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_009",
+        "video_id": "ghosting_004",
+        "start_timestamp": "121.0s",
+        "end_timestamp": "130.0s",
+        "key_objects": "a white car in the front",        
+        "key_actions": "collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+ ]

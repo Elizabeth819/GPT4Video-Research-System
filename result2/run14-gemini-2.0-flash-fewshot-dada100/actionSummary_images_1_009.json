@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_009",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals, one wearing a light brown jacket and the other wearing a blue jacket, appear to be young adults. They are crossing the road together.",
+  "summary": "The vehicle is driving on a road at night. From timestamp 0.0s to 5.5s, two individuals, one in a light brown jacket and the other in a blue jacket, are seen walking across the road. They appear to be young adults. At timestamp 5.5s, the individuals are in the middle of the road, directly in the path of the vehicle, creating a dangerous situation. The vehicle is approaching them at a speed that could lead to a collision if no action is taken.",
+  "actions": "The vehicle is maintaining a steady speed as it drives down the road. The driver is likely unaware of the two individuals crossing the road ahead until they are clearly visible in the vehicle's path. The vehicle will likely need to decelerate rapidly to avoid a collision.",
+  "key_objects": "1) Front: Two young adults, one in a light brown jacket and the other in a blue jacket, approximately 5 meters away, crossing the road directly in the vehicle's path. They are creating an immediate danger of collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_34_066",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle, cyclist, car ahead",
+        "summary": "In this segment, the self-driving vehicle is traveling on a busy urban road at night. The road is well-lit with several commercial establishments on both sides. A cyclist is seen on the left side of the road, moving forward. The car ahead is maintaining a steady speed. The cyclist appears to be moving closer to the self-driving vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the busy urban road. The driver is likely cautious due to the presence of the cyclist on the left side and the car ahead. The vehicles speed remains steady to ensure safe navigation through the traffic.",
+        "key_objects": "1) Left side: A cyclist, approximately 2 meters away, moving forward and potentially entering the self-driving vehicles path. 2) Front: A car ahead, approximately 10 meters away, maintaining a steady speed.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_066",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, driver of a white sedan, driver of an orange hatchback",
+        "summary": "In this segment, the vehicle is driving on a road with multiple parked cars on both sides. A white SUV is moving from the left side towards the center of the road, potentially cutting into the lane of the observer vehicle. The white sedan on the left side is stationary, while the orange hatchback on the right side is also stationary.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the white SUV that is moving towards the center of the road. The vehicle is likely preparing to decelerate to avoid a potential collision with the white SUV.",
+        "key_objects": "1) Left side: A white SUV, approximately 10 meters away, moving towards the center of the road, potentially cutting into the lane. 2) Left side: A white sedan, approximately 15 meters away, stationary. 3) Right side: An orange hatchback, approximately 12 meters away, stationary.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_066",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.4s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white SUV, driver of an orange car",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a white SUV is moving from the left side towards the center lane, while an orange car is parked on the right side. The white SUV appears to be merging into the lane, potentially causing a cut-in situation.",
+        "actions": "The self-driving vehicle is maintaining a steady speed, observing the white SUVs movement from the left side. The vehicle is likely preparing to decelerate or change lanes to avoid a potential cut-in from the white SUV.",
+        "key_objects": "1) Left side: A white SUV, approximately 5 meters away, moving towards the center lane, potentially causing a cut-in. 2) Right side: An orange car, approximately 3 meters away, parked and not posing immediate danger.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,855 @@
+2025-07-25 21:17:42,126 - INFO - Gemini Balanced 100视频分析开始
+2025-07-25 21:17:42,126 - INFO - Gemini API配置成功，使用API Key: AIzaSyA2nNsiLj7MJRSz...
+2025-07-25 21:17:42,138 - INFO - 加载ground truth标签: 101个视频
+2025-07-25 21:17:42,138 - INFO - 开始处理 100 个视频
+2025-07-25 21:17:42,221 - INFO - 处理视频 1/100: images_1_001.avi
+2025-07-25 21:17:52,772 - INFO - 处理视频 2/100: images_1_002.avi
+2025-07-25 21:18:02,551 - INFO - 处理视频 3/100: images_1_003.avi
+2025-07-25 21:18:15,654 - INFO - 处理视频 4/100: images_1_004.avi
+2025-07-25 21:18:24,694 - INFO - 处理视频 5/100: images_1_005.avi
+2025-07-25 21:18:36,268 - INFO - 处理视频 6/100: images_1_006.avi
+2025-07-25 21:18:50,076 - INFO - 处理视频 7/100: images_1_007.avi
+2025-07-25 21:19:03,192 - INFO - 处理视频 8/100: images_1_008.avi
+2025-07-25 21:19:12,735 - INFO - 处理视频 9/100: images_1_009.avi
+2025-07-25 21:19:21,379 - INFO - 处理视频 10/100: images_1_010.avi
+2025-07-25 21:19:39,812 - INFO - 已保存10个视频的中间结果
+2025-07-25 21:19:39,814 - INFO - 处理视频 11/100: images_1_011.avi
+2025-07-25 21:19:48,910 - INFO - 处理视频 12/100: images_1_012.avi
+2025-07-25 21:19:59,639 - INFO - 处理视频 13/100: images_1_013.avi
+2025-07-25 21:20:12,318 - INFO - 处理视频 14/100: images_1_014.avi
+2025-07-25 21:20:24,198 - INFO - 处理视频 15/100: images_1_015.avi
+2025-07-25 21:20:33,200 - INFO - 处理视频 16/100: images_1_016.avi
+2025-07-25 21:20:42,877 - INFO - 处理视频 17/100: images_1_017.avi
+2025-07-25 21:21:02,750 - INFO - 处理视频 18/100: images_1_018.avi
+2025-07-25 21:21:13,403 - INFO - 处理视频 19/100: images_1_019.avi
+2025-07-25 21:21:21,429 - INFO - 处理视频 20/100: images_1_020.avi
+2025-07-25 21:21:29,657 - INFO - 已保存20个视频的中间结果
+2025-07-25 21:21:29,658 - INFO - 处理视频 21/100: images_1_021.avi
+2025-07-25 21:21:39,886 - INFO - 处理视频 22/100: images_1_022.avi
+2025-07-25 21:21:45,518 - ERROR - Gemini分析失败 images_1_022.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-07-25 21:21:45,519 - INFO - 处理视频 23/100: images_1_023.avi
+2025-07-25 21:21:50,997 - ERROR - Gemini分析失败 images_1_023.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-07-25 21:21:51,000 - INFO - 处理视频 24/100: images_1_024.avi
+2025-07-25 21:21:54,515 - ERROR - Gemini分析失败 images_1_024.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 5
+}
+]
+2025-07-25 21:21:54,518 - INFO - 处理视频 25/100: images_1_025.avi
+2025-07-25 21:22:04,456 - INFO - 处理视频 26/100: images_1_026.avi
+2025-07-25 21:22:09,039 - ERROR - Gemini分析失败 images_1_026.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-07-25 21:22:09,043 - INFO - 处理视频 27/100: images_1_027.avi
+2025-07-25 21:22:12,964 - ERROR - Gemini分析失败 images_1_027.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 47
+}
+]
+2025-07-25 21:22:12,965 - INFO - 处理视频 28/100: images_2_001.avi
+2025-07-25 21:22:20,402 - ERROR - Gemini分析失败 images_2_001.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 39
+}
+]
+2025-07-25 21:22:20,403 - INFO - 处理视频 29/100: images_2_002.avi
+2025-07-25 21:22:25,149 - ERROR - Gemini分析失败 images_2_002.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+]
+2025-07-25 21:22:25,153 - INFO - 处理视频 30/100: images_2_003.avi
+2025-07-25 21:22:29,802 - ERROR - Gemini分析失败 images_2_003.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-07-25 21:22:29,806 - INFO - 已保存30个视频的中间结果
+2025-07-25 21:22:29,808 - INFO - 处理视频 31/100: images_2_004.avi
+2025-07-25 21:22:38,897 - WARNING - 视频文件不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/images_2_005.avi
+2025-07-25 21:22:38,898 - INFO - 处理视频 33/100: images_3_001.avi
+2025-07-25 21:22:49,251 - INFO - 处理视频 34/100: images_3_002.avi
+2025-07-25 21:22:58,051 - ERROR - Gemini分析失败 images_3_002.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+]
+2025-07-25 21:22:58,053 - INFO - 处理视频 35/100: images_3_003.avi
+2025-07-25 21:23:04,785 - ERROR - Gemini分析失败 images_3_003.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+2025-07-25 21:23:04,787 - INFO - 处理视频 36/100: images_3_004.avi
+2025-07-25 21:23:09,965 - ERROR - Gemini分析失败 images_3_004.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-07-25 21:23:09,967 - INFO - 处理视频 37/100: images_3_005.avi
+2025-07-25 21:23:14,662 - ERROR - Gemini分析失败 images_3_005.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-07-25 21:23:14,663 - INFO - 处理视频 38/100: images_3_006.avi
+2025-07-25 21:23:18,791 - ERROR - Gemini分析失败 images_3_006.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-07-25 21:23:18,794 - INFO - 处理视频 39/100: images_3_007.avi
+2025-07-25 21:23:23,603 - ERROR - Gemini分析失败 images_3_007.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+]
+2025-07-25 21:23:23,606 - INFO - 处理视频 40/100: images_4_001.avi
+2025-07-25 21:23:28,350 - ERROR - Gemini分析失败 images_4_001.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+2025-07-25 21:23:28,362 - INFO - 已保存40个视频的中间结果
+2025-07-25 21:23:28,363 - INFO - 处理视频 41/100: images_4_002.avi
+2025-07-25 21:23:36,468 - ERROR - Gemini分析失败 images_4_002.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+]
+2025-07-25 21:23:36,471 - INFO - 处理视频 42/100: images_4_003.avi
+2025-07-25 21:23:44,601 - ERROR - Gemini分析失败 images_4_003.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 15
+}
+]
+2025-07-25 21:23:44,602 - INFO - 处理视频 43/100: images_4_004.avi
+2025-07-25 21:23:50,234 - ERROR - Gemini分析失败 images_4_004.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2025-07-25 21:23:50,236 - INFO - 处理视频 44/100: images_4_005.avi
+2025-07-25 21:23:57,165 - ERROR - Gemini分析失败 images_4_005.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+2025-07-25 21:23:57,166 - INFO - 处理视频 45/100: images_4_006.avi
+2025-07-25 21:24:01,879 - ERROR - Gemini分析失败 images_4_006.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2025-07-25 21:24:01,883 - INFO - 处理视频 46/100: images_4_007.avi
+2025-07-25 21:24:06,204 - ERROR - Gemini分析失败 images_4_007.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 53
+}
+]
+2025-07-25 21:24:06,205 - INFO - 处理视频 47/100: images_4_008.avi
+2025-07-25 21:24:11,147 - ERROR - Gemini分析失败 images_4_008.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2025-07-25 21:24:11,149 - INFO - 处理视频 48/100: images_5_001.avi
+2025-07-25 21:24:16,805 - ERROR - Gemini分析失败 images_5_001.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 43
+}
+]
+2025-07-25 21:24:16,806 - INFO - 处理视频 49/100: images_5_002.avi
+2025-07-25 21:24:22,119 - ERROR - Gemini分析失败 images_5_002.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-07-25 21:24:22,121 - INFO - 处理视频 50/100: images_5_003.avi
+2025-07-25 21:24:29,633 - ERROR - Gemini分析失败 images_5_003.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-07-25 21:24:29,641 - INFO - 已保存50个视频的中间结果
+2025-07-25 21:24:29,643 - INFO - 处理视频 51/100: images_5_004.avi
+2025-07-25 21:24:33,677 - ERROR - Gemini分析失败 images_5_004.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 26
+}
+]
+2025-07-25 21:24:33,679 - INFO - 处理视频 52/100: images_5_005.avi
+2025-07-25 21:24:38,188 - ERROR - Gemini分析失败 images_5_005.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 21
+}
+]
+2025-07-25 21:24:38,191 - INFO - 处理视频 53/100: images_5_006.avi
+2025-07-25 21:24:41,825 - ERROR - Gemini分析失败 images_5_006.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2025-07-25 21:24:41,827 - INFO - 处理视频 54/100: images_5_007.avi
+2025-07-25 21:24:47,733 - ERROR - Gemini分析失败 images_5_007.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 12
+}
+]
+2025-07-25 21:24:47,737 - INFO - 处理视频 55/100: images_5_008.avi
+2025-07-25 21:24:52,262 - ERROR - Gemini分析失败 images_5_008.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 7
+}
+]
+2025-07-25 21:24:52,263 - INFO - 处理视频 56/100: images_5_009.avi
+2025-07-25 21:24:59,267 - ERROR - Gemini分析失败 images_5_009.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+2025-07-25 21:24:59,269 - INFO - 处理视频 57/100: images_5_010.avi
+2025-07-25 21:25:05,953 - ERROR - Gemini分析失败 images_5_010.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-07-25 21:25:05,954 - INFO - 处理视频 58/100: images_5_011.avi
+2025-07-25 21:25:13,435 - ERROR - Gemini分析失败 images_5_011.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2025-07-25 21:25:13,437 - INFO - 处理视频 59/100: images_5_012.avi
+2025-07-25 21:25:17,643 - ERROR - Gemini分析失败 images_5_012.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 42
+}
+]
+2025-07-25 21:25:17,645 - INFO - 处理视频 60/100: images_5_013.avi
+2025-07-25 21:25:21,979 - ERROR - Gemini分析失败 images_5_013.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-07-25 21:25:21,986 - INFO - 已保存60个视频的中间结果
+2025-07-25 21:25:21,987 - INFO - 处理视频 61/100: images_5_014.avi
+2025-07-25 21:25:27,563 - ERROR - Gemini分析失败 images_5_014.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 32
+}
+]
+2025-07-25 21:25:27,565 - INFO - 处理视频 62/100: images_5_015.avi
+2025-07-25 21:25:32,121 - ERROR - Gemini分析失败 images_5_015.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2025-07-25 21:25:32,123 - INFO - 处理视频 63/100: images_5_016.avi
+2025-07-25 21:25:38,480 - ERROR - Gemini分析失败 images_5_016.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 21
+}
+]
+2025-07-25 21:25:38,482 - INFO - 处理视频 64/100: images_5_017.avi
+2025-07-25 21:25:44,559 - ERROR - Gemini分析失败 images_5_017.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 15
+}
+]
+2025-07-25 21:25:44,561 - INFO - 处理视频 65/100: images_5_018.avi
+2025-07-25 21:25:53,601 - ERROR - Gemini分析失败 images_5_018.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-07-25 21:25:53,606 - INFO - 处理视频 66/100: images_5_019.avi
+2025-07-25 21:26:07,828 - ERROR - Gemini分析失败 images_5_019.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2025-07-25 21:26:07,830 - INFO - 处理视频 67/100: images_5_020.avi
+2025-07-25 21:26:21,139 - ERROR - Gemini分析失败 images_5_020.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 38
+}
+]
+2025-07-25 21:26:21,141 - INFO - 处理视频 68/100: images_5_021.avi
+2025-07-25 21:26:33,556 - ERROR - Gemini分析失败 images_5_021.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 26
+}
+]
+2025-07-25 21:26:33,558 - INFO - 处理视频 69/100: images_5_022.avi
+2025-07-25 21:26:56,467 - ERROR - Gemini分析失败 images_5_022.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+2025-07-25 21:26:56,470 - INFO - 处理视频 70/100: images_5_023.avi
+2025-07-25 21:27:05,096 - ERROR - Gemini分析失败 images_5_023.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-07-25 21:27:05,100 - INFO - 已保存70个视频的中间结果
+2025-07-25 21:27:05,101 - INFO - 处理视频 71/100: images_5_024.avi
+2025-07-25 21:27:14,689 - ERROR - Gemini分析失败 images_5_024.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-07-25 21:27:14,690 - INFO - 处理视频 72/100: images_5_025.avi
+2025-07-25 21:27:23,390 - ERROR - Gemini分析失败 images_5_025.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+]
+2025-07-25 21:27:23,392 - INFO - 处理视频 73/100: images_5_026.avi
+2025-07-25 21:27:37,013 - ERROR - Gemini分析失败 images_5_026.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 22
+}
+]
+2025-07-25 21:27:37,016 - INFO - 处理视频 74/100: images_5_027.avi
+2025-07-25 21:27:49,258 - ERROR - Gemini分析失败 images_5_027.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2025-07-25 21:27:49,262 - INFO - 处理视频 75/100: images_5_028.avi
+2025-07-25 21:28:00,649 - ERROR - Gemini分析失败 images_5_028.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-07-25 21:28:00,653 - INFO - 处理视频 76/100: images_5_029.avi
+2025-07-25 21:28:14,071 - ERROR - Gemini分析失败 images_5_029.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-07-25 21:28:14,073 - INFO - 处理视频 77/100: images_5_030.avi
+2025-07-25 21:28:29,107 - ERROR - Gemini分析失败 images_5_030.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-07-25 21:28:29,109 - INFO - 处理视频 78/100: images_5_031.avi
+2025-07-25 21:28:40,091 - ERROR - Gemini分析失败 images_5_031.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+2025-07-25 21:28:40,093 - INFO - 处理视频 79/100: images_5_032.avi
+2025-07-25 21:28:54,276 - ERROR - Gemini分析失败 images_5_032.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 5
+}
+]
+2025-07-25 21:28:54,278 - INFO - 处理视频 80/100: images_5_033.avi
+2025-07-25 21:29:04,777 - ERROR - Gemini分析失败 images_5_033.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+2025-07-25 21:29:04,782 - INFO - 已保存80个视频的中间结果
+2025-07-25 21:29:04,784 - INFO - 处理视频 81/100: images_5_034.avi
+2025-07-25 21:29:16,641 - ERROR - Gemini分析失败 images_5_034.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 43
+}
+]
+2025-07-25 21:29:16,643 - INFO - 处理视频 82/100: images_5_035.avi
+2025-07-25 21:29:24,706 - ERROR - Gemini分析失败 images_5_035.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2025-07-25 21:29:24,709 - INFO - 处理视频 83/100: images_5_036.avi
+2025-07-25 21:29:35,353 - ERROR - Gemini分析失败 images_5_036.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 24
+}
+]
+2025-07-25 21:29:35,355 - INFO - 处理视频 84/100: images_5_037.avi
+2025-07-25 21:29:43,595 - ERROR - Gemini分析失败 images_5_037.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-07-25 21:29:43,597 - INFO - 处理视频 85/100: images_5_038.avi
+2025-07-25 21:29:55,739 - ERROR - Gemini分析失败 images_5_038.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 4
+}
+]
+2025-07-25 21:29:55,740 - WARNING - 视频文件不存在: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/ 
+2025-07-25 21:29:55,741 - INFO - 处理视频 87/100: images_5_040.avi
+2025-07-25 21:30:09,375 - ERROR - Gemini分析失败 images_5_040.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-07-25 21:30:09,377 - INFO - 处理视频 88/100: images_5_041.avi
+2025-07-25 21:30:20,095 - ERROR - Gemini分析失败 images_5_041.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 39
+}
+]
+2025-07-25 21:30:20,097 - INFO - 处理视频 89/100: images_5_042.avi
+2025-07-25 21:30:29,817 - ERROR - Gemini分析失败 images_5_042.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-07-25 21:30:29,818 - INFO - 处理视频 90/100: images_5_043.avi
+2025-07-25 21:30:41,284 - ERROR - Gemini分析失败 images_5_043.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2025-07-25 21:30:41,288 - INFO - 已保存90个视频的中间结果
+2025-07-25 21:30:41,290 - INFO - 处理视频 91/100: images_5_044.avi
+2025-07-25 21:30:51,703 - ERROR - Gemini分析失败 images_5_044.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-07-25 21:30:51,705 - INFO - 处理视频 92/100: images_5_045.avi
+2025-07-25 21:31:05,744 - ERROR - Gemini分析失败 images_5_045.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-07-25 21:31:05,745 - INFO - 处理视频 93/100: images_5_046.avi
+2025-07-25 21:31:13,076 - ERROR - Gemini分析失败 images_5_046.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 47
+}
+]
+2025-07-25 21:31:13,077 - INFO - 处理视频 94/100: images_5_047.avi
+2025-07-25 21:31:22,278 - ERROR - Gemini分析失败 images_5_047.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-07-25 21:31:22,279 - INFO - 处理视频 95/100: images_5_048.avi
+2025-07-25 21:31:30,837 - ERROR - Gemini分析失败 images_5_048.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2025-07-25 21:31:30,839 - INFO - 处理视频 96/100: images_5_049.avi
+2025-07-25 21:31:40,042 - ERROR - Gemini分析失败 images_5_049.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 20
+}
+]
+2025-07-25 21:31:40,044 - INFO - 处理视频 97/100: images_5_050.avi
+2025-07-25 21:31:51,551 - ERROR - Gemini分析失败 images_5_050.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-07-25 21:31:51,553 - INFO - 处理视频 98/100: images_5_051.avi
+2025-07-25 21:32:02,877 - ERROR - Gemini分析失败 images_5_051.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-07-25 21:32:02,881 - INFO - 处理视频 99/100: images_5_052.avi
+2025-07-25 21:32:12,096 - ERROR - Gemini分析失败 images_5_052.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 47
+}
+]
+2025-07-25 21:32:12,100 - INFO - 处理视频 100/100: images_5_053.avi
+2025-07-25 21:32:19,699 - ERROR - Gemini分析失败 images_5_053.avi: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-07-25 21:32:19,707 - INFO - 已保存100个视频的中间结果
+2025-07-25 21:32:19,717 - INFO - 处理完成: 24个成功, 74个失败
+2025-07-25 21:32:19,720 - INFO - 100视频分析完成

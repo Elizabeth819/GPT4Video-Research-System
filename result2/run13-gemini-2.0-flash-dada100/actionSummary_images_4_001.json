@@ -1,0 +1,20 @@
+{
+  "video_id": "images_4_001",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.8s",
+  "summary": "The car is driving on a road with streetlights and trees on the left side. From 0.0s to 13.8s, a male cyclist wearing a black jacket and a cap is riding a bicycle from left to right, crossing the road in front of the car. The cyclist appears from behind a row of trees and parked cars, creating a potential ghost probing situation. The cyclist is moving at a moderate speed.",
+  "characters": [
+    "Male cyclist wearing a black jacket and a cap."
+  ],
+  "key_objects": [
+    "Left side: Male cyclist on a bicycle, approximately 5-10 meters away, crossing the road from left to right, creating a potential ghost probing situation."
+  ],
+  "actions": "The vehicle is driving on a road with streetlights and trees on the left side. The vehicle maintains a constant speed, likely navigating a parking area or a road with low speed limits. The driver is proceeding cautiously, possibly due to the presence of parked cars and limited visibility.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "ghost probing"
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "4.0s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment of the video, the vehicle is driving on a clear, straight road with no other vehicles or pedestrians in sight. The road is flanked by trees and power lines, and the sun is shining brightly, causing some glare on the windshield. The vehicle maintains a steady speed and direction throughout the frames.",
+        "actions": "The vehicle is driving at a steady speed on a clear road. There are no obstacles or other vehicles in the vicinity, and the driver maintains a consistent speed and direction.",
+        "key_objects": "1) Road: Clear and straight, flanked by trees and power lines, with no visible obstacles or other vehicles. 2) Sun: Bright and causing some glare on the windshield, but not obstructing the drivers view.",
+        "key_actions": "无危险行为",
+        "next_action": "由于道路清晰且没有障碍物，建议司机保持当前速度和方向。下一步行动:速度控制: 保持当前速度, 方向控制: 保持方向, 车道控制: 保持在当前车道"
+    },
+    {
+        "Start_Timestamp": "4.266666666666667s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Deer",
+        "summary": "In this segment, a deer suddenly appears from the left side of the road and crosses to the right. The self vehicle is moving forward on a clear road when the deer starts to cross. The deer is initially not visible but quickly comes into view and crosses the road, posing a potential collision risk.",
+        "actions": "The self vehicle is moving forward at a steady speed. The driver needs to be cautious as the deer crosses the road from left to right. The vehicles speed appears to be consistent, and there is no indication of braking or deceleration in the frames provided.",
+        "key_objects": "1) Left side: A deer, initially hidden by trees, suddenly appears and crosses the road from left to right, approximately 10 meters ahead of the vehicle.",
+        "key_actions": "sudden appearance: 4.533333333333333s",
+        "next_action": "Due to the sudden appearance of the deer crossing the road, it is recommended that the driver immediately brake to avoid a collision. Next action: Speed Control: Brake, Direction Control: Maintain direction, Lane Control: Stay in the current lane"
+    }
+]

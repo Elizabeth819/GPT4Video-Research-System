@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_011",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a grey van",
+        "summary": "In this segment, the vehicle is driving on a snowy road with low visibility. A white sedan is seen ahead on the left side, and a grey van is seen in the middle of the road. The road conditions are slippery due to snow, and visibility is poor.",
+        "actions": "The self-driving vehicle is maintaining a slow and steady speed due to the snowy and slippery road conditions. The vehicle is also keeping a safe distance from the white sedan and the grey van to avoid any potential collisions.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, moving slowly. 2) Middle: A grey van, approximately 15 meters away, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_011",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.8s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a snowy road with low visibility. A black sedan on the left side of the road is seen moving towards the center lane, potentially cutting into the observer vehicles lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while monitoring the black sedan on the left side. The vehicle is prepared to decelerate if the black sedan cuts into its lane.",
+        "key_objects": "1) Left side: A black sedan, approximately 10 meters away, moving towards the center lane, potentially cutting into the observer vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

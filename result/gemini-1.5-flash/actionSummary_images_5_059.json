@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_5_059",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist in red and black clothing",
+        "summary": "In this segment, the self-driving vehicle is navigating a narrow road with parked cars on both sides. A motorcyclist wearing red and black clothing suddenly appears from the left side, causing a collision with the self-driving vehicle. The motorcyclist falls onto the hood of the vehicle, leading to an emergency situation.",
+        "actions": "The self-driving vehicle is forced to stop abruptly due to the sudden appearance of the motorcyclist from the left side, resulting in a collision. The vehicles speed decreases rapidly to avoid further impact.",
+        "key_objects": "1) Left side: A motorcyclist wearing red and black clothing, approximately 0 meters away, suddenly appears and collides with the vehicle.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

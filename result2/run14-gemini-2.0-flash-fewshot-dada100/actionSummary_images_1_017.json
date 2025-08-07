@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_017",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several vehicles including a yellow taxi and a grey sedan are visible on the road. A bus is on the right side of the road.",
+  "summary": "The self-driving vehicle is traveling on a road with moderate traffic. A bus is present on the right side, and a grey sedan is ahead in the same lane. A yellow taxi is visible in the oncoming lane. The road is straight, and the weather appears to be clear. There are trees lining both sides of the road.",
+  "actions": "The self-driving vehicle is maintaining a consistent speed and following the lane markings. The vehicle is likely adjusting its speed based on the distance to the grey sedan ahead to maintain a safe following distance. The vehicle is keeping a safe distance from the bus on the right.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "video_id": "images_5_040",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.5s",
+  "summary": "The self-driving car is traveling on a city street with buildings on both sides. From 0.0s to 5.0s, the car is moving straight. At 6.0s, the traffic light ahead turns green. From 9.0s to 12.5s, a male on a motorcycle, wearing a blue jacket and a blue helmet, suddenly appears from the left side of the road, crossing the street at a moderate speed. The car crashes into the motorcycle at 12.5s.",
+  "characters": [
+    "Self-driving car",
+    "Male on a motorcycle wearing a blue jacket and a blue helmet"
+  ],
+  "key_objects": [
+    "Left: Male on a motorcycle, approximately 5 meters away, crossing the street, leading to a collision."
+  ],
+  "actions": "The vehicle is driving straight on a city street. The vehicle maintains its speed as the traffic light turns green, indicating the driver intends to proceed through the intersection. The vehicle does not slow down or change direction until the collision occurs.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

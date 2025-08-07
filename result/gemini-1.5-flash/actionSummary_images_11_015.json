@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_015",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a white SUV is moving steadily. The road is relatively clear with some pedestrians and parked vehicles on both sides. The driver mentions the presence of a red car on the left and a pedestrian on the right.",
+        "actions": "The self-driving vehicle maintains a consistent speed, following the white SUV ahead. The vehicles speed remains steady, and it keeps a safe distance from the SUV. The driver is cautious due to the presence of pedestrians and parked vehicles on both sides.",
+        "key_objects": "1) Front: A white SUV, approximately 10 meters away, moving steadily. 2) Left side: A red car, approximately 5 meters away, parked. 3) Right side: A pedestrian in orange clothing, approximately 3 meters away, walking towards the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_015",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.8s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on a city road. A white SUV is ahead in the same lane. The SUV suddenly slows down and a silver sedan from the left lane cuts into the self-vehicles lane, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is forced to decelerate rapidly due to the white SUV ahead slowing down and the silver sedan cutting in from the left lane. The vehicles speed decreases significantly to avoid a collision.",
+        "key_objects": "1) Front: A white SUV, approximately 5 meters away, slowing down suddenly. 2) Left: A silver sedan, approximately 3 meters away, cutting into the self-vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

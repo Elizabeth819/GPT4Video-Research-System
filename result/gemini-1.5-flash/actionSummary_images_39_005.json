@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_39_005",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a white SUV, driver of a blue truck, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. The white sedan and white SUV are moving closely ahead, while a blue truck is on the left side. A motorcyclist appears on the right side, moving forward. The traffic is dense, and the vehicles are closely packed.",
+        "actions": "The self-driving vehicle maintains a steady speed, keeping a safe distance from the vehicles ahead. The motorcyclist on the right side is moving forward, potentially causing the self-driving vehicle to be cautious.",
+        "key_objects": "1) Front: A white sedan, approximately 2 meters away, moving forward. 2) Front-right: A white SUV, approximately 3 meters away, moving forward. 3) Left: A blue truck, approximately 1 meter away, moving forward. 4) Right: A motorcyclist, approximately 1 meter away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

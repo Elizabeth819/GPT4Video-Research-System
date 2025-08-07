@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_029",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult male on an electric bicycle, wearing a blue jacket and dark pants.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban road with moderate traffic, approaching an intersection. Initially, the vehicle maintains a steady speed as it proceeds through the intersection, which has a green traffic light. As the vehicle passes the crosswalk, a white SUV and a small truck are visible on the right side of the road, acting as visual obstructions. Suddenly, an adult male on an electric bicycle emerges from behind these obstructions on the right side, darting directly into the vehicle's path with minimal warning. This sudden appearance leads to an immediate collision or fall, with the person and electric bicycle ending up on the ground directly in front of the vehicle.",
+  "actions": "The self-driving vehicle was initially maintaining a consistent speed while proceeding through the intersection, as indicated by the green traffic light. Upon the sudden and unexpected emergence of the person on the electric bicycle from behind the visual obstructions on the right side of the road, the vehicle immediately initiated rapid deceleration and emergency braking. This decisive action was taken to mitigate the impact of the sudden obstacle and prevent a more severe collision, bringing the vehicle to a complete stop directly in front of the fallen individual.",
+  "key_objects": "1) Right side: An adult male on an electric bicycle, approximately 2-3 meters away, suddenly emerging from behind a white SUV and a small truck, entering the vehicle's path. 2) Right side: A white SUV and a small truck, approximately 5-10 meters away, acting as physical obstructions that completely obscured the electric bicycle and rider until their sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_008",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male pedestrian in dark pants and a light-colored shirt, approximately 20-30 years old. Other pedestrians are visible on the right side of the road near a three-wheeled vehicle.",
+  "summary": "The self-driving vehicle is navigating a narrow, unpaved road during daytime. The road is lined with bare trees and buildings, with parked vehicles on the left side and a wall and gate on the right. As the vehicle proceeds, a male pedestrian suddenly emerges from behind a parked white box truck and a white sedan on the left side of the road. This pedestrian steps directly into the vehicle's path with minimal warning, creating a critical 'ghost probing' situation due to the visual obstruction caused by the parked vehicles.",
+  "actions": "The self-driving vehicle is initially maintaining a cautious speed while driving on the narrow road, navigating around parked vehicles. As the vehicle approaches the parked white box truck and white sedan on its left, a male pedestrian unexpectedly steps out from behind these vehicles, directly into the vehicle's intended path. In response to this sudden and unannounced appearance, the vehicle immediately initiates rapid deceleration and braking to prevent a collision with the pedestrian. After the immediate threat has passed and the pedestrian has cleared the path, the vehicle prepares to resume its forward motion.",
+  "key_objects": "1) Left side: A male pedestrian, approximately 20-30 years old, wearing dark pants and a light-colored top, suddenly emerging from behind a parked white box truck and a white sedan, stepping into the vehicle's path at approximately 3-5 meters away. 2) Left side: A parked white box truck, approximately 5-7 meters away, acting as a primary visual obstruction. 3) Left side: A parked white sedan, approximately 4-6 meters away, positioned behind the white box truck, further contributing to the visual obstruction.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

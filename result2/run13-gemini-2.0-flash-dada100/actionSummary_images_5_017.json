@@ -1,0 +1,37 @@
+{
+  "video_id": "images_5_017",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "5.9s",
+      "summary": "The self-driving car is approaching an intersection. On the left side of the road, a woman wearing a yellow coat is walking along the sidewalk. As the car gets closer to the intersection, a person on a scooter suddenly appears from the right side of the road, crossing the intersection. The scooter is moving at a moderate speed, and the driver is wearing a dark jacket and a face mask. This sudden appearance constitutes a ghost probing incident, as the scooter was not visible until it entered the car's path.",
+      "characters": [
+        {
+          "character_description": "Woman wearing a yellow coat walking on the left sidewalk.",
+          "age": "adult",
+          "gender": "female",
+          "clothing": "yellow coat",
+          "transportation_method": "walking",
+          "behavior": "walking along the sidewalk"
+        },
+        {
+          "character_description": "Person on a scooter crossing the intersection from the right side of the road, wearing a dark jacket and a face mask.",
+          "age": "adult",
+          "gender": "unknown",
+          "clothing": "dark jacket, face mask",
+          "transportation_method": "scooter",
+          "behavior": "crossing the intersection"
+        }
+      ],
+      "actions": "The vehicle is approaching an intersection and appears to be slowing down, likely in preparation to make a turn or yield to cross-traffic. The driver is likely assessing the traffic conditions and pedestrian activity before proceeding through the intersection.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Right]: Person on a scooter, approximately 10 meters away, suddenly crossing the intersection, causing a potential collision risk."
+    }
+  ]
+}

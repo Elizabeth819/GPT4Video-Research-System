@@ -1,0 +1,105 @@
+2025-08-02 07:18:43,264 - INFO - DADA-100 Few-shot Ablation Experiment 开始
+2025-08-02 07:18:43,264 - INFO - Azure OpenAI API配置
+2025-08-02 07:18:43,264 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-08-02 07:18:43,264 - INFO - Deployment: gpt-4o-global
+2025-08-02 07:18:43,264 - INFO - API Key: 已设置
+2025-08-02 07:18:43,264 - INFO - Temperature: 0, Run8 Text Few-shot + 9张Image Few-shot
+2025-08-02 07:18:43,280 - INFO - 加载DADA-100 ground truth标签: 201个视频
+2025-08-02 07:18:43,281 - INFO - 标签分布: Ghost Probing=84, None=99
+2025-08-02 07:18:43,281 - INFO - ✅ 加载few-shot图像: ghost_probing_sample1_before.jpg
+2025-08-02 07:18:43,281 - INFO - ✅ 加载few-shot图像: ghost_probing_sample1_during.jpg
+2025-08-02 07:18:43,281 - INFO - ✅ 加载few-shot图像: ghost_probing_sample1_after.jpg
+2025-08-02 07:18:43,281 - INFO - ✅ 加载few-shot图像: ghost_probing_sample2_before.jpg
+2025-08-02 07:18:43,281 - INFO - ✅ 加载few-shot图像: ghost_probing_sample2_during.jpg
+2025-08-02 07:18:43,281 - INFO - ✅ 加载few-shot图像: ghost_probing_sample2_after.jpg
+2025-08-02 07:18:43,282 - INFO - ✅ 加载few-shot图像: ghost_probing_sample3_before.jpg
+2025-08-02 07:18:43,282 - INFO - ✅ 加载few-shot图像: ghost_probing_sample3_during.jpg
+2025-08-02 07:18:43,282 - INFO - ✅ 加载few-shot图像: ghost_probing_sample3_after.jpg
+2025-08-02 07:18:43,282 - INFO - 🎯 成功加载9张few-shot图像用于DADA-100消融实验
+2025-08-02 07:18:43,283 - INFO - 🎬 找到101个DADA-100视频文件
+2025-08-02 07:18:43,283 - INFO -    📹 1: images_1_001.avi (5,305,214 bytes)
+2025-08-02 07:18:43,283 - INFO -    📹 2: images_1_002.avi (5,312,216 bytes)
+2025-08-02 07:18:43,283 - INFO -    📹 3: images_1_003.avi (3,341,306 bytes)
+2025-08-02 07:18:43,283 - INFO -    📹 4: images_1_004.avi (11,907,412 bytes)
+2025-08-02 07:18:43,283 - INFO -    📹 5: images_1_005.avi (8,247,290 bytes)
+2025-08-02 07:18:43,283 - INFO -    ... 以及其他96个视频
+2025-08-02 07:18:43,283 - INFO - 🚀 开始DADA-100消融实验
+2025-08-02 07:18:43,283 - INFO - 📊 处理视频: 101 个 (从第1个开始)
+2025-08-02 07:18:43,283 - INFO - 🎯 Few-shot配置: 9张图像 + 3个文本例子
+2025-08-02 07:18:43,309 - INFO - 📊 进度: 1/101 (总体: 1/101)
+2025-08-02 07:18:43,309 - INFO - 🎬 开始分析DADA-100视频: images_1_001
+2025-08-02 07:18:43,716 - INFO - 📤 发送API请求: images_1_001 (with 9 few-shot images from DADA-100)
+2025-08-02 07:18:43,716 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:18:43,735 - INFO - 🎬 编码10张视频帧
+2025-08-02 07:18:43,739 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-02 07:19:06,322 - INFO - ✅ 成功分析: images_1_001
+2025-08-02 07:19:09,328 - INFO - 📊 进度: 2/101 (总体: 2/101)
+2025-08-02 07:19:09,329 - INFO - 🎬 开始分析DADA-100视频: images_1_002
+2025-08-02 07:19:09,713 - INFO - 📤 发送API请求: images_1_002 (with 9 few-shot images from DADA-100)
+2025-08-02 07:19:09,714 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:19:09,737 - INFO - 🎬 编码10张视频帧
+2025-08-02 07:19:09,741 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-02 07:19:37,368 - INFO - ✅ 成功分析: images_1_002
+2025-08-02 07:19:40,376 - INFO - 📊 进度: 3/101 (总体: 3/101)
+2025-08-02 07:19:40,377 - INFO - 🎬 开始分析DADA-100视频: images_1_003
+2025-08-02 07:19:40,763 - INFO - 📤 发送API请求: images_1_003 (with 9 few-shot images from DADA-100)
+2025-08-02 07:19:40,763 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:19:40,780 - INFO - 🎬 编码10张视频帧
+2025-08-02 07:19:40,790 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-02 07:20:03,276 - INFO - ✅ 成功分析: images_1_003
+2025-08-02 07:20:06,288 - INFO - 📊 进度: 4/101 (总体: 4/101)
+2025-08-02 07:20:06,289 - INFO - 🎬 开始分析DADA-100视频: images_1_004
+2025-08-02 07:20:06,684 - INFO - 📤 发送API请求: images_1_004 (with 9 few-shot images from DADA-100)
+2025-08-02 07:20:06,684 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:20:06,697 - INFO - 🎬 编码10张视频帧
+2025-08-02 07:20:06,701 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-02 07:20:28,378 - INFO - ✅ 成功分析: images_1_004
+2025-08-02 07:20:31,386 - INFO - 📊 进度: 5/101 (总体: 5/101)
+2025-08-02 07:20:31,386 - INFO - 🎬 开始分析DADA-100视频: images_1_005
+2025-08-02 07:20:31,796 - INFO - 📤 发送API请求: images_1_005 (with 9 few-shot images from DADA-100)
+2025-08-02 07:20:31,796 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:20:31,810 - INFO - 🎬 编码10张视频帧
+2025-08-02 07:20:31,815 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-02 07:20:53,569 - INFO - ✅ 成功分析: images_1_005
+2025-08-02 07:20:56,577 - INFO - 📊 进度: 6/101 (总体: 6/101)
+2025-08-02 07:20:56,577 - INFO - 🎬 开始分析DADA-100视频: images_1_006
+2025-08-02 07:20:56,962 - INFO - 📤 发送API请求: images_1_006 (with 9 few-shot images from DADA-100)
+2025-08-02 07:20:56,962 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:20:56,980 - INFO - 🎬 编码10张视频帧
+2025-08-02 07:20:56,984 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-02 07:21:21,316 - INFO - ✅ 成功分析: images_1_006
+2025-08-02 07:21:24,326 - INFO - 📊 进度: 7/101 (总体: 7/101)
+2025-08-02 07:21:24,327 - INFO - 🎬 开始分析DADA-100视频: images_1_007
+2025-08-02 07:21:24,712 - INFO - 📤 发送API请求: images_1_007 (with 9 few-shot images from DADA-100)
+2025-08-02 07:21:24,712 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:21:24,728 - INFO - 🎬 编码10张视频帧
+2025-08-02 07:21:24,742 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-02 07:21:46,579 - INFO - ✅ 成功分析: images_1_007
+2025-08-02 07:21:49,586 - INFO - 📊 进度: 8/101 (总体: 8/101)
+2025-08-02 07:21:49,586 - INFO - 🎬 开始分析DADA-100视频: images_1_008
+2025-08-02 07:21:49,875 - INFO - 📤 发送API请求: images_1_008 (with 9 few-shot images from DADA-100)
+2025-08-02 07:21:49,875 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:21:49,897 - INFO - 🎬 编码10张视频帧
+2025-08-02 07:21:49,903 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-02 07:22:13,202 - INFO - ✅ 成功分析: images_1_008
+2025-08-02 07:22:16,212 - INFO - 📊 进度: 9/101 (总体: 9/101)
+2025-08-02 07:22:16,212 - INFO - 🎬 开始分析DADA-100视频: images_1_009
+2025-08-02 07:22:16,510 - INFO - 📤 发送API请求: images_1_009 (with 9 few-shot images from DADA-100)
+2025-08-02 07:22:16,510 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:22:16,533 - INFO - 🎬 编码10张视频帧
+2025-08-02 07:22:16,537 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)
+2025-08-02 07:22:36,607 - INFO - ✅ 成功分析: images_1_009
+2025-08-02 07:22:39,615 - INFO - 📊 进度: 10/101 (总体: 10/101)
+2025-08-02 07:22:39,616 - INFO - 🎬 开始分析DADA-100视频: images_1_010
+2025-08-02 07:22:40,295 - INFO - 📤 发送API请求: images_1_010 (with 9 few-shot images from DADA-100)
+2025-08-02 07:22:40,295 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:22:40,319 - INFO - 🎬 编码20张视频帧
+2025-08-02 07:22:40,338 - INFO - 📤 总共发送29张图像 (9张few-shot + 20张视频帧)
+2025-08-02 07:23:12,687 - INFO - ✅ 成功分析: images_1_010
+2025-08-02 07:23:12,691 - INFO - 💾 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/image-fewshot/run_dada100_image_fewshot_20250801_230640/analysis/intermediate_results_10videos_20250802_071843.json
+2025-08-02 07:23:15,694 - INFO - 📊 进度: 11/101 (总体: 11/101)
+2025-08-02 07:23:15,694 - INFO - 🎬 开始分析DADA-100视频: images_1_011
+2025-08-02 07:23:16,106 - INFO - 📤 发送API请求: images_1_011 (with 9 few-shot images from DADA-100)
+2025-08-02 07:23:16,106 - INFO - 📷 编码9张few-shot图像
+2025-08-02 07:23:16,124 - INFO - 🎬 编码10张视频帧
+2025-08-02 07:23:16,135 - INFO - 📤 总共发送19张图像 (9张few-shot + 10张视频帧)

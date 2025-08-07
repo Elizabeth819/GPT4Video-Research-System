@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_29_004",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road. A motorcyclist appears to have fallen on the road, causing potential danger. The self-driving vehicle is approaching the scene, and the driver needs to react quickly to avoid a collision.",
+        "actions": "The self-driving vehicle is decelerating to avoid hitting the motorcyclist who has fallen on the road. The vehicles speed is gradually decreasing as it approaches the scene.",
+        "key_objects": "1) Front: A motorcyclist, approximately 10 meters away, fallen on the road, causing the vehicle to decelerate. 2) Right: A white sedan, approximately 15 meters away, parked on the roadside, potentially obstructing the view.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_29_004",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a yellow car, person on a scooter, person bending down",
+        "summary": "In this segment, the vehicle is driving on a road with moderate traffic. A yellow car is seen on the right side, moving ahead. A person on a scooter and another person bending down are present in the middle of the road, creating a potential hazard.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the yellow car and the individuals in the middle of the road. The vehicles speed is steady, and it is keeping a safe distance from the yellow car ahead.",
+        "key_objects": "1) Right side: A yellow car, approximately 10 meters away, moving ahead. 2) Front: A person on a scooter, approximately 5 meters away, stationary in the middle of the road. 3) Front: A person bending down, approximately 5 meters away, stationary in the middle of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_030",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several cars, a blue and yellow taxi, a bus in the distance, a man riding a white electric bike, two women standing on the sidewalk, and a red three-wheeled vehicle.",
+  "summary": "The self-driving vehicle is traveling on a city street with moderate traffic. There are parked cars on both sides of the road. A blue and yellow taxi is driving ahead of the self-driving vehicle. A man on a white electric bike is crossing the street from left to right. Two women are standing on the sidewalk to the right, near a red three-wheeled vehicle. The overall scene appears to be a typical urban environment with normal traffic flow.",
+  "actions": "The self-driving vehicle is maintaining a consistent speed and following the flow of traffic. The vehicle is keeping a safe distance from the taxi in front. The driver is likely monitoring the man on the electric bike as he crosses the street, but no immediate action is required as the cyclist is not directly in the vehicle's path. The vehicle is maintaining its current lane.",
+  "key_objects": "None requiring immediate attention",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "video_id": "images_5_022",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban road",
+    "characters": "Driver of the observer vehicle, other drivers, motorcyclists, and pedestrians.",
+    "summary": "The video shows the observer vehicle driving on a city road.  The traffic is relatively light.  Several vehicles are visible ahead, including a white van directly in front of the observer vehicle, and other cars and buses further down the road.  To the right, there are motorcyclists and pedestrians crossing the intersection.  The overall traffic flow is relatively smooth, with no immediate signs of dangerous behavior from other vehicles or pedestrians. The observer vehicle maintains a safe following distance from the vehicle ahead.",
+    "actions": "The observer vehicle maintains a consistent speed and follows the vehicle in front at a safe distance.  The vehicle ahead is also maintaining a consistent speed. There are no sudden braking or acceleration maneuvers observed in this segment.",
+    "key_objects": "Front: White van, approximately 15 meters away, maintaining consistent speed. Right: Group of motorcyclists and pedestrians, approximately 20 meters away, crossing the intersection.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_022",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "20.0s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "Driver of a car, driver of a three-wheeled motorized cart",
+    "summary": "The video shows a three-wheeled motorized cart making a left turn across the path of the recording vehicle.  The cart appears to lose control and overturn, resulting in a collision with the recording vehicle. The collision occurs approximately 14.4 seconds into the video. The cart driver appears to be an adult male. The weather appears to be slightly overcast.",
+    "actions": "The self-driving vehicle maintains a consistent speed until the collision with the three-wheeled motorized cart.  The vehicle's speed is relatively low, suggesting it is traveling in a residential or low-speed zone. The driver of the self-driving vehicle appears to have had limited time to react to the cart's sudden turn and subsequent overturn.",
+    "key_objects": "1) Front and Left: A three-wheeled motorized cart, approximately 5 meters away initially, making a left turn across the path of the self-driving vehicle, resulting in a collision and overturning. 2) Front: A white van, approximately 10 meters away, traveling in the same direction as the self-driving vehicle, not directly involved in the accident but contributing to the overall traffic conditions.",
+    "key_actions": "collision",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_022",
+    "segment_id": "segment_003",
+    "Start_Timestamp": "20.0s",
+    "End_Timestamp": "28.2s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "Several motorcyclists, a person on a tricycle, drivers of various cars and vans.",
+    "summary": "The video shows a traffic scene where a tricycle has overturned in the middle of the road.  The tricycle appears to have been involved in a collision. Several motorcyclists and other vehicles are present, navigating around the overturned tricycle. A man in dark clothing is seen near the overturned tricycle, possibly attempting to assist. The self-driving vehicle is stopped, observing the scene.",
+    "actions": "The self-driving vehicle is stationary, observing the accident scene involving an overturned tricycle. The vehicle maintains a safe distance from the incident.  The surrounding traffic is also slowing down or stopping to avoid the obstruction.",
+    "key_objects": "1) Front: An overturned tricycle, approximately 5 meters away, obstructing the road. 2) Right: A man in dark clothing, approximately 3 meters away, near the overturned tricycle.",
+    "key_actions": "collision",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

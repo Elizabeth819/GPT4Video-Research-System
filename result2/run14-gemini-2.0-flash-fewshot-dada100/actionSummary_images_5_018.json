@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_018",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several motorcycles parked on the right side of the road. A white SUV is parked on the right side of the road. A motorcyclist wearing dark clothing is riding on the right side of the road.",
+  "summary": "The vehicle is driving on a wet urban road with buildings on both sides. There are several motorcycles parked on the right side of the road. A white SUV is parked on the right side of the road. A motorcyclist wearing dark clothing is riding on the right side of the road. The road ahead is clear with good visibility.",
+  "actions": "The self-driving vehicle is maintaining a consistent speed and direction on the wet road. The driver is likely maintaining a safe distance from the parked vehicles and the motorcyclist on the right side of the road. The vehicle is driving at a moderate speed, likely due to the wet road conditions.",
+  "key_objects": "None requiring immediate attention",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "video_id": "images_5_049",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "6.1s",
+  "summary": "The self-driving car is moving forward on a road with parked cars on both sides. A person wearing dark clothing is walking in the middle of the road, heading in the same direction as the car. The person is approximately 20 meters ahead of the car. The road appears to be in a residential area with buildings and trees lining the sides. The person is walking at a moderate pace. The car is maintaining a steady speed. The person is walking in the middle of the lane, potentially creating a dangerous situation if they don't move to the side. The car might need to slow down or change lanes to avoid the person.",
+  "actions": "The vehicle is moving forward at a constant speed, likely maintaining the flow of traffic on the road. The driver is navigating through a residential area with parked cars on both sides, requiring them to stay within the lane markings. The driver is maintaining a safe distance from the person walking ahead, indicating they are aware of the pedestrian's presence and taking precautions to avoid any potential collision. The driver is not accelerating or decelerating significantly, suggesting they are comfortable with the current road conditions and traffic flow.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none",
+  "key_objects": [],
+  "characters": [
+    {
+      "gender": "unknown",
+      "clothing": "dark clothing",
+      "colors": "dark",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "moderate pace"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_036",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male cyclist wearing dark clothing is seen riding a bicycle, suddenly appearing from the left side of the road.",
+  "summary": "The video segment captures the ego vehicle navigating a complex industrial road environment, characterized by large buildings and numerous large container trucks. Initially, the ego vehicle proceeds cautiously, with its view partially obstructed by parked or slow-moving trucks on both the left and right sides of the road. As the ego vehicle moves forward, passing a stationary white container truck on its left, a male cyclist unexpectedly darts out from behind this truck, directly entering the ego vehicle's path. This sudden appearance, with minimal reaction time due to the visual obstruction, constitutes a 'ghost probing' incident, creating an immediate and severe collision risk. The ego vehicle appears to react with emergency braking to avoid impact.",
+  "actions": "From 0.0s to approximately 7.0s, the ego vehicle maintains a slow and cautious forward speed. This controlled pace is adopted due to the challenging road conditions, which include a complex intersection, the presence of multiple large, slow-moving or stationary container trucks, and a visible crosswalk. These factors significantly obstruct the driver's view, necessitating reduced speed to allow for better observation and reaction time to potential hazards. Around 8.0s to 9.0s, upon the sudden and unexpected emergence of a cyclist from behind a large white container truck on the left, the ego vehicle initiates rapid deceleration (braking). This action is an immediate and critical safety response to the 'ghost probing' event, aimed at preventing a collision with the cyclist who abruptly entered the vehicle's trajectory.",
+  "key_objects": "1) Left side: A large white container truck. This truck is stationary on the left side of the road, serving as a significant visual obstruction that completely hides the approaching cyclist until the last moment. 2) Left side, near the white container truck: A male cyclist. This individual suddenly appears from behind the white container truck at approximately 8.0s, darting into the ego vehicle's path, creating an immediate and dangerous collision situation. 3) Right side: Multiple large container trucks (red, green, yellow cabs). These trucks are initially parked or slowly moving away on the right side, contributing to the overall visual obstruction in the early frames of the segment.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

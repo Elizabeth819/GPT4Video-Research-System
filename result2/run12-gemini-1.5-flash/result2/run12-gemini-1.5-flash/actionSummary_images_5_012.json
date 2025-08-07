@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_5_012",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Driving on a rural road",
+    "characters": "Driver of a vehicle, a motorcyclist",
+    "summary": "The video shows a vehicle driving on a relatively quiet rural road. The road is mostly clear with some vegetation on either side.  Around the 8-second mark, a motorcyclist appears from the right side of the road, seemingly entering the road from a side street or driveway. The motorcyclist is wearing dark clothing and is traveling at a moderate speed. The distance between the motorcyclist and the vehicle is not immediately apparent, but it appears to be closing. No collision occurs within the 10-second timeframe.",
+    "actions": "The vehicle maintains a consistent speed throughout the 10-second segment, appearing to follow the road's curvature. There are no observable changes in speed or direction to suggest any immediate reaction to the motorcyclist.",
+    "key_objects": "Right: Motorcyclist in dark clothing, appearing from a side street or driveway around 8 seconds, moderate speed, distance to vehicle unclear but closing.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

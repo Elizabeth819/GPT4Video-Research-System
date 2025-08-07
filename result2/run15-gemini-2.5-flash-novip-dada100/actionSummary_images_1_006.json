@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "A person (appearing to be a child or young person) wearing a light blue top and a black backpack suddenly emerges from the left. Earlier in the sequence, a person on a scooter/motorcycle wearing a yellow helmet and a dark jacket, and another person in a yellow vest are visible on the left side of the road. Other pedestrians are visible on sidewalks in the background.",
+  "summary": "The video segment captures a vehicle navigating through a busy urban street characterized by moderate to heavy traffic. The vehicle is proceeding forward in what appears to be the rightmost lane, with a continuous line of parked or slow-moving vehicles on its left and a bus on its right. The driver maintains a cautious, consistent speed, adapting to the flow of the congested traffic. As the vehicle progresses, it passes by a scooter and a pedestrian on the left side of the road. At approximately 10.0 seconds into the segment, a critical incident occurs: a person, identified as a child or young person, suddenly darts out from behind a black SUV that was acting as a visual obstruction on the left side of the road. This sudden emergence directly into the vehicle's path constitutes a 'ghost probing' event, creating an immediate and high-risk collision scenario.",
+  "actions": "The vehicle is driving forward at a moderate, consistent speed, adapting to the flow of traffic in an urban environment. The driver maintains the vehicle's position within its current lane, navigating past a line of stationary or slow-moving vehicles on the left and a bus on the right. The speed is maintained to keep pace with the general traffic flow, which appears to be congested. The driver is proceeding cautiously, as indicated by the relatively slow speed in a dense urban setting, and is not attempting any lane changes or aggressive maneuvers due to the high traffic density and limited space.",
+  "key_objects": "1) Left side of the image: A black SUV, approximately 5-10 meters ahead of the vehicle, acting as a physical obstruction that completely blocks the driver's view of the area behind it. 2) Center-left of the image: A person (child/young person) wearing a light blue top and black backpack, suddenly emerging from behind the black SUV at 10.0s, directly entering the vehicle's path with minimal reaction time, creating an immediate danger.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

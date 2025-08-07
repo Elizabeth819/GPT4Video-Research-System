@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "dada_47_003",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Motorcyclist ahead",
+        "summary": "In this segment, the vehicle is driving on an urban road. A motorcyclist is visible ahead, moving from the left side of the road towards the center. The motorcyclist maintains a steady speed and direction throughout the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, following the motorcyclist ahead. The vehicle is keeping a safe distance from the motorcyclist, ensuring no sudden movements or changes in speed.",
+        "key_objects": "1) Front: A motorcyclist, approximately 20 meters away, moving steadily towards the center of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_003",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist, scooter rider",
+        "summary": "In this segment, the vehicle is driving on a road with a cyclist and a scooter rider visible. The cyclist is moving from the right side towards the left side of the road, while the scooter rider is stationary on the right side. The white sedan ahead is moving slowly.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the movements of the cyclist and the scooter rider. The vehicle is likely preparing to decelerate due to the potential unpredictable movements of the cyclist.",
+        "key_objects": "1) Right side: A cyclist, approximately 5 meters away, moving towards the left side of the road, potentially causing the vehicle to decelerate. 2) Right side: A scooter rider, stationary, approximately 3 meters away, posing no immediate threat. 3) Front: A white sedan, approximately 20 meters away, moving slowly, potentially causing the vehicle to maintain a consistent speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_003",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist, Motorcyclist, Pedestrian",
+        "summary": "In this segment, the vehicle is approaching a busy area with multiple individuals on the road. A cyclist is seen moving from the left side towards the center of the road, a motorcyclist is approaching from the right side, and a pedestrian is walking on the sidewalk. The cyclists movement is unpredictable and poses a potential danger.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the busy area. The driver is likely cautious due to the presence of multiple individuals on the road, especially the cyclist who is moving towards the center of the road.",
+        "key_objects": "1) Left side: A cyclist, approximately 5 meters away, moving towards the center of the road, posing a potential danger. 2) Right side: A motorcyclist, approximately 10 meters away, approaching the vehicles path. 3) Front: A pedestrian, approximately 15 meters away, walking on the sidewalk.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_003",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "18.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red sedan, security guard, pedestrian",
+        "summary": "In this segment, the vehicle is driving on a road adjacent to a building. A pedestrian is walking on the left side of the road. Suddenly, a collision occurs involving a red sedan and a person on a motorcycle. The motorcycle rider falls onto the road, and the red sedan stops abruptly.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while driving on the road. The red sedan ahead suddenly collides with a motorcycle, causing the sedan to stop abruptly. The self-driving vehicle needs to decelerate to avoid any potential collision with the stopped sedan.",
+        "key_objects": "1) Front: A red sedan, approximately 10 meters away, has stopped abruptly due to a collision with a motorcycle. 2) Front: A motorcycle rider, approximately 12 meters away, has fallen onto the road due to the collision.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_003",
+        "segment_id": "segment_004",
+        "Start_Timestamp": "20.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "21.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Security guard, driver of the orange SUV",
+        "summary": "In this segment, an orange SUV is parked on the right side of the road. A security guard is walking from the left side towards the right side of the frame. The SUV remains stationary throughout the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, as there are no immediate obstacles or changes in the road conditions. The vehicle is likely monitoring the security guards movement to ensure safety.",
+        "key_objects": "1) Right side: An orange SUV, approximately 5 meters away, parked and stationary. 2) Left side: A security guard, approximately 10 meters away, walking towards the right side of the frame.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

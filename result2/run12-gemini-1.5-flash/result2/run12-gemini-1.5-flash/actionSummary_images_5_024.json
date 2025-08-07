@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_5_024",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rainy city street",
+    "characters": "Driver of a car, several other vehicles, pedestrians",
+    "summary": "The video shows a car driving on a city street during a rainy day.  The view is from the driver's perspective.  Several other vehicles are visible, including cars and what appears to be a motorized scooter. Pedestrians are also present, crossing the street and walking along the sidewalks. The road is wet due to the rain.  No significant events or near misses are observed in this segment. The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second clip.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment.  The vehicle navigates a city street intersection, slowing slightly as it approaches the crosswalk where pedestrians are present.  The vehicle's speed appears to be adjusted based on the traffic conditions and pedestrian activity. The driver's actions suggest cautious and safe driving behavior in response to the wet road conditions and presence of other vehicles and pedestrians.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_024",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "12.9s",
+    "scene_theme": "Urban street, rainy conditions",
+    "characters": "Driver of the observer vehicle, a red car ahead.",
+    "summary": "The video shows a rainy urban street scene. The observer vehicle is driving forward. A red car is visible ahead, maintaining a consistent distance.  No sudden appearances of vehicles or pedestrians are observed within this short segment. The road appears relatively clear except for the rain.",
+    "actions": "The observer vehicle maintains a steady speed and direction, keeping a safe following distance from the red car ahead.  There are no observable changes in speed or direction during this short segment. The driver appears to be navigating the rainy conditions cautiously.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

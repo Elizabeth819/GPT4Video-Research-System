@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_33_004",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, person on a scooter",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a white sedan is moving steadily. On the right side, a person on a scooter is approaching the intersection. The scooter moves closer to the self-driving vehicles lane, potentially causing a dangerous situation.",
+        "actions": "The self-driving vehicle maintains a consistent speed while keeping a safe distance from the white sedan ahead. The vehicle is also monitoring the scooter on the right side, which is moving closer to the lane.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving steadily. 2) Right: A person on a scooter, approximately 5 meters away, approaching the intersection and moving closer to the self-driving vehicles lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

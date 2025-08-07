@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_034",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, cyclists, and vehicles observed. Pedestrians include a child on the right side of the road in the first sequence, a woman with a child crossing from the left in the second sequence, and a man running from the left in the third sequence. Cyclists and motorcyclists are also present.",
+  "summary": "The video sequence shows multiple instances of potential 'ghost probing' behavior. In the first sequence, a child suddenly appears from the right side of the road. In the second sequence, a woman with a child suddenly crosses from the left side, emerging from behind a parked vehicle. In the third sequence, a man runs across the road from the left side, emerging from behind a parked vehicle. The final sequence shows a motorcyclist at a traffic light intersection.",
+  "actions": "The child on the right side of the road in the first sequence, the woman with a child crossing from the left in the second sequence, and the man running from the left in the third sequence all exhibit 'ghost probing' behavior. The motorcyclist at the traffic light intersection is waiting for the light to change.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians, cyclists, motorcyclists, and traffic lights.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

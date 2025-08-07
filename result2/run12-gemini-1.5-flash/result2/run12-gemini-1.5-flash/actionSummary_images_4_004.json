@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_4_004",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of the observer vehicle, a silver sedan; a cyclist; a man on a scooter.",
+    "summary": "The video shows the observer vehicle driving on a city road.  The road is relatively clear, with buildings lining both sides.  Around the 6-second mark, the observer vehicle approaches an intersection. A cyclist is visible on the right side of the road, and a man on a scooter is crossing the intersection from right to left. The cyclist appears to be riding slowly along the sidewalk. The man on the scooter is moving at a moderate pace.  The traffic light at the intersection is red for the observer vehicle. No immediate collision risk is observed with the cyclist, but the scooter rider's trajectory presents a potential hazard.",
+    "actions": "The observer vehicle maintains a consistent speed, approaching an intersection. The vehicle slows down as it approaches the red traffic light at the intersection. The driver appears to be maintaining a safe following distance from the vehicle in front.",
+    "key_objects": "1) Right: A cyclist, approximately 5 meters away, moving slowly along the sidewalk, posing no immediate threat. 2) Front-Right: A man on a scooter, approximately 10 meters away, crossing the intersection from right to left at a moderate speed, potentially creating a collision risk if the observer vehicle proceeds through the intersection before the scooter clears the path.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_043",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "White sedan, yellow truck, blue tricycle",
+  "summary": "The self-driving vehicle is approaching an intersection with a green light. A white sedan is making a left turn from the opposite direction. A yellow truck is parked on the right side of the road. A blue tricycle is approaching the intersection from the right side.",
+  "actions": "The self-driving vehicle is approaching an intersection with a green light, so it maintains its speed. The driver is likely aware of the white sedan making a left turn from the opposite direction and the yellow truck parked on the right side of the road. The driver is also aware of the blue tricycle approaching the intersection from the right side.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

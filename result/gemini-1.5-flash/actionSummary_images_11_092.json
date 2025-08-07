@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_092",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a silver sedan, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a highway. A red car is seen on the right side initially, followed by a series of vehicles ahead. The silver sedan in front of the self-driving vehicle suddenly slows down, causing the self-driving vehicle to decelerate rapidly to avoid a collision.",
+        "actions": "The self-driving vehicle decelerates rapidly due to the sudden slowing down of the silver sedan ahead. The vehicle maintains a safe distance from the silver sedan, adjusting its speed accordingly.",
+        "key_objects": "1) Right side: A red car, approximately 2 meters away, moving parallel to the self-driving vehicle. 2) Front: A silver sedan, approximately 5 meters away, suddenly slowing down, causing the self-driving vehicle to decelerate rapidly. 3) Left side: A black car, approximately 10 meters away, moving parallel to the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

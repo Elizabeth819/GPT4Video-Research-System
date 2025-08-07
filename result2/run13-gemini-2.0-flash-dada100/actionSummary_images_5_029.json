@@ -1,0 +1,15 @@
+{
+  "video_id": "images_5_029",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.1s",
+  "summary": "The self-driving car is moving straight on a city street with multiple lanes in the same direction. From 0.0s to 6.0s, the car is following a white car in front. At 6.0s, the traffic light ahead turns green. From 7.0s to 9.0s, the car approaches a crosswalk. At 9.0s, the car is approaching an intersection with a red light on the right side. From 10.0s to 14.1s, a male wearing a blue jacket and black pants is lying on the road after falling off his scooter on the left side of the road. The scooter is lying on the road as well. The car is approaching the man and scooter.",
+  "actions": "From 0.0s to 6.0s, the vehicle is moving straight, following the car in front, maintaining a safe distance. The vehicle is likely maintaining its speed to keep pace with the traffic flow. From 6.0s to 9.0s, the vehicle continues moving straight as the traffic light turns green. The vehicle is approaching an intersection. From 10.0s to 14.1s, the vehicle is slowing down and preparing to stop because of the man lying on the road after falling off his scooter.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep left in this lane"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

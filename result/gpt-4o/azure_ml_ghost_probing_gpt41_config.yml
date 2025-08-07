@@ -1,0 +1,82 @@
+# Azure ML Job Configuration for Ghost Probing with GPT-4.1 Balanced
+# 针对A100 GPU优化的配置文件
+
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# 基本作业信息
+display_name: ghost_probing_gpt41_balanced_100_videos
+experiment_name: ghost_probing_detection
+description: "Ghost probing detection on 100 videos using balanced GPT-4.1 prompt"
+
+# 代码和环境设置
+code: .
+environment: 
+  conda_file: azure_ghost_probing_env.yml
+  image: mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu20.04:latest
+
+# 计算资源配置
+compute: gpu-cluster-a100  # 替换为您的A100集群名称
+resources:
+  instance_count: 1
+  instance_type: Standard_NC24ads_A100_v4  # A100 GPU实例
+
+# 环境变量
+environment_variables:
+  # Azure OpenAI配置
+  AZURE_OPENAI_API_KEY: ${{secrets.AZURE_OPENAI_API_KEY}}
+  AZURE_OPENAI_ENDPOINT: ${{secrets.AZURE_OPENAI_ENDPOINT}}
+  VISION_API_TYPE: "Azure"
+  VISION_DEPLOYMENT_NAME: "gpt-4.1"
+  VISION_ENDPOINT: ${{secrets.AZURE_OPENAI_ENDPOINT}}
+  OPENAI_API_VERSION: "2024-02-15-preview"
+  
+  # 音频处理配置
+  AUDIO_API_TYPE: "Azure"
+  AZURE_WHISPER_KEY: ${{secrets.AZURE_WHISPER_KEY}}
+  AZURE_WHISPER_DEPLOYMENT: ${{secrets.AZURE_WHISPER_DEPLOYMENT}}
+  AZURE_WHISPER_ENDPOINT: ${{secrets.AZURE_WHISPER_ENDPOINT}}
+  
+  # 其他配置
+  PYTHONPATH: "/mnt/batch/tasks/shared/LS_root/mounts/clusters/gpu-cluster-a100/code"
+  OMP_NUM_THREADS: "1"
+  CUDA_VISIBLE_DEVICES: "0"
+
+# 作业命令
+command: >
+  python batch_ghost_probing_gpt41_balanced.py
+  --video-folder /mnt/batch/tasks/shared/LS_root/mounts/clusters/gpu-cluster-a100/code/DADA-2000-videos
+  --output-folder /mnt/batch/tasks/shared/LS_root/mounts/clusters/gpu-cluster-a100/code/result/ghost_probing_gpt41_balanced
+  --groundtruth-file /mnt/batch/tasks/shared/LS_root/mounts/clusters/gpu-cluster-a100/code/result/groundtruth_labels.csv
+  --max-videos 100
+
+# 数据输入输出
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/DADA-2000-videos
+    mode: ro_mount
+  groundtruth_data:
+    type: uri_file
+    path: azureml://datastores/workspaceblobstore/paths/result/groundtruth_labels.csv
+    mode: ro_mount
+
+outputs:
+  results:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/result/ghost_probing_gpt41_balanced
+    mode: rw_mount
+
+# 作业设置
+settings:
+  timeout: 14400  # 4小时超时
+  priority: high
+  continue_on_step_failure: false
+  
+# 标签
+tags:
+  model: "gpt-4.1-balanced"
+  task: "ghost_probing_detection"
+  dataset: "DADA-2000"
+  video_count: "100"
+  framework: "azure_ml"

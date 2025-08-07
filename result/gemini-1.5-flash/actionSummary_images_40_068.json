@@ -1,0 +1,74 @@
+[
+    {
+        "video_id": "dada_40_068",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Rural Road",
+        "characters": "Motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road. A motorcyclist is seen approaching from the front, initially on the right side of the road. The motorcyclist gradually moves towards the center of the road, potentially posing a risk of collision.",
+        "actions": "The self-driving vehicle maintains a steady speed while approaching the motorcyclist. The vehicle does not show signs of deceleration or lane change, indicating the driver is monitoring the motorcyclists movement.",
+        "key_objects": "1) Front: A motorcyclist, approximately 20 meters away, moving towards the center of the road, potentially posing a risk of collision.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_068",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist, pedestrians",
+        "summary": "In this segment, the vehicle is approaching an intersection with multiple lanes. There is a white sedan on the right side, a cyclist on the left side, and several pedestrians crossing the road. The traffic light is red, indicating that the vehicle should stop.",
+        "actions": "The self-driving vehicle is slowing down as it approaches the intersection. The vehicle maintains a safe distance from the white sedan on the right and the cyclist on the left. The vehicle is preparing to stop due to the red traffic light.",
+        "key_objects": "1) Right side: A white sedan, approximately 3 meters away, moving forward slowly. 2) Left side: A cyclist, approximately 5 meters away, crossing the road. 3) Front: Several pedestrians, approximately 10 meters away, crossing the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_068",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Ahead, a white sedan is moving slowly in the same lane. The driver mentions that the traffic is heavy and the vehicle ahead is slowing down, causing the self-driving vehicle to decelerate.",
+        "actions": "The self-driving vehicle is decelerating due to the slow-moving white sedan ahead. Over the past 3.3 seconds, the vehicles speed has gradually decreased to maintain a safe distance from the white sedan.",
+        "key_objects": "1) Front: A white sedan, relatively close, approximately 5 meters away, moving slowly and causing the self-driving vehicle to decelerate. 2) Left side: A blue minivan, approximately 10 meters away, moving in the adjacent lane. 3) Right side: A black SUV, approximately 8 meters away, moving in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_068",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "15.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a yellow truck",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Ahead, a white sedan is moving slowly, and a yellow truck is attempting to merge into the lane from the right side. The driver mentions the sudden appearance of the truck, which could lead to a collision.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while closely following the white sedan ahead. The yellow truck on the right side is attempting to merge into the lane, causing the self-driving vehicle to potentially decelerate to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, moving slowly. 2) Right: A yellow truck, approximately 3 meters away, attempting to merge into the lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

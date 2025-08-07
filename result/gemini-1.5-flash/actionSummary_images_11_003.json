@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_003",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of an orange SUV, driver of a white pickup truck",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, there is an orange SUV on the left side and a white pickup truck in front. The road is relatively narrow, and the traffic is slow-moving.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, keeping a safe distance from the vehicles ahead. The vehicle is positioned in the middle of the lane, ensuring it does not get too close to the parked cars on the right side.",
+        "key_objects": "1) Front: A white pickup truck, approximately 5 meters away, moving slowly. 2) Left side: An orange SUV, approximately 3 meters away, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_003",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of an orange SUV, driver of a white pickup truck",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Ahead, a white pickup truck is moving slowly, and an orange SUV is on the left side. The traffic is dense, and the vehicle is maintaining a slow speed.",
+        "actions": "The self-driving vehicle is maintaining a slow speed due to the dense traffic ahead. The vehicle is keeping a safe distance from the white pickup truck in front and the orange SUV on the left side.",
+        "key_objects": "1) Front: A white pickup truck, approximately 5 meters away, moving slowly. 2) Left side: An orange SUV, approximately 3 meters away, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "On the left side of the road, a person on a bicycle is visible. In the center, a person is driving a blue three-wheeled delivery vehicle. On the right side, near a yellow and red booth, several individuals are present, including a male in a grey shirt and a female in a blue top, who later emerge into the vehicle's path. Other pedestrians and individuals on small electric vehicles are also seen in the background.",
+  "summary": "The video segment captures a vehicle navigating a busy urban street. The vehicle is proceeding slowly, following a blue three-wheeled delivery vehicle. The road is delineated by white and red barriers, creating a somewhat constrained path. As the vehicle progresses, two pedestrians, a male in a grey shirt and a female in a blue top, suddenly emerge from behind a yellow and red booth and a parked white SUV on the right side of the road. They dart directly into the vehicle's path with minimal warning, creating an immediate and dangerous 'ghost probing' situation that requires an urgent response from the driver to prevent a collision.",
+  "actions": "The vehicle is observed maintaining a slow, cautious speed throughout the sequence. This low speed is likely adopted due to the presence of a slower-moving three-wheeled vehicle directly ahead, the narrow path created by the road barriers, and the general urban environment with potential pedestrian activity. The vehicle maintains its straight direction within the designated lane, indicating the driver's intention to proceed cautiously through this constrained area. The driver's slow speed is a proactive measure to allow for increased reaction time in a potentially complex environment, especially given the visual obstructions present.",
+  "key_objects": "1) Right: A yellow and red booth, serving as a significant physical obstruction on the right side of the road, blocking the view of approaching pedestrians. 2) Right: A parked white SUV, located behind the yellow and red booth, further contributing to the visual obstruction. 3) Right: A male pedestrian wearing a grey shirt, who suddenly emerges from behind the yellow and red booth and the parked white SUV, directly into the vehicle's path, creating an immediate collision risk. 4) Right: A female pedestrian wearing a blue top, who also suddenly emerges from behind the obstructions alongside the male pedestrian, posing an immediate danger.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

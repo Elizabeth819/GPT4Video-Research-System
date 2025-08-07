@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_050",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV, passengers on a tricycle",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Initially, a tricycle with passengers is seen on the left side of the road. As the vehicle progresses, a white sedan appears from the left side, moving into the lane. Later, a white SUV is seen on the left side, moving ahead and stopping abruptly.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the urban road. The vehicle slows down as the white sedan moves into the lane from the left side, and further decelerates as the white SUV ahead stops abruptly.",
+        "key_objects": "1) Left side: A tricycle with passengers, approximately 2 meters away, moving slowly. 2) Left side: A white sedan, approximately 5 meters away, moving into the lane. 3) Left side: A white SUV, approximately 3 meters away, moving ahead and stopping abruptly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

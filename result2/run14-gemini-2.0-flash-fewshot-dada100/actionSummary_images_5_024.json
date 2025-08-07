@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_024",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several vehicles are visible in the distance. A motorcyclist wearing dark clothing is on the right side of the road.",
+  "summary": "The vehicle is approaching an intersection on a rainy day. Visibility is reduced due to the rain. Several vehicles are visible in the distance, and a motorcyclist wearing dark clothing is on the right side of the road, approaching the intersection. The motorcyclist is riding on the right side of the road, potentially preparing to turn right at the intersection.",
+  "actions": "The vehicle is approaching an intersection and maintaining a steady speed. The driver is likely assessing the traffic conditions and preparing to either proceed through the intersection or stop, depending on the traffic light and the presence of other vehicles or pedestrians. The vehicle is maintaining its current lane and not showing any immediate signs of changing direction.",
+  "key_objects": "1) Right side: A motorcyclist wearing dark clothing, approximately 20 meters away, approaching the intersection and potentially preparing to turn right.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

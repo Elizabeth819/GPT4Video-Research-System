@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_051",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A man in a white jacket and dark pants, approximately 30-40 years old, is standing next to a scooter on the left side of the road. There is a red sedan driving in the opposite direction.",
+  "summary": "The vehicle is approaching an intersection. From 0.0s to 2.0s, a red sedan is driving in the opposite direction. From 2.0s to 10.0s, a man in a white jacket and dark pants is standing next to a scooter on the left side of the road at the intersection. The man appears to be preparing to cross the road with the scooter. This creates a potential ghost probing situation if the man suddenly attempts to cross the road without checking for oncoming traffic.",
+  "actions": "The vehicle is maintaining a steady speed as it approaches the intersection. The driver is likely assessing the situation and preparing to react to any potential hazards, such as the man with the scooter potentially crossing the road.",
+  "key_objects": "1) Left side: A man in a white jacket and dark pants, approximately 3 meters away, standing next to a scooter and potentially preparing to cross the road, creating a potential ghost probing situation. 2) Left side: A truck parked on the left side of the road, approximately 15 meters away, potentially obstructing the view of the man with the scooter.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

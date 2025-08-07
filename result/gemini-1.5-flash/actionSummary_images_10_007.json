@@ -1,0 +1,109 @@
+[
+    {
+        "video_id": "dada_10_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "An elderly woman with dark clothing, possibly in her 60s or 70s, riding a bicycle",
+                "distance": "10-15",
+                "behavior or action impacting the vehicle": "Approaching the vehicle from the center of the road at a slow pace."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Female",
+                "age": "60-70s",
+                "clothing": "Dark clothing",
+                "transportation": "Bicycle",
+                "behavior": "Riding slowly in the center of the road."
+            }
+        ],
+        "summary": "The video shows a car driving down a narrow road. In the center of the road, an elderly woman, appearing to be in her 60s or 70s, is slowly riding a bicycle. She is wearing dark clothing. The road is relatively quiet with no other vehicles or pedestrians immediately visible. The woman on the bicycle maintains a consistent speed and position throughout the observed 5-second segment. There are buildings and trees lining the road. The weather appears to be clear and sunny.",
+        "actions": "The vehicle maintains a slow and steady speed, likely due to the narrow road and the presence of the bicyclist in the center of the road. The driver is exercising caution and maintaining a safe distance from the bicyclist.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep in current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A person riding an electric bicycle",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Approaching from the center of the road, appearing to cross the road in front of the vehicle."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Electric bicycle",
+                "behavior": "Riding an electric bicycle in the center of the road, then crossing in front of the vehicle."
+            }
+        ],
+        "summary": "The video shows a car driving down a residential street. At approximately 7 seconds, a middle-aged man riding an electric bicycle appears in the center of the road, crossing directly in front of the approaching vehicle. The cyclist's sudden appearance and crossing path create a potential ghost probing scenario, requiring immediate action from the driver to avoid a collision. The cyclist is wearing a dark jacket and pants and appears to be crossing without looking for oncoming traffic. The speed of the bicycle is moderate, but the sudden crossing creates a high-risk situation.",
+        "actions": "The vehicle maintains a consistent speed, appearing to navigate a residential area. The driver is likely proceeding cautiously, given the presence of other vehicles and potential pedestrians. There are no sudden braking or acceleration maneuvers observed in this segment.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_10_007",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "15.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "Group of people (3 adults, possibly a family), appearing to be conversing.",
+                "distance": "10-15 meters",
+                "behavior or action impacting the vehicle": "Standing near the edge of the road, potentially posing a risk if they suddenly step into the vehicle's path."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "40-50",
+                "clothing": "Dark-colored jacket",
+                "transportation": "On foot",
+                "behavior": "Standing and talking with others"
+            },
+            {
+                "gender": "Female",
+                "age": "40-50",
+                "clothing": "Light-colored coat",
+                "transportation": "On foot",
+                "behavior": "Standing and talking with others"
+            },
+            {
+                "gender": "Male",
+                "age": "10-15",
+                "clothing": "Dark-colored jacket",
+                "transportation": "On foot",
+                "behavior": "Standing and talking with others"
+            }
+        ],
+        "summary": "The video shows a car driving down a residential street.  The road is relatively clear except for a group of three people (two adults and a child) standing near the edge of the road ahead. They appear to be engaged in conversation.  The group is approximately 10-15 meters in front of the vehicle. There is no immediate indication of any dangerous actions from the group, but they are close enough to the road that they could potentially step into the vehicle's path unexpectedly.",
+        "actions": "The vehicle maintains a steady speed, appearing to navigate a relatively straight section of road.  The driver is likely maintaining a safe distance from the group of people ahead, given the apparent lack of immediate danger. The speed is likely adjusted to account for the presence of the people near the road, ensuring a safe approach.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep lane"
+        }
+    }
+]

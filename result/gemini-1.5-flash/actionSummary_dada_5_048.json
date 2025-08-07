@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving on a multi-lane road with other vehicles present. A motorcyclist is approaching from the right side of the road.",
+    "actions": "Ego vehicle is driving straight. Other vehicles are also driving straight. The motorcyclist is approaching the intersection.",
+    "characters": "A motorcyclist wearing a red shirt is visible.",
+    "key_objects": "Ego vehicle, other vehicles, motorcyclist, road markings, intersection.",
+    "key_actions": "potential ghost probing",
+    "next_action": "Ego vehicle will continue driving straight."
+  }
+]

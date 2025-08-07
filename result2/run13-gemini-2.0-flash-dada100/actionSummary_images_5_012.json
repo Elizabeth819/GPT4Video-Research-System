@@ -1,0 +1,21 @@
+{
+  "video_id": "images_5_012",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.0s",
+  "summary": "The self-driving car is traveling on a two-lane road through a rural area with buildings on either side. From 0.0s to 5.0s, the car is driving straight on the road. From 5.0s to 15.0s, the car approaches an intersection. At 14.5s, a man wearing a white shirt and red pants is riding a motorcycle from the right side of the road, crossing the intersection. This constitutes a potential ghost probing scenario as the motorcycle emerges from behind a building, potentially requiring the car to decelerate or stop to avoid a collision.",
+  "characters": [
+    "Self-driving car",
+    "Man wearing a white shirt and red pants riding a motorcycle"
+  ],
+  "key_objects": [
+    "Right side: Man on a motorcycle, approximately 15 meters away, crossing the intersection, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a two-lane road. The driver maintains a consistent speed, likely due to the open road and lack of immediate obstacles. As the vehicle approaches the intersection, the driver may be preparing to slow down or yield depending on traffic conditions.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

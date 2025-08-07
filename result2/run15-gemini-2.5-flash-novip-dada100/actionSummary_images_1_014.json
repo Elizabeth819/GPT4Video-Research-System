@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_014",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A small child, likely a toddler, wearing a black and white striped long-sleeve shirt and red pants. Other adults are briefly visible on the right side of the road in the initial frames.",
+  "summary": "The video segment begins with the autonomous vehicle driving along a rural road. The road appears to be a two-way street with buildings and some vegetation on either side. As the vehicle proceeds, it passes by a series of buildings on the right side of the road. Suddenly, at approximately 5.0 seconds into the video, a small child unexpectedly darts out from behind a parked scooter and a building on the right side, directly entering the vehicle's path. The vehicle immediately reacts by rapidly decelerating and coming to a stop to avoid a collision. The child then proceeds to cross the road safely to the left side, after which the vehicle remains stationary or moves very slowly as the child clears the area.",
+  "actions": "The vehicle initially maintains a steady forward speed, driving straight along the rural road. Upon the sudden appearance of a small child from behind a physical obstruction (a parked scooter and a building) on the right side of the road at approximately 5.0 seconds, the vehicle initiates a rapid deceleration. This immediate braking action is taken to prevent a potential collision with the child who unexpectedly entered the vehicle's direct path, demonstrating a critical safety response to an unforeseen hazard. The vehicle then comes to a complete stop or near-stop by 6.0 seconds, remaining stationary until the child has safely crossed the road and moved out of the immediate danger zone.",
+  "key_objects": "1) Right side: A small child (toddler) wearing a striped shirt and red pants, suddenly emerged from behind a parked scooter and a building, directly entering the vehicle's path at approximately 5.0 seconds. This sudden appearance created an immediate collision risk. 2) Right side: A parked scooter and a building, serving as physical obstructions that completely blocked the driver's view of the child until their sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

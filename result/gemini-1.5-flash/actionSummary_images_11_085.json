@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "5.0s",
+        "scene_theme": "Highway",
+        "characters": "Multiple vehicles",
+        "summary": "In this segment, the vehicle is driving on a highway. Several vehicles are visible ahead, including a white sedan and a red car. The traffic appears to be moving smoothly without any sudden changes in speed or direction.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the segment. The vehicle is following the traffic flow and keeping a safe distance from the cars ahead.",
+        "key_objects": "1) Front: A white sedan, approximately 30 meters away, moving steadily in the same lane. 2) Front: A red car, approximately 25 meters away, moving steadily in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "6.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a red SUV",
+        "summary": "In this segment, the vehicle is driving on a highway. A white sedan is seen ahead, and a red SUV is on the right side. The white sedan moves into the self-vehicles lane abruptly, causing a potential cut-in situation.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the white sedan ahead. The white sedan suddenly moves into the self-vehicles lane from the adjacent lane, causing the self-vehicle to decelerate to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, moving into the self-vehicles lane abruptly. 2) Right: A red SUV, approximately 3 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

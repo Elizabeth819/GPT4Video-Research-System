@@ -1,0 +1,9 @@
+2025-07-18 15:21:14,700 - INFO - 🚀 Starting Real Video-LLaMA-2 Inference Setup
+2025-07-18 15:21:14,700 - INFO - Python version: 3.11.7 | packaged by conda-forge | (main, Dec 23 2023, 14:38:07) [Clang 16.0.6 ]
+2025-07-18 15:21:14,700 - INFO - PyTorch available: 2.7.1
+2025-07-18 15:21:14,700 - INFO - CUDA available: False
+2025-07-18 15:21:15,174 - INFO - ✅ Video-LLaMA-2 model is available on HuggingFace
+2025-07-18 15:21:15,174 - INFO - 📦 Installing Video-LLaMA dependencies...
+2025-07-18 15:21:35,649 - INFO - 🔄 Attempting to load Video-LLaMA-2 model...
+2025-07-18 15:21:41,105 - WARNING - ❌ Failed to load with transformers: numpy.core.multiarray failed to import
+2025-07-18 15:21:41,105 - INFO - Attempting to download model files...

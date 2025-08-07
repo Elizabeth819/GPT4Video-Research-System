@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_30_006",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue truck",
+        "summary": "In this segment, the vehicle is driving on a wet road during heavy rain. A blue truck ahead is making a left turn, causing the self-driving vehicle to slow down and eventually stop to avoid collision.",
+        "actions": "The self-driving vehicle decelerates gradually and then stops to avoid colliding with the blue truck making a left turn. The vehicles speed decreases significantly over the 10 seconds, maintaining a safe distance from the truck.",
+        "key_objects": "1) Front: A blue truck, approximately 10 meters away, making a left turn, causing the self-driving vehicle to decelerate and stop.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

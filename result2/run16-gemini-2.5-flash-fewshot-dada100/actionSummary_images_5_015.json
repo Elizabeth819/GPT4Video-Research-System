@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_015",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Drivers of other vehicles (silver sedan, green three-wheeled vehicle)",
+  "summary": "In this segment, the self-driving vehicle is approaching an intersection with a green traffic light. A silver sedan is initially positioned ahead and to the right, proceeding through the intersection. As the silver sedan moves forward, it temporarily obstructs the view of the left side of the intersection. A green three-wheeled vehicle then suddenly emerges from behind the silver sedan on the left side, entering the intersection and crossing the self-driving vehicle's path. This sudden appearance from behind a moving obstruction constitutes a vehicle ghost probing incident, creating a momentary hazard. After the three-wheeled vehicle clears the intersection, the self-driving vehicle proceeds and begins to accelerate on the open road.",
+  "actions": "The self-driving vehicle approaches the intersection with a green light, maintaining a cautious speed as a silver sedan proceeds ahead. As the silver car clears the path, a green three-wheeled vehicle suddenly emerges from behind it on the left side, crossing the intersection. The self-driving vehicle maintains its forward momentum, likely having assessed the three-wheeled vehicle's trajectory and ensuring a safe passage without requiring emergency braking or sharp steering. Once the intersection is clear and the three-wheeled vehicle has passed, the vehicle begins to accelerate, aiming to reach the posted speed limit of 80 km/h, as indicated by the road markings.",
+  "key_objects": "1) Right side: A silver sedan, approximately 5-10 meters away, moving ahead and acting as a temporary visual obstruction. 2) Left side: A green three-wheeled vehicle, approximately 5-8 meters away, suddenly emerging from behind the silver sedan and crossing the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

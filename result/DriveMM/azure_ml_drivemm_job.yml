@@ -1,0 +1,53 @@
+# Azure ML作业配置 - 真实DriveMM推理
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# 作业基本信息
+display_name: real_drivemm_ghost_probing_inference
+description: "真实DriveMM模型在Azure ML GPU上进行鬼探头检测推理"
+tags:
+  model: DriveMM
+  task: ghost_probing_detection
+  comparison: GPT-4.1_vs_DriveMM
+  data_source: drivelmmstorage2e932dad7
+
+# 计算资源配置
+compute: gpu-cluster-v100  # 使用V100 GPU集群
+instance_count: 1
+
+# 环境配置
+environment:
+  image: mcr.microsoft.com/azureml/pytorch-1.13-ubuntu20.04-py38-cuda11.6-gpu
+  conda_file: azure_drivemm_environment.yml
+
+# 代码和数据
+code: ./
+inputs:
+  storage_account: 
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/drivelmmstorage2e932dad7/
+
+# 命令执行
+command: >
+  pip install --upgrade pip &&
+  pip install transformers torch torchvision torchaudio &&
+  pip install azure-storage-blob azure-ai-ml &&
+  pip install opencv-python pillow &&
+  pip install huggingface_hub &&
+  python azure_drivemm_real_inference.py
+
+# 输出配置
+outputs:
+  results:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/drivemm_results/
+
+# 资源限制
+resources:
+  instance_type: Standard_NC6s_v3  # V100 GPU
+  
+# 超时设置
+timeout: 14400  # 4小时
+
+# 实验跟踪
+experiment_name: drivemm_vs_gpt41_comparison

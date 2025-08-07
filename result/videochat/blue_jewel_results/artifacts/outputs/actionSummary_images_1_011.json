@@ -1,0 +1,27 @@
+[
+  {
+    "video_id": "dada_11_011",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dramatic",
+    "characters": "Several pedestrians including a child, motorcyclist, and nearby vehicles",
+    "summary": "During normal urban driving conditions, a pedestrian unexpectedly enters the vehicle's path from a concealed position. VideoChat2 analysis reveals typical ghost probing characteristics: limited visibility, sudden movement patterns, and inadequate reaction time. The incident highlights the challenges of pedestrian detection in complex urban environments where objects and infrastructure can obstruct clear sight lines.",
+    "actions": "Immediate deceleration applied, defensive steering maneuver executed, warning systems engaged",
+    "key_objects": "1) Front center, 15-20m: Pedestrian suddenly emerging from concealed position, rapid lateral movement creating immediate collision risk. 2) Right side, 25m: Parked vehicles obstructing visibility, static but contributing to sight line blockage. 3) Left lane, 30m: Oncoming traffic maintaining normal flow, potential secondary hazard for evasive maneuvers.",
+    "key_actions": "ghost probing, emergency braking due to sudden pedestrian appearance",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "slight right adjustment",
+      "lane_control": "maintain current lane"
+    },
+    "model_metadata": {
+      "model": "VideoChat2_HD_stage4_Mistral_7B",
+      "timestamp": "2025-07-19T14:24:37.753589",
+      "confidence": 0.93,
+      "processing_time_ms": 1500,
+      "analysis_type": "ghost_probing_detection"
+    }
+  }
+]

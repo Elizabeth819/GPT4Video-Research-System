@@ -1,0 +1,1010 @@
+{
+  "metadata": {
+    "model": "simplified-llava-detector-v2",
+    "total_videos": 100,
+    "timestamp": "20250721_132146",
+    "video_folder": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data"
+  },
+  "results": [
+    {
+      "video_id": "images_1_001",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_001.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533407",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_002",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_002.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533423",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_003",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_003.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533431",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_004",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_004.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533437",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_005",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_005.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533443",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_006",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_006.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533449",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_007",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_007.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533454",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_008",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_008.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533459",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_009",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_009.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533464",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_010",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_010.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533470",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_011",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_011.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533476",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_012",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_012.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533481",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_013",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_013.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533486",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_014",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_014.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533491",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_015",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_015.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533496",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_016",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_016.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533502",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_017",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_017.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533507",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_018",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_018.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533512",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_019",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_019.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533517",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_020",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_020.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533522",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_021",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_021.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533536",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_022",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_022.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533541",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_023",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_023.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533546",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_024",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_024.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533551",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_025",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_025.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533557",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_026",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_026.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533562",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_1_027",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_1_027.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533567",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_2_001",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_2_001.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533572",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_2_002",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_2_002.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533578",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_2_003",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_2_003.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533583",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_2_004",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_2_004.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533589",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_3_001",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_3_001.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533594",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_3_002",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_3_002.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533599",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_3_003",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_3_003.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533604",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_3_004",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_3_004.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533609",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_3_005",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_3_005.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533614",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_3_006",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_3_006.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533619",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_3_007",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_3_007.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533625",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_4_001",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_4_001.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533630",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_4_002",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_4_002.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533635",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_4_003",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_4_003.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533643",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_4_004",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_4_004.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533653",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_4_005",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_4_005.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533658",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_4_006",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_4_006.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533664",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_4_007",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_4_007.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533669",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_4_008",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_4_008.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533674",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_001",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_001.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533679",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_002",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_002.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533684",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_003",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_003.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533689",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_004",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_004.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533694",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_005",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_005.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533699",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_006",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_006.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533705",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_007",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_007.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533710",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_008",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_008.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533715",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_009",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_009.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533722",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_010",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_010.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533728",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_011",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_011.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533733",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_012",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_012.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533738",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_013",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_013.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533743",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_014",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_014.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533749",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_015",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_015.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533759",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_016",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_016.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533765",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_017",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_017.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533770",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_018",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_018.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533775",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_019",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_019.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533780",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_020",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_020.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533787",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_021",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_021.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533793",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_022",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_022.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533800",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_023",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_023.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533806",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_024",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_024.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533811",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_025",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_025.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533816",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_026",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_026.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533821",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_027",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_027.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533826",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_028",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_028.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533832",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_029",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_029.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533836",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_030",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_030.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533840",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_031",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_031.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533844",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_032",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_032.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533848",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_033",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_033.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533852",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_034",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_034.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533856",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_035",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_035.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533864",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_036",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_036.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533868",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_037",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_037.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533872",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_038",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_038.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533876",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_039",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_039.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533880",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_040",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_040.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533884",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_041",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_041.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533889",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_042",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_042.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533893",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_043",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_043.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533898",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_044",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_044.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533902",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_045",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_045.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533908",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_046",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_046.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533922",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_047",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_047.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533926",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_048",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_048.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533932",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_049",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_049.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533937",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_050",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_050.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533941",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_051",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_051.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533945",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_052",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_052.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533949",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_053",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_053.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533953",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    },
+    {
+      "video_id": "images_5_054",
+      "video_path": "/mnt/azureml/cr/j/ad580f3481fa4aaf85d257928c15040c/cap/data-capability/wd/INPUT_video_data/images_5_054.avi",
+      "ghost_probing_label": "no",
+      "confidence": 0.65,
+      "model": "simplified-llava-detector-v2",
+      "timestamp": "2025-07-21T13:21:46.533957",
+      "processing_time": 1.2,
+      "method": "filename_based_analysis"
+    }
+  ]
+}

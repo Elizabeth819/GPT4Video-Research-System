@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_054",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.1s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A female pedestrian, appearing middle-aged, is observed wearing a pink jacket and dark pants. She is seen crossing the street from the right side of the frame.",
+  "summary": "The video begins with the ego vehicle stationary at a multi-lane urban intersection, positioned behind a black Audi and to the right of a white Hyundai. The traffic light is initially red or in a state that requires stopping. As the traffic light changes to green, indicated by the movement of the vehicles ahead and to the left, the ego vehicle begins to accelerate and proceed into the intersection. As the vehicle enters the intersection, a female pedestrian suddenly emerges from behind a large building located on the right side of the intersection, stepping directly into the crosswalk and the vehicle's path. This sudden and unexpected appearance of the pedestrian from behind a visual obstruction creates an immediate and dangerous 'ghost probing' situation, requiring the driver to react with rapid deceleration to avoid a potential collision.",
+  "actions": "The ego vehicle initially remains stationary at the intersection from 0.0s to approximately 9.0s, waiting for the traffic signal to change. Upon observing the black Audi in front and the white Hyundai on the left beginning to move around 9.0s, indicating a green light for straight-ahead traffic, the ego vehicle initiates acceleration to proceed through the intersection from 10.0s. Subsequently, from approximately 11.7s, the vehicle rapidly decelerates and applies brakes due to the sudden appearance of a pedestrian from behind a building on the right, who steps into the vehicle's direct path, necessitating an immediate evasive action to prevent a collision.",
+  "key_objects": "1) Right side: A large, multi-story building at the corner of the intersection, serving as a significant visual obstruction for traffic approaching from the right. 2) Right side, foreground: A female pedestrian, appearing middle-aged and wearing a pink jacket and dark pants, who suddenly emerges from behind the aforementioned building at approximately 11.7s and steps into the crosswalk directly in the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

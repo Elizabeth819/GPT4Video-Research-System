@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_28_006",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist in pink jacket",
+        "summary": "In this segment, the vehicle is driving on a city road. A white sedan is ahead, and a motorcyclist in a pink jacket is on the right side of the road. The motorcyclist is moving forward and gradually overtaking the self-driving vehicle. The road is wet, and there is moderate traffic.",
+        "actions": "The self-driving vehicle maintains a consistent speed while keeping a safe distance from the white sedan ahead. The vehicle is also monitoring the motorcyclist on the right side, who is overtaking the self-driving vehicle.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving steadily. 2) Right: A motorcyclist in a pink jacket, approximately 5 meters away, overtaking the self-driving vehicle.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_28_006",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist in red jacket",
+        "summary": "In this segment, the vehicle is approaching an intersection. A motorcyclist in a red jacket is moving from the right side towards the center of the road. A white sedan is seen moving from the left side towards the center of the intersection. The motorcyclist and the sedan are on a collision course, creating a potential hazard.",
+        "actions": "The self-driving vehicle is slowing down to avoid a collision with the motorcyclist and the white sedan. The vehicles speed decreases gradually as it approaches the intersection, maintaining a safe distance from the motorcyclist and the sedan.",
+        "key_objects": "1) Right side: A motorcyclist in a red jacket, approximately 5 meters away, moving towards the center of the road. 2) Left side: A white sedan, approximately 10 meters away, moving towards the center of the intersection.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

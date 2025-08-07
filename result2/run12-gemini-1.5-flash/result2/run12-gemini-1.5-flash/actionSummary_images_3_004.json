@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_3_004",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Intersection Crossing",
+    "characters": "Multiple pedestrians, cyclists, and drivers.",
+    "summary": "The video shows a car approaching an intersection with a pedestrian crossing. Several pedestrians and cyclists are crossing the intersection. A silver minivan is also crossing the intersection from the left.  The self-driving vehicle slows down as it approaches the crosswalk, yielding to pedestrians and cyclists. No near misses or collisions occur. The traffic light is visible and appears to be green for the self-driving vehicle.",
+    "actions": "The self-driving vehicle approaches the intersection at a moderate speed.  As pedestrians and cyclists enter the crosswalk, the vehicle smoothly decelerates to a near stop, maintaining a safe distance. Once the pedestrians and cyclists have cleared the crosswalk, the vehicle resumes its forward motion.",
+    "key_objects": "None",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_3_004",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.3s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "A cyclist on a bicycle, several pedestrians, driver of the self-driving vehicle.",
+    "summary": "The video shows a cyclist riding across a crosswalk.  The cyclist falls from their bicycle in front of the self-driving vehicle. The fall appears sudden and unexpected. Several pedestrians are visible in the background, but their actions do not directly impact the incident. The self-driving vehicle appears to be slowing down or stopping after the cyclist falls.",
+    "actions": "The self-driving vehicle is approaching an intersection.  The vehicle appears to be slowing down, possibly in response to the cyclist crossing the crosswalk. The speed reduction seems to be a reactive measure to avoid a collision with the cyclist after they fall.",
+    "key_objects": "1) Front: Cyclist on a bicycle, approximately 2 meters away at the time of the fall, falling unexpectedly in front of the vehicle. 2) Front: Bicycle, approximately 2 meters away, lying on the road after the cyclist's fall.",
+    "key_actions": "collision",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

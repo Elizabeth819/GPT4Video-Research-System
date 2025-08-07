@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_017",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "No specific human characters are clearly identifiable or central to the driving scenario within this segment. The scene primarily features various vehicles.",
+  "summary": "The autonomous vehicle is navigating a multi-lane road under bright daylight conditions, characterized by a canopy of lush green trees overhead. At the beginning of the segment, the vehicle is positioned between a large green bus on its immediate left and a grey sedan on its immediate right. As the video progresses, the autonomous vehicle moves forward, maintaining its position behind the grey sedan. Other vehicles, including a white bus further ahead on the right and a yellow car in the opposing lane, are visible, indicating moderate traffic density. The road appears straight and clear of immediate obstructions, with consistent traffic flow.",
+  "actions": "The vehicle is maintaining a consistent forward speed, adapting its pace to the flow of traffic, specifically by following the grey sedan directly in front of it. The driver is keeping the vehicle straight within its current lane. This action is taken to ensure a safe following distance from the leading vehicle and to maintain a steady progression in line with the surrounding traffic, which appears to be moving at a moderate and stable speed.",
+  "key_objects": "1) Right: A grey sedan, in close proximity, positioned directly in front of the autonomous vehicle in the same lane. Its presence dictates the autonomous vehicle's speed and following distance, acting as a primary reference for maintaining safe operation. 2) Left: A large green bus, in close proximity, moving parallel to the autonomous vehicle in the adjacent left lane. It acts as a significant visual obstruction to the left side, limiting the driver's peripheral view. 3) Right: A white bus, in the mid-distance, moving in the same direction as the autonomous vehicle in the rightmost lane. It contributes to the overall traffic density and requires the driver to be aware of its movements. 4) Center-Left: A yellow car, initially in the far distance and then approaching and passing on the left side in the opposing lane. It represents oncoming traffic that the driver must be aware of for safe lane positioning.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

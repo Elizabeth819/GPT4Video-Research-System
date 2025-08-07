@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_047",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several people on scooters and motorcycles, and pedestrians are visible. A woman with long dark hair, wearing a green shirt and dark pants, is crossing the street.",
+  "summary": "The vehicle is exiting a tunnel and approaching a busy intersection. There are several scooters and motorcycles moving in different directions. A woman with long dark hair, wearing a green shirt and dark pants, is crossing the street from left to right. She is walking at a normal pace and does not appear to be aware of the approaching vehicle. The scooters and motorcycles are moving at varying speeds, creating a potentially chaotic situation. The woman crossing the street is creating a dangerous situation because she is not paying attention to the traffic.",
+  "actions": "The vehicle is exiting a tunnel and approaching an intersection. The vehicle is maintaining a steady speed as it exits the tunnel. The driver is likely assessing the traffic situation at the intersection to determine the appropriate course of action. The vehicle is maintaining its current lane as it approaches the intersection.",
+  "key_objects": "1) Left side: A woman with long dark hair, wearing a green shirt and dark pants, approximately 5 meters away, crossing the street and potentially entering the vehicle's path. 2) Front: Several scooters and motorcycles, approximately 10-15 meters away, moving in different directions and creating a potentially chaotic situation.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

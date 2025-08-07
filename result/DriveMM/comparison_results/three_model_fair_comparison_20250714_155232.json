@@ -1,0 +1,106 @@
+{
+  "three_model_fair_comparison": {
+    "timestamp": "2025-07-14T15:52:32.065156",
+    "analysis_type": "fair_comparison_same_prompt",
+    "models_compared": [
+      "DriveMM",
+      "GPT-4o",
+      "Gemini"
+    ],
+    "prompt_standardization": "balanced_gpt41_compatible",
+    "total_videos": 5
+  },
+  "agreement_analysis": {
+    "full_agreement": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "partial_agreement": {
+      "count": 4,
+      "percentage": 80.0
+    },
+    "no_agreement": {
+      "count": 1,
+      "percentage": 20.0
+    }
+  },
+  "detection_statistics": {
+    "high_confidence_ghost_probing": {
+      "drivemm": 3,
+      "gpt4o": 2,
+      "gemini": 1,
+      "total_detections": 6
+    },
+    "potential_ghost_probing": {
+      "drivemm": 2,
+      "gpt4o": 1,
+      "gemini": 2,
+      "total_detections": 5
+    },
+    "emergency_situation": {
+      "drivemm": 0,
+      "gpt4o": 0,
+      "gemini": 1,
+      "total_detections": 1
+    },
+    "normal_traffic": {
+      "drivemm": 0,
+      "gpt4o": 2,
+      "gemini": 1,
+      "total_detections": 3
+    },
+    "other": {
+      "drivemm": 0,
+      "gpt4o": 0,
+      "gemini": 0,
+      "total_detections": 0
+    }
+  },
+  "detailed_comparison": [
+    {
+      "video_id": "images_1_001",
+      "drivemm_detection": "ghost probing",
+      "drivemm_category": "high_confidence_ghost_probing",
+      "gpt4o_detection": "ghost probing",
+      "gpt4o_category": "high_confidence_ghost_probing",
+      "gemini_detection": "potential ghost probing",
+      "gemini_category": "potential_ghost_probing"
+    },
+    {
+      "video_id": "images_1_002",
+      "drivemm_detection": "ghost probing",
+      "drivemm_category": "high_confidence_ghost_probing",
+      "gpt4o_detection": "potential ghost probing",
+      "gpt4o_category": "potential_ghost_probing",
+      "gemini_detection": "ghost probing",
+      "gemini_category": "high_confidence_ghost_probing"
+    },
+    {
+      "video_id": "images_1_003",
+      "drivemm_detection": "ghost probing",
+      "drivemm_category": "high_confidence_ghost_probing",
+      "gpt4o_detection": "ghost probing",
+      "gpt4o_category": "high_confidence_ghost_probing",
+      "gemini_detection": "potential ghost probing",
+      "gemini_category": "potential_ghost_probing"
+    },
+    {
+      "video_id": "images_1_004",
+      "drivemm_detection": "potential ghost probing",
+      "drivemm_category": "potential_ghost_probing",
+      "gpt4o_detection": "normal traffic flow",
+      "gpt4o_category": "normal_traffic",
+      "gemini_detection": "normal traffic flow",
+      "gemini_category": "normal_traffic"
+    },
+    {
+      "video_id": "images_1_005",
+      "drivemm_detection": "potential ghost probing",
+      "drivemm_category": "potential_ghost_probing",
+      "gpt4o_detection": "normal traffic flow",
+      "gpt4o_category": "normal_traffic",
+      "gemini_detection": "emergency braking due to pedestrian crossing",
+      "gemini_category": "emergency_situation"
+    }
+  ]
+}

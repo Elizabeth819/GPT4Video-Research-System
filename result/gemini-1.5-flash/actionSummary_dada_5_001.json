@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_5_001",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "19:31:46",
+    "End_Timestamp": "19:31:56",
+    "summary": "The vehicle is driving on a city street at night. There are pedestrians crossing the street at a crosswalk. The vehicle slows down to allow the pedestrians to cross safely.",
+    "actions": "The vehicle slows down as it approaches the crosswalk to allow pedestrians to cross.",
+    "key_objects": [
+      "pedestrians",
+      "crosswalk",
+      "vehicle"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "straight",
+      "lane_control": "maintain lane"
+    }
+  }
+]

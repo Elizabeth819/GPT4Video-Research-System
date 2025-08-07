@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male pedestrian, approximately 30-40 years old, wearing light-colored clothing.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a two-lane road in a rural or semi-urban environment. The road is flanked by bare trees and some buildings. Initially, a white van passes the vehicle. Subsequently, a large red motorized tricycle approaches and passes the self-driving vehicle on the right side of the road. As the red motorized tricycle moves past, a male pedestrian suddenly emerges from directly behind it on the right side, stepping into the vehicle's path. The tricycle acted as a significant visual obstruction, making the pedestrian's appearance sudden and unexpected, creating a dangerous ghost probing situation.",
+  "actions": "The self-driving vehicle is maintaining a consistent speed as it navigates the road. As the large red motorized tricycle passes on the right, it creates a significant visual obstruction. Upon the sudden emergence of a pedestrian from behind this moving obstruction, the vehicle would immediately initiate rapid deceleration to mitigate the risk of collision and ensure the safety of the pedestrian.",
+  "key_objects": "1) Right side: A red motorized tricycle, approximately 5-10 meters away, moving in the opposite direction, serving as a significant moving visual obstruction. 2) Right side: A male pedestrian, approximately 30-40 years old, wearing light-colored clothing, suddenly emerging from behind the red motorized tricycle and walking into the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

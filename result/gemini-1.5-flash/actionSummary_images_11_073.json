@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_073",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white van, driver of a silver SUV",
+        "summary": "In this segment, the vehicle is driving on a busy road. Initially, the road is clear with some vehicles ahead. As the vehicle progresses, a silver SUV on the right side moves closer to the self-driving vehicles lane. Later, a white van appears directly in front of the self-driving vehicle, potentially causing a need for sudden braking.",
+        "actions": "The self-driving vehicle maintains a steady speed initially. As the silver SUV on the right side moves closer, the vehicle might need to decelerate to avoid collision. Finally, the white van directly in front of the self-driving vehicle requires the driver to be prepared for sudden braking.",
+        "key_objects": "1) Right side: A silver SUV, approximately 2 meters away, moving closer to the self-driving vehicles lane. 2) Front: A white van, approximately 5 meters away, directly in front of the self-driving vehicle, potentially causing a need for sudden braking.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_073",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "11.9s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of a white van",
+        "summary": "In this segment, the vehicle is driving on an urban road. A white van is directly ahead, and a white sedan is on the right side. The traffic is moderate, and the vehicles are maintaining their lanes.",
+        "actions": "The self-driving vehicle is maintaining a steady speed, following the white van ahead. The white sedan on the right is moving at a similar speed, and there are no sudden changes in the traffic flow.",
+        "key_objects": "1) Front: A white van, approximately 5 meters away, maintaining a steady speed. 2) Right: A white sedan, approximately 10 meters away, moving at a similar speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

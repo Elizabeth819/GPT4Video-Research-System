@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_035",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "An adult pedestrian, gender and clothing unknown, is seen crossing the road from left to right. An adult motorcyclist, gender and clothing unknown, is riding a scooter/motorcycle and crossing the intersection from left to right.",
+  "summary": "The video segment from 0.0s to 10.0s shows a vehicle driving on a multi-lane urban road under bright, sunny conditions with significant sun glare. Initially, the vehicle is following a large bus and a white SUV. The bus is positioned slightly to the right of the vehicle's lane. As the segment progresses, the bus begins to move further to the right, creating an opening. The vehicle then initiates a left-side overtaking maneuver to pass the bus. By 6.0s, the vehicle is actively passing the bus, and by 7.0s, it has successfully overtaken it. The road ahead appears to have moderate traffic. At 9.0s, a pedestrian suddenly appears from the far left side of the road, beginning to cross the vehicle's path, indicating a potential 'ghost probing' scenario.",
+  "actions": "The vehicle initially maintains a steady speed while following a large bus and other traffic. Around 3.0s, the bus in front begins to shift towards the right side of the road, indicating it might be slowing down, stopping, or moving into a different lane. In response to this opening and to maintain forward progress, the driver initiates a left-side overtaking maneuver, accelerating slightly to pass the bus. By 7.0s, the overtaking is complete, and the vehicle continues to proceed straight, maintaining its speed. As the vehicle approaches an intersection, a pedestrian suddenly emerges from the left side of the road at 9.0s, followed by a motorcyclist at 11.6s, both crossing the vehicle's path. The vehicle appears to maintain its speed and direction, suggesting the driver either had sufficient reaction time or the crossing entities were perceived as not requiring immediate evasive action, or the driver did not react with significant braking.",
+  "key_objects": "1) Right-front: A large yellow and green bus (from 0.0s to 7.0s) acts as a physical obstruction that the vehicle overtakes on the left side, impacting the vehicle's lane choice and speed. \n2) Left-front: An adult pedestrian (from 9.0s to 11.2s) suddenly emerges from behind a building/structure on the far left side of the road, entering the vehicle's path with minimal reaction time, creating an immediate potential danger (Traditional Ghost Probing). \n3) Left-front: An adult motorcyclist on a scooter (from 11.6s to 12.8s) suddenly emerges from behind a building/structure at the intersection on the left, entering the vehicle's path with minimal reaction time, creating an immediate potential danger (Traditional Ghost Probing).",
+  "key_actions": "ghost probing, left-side overtaking",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

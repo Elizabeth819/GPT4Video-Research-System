@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals, likely male, are seen riding a red three-wheeled utility vehicle. They are wearing dark clothing and appear to be the driver and a passenger.",
+  "summary": "The video segment begins with the autonomous vehicle driving on a clear, two-lane road under a bright, sunny sky. The road is flanked by hills and dense trees on both the left and right sides. The vehicle maintains a steady, straight course. As the vehicle approaches a slight right curve in the road, specifically around the 7.0-second mark, a red three-wheeled utility vehicle suddenly emerges from the right side of the road. This vehicle appears from behind a significant visual obstruction, which includes a cluster of trees and a raised embankment, making its presence undetectable until it is already entering the main roadway. The three-wheeled vehicle immediately turns left, directly entering the path of the autonomous vehicle, creating an immediate and high-risk collision scenario. The autonomous vehicle reacts swiftly to this unexpected appearance by adjusting its trajectory to avoid impact. By the 9.0-second mark, the red three-wheeled vehicle has completed its turn and is moving away from the autonomous vehicle, and the immediate danger is successfully averted.",
+  "actions": "The vehicle initially maintains a consistent speed and direction, driving straight along the road. As the vehicle approaches a right-hand curve, a red three-wheeled vehicle suddenly emerged from the right side of the road, from behind a visual obstruction (trees and an embankment) at approximately 7.0 seconds. This vehicle immediately entered the autonomous vehicle's path, turning left onto the main road. In response to this 'ghost probing' incident, the autonomous vehicle likely initiated a rapid deceleration and/or a slight steering adjustment to the left to create clearance and prevent a collision. This evasive maneuver was a necessary and appropriate safety response to the sudden and unexpected appearance of the other vehicle. After the immediate threat passed and the three-wheeled vehicle moved out of the direct path, the autonomous vehicle resumed its forward movement.",
+  "key_objects": "1) Right side: A red three-wheeled utility vehicle, approximately 5-10 meters away, suddenly emerged from behind a visual obstruction (trees and an embankment) and entered the vehicle's path, necessitating an immediate evasive action to avoid collision. 2) Right side: Trees and an embankment, acting as a physical obstruction, approximately 5-15 meters away, completely blocked the view of the emerging three-wheeled vehicle until it was already in the roadway.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

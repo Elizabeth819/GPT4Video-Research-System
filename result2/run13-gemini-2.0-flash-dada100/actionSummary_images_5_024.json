@@ -1,0 +1,36 @@
+{
+  "video_id": "images_5_024",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.6s",
+  "summary": "The self-driving car is approaching an intersection on a rainy day. The road is wet, and visibility is reduced. From 0.0s to 9.0s, the car is moving straight. At 9.0s, a white sedan is seen on the left side of the road, crossing the intersection. At 9.0s, a motorcycle with a rider wearing a dark jacket and helmet appears from the right side of the road, crossing the intersection. The motorcycle is approximately 15 meters away and moving at a moderate speed. The car continues to move forward, and at 12.6s, the motorcycle has crossed the intersection.",
+  "characters": [
+    {
+      "gender": "unknown",
+      "clothing": "dark jacket and helmet",
+      "colors": "dark",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "N/A"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "white",
+      "colors": "white",
+      "age": "unknown",
+      "transportation_method": "sedan",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_actions": "ghost probing",
+  "key_objects": [
+    "Right side: A motorcycle with a rider wearing a dark jacket and helmet, approximately 15 meters away, crossing the intersection, potentially causing the vehicle to decelerate or stop.",
+    "Left side: A white sedan, crossing the intersection, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is approaching an intersection and maintaining a consistent speed. The driver is likely assessing the traffic conditions and preparing to either proceed through the intersection or stop, depending on the presence of other vehicles or pedestrians. The vehicle is moving straight to cross the intersection.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  }
+}

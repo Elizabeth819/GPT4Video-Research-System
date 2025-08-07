@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_038",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "A person in a red coat is visible on the left side of the road in the initial frames, walking away from the camera. An individual is seen operating a heavily loaded three-wheeled motorcycle on the right side of the road in later frames.",
+  "summary": "The video segment captures a vehicle driving straight on a two-lane road in a rural or suburban setting under an overcast sky. The road is flanked by buildings and trees. During the segment, the vehicle encounters two distinct instances of 'vehicle ghost probing' from the left side of the road. First, a white truck, and later a dark green van, suddenly emerge from a side road or driveway that was previously obscured by a building, turning onto the main road. The driver of the camera vehicle maintains a consistent speed and direction, navigating past these emerging vehicles and a slow-moving three-wheeled motorcycle on the right side of the road. The sudden appearance of vehicles from behind obstructions creates potential hazards.",
+  "actions": "The vehicle maintains a consistent forward speed and direction throughout the observed segment. The driver does not appear to significantly alter the vehicle's speed or steering in direct response to the white truck or the dark green van emerging from the left. This suggests that the emerging vehicles either turned into the oncoming lane or were sufficiently distant from the camera vehicle's immediate path, allowing the driver to maintain a steady course without needing immediate evasive action. The driver continues to maintain the current lane, demonstrating controlled driving behavior despite the presence of other vehicles entering the road from visually obstructed points.",
+  "key_objects": "1) Left: A white truck (minivan/pickup style) emerges suddenly from behind a building on the left side of the road at approximately 5.0s, turning onto the main road. This vehicle was previously hidden by the building, creating a visual obstruction and posing a sudden, unexpected appearance into the general road environment. 2) Left: A dark green van emerges suddenly from behind the same building on the left side of the road at approximately 11.5s, turning onto the main road. Similar to the white truck, this vehicle was obscured by the building, leading to a sudden appearance and potential hazard. 3) Right: A three-wheeled motorcycle, heavily loaded with goods, is observed on the right side of the road from approximately 13.0s, moving in the same direction as the camera vehicle. It is moving slowly and does not pose an immediate threat as it is already visible and not emerging from an obstruction.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

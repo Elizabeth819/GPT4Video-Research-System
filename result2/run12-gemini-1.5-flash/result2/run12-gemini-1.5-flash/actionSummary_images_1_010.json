@@ -1,0 +1,55 @@
+[
+  {
+    "video_id": "images_1_010",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Driving on a two-lane road",
+    "characters": "Driver of a car, a man on a scooter",
+    "summary": "The video shows a car driving on a two-lane road.  A large truck is in front of the car, and other vehicles are visible in the distance. On the right side of the road, a man on a dark-colored scooter is traveling in the same direction as the car. The scooter maintains a consistent distance from the car throughout the 10-second segment. No sudden movements or dangerous actions are observed from either the scooter rider or other vehicles.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment. The vehicle follows the truck ahead at a safe distance. There are no observable changes in speed or direction.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_010",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "20.0s",
+    "scene_theme": "High-risk driving situation",
+    "sentiment": "Negative",
+    "characters": "A man in a dark jacket crossing the road, other vehicles and pedestrians in the background.",
+    "summary": "The video shows a man in a dark jacket suddenly crossing the road from the right side in front of the recording vehicle.  He appears unexpectedly, running across the road, creating a near-miss situation. The vehicle is forced to brake to avoid a collision. The road is relatively clear with other vehicles and pedestrians present in the distance. The weather appears sunny.",
+    "actions": "The self-driving vehicle maintains a consistent speed until a pedestrian unexpectedly crosses the road from the right.  The vehicle then rapidly decelerates to avoid a collision. The driver's actions indicate a reactive response to an unforeseen event.",
+    "key_objects": "1) Front: A man in a dark jacket, approximately 2 meters away at closest point, running across the road from right to left, causing the vehicle to brake rapidly to avoid a collision.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_010",
+    "segment_id": "segment_003",
+    "Start_Timestamp": "20.0s",
+    "End_Timestamp": "22.7s",
+    "scene_theme": "Normal",
+    "sentiment": "Neutral",
+    "characters": "Driver of a car, other vehicles on the road",
+    "summary": "The video shows a car driving down a two-lane road.  The road is relatively clear with some other vehicles visible in the distance.  Between the two frames, there are no significant changes in the immediate surroundings or the position of other vehicles. The road appears to be straight and there are trees and buildings visible on either side of the road. The weather appears sunny.",
+    "actions": "The self-driving vehicle maintains a consistent speed and direction, traveling straight down the road. There are no observable changes in speed or direction between the two frames. The vehicle maintains a safe distance from other vehicles visible in the distance.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

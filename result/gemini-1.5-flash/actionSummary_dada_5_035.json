@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving down a street with moderate traffic. A bus is in front of the ego vehicle. There are cars parked on the right side of the road and buildings on both sides.",
+    "actions": "Ego vehicle is driving straight. The bus in front is also driving straight. Other vehicles are moving in the same direction.",
+    "characters": "Pedestrians are visible on the sidewalks.",
+    "key_objects": "Ego vehicle, bus, cars, pedestrians, buildings, traffic lights.",
+    "key_actions": "The bus obscures the view of the right side of the road, potentially concealing pedestrians or cyclists.",
+    "next_action": "Ego vehicle will continue driving straight."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle approaches an intersection. There are pedestrians and cyclists crossing the street. The bus is still in front of the ego vehicle, partially obscuring the view.",
+    "actions": "Ego vehicle is approaching an intersection. Pedestrians and cyclists are crossing the street.",
+    "characters": "Pedestrians and cyclists are visible.",
+    "key_objects": "Ego vehicle, bus, pedestrians, cyclists, intersection, traffic lights.",
+    "key_actions": "potential ghost probing: A cyclist appears from behind the bus while crossing the street. The bus is partially obscuring the view of the cyclist.",
+    "next_action": "Ego vehicle will likely slow down or stop at the intersection."
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_4_007",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Intersection",
+    "characters": "Traffic police officer, several drivers, a motorcyclist, a cyclist",
+    "summary": "The video shows a traffic intersection on a sunny day. The self-driving vehicle is approaching the intersection, where a traffic police officer is directing traffic.  Several cars are waiting at the intersection. A motorcyclist and a cyclist are also visible, crossing the intersection. The traffic flow is moderate, and the overall scene is relatively calm. No immediate dangerous situations are observed, although the proximity of other vehicles and cyclists requires cautious driving.",
+    "actions": "The self-driving vehicle approaches the intersection at a moderate speed, slowing down in response to the traffic police officer's directions. The vehicle maintains a safe following distance from the car in front.  The driver is likely adjusting speed and maintaining a safe distance to avoid collisions with other vehicles and pedestrians.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

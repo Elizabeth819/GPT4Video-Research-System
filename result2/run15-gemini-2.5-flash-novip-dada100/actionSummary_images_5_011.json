@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_011",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a bicycle, wearing dark clothing, appears suddenly from the left side of the road.",
+  "summary": "The video segment begins with the autonomous vehicle driving on a two-lane road, flanked by tall, bare trees on both sides, suggesting a rural or semi-rural setting during a colder season. The sky is clear and bright. As the vehicle proceeds, it approaches a white van positioned on the left side of the main road, which appears to be either parked or moving very slowly. Suddenly, at approximately 3.0-4.0 seconds into the segment, a person on a bicycle unexpectedly emerges from behind this white van, darting directly into the vehicle's path from the left. This constitutes a 'ghost probing' incident due to the sudden appearance from behind a visual obstruction. In response, the autonomous vehicle executes a rapid and sharp turn to the right, veering off the main road onto a narrower, unpaved side road. This evasive maneuver successfully avoids a collision with the cyclist. By 10.0 seconds, the vehicle is fully on the side road, driving straight away from the main road, with the cyclist no longer in its immediate path.",
+  "actions": "The vehicle initially maintains a straight trajectory and a consistent speed on the main road. Upon the sudden and unexpected appearance of a cyclist from behind a white van on the left side of the road (visible from approximately 3.0s), the vehicle initiates a rapid deceleration combined with a sharp turn to the right. This decisive action was taken to immediately avoid a potential collision with the cyclist who unexpectedly entered the vehicle's path from behind a significant visual obstruction. Following the turn, the vehicle proceeds onto the newly entered side road, maintaining a cautious speed appropriate for the narrower and less-maintained surface.",
+  "key_objects": "1) Position: Left side of the image: A white van, acting as a physical obstruction. It is located on the left side of the main road, partially obscuring the view of the area behind it, which directly contributed to the 'ghost probing' incident by hiding the cyclist. 2) Position: Left side of the image: A person on a bicycle, emerging suddenly from behind the white van. This individual darted into the vehicle's path with minimal reaction time, creating an immediate collision risk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

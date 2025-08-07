@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_004",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "A car in front of the self-driving vehicle, a male pedestrian on the left side of the road.",
+    "summary": "The self-driving vehicle is traveling on a straight urban road. There is a car in front of the self-driving vehicle. A male pedestrian is walking on the left side of the road. The pedestrian is walking away from the self-driving vehicle. The car in front is maintaining a consistent distance.",
+    "actions": "The self-driving vehicle is maintaining a consistent speed and following the road. The vehicle is keeping a safe distance from the car in front. The driver is driving at a constant speed because the road is straight and there are no immediate obstacles.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_004",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.4s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A male pedestrian in light-colored clothing, approximately 30 years old.",
+    "summary": "In this segment, the vehicle is driving on a road with buildings on the left and trees and a fence on the right. A male pedestrian wearing light-colored clothing suddenly appears from behind a large truck on the left side and begins to cross the road. The pedestrian emerges from behind the obstruction with minimal warning time, creating a dangerous ghost probing situation.",
+    "actions": "The self-driving vehicle is maintaining a steady speed when the pedestrian suddenly appears. The vehicle immediately begins rapid deceleration in response to the unexpected pedestrian emergence from behind the truck. The driver takes evasive action to avoid collision.",
+    "key_objects": "1) Left side: A male pedestrian, approximately 30 years old wearing light-colored clothing, 3 meters away, suddenly emerging from behind a large truck and crossing the road. 2) Left side: A large truck, approximately 5 meters away, creating visual obstruction that hides the pedestrian until emergence.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

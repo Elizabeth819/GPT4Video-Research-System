@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several pedestrians, including a child, are walking and crossing the road inside a tunnel. The pedestrians are wearing various clothing. The driver is inside a car.",
+  "summary": "The vehicle is driving through a tunnel at night. Initially, several pedestrians are visible in the distance. As the vehicle progresses, a child suddenly appears in front of the car, causing the driver to brake hard to avoid a collision. The child is kneeling down in the middle of the road.",
+  "actions": "The vehicle initially maintains a speed of around 23-24 km/h while approaching the tunnel. As the vehicle enters the tunnel and pedestrians become visible, the driver maintains speed. Upon seeing a child kneeling in the road, the driver initiates hard braking, rapidly decelerating to avoid a collision. The driver stops the car completely.",
+  "key_objects": "1) Center: Child, close distance, kneeling in the road, causing immediate danger. 2) Center: Group of pedestrians, medium distance, walking in the road, posing a potential hazard.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

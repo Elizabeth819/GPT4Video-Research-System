@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_028",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area. The road ahead is clear with minimal traffic. The vehicle maintains a steady speed and direction throughout the segment.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, maintaining its lane and direction. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_028",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.6s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, Driver of a silver sedan",
+        "summary": "In this segment, the vehicle is driving on a city road. Initially, the road ahead is clear, but as the vehicle progresses, a black sedan on the left side and a silver sedan on the right side come into view. The black sedan appears to be moving into the lane from the left side, potentially causing a cut-in situation.",
+        "actions": "The self-driving vehicle maintains a consistent speed while approaching the intersection. As the black sedan on the left side moves closer to the lane, the vehicle prepares to decelerate to avoid a potential cut-in. The silver sedan on the right side is stationary and does not pose an immediate threat.",
+        "key_objects": "1) Left side: A black sedan, approximately 5 meters away, moving into the lane, potentially causing a cut-in. 2) Right side: A silver sedan, approximately 10 meters away, stationary and not posing an immediate threat.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

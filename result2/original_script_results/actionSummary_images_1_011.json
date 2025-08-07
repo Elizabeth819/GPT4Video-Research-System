@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_1_011",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "9.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-vehicle",
+        "summary": "In this segment, the vehicle is driving on a suburban road with light traffic. The road is clear with a few parked cars on the right side. The vehicle maintains a steady speed and lane position throughout the segment.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position. There are no sudden changes in speed or direction, indicating a calm driving environment.",
+        "key_objects": "1) Right side: A black car, approximately 10 meters away, parked and not posing any immediate threat. 2) Right side: A white car, approximately 15 meters away, parked and not posing any immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_011",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.6s",
+        "scene_theme": "Dramatic",
+        "characters": "Child, adult male",
+        "summary": "In this segment, a child suddenly runs from the right side of the road towards the left, emerging from behind a parked car. An adult male is seen opening the door of the parked car on the left side of the road. The child runs directly into the path of the observer vehicle, creating a potential collision situation.",
+        "actions": "The self-driving vehicle needs to decelerate rapidly to avoid a collision with the child who is running across the road. The vehicles speed should be reduced significantly to ensure safety.",
+        "key_objects": "1) Right side: A child, approximately 10 meters away, running across the road from right to left, emerging from behind a parked car. 2) Left side: An adult male, approximately 8 meters away, opening the door of a parked car, potentially creating an obstruction.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_018",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child in a blue jacket on the right side of the image, a pedestrian in a blue jacket with a backpack on the left side of the image, a man in a yellow shirt on the left side of the image.",
+  "summary": "The video sequence shows multiple instances of ghost probing behavior. In the first sequence, a child suddenly emerges from the right side of the image, darting into the driving lane from behind a parked vehicle. In the second sequence, a pedestrian with a backpack suddenly appears from the left side of the image, running into the driving lane from behind a parked vehicle. In the third sequence, a man in a yellow shirt suddenly emerges from the left side of the image, running into the driving lane from behind a parked vehicle.",
+  "actions": "The child, pedestrian, and man all suddenly appear from behind parked vehicles, creating immediate collision risks.",
+  "key_objects": "Parked vehicles on both sides of the road, a child, a pedestrian with a backpack, a man in a yellow shirt.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

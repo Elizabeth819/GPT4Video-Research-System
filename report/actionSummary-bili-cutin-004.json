@@ -1,0 +1,104 @@
+[
+    {
+        "video_id": "004",
+        "Start_Timestamp": "0.9666685165339866s",
+        "sentiment": "Negative",
+        "End_Timestamp": "9.666685165339866s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white Honda",
+        "summary": "In this segment, the white Honda car initially moves from the left lane to the middle lane. The driver initially thought the Honda was going to go straight at the upcoming intersection, but it turned out not to be the case. The Hondas movement was unexpected, possibly indicating an experienced driver could have anticipated this.",
+        "actions": "The white Honda car changes lanes from the left to the middle lane. The self-driving vehicle maintains a steady speed and lane position, observing the Hondas unexpected lane change.",
+        "key_objects": "1) Front-left: A white Honda, approximately 10 meters away, changing lanes from the left to the middle lane, potentially causing confusion. 2) Front-right: A red bus, approximately 15 meters away, maintaining its lane and speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "White Honda car, multiple vehicles in left lane",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road. The left lane is designated for left turns, and many vehicles are queued up in that lane. A white Honda car ahead is seen changing lanes from the left turn lane into the straight lane, attempting to cut in front of the self-driving vehicle. The Hondas purpose is to bypass the queue of left-turning vehicles.",
+        "actions": "The self-driving vehicle is maintaining its lane and speed while observing the white Honda cars lane change. The Honda car is attempting to cut in from the left turn lane to the straight lane, which could potentially cause a collision if not managed carefully.",
+        "key_objects": "1) Front-left: A white Honda car, approximately 5 meters away, changing lanes from the left turn lane to the straight lane, attempting to cut in front of the self-driving vehicle. 2) Left side: Multiple vehicles, approximately 10 meters away, queued up in the left turn lane, waiting to turn left.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "20.3s",
+        "sentiment": "Negative",
+        "End_Timestamp": "29.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a red bus, driver of a black car",
+        "summary": "In this segment, the white sedan attempts to cut into the left lane but fails to do so. The driver of the white sedan tries to return to the left lane but ends up colliding with the black car that is waiting at the red light. The red bus is also present in the left lane, moving forward slowly.",
+        "actions": "The white sedan attempts to cut into the left lane but fails, resulting in a collision with the black car waiting at the red light. The red bus continues to move forward slowly in the left lane. The white sedans attempt to cut in was unsuccessful and led to an accident.",
+        "key_objects": "1) Front-left: A black car, approximately 2 meters away, waiting at the red light, collided with the white sedan. 2) Front: A red bus, approximately 5 meters away, moving slowly in the left lane.",
+        "key_actions": "cut-in, collision",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "29.96672401255358s",
+        "sentiment": "Negative",
+        "End_Timestamp": "38.66674066135946s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a bus",
+        "summary": "In this segment, the vehicle is driving on a city road. The bus ahead is moving straight, and the driver mentions that the bus driver is changing lanes to the left at the intersection. The bus continues to move left, and a black car on the left side also moves forward. The bus driver is blamed for the incident.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the bus ahead changing lanes to the left. The bus driver is changing lanes at the intersection, which is mentioned as a risky maneuver. The self-driving vehicle keeps a safe distance from the bus and the black car on the left.",
+        "key_objects": "1) Front: A bus, approximately 10 meters away, moving left at the intersection, potentially causing a collision. 2) Left: A black car, approximately 5 meters away, moving forward in the adjacent lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "39.633s",
+        "sentiment": "Negative",
+        "End_Timestamp": "48.333s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black car",
+        "summary": "In this segment, the vehicle is approaching an intersection under an overpass. The driver comments on the responsibility of another driver who is changing lanes at the intersection. A white sedan is seen reversing on the right side of the road, possibly preparing to make a U-turn. The self-driving vehicle continues to move forward cautiously.",
+        "actions": "The self-driving vehicle is approaching an intersection and maintaining a cautious speed due to the presence of a reversing white sedan on the right side of the road. The driver is aware of the potential hazard and is likely preparing to take evasive action if necessary.",
+        "key_objects": "1) Right side: A white sedan, approximately 10 meters away, reversing and possibly preparing to make a U-turn, posing a potential hazard. 2) Front: A black car, approximately 5 meters away, changing lanes at the intersection, creating a potential risk.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "004",
+        "Start_Timestamp": "49.300s",
+        "sentiment": "Negative",
+        "End_Timestamp": "58.000s",
+        "scene_theme": "Dramatic",
+        "characters": "White sedan, white SUV",
+        "summary": "In this segment, the self-driving vehicle is approaching an intersection. A white sedan is seen ahead, and a white SUV is on the right side. As the self-driving vehicle moves forward, the white sedan starts moving without checking, causing a potential hazard. The self-driving vehicle continues straight, and the white SUV makes a right turn. Later, another white sedan makes a sudden left turn into the road, causing a scare.",
+        "actions": "The self-driving vehicle maintains a steady speed while approaching the intersection. The white sedan ahead starts moving without checking, creating a potential hazard. The self-driving vehicle continues straight, and the white SUV on the right makes a right turn. The self-driving vehicle then encounters another white sedan making a sudden left turn into the road, causing a scare.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, suddenly starts moving without checking, creating a potential hazard. 2) Right: A white SUV, approximately 3 meters away, makes a right turn. 3) Front-left: Another white sedan, approximately 10 meters away, makes a sudden left turn into the road, causing a scare.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

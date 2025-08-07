@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_045",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "11.3s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "None visible in immediate vicinity, only drivers within vehicles.",
+  "summary": "In this segment, the self-driving vehicle is navigating heavy, slow-moving traffic on a multi-lane urban road during daytime. A prominent metal barrier runs along the left side of the road, separating the main traffic lanes from an adjacent area or side road. Initially, the view to the left of this barrier is partially obscured by the barrier itself and other vehicles. Around the 8-second mark, a white SUV suddenly emerges from behind this metal barrier and other vehicles on the left side, attempting to merge or turn right into the lane directly ahead of the self-driving vehicle. This sudden appearance from a visually obstructed area creates an immediate potential collision risk, characteristic of a vehicle ghost probing incident.",
+  "actions": "The self-driving vehicle is initially in a state of slow movement or stopped, consistent with heavy traffic conditions. As the white SUV unexpectedly emerges from the left side, entering the vehicle's path, the self-driving system would initiate deceleration or maintain a stopped position to avoid a collision. The vehicle's action is a direct response to the sudden appearance of the SUV from a blind spot, prioritizing safety by reducing speed or remaining stationary to allow the merging vehicle to clear the path.",
+  "key_objects": "1) Left side: A white SUV, approximately 5-10 meters away, suddenly emerging from behind a metal barrier and other vehicles, moving into the vehicle's intended path. 2) Left side: A metal barrier, extending along the left side of the road, acting as a significant visual obstruction that hides the approaching white SUV until its emergence. 3) Right side: A black sedan, approximately 2-5 meters away, in the adjacent lane, also in slow-moving traffic.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

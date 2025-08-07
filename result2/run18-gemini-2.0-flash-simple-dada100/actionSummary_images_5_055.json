@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_055",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene features a driver in a car, pedestrians, and other vehicles. The pedestrian in the first few frames is a young adult, wearing a pink shirt and carrying a bag. Later frames show pedestrians interacting near parked cars. The final frames show a man on a scooter.",
+  "summary": "The video starts with the car driving on a road with parked cars on both sides. A pedestrian crosses the road from left to right in front of the car. The car then proceeds to an intersection where several cars are parked and people are standing around them. The car then turns right onto a main road, where a man on a scooter is in front of the car.",
+  "actions": "The vehicle initially drives slowly down a street with parked cars. The driver slows down to allow a pedestrian to cross the road. The vehicle then proceeds to an intersection and slows down further due to the presence of parked cars and pedestrians. The vehicle then turns right onto a main road and accelerates.",
+  "key_objects": "1) Left: Pedestrian crossing the road, medium distance, causes the driver to slow down. 2) Left and Right: Parked cars, short distance, obstruct the view and require the driver to proceed with caution. 3) Front: Man on a scooter, short distance, requires the driver to maintain a safe following distance.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

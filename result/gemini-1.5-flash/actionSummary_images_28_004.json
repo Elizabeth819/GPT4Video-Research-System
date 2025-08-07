@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_28_004",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a dimly lit urban road at night. A white sedan is visible ahead, moving slowly. The driver mentions that the tricycle ahead had yielded, but a collision still occurred.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the white sedan ahead. Over the past 10 seconds, the vehicles speed has remained consistent, maintaining a safe distance from the vehicle ahead.",
+        "key_objects": "1) Front: A white sedan, relatively close, approximately 20 meters away, moving slowly. 2) Left side: A yellow tricycle, approximately 5 meters away, moving forward. 3) Right side: A white car, approximately 3 meters away, parked and blocking the view.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "video_id": "dada_27_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a relatively empty road.  The road is straight with trees and fences lining the sides.  The weather appears overcast. There are no pedestrians or cyclists visible in the frames provided. The car in front is maintaining a consistent distance from the observer vehicle. No unusual or dangerous events occur within the observed 5-second segment.",
+        "actions": "The observer vehicle maintains a steady speed and follows the car in front at a safe distance.  There are no lane changes or braking observed. The vehicle's actions suggest a consistent and safe driving pattern.",
+        "next_action": {
+            "speed_control": "maintain_speed",
+            "direction_control": "straight",
+            "lane_control": "keep_lane"
+        }
+    },
+    {
+        "video_id": "dada_27_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "White car",
+                "distance": "5 meters",
+                "behavior or action impacting the vehicle": "Suddenly turning left from the right lane, cutting into the path of the ego vehicle."
+            }
+        ],
+        "key_actions": "cut-in",
+        "characters": [],
+        "summary": "The video shows a white car suddenly cutting in front of the ego vehicle from the right lane. The white car was initially behind the ego vehicle and then made a sharp left turn, significantly reducing the distance between the two vehicles. This action could have resulted in a collision if the ego vehicle had not reacted quickly enough. The cut-in maneuver was abrupt and unexpected, posing a significant safety hazard.",
+        "actions": "The ego vehicle maintains a steady speed and keeps a safe following distance from the car in front.  The driver is alert and reacts appropriately to the sudden cut-in by the white car, maintaining control and avoiding a collision.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right in this lane"
+        }
+    },
+    {
+        "video_id": "dada_27_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows the observer vehicle following a dark-colored sedan as it navigates a gentle curve to the right.  The road is relatively clear with no pedestrians or other vehicles immediately obstructing the path. The speed of both vehicles appears moderate and consistent throughout the sequence. No unusual or dangerous events occur during this segment.",
+        "actions": "The observer vehicle maintains a safe following distance behind the preceding dark-colored sedan. The vehicle smoothly follows the curve of the road, adjusting speed to maintain a safe distance and navigate the turn.  There is no indication of braking or acceleration beyond what is necessary for normal driving conditions.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "continue_turn",
+            "lane_control": "keep_right"
+        }
+    },
+    {
+        "video_id": "dada_27_001",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "15.5s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a relatively empty road. The road appears to be straight with a slight curve ahead.  The weather seems overcast. There are no pedestrians or other vehicles immediately visible that pose an immediate threat. The car maintains a steady speed throughout the 5-second segment.",
+        "actions": "The vehicle maintains a consistent speed and direction, suggesting a straightforward driving scenario. There are no observable changes in speed or direction that would indicate any immediate need for braking or maneuvering. The driver appears to be proceeding cautiously and maintaining a safe distance from the road's edge.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "continue straight",
+            "lane_control": "keep right"
+        }
+    }
+]

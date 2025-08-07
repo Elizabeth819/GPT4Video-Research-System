@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_5_034",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is approaching a gated entrance. Initially, the gate is closed, but it starts to open in the second frame. In the final frame, a person is seen crossing the road from the left side, potentially causing a sudden need for braking.",
+        "actions": "The self-driving vehicle is approaching a gated entrance. The gate starts to open, indicating the vehicle might need to slow down or stop to wait for the gate to fully open. In the final frame, a person is crossing the road from the left side, which might require the vehicle to decelerate or stop to avoid a collision.",
+        "key_objects": "1) Front: A gate, initially closed, approximately 10 meters away, opening slowly. 2) Left side: A person, approximately 15 meters away, crossing the road towards the right side, potentially causing the vehicle to decelerate or stop.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_034",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Urban Night",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road at night. The traffic lights are green, and there are several vehicles and individuals visible on the road. The vehicle is maintaining a steady speed and lane position.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, maintaining its lane position. The driver is likely monitoring the surroundings for any sudden movements or obstacles.",
+        "key_objects": "1) Left side: A motorcycle, approximately 5 meters away, moving forward. 2) Front: Multiple vehicles, approximately 20 meters away, moving forward. 3) Right side: A pedestrian, approximately 10 meters away, standing near the sidewalk.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_034",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "11.6s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a well-lit urban road at night. The road is marked with clear lane indicators. At 10.0s, a motorcycle suddenly appears from the left side, moving quickly across the vehicles path. By 10.8s, the motorcycle has moved out of the frame, and the road ahead is clear. At 11.6s, the vehicle continues to drive straight, maintaining its lane.",
+        "actions": "The self-driving vehicle likely decelerated rapidly at 10.0s to avoid a collision with the motorcycle that suddenly appeared from the left side. The vehicle then maintained a consistent speed driving from 10.8s to 11.6s as the road ahead was clear.",
+        "key_objects": "1) Left side: A motorcycle, approximately 2 meters away, moving quickly across the vehicles path, causing the vehicle to decelerate rapidly.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

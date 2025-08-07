@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_40_010",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "3.3s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Motorcyclist, white SUV, white van",
+        "summary": "In this segment, the vehicle is driving on an urban road. A motorcyclist is seen ahead, moving in the same direction. A white SUV is approaching from the left side, and a white van is parked on the left side of the road.",
+        "actions": "The self-driving vehicle maintains a steady speed while navigating through the urban road. The vehicle keeps a safe distance from the motorcyclist ahead and monitors the white SUV approaching from the left.",
+        "key_objects": "1) Front: A motorcyclist, approximately 10 meters away, moving in the same direction. 2) Left side: A white SUV, approximately 15 meters away, approaching from the left lane. 3) Left side: A white van, approximately 20 meters away, parked on the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_010",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. A motorcyclist is seen ahead, moving from the left side to the right side of the road. The white sedan is parked on the left side of the road in the first frame and starts moving in the last frame.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the motorcyclist. The vehicles speed remains steady as it navigates through the urban road, keeping a safe distance from the motorcyclist ahead.",
+        "key_objects": "1) Front: A motorcyclist, approximately 10 meters away, moving from left to right side of the road. 2) Left side: A white sedan, approximately 5 meters away, parked initially and then starts moving in the last frame.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_010",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Multiple vehicles and motorcycles",
+        "summary": "In this segment, the vehicle is driving on an urban road with multiple vehicles and motorcycles around. The traffic is moderate, and the vehicle maintains a steady speed. There are no sudden movements or dangerous behaviors observed.",
+        "actions": "The self-driving vehicle maintains a steady speed and keeps a safe distance from the vehicles ahead. The vehicle is driving straight without any sudden changes in direction or speed.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, driving straight. 2) Left side: Multiple motorcycles, approximately 10 meters away, driving straight. 3) Right side: A white car, approximately 15 meters away, driving straight.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

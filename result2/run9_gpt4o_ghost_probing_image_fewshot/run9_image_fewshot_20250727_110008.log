@@ -1,0 +1,50 @@
+2025-07-27 11:00:08,180 - INFO - Run 9: GPT-4o Ghost Probing Detection with Image Few-shot Learning (100 Videos) 开始
+2025-07-27 11:00:08,180 - INFO - Azure OpenAI API配置成功
+2025-07-27 11:00:08,180 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-27 11:00:08,180 - INFO - Deployment: gpt-4o-global
+2025-07-27 11:00:08,180 - INFO - Temperature: 0, Enhanced with Text + Image Few-shot Examples
+2025-07-27 11:00:08,184 - INFO - 加载ground truth标签: 101个视频
+2025-07-27 11:00:08,218 - INFO - 成功加载 14 张few-shot示例图片
+2025-07-27 11:00:08,218 - INFO - Ghost Probing序列: 6张
+2025-07-27 11:00:08,218 - INFO - Lower Barrier示例: 6张
+2025-07-27 11:00:08,218 - INFO - Red Truck示例: 2张
+2025-07-27 11:00:08,218 - INFO - 开始Run 9测试实验，处理 5 个视频
+2025-07-27 11:00:08,218 - INFO - 图像few-shot加载状态:
+2025-07-27 11:00:08,218 - INFO -   - Ghost Probing序列: 6 张
+2025-07-27 11:00:08,218 - INFO -   - Lower Barrier示例: 6 张
+2025-07-27 11:00:08,218 - INFO -   - Red Truck示例: 2 张
+2025-07-27 11:00:08,218 - INFO -   - 总计: 14 张
+2025-07-27 11:00:08,218 - INFO - 处理测试视频 1/5: images_1_001.avi
+2025-07-27 11:00:08,219 - INFO - 开始分析 images_1_001.avi，预期标签: none
+2025-07-27 11:00:31,335 - INFO - ✅ 分析完成: images_1_001.avi
+2025-07-27 11:00:31,335 - INFO -    GT=none, 检测=ghost probing, 评估=FP
+2025-07-27 11:00:31,335 - INFO - 处理测试视频 2/5: images_1_002.avi
+2025-07-27 11:00:31,336 - INFO - 开始分析 images_1_002.avi，预期标签: 5s: ghost probing
+2025-07-27 11:00:54,928 - INFO - ✅ 分析完成: images_1_002.avi
+2025-07-27 11:00:54,928 - INFO -    GT=5s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-27 11:00:54,928 - INFO - 处理测试视频 3/5: images_1_003.avi
+2025-07-27 11:00:54,931 - INFO - 开始分析 images_1_003.avi，预期标签: 2s: ghost probing
+2025-07-27 11:01:17,989 - INFO - ✅ 分析完成: images_1_003.avi
+2025-07-27 11:01:17,989 - INFO -    GT=2s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-27 11:01:17,989 - INFO - 处理测试视频 4/5: images_1_004.avi
+2025-07-27 11:01:17,991 - INFO - 开始分析 images_1_004.avi，预期标签: none
+2025-07-27 11:01:39,855 - INFO - ✅ 分析完成: images_1_004.avi
+2025-07-27 11:01:39,855 - INFO -    GT=none, 检测=ghost probing, 评估=FP
+2025-07-27 11:01:39,855 - INFO - 处理测试视频 5/5: images_1_005.avi
+2025-07-27 11:01:39,856 - INFO - 开始分析 images_1_005.avi，预期标签: 8s: ghost probing
+2025-07-27 11:02:02,433 - INFO - ✅ 分析完成: images_1_005.avi
+2025-07-27 11:02:02,433 - INFO -    GT=8s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-27 11:02:02,434 - INFO - 测试结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run9_gpt4o_ghost_probing_image_fewshot/run9_test_results_20250727_110008.json
+2025-07-27 11:02:02,434 - INFO - === Run 9 Test Results (5 Videos) ===
+2025-07-27 11:02:02,434 - INFO - 成功处理: 5 个视频
+2025-07-27 11:02:02,434 - INFO - 错误数量: 0 个
+2025-07-27 11:02:02,434 - INFO - 精确度: 0.600 (60.0%)
+2025-07-27 11:02:02,434 - INFO - 召回率: 1.000 (100.0%)
+2025-07-27 11:02:02,434 - INFO - F1分数: 0.750 (75.0%)
+2025-07-27 11:02:02,434 - INFO - 准确率: 0.600 (60.0%)
+2025-07-27 11:02:02,434 - INFO - TP: 3, FP: 2, TN: 0, FN: 0
+2025-07-27 11:02:02,434 - INFO - 使用图像few-shot示例: 14 张
+2025-07-27 11:02:02,434 - INFO - === Few-shot Images Status ===
+2025-07-27 11:02:02,434 - INFO - Ghost Probing: 6 张 - ['frame_at_26s.jpg', 'frame_at_27s.jpg', 'frame_at_28s.jpg', 'frame_at_29s.jpg', 'frame_at_30s.jpg', 'frame_at_31s.jpg']
+2025-07-27 11:02:02,435 - INFO - Lower Barrier: 6 张 - ['lowerbar_1s.jpg', 'lowerbar_3s.jpg', 'lowerbar_5s.jpg', 'lowerbar_7s.jpg', 'lowerbar_8s.jpg', 'lowerbar_9s.jpg']
+2025-07-27 11:02:02,435 - INFO - Red Truck: 2 张 - ['redtruck-32s.png', 'redtruck-33s.png']

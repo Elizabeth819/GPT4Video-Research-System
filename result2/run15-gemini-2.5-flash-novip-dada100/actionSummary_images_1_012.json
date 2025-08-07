@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_012",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "Two pedestrians, one male wearing a dark jacket and light pants, and one female wearing a dark coat and light pants, are seen crossing the road from the right side. Other pedestrians are visible on the right sidewalk further down the road.",
+  "summary": "The video segment captures a vehicle driving on a multi-lane urban street with parked cars lining both sides. The weather is clear and sunny. As the vehicle proceeds, two pedestrians suddenly emerge from behind a white SUV parked on the right side of the road (around 1.0s-2.0s), directly entering the vehicle's path. This sudden appearance from behind a significant visual obstruction creates an immediate hazardous situation, requiring the driver to react quickly to avoid a potential collision. The vehicle appears to slow down to allow the pedestrians to cross safely, navigating through moderate traffic.",
+  "actions": "The vehicle is initially moving forward at a moderate speed in the central lane. Upon the sudden appearance of two pedestrians from behind a parked white SUV on the right side of the road (specifically visible from Frame 2 at 1.0s), the driver initiates deceleration. This action is taken to reduce speed and provide sufficient time and distance to react to the unexpected obstruction in the vehicle's path, prioritizing the safety of the pedestrians and preventing a collision. The vehicle continues to slow down as the pedestrians cross the lane, demonstrating a cautious response to the unfolding hazard.",
+  "key_objects": "1) Right side: A white SUV, parked, serving as a significant physical obstruction that blocks the driver's view of the sidewalk. 2) Right side, emerging from behind the white SUV: Two pedestrians (one male, one female), suddenly stepping into the vehicle's path from behind the obstruction, creating an immediate danger of collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

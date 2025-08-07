@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_38_030",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Pedestrian, car ahead",
+        "summary": "In this segment, the vehicle is approaching a gated entrance of a building complex. Initially, the gate is closed, and the vehicle is stationary. As the gate opens, a pedestrian appears from the left side and starts crossing the road. A white car is visible ahead, parked on the right side of the road.",
+        "actions": "The vehicle is stationary at the beginning as the gate is closed. As the gate opens, the vehicle starts moving forward slowly. The vehicle maintains a slow speed to allow the pedestrian to cross safely.",
+        "key_objects": "1) Left side: A pedestrian, approximately 5 meters away, crossing the road from left to right. 2) Front: A white car, approximately 20 meters away, parked on the right side of the road.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_38_030",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a white sedan, truck driver",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. Ahead, a white sedan is moving in the same direction, and a large truck is on the left side. The road is clear with no visible obstacles.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The white sedan ahead is moving steadily, and the truck on the left is also maintaining its lane without any sudden movements.",
+        "key_objects": "1) Front: A white sedan, approximately 15 meters away, moving steadily in the same direction. 2) Left side: A large truck, approximately 5 meters away, maintaining its lane position.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_38_030",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.8s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road approaching an intersection. Ahead, a white sedan is moving from the left lane to the right lane, potentially cutting in front of the observer vehicle. The traffic light is green, and there are other vehicles visible in the distance.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the intersection. The driver is likely monitoring the white sedans movement to ensure it does not cut in abruptly.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving from the left lane to the right lane, potentially cutting in front of the observer vehicle. 2) Left side: A truck, approximately 15 meters away, stationary and not posing immediate threat.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

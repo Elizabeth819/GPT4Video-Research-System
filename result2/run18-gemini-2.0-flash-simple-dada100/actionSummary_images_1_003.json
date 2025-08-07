@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver navigating a road at night. There are pedestrians and other vehicles present. A woman in a pink jacket is helping a child in the middle of the road.",
+  "summary": "The vehicle is driving on a road at night. Initially, the road appears relatively clear, but as the video progresses, a woman and child appear in the middle of the road, seemingly after an accident involving a parked white car on the right side of the road. The woman is wearing a pink jacket and is helping the child. The driver needs to react quickly to avoid hitting them.",
+  "actions": "The vehicle is initially driving at a moderate speed. As the woman and child become visible in the road, the driver will need to brake to avoid a collision. The driver is maintaining their lane until the obstruction appears.",
+  "key_objects": "1) Right: Parked white car, medium distance, potential obstruction. 2) Center: Woman in pink jacket and child, short distance, immediate collision risk.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

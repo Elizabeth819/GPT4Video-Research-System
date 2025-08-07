@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_6_012",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a blue tricycle",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a blue tricycle is moving steadily. The driver mentions that the tricycle ahead is maintaining a consistent speed and direction.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the blue tricycle ahead. Over the past 10 seconds, the vehicles speed has remained steady, keeping a safe distance from the tricycle.",
+        "key_objects": "1) Front: A blue tricycle, approximately 5 meters away, moving steadily. 2) Right: A red motorcycle, approximately 3 meters away, moving parallel to the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

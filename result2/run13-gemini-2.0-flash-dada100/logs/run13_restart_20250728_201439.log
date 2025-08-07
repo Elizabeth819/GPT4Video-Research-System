@@ -1,0 +1,121 @@
+2025-07-28 20:14:39,053 - INFO - Run 13 Restart Analysis Started - 20250728_201439
+2025-07-28 20:14:39,053 - INFO - Gemini 2.0 Flash model initialized: AIzaSyBF40...
+2025-07-28 20:14:39,053 - INFO - DADA-100 videos directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos
+2025-07-28 20:14:39,053 - INFO - Output directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100
+2025-07-28 20:14:39,054 - INFO - Found 28 remaining videos to process
+2025-07-28 20:14:39,054 - INFO - Already processed: 73 videos
+2025-07-28 20:14:39,054 - INFO - Restarting to process 28 remaining videos
+2025-07-28 20:14:39,067 - INFO - Analyzing video: images_5_028
+2025-07-28 20:14:39,578 - INFO - API call attempt 1/5 for images_5_028
+2025-07-28 20:14:59,985 - INFO - Successfully analyzed images_5_028
+2025-07-28 20:15:00,018 - INFO - Saved result for images_5_028
+2025-07-28 20:15:03,024 - INFO - Analyzing video: images_5_029
+2025-07-28 20:15:03,594 - INFO - API call attempt 1/5 for images_5_029
+2025-07-28 20:15:19,591 - INFO - Successfully analyzed images_5_029
+2025-07-28 20:15:19,619 - INFO - Saved result for images_5_029
+2025-07-28 20:15:22,624 - INFO - Analyzing video: images_5_030
+2025-07-28 20:15:23,265 - INFO - API call attempt 1/5 for images_5_030
+2025-07-28 20:15:41,049 - INFO - Successfully analyzed images_5_030
+2025-07-28 20:15:41,060 - INFO - Saved result for images_5_030
+2025-07-28 20:15:44,065 - INFO - Analyzing video: images_5_031
+2025-07-28 20:15:44,402 - INFO - API call attempt 1/5 for images_5_031
+2025-07-28 20:15:56,308 - INFO - Successfully analyzed images_5_031
+2025-07-28 20:15:56,314 - INFO - Saved result for images_5_031
+2025-07-28 20:15:59,320 - INFO - Analyzing video: images_5_032
+2025-07-28 20:15:59,894 - INFO - API call attempt 1/5 for images_5_032
+2025-07-28 20:16:17,301 - INFO - Successfully analyzed images_5_032
+2025-07-28 20:16:17,314 - INFO - Saved result for images_5_032
+2025-07-28 20:16:20,321 - INFO - Analyzing video: images_5_033
+2025-07-28 20:16:20,716 - INFO - API call attempt 1/5 for images_5_033
+2025-07-28 20:16:30,014 - INFO - Successfully analyzed images_5_033
+2025-07-28 20:16:30,026 - INFO - Saved result for images_5_033
+2025-07-28 20:16:33,032 - INFO - Analyzing video: images_5_034
+2025-07-28 20:16:33,640 - INFO - API call attempt 1/5 for images_5_034
+2025-07-28 20:16:50,328 - INFO - Successfully analyzed images_5_034
+2025-07-28 20:16:50,349 - INFO - Saved result for images_5_034
+2025-07-28 20:16:53,356 - INFO - Analyzing video: images_5_035
+2025-07-28 20:16:56,957 - INFO - API call attempt 1/5 for images_5_035
+2025-07-28 20:17:10,030 - INFO - Successfully analyzed images_5_035
+2025-07-28 20:17:10,045 - INFO - Saved result for images_5_035
+2025-07-28 20:17:13,051 - INFO - Analyzing video: images_5_036
+2025-07-28 20:17:16,493 - INFO - API call attempt 1/5 for images_5_036
+2025-07-28 20:17:25,788 - INFO - Successfully analyzed images_5_036
+2025-07-28 20:17:25,793 - INFO - Saved result for images_5_036
+2025-07-28 20:17:28,799 - INFO - Analyzing video: images_5_037
+2025-07-28 20:17:32,239 - INFO - API call attempt 1/5 for images_5_037
+2025-07-28 20:17:40,851 - INFO - Successfully analyzed images_5_037
+2025-07-28 20:17:40,864 - INFO - Saved result for images_5_037
+2025-07-28 20:17:43,869 - INFO - Analyzing video: images_5_038
+2025-07-28 20:17:44,614 - INFO - API call attempt 1/5 for images_5_038
+2025-07-28 20:17:58,031 - INFO - Successfully analyzed images_5_038
+2025-07-28 20:17:58,045 - INFO - Saved result for images_5_038
+2025-07-28 20:18:01,046 - INFO - Analyzing video: images_5_039
+2025-07-28 20:18:01,578 - INFO - API call attempt 1/5 for images_5_039
+2025-07-28 20:18:14,769 - INFO - Successfully analyzed images_5_039
+2025-07-28 20:18:14,793 - INFO - Saved result for images_5_039
+2025-07-28 20:18:17,795 - INFO - Analyzing video: images_5_040
+2025-07-28 20:18:18,402 - INFO - API call attempt 1/5 for images_5_040
+2025-07-28 20:18:34,514 - INFO - Successfully analyzed images_5_040
+2025-07-28 20:18:34,569 - INFO - Saved result for images_5_040
+2025-07-28 20:18:37,575 - INFO - Analyzing video: images_5_041
+2025-07-28 20:18:41,001 - INFO - API call attempt 1/5 for images_5_041
+2025-07-28 20:18:50,405 - INFO - Successfully analyzed images_5_041
+2025-07-28 20:18:50,417 - INFO - Saved result for images_5_041
+2025-07-28 20:18:53,420 - INFO - Analyzing video: images_5_042
+2025-07-28 20:18:53,837 - INFO - API call attempt 1/5 for images_5_042
+2025-07-28 20:19:16,135 - INFO - Successfully analyzed images_5_042
+2025-07-28 20:19:16,149 - INFO - Saved result for images_5_042
+2025-07-28 20:19:19,155 - INFO - Analyzing video: images_5_043
+2025-07-28 20:19:19,824 - INFO - API call attempt 1/5 for images_5_043
+2025-07-28 20:19:35,599 - INFO - Successfully analyzed images_5_043
+2025-07-28 20:19:35,625 - INFO - Saved result for images_5_043
+2025-07-28 20:19:38,631 - INFO - Analyzing video: images_5_044
+2025-07-28 20:19:42,077 - INFO - API call attempt 1/5 for images_5_044
+2025-07-28 20:20:05,987 - INFO - Successfully analyzed images_5_044
+2025-07-28 20:20:06,000 - INFO - Saved result for images_5_044
+2025-07-28 20:20:09,003 - INFO - Analyzing video: images_5_045
+2025-07-28 20:20:09,614 - INFO - API call attempt 1/5 for images_5_045
+2025-07-28 20:20:25,341 - INFO - Successfully analyzed images_5_045
+2025-07-28 20:20:25,365 - INFO - Saved result for images_5_045
+2025-07-28 20:20:28,371 - INFO - Analyzing video: images_5_046
+2025-07-28 20:20:28,742 - INFO - API call attempt 1/5 for images_5_046
+2025-07-28 20:20:38,775 - INFO - Successfully analyzed images_5_046
+2025-07-28 20:20:38,781 - INFO - Saved result for images_5_046
+2025-07-28 20:20:41,786 - INFO - Analyzing video: images_5_047
+2025-07-28 20:20:42,224 - INFO - API call attempt 1/5 for images_5_047
+2025-07-28 20:20:54,144 - INFO - Successfully analyzed images_5_047
+2025-07-28 20:20:54,164 - INFO - Saved result for images_5_047
+2025-07-28 20:20:57,170 - INFO - Analyzing video: images_5_048
+2025-07-28 20:21:00,777 - INFO - API call attempt 1/5 for images_5_048
+2025-07-28 20:21:13,002 - INFO - Successfully analyzed images_5_048
+2025-07-28 20:21:13,013 - INFO - Saved result for images_5_048
+2025-07-28 20:21:16,019 - INFO - Analyzing video: images_5_049
+2025-07-28 20:21:19,453 - INFO - API call attempt 1/5 for images_5_049
+2025-07-28 20:21:29,590 - INFO - Successfully analyzed images_5_049
+2025-07-28 20:21:29,604 - INFO - Saved result for images_5_049
+2025-07-28 20:21:32,606 - INFO - Analyzing video: images_5_050
+2025-07-28 20:21:32,934 - INFO - API call attempt 1/5 for images_5_050
+2025-07-28 20:21:44,921 - INFO - Successfully analyzed images_5_050
+2025-07-28 20:21:44,930 - INFO - Saved result for images_5_050
+2025-07-28 20:21:47,935 - INFO - Analyzing video: images_5_051
+2025-07-28 20:21:48,378 - INFO - API call attempt 1/5 for images_5_051
+2025-07-28 20:21:59,802 - INFO - Successfully analyzed images_5_051
+2025-07-28 20:21:59,806 - INFO - Saved result for images_5_051
+2025-07-28 20:22:02,812 - INFO - Analyzing video: images_5_052
+2025-07-28 20:22:06,185 - INFO - API call attempt 1/5 for images_5_052
+2025-07-28 20:22:14,809 - INFO - Successfully analyzed images_5_052
+2025-07-28 20:22:14,816 - INFO - Saved result for images_5_052
+2025-07-28 20:22:17,823 - INFO - Analyzing video: images_5_053
+2025-07-28 20:22:21,282 - INFO - API call attempt 1/5 for images_5_053
+2025-07-28 20:22:42,101 - INFO - Successfully analyzed images_5_053
+2025-07-28 20:22:42,116 - INFO - Saved result for images_5_053
+2025-07-28 20:22:45,122 - INFO - Analyzing video: images_5_054
+2025-07-28 20:22:48,754 - INFO - API call attempt 1/5 for images_5_054
+2025-07-28 20:23:05,879 - INFO - Successfully analyzed images_5_054
+2025-07-28 20:23:05,892 - INFO - Saved result for images_5_054
+2025-07-28 20:23:08,898 - INFO - Analyzing video: images_5_055
+2025-07-28 20:23:09,513 - INFO - API call attempt 1/5 for images_5_055
+2025-07-28 20:23:26,351 - INFO - Successfully analyzed images_5_055
+2025-07-28 20:23:26,367 - INFO - Saved result for images_5_055
+2025-07-28 20:23:29,376 - INFO - Restart analysis completed! Processed: 28, Failed: 0
+2025-07-28 20:23:29,376 - INFO - Summary saved to: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100/run13_restart_summary_20250728_201439.json

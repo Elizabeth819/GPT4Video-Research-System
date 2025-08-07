@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_3_001",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Street",
+    "characters": "Multiple motorcyclists and a driver of a car.",
+    "summary": "The video shows a car driving down a city street with moderate traffic.  Several motorcyclists are visible, some traveling in the same direction as the car, others parked along the roadside.  The traffic flow is relatively consistent, with no sudden stops or significant changes in speed observed during the 10-second segment. No pedestrians are observed crossing the road.  The road is clear of major obstacles, though parked vehicles are present on both sides of the street. The weather appears sunny.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment.  The vehicle's speed appears moderate, appropriate for the urban environment and traffic conditions.  No braking or acceleration is noticeably observed. The vehicle navigates the road smoothly, adjusting its speed subtly to maintain a safe distance from other vehicles.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_3_001",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "16.3s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of a car, several other vehicles, a cyclist, and pedestrians.",
+    "summary": "The video shows a car driving down a city street.  The road is relatively clear, with parked cars on the right side. There is a consistent flow of traffic in the same direction as the self-driving vehicle. A cyclist is visible on the right side of the road, and several pedestrians are walking on the sidewalks.  The self-driving vehicle maintains a steady speed and distance from the vehicles ahead. No sudden or erratic movements are observed from other vehicles or pedestrians. The overall driving conditions appear safe and predictable.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the segment.  The vehicle smoothly navigates the road, adjusting speed slightly to maintain a safe following distance from the car ahead. There are no observable braking or acceleration maneuvers beyond those necessary for maintaining a safe following distance and navigating the flow of traffic.",
+    "key_objects": "None",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

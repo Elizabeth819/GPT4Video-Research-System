@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene features a driver in a vehicle, pedestrians of varying ages and genders, and other vehicles on the road. The pedestrians are dressed in casual clothing. There is a child with a stick. There is a man crossing the road.",
+  "summary": "The vehicle starts driving on a road with buildings on either side. Other vehicles are visible in the distance. A pedestrian is walking on the right side of the road. A child suddenly appears in the road with a stick. The vehicle then continues driving, and a man crosses the road in front of the vehicle.",
+  "actions": "The vehicle initially maintains a steady speed. When the child appears in the road, the driver likely brakes to avoid a collision. The vehicle then resumes driving at a slower speed, possibly due to the presence of pedestrians and other vehicles. The driver is driving at a slower speed to avoid the man crossing the road.",
+  "key_objects": "1) Center: Child with stick, close distance, causes immediate danger. 2) Right: Man crossing the road, medium distance, causes potential danger.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

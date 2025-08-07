@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_034",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene takes place at night. The main characters are the driver of the vehicle equipped with the dashcam, a scooter rider in front of the vehicle, and pedestrians on the right side of the road. The scooter rider is wearing dark clothing. The pedestrians appear to be of various ages and are dressed in casual attire.",
+  "summary": "The video shows a vehicle approaching an intersection at night. Initially, the traffic light is red, and a scooter is stopped in front of the vehicle at the crosswalk. As the video progresses, the traffic light turns green, and the scooter proceeds through the intersection. Simultaneously, pedestrians are visible on the right side of the road, waiting to cross. The vehicle then proceeds through the intersection after the scooter.",
+  "actions": "The vehicle initially stops at the intersection due to the red traffic light. The vehicle remains stationary until the light turns green. Once the light changes, the vehicle begins to accelerate and proceeds straight through the intersection, following the scooter in front. The vehicle maintains its lane and adjusts its speed according to the traffic light and the movement of the scooter.",
+  "key_objects": "1) Left: Scooter, close distance, proceeds through the intersection after the light turns green, influencing the vehicle's acceleration. 2) Right: Pedestrians, medium distance, waiting to cross the street, potentially influencing the driver's awareness and speed.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

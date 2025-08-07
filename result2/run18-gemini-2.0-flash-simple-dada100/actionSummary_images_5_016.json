@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_016",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car approaching an intersection. There are pedestrians near parked cars on the left side of the road. A person on a scooter is approaching from the right side of the road.",
+  "summary": "The vehicle approaches an intersection. Initially, pedestrians are near parked cars on the left. A scooter emerges from behind a building on the right, creating a potential ghost probing situation as it enters the driver's path.",
+  "actions": "The vehicle is initially moving forward at a constant speed. As the scooter appears from behind the building on the right, the driver likely initiates braking to avoid a collision.",
+  "key_objects": "1) Right: Scooter, medium distance, emerging from behind a building, creating a ghost probing situation. 2) Right: Building, medium distance, obstructing the view of the scooter until it emerges.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

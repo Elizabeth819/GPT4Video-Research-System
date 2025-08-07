@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a bicycle, appearing to be an adult female wearing a light-colored long-sleeved shirt, is seen riding a bicycle.",
+  "summary": "The video begins with the autonomous vehicle driving on a two-lane rural road under clear weather conditions. A blue van is observed ahead, moving in the same direction. As the vehicle progresses, the blue van pulls over to the right side of the road, partially obscured by roadside trees and a building. Subsequently, a green bus approaches from the opposite direction, passing the autonomous vehicle. Immediately after the bus passes, a person on a bicycle suddenly emerges from behind a large pile of sand and a building located on the left side of the road, darting directly into the vehicle's path, creating an immediate collision risk. The vehicle appears to take evasive action to avoid the cyclist.",
+  "actions": "Initially, the vehicle maintains a steady speed and keeps a straight direction, following a blue van ahead. The driver's decision to maintain speed is based on the clear road ahead and the presence of a vehicle (blue van) moving in the same direction, indicating a normal driving flow. As the blue van pulls over to the right, the vehicle continues to maintain its speed, as the path ahead appears clear. However, upon the sudden appearance of a cyclist from behind an obstruction on the left side of the road, the vehicle rapidly decelerates and likely initiates a slight turn to the right. This immediate and decisive action is taken to avoid a potential collision with the cyclist who unexpectedly entered the vehicle's path with minimal reaction time, prioritizing safety.",
+  "key_objects": "1) Left: A large pile of sand/dirt and a building, serving as a significant visual obstruction. 2) Left: A person on a bicycle, suddenly emerging from behind the aforementioned obstruction and entering the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "turn right",
+    "lane_control": "maintain current lane"
+  }
+}

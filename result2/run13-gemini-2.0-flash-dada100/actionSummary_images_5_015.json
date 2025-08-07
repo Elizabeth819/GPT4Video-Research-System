@@ -1,0 +1,27 @@
+{
+  "video_id": "images_5_015",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.5s",
+  "summary": "The self-driving car starts at a traffic light, which turns green at the beginning of the video. Initially, there is a silver car in front of the self-driving car. At timestamp 1.7s, a person on a green scooter appears from the left side of the road, crossing the road. The self-driving car continues to move forward, passing under a speed limit sign of 80. The weather appears to be overcast.",
+  "characters": [
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "green",
+      "age": "unknown",
+      "transportation_method": "scooter",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_objects": [
+    "Left side: A person on a green scooter, approximately 10 meters away, crossing the road, potentially causing the vehicle to decelerate."
+  ],
+  "actions": "The vehicle starts from a complete stop at a traffic light. The traffic light turns green, signaling the vehicle to proceed. The vehicle accelerates to match the speed of the silver car in front. The driver is following the road and maintaining a safe distance from the vehicle ahead.",
+  "next_action": {
+    "speed_control": "accelerating",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

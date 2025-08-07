@@ -1,0 +1,1395 @@
+{
+  "experiment_info": {
+    "timestamp": "2025-07-10_11-31-25",
+    "models_compared": "GP3S-V2-BALANCED (GPT-4o) vs Gemini-1.5-flash (REST API)",
+    "dataset": "DADA-2000 with ground truth",
+    "identical_prompts": true,
+    "identical_parameters": "interval=10s, max_frames=8",
+    "note": "Comprehensive comparison including both direct comparison and individual model performance"
+  },
+  "data_overview": {
+    "total_ground_truth_videos": 101,
+    "gpt4o_processed_videos": 88,
+    "gemini_processed_videos": 37,
+    "videos_with_both_results": 33,
+    "total_videos_with_any_result": 92,
+    "gpt4o_coverage_percentage": 87.13,
+    "gemini_coverage_percentage": 36.63
+  },
+  "direct_comparison": {
+    "videos_compared": 33,
+    "both_correct": 8,
+    "both_wrong": 10,
+    "gpt4o_better": 9,
+    "gemini_better": 6,
+    "both_correct_percentage": 24.24,
+    "gpt4o_better_percentage": 27.27,
+    "gemini_better_percentage": 18.18
+  },
+  "gpt4o_performance": {
+    "total_videos": 88,
+    "metrics": {
+      "accuracy": 42.04545454545455,
+      "precision": 48.484848484848484,
+      "recall": 66.66666666666666,
+      "f1_score": 56.14035087719298,
+      "true_positives": 32,
+      "false_positives": 33,
+      "false_negatives": 16,
+      "ghost_probing_gt": 48,
+      "ghost_probing_pred": 66,
+      "total_videos": 88
+    },
+    "direct_comparison_metrics": {
+      "accuracy": 51.515151515151516,
+      "precision": 55.55555555555556,
+      "recall": 78.94736842105263,
+      "f1_score": 65.21739130434781,
+      "true_positives": 15,
+      "false_positives": 11,
+      "false_negatives": 4,
+      "ghost_probing_gt": 19,
+      "ghost_probing_pred": 27,
+      "total_videos": 33
+    }
+  },
+  "gemini_performance": {
+    "total_videos": 37,
+    "metrics": {
+      "accuracy": 45.94594594594595,
+      "precision": 56.25,
+      "recall": 40.909090909090914,
+      "f1_score": 47.36842105263159,
+      "true_positives": 9,
+      "false_positives": 6,
+      "false_negatives": 13,
+      "ghost_probing_gt": 22,
+      "ghost_probing_pred": 16,
+      "total_videos": 37
+    },
+    "direct_comparison_metrics": {
+      "accuracy": 42.42424242424242,
+      "precision": 50.0,
+      "recall": 36.84210526315789,
+      "f1_score": 42.42424242424242,
+      "true_positives": 7,
+      "false_positives": 6,
+      "false_negatives": 12,
+      "ghost_probing_gt": 19,
+      "ghost_probing_pred": 14,
+      "total_videos": 33
+    }
+  },
+  "detailed_results": {
+    "direct_comparison": [
+      {
+        "video_id": "images_1_001",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_002",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": false,
+        "gemini_correct": true,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": true
+      },
+      {
+        "video_id": "images_1_003",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": true,
+        "gemini_correct": true,
+        "both_correct": true,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_004",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_005",
+        "ground_truth": "8s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": true,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_006",
+        "ground_truth": "9s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": true,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_007",
+        "ground_truth": "6s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": true,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_008",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": true,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_011",
+        "ground_truth": "11s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": true,
+        "gemini_correct": true,
+        "both_correct": true,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_012",
+        "ground_truth": "11s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": true,
+        "gemini_correct": true,
+        "both_correct": true,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_013",
+        "ground_truth": "8s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gemini_prediction": "none",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_014",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": true,
+        "gemini_correct": true,
+        "both_correct": true,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_015",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": true,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_016",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gemini_prediction": "none",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_017",
+        "ground_truth": "17s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": true,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_018",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": false,
+        "gemini_correct": true,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": true
+      },
+      {
+        "video_id": "images_1_019",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_020",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_1_023",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": false,
+        "gemini_correct": true,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": true
+      },
+      {
+        "video_id": "images_1_025",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": false,
+        "gemini_correct": true,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": true
+      },
+      {
+        "video_id": "images_1_027",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": true,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_2_001",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": false,
+        "gemini_correct": true,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": true
+      },
+      {
+        "video_id": "images_2_003",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_3_002",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": true,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_3_003",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": true,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_3_004",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": true,
+        "both_correct": true,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_3_005",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "none",
+        "gpt4o_correct": false,
+        "gemini_correct": true,
+        "both_correct": false,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": true
+      },
+      {
+        "video_id": "images_3_006",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gemini_prediction": "none",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_3_007",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": true,
+        "gemini_correct": true,
+        "both_correct": true,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_4_006",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": true,
+        "gemini_correct": true,
+        "both_correct": true,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_4_007",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gemini_prediction": "none",
+        "gpt4o_correct": true,
+        "gemini_correct": true,
+        "both_correct": true,
+        "both_wrong": false,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_5_002",
+        "ground_truth": "cut-in",
+        "gt_normalized": "cut-in",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      },
+      {
+        "video_id": "images_5_003",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gpt4o_correct": false,
+        "gemini_correct": false,
+        "both_correct": false,
+        "both_wrong": true,
+        "gpt4o_better": false,
+        "gemini_better": false
+      }
+    ],
+    "gpt4o_all_results": [
+      {
+        "video_id": "images_5_002",
+        "ground_truth": "cut-in",
+        "gt_normalized": "cut-in",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_3_007",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_038",
+        "ground_truth": "13: cut-in",
+        "gt_normalized": "cut-in",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_027",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_040",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_003",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_1_015",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_4_005",
+        "ground_truth": "6s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_048",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_026",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_030",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_025",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_054",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_042",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_3_005",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_024",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_032",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_001",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_4_007",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_008",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_2_002",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_017",
+        "ground_truth": "17s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_1_007",
+        "ground_truth": "6s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_018",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_2_004",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_4_001",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_011",
+        "ground_truth": "11s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_034",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_019",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_006",
+        "ground_truth": "6s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_3_003",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_010",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_1_023",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_052",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_044",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_020",
+        "ground_truth": "11s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_036",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_005",
+        "ground_truth": "8s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_1_013",
+        "ground_truth": "8s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_4_003",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_050",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_021",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_028",
+        "ground_truth": "7s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_046",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_3_001",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_012",
+        "ground_truth": "13s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_1_014",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_2_001",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_002",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_031",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_027",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_049",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_015",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_3_006",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_003",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_041",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_026",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_033",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_025",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_009",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_2_003",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_4_006",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_1_016",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_043",
+        "ground_truth": "13s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_024",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_017",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_008",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_001",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_3_004",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_011",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_018",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_3_002",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_007",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_045",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_053",
+        "ground_truth": "7s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_1_006",
+        "ground_truth": "9s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_019",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_035",
+        "ground_truth": "12s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_023",
+        "ground_truth": "7s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_047",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_5_029",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_051",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_1_020",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_037",
+        "ground_truth": "6s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_5_021",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_012",
+        "ground_truth": "11s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": true
+      },
+      {
+        "video_id": "images_4_002",
+        "ground_truth": "6s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gpt4o_prediction": "none",
+        "gpt4o_correct": false
+      },
+      {
+        "video_id": "images_1_004",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gpt4o_prediction": "ghost probing",
+        "gpt4o_correct": false
+      }
+    ],
+    "gemini_all_results": [
+      {
+        "video_id": "images_1_015",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_004",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_3_004",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_4_004",
+        "ground_truth": "6s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_018",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_1_009",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_4_006",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_1_023",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_3_006",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_006",
+        "ground_truth": "9s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_017",
+        "ground_truth": "17s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_005",
+        "ground_truth": "8s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_014",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_3_005",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_1_020",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_008",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_019",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_4_007",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_3_007",
+        "ground_truth": "3s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_1_022",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_1_016",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_007",
+        "ground_truth": "6s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_2_001",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_1_001",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_010",
+        "ground_truth": "15s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_5_003",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_012",
+        "ground_truth": "11s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_1_003",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_2_003",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_3_003",
+        "ground_truth": "2s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_025",
+        "ground_truth": "none",
+        "gt_normalized": "none",
+        "gemini_prediction": "none",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_1_011",
+        "ground_truth": "11s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_5_002",
+        "ground_truth": "cut-in",
+        "gt_normalized": "cut-in",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_002",
+        "ground_truth": "5s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "ghost probing",
+        "gemini_correct": true
+      },
+      {
+        "video_id": "images_1_013",
+        "ground_truth": "8s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_3_002",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      },
+      {
+        "video_id": "images_1_027",
+        "ground_truth": "4s: ghost probing",
+        "gt_normalized": "ghost probing",
+        "gemini_prediction": "none",
+        "gemini_correct": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several adult pedestrians are visible in the scene. A person wearing a red jacket and grey pants is seen crossing the road from the right side towards the left. Another person, wearing a dark jacket and dark pants, is crossing from the left side towards the right. A third person, dressed in a blue jacket and blue pants, is also crossing from the right side towards the left. Other pedestrians are visible in the background at a greater distance.",
+  "summary": "The video begins with the autonomous vehicle approaching what appears to be an intersection or a road entrance within an urban or campus environment. A white SUV is observed on the left side of the road, initially moving towards the vehicle's general direction before turning away. Simultaneously, multiple pedestrians are present in the roadway, actively crossing the vehicle's path. The vehicle demonstrates a clear and controlled response by significantly decelerating as it approaches the pedestrians, eventually coming to a near stop to ensure their safe passage. The scene depicts a common driving scenario involving pedestrian crossings.",
+  "actions": "The vehicle is initially moving forward at a moderate speed. Upon detecting the presence of multiple pedestrians in the roadway ahead, the vehicle initiates a controlled deceleration. This action is taken to safely yield the right-of-way to the pedestrians who are actively crossing the road. The driver's response prioritizes pedestrian safety by reducing speed and preparing to stop, thereby preventing any potential conflict or collision with the crossing individuals. The vehicle continues to slow down, reaching a very low speed or coming to a complete stop, to allow the pedestrians to clear its path.",
+  "key_objects": "1) Left: A white SUV is observed on the left side of the image, moving towards the vehicle's general direction and then turning away. It is a moving vehicle and does not serve as a stationary obstruction for a ghost probing incident. 2) Right: A person in a red jacket is seen crossing the road from the right side of the image towards the center. This individual is visible from the initial frames and does not suddenly emerge from behind a physical obstruction. 3) Left: A person in a dark jacket is seen crossing the road from the left side of the image towards the center. This individual is visible and does not emerge from behind a physical obstruction. 4) Right: A person in a blue jacket is seen crossing the road from the right side of the image towards the center. This individual is visible and does not emerge from behind a physical obstruction.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

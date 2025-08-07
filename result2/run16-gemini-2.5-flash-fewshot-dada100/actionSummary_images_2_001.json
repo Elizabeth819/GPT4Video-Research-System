@@ -1,0 +1,18 @@
+{
+  "video_id": "images_2_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Numerous pedestrians of various ages and genders, some carrying bags or umbrellas; individuals riding motorcycles, scooters, and small utility tricycles; a male pedestrian in dark clothing, approximately 30-40 years old, crossing from the right.",
+  "summary": "The vehicle is navigating a highly congested urban street, characterized by numerous pedestrians, motorcycles, and small utility vehicles. Buildings with shops line the left side of the road, while a concrete wall with large advertisements runs along the right. The road is narrow and lacks clear lane markings, with traffic moving at an extremely slow pace. As the vehicle inches forward, a male pedestrian, wearing dark clothing, suddenly emerges from behind a parked blue truck and a blue cart on the right side of the road. This pedestrian steps directly into the vehicle's path, having been partially obscured by these physical obstructions, creating a ghost probing situation despite the vehicle's low speed.",
+  "actions": "The self-driving vehicle is operating at a very low speed, almost crawling, throughout the segment. This cautious speed is maintained due to the extremely high density of pedestrians and other slow-moving vehicles on the narrow urban street, allowing for maximum reaction time in the unpredictable and congested environment. Upon the sudden emergence of a male pedestrian from behind a parked blue truck and a blue cart on the right side of the road, the vehicle immediately initiates further deceleration, likely coming to a near stop or full stop, to ensure the pedestrian's safe passage and avoid any potential collision.",
+  "key_objects": "1) Right side: A blue truck, approximately 5-7 meters away, parked and acting as a visual obstruction. 2) Right side: A blue utility cart, approximately 3-5 meters away, positioned next to the blue truck, further obscuring the view. 3) Right side: A male pedestrian, approximately 3-5 meters away, wearing dark clothing, suddenly emerging from behind the blue truck and blue cart and stepping into the vehicle's direct path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

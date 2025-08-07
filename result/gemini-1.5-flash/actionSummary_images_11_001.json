@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, Driver of a white car",
+        "summary": "In this segment, the vehicle is driving on a highway in foggy conditions. The self-driving vehicle is following a white sedan closely. At 3.7s, the white sedan in front slows down and stops, causing the self-driving vehicle to decelerate. At 7.5s, another white car from the right lane cuts into the self-driving vehicles lane abruptly, forcing the self-driving vehicle to brake suddenly.",
+        "actions": "The self-driving vehicle decelerates gradually as the white sedan in front slows down and stops. At 7.5s, the self-driving vehicle brakes suddenly due to the white car cutting in from the right lane.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, slowing down and stopping. 2) Right: A white car, approximately 2 meters away, cutting into the self-driving vehicles lane abruptly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

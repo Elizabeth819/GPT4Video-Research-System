@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_40_064",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist, motorcyclist",
+        "summary": "In this segment, the vehicle is approaching an intersection. A cyclist and a motorcyclist are moving from the right side towards the center of the intersection. The cyclist is moving rapidly and appears to be crossing the intersection without stopping. The motorcyclist is also moving towards the center of the intersection. The self-driving vehicle is maintaining a steady speed but needs to be cautious of the sudden movements of the cyclist and motorcyclist.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The driver needs to be cautious due to the sudden movements of the cyclist and motorcyclist from the right side. The vehicle is likely to decelerate to avoid any potential collision.",
+        "key_objects": "1) Right side: A cyclist, approximately 2 meters away, moving rapidly towards the center of the intersection. 2) Right side: A motorcyclist, approximately 3 meters away, moving towards the center of the intersection.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

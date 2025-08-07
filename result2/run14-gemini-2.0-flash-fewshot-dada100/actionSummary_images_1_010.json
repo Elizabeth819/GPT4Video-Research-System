@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_010",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several vehicles including a red truck and a white van are visible in the distance. A person on a motorcycle is seen on the right side of the road.",
+  "summary": "The self-driving vehicle is traveling on a straight road with a high wall on the right side. In the distance, several vehicles, including a red truck, are visible. A person on a motorcycle is seen on the right side of the road, moving in the same direction as the self-driving vehicle. The road conditions appear to be clear and the weather is sunny. There are trees lining the left side of the road.",
+  "actions": "The vehicle is maintaining a consistent speed and direction, following the lane markings on the road. The driver is likely maintaining speed to keep pace with the traffic flow and is staying in the current lane due to the straight road and lack of immediate need to change lanes.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

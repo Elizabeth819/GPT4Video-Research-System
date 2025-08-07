@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_010",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car driving on a road. Other vehicles, including trucks and cars, are visible on the road. There are also pedestrians and a person on a scooter on the left side of the road.",
+  "summary": "The vehicle is driving on a straight road with moderate traffic. The road is lined with trees and buildings. The vehicle maintains a consistent speed and lane position. A truck is ahead in the same lane. A person on a scooter is on the left side of the road. A pedestrian is crossing the road from left to right.",
+  "actions": "The vehicle is maintaining a steady speed and following the lane markings. The driver is likely monitoring the truck ahead and the pedestrian crossing the road to the left. The vehicle is maintaining its current speed and direction to follow the road.",
+  "key_objects": "1) Left: Pedestrian crossing the road, medium distance, potential collision if the pedestrian does not yield. 2) Ahead: Truck, medium distance, the vehicle is following the truck.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

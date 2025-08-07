@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_022",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a narrow road with parked cars on both sides. Initially, the road is clear, but as the vehicle progresses, a white sedan on the right side starts to move into the lane, potentially causing a collision.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As it approaches the white sedan on the right side, the sedan starts to move into the lane, forcing the self-driving vehicle to decelerate to avoid a collision.",
+        "key_objects": "1) Right side: A white sedan, approximately 5 meters away, moving into the lane, causing the self-driving vehicle to decelerate.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_022",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "12.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a narrow road. A white sedan is parked on the left side of the road, partially blocking the path. The driver mentions that the sedan ahead is obstructing the way, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is slowing down to avoid a collision with the white sedan parked on the left side of the road. Over the past 2 seconds, the vehicles speed has gradually decreased, maintaining a close distance to the sedan ahead.",
+        "key_objects": "1) Left side: A white sedan, approximately 1 meter away, parked and partially blocking the road, causing the self-driving vehicle to slow down.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_042",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a street with buildings on both sides. There are several vehicles, including cars, a van, and a three-wheeled vehicle. A man on a scooter is visible. In the later frames, the man on the scooter falls off his vehicle.",
+  "summary": "The vehicle starts driving down a street with buildings and parked cars on either side. A van passes on the left. The vehicle approaches an intersection with a green light. A man on a scooter attempts to cross the intersection and falls off his scooter directly in front of the vehicle.",
+  "actions": "The vehicle is initially driving straight at a moderate speed. As it approaches the intersection, it maintains its speed because the traffic light is green. Upon seeing the scooter driver fall, the vehicle initiates emergency braking to avoid a collision.",
+  "key_objects": "1) Left: Scooter driver, medium distance, falls off scooter directly into the vehicle's path. 2) Center: Traffic light, far distance, initially green, indicating right-of-way.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

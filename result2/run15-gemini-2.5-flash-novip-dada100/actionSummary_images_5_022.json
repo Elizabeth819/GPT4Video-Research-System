@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_022",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene primarily features various vehicles including cars, vans, a small pickup truck, a bus, and motorcycles/scooters. No specific human characters are clearly identifiable or central to the driving actions within this segment.",
+  "summary": "The video segment begins with the camera vehicle stationary or moving very slowly behind a light-colored van at an urban intersection. The weather appears overcast. Traffic is moderate, with various vehicles moving across the intersection from both left and right. On the left side of the image, a dark grey car and a white sedan are observed moving forward, followed by a small white pickup truck. On the right side of the image, a yellow car is seen making a turn, and another light-colored van approaches the intersection. Towards the end of the segment (around 9.0s), the van directly in front of the camera vehicle begins to move forward, and the camera vehicle follows suit, slowly accelerating.",
+  "actions": "The camera vehicle is initially stationary or moving at a very low speed, likely waiting at an intersection or in heavy traffic congestion. The driver maintains a safe following distance behind the light-colored van directly ahead. As the van in front begins to accelerate and move forward around the 9.0s mark, the camera vehicle's driver responds by also initiating acceleration, indicating a resumption of movement in response to the flow of traffic ahead. This action is taken to proceed through the intersection or continue along the road as traffic permits.",
+  "key_objects": "1) Center-front: A light-colored van (license plate 鲁Q 5HM28) is positioned directly in front of the camera vehicle, acting as the primary obstruction and leading vehicle. Its movement dictates the camera vehicle's immediate actions, as the camera vehicle maintains a following distance and begins to move when the van moves. 2) Left side: Various cars (dark grey sedan, white sedan, small white pickup truck) are observed moving across the intersection or turning from the left, indicating cross-traffic. 3) Right side: A yellow car and another light-colored van are observed moving across the intersection or turning from the right, also indicating cross-traffic.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_021",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a white sedan, driver of a red car, driver of a bus",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. The traffic is moderate, with several vehicles ahead and to the sides. The white sedan in front maintains a consistent speed, while the red car on the left side is slightly ahead. The bus on the right side is moving at a similar pace to the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and staying in its lane. The driver is cautious, keeping a safe distance from the vehicles ahead and to the sides. No sudden changes in speed or direction are observed.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining a consistent speed. 2) Left side: A red car, approximately 5 meters away, slightly ahead of the self-driving vehicle. 3) Right side: A bus, approximately 5 meters away, moving at a similar pace to the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

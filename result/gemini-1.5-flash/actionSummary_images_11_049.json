@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_049",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red car, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a highway. A red car is seen ahead in the left lane, and a black car is in the middle lane. The red car suddenly moves from the left lane to the middle lane, cutting in front of the black car and the observer vehicle.",
+        "actions": "The self-driving vehicle maintains a consistent speed while observing the red cars sudden lane change. The vehicles speed is steady, and the driver is likely preparing to decelerate due to the red cars abrupt movement.",
+        "key_objects": "1) Front left: A red car, approximately 20 meters away, suddenly moves from the left lane to the middle lane, cutting in front of the observer vehicle. 2) Front middle: A black car, approximately 25 meters away, maintaining its lane but affected by the red cars sudden lane change.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

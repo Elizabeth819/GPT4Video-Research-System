@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_062",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.9s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a wet road. Initially, the road is clear, but a white sedan appears ahead and slows down, causing the self-driving vehicle to decelerate. A yellow truck is parked on the right side of the road, partially blocking the lane. The white sedan then changes lanes to the left, moving ahead of the self-driving vehicle.",
+        "actions": "The self-driving vehicle decelerates to maintain a safe distance from the white sedan ahead. The vehicles speed decreases gradually as it approaches the white sedan, which is slowing down. The self-driving vehicle maintains a safe distance and prepares to change lanes to avoid the parked yellow truck.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, slowing down and changing lanes to the left. 2) Right: A yellow truck, approximately 5 meters away, parked and partially blocking the lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "change to left lane"
+        }
+    }
+]

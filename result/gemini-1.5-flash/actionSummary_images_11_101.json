@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_101",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "5.9s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a road with a white sedan ahead. The road is clear with no visible obstacles or pedestrians. The white sedan is maintaining a consistent speed and direction.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the white sedan ahead. There are no sudden changes in speed or direction observed.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining a consistent speed and direction.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

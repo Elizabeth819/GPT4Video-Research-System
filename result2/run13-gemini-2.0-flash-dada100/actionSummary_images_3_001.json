@@ -1,0 +1,39 @@
+{
+  "video_id": "images_3_001",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.7s",
+  "summary": "The self-driving car is moving forward on a city street with moderate traffic. Several motorcycles and scooters are present on the road. From 0.0s to 4.0s, a woman with a white shirt and pink helmet is riding a scooter on the right side of the road. From 11.9s to 15.1s, a man in a white shirt is riding a green bicycle from behind a parked white car on the right side of the road, potentially leading to a ghost probing incident. The man is crossing the road from right to left.",
+  "characters": [
+    {
+      "gender": "female",
+      "clothing": "white shirt",
+      "colors": [
+        "white"
+      ],
+      "age": "adult",
+      "transportation_method": "scooter",
+      "way_of_walking": "riding"
+    },
+    {
+      "gender": "male",
+      "clothing": "white shirt",
+      "colors": [
+        "white"
+      ],
+      "age": "adult",
+      "transportation_method": "bicycle",
+      "way_of_walking": "riding"
+    }
+  ],
+  "key_objects": [
+    "Right side: A man in a white shirt riding a green bicycle, approximately 5 meters away, crossing the road from behind a parked car, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a city street with moderate traffic. The speed appears to be constant, likely adhering to the speed limit or adjusting to the flow of traffic. The vehicle maintains its lane position, suggesting it's following the road's path and avoiding lane changes.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

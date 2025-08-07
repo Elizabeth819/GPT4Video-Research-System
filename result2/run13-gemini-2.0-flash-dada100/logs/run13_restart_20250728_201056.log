@@ -1,0 +1,29 @@
+2025-07-28 20:10:56,693 - INFO - Run 13 Restart Analysis Started - 20250728_201056
+2025-07-28 20:10:56,694 - INFO - Gemini 2.0 Flash model initialized: AIzaSyBF40...
+2025-07-28 20:10:56,694 - INFO - DADA-100 videos directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos
+2025-07-28 20:10:56,694 - INFO - Output directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100
+2025-07-28 20:10:56,696 - INFO - Found 33 remaining videos to process
+2025-07-28 20:10:56,696 - INFO - Already processed: 68 videos
+2025-07-28 20:10:56,696 - INFO - Restarting to process 33 remaining videos
+2025-07-28 20:10:56,835 - INFO - Analyzing video: images_5_022
+2025-07-28 20:10:57,872 - INFO - API call attempt 1/5 for images_5_022
+2025-07-28 20:11:21,767 - INFO - Successfully analyzed images_5_022
+2025-07-28 20:11:21,797 - INFO - Saved result for images_5_022
+2025-07-28 20:11:24,804 - INFO - Analyzing video: images_5_023
+2025-07-28 20:11:25,416 - INFO - API call attempt 1/5 for images_5_023
+2025-07-28 20:11:40,357 - INFO - Successfully analyzed images_5_023
+2025-07-28 20:11:40,369 - INFO - Saved result for images_5_023
+2025-07-28 20:11:43,373 - INFO - Analyzing video: images_5_025
+2025-07-28 20:11:47,002 - INFO - API call attempt 1/5 for images_5_025
+2025-07-28 20:11:59,257 - INFO - Successfully analyzed images_5_025
+2025-07-28 20:11:59,268 - INFO - Saved result for images_5_025
+2025-07-28 20:12:02,274 - INFO - Analyzing video: images_5_026
+2025-07-28 20:12:02,988 - INFO - API call attempt 1/5 for images_5_026
+2025-07-28 20:12:19,398 - INFO - Successfully analyzed images_5_026
+2025-07-28 20:12:19,406 - INFO - Saved result for images_5_026
+2025-07-28 20:12:22,412 - INFO - Analyzing video: images_5_027
+2025-07-28 20:12:22,862 - INFO - API call attempt 1/5 for images_5_027
+2025-07-28 20:12:33,149 - INFO - Successfully analyzed images_5_027
+2025-07-28 20:12:33,153 - INFO - Saved result for images_5_027
+2025-07-28 20:12:36,158 - INFO - Analyzing video: images_5_028
+2025-07-28 20:12:36,691 - INFO - API call attempt 1/5 for images_5_028

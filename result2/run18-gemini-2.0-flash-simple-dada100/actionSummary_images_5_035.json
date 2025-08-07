@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_035",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver navigating a busy urban street. There are pedestrians, cars, motorcycles, and a bus visible. The pedestrians appear to be of various ages and are dressed in casual clothing. The vehicles include cars of different models and colors, as well as a large bus. There are also motorcyclists on the road.",
+  "summary": "The vehicle starts driving on a city street with moderate traffic. A large bus is in front of the vehicle, partially obstructing the view. As the vehicle approaches an intersection, pedestrians and motorcyclists are visible crossing the street. The vehicle slows down as it approaches the intersection.",
+  "actions": "The vehicle is initially driving behind a bus, maintaining a safe following distance. As the vehicle approaches an intersection, the driver slows down, likely in anticipation of potential pedestrian or vehicle traffic. The driver is proceeding cautiously due to the presence of the bus obstructing the view and the activity at the intersection.",
+  "key_objects": "1) Right: A large bus is driving in front of the vehicle, obstructing the view of the road ahead. The bus is close enough to potentially create a dangerous situation if it were to brake suddenly. 2) Left and Right: Pedestrians are crossing the street at the intersection. Their presence requires the driver to be cautious and prepared to stop. 3) Left: Motorcyclists are also crossing the street at the intersection, adding to the complexity of the driving situation.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

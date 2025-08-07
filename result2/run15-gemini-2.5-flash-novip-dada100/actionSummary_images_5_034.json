@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_034",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter, wearing a dark jacket and light pants, is positioned directly in front of the vehicle. A person on a bicycle, wearing dark clothing, suddenly appears from the left side of the road. Several pedestrians of various ages and genders are visible on the right sidewalk.",
+  "summary": "The scene depicts a nighttime urban driving scenario at an intersection. The autonomous vehicle is initially stopped at a pedestrian crosswalk, behind a scooter, as the traffic light is red. After approximately three seconds, the traffic light changes to green. The scooter in front begins to move forward, clearing the crosswalk. As the autonomous vehicle starts to accelerate and proceed through the intersection, a person on a bicycle suddenly emerges from the left side of the road, darting into the vehicle's path. This cyclist was previously obscured by the scooter and roadside elements, creating a sudden and dangerous 'ghost probing' situation that requires immediate evasive action from the vehicle.",
+  "actions": "The vehicle is initially stopped at an intersection, positioned behind a scooter on the pedestrian crosswalk. This action is taken because the overhead traffic light is red, indicating that vehicles must halt. After approximately 3.0 seconds, the traffic light changes from red to green. In response to the green light, the vehicle begins to accelerate forward. This acceleration is initiated cautiously, allowing the scooter directly in front to fully clear the pedestrian crosswalk before the vehicle proceeds further into the intersection.",
+  "key_objects": "1) Position: Center-front: A person on a scooter, initially stopped directly in front of the vehicle on the crosswalk, then moving forward. This scooter acts as a visual obstruction, contributing to the ghost probing scenario. 2) Position: Left side: A person on a bicycle, suddenly appearing from the left side of the road at approximately 10.2 seconds, darting across the vehicle's path. This individual was previously hidden by the scooter and roadside elements, making their appearance sudden and dangerous, directly causing the ghost probing event. 3) Position: Overhead: Traffic lights, initially red, then turning green, dictating the vehicle's stop and go actions. 4) Position: Left side: A white bus, visible further down the road on the left, potentially contributing to the visual obstruction for the ghost probing cyclist.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

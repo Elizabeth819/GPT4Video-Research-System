@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_012",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a male in dark clothing and light pants, and other individuals of varying ages and genders, crossing the road.",
+  "summary": "In this segment, the vehicle is driving on an urban road with parked vehicles lining the right side. As the vehicle approaches, a group of pedestrians suddenly emerges from behind a parked white SUV on the right side of the road, stepping directly into the vehicle's path. The white SUV acts as a significant visual obstruction, making it impossible to detect the pedestrians until they have already entered the roadway, creating an immediate and dangerous 'ghost probing' situation requiring rapid driver response.",
+  "actions": "The self-driving vehicle is initially moving forward at a moderate speed. As multiple pedestrians suddenly emerge from behind the parked white SUV on the right side, directly entering the vehicle's path, the vehicle immediately initiates rapid deceleration to prevent a collision. The vehicle slows down significantly to allow the pedestrians to clear the roadway safely. Once the immediate danger has passed and the pedestrians have moved out of the vehicle's path, the vehicle begins to accelerate again to resume its normal driving speed.",
+  "key_objects": "1) Right side: A white SUV, approximately 5-10 meters away, parked and creating a significant visual obstruction that completely hides the pedestrians until they emerge. 2) Right side: Multiple pedestrians, including a male in dark clothing and light pants, approximately 3-5 meters away, suddenly emerging from behind the parked white SUV and stepping into the vehicle's path with minimal warning.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

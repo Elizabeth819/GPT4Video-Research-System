@@ -1,0 +1,48 @@
+[
+    {
+        "video_id": "dada_26_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A large white bus",
+                "distance": "10 meters",
+                "behavior or action impacting the vehicle": "Approaching slowly, maintaining a safe distance."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a 5-second segment of a car approaching an intersection.  The car is stopped at a red traffic light. A large white bus is visible in front of the car, approaching slowly and maintaining a safe distance.  There are other vehicles and pedestrians visible in the background, but none pose an immediate threat. The traffic light is red throughout the entire 5-second clip.",
+        "actions": "The vehicle is stationary at a red traffic light. The driver is waiting for the light to turn green before proceeding through the intersection. The vehicle's speed is 0 km/h.",
+        "next_action": {
+            "speed_control": "accelerating",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_26_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "Yellow bus",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Approaching the intersection, making a right turn."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a white car stopped at a crosswalk. A large truck is to the left, partially obstructing the view. A yellow bus is approaching the intersection from the front, intending to turn right.  Other vehicles are visible in the distance, but no immediate threats are present. The traffic light is red for the ego vehicle.",
+        "actions": "The ego vehicle is stopped at a red light at a crosswalk. The driver is waiting for the light to turn green before proceeding through the intersection. The vehicle's speed is 0 km/h.",
+        "next_action": {
+            "speed_control": "accelerating",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_005",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rainy city street",
+    "sentiment": "Neutral",
+    "characters": "Multiple pedestrians with umbrellas, drivers of various vehicles including a red car and a bus.",
+    "summary": "The video shows a rainy city street scene. The self-driving vehicle is moving slowly in traffic.  A group of pedestrians are walking on the sidewalk and crossing the street with umbrellas.  A red car is visible ahead, moving at a similar speed.  Traffic is relatively dense, and the road is wet due to rain. No immediate dangerous events occur, although the wet road conditions and pedestrian activity require caution.",
+    "actions": "The self-driving vehicle maintains a slow and steady speed, adapting to the surrounding traffic and pedestrian activity. The vehicle keeps a safe distance from the vehicle ahead and maintains its lane. The slow speed is likely due to the wet road conditions and the presence of pedestrians.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_005",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.3s",
+    "scene_theme": "Rainy city street",
+    "sentiment": "Neutral",
+    "characters": "Several cars, a motorcyclist, pedestrians with umbrellas.",
+    "summary": "The video shows a rainy city street scene. The self-driving vehicle is moving slowly in moderate traffic.  A red car is ahead, and a motorcyclist is visible to the right, maneuvering around parked cars. Pedestrians with umbrellas are present on the sidewalks. The overall traffic flow is slow due to the rain and congestion. No immediate dangerous events are observed, although the conditions are potentially hazardous due to reduced visibility and slippery roads.",
+    "actions": "The self-driving vehicle maintains a slow and steady speed, adapting to the congested traffic conditions. The vehicle is likely maintaining a safe following distance from the car ahead.  The driver is navigating carefully through the wet road conditions.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

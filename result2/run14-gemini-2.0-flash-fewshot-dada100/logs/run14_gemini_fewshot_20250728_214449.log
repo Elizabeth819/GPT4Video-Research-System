@@ -1,0 +1,8 @@
+2025-07-28 21:44:49,906 - INFO - Run 14 Gemini 2.0 Flash + Few-shot Analysis Started - 20250728_214449
+2025-07-28 21:44:49,906 - INFO - Gemini 2.0 Flash model initialized: AIzaSyBF40...
+2025-07-28 21:44:49,906 - INFO - DADA-100 videos directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos
+2025-07-28 21:44:49,906 - INFO - Output directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run14-gemini-2.0-flash-fewshot-dada100
+2025-07-28 21:44:49,907 - INFO - Found 101 video files to process
+2025-07-28 21:44:49,907 - INFO - Starting analysis of 101 videos
+2025-07-28 21:44:49,946 - INFO - Analyzing video: images_1_001
+2025-07-28 21:44:50,542 - INFO - API call attempt 1/5 for images_1_001

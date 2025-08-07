@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_010",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of a red car, driver of a black car, cyclist",
+        "summary": "In this segment, the vehicle is driving through an urban area with multiple lanes. The traffic is moderate, and several vehicles are visible ahead. A cyclist is seen on the left side of the road. The white sedan is moving steadily, while the red car and black car are changing lanes.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and staying in its lane. The driver is cautious due to the presence of multiple vehicles changing lanes and a cyclist on the left side.",
+        "key_objects": "1) Left side: A cyclist, approximately 5 meters away, moving steadily along the bike lane. 2) Front: A white sedan, approximately 20 meters away, moving steadily in the same lane. 3) Right side: A red car, approximately 10 meters away, changing lanes. 4) Front: A black car, approximately 15 meters away, changing lanes.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_010",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "14.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a red car, driver of a white car",
+        "summary": "In this segment, the vehicle is driving through a busy urban intersection. A black sedan is seen cutting into the lane from the left side, causing the self-driving vehicle to slow down. The red car ahead is moving straight, while the white car on the right is preparing to turn left.",
+        "actions": "The self-driving vehicle decelerates to avoid a collision with the black sedan that is cutting into its lane from the left side. The vehicle maintains a consistent speed to navigate through the intersection safely.",
+        "key_objects": "1) Left side: A black sedan, approximately 2 meters away, cutting into the lane abruptly. 2) Front: A red car, approximately 10 meters away, moving straight. 3) Right side: A white car, approximately 5 meters away, preparing to turn left.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

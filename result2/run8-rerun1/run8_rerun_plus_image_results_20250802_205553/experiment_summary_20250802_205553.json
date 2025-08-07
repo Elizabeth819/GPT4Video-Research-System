@@ -1,0 +1,83 @@
+{
+  "experiment_info": {
+    "experiment_type": "Run8-Rerun + Image Few-shot",
+    "timestamp": "20250802_205553",
+    "model": "GPT-4o (Azure)",
+    "prompt_version": "Paper_Batch Complex (4-Task) + Text Few-shot + 9 Image Few-shot",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "purpose": "消融实验：测试文本+图像few-shot组合效果",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250802_205553",
+    "fewshot_config": {
+      "text_fewshot_examples": 3,
+      "image_fewshot_examples": 9,
+      "image_sequences": 3,
+      "images_per_sequence": 3
+    },
+    "enhanced_characteristics": [
+      "4个详细任务（与run8-rerun相同）",
+      "完整的验证流程",
+      "3个文本few-shot examples",
+      "9张鬼探头图像few-shot examples",
+      "before-during-after序列模式",
+      "严格的分类标准",
+      "Temperature=0确保一致性",
+      "专注ghost probing检测"
+    ]
+  },
+  "processed_videos": [],
+  "successful_analyses": 0,
+  "failed_analyses": 10,
+  "processing_errors": [
+    {
+      "video_id": "images_1_001",
+      "error_type": "json_decode_error",
+      "error_message": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "video_id": "images_1_002",
+      "error_type": "json_decode_error",
+      "error_message": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "video_id": "images_1_003",
+      "error_type": "json_decode_error",
+      "error_message": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "video_id": "images_1_004",
+      "error_type": "json_decode_error",
+      "error_message": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "video_id": "images_1_005",
+      "error_type": "json_decode_error",
+      "error_message": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "video_id": "images_1_006",
+      "error_type": "json_decode_error",
+      "error_message": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "video_id": "images_1_007",
+      "error_type": "json_decode_error",
+      "error_message": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "video_id": "images_1_008",
+      "error_type": "json_decode_error",
+      "error_message": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "video_id": "images_1_009",
+      "error_type": "api_request_failed",
+      "error_message": "Empty response from API"
+    },
+    {
+      "video_id": "images_1_010",
+      "error_type": "json_decode_error",
+      "error_message": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ]
+}

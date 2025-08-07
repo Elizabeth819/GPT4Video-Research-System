@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_005",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male, approximately 30 years old, wearing a yellow helmet and dark clothing, is standing next to a fallen motorcycle in the middle of the road.",
+  "summary": "The vehicle is approaching an intersection with several large trucks parked on the right side. From timestamp 8.0s to 10.0s, a male, approximately 30 years old, wearing a yellow helmet and dark clothing, is standing next to a fallen motorcycle in the middle of the road. The motorcycle and the man are directly in the path of the vehicle, creating a dangerous situation.",
+  "actions": "The vehicle is approaching the intersection at a steady speed. The driver is likely assessing the traffic situation and preparing to navigate the intersection. The presence of the fallen motorcycle and the man standing next to it will require the driver to take immediate action to avoid a collision.",
+  "key_objects": "1) Front: A male, approximately 30 years old, wearing a yellow helmet and dark clothing, standing next to a fallen motorcycle, approximately 5 meters away, directly obstructing the vehicle's path. 2) Right side: Several large trucks, approximately 10 meters away, parked and potentially obstructing the view of other vehicles or pedestrians.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

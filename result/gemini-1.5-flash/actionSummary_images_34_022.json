@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_022",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a white sedan, driver of a blue truck",
+        "summary": "In this segment, the vehicle is driving on a highway. The road is clear with minimal traffic. A white sedan is ahead in the same lane, and a blue truck is in the adjacent right lane. The white sedan maintains a consistent speed, while the blue truck gradually overtakes the white sedan from the right lane.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position, following the white sedan ahead. The vehicles speed remains steady, and no sudden changes in direction or speed are observed.",
+        "key_objects": "1) Front: A white sedan, approximately 30 meters away, maintaining a consistent speed. 2) Right: A blue truck, approximately 20 meters away, gradually overtaking the white sedan.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

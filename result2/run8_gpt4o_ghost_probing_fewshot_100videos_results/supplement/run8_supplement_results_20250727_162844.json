@@ -1,0 +1,23 @@
+{
+  "experiment_info": {
+    "run_id": "Run 8 Supplement",
+    "timestamp": "20250727_162844",
+    "video_count": 1,
+    "model": "GPT-4o (Azure)",
+    "prompt_version": "Paper_Batch Complex (4-Task) + Few-shot Examples",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "purpose": "为Run 8补充单个视频处理，达到完整100视频",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8_gpt4o_ghost_probing_fewshot_100videos_results/supplement",
+    "base_configuration": "与Run 8完全一致的参数和prompt"
+  },
+  "detailed_results": [
+    {
+      "video_id": "algotest-cutin.avi",
+      "ground_truth": "test_video",
+      "key_actions": "none",
+      "evaluation": "NORMAL",
+      "raw_result": "```json\n{\n    \"video_id\": \"algotest-cutin.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"No pedestrians, multiple vehicles including a blue truck, a white truck, and a red truck\",\n    \"summary\": \"The video shows a highway scene with the observer vehicle following a white truck. The white truck maintains a consistent speed and lane position. A red truck is seen in the adjacent lane, and the observer vehicle maintains a safe following distance throughout the sequence.\",\n    \"actions\": \"The observer vehicle maintains a steady speed and lane position, with no sudden movements or braking required.\",\n    \"key_objects\": \"1) Front: White truck, approximately 10-15 meters ahead, maintaining speed and lane position 2) Right: Red truck, in the adjacent lane, maintaining speed and lane position\",\n    \"key_actions\": \"None\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    }
+  ]
+}

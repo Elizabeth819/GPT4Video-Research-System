@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_5_002",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "16:58:23",
+    "End_Timestamp": "16:58:32",
+    "summary": "The vehicle is driving on a road in a rural area. A white vehicle passes in the opposite direction. Later, a red truck passes in the opposite direction. A pedestrian is visible on the right side of the road.",
+    "actions": "The vehicle is driving straight on the road. The driver should be aware of the pedestrian on the right side of the road and the oncoming traffic.",
+    "key_objects": [
+      "vehicle",
+      "pedestrian",
+      "truck"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "straight",
+      "lane_control": "stay in lane"
+    }
+  }
+]

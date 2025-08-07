@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_012",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "City Street",
+    "characters": "Several cars in both directions",
+    "summary": "The vehicle is driving on a city street with cars in both directions. The traffic appears to be moderate. There are buildings and trees lining the street. No immediate hazards are apparent.",
+    "actions": "The vehicle is maintaining a steady speed, navigating through moderate traffic on a city street. The driver is likely monitoring the surrounding vehicles and maintaining a safe following distance.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_012",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.4s",
+    "sentiment": "Neutral",
+    "scene_theme": "City Street",
+    "characters": "Several parked cars on the right side of the road.",
+    "summary": "The vehicle is driving on a city street with several parked cars on the right side. The road appears to be straight with moderate traffic. There are no immediate hazards or dangerous behaviors observed in the video segment.",
+    "actions": "The vehicle is maintaining a consistent speed and direction, following the road. The driving behavior suggests a routine drive with no need for sudden maneuvers or speed changes.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

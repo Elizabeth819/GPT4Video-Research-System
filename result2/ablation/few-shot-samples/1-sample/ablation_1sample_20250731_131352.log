@@ -1,0 +1,20 @@
+2025-07-31 13:13:52,949 - INFO - 消融实验: 1 Few-shot Sample 开始
+2025-07-31 13:13:52,949 - INFO - Azure OpenAI API配置成功
+2025-07-31 13:13:52,949 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-31 13:13:52,949 - INFO - Deployment: gpt-4o-global
+2025-07-31 13:13:52,949 - INFO - Temperature: 0, Few-shot Samples: 1
+2025-07-31 13:13:52,971 - INFO - 加载ground truth标签: 201个视频
+2025-07-31 13:13:52,971 - INFO - 标签列: ['video_id', 'ground_truth_label', 'Unnamed: 2']
+2025-07-31 13:13:52,971 - INFO - 开始消融实验: 1 Few-shot Sample，处理 5 个视频
+2025-07-31 13:13:52,992 - INFO - 处理视频: images_5_048
+2025-07-31 13:14:07,380 - INFO - ✅ images_5_048: UNKNOWN
+2025-07-31 13:14:07,380 - INFO - 处理视频: images_5_049
+2025-07-31 13:14:20,790 - INFO - ✅ images_5_049: UNKNOWN
+2025-07-31 13:14:20,791 - INFO - 处理视频: images_1_020
+2025-07-31 13:14:33,592 - INFO - ✅ images_1_020: UNKNOWN
+2025-07-31 13:14:33,592 - INFO - 处理视频: images_1_008
+2025-07-31 13:14:48,355 - INFO - ✅ images_1_008: UNKNOWN
+2025-07-31 13:14:48,356 - INFO - 处理视频: images_4_005
+2025-07-31 13:15:50,800 - ERROR - API请求超时
+2025-07-31 13:15:50,801 - ERROR - API请求失败: images_4_005
+2025-07-31 13:15:50,801 - ERROR - ❌ images_4_005.avi: 处理失败

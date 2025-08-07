@@ -1,0 +1,31 @@
+{
+  "video_id": "images_1_025",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "4.2s",
+  "summary": "From 0.0s to 0.5s, the car is driving on a straight road with mountains on both sides. At 0.9s, two people wearing orange vests are visible on the left side of the road near a green guardrail. At 1.4s, one of the people in an orange vest starts running across the road. At 1.9s, the person is in the middle of the road, running towards the right side. At 2.3s, the person has almost reached the other side of the road. At 2.8s, the person has reached the other side of the road. From 3.3s to 4.2s, the road is clear with no immediate hazards.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "orange vest",
+      "age": "adult",
+      "transportation_method": "walking/running",
+      "behavior": "crossing the road"
+    },
+    {
+      "gender": "male",
+      "clothing": "orange vest",
+      "age": "adult",
+      "transportation_method": "standing",
+      "behavior": "standing near the guardrail"
+    }
+  ],
+  "actions": "The vehicle maintains a constant speed while driving on a straight road. The driver likely maintains the speed because the road is clear and there are no immediate obstacles. The driver may be preparing to slow down due to the presence of people on the side of the road.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "[Left]: A person wearing an orange vest, approximately 10 meters away, suddenly running across the road, creating a potential ghost probing situation."
+}

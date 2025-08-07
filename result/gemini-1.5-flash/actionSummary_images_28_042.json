@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_28_042",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through a busy urban area. Initially, the road is clear, but as the vehicle progresses, multiple pedestrians and vehicles appear. A sudden collision occurs with a motorcycle in the final frame.",
+        "actions": "The self-driving vehicle is driving at a moderate speed. As it progresses, it encounters pedestrians and vehicles on the road. The vehicle maintains a steady speed until the final frame, where it collides with a motorcycle that suddenly appears in its path.",
+        "key_objects": "1) Front: A motorcycle, approximately 5 meters away, lying on the road, causing a collision. 2) Right side: Multiple pedestrians, approximately 3 meters away, walking along the sidewalk. 3) Left side: A red truck, approximately 10 meters away, parked on the roadside.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "brake",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_28_042",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Two individuals on the road, one on a motorcycle",
+        "summary": "In this segment, the vehicle is driving on a rural road. Ahead, two individuals are on the road, one of them is on a motorcycle. The motorcycle appears to have fallen, and the individuals are trying to get up and move the motorcycle.",
+        "actions": "The self-driving vehicle is slowing down to avoid a collision with the individuals and the fallen motorcycle. Over the past 3.3 seconds, the vehicles speed has gradually decreased to ensure safety.",
+        "key_objects": "1) Front: Two individuals, approximately 10 meters away, one is standing and the other is trying to lift a fallen motorcycle. 2) Right: A person on a motorcycle, approximately 5 meters away, stationary and observing the situation.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_28_042",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Man in plaid shirt, woman on scooter",
+        "summary": "In this segment, the vehicle is driving on a rural road. Ahead, a man in a plaid shirt is walking on the road, and a woman on a scooter is stationary on the right side. There is a fallen motorcycle and debris on the road, indicating a recent accident.",
+        "actions": "The self-driving vehicle is slowing down due to the presence of obstacles and pedestrians on the road. The vehicles speed is gradually decreasing to avoid collision with the man walking and the stationary scooter.",
+        "key_objects": "1) Front: A man in a plaid shirt, approximately 5 meters away, walking on the road. 2) Right: A woman on a scooter, approximately 7 meters away, stationary. 3) Front: A fallen motorcycle and debris, approximately 10 meters away, blocking part of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

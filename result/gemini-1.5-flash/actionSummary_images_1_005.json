@@ -1,0 +1,93 @@
+[
+    {
+        "video_id": "dada_1_005",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A group of pedestrians, mostly adults, some with umbrellas, standing near the roadside.",
+                "distance": "5-7 meters",
+                "behavior or action impacting the vehicle": "One individual suddenly steps into the road from behind a group of people, creating a potential ghost probing situation."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket",
+                "transportation": "On foot",
+                "behavior": "Suddenly steps into the road from behind a group of pedestrians."
+            }
+        ],
+        "summary": "The video shows a rainy day scene with the observer vehicle driving slowly in moderate traffic. A group of pedestrians, mostly adults, are standing near the roadside.  One man, appearing to be 30-40 years old, wearing a dark jacket, suddenly steps out from behind the group into the road directly in front of the observer vehicle. This action creates a potential ghost probing situation, requiring immediate braking action from the driver. The speed of the pedestrian's movement is relatively fast, leaving little reaction time for the driver.",
+        "actions": "The observer vehicle is driving slowly, likely due to the rainy conditions and moderate traffic density. The driver maintains a safe following distance from the vehicle in front. The speed is consistent throughout the 5-second segment, indicating a cautious approach to the situation.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_005",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A group of school children with umbrellas, mostly girls wearing school uniforms.",
+                "distance": "5-7 meters",
+                "behavior or action impacting the vehicle": "Walking across the road in front of the vehicle, some appearing to move quickly and unexpectedly."
+            },
+            {
+                "Position": "Front-Right",
+                "Object description": "A woman with a black and white umbrella and a red handbag.",
+                "distance": "8-10 meters",
+                "behavior or action impacting the vehicle": "Walking at a moderate pace, but her path is close to the vehicle's trajectory."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": "Multiple school children (mostly girls) in school uniforms with umbrellas, and a woman with a black and white umbrella and a red handbag.",
+        "summary": "The video shows a rainy day scene with heavy traffic. A group of school children, predominantly girls in uniforms, are crossing the road in front of the vehicle.  Several children move quickly and unexpectedly, creating a potential ghost probing situation. A woman with a black and white umbrella and a red handbag is also walking near the vehicle's path. The road is wet, and the overall situation presents a high risk of collision due to the unpredictable movements of the children and the proximity of the woman.",
+        "actions": "The vehicle is proceeding slowly and cautiously, likely due to the heavy rain and the presence of pedestrians. The driver appears to be maintaining a safe distance from the vehicles in front and is navigating the wet road conditions carefully. The slow speed is a direct response to the hazardous conditions and the need to avoid potential collisions with pedestrians.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_005",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.8s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A man on a scooter",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching the intersection from the right, potentially crossing the path of the vehicle."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark colored jacket and pants",
+                "transportation_method": "Scooter",
+                "behavior": "Riding scooter across the intersection, potentially creating a collision risk."
+            }
+        ],
+        "summary": "The video shows a rainy day scene at an intersection.  A man on a dark-colored scooter is approaching the intersection from the right side, moving towards the center. The scooter is approximately 5 meters away from the recording vehicle at the end of the sequence. The man's actions create a potential 'ghost probing' scenario as he is partially obscured by other vehicles and could suddenly cross directly in front of the recording vehicle. The speed of the scooter appears moderate, but the lack of clear visibility and the potential for sudden movement pose a significant risk of collision.",
+        "actions": "The vehicle maintains a slow, steady speed, likely due to the heavy rain and congested traffic conditions. The driver is navigating the intersection cautiously, anticipating potential hazards from other vehicles and pedestrians.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

@@ -1,0 +1,95 @@
+[
+    {
+        "video_id": "dada_1_019",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A person on a motorcycle, appearing to be male, wearing dark clothing, and of middle age.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Crossing the road from right to left, directly in front of the vehicle.  The motorcycle appears to be accelerating slightly as it crosses."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "Middle-aged",
+                "clothing": "Dark clothing",
+                "transportation": "Motorcycle",
+                "behavior": "Crossing the road from right to left, accelerating slightly."
+            }
+        ],
+        "summary": "The video shows a car driving on a narrow road. At approximately 1.7 seconds, a middle-aged man on a motorcycle suddenly crosses the road from right to left directly in front of the car. The motorcycle is accelerating slightly as it crosses. This action is classified as 'ghost probing' due to the sudden appearance of the motorcycle from a relatively close distance and the short reaction time available to the driver. The driver has minimal time to react and avoid a collision.",
+        "actions": "The vehicle maintains a relatively slow and steady speed throughout the 5-second segment.  The driver appears to be navigating a bend in the road, adjusting steering slightly to maintain the vehicle's position within the lane. The speed is likely adjusted to account for the narrow road and potential obstacles.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_019",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A man, appearing to be middle-aged, wearing a dark blue jacket and dark pants, is crawling on the road carrying a cardboard box.",
+                "distance": "2",
+                "behavior or action impacting the vehicle": "Crawling into the vehicle's path from the roadside."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "Middle-aged",
+                "gender": "Male",
+                "clothing": "Dark blue jacket and dark pants",
+                "transportation_method": "Crawling",
+                "behavior": "Crawling on the road carrying a cardboard box, suddenly appearing in front of the vehicle."
+            }
+        ],
+        "summary": "The video shows a man crawling on the road carrying a cardboard box. He suddenly appears in front of the vehicle from the roadside, creating a potential collision hazard. The man's actions are classified as 'ghost probing' due to his unexpected appearance in the vehicle's path, leaving little time for reaction. The man appears to be middle-aged, wearing a dark blue jacket and dark pants. The speed of the man's movement is relatively slow, but the sudden appearance still poses a significant risk.",
+        "actions": "The vehicle is moving forward at a relatively low speed. The driver appears to be maintaining a cautious speed, given the residential area and potential for unexpected events. There are no visible changes in speed or direction in this segment.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_019",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.7s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A man, appearing to be middle-aged, wearing a dark blue jacket, is crawling on the road carrying a cardboard box.",
+                "distance": "2 meters",
+                "behavior or action impacting the vehicle": "Crawling slowly across the vehicle's path, creating an immediate collision risk."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "Middle-aged",
+                "clothing": "Dark blue jacket",
+                "transportation_method": "Crawling",
+                "behavior": "Crawling slowly across the road carrying a cardboard box."
+            }
+        ],
+        "summary": "The video shows a man crawling across the road carrying a cardboard box directly in front of the vehicle. He appears to be middle-aged and is wearing a dark blue jacket. His slow movement and position directly in the vehicle's path create a significant risk of collision. This is a classic example of 'ghost probing' behavior, as he emerges unexpectedly from the front, leaving little reaction time for the driver.",
+        "actions": "The vehicle is shown driving slowly, likely due to the presence of pedestrians and the narrow road. The driver maintains a cautious speed to ensure safety and avoid any potential collisions.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

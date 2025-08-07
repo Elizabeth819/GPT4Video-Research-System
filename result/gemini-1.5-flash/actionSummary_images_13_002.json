@@ -1,0 +1,66 @@
+[
+    {
+        "video_id": "dada_13_002",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a relatively empty road. The road appears straight with some trees and buildings visible in the distance.  The weather seems overcast. No pedestrians or other vehicles are immediately close enough to the ego vehicle to pose an immediate threat. The car maintains a steady speed throughout the 5-second sequence.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the 5-second video sequence. There are no observable changes in speed or direction, suggesting the driver is proceeding at a comfortable and safe pace for the current road conditions. The lack of any braking or acceleration indicates a steady and controlled driving style.",
+        "next_action": {
+            "speed_control": "maintain_speed",
+            "direction_control": "straight",
+            "lane_control": "keep_lane"
+        }
+    },
+    {
+        "video_id": "dada_13_002",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car approaching a toll booth on a relatively clear day.  The road is mostly empty with no immediate threats or unusual activity observed in the provided frames. The car maintains a steady speed and approaches the toll booth without incident.",
+        "actions": "The vehicle maintains a consistent speed, indicating a controlled approach to the toll booth.  There are no observable changes in direction or braking. The driver appears to be following standard traffic procedures.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_13_002",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car approaching a toll booth on a highway.  The car is slowing down as it approaches the toll plaza.  The traffic appears light, and there are no pedestrians or other vehicles immediately near the ego vehicle. The toll booth barriers are down, indicating the car needs to stop to pay the toll.",
+        "actions": "The vehicle is decelerating smoothly as it approaches the toll booth. This action is consistent with the need to stop at the toll plaza to pay the toll. The driver is maintaining a safe following distance from the vehicle ahead. There are no sudden changes in speed or direction.",
+        "next_action": {
+            "speed_control": "stopping",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_13_002",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "15.4s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a road with construction work on the left side.  The self-vehicle is driving slowly, likely due to the construction zone.  The road ahead appears clear, with no immediate hazards visible. The weather appears overcast.",
+        "actions": "The vehicle is driving slowly, likely due to the presence of a construction zone on the left side of the road. The driver is maintaining a safe distance from the construction barriers and other vehicles. There are no sudden changes in speed or direction.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep right"
+        }
+    }
+]

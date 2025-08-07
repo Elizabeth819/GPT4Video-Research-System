@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) Male pedestrian, approximately 40-50 years old, wearing a grey shirt and dark pants. 2) Female pedestrian, approximately 40-50 years old, wearing a light blue shirt. 3) Person on a bicycle on the left side. 4) Person on an electric scooter on the right side.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban road characterized by barriers and a slow-moving or stationary blue three-wheeled utility vehicle directly ahead. As the vehicle approaches, a male pedestrian suddenly emerges from behind the right side of the three-wheeled utility vehicle, stepping directly into the vehicle's path with minimal warning. A female pedestrian follows closely behind him. This sudden appearance from behind the obstruction creates an immediate and dangerous 'ghost probing' situation, requiring an emergency response from the vehicle.",
+  "actions": "The self-driving vehicle was proceeding cautiously at a low speed, likely due to the presence of the slow-moving or stationary three-wheeled vehicle ahead and the road barriers indicating a complex or congested area. Upon the sudden emergence of a male pedestrian from behind the right side of the three-wheeled vehicle, directly into the vehicle's path, the vehicle immediately initiated rapid deceleration and emergency braking to prevent a collision. The driver's action was a direct and necessary response to the unexpected and immediate hazard posed by the pedestrian's sudden appearance.",
+  "key_objects": "1) Front/Center: A blue three-wheeled utility vehicle (license plate A537CV), approximately 5-7 meters ahead, acting as a significant visual obstruction that completely hid the approaching pedestrians. 2) Front/Center-Right: A male pedestrian, approximately 40-50 years old, wearing a grey shirt and dark pants, suddenly emerging from behind the right side of the three-wheeled vehicle and stepping directly into the vehicle's path, approximately 2-3 meters away. This sudden appearance created an immediate collision risk. 3) Front/Center-Right: A female pedestrian, approximately 40-50 years old, wearing a light blue shirt, following closely behind the male pedestrian, also entering the vehicle's potential path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

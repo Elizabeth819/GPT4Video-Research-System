@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_052",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "6.2s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult person, likely male or female, wearing a light-colored top (possibly pink/white) and dark pants/skirt, and a helmet, riding a motorcycle.",
+  "summary": "The video begins with the autonomous vehicle driving straight on a multi-lane road at night, under an overpass. The road is illuminated by streetlights and the vehicle's headlights. Traffic appears light, and distant traffic lights are green, indicating a clear path forward. As the vehicle approaches an overpass pillar on the left, a white car is visible, potentially parked or stopped, acting as a visual obstruction. Suddenly, a motorcycle with a rider emerges rapidly from behind this white car on the left side, darting directly into the vehicle's path. The motorcycle and rider appear to be moving from left to right across the road. Due to the sudden appearance from behind the obstruction, the vehicle has minimal time to react. A collision occurs, and the motorcycle and rider are seen falling to the ground on the left side of the road, directly in the vehicle's immediate vicinity. The vehicle continues to move forward after the impact, with the fallen motorcycle and rider visible on the road surface to the left.",
+  "actions": "The vehicle was initially maintaining a steady speed, proceeding straight through what appeared to be a clear road segment with green traffic lights ahead. The driver's intention was to continue straight, as indicated by the consistent forward motion and lack of steering input. Upon the sudden emergence of the motorcycle from behind the parked white car on the left, the vehicle's response was insufficient to avoid a collision. The frames suggest a very late or no effective braking action, leading to the impact. The vehicle continued its forward trajectory immediately after the collision, indicating either a very brief, ineffective braking attempt or a complete lack of time to react and stop before or immediately after impact. The vehicle's speed was maintained until the point of impact, and then continued forward, likely due to the suddenness of the event and the vehicle's momentum.",
+  "key_objects": "1) Left side: A white car, stationary, positioned near the overpass pillar. It acted as a physical obstruction, completely obscuring the approaching motorcycle until it emerged, directly contributing to the 'ghost probing' scenario. 2) Left side, then center: A motorcycle with a rider. It suddenly emerged from behind the white car on the left, moving rapidly across the vehicle's path towards the center, then falling on the left side of the road after impact. Its sudden appearance with minimal reaction time directly caused the collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

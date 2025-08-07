@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_14_004",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a rural road with no visible obstacles or other vehicles. The road is winding and surrounded by hills and vegetation. The weather appears to be rainy, as the road is wet.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating the winding road. The driver is likely focused on keeping the vehicle steady and within the lane due to the wet road conditions.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_14_004",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a silver sedan",
+        "summary": "In this segment, the vehicle is driving on a winding mountain road. A silver sedan is seen ahead, initially in the adjacent lane, and then moving into the self-vehicles lane abruptly.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating the curves of the mountain road. The sudden appearance of the silver sedan in the self-vehicles lane requires the driver to decelerate to avoid a collision.",
+        "key_objects": "1) Front: A silver sedan, approximately 15 meters away, moving from the adjacent lane into the self-vehicles lane abruptly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

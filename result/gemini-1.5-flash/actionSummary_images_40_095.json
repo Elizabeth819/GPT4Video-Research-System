@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_40_095",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "3.3s",
+        "sentiment": "Neutral",
+        "scene_theme": "Urban",
+        "characters": "Pedestrian, vehicles",
+        "summary": "In this segment, the vehicle is approaching a gated entrance of a building complex. A pedestrian is seen crossing from the left side of the frame towards the right side. There are also vehicles parked on both sides of the entrance.",
+        "actions": "The self-driving vehicle is approaching the entrance slowly, likely due to the presence of the pedestrian crossing and the gate barrier. The vehicles speed is controlled to ensure safety as it nears the entrance.",
+        "key_objects": "1) Left side: A pedestrian, approximately 5 meters away, crossing from left to right, potentially obstructing the vehicles path. 2) Front: A gate barrier, approximately 10 meters away, partially lowered, requiring the vehicle to slow down. 3) Right side: A white car, approximately 15 meters away, parked near the entrance, posing no immediate threat.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_095",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a yellow taxi, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a city street at night. A white sedan is parked on the right side of the road. A yellow taxi is stationary in the middle of the road, and a motorcyclist is approaching from the left side, potentially crossing the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the yellow taxi and the motorcyclist. The vehicle is likely preparing to decelerate to avoid a collision with the motorcyclist who is moving towards the vehicles path.",
+        "key_objects": "1) Right side: A white sedan, approximately 3 meters away, parked and blocking part of the view. 2) Left side: A motorcyclist, approximately 5 meters away, moving towards the vehicles path. 3) Front: A yellow taxi, approximately 10 meters away, stationary in the middle of the road.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

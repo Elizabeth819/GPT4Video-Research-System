@@ -1,0 +1,78 @@
+[
+    {
+        "video_id": "dada_1_002",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "Two adults walking on the road, one wearing a dark jacket and the other a lighter colored jacket.",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Walking towards the vehicle, appearing to cross the road."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A person riding a motorcycle.",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Approaching the vehicle from the right side of the road."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": "Two adults walking on the road, one wearing a dark jacket and the other a lighter colored jacket. A person riding a motorcycle.",
+        "summary": "The video shows a car driving down a road.  At approximately 15 meters ahead, two adults are walking in the center of the road, seemingly intending to cross.  They are walking towards the vehicle.  A motorcycle is also approaching from the right side of the road, approximately 20 meters away. The adults' crossing behavior presents a potential ghost probing scenario, as they are not initially visible due to the distance and could suddenly step into the vehicle's path. The motorcycle's approach from the right also presents a potential hazard.",
+        "actions": "The vehicle maintains a steady speed, likely adjusting to the road conditions and anticipating the pedestrians and motorcycle. The driver is likely observing the pedestrians and motorcycle, preparing to react to their movements.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_002",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A young child, appearing to be around 5 years old, wearing dark clothing",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "running across the road from left to right, directly in front of the vehicle"
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "5",
+                "gender": "male",
+                "clothing": "dark clothing",
+                "transportation": "on foot",
+                "behavior": "running across the road"
+            }
+        ],
+        "summary": "The video shows a car driving on a road. At approximately 5 seconds, a young child, around 5 years old, wearing dark clothes, suddenly runs across the road from left to right, directly in front of the vehicle. The child's action is unexpected and poses a significant risk of collision. The speed of the child is relatively fast, leaving little reaction time for the driver. The driver is likely to brake immediately to avoid hitting the child.",
+        "actions": "The vehicle maintains a relatively constant speed throughout the observed period. There are no significant changes in direction or speed observed in the provided frames. The driver appears to be maintaining a safe distance from other vehicles and road obstacles.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_002",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "11.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a relatively empty road in a rural area. The road is straight, and there are buildings and a small canal visible on the sides.  The weather appears overcast. No pedestrians, cyclists, or other vehicles are immediately close enough to the ego vehicle to pose an immediate threat. The car maintains a steady speed throughout the 5-second segment.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the observed 5-second period. There are no observable changes in speed or direction, suggesting the driver is proceeding at a comfortable pace along a straight road with no immediate obstacles or traffic.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

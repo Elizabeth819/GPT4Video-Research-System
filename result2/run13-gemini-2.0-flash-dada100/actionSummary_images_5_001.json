@@ -1,0 +1,38 @@
+{
+  "video_id": "images_5_001",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.6s",
+  "summary": "The self-driving car is traveling on a straight road at night. From 0.0s to 4.0s, the car is driving on a straight road with a white car in front. From 4.0s to 12.6s, the car approaches an intersection with a traffic light. At 5.0s, a man wearing an orange shirt is seen crossing the road. At 6.0s, a man is seen riding a motorcycle across the road. At 7.0s, a man is seen walking across the road. At 11.7s, a silver car on the left side is seen turning left into the intersection.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "orange shirt",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "crossing the road"
+    },
+    {
+      "gender": "male",
+      "clothing": "unclear",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "way_of_walking": "crossing the road"
+    },
+    {
+      "gender": "male",
+      "clothing": "unclear",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "crossing the road"
+    }
+  ],
+  "key_objects": [],
+  "actions": "The vehicle is driving straight on a road at night. The vehicle is approaching an intersection with a traffic light. The vehicle is maintaining its speed and lane position, likely intending to proceed straight through the intersection if the light allows.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep_straight",
+    "lane_control": "keep_straight"
+  },
+  "key_actions": "none"
+}

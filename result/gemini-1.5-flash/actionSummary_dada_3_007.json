@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_3_007",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017/04/17 13:49:02",
+    "End_Timestamp": "2017/04/17 13:49:11",
+    "summary": "A child on a bicycle suddenly appears in the middle of the road and falls. The driver needs to react quickly to avoid a collision.",
+    "actions": "The vehicle is driving straight. The driver needs to brake immediately to avoid hitting the child who has fallen off the bicycle.",
+    "key_objects": [
+      "child",
+      "bicycle",
+      "vehicle"
+    ],
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "emergency braking",
+      "direction_control": "swerve left if possible",
+      "lane_control": "stay in lane if safe, otherwise change lane to avoid collision"
+    }
+  }
+]

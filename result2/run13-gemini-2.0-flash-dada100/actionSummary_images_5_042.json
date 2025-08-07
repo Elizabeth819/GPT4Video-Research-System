@@ -1,0 +1,22 @@
+{
+  "video_id": "images_5_042",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.0s",
+      "characters": [
+        "From 0.0s to 7.0s, the scene shows a street with buildings on both sides and parked cars on the right. There are several vehicles on the road, including a white van, a blue tricycle, and other cars. A person on a scooter is seen at 6.2s, and at 7.0s, the person on the scooter falls off the scooter in front of the car."
+      ],
+      "summary": "From 0.0s to 7.0s, the self-driving car is approaching an intersection. Initially, the road is relatively clear with a white van and a blue tricycle ahead. As the car approaches the intersection, a person on a scooter suddenly appears from the left side of the road at 6.2s. At 7.0s, the person on the scooter falls off the scooter directly in front of the car, creating a dangerous \"ghost probing\" situation. The speed of the scooter is moderate, but the sudden fall requires immediate braking to avoid a collision.",
+      "actions": "The vehicle is moving forward on a straight road, approaching an intersection. The driver is maintaining a steady speed, likely assessing the traffic conditions and preparing to proceed through the intersection or stop if necessary. The speed is appropriate for the road conditions and traffic density.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Left side]: A person on a scooter, approximately 5 meters away, suddenly falls off the scooter directly in front of the car, requiring immediate braking to avoid a collision."
+    }
+  ]
+}

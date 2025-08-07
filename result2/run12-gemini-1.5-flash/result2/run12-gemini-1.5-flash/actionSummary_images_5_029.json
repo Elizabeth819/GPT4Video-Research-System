@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_5_029",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Road",
+    "characters": "Driver of the observer vehicle, other drivers, a person on an electric bicycle",
+    "summary": "The video shows the observer vehicle driving on a city road.  Several other vehicles are present, including a white car directly ahead and other cars in the distance.  Around the 7-second mark, a person on a blue electric bicycle crosses the road from the right side, appearing suddenly from behind a small truck. This action could be classified as ghost probing due to the sudden appearance and limited reaction time for the observer vehicle. The observer vehicle maintains a consistent speed and distance from the car in front throughout the sequence.",
+    "actions": "The observer vehicle maintains a consistent speed and following distance from the vehicle directly ahead.  There are no observable changes in speed or direction during this segment. The vehicle navigates a typical urban road environment with other vehicles present.",
+    "key_objects": "1) Right: Person on a blue electric bicycle, approximately 10 meters away at the time of crossing, suddenly emerging from behind a small truck, crossing the road directly in front of the observer vehicle. This action caused a potential near-miss situation.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_029",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.5s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of the observer vehicle, a person riding an electric bicycle, drivers of other vehicles.",
+    "summary": "The video shows the observer vehicle approaching an intersection.  A green car is ahead in the same lane. To the right, a person on an electric bicycle is visible, moving slowly along the sidewalk.  There are other vehicles in the distance. Over the 4.5 seconds shown, the observer vehicle maintains a consistent speed and distance from the vehicle ahead. The electric bicycle rider poses no immediate threat.",
+    "actions": "The observer vehicle maintains a consistent speed and following distance from the vehicle ahead.  The vehicle is approaching an intersection and appears to be slowing slightly in anticipation of the intersection.",
+    "key_objects": "1) Front: Green car, approximately 15 meters away, maintaining consistent speed. 2) Right: Person on an electric bicycle, approximately 10 meters away, moving slowly along the sidewalk, not entering the roadway.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

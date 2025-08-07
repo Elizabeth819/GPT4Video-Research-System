@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_5_003",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00",
+    "End_Timestamp": "00:00:03",
+    "summary": "The vehicle is driving on a city street with moderate traffic. A motorcycle ahead crashes, causing the riders to fall onto the road. Other motorcycles are present on the road.",
+    "actions": "The vehicle is maintaining its speed and lane. The driver should prepare to slow down or change lanes to avoid the fallen riders.",
+    "key_objects": [
+      "motorcycles",
+      "pedestrians",
+      "cars",
+      "fallen riders"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed, be prepared to slow down",
+      "direction_control": "stay in lane, be prepared to change lanes",
+      "lane_control": "maintain lane"
+    }
+  }
+]

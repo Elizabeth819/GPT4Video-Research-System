@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_5_041",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white SUV, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. There are multiple vehicles and motorcyclists on the road. The white SUV on the left side is moving forward, and a motorcyclist is ahead in the same lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the urban road. The vehicle is keeping a safe distance from the motorcyclist ahead and the white SUV on the left side.",
+        "key_objects": "1) Left side: A white SUV, approximately 5 meters away, moving forward. 2) Front: A motorcyclist, approximately 10 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_041",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "6.8s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a white sedan, Driver of a black SUV, Driver of an orange car",
+        "summary": "In this segment, the vehicle is driving on an urban road approaching a traffic light. The white sedan ahead is maintaining its lane, while the black SUV on the right is preparing to turn right. The orange car on the right is moving forward in its lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the traffic light. The vehicle is keeping a safe distance from the white sedan ahead and monitoring the black SUV and orange car on the right.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining its lane. 2) Right: A black SUV, approximately 5 meters away, preparing to turn right. 3) Right: An orange car, approximately 7 meters away, moving forward in its lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_016",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "9.7s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A person wearing a light-colored jacket and white pants.",
+    "summary": "The vehicle is traveling on a multi-lane road. Initially, the road appears clear with other vehicles present. However, at approximately the 4-second mark, a person wearing a light-colored jacket and white pants begins crossing the road from right to left. This person is not at a designated crossing and appears to be jaywalking, creating a potential ghost probing situation as they move into the vehicle's path.",
+    "actions": "The vehicle maintains a consistent speed initially. As the person begins crossing the road, the vehicle likely needs to decelerate to avoid a potential collision. The driver is reacting to the unexpected appearance of the person crossing the road.",
+    "key_objects": "1) Right side: A person wearing a light-colored jacket and white pants, approximately 5 meters away, suddenly crossing the road from right to left and entering the vehicle's path.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "video_id": "dada_1_010",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "Red bus",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Maintaining a consistent distance ahead of the ego vehicle."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a 5-second segment of a car driving on a two-lane road.  The road is relatively clear with a red bus traveling ahead in the same lane. The bus maintains a consistent distance from the ego vehicle throughout the 5-second clip. No pedestrians or other vehicles are observed engaging in any dangerous maneuvers or actions that would warrant a key action label.",
+        "actions": "The ego vehicle maintains a steady speed and follows the red bus ahead at a safe distance. There are no observed changes in speed or direction during this 5-second segment. The driver appears to be maintaining a safe following distance and driving cautiously.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_010",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A man on a motorcycle, wearing a dark jacket and light-colored pants, appearing to be middle-aged.",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Approaching the vehicle from behind a wall, then crossing the road from right to left in front of the vehicle at a moderate speed."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "Middle-aged",
+                "clothing": "Dark jacket, light-colored pants",
+                "transportation": "Motorcycle",
+                "behavior": "Crossed the road from right to left in front of the vehicle after appearing from behind a wall. Moderate speed."
+            }
+        ],
+        "summary": "The video shows a man on a motorcycle suddenly appearing from behind a wall on the right side of the road and crossing in front of the vehicle. The man's action is classified as 'ghost probing' due to his sudden appearance from a blind spot and the potential for a collision. The motorcycle's speed is moderate, giving the driver limited reaction time.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the observed period. There are no apparent changes in speed or direction based on the provided frames. The driver appears to be maintaining a safe following distance from the vehicles ahead.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_010",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A white sedan",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Slowing down and turning right at an intersection."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A person riding a scooter",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Approaching the intersection from a side street, potentially crossing the path of the self-driving vehicle."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Scooter",
+                "way_of_walking": "Approaching the intersection from a side street."
+            }
+        ],
+        "summary": "The video shows the self-driving vehicle approaching an intersection.  A white sedan in front is slowing down and turning right. A male, aged 30-40, wearing a dark jacket and pants, is riding a scooter and approaching the intersection from the right side street. The scooter rider's path intersects with the self-driving vehicle's path, creating a potential collision risk. The self-driving vehicle maintains a safe distance from the white sedan ahead. The weather is sunny and the road is clear except for the intersection.",
+        "actions": "The self-driving vehicle maintains a consistent speed, approaching the intersection cautiously. The vehicle's speed is adjusted based on the traffic conditions, slowing down as it approaches the intersection to allow for safe navigation of the turn. The driver is maintaining a safe following distance from the vehicle in front.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_010",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "18.3s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A man on a skateboard",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "crossing the road from left to right, appearing suddenly from behind a truck, high speed"
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark colored jacket and pants",
+                "transportation_method": "Skateboard",
+                "behavior": "Crossing the road from left to right at a high speed, appearing suddenly from behind a truck."
+            }
+        ],
+        "summary": "The video shows a man on a skateboard crossing the road from left to right. He appears suddenly from behind a truck in the center of the road, directly in front of the vehicle.  His speed is high, creating a ghost probing situation. The driver has very little time to react. The man is wearing a dark colored jacket and pants, and appears to be between 30-40 years old.",
+        "actions": "The vehicle maintains a steady speed, likely due to the relatively clear road ahead before the skateboarder appears.  The driver is likely observing the road and traffic conditions.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_010",
+        "segment_id": "segment_004",
+        "Start_Timestamp": "20.0s",
+        "End_Timestamp": "21.8s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A small dark-colored object, possibly a small animal or debris",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Lying still in the middle of the road, posing a potential hazard."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving down a two-lane road.  The road is relatively clear with some light traffic. In the center of the road, approximately 5 meters ahead of the vehicle, is a small, dark-colored object. It appears to be stationary and could be a small animal or debris. There are no pedestrians or other vehicles exhibiting dangerous behavior.",
+        "actions": "The vehicle maintains a consistent speed, appearing to drive cautiously and defensively.  There are no sudden braking or acceleration maneuvers observed. The driver is likely maintaining a safe following distance from the vehicle ahead. The consistent speed suggests the driver is adapting to the road conditions and the presence of the object in the road.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

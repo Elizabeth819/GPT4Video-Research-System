@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_005",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A group of students wearing school uniforms and carrying umbrellas are on the right side of the road. A motorcyclist wearing a dark jacket and helmet is attempting to cross the road from right to left.",
+  "summary": "The vehicle is driving on a wet urban road with moderate traffic. A large group of students is gathered on the right side of the road, near what appears to be a school or bus stop. A motorcyclist wearing a dark jacket and helmet is attempting to cross the road from right to left, potentially obscured by the group of students and parked cars, creating a potential ghost probing situation. The road is wet, which could affect braking distance.",
+  "actions": "The self-driving vehicle is maintaining a steady speed, likely adjusting to the wet road conditions. The vehicle is proceeding straight, monitoring the group of students and the motorcyclist on the right side of the road. The driver is likely anticipating the need to decelerate or stop if the motorcyclist enters the vehicle's path unexpectedly.",
+  "key_objects": "1) Right side: A motorcyclist wearing a dark jacket and helmet, approximately 10 meters away, attempting to cross the road from right to left, potentially obscured by the group of students and parked cars. 2) Right side: A large group of students wearing school uniforms and carrying umbrellas, approximately 5 meters away, potentially obstructing the view of the motorcyclist.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

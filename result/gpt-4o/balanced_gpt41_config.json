@@ -1,0 +1,132 @@
+{
+  "prompt_version": "balanced_gpt41_v1.0",
+  "created_date": "2025-07-11",
+  "performance_metrics": {
+    "f1_score": 0.712,
+    "recall": 0.963,
+    "precision": 0.565,
+    "accuracy": 0.576,
+    "false_positive_rate": 0.889,
+    "evaluated_on_videos": 99,
+    "ground_truth_coverage": "images_1_001 to images_5_XXX"
+  },
+  "api_configuration": {
+    "vision_api_type": "Azure",
+    "vision_deployment": "gpt-4.1",
+    "api_version": "2024-02-15-preview",
+    "max_tokens": 2000,
+    "temperature": 0.3,
+    "max_retry_attempts": 2,
+    "wait_exponential_multiplier": 2000,
+    "wait_exponential_max": 60000
+  },
+  "video_processing_config": {
+    "frame_interval_seconds": 10,
+    "frames_per_interval": 10,
+    "audio_transcription": true,
+    "output_format": "JSON",
+    "evaluation_strategy": "any_segment_detection"
+  },
+  "ghost_probing_detection_rules": {
+    "high_confidence_criteria": {
+      "distance_threshold": "<3 meters (1-2 vehicle lengths)",
+      "appearance": "SUDDEN from blind spots",
+      "environments": ["highways", "rural roads", "parking lots", "uncontrolled intersections"],
+      "response_required": "IMMEDIATE emergency braking/swerving",
+      "predictability": "COMPLETELY UNPREDICTABLE",
+      "label": "ghost probing"
+    },
+    "potential_ghost_probing_criteria": {
+      "distance_threshold": "3-5 meters",
+      "appearance": "sudden but at moderate distance",
+      "collision_risk": "moderate",
+      "predictability": "unexpected but not impossible",
+      "label": "potential ghost probing"
+    },
+    "normal_traffic_exclusions": [
+      "Pedestrians crossing at intersections/crosswalks/traffic lights",
+      "Vehicles making normal lane changes/turns/merging with signals", 
+      "Cyclists following predictable paths in urban areas/bike lanes",
+      "Any movement EXPECTED given traffic environment"
+    ]
+  },
+  "environment_context_guidelines": {
+    "intersection_crosswalk": {
+      "expectation": "pedestrians and cyclists",
+      "recommended_label": "emergency braking due to pedestrian crossing"
+    },
+    "highway_rural": {
+      "sensitivity": "higher",
+      "note": "more sensitive to genuine ghost probing"
+    },
+    "parking_lot": {
+      "expectation": "sudden vehicle movements",
+      "recommended_label": "potential ghost probing if very sudden"
+    },
+    "urban_street": {
+      "approach": "mixed consideration of visibility and predictability"
+    }
+  },
+  "output_json_structure": {
+    "video_id": "string",
+    "segment_id": "string", 
+    "Start_Timestamp": "string (X.Xs format)",
+    "End_Timestamp": "string (X.Xs format)",
+    "sentiment": "Positive/Negative/Neutral",
+    "scene_theme": "Dramatic/Routine/Dangerous/Safe",
+    "characters": "string description",
+    "summary": "string comprehensive summary",
+    "actions": "string vehicle and driver actions",
+    "key_objects": "string numbered list format",
+    "key_actions": "string (use 'ghost probing', 'potential ghost probing', or descriptive terms)",
+    "next_action": {
+      "speed_control": "rapid deceleration/deceleration/maintain speed/acceleration",
+      "direction_control": "keep direction/turn left/turn right", 
+      "lane_control": "maintain current lane/change left/change right"
+    }
+  },
+  "comparison_with_other_versions": {
+    "vs_original_gpt41": {
+      "f1_improvement": "+0.9%",
+      "precision_improvement": "+3.7%", 
+      "recall_change": "-3.7%",
+      "false_positive_reduction": "-11.1%"
+    },
+    "vs_strict_improved_gpt41": {
+      "f1_improvement": "+60.4%",
+      "recall_recovery": "+63.0%",
+      "note": "Successfully recovered from recall collapse (33% to 96.3%)"
+    }
+  },
+  "recommended_use_cases": [
+    "Production autonomous driving safety systems",
+    "Real-time ghost probing detection",
+    "Video analysis requiring balanced precision-recall",
+    "Safety-critical applications where missing events is costly"
+  ],
+  "environment_variables_required": [
+    "VISION_API_TYPE=Azure",
+    "VISION_ENDPOINT_4.1=gpt-4.1", 
+    "VISION_ENDPOINT=https://your-endpoint.openai.azure.com",
+    "OPENAI_API_KEY=your-api-key",
+    "AUDIO_API_TYPE=Azure",
+    "AZURE_WHISPER_KEY=your-whisper-key", 
+    "AZURE_WHISPER_DEPLOYMENT=your-whisper-deployment",
+    "AZURE_WHISPER_ENDPOINT=your-whisper-endpoint"
+  ],
+  "files": {
+    "main_script": "ActionSummary-gpt41-balanced-prompt.py",
+    "batch_processor": "batch_process_balanced_gpt41.py", 
+    "evaluation_script": "final_complete_evaluation.py",
+    "prompt_documentation": "BALANCED_GPT41_PROMPT_FINAL.md"
+  },
+  "validation_results": {
+    "total_videos_processed": 99,
+    "success_rate": "99/101 (98.0%)",
+    "true_positives": 52,
+    "false_positives": 40, 
+    "true_negatives": 5,
+    "false_negatives": 2,
+    "evaluation_strategy_confirmed": "any_segment_detection (correct for single ghost probing per video)"
+  }
+}

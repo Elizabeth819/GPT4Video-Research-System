@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_036",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "None directly involved in the immediate dangerous event, but drivers of multiple large trucks are present.",
+  "summary": "In this segment, the self-driving vehicle is approaching and initiating a left turn at an intersection. The view to the left side of the intersection is significantly obstructed by a large building and several parked or slowly moving trucks. As the vehicle begins its turn, a large white container truck suddenly emerges from behind these obstructions on the left side, entering the vehicle's intended path. The truck appears with minimal warning, creating an immediate potential collision scenario, which constitutes a vehicle ghost probing incident.",
+  "actions": "The self-driving vehicle initially approaches the intersection at a moderate speed. As it begins to execute a left turn, a large white container truck unexpectedly appears from the left side, emerging from behind a building and other vehicles that were obstructing the view. In response to this sudden appearance and the truck entering its path, the vehicle immediately initiates rapid deceleration to avoid a collision and yield to the crossing truck. The vehicle's speed is reduced significantly to ensure safety.",
+  "key_objects": "1) Left side: A large white container truck, approximately 5-10 meters away, suddenly emerging from behind a building and other vehicles at the intersection and moving across the vehicle's path. 2) Left side: A multi-story building and several other large trucks, approximately 10-20 meters away, creating a significant visual obstruction that completely hid the approaching white container truck until it emerged into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

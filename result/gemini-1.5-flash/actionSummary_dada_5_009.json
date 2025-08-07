@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving straight on a multi-lane road. There are several vehicles ahead. A pedestrian/cyclist suddenly appears from behind a large planter on the left side of the road.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are also moving forward in the same direction. A pedestrian/cyclist is crossing the road from left to right.",
+    "characters": "A pedestrian/cyclist wearing a red helmet.",
+    "key_objects": "Ego vehicle, other vehicles, pedestrian/cyclist, large planter, road signs.",
+    "key_actions": "ghost probing",
+    "next_action": "Ego vehicle will likely brake or swerve to avoid the pedestrian/cyclist."
+  }
+]

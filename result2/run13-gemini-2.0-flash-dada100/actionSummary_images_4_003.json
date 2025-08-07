@@ -1,0 +1,24 @@
+{
+  "video_id": "images_4_003",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "8.6s",
+  "summary": "The self-driving car starts from a standstill at 0.0s. From 0.0s to 3.8s, the car remains stationary. At 4.8s, a male wearing a dark jacket and light-colored pants is seen walking from behind a parked white van on the left side of the road. He is walking towards the street. At 5.8s, the car begins to move forward, and the male continues walking into the street. At 6.7s, the car accelerates to 13km/h. At 7.7s, the car decelerates to 9km/h. At 8.6s, the car decelerates to 5km/h as the male continues to cross the street. The male's sudden appearance from behind the parked van constitutes a potential ghost probing incident.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "dark jacket, light-colored pants",
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "crossing the street from behind a parked van"
+    }
+  ],
+  "actions": "The vehicle is initially stationary. It remains stopped from 0.0s to 4.8s. At 5.8s, the vehicle starts moving forward. At 6.7s, the vehicle accelerates to 13km/h, likely because the road ahead is clear. At 7.7s, the vehicle decelerates to 9km/h, and at 8.6s, it decelerates further to 5km/h. This deceleration is likely due to the male crossing the street, requiring the vehicle to slow down for safety.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "[Left side]: A male wearing a dark jacket and light-colored pants, approximately 5 meters away, is crossing the street from behind a parked van, causing the vehicle to decelerate."
+}

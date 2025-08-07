@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_5_045",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "3.3s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Initially, the road ahead is clear, but as the vehicle progresses, a red scooter with a rider wearing a pink helmet suddenly appears from the right side, moving into the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the red scooter with the rider wearing a pink helmet suddenly appears from the right side, the vehicle needs to decelerate to avoid a potential collision.",
+        "key_objects": "1) Right side: A red scooter with a rider wearing a pink helmet, approximately 2 meters away, moving into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_045",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a busy urban road. A white SUV on the left side of the road is moving into the lane of the self-driving vehicle, potentially causing a cut-in situation. The vehicle ahead is maintaining a steady speed, while the self-driving vehicle is approaching the intersection.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The driver is likely preparing to decelerate due to the potential cut-in from the white SUV on the left side.",
+        "key_objects": "1) Left side: A white SUV, approximately 5 meters away, moving into the lane of the self-driving vehicle, causing a potential cut-in situation. 2) Front: A black car, approximately 20 meters away, maintaining a steady speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_045",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.9s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white sedan is seen merging from the left lane into the self-vehicles lane, causing a potential cut-in situation. The traffic is dense, and the self-vehicle is maintaining a steady speed.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while monitoring the white sedan merging from the left lane. The vehicle is prepared to decelerate if necessary to avoid a collision.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, merging into the self-vehicles lane, causing a potential cut-in situation.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

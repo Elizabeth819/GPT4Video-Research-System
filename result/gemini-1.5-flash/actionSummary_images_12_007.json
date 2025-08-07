@@ -1,0 +1,81 @@
+[
+    {
+        "video_id": "dada_12_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a relatively empty two-lane road. The road appears to be straight with clear visibility.  No pedestrians, cyclists, or other vehicles are observed in close proximity to the ego vehicle during the 5-second segment. The weather appears sunny and clear. The road is well-maintained and there are no apparent obstacles.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the 5-second video segment. There are no observable changes in speed or direction, suggesting the driver is maintaining a steady course on a straight road with good visibility and no immediate need for adjustments.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_12_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A person riding a motorcycle",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Approaching from behind at a moderate speed, then overtaking the ego vehicle."
+            }
+        ],
+        "key_actions": "right-side overtaking",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket",
+                "transportation_method": "Motorcycle",
+                "behavior": "Overtaking the ego vehicle from the right lane at a moderate speed."
+            }
+        ],
+        "summary": "The video segment shows a clear sunny day. The ego vehicle is driving on a two-lane road. A male, aged 30-40, wearing a dark jacket, is riding a motorcycle. He approaches from behind the ego vehicle in the right lane and overtakes it at a moderate speed. No other significant events or near-miss incidents are observed during this segment. The overtaking maneuver appears safe and legal.",
+        "actions": "The ego vehicle maintains a consistent speed and lane position throughout the segment. There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle ahead. The driving behavior is smooth and predictable.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_12_007",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a segment of a road trip on a two-lane road. The self-driving vehicle maintains a safe following distance behind a white sedan. The road is clear, with no pedestrians or other vehicles immediately obstructing the path. The weather appears sunny and clear.  There are trees and some signage visible on the roadside. No unusual events or potential hazards are observed during this segment.",
+        "actions": "The self-driving vehicle maintains a consistent speed and following distance behind the preceding white sedan.  The vehicle's steering remains straight, indicating no lane changes or turns. The speed is likely adjusted to maintain a safe distance from the car ahead, suggesting adaptive cruise control or driver attentiveness to traffic conditions.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_12_007",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "20.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a clear, sunny day. The self-driving vehicle is traveling on a two-lane highway, maintaining a safe following distance behind a white sedan.  No pedestrians, cyclists, or other vehicles are observed in close proximity to the self-driving vehicle or exhibiting any erratic behavior during this 5-second segment. The road is clear and there are no apparent obstacles.",
+        "actions": "The self-driving vehicle maintains a consistent speed and following distance behind the preceding vehicle.  There are no lane changes or other significant maneuvers observed. The vehicle's actions suggest a cautious and safe driving approach, adapting to the relatively low traffic density and clear road conditions.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    }
+]

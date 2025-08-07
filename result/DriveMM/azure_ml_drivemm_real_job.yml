@@ -1,0 +1,49 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# 作业基本信息
+display_name: "DriveMM_Real_Ghost_Probing_Analysis"
+description: "使用真实DriveMM模型在GPU环境中进行鬼探头检测分析"
+
+# 计算资源 - 使用GPU集群
+compute: azureml:gpu-cluster
+environment: azureml:drivemm-inference-env:1
+
+# 输入和输出
+inputs:
+  storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=drivelmmstorage2e932dad7;AccountKey=MniZTrPWLKwVg6XpJKpu+4Rv5fuvd0x+xq2smYW+yZn1IGVpf5OcMuGfLBmSuKyOWhAjOLGnbNIq+AStpd49zQ==;EndpointSuffix=core.windows.net"
+
+outputs:
+  results:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/drivemm-results/
+
+# 代码
+code: .
+
+# 命令 - 在GPU环境中运行真实DriveMM推理
+command: >-
+  export AZURE_STORAGE_CONNECTION_STRING="${{inputs.storage_connection_string}}" &&
+  export HF_HOME=/tmp/huggingface_cache &&
+  export CUDA_VISIBLE_DEVICES=0 &&
+  python azure_drivemm_real_inference.py
+
+# 环境变量
+environment_variables:
+  PYTHONPATH: /mnt/azureml/src
+  HF_HOME: /tmp/huggingface_cache
+  TRANSFORMERS_CACHE: /tmp/transformers_cache
+  TORCH_HOME: /tmp/torch_cache
+
+# 资源要求
+resources:
+  instance_count: 1
+  shm_size: "16g"  # 增加共享内存，DriveMM是大模型
+
+# 实验设置
+experiment_name: drivemm-real-inference
+tags:
+  model: "DriveMM-Real"
+  task: "ghost-probing-detection"
+  comparison: "vs-GPT41-balanced"
+  environment: "Azure-ML-GPU"

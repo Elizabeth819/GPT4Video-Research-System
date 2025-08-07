@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_047",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple individuals are present in the scene. These include a male riding an electric scooter, wearing a dark shirt, who crosses the vehicle's path. Another male pedestrian, wearing a dark shirt and carrying an umbrella, crosses from the right side. Several other individuals are seen riding electric scooters or walking on the sidewalks and crossing the street. Their ages and specific clothing details are not clearly discernible beyond general attire.",
+  "summary": "The video begins with the autonomous vehicle emerging from a dark underpass or tunnel into a brightly lit, busy urban street. As the vehicle exits the obstruction, a male on an electric scooter suddenly appears from the left side of the tunnel exit, darting across the vehicle's immediate path. Shortly after this, a pedestrian carrying an umbrella emerges abruptly from behind parked vehicles and buildings on the right side, also crossing the street directly in front of the vehicle. Subsequently, another electric scooter rider appears suddenly from the right side, continuing the pattern of unexpected crossings. The street is densely populated with parked vehicles, moving scooters, and pedestrians, creating a chaotic and high-risk environment with multiple instances of 'ghost probing' behavior.",
+  "actions": "The vehicle is initially moving forward, exiting an underpass. Upon emerging from the underpass, the vehicle immediately decelerates and appears to come to a near stop or complete stop. This action is taken in response to the sudden and successive appearance of multiple individuals (an electric scooter rider, a pedestrian, and another electric scooter rider) crossing the vehicle's path from behind visual obstructions, which creates an immediate collision risk and necessitates an emergency braking or stopping maneuver to ensure safety.",
+  "key_objects": "1) Position: Center-left to center: A male on an electric scooter, emerging suddenly from behind the physical obstruction of the tunnel's left wall/archway, directly entering the vehicle's path. This creates an immediate danger due to minimal reaction time. 2) Position: Right to center: A pedestrian, emerging suddenly from behind parked vehicles and buildings on the right side of the road, directly entering the vehicle's path. This also creates an immediate danger. 3) Position: Right to center: Another male on an electric scooter, emerging suddenly from behind parked vehicles and buildings on the right side, directly entering the vehicle's path, further contributing to the hazardous situation.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

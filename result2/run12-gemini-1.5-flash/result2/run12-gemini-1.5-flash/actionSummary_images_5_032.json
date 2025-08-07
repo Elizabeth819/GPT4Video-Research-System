@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_5_032",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "Driver of a car, motorcyclist",
+    "summary": "The video shows a car driving down a road.  Several motorcycles are parked on the right side of the road. A motorcyclist on a black motorcycle pulls out from between parked motorcycles and into the path of the oncoming car. The motorcyclist falls, and the car appears to narrowly avoid a collision.  The motorcyclist appears to be a male, wearing dark clothing. The incident occurs near buildings and appears to be in an urban setting.",
+    "actions": "The self-driving vehicle maintains a consistent speed, appearing to slightly brake after the motorcyclist falls. The vehicle stays in its lane and does not change direction.",
+    "key_objects": "1) Front: Motorcyclist on a black motorcycle, approximately 5 meters away initially, suddenly pulling out from between parked motorcycles into the path of the car, causing near-miss collision. 2) Right: Parked motorcycles, partially obstructing the view of the approaching motorcyclist.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_032",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "12.2s",
+    "scene_theme": "Potentially Hazardous",
+    "sentiment": "Negative",
+    "characters": "Two children on scooters, one adult.",
+    "summary": "The video shows two children on scooters crossing the road from the left.  One child appears to fall. An adult is visible nearby, seemingly observing the children. The children's actions create a potential hazard for the vehicle.",
+    "actions": "The vehicle is stopped or moving very slowly, likely due to the children crossing the road.  The driver is likely observing the situation and waiting for the children to clear the path.",
+    "key_objects": "1) Left: Two children on scooters, approximately 5 meters away, crossing the road directly in front of the vehicle. One child falls, increasing the risk of collision. 2) Left: An adult, approximately 7 meters away, observing the children.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

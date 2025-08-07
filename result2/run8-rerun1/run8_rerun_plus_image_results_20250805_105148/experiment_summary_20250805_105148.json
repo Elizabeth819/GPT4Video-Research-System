@@ -1,0 +1,930 @@
+{
+  "experiment_info": {
+    "experiment_type": "Run8-Rerun + Image Few-shot",
+    "timestamp": "20250805_105148",
+    "model": "GPT-4o (Azure)",
+    "prompt_version": "Paper_Batch Complex (4-Task) + Text Few-shot + 9 Image Few-shot",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "purpose": "消融实验：测试文本+图像few-shot组合效果",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148",
+    "fewshot_config": {
+      "text_fewshot_examples": 3,
+      "image_fewshot_examples": 9,
+      "image_sequences": 3,
+      "images_per_sequence": 3
+    },
+    "enhanced_characteristics": [
+      "4个详细任务（与run8-rerun相同）",
+      "完整的验证流程",
+      "3个文本few-shot examples",
+      "9张鬼探头图像few-shot examples",
+      "before-during-after序列模式",
+      "严格的分类标准",
+      "Temperature=0确保一致性",
+      "专注ghost probing检测"
+    ]
+  },
+  "processed_videos": [
+    {
+      "video_id": "images_1_001",
+      "status": "success",
+      "duration": 14.67,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_001.json"
+    },
+    {
+      "video_id": "images_1_002",
+      "status": "success",
+      "duration": 11.47,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_002.json"
+    },
+    {
+      "video_id": "images_1_003",
+      "status": "success",
+      "duration": 10.53,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_003.json"
+    },
+    {
+      "video_id": "images_1_004",
+      "status": "success",
+      "duration": 15.4,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_004.json"
+    },
+    {
+      "video_id": "images_1_005",
+      "status": "success",
+      "duration": 14.27,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_005.json"
+    },
+    {
+      "video_id": "images_1_006",
+      "status": "success",
+      "duration": 14.13,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_006.json"
+    },
+    {
+      "video_id": "images_1_007",
+      "status": "success",
+      "duration": 14.13,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_007.json"
+    },
+    {
+      "video_id": "images_1_008",
+      "status": "success",
+      "duration": 5.73,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_008.json"
+    },
+    {
+      "video_id": "images_1_009",
+      "status": "success",
+      "duration": 6.07,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_009.json"
+    },
+    {
+      "video_id": "images_1_010",
+      "status": "success",
+      "duration": 22.67,
+      "frames_extracted": 20,
+      "fewshot_images_used": 9,
+      "total_images_sent": 29,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_010.json"
+    },
+    {
+      "video_id": "images_1_011",
+      "status": "success",
+      "duration": 14.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_011.json"
+    },
+    {
+      "video_id": "images_1_012",
+      "status": "success",
+      "duration": 14.4,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_012.json"
+    },
+    {
+      "video_id": "images_1_013",
+      "status": "success",
+      "duration": 12.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_013.json"
+    },
+    {
+      "video_id": "images_1_014",
+      "status": "success",
+      "duration": 10.47,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_014.json"
+    },
+    {
+      "video_id": "images_1_015",
+      "status": "success",
+      "duration": 8.17,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_015.json"
+    },
+    {
+      "video_id": "images_1_016",
+      "status": "success",
+      "duration": 9.73,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_016.json"
+    },
+    {
+      "video_id": "images_1_017",
+      "status": "success",
+      "duration": 21.67,
+      "frames_extracted": 20,
+      "fewshot_images_used": 9,
+      "total_images_sent": 29,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_017.json"
+    },
+    {
+      "video_id": "images_1_018",
+      "status": "success",
+      "duration": 11.17,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_018.json"
+    },
+    {
+      "video_id": "images_1_019",
+      "status": "success",
+      "duration": 14.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_019.json"
+    },
+    {
+      "video_id": "images_1_020",
+      "status": "success",
+      "duration": 14.67,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_020.json"
+    },
+    {
+      "video_id": "images_1_021",
+      "status": "success",
+      "duration": 6.67,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_021.json"
+    },
+    {
+      "video_id": "images_1_022",
+      "status": "success",
+      "duration": 12.33,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_022.json"
+    },
+    {
+      "video_id": "images_1_023",
+      "status": "success",
+      "duration": 8.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_023.json"
+    },
+    {
+      "video_id": "images_1_024",
+      "status": "success",
+      "duration": 8.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_024.json"
+    },
+    {
+      "video_id": "images_1_025",
+      "status": "success",
+      "duration": 4.67,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_025.json"
+    },
+    {
+      "video_id": "images_1_026",
+      "status": "success",
+      "duration": 7.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_026.json"
+    },
+    {
+      "video_id": "images_1_027",
+      "status": "success",
+      "duration": 9.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_1_027.json"
+    },
+    {
+      "video_id": "images_2_001",
+      "status": "success",
+      "duration": 15.7,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_2_001.json"
+    },
+    {
+      "video_id": "images_2_002",
+      "status": "success",
+      "duration": 14.2,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_2_002.json"
+    },
+    {
+      "video_id": "images_2_004",
+      "status": "success",
+      "duration": 6.93,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_2_004.json"
+    },
+    {
+      "video_id": "images_3_001",
+      "status": "success",
+      "duration": 16.33,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_3_001.json"
+    },
+    {
+      "video_id": "images_3_002",
+      "status": "success",
+      "duration": 8.07,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_3_002.json"
+    },
+    {
+      "video_id": "images_3_003",
+      "status": "success",
+      "duration": 4.27,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_3_003.json"
+    },
+    {
+      "video_id": "images_3_004",
+      "status": "success",
+      "duration": 15.27,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_3_004.json"
+    },
+    {
+      "video_id": "images_3_005",
+      "status": "success",
+      "duration": 11.53,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_3_005.json"
+    },
+    {
+      "video_id": "images_3_006",
+      "status": "success",
+      "duration": 5.67,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_3_006.json"
+    },
+    {
+      "video_id": "images_3_007",
+      "status": "success",
+      "duration": 14.53,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_3_007.json"
+    },
+    {
+      "video_id": "images_4_001",
+      "status": "success",
+      "duration": 14.23,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_4_001.json"
+    },
+    {
+      "video_id": "images_4_002",
+      "status": "success",
+      "duration": 8.93,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_4_002.json"
+    },
+    {
+      "video_id": "images_4_003",
+      "status": "success",
+      "duration": 9.6,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_4_003.json"
+    },
+    {
+      "video_id": "images_4_004",
+      "status": "success",
+      "duration": 10.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_4_004.json"
+    },
+    {
+      "video_id": "images_4_005",
+      "status": "success",
+      "duration": 8.93,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_4_005.json"
+    },
+    {
+      "video_id": "images_4_006",
+      "status": "success",
+      "duration": 8.7,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_4_006.json"
+    },
+    {
+      "video_id": "images_4_007",
+      "status": "success",
+      "duration": 10.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_4_007.json"
+    },
+    {
+      "video_id": "images_4_008",
+      "status": "success",
+      "duration": 17.27,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_4_008.json"
+    },
+    {
+      "video_id": "images_5_001",
+      "status": "success",
+      "duration": 12.87,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_001.json"
+    },
+    {
+      "video_id": "images_5_002",
+      "status": "success",
+      "duration": 14.23,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_002.json"
+    },
+    {
+      "video_id": "images_5_003",
+      "status": "success",
+      "duration": 14.87,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_003.json"
+    },
+    {
+      "video_id": "images_5_004",
+      "status": "success",
+      "duration": 14.53,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_004.json"
+    },
+    {
+      "video_id": "images_5_006",
+      "status": "success",
+      "duration": 14.77,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_006.json"
+    },
+    {
+      "video_id": "images_5_007",
+      "status": "success",
+      "duration": 11.8,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_007.json"
+    },
+    {
+      "video_id": "images_5_008",
+      "status": "success",
+      "duration": 14.43,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_008.json"
+    },
+    {
+      "video_id": "images_5_009",
+      "status": "success",
+      "duration": 15.57,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_009.json"
+    },
+    {
+      "video_id": "images_5_010",
+      "status": "success",
+      "duration": 15.97,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_010.json"
+    },
+    {
+      "video_id": "images_5_011",
+      "status": "success",
+      "duration": 14.3,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_011.json"
+    },
+    {
+      "video_id": "images_5_012",
+      "status": "success",
+      "duration": 15.57,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_012.json"
+    },
+    {
+      "video_id": "images_5_013",
+      "status": "success",
+      "duration": 15.07,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_013.json"
+    },
+    {
+      "video_id": "images_5_014",
+      "status": "success",
+      "duration": 15.6,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_014.json"
+    },
+    {
+      "video_id": "images_5_015",
+      "status": "success",
+      "duration": 8.37,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_015.json"
+    },
+    {
+      "video_id": "images_5_016",
+      "status": "success",
+      "duration": 14.23,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_016.json"
+    },
+    {
+      "video_id": "images_5_017",
+      "status": "success",
+      "duration": 6.57,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_017.json"
+    },
+    {
+      "video_id": "images_5_018",
+      "status": "success",
+      "duration": 10.27,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_018.json"
+    },
+    {
+      "video_id": "images_5_019",
+      "status": "success",
+      "duration": 14.53,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_019.json"
+    },
+    {
+      "video_id": "images_5_020",
+      "status": "success",
+      "duration": 13.4,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_020.json"
+    },
+    {
+      "video_id": "images_5_021",
+      "status": "success",
+      "duration": 5.63,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_021.json"
+    },
+    {
+      "video_id": "images_5_022",
+      "status": "success",
+      "duration": 28.2,
+      "frames_extracted": 20,
+      "fewshot_images_used": 9,
+      "total_images_sent": 29,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_022.json"
+    },
+    {
+      "video_id": "images_5_023",
+      "status": "success",
+      "duration": 14.4,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_023.json"
+    },
+    {
+      "video_id": "images_5_024",
+      "status": "success",
+      "duration": 12.87,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_024.json"
+    },
+    {
+      "video_id": "images_5_025",
+      "status": "success",
+      "duration": 12.17,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_025.json"
+    },
+    {
+      "video_id": "images_5_026",
+      "status": "success",
+      "duration": 15.3,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_026.json"
+    },
+    {
+      "video_id": "images_5_027",
+      "status": "success",
+      "duration": 7.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_027.json"
+    },
+    {
+      "video_id": "images_5_028",
+      "status": "success",
+      "duration": 12.1,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_028.json"
+    },
+    {
+      "video_id": "images_5_029",
+      "status": "success",
+      "duration": 14.53,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_029.json"
+    },
+    {
+      "video_id": "images_5_030",
+      "status": "success",
+      "duration": 13.87,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_030.json"
+    },
+    {
+      "video_id": "images_5_031",
+      "status": "success",
+      "duration": 5.13,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_031.json"
+    },
+    {
+      "video_id": "images_5_032",
+      "status": "success",
+      "duration": 12.2,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_032.json"
+    },
+    {
+      "video_id": "images_5_033",
+      "status": "success",
+      "duration": 7.33,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_033.json"
+    },
+    {
+      "video_id": "images_5_034",
+      "status": "success",
+      "duration": 12.47,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_034.json"
+    },
+    {
+      "video_id": "images_5_035",
+      "status": "success",
+      "duration": 14.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_035.json"
+    },
+    {
+      "video_id": "images_5_036",
+      "status": "success",
+      "duration": 10.47,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_036.json"
+    },
+    {
+      "video_id": "images_5_037",
+      "status": "success",
+      "duration": 7.8,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_037.json"
+    },
+    {
+      "video_id": "images_5_038",
+      "status": "success",
+      "duration": 17.47,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_038.json"
+    },
+    {
+      "video_id": "images_5_039",
+      "status": "success",
+      "duration": 13.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_039.json"
+    },
+    {
+      "video_id": "images_5_040",
+      "status": "success",
+      "duration": 12.73,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_040.json"
+    },
+    {
+      "video_id": "images_5_041",
+      "status": "success",
+      "duration": 7.73,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_041.json"
+    },
+    {
+      "video_id": "images_5_042",
+      "status": "success",
+      "duration": 7.8,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_042.json"
+    },
+    {
+      "video_id": "images_5_043",
+      "status": "success",
+      "duration": 17.0,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_043.json"
+    },
+    {
+      "video_id": "images_5_044",
+      "status": "success",
+      "duration": 9.2,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_044.json"
+    },
+    {
+      "video_id": "images_5_045",
+      "status": "success",
+      "duration": 11.4,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_045.json"
+    },
+    {
+      "video_id": "images_5_046",
+      "status": "success",
+      "duration": 4.87,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_046.json"
+    },
+    {
+      "video_id": "images_5_047",
+      "status": "success",
+      "duration": 8.13,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_047.json"
+    },
+    {
+      "video_id": "images_5_048",
+      "status": "success",
+      "duration": 9.17,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_048.json"
+    },
+    {
+      "video_id": "images_5_049",
+      "status": "success",
+      "duration": 6.8,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_049.json"
+    },
+    {
+      "video_id": "images_5_050",
+      "status": "success",
+      "duration": 4.4,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_050.json"
+    },
+    {
+      "video_id": "images_5_051",
+      "status": "success",
+      "duration": 10.33,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_051.json"
+    },
+    {
+      "video_id": "images_5_052",
+      "status": "success",
+      "duration": 6.93,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_052.json"
+    },
+    {
+      "video_id": "images_5_054",
+      "status": "success",
+      "duration": 15.67,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_054.json"
+    },
+    {
+      "video_id": "images_5_005",
+      "status": "success",
+      "duration": 14.5,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_005.json"
+    },
+    {
+      "video_id": "images_5_053",
+      "status": "success",
+      "duration": 9.67,
+      "frames_extracted": 10,
+      "fewshot_images_used": 9,
+      "total_images_sent": 19,
+      "result_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8-rerun1/run8_rerun_plus_image_results_20250805_105148/actionSummary_images_5_053.json"
+    }
+  ],
+  "successful_analyses": 99,
+  "failed_analyses": 1,
+  "processing_errors": [
+    {
+      "video_id": "images_2_003",
+      "error_type": "api_request_failed",
+      "error_message": "Empty response from API"
+    }
+  ]
+}

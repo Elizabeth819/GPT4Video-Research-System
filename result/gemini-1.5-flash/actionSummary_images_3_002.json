@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_3_002",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue truck, a man in blue clothing, a person in black clothing",
+        "summary": "In this segment, the vehicle is driving in an urban area. A blue truck is ahead, moving slowly. At 6.5 seconds, a man in blue clothing suddenly appears from the left side, running across the road, and a person in black clothing is seen walking in the middle of the road.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while following the blue truck. At 6.5 seconds, the vehicle needs to decelerate rapidly due to the sudden appearance of a man in blue clothing from the left side, running across the road.",
+        "key_objects": "1) Front: A blue truck, approximately 5 meters away, moving slowly. 2) Left side: A man in blue clothing, approximately 1 meter away, running across the road. 3) Front: A person in black clothing, approximately 10 meters away, walking in the middle of the road.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

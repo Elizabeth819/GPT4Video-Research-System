@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_019",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male pedestrian, appearing to be an adult, wearing a blue long-sleeved shirt and dark pants. He is initially walking from the right side of the road towards the center before being involved in a collision.",
+  "summary": "The video captures a dangerous driving scenario on a two-lane road in a rural or suburban environment, characterized by mountains in the background and buildings lining the roadside. Initially, a blue truck is visible on the left side of the road. As the vehicle proceeds, a male pedestrian suddenly emerges from behind a white building/wall on the right side of the road, darting directly into the vehicle's path. This sudden appearance leaves the vehicle with minimal reaction time, leading to an unavoidable collision with the pedestrian. Following the impact, the pedestrian falls to the ground, and the vehicle rapidly decelerates to a complete stop.",
+  "actions": "The vehicle is initially traveling at a moderate speed, maintaining its straight trajectory within its lane. Upon the sudden and unexpected appearance of a pedestrian from behind a visual obstruction on the right side of the road, the vehicle's system or driver initiates an immediate and rapid deceleration, applying brakes forcefully in an attempt to mitigate or avoid a collision. However, due to the extremely short distance and time available for reaction, the vehicle is unable to prevent impact with the pedestrian. After the collision, the vehicle continues its rapid deceleration, bringing itself to a complete stop to address the incident and ensure safety.",
+  "key_objects": "1) Right side: A male pedestrian, adult, wearing a blue shirt and dark pants, who suddenly darted out from behind a white building/wall on the right side of the road, directly entering the vehicle's path, resulting in a collision. 2) Right side: A white building/wall, serving as a significant physical obstruction that completely blocked the driver's view of the pedestrian until their sudden emergence, contributing to the minimal reaction time.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_026",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving under an overpass in an urban area. The road is clear, and there are no immediate obstacles or pedestrians. The vehicle is approaching a curve to the left.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching a left curve. The driver is likely preparing to navigate the curve safely.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, moving steadily. 2) Left side: A silver car, approximately 5 meters away, parked and not posing any immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_026",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.8s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a road with moderate traffic. A black sedan on the right side suddenly accelerates and merges into the lane ahead of the self-driving vehicle, causing a potential cut-in situation. The white sedan ahead maintains a consistent speed.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the black sedans sudden acceleration and lane merging behavior. The vehicles speed remains consistent to avoid collision with the merging black sedan.",
+        "key_objects": "1) Right side: A black sedan, approximately 5 meters away, accelerating and merging into the lane ahead, causing a potential cut-in situation. 2) Front: A white sedan, approximately 20 meters away, maintaining a consistent speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

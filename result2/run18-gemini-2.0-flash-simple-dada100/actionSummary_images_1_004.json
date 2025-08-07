@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a road with buildings and trees on the right side. A person is seen crossing the road in front of the vehicle. There are other vehicles on the road, including a bus and a truck.",
+  "summary": "The vehicle is driving on a road with buildings and trees on the right. A person suddenly appears from behind a building on the right side of the road and starts crossing the road. The vehicle rapidly decelerates to avoid hitting the pedestrian. The pedestrian is wearing dark clothing and is crossing from right to left.",
+  "actions": "The vehicle is initially driving at a constant speed. Upon observing a pedestrian suddenly appearing from behind a building and crossing the road, the vehicle rapidly decelerates to avoid a collision. The driver's action is to brake hard to prevent hitting the pedestrian.",
+  "key_objects": "1) Right: Pedestrian, medium distance, crossing the road suddenly, causing the vehicle to brake rapidly. 2) Right: Building, medium distance, obstructing the view of the pedestrian until they entered the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

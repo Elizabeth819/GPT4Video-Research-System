@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "dada_1_016",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "0.33",
+    "summary": "A pedestrian suddenly crosses the highway from the right side, walking from behind a barrier. The pedestrian is first visible in frame 4 and is in the middle of the road by frame 5.",
+    "actions": "The vehicle should slow down and prepare to stop to avoid hitting the pedestrian.",
+    "key_objects": [
+      "pedestrian",
+      "vehicle"
+    ],
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "slow down",
+      "direction_control": "stay in lane",
+      "lane_control": "none"
+    }
+  }
+]

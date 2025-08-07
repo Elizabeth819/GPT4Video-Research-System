@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving on a road at night, following a red car. The red car changes lanes to the left.",
+    "actions": "Ego vehicle is driving straight. Red car in front changes lanes to the left.",
+    "characters": [],
+    "key_objects": "Ego vehicle, red car, road, lane markings, street lights, traffic signs.",
+    "key_actions": "Lane change by the red car.",
+    "next_action": "Continue driving straight."
+  }
+]

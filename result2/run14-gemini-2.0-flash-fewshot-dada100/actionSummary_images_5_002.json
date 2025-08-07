@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_002",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A white van is driving on the road. A red truck is parked on the left side of the road. A man in a white shirt is standing on the left side of the road.",
+  "summary": "The self-driving vehicle is traveling on a road in a rural area. From 0.0s to 4.0s, the vehicle is approaching a white van. From 5.0s to 10.0s, the vehicle is approaching a red truck parked on the left side of the road. A man in a white shirt is standing on the left side of the road, near the red truck.",
+  "actions": "The vehicle is driving at a constant speed on a straight road. The driver is maintaining the speed because the road is clear and there are no immediate obstacles. The vehicle is approaching a parked red truck on the left side of the road.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

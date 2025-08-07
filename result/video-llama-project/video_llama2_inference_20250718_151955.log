@@ -1,0 +1,27 @@
+2025-07-18 15:19:55,880 - INFO - Starting Video-LLaMA-2 Ghost Probing Detection
+2025-07-18 15:19:55,882 - INFO - Found 5 video files to process
+2025-07-18 15:19:55,882 - INFO - Loading Video-LLaMA-2 model: DAMO-NLP-SG/Video-LLaMA-2-7B-Finetuned
+2025-07-18 15:19:55,882 - INFO - Model loading simulated - using rule-based analysis for demonstration
+2025-07-18 15:19:55,903 - INFO - Processing video: /Users/wanmeng/repository/GPT4Video-cobra-auto/DADA-2000-videos/images_11_085.avi
+2025-07-18 15:19:56,026 - INFO - Processed images_11_085.avi: Ghost probing = True
+2025-07-18 15:19:56,026 - INFO - Processing video: /Users/wanmeng/repository/GPT4Video-cobra-auto/DADA-2000-videos/images_6_003.avi
+2025-07-18 15:19:56,134 - INFO - Processed images_6_003.avi: Ghost probing = False
+2025-07-18 15:19:56,134 - INFO - Processing video: /Users/wanmeng/repository/GPT4Video-cobra-auto/DADA-2000-videos/images_40_075.avi
+2025-07-18 15:19:56,241 - INFO - Processed images_40_075.avi: Ghost probing = False
+2025-07-18 15:19:56,241 - INFO - Processing video: /Users/wanmeng/repository/GPT4Video-cobra-auto/DADA-2000-videos/images_40_061.avi
+2025-07-18 15:19:56,350 - INFO - Processed images_40_061.avi: Ghost probing = False
+2025-07-18 15:19:56,350 - INFO - Processing video: /Users/wanmeng/repository/GPT4Video-cobra-auto/DADA-2000-videos/images_11_091.avi
+2025-07-18 15:19:56,452 - INFO - Processed images_11_091.avi: Ghost probing = True
+2025-07-18 15:19:56,453 - INFO - 
+    
+🎯 Video-LLaMA-2 Ghost Probing Detection Complete
+📊 Results Summary:
+   • Total videos: 5
+   • Processed videos: 5
+   • Ghost probing detected: 2
+   • No ghost probing: 3
+   • Errors: 0
+   
+📁 Results saved to: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/video_llama2_results
+📄 Summary file: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/video_llama2_results/video_llama2_summary.json
+    

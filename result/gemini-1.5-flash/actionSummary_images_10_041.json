@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_041",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black car, driver of a silver van",
+        "summary": "In this segment, the vehicle is driving on a busy urban road at night. Multiple vehicles are present, including a white sedan, a black car, and a silver van. The white sedan is seen moving from the left side to the right side of the frame, indicating a potential cut-in behavior. The black car is stationary on the right side, and the silver van is moving slowly on the left side. The road is well-lit with buildings on both sides.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the traffic. The driver is likely being cautious due to the presence of multiple vehicles and the potential cut-in behavior of the white sedan. The vehicles speed remains consistent to avoid sudden braking or collisions.",
+        "key_objects": "1) Left side: A white sedan, approximately 5 meters away, moving from left to right, potentially cutting into the self-vehicles lane. 2) Right side: A black car, approximately 3 meters away, stationary. 3) Left side: A silver van, approximately 7 meters away, moving slowly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

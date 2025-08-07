@@ -1,0 +1,65 @@
+[
+    {
+        "video_id": "dada_18_002",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A man wearing a dark jacket and pants",
+                "distance": "2",
+                "behavior or action impacting the vehicle": "walking slowly across the vehicle's path from behind a parked car, creating a potential collision."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "male",
+                "clothing": "dark jacket and pants",
+                "age": "30-40",
+                "transportation_method": "walking",
+                "behavior": "walking slowly across the vehicle's path from behind a parked car"
+            }
+        ],
+        "summary": "The video shows a car slowly moving forward in a parking garage. A man, appearing to be between 30-40 years old, wearing a dark jacket and pants, walks slowly across the vehicle's path from behind a parked car. This action constitutes a 'ghost probing' event, as the man emerges suddenly from the car's blind spot, creating a potential collision. The man's slow walking speed reduces the immediate danger, but the lack of awareness of the approaching vehicle is concerning.",
+        "actions": "The vehicle is moving forward slowly in a parking garage, likely due to the confined space and the need for caution. The slow speed allows for better observation of the surroundings and provides more reaction time in case of unexpected events.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "stop",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_18_002",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car navigating a dimly lit underground parking garage.  The car is making a slow, controlled turn to the right.  The environment is empty of other vehicles or pedestrians. The lighting is low, and the walls are visible. No unusual or dangerous events occur during this segment.",
+        "actions": "The vehicle is executing a slow, right turn within a parking garage. The slow speed suggests caution and careful maneuvering within the confined space. The driver is likely adapting their speed to the limited visibility and the need for precise control during the turn.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "continue turn",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_18_002",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.9s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car slowly moving forward in what appears to be an underground parking garage. The view is from the driver's perspective, and the car is approaching a large, partially transparent barrier or gate.  The barrier is made of a grid-like material and appears to be made of white or light-colored material. There are no other vehicles or pedestrians visible in the frames. The car maintains a slow, steady speed throughout the sequence.",
+        "actions": "The vehicle is moving forward at a very slow speed, likely due to the confined space of the parking garage and the need to carefully approach the barrier ahead.  There are no turns or stops observed in this segment.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

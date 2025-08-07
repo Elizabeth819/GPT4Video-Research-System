@@ -1,0 +1,25 @@
+2025-07-31 15:00:08,297 - INFO - 消融实验: 2 Few-shot Samples 开始
+2025-07-31 15:00:08,297 - INFO - Azure OpenAI API配置成功
+2025-07-31 15:00:08,297 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-31 15:00:08,298 - INFO - Deployment: gpt-4o-global
+2025-07-31 15:00:08,298 - INFO - Temperature: 0, Few-shot Samples: 2
+2025-07-31 15:00:08,305 - INFO - 加载ground truth标签: 201个视频
+2025-07-31 15:00:08,305 - INFO - 标签列: ['video_id', 'ground_truth_label', 'Unnamed: 2']
+2025-07-31 15:00:08,308 - INFO - 加载现有结果文件: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/2-samples/ablation_2samples_results_20250731_144147.json
+2025-07-31 15:00:08,308 - INFO - 已处理视频数: 40
+2025-07-31 15:00:08,308 - INFO - 开始消融实验: 2 Few-shot Samples，处理 5 个视频
+2025-07-31 15:00:08,308 - INFO - 检测到已处理 40 个视频，从检查点继续
+2025-07-31 15:00:08,309 - INFO - 需要处理 26 个新视频 (已完成: 40/100)
+2025-07-31 15:00:08,355 - INFO - 处理视频: images_4_007
+2025-07-31 15:00:24,018 - INFO - ✅ images_4_007: TN
+2025-07-31 15:00:24,018 - INFO - 处理视频: images_5_011
+2025-07-31 15:00:38,688 - INFO - ✅ images_5_011: FN
+2025-07-31 15:00:38,689 - INFO - 处理视频: images_5_038
+2025-07-31 15:00:55,164 - INFO - ✅ images_5_038: TN
+2025-07-31 15:00:55,165 - INFO - 处理视频: images_5_021
+2025-07-31 15:01:10,338 - INFO - ✅ images_5_021: TP
+2025-07-31 15:01:10,339 - INFO - 处理视频: images_5_009
+2025-07-31 15:01:34,395 - INFO - ✅ images_5_009: TN
+2025-07-31 15:01:34,396 - INFO - 处理视频: images_5_008
+2025-07-31 15:01:51,090 - INFO - ✅ images_5_008: FP
+2025-07-31 15:01:51,091 - INFO - 处理视频: images_5_020

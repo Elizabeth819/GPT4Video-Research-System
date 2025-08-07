@@ -1,0 +1,23 @@
+{
+  "processing_summary": {
+    "total_videos_processed": 100,
+    "files_generated": 100,
+    "format_compliance": "GPT-4.1_Balanced_Compatible"
+  },
+  "detection_statistics": {
+    "ghost_probing": 60,
+    "normal_traffic": 40
+  },
+  "model_info": {
+    "model_name": "VideoChat2_HD_stage4_Mistral_7B",
+    "analysis_framework": "GPT-4.1_Balanced_Format",
+    "output_structure": "Individual_JSON_per_video",
+    "processing_time_total": "约3分钟",
+    "success_rate": 1.0
+  },
+  "comparison_baseline": {
+    "baseline_model": "GPT-4.1_Balanced_Prompt",
+    "format_compatibility": "Complete",
+    "evaluation_ready": true
+  }
+}

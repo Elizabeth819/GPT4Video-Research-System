@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_034",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on an urban road with moderate traffic. The white SUV ahead is maintaining a consistent speed. The road is well-lit with streetlights and storefronts. The traffic light ahead turns green, and the vehicles start moving forward.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the white SUV ahead. The vehicle is keeping a safe distance from the SUV, approximately 10 meters away. The driver is preparing to move forward as the traffic light turns green.",
+        "key_objects": "1) Front: A white SUV, approximately 10 meters away, maintaining a consistent speed. 2) Left side: A red car, approximately 5 meters away, parked and partially blocking the view. 3) Right side: A white car, approximately 3 meters away, parked and blocking the view.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_034",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.8s",
+        "scene_theme": "Urban",
+        "characters": "Multiple vehicles and pedestrians",
+        "summary": "In this segment, the vehicle is approaching an intersection in an urban area. There are multiple vehicles and pedestrians visible. The traffic light is green, and the vehicle is moving forward. Several motorcycles and pedestrians are on the right side of the road, and a few cars are ahead in the intersection.",
+        "actions": "The self-driving vehicle is moving forward at a steady speed, approaching the intersection. The traffic light is green, allowing the vehicle to proceed. The vehicle maintains a safe distance from the cars ahead and is cautious of the motorcycles and pedestrians on the right side.",
+        "key_objects": "1) Front: Multiple vehicles, approximately 20 meters away, moving through the intersection. 2) Right: Several motorcycles and pedestrians, approximately 5 meters away, stationary or moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

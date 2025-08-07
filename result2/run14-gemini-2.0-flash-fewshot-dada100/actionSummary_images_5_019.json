@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_019",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A male pedestrian in a black jacket is walking across the street. Two people are standing near a parked silver car. A person is on the ground near the front of the car. A person is riding a scooter on the left side of the road.",
+  "summary": "The vehicle is approaching an entrance to a building complex. A male pedestrian wearing a black jacket is walking across the street from left to right. Two people are standing near a parked silver car on the right side of the road. A person is on the ground near the front of the car, possibly examining something. A person is riding a scooter on the left side of the road. The vehicle is approaching the entrance at a slow speed.",
+  "actions": "The vehicle is approaching the entrance to the building complex. The driver is likely slowing down to navigate the entrance and observe the surroundings, including the pedestrian crossing the street and the people near the parked car. The driver is proceeding cautiously due to the presence of people and vehicles in the area.",
+  "key_objects": "None",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

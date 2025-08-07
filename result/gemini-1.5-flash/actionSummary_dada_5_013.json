@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is approaching an intersection at night. There are other vehicles and a bus visible. The traffic light is red for the ego vehicle.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are stopped at the intersection. A bus is also stopped.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, bus, other vehicles, traffic light, intersection, overpass support pillars",
+    "key_actions": "Approaching intersection, red traffic light",
+    "next_action": "Ego vehicle will likely stop at the red light."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "The ego vehicle is stopped at a red light at an intersection. A person lying on the crosswalk with a bicycle is visible. Other vehicles are waiting at the intersection. A scooter is approaching the crosswalk.",
+    "actions": "Ego vehicle is stopped. Other vehicles are waiting. A scooter is approaching the crosswalk.",
+    "characters": "Person lying on the crosswalk.",
+    "key_objects": "Ego vehicle, other vehicles, traffic light, intersection, person lying on the crosswalk, bicycle, scooter",
+    "key_actions": "Person lying on the crosswalk, scooter approaching the crosswalk",
+    "next_action": "Ego vehicle will likely wait for the traffic light to turn green. The scooter will likely cross the crosswalk."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_021",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car, a bus on the left, pedestrians on the right side of the road, and other vehicles in the distance. The pedestrians appear to be of various ages and genders, dressed in casual clothing. Some are carrying umbrellas due to the rain.",
+  "summary": "The video shows a car driving on a wet road in rainy conditions. A bus is present on the left side of the road. Pedestrians are present on the right side of the road, some crossing the street. A pedestrian suddenly appears from behind the bus and crosses the street, creating a potential ghost probing situation.",
+  "actions": "The vehicle is initially moving forward at a steady speed. As the bus obstructs the view of the crosswalk, the driver likely maintains speed due to the green light. However, the driver may need to brake suddenly if a pedestrian unexpectedly crosses the street from behind the bus.",
+  "key_objects": "1) Left: A large green bus, close proximity, obstructs the view of pedestrians potentially crossing the street. 2) Right: Pedestrians, medium distance, one pedestrian suddenly crosses the street from behind the bus.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_009",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "5.5s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals, appearing to be adults, are present in the middle of the road. One individual is wearing a light-colored top and dark pants, while the other is wearing a darker top and lighter pants. They appear to be interacting or assisting each other as they cross the road.",
+  "summary": "The scene takes place at night on a multi-lane road illuminated by streetlights. The autonomous vehicle is driving straight when two pedestrians are observed in the middle of the road ahead. The vehicle continues its path, leading to a collision with the pedestrians. After the impact, the vehicle appears to continue moving forward, and one pedestrian is seen on the ground to the right side of the vehicle's path.",
+  "actions": "The vehicle was traveling straight on a multi-lane road at night, initially maintaining a consistent speed. As two pedestrians became visible in the vehicle's path, the vehicle continued its trajectory without apparent deceleration or evasive steering maneuvers in the frames leading up to the collision. This indicates a failure to react to the presence of obstacles in the road, leading to an impact. After the impact, the vehicle appears to continue moving forward, suggesting no immediate braking or stopping action was taken within the observed timeframe.",
+  "key_objects": "1) Center: Two pedestrians, initially at a moderate distance, moving into the vehicle's direct path. Their presence directly impacted the vehicle's trajectory, leading to a collision. 2) Left and Right sides: Multiple streetlights, providing illumination for the road. Their presence ensures visibility, though the collision still occurred. 3) Left side: A yellow triangular warning sign with an exclamation mark, indicating potential hazards ahead. Its presence suggests the driver should have been more alert to potential dangers.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

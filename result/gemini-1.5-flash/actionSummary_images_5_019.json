@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_5_019",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "3.3s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Pedestrian, car ahead",
+        "summary": "In this segment, the vehicle is approaching a gated area. Initially, the gate is down, and the vehicle is stationary. As the gate starts to rise, a pedestrian appears from the left side and begins to cross the road. A white car is visible ahead, parked on the right side of the road.",
+        "actions": "The self-driving vehicle is stationary at the beginning, waiting for the gate to rise. As the gate rises, the vehicle remains stationary, likely due to the pedestrian crossing from the left side.",
+        "key_objects": "1) Left side: A pedestrian, approximately 5 meters away, crossing the road from left to right, causing the vehicle to remain stationary. 2) Front: A white car, approximately 20 meters away, parked on the right side of the road.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_019",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Pedestrian, motorcyclist, scooter rider",
+        "summary": "In this segment, the vehicle is approaching a gated area with a pedestrian crossing from the left side. A motorcyclist and a scooter rider are also present, moving from the left to the right side of the frame. The pedestrian is crossing the path of the vehicle, while the motorcyclist and scooter rider are moving towards the vehicles path.",
+        "actions": "The self-driving vehicle is likely slowing down to avoid a collision with the pedestrian crossing from the left side and the motorcyclist and scooter rider moving from the left to the right side of the frame. The vehicles speed is decreasing to ensure safety and avoid any sudden movements.",
+        "key_objects": "1) Left side: A pedestrian, approximately 5 meters away, crossing the path of the vehicle. 2) Left side: A motorcyclist, approximately 10 meters away, moving towards the vehicles path. 3) Left side: A scooter rider, approximately 8 meters away, moving towards the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_019",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, person on a motorcycle, person walking",
+        "summary": "In this segment, the vehicle is driving in a parking area. A person on a motorcycle is on the right side, moving forward. A person walking is on the right side, near the white sedan. The motorcycle is moving closer to the vehicles path, potentially causing a collision.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the parking area. The vehicle is likely slowing down due to the presence of the motorcycle moving closer to its path.",
+        "key_objects": "1) Right side: A person on a motorcycle, approximately 2 meters away, moving forward and potentially entering the vehicles path. 2) Right side: A person walking, approximately 5 meters away, near the white sedan, stationary.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

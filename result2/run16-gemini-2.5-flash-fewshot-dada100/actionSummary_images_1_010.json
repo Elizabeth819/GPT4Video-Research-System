@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_010",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult person on a bicycle, wearing a light-colored jacket and dark pants.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road under clear sky conditions. On the right side of the road, there is a long, solid wall or barrier that acts as a significant visual obstruction. As the vehicle approaches the 8.0-second mark, a person on a bicycle suddenly emerges from directly behind this wall on the right side, entering the vehicle's path with minimal warning. The cyclist was completely hidden by the obstruction until their sudden appearance, creating an immediate and dangerous 'ghost probing' situation.",
+  "actions": "The self-driving vehicle is initially maintaining a consistent speed and direction while approaching the long wall on the right. Upon the sudden and unexpected emergence of the person on the bicycle from behind the wall at approximately 8.0 seconds, the vehicle immediately initiates rapid deceleration. The vehicle also makes a slight steering adjustment to the left to create more space and avoid a direct collision with the cyclist who has entered the lane from the right side.",
+  "key_objects": "1) Right side: A person on a bicycle, approximately 5-10 meters away, suddenly emerging from behind a solid wall and entering the vehicle's path. 2) Right side: A long, solid wall/barrier, extending alongside the road, creating a complete visual obstruction that hid the approaching cyclist until their sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

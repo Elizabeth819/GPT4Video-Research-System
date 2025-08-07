@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_016",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person, likely an adult, wearing a red top and dark pants, initially on a bicycle and then walking.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane urban road. A grey sedan is driving directly ahead in the same lane. Suddenly, a person on a bicycle emerges from behind the grey sedan, darting from the right side of the lane towards the left, directly into the vehicle's path. The person then dismounts from the bicycle and continues to walk across the road. This sudden appearance from behind the leading vehicle, which acted as a visual obstruction, constitutes a ghost probing incident, creating an immediate collision risk.",
+  "actions": "The self-driving vehicle was initially maintaining a consistent speed while following the grey sedan. Upon the sudden and unexpected emergence of the person from behind the grey sedan (around 2.9s-3.9s), the vehicle initiated rapid deceleration to mitigate the risk of collision. The vehicle also maintained its current lane, possibly making a slight adjustment to the right to provide more clearance as the pedestrian crossed the lane. Once the pedestrian cleared the vehicle's path (around 5.8s-6.8s), the vehicle began to accelerate to resume its normal driving speed.",
+  "key_objects": "1) Ahead/Center: A grey sedan, approximately 5-10 meters away, driving in the same lane, which acted as a moving physical obstruction, completely obscuring the person until their sudden emergence. 2) Center/Left: A person, approximately 5 meters away, wearing a red top and dark pants, initially on a bicycle, then walking, suddenly emerging from behind the grey sedan and crossing the vehicle's path from right to left. 3) Left side: A red sedan, approximately 5-15 meters away, driving in the adjacent left lane.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

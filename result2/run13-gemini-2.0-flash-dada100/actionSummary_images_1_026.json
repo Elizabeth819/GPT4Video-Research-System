@@ -1,0 +1,43 @@
+{
+  "video_id": "images_1_026",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "6.3s",
+  "summary": "The self-driving car is moving forward on a road with multiple lanes. From 0.0s to 2.8s, a white car is seen driving in the opposite direction. At 2.8s, a person wearing a pink shirt and carrying a yellow bag is seen walking from left to right across the road. From 3.5s to 6.3s, the person continues to walk across the road. A motorcycle is also seen driving in the opposite direction from 4.2s to 6.3s.",
+  "characters": [
+    {
+      "gender": "unknown",
+      "clothing": "white",
+      "colors": [
+        "white"
+      ],
+      "age": "unknown",
+      "transportation_method": "car"
+    },
+    {
+      "gender": "female",
+      "clothing": "pink shirt, yellow bag",
+      "colors": [
+        "pink",
+        "yellow"
+      ],
+      "age": "adult",
+      "transportation_method": "walking"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": [],
+      "age": "unknown",
+      "transportation_method": "motorcycle"
+    }
+  ],
+  "actions": "The self-driving car is moving forward at a constant speed. The driver is maintaining the current speed and direction because there are no immediate obstacles or changes in traffic conditions that require a change in driving behavior.",
+  "next_action": {
+    "speed_control": "keep speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

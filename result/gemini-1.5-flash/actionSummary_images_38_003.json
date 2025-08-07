@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "$dada_38_003",
+        "segment_id": "Segment_000",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black car, driver of a truck",
+        "summary": "In this segment, the vehicle is driving on a busy road at night. The self-driving vehicle is following a truck closely. A white sedan on the left side is moving forward, and a black car on the right side is stationary. The truck ahead is maintaining a consistent speed, while the white sedan on the left side is gradually overtaking the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the truck ahead closely. The vehicle is keeping a safe distance from the truck, approximately 5 meters. The driver is cautious due to the busy road conditions and the presence of multiple vehicles around.",
+        "key_objects": "1) Front: A truck, approximately 5 meters away, maintaining a consistent speed. 2) Left side: A white sedan, approximately 3 meters away, gradually overtaking the self-driving vehicle. 3) Right side: A black car, stationary, approximately 2 meters away.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

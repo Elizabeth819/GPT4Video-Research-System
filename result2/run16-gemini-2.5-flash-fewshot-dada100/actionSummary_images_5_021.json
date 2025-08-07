@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_021",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter, wearing an orange jacket and a white helmet.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane urban road. Buildings line both sides of the street, and concrete barriers are placed along the roadside, separating the main road from the sidewalk/parking areas. A dark SUV is parked on the left side of the road, behind these concrete barriers. As the vehicle approaches a crosswalk, a person on a scooter suddenly emerges from behind the parked dark SUV on the left side, darting into the crosswalk directly in the vehicle's path. The SUV acts as a significant visual obstruction, completely hiding the scooter until its sudden appearance, creating a dangerous 'ghost probing' situation.",
+  "actions": "The self-driving vehicle is initially maintaining a steady speed as it approaches the crosswalk. Upon the sudden emergence of the person on the scooter from behind the parked dark SUV on the left, the vehicle immediately initiates rapid deceleration. This braking action is taken to prevent a potential collision with the scooter, which appeared with minimal warning time due to the visual obstruction.",
+  "key_objects": "1) Left side: A person on a scooter, approximately 5-10 meters away, suddenly emerging from behind a parked dark SUV and entering the crosswalk directly into the vehicle's path. 2) Left side: A dark SUV, approximately 10-15 meters away, parked alongside the road and creating a visual obstruction that completely hid the approaching scooter until its sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

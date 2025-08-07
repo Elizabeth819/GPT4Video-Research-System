@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_029",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult person, wearing a blue jacket and dark pants, is seen riding an electric bicycle. They appear to be of indeterminate age and gender from the available frames.",
+  "summary": "The video begins with the autonomous vehicle driving straight on a multi-lane road in an urban setting, following other vehicles. As it approaches an intersection, the traffic light turns green, and the vehicle proceeds to drive straight through. Just as the vehicle is clearing the intersection, a person on an electric bicycle suddenly emerges from behind a stationary brown truck on the right side of the road, directly entering the vehicle's path. This sudden appearance leads to an immediate and dangerous situation, resulting in the person falling off the bicycle.",
+  "actions": "The vehicle initially maintains a steady speed, following a white car in its lane, indicating routine driving behavior in moderate traffic. As it approaches the intersection, the vehicle decelerates slightly in anticipation of the traffic light and cross-traffic. Upon the traffic light turning green around the 6.0s mark, the vehicle begins to accelerate and proceeds straight through the intersection, indicating it has the right of way and is continuing its intended path. Immediately after the 10.0s mark, the vehicle rapidly decelerates and applies emergency braking in response to the sudden appearance of a cyclist from the right, demonstrating an immediate and necessary evasive action to prevent or mitigate a collision.",
+  "key_objects": "1) Right: A brown flatbed truck is stationary near the crosswalk on the right side of the road. This truck acts as a significant physical obstruction, completely blocking the view of the approaching cyclist until they emerge from behind it, directly contributing to the ghost probing scenario. 2) Right: An adult person on an electric bicycle, wearing a blue jacket and dark pants, suddenly emerges from behind the stationary brown truck on the right side of the road. Their sudden and unexpected appearance directly into the vehicle's path, with minimal reaction time, is the primary cause of the immediate danger and collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

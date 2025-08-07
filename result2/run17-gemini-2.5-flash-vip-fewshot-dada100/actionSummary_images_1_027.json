@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_027",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "9.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban Road",
+    "characters": "A person on a scooter",
+    "summary": "The vehicle is driving on an urban road. A person on a scooter is visible on the left side of the road. The road appears to be narrow with buildings on both sides. The vehicle maintains a steady speed. The person on the scooter is moving in the same direction as the vehicle.",
+    "actions": "The self-driving vehicle is maintaining a steady speed on the urban road. The vehicle is likely maintaining its speed due to the clear road ahead and the absence of immediate obstacles. The vehicle is also keeping a safe distance from the person on the scooter on the left side of the road.",
+    "key_objects": "1) Left side: A person on a scooter, approximately 10 meters away, moving in the same direction as the vehicle.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

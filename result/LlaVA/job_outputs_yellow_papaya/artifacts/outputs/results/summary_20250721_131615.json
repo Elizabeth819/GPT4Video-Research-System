@@ -1,0 +1,11 @@
+{
+  "total_videos": 100,
+  "ghost_probing_detected": 0,
+  "normal_videos": 100,
+  "detection_rate_percent": 0.0,
+  "timestamp": "20250721_131615",
+  "files_generated": [
+    "./outputs/results/llava_ghost_results_20250721_131615.json",
+    "./outputs/results/llava_ghost_results_20250721_131615.csv"
+  ]
+}

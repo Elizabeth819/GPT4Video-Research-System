@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_079",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a relatively empty road. There are no significant obstacles or vehicles posing immediate danger. The road is clear, and the vehicle maintains a consistent speed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction. There are no sudden changes in speed or direction, indicating a calm driving environment.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

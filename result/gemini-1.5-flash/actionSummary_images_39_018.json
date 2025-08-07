@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_39_018",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a truck",
+        "summary": "In this segment, the vehicle is driving on a highway. A black sedan is seen on the left side, moving into the lane of the observer vehicle. A truck is on the right side, moving ahead.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the black sedan on the left side moving into its lane, indicating a potential cut-in. The truck on the right side is moving ahead, maintaining its lane.",
+        "key_objects": "1) Left side: A black sedan, approximately 5 meters away, moving into the observer vehicles lane, causing a potential cut-in. 2) Right side: A truck, approximately 10 meters away, moving ahead in its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_39_018",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white truck, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a city road. A white truck is seen moving from the left side of the frame towards the right, cutting into the lane of the black car ahead. The black car is forced to slow down to avoid a collision.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the white truck cutting into the lane of the black car ahead. The vehicle is prepared to decelerate if necessary to avoid any potential collision.",
+        "key_objects": "1) Left side: A white truck, approximately 2 meters away, moving into the lane of the black car ahead, causing the black car to slow down. 2) Front: A black car, approximately 5 meters away, slowing down due to the white truck cutting into its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_39_018",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a cement truck",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A black sedan is parked on the left side of the road, and a cement truck is moving slowly on the right side. The cement truck is gradually moving closer to the black sedan, potentially causing a collision.",
+        "actions": "The self-driving vehicle is maintaining a slow speed to avoid collision with the cement truck and the black sedan. The vehicles speed is gradually decreasing to ensure safety as the cement truck moves closer to the black sedan.",
+        "key_objects": "1) Left side: A black sedan, approximately 1 meter away, parked and partially blocking the view. 2) Right side: A cement truck, approximately 2 meters away, moving slowly and getting closer to the black sedan.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

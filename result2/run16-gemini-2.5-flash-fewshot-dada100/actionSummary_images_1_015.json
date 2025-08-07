@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_015",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two male pedestrians, approximately 30-40 years old, wearing dark clothing, carrying a large flat object. A person on a bicycle. Other pedestrians and drivers of vehicles (bus, three-wheeled vehicle) in the background.",
+  "summary": "The vehicle is initially navigating a narrow, urban street with buildings and parked vehicles on both sides, which significantly limits visibility. As the vehicle proceeds, two male pedestrians suddenly emerge from behind a parked white truck on the right side of the road, carrying a large, flat object. They step directly into the vehicle's path with minimal warning, creating an immediate and dangerous 'ghost probing' situation. The vehicle successfully avoids a collision with the pedestrians. After clearing this immediate danger, the vehicle continues its forward movement, approaching and entering a wider intersection where cross-traffic, including a three-wheeled vehicle and a bus, is present.",
+  "actions": "The self-driving vehicle is initially moving at a cautious speed, appropriate for the narrow road and the presence of visual obstructions. Upon the sudden and unexpected emergence of two male pedestrians from behind a parked white truck on the right side, the vehicle immediately initiates deceleration to prevent a collision, allowing the pedestrians to clear its path safely. After the pedestrians have moved out of the immediate danger zone, the vehicle resumes its forward progression. As it approaches and enters the wider intersection, the vehicle maintains a cautious and controlled speed, actively observing the cross-traffic, specifically a three-wheeled vehicle and a bus, to ensure safe passage through the complex intersection.",
+  "key_objects": "1) Right side: A white truck, approximately 5-7 meters away, parked and acting as a significant physical obstruction that completely obscured the approaching pedestrians until they suddenly emerged. 2) Right side: Two male pedestrians, approximately 30-40 years old, wearing dark clothing, approximately 3-5 meters away, suddenly emerging from behind the parked white truck while carrying a large flat object, stepping directly into the vehicle's path with minimal reaction time. 3) Left side: A blue bus, approximately 10-15 meters away, approaching the intersection from the left. 4) Left side: A three-wheeled vehicle, approximately 5-10 meters away, moving through the intersection from the left.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

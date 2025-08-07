@@ -1,0 +1,26 @@
+[
+    {
+        "error": "API调用出错，状态码: 400，错误信息: {\"error\":{\"code\":\"BadRequest\",\"message\":\"Invalid image data.\",\"param\":null,\"type\":null}}",
+        "status": "error",
+        "code": 400,
+        "segment_id": "segment_000"
+    },
+    {
+        "video_id": "dada_34_069",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. Ahead, a white sedan is moving steadily. Suddenly, a grey car from the left lane cuts into the self-vehicles lane at a close distance, causing a potential need for braking.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the white sedan ahead. However, the sudden cut-in from the grey car on the left lane requires the driver to decelerate to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving steadily. 2) Left: A grey car, approximately 5 meters away, cutting into the self-vehicles lane abruptly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

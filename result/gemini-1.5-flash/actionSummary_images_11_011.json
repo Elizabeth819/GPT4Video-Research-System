@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_011",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.9s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black SUV, driver of a gray sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. The black SUV on the right side is moving closer to the self-driving vehicles lane, potentially causing a cut-in. The gray sedan ahead is maintaining its lane but is relatively close to the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while monitoring the black SUV on the right side, which is moving closer to the self-driving vehicles lane. The vehicle is also keeping a safe distance from the gray sedan ahead.",
+        "key_objects": "1) Right side: A black SUV, approximately 2 meters away, moving closer to the self-driving vehicles lane, potentially causing a cut-in. 2) Front: A gray sedan, approximately 5 meters away, maintaining its lane but relatively close to the self-driving vehicle.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

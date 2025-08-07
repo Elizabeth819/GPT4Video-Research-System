@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Female cyclist, approximately 20-30 years old, wearing a brown jacket and a black backpack, riding a bicycle.",
+  "summary": "In this segment, the self-driving vehicle is approaching and proceeding through a busy urban intersection during daytime. The traffic light for the vehicle's direction is green. As the vehicle moves forward, a female cyclist suddenly emerges from the right side of the road, from behind a parked white vehicle and the corner of a building, directly entering the vehicle's path on the crosswalk. The cyclist was completely obscured by the obstruction until her sudden appearance, leading to an immediate collision with the vehicle.",
+  "actions": "The self-driving vehicle is proceeding through the intersection, likely accelerating from a stop or slow speed, as indicated by the green traffic light. The vehicle continues its forward motion. Due to the sudden and unexpected emergence of the cyclist from behind a visual obstruction, there is minimal to no reaction time for the vehicle to take evasive action, resulting in a collision with the cyclist.",
+  "key_objects": "1) Right side: A female cyclist, approximately 20-30 years old, wearing a brown jacket and black backpack, suddenly emerging from behind a parked white vehicle and the corner of a building, entering the crosswalk directly into the vehicle's path. 2) Right side: A parked white vehicle and the corner of a building, approximately 5-10 meters away, creating a significant visual obstruction that completely hid the approaching cyclist until her sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

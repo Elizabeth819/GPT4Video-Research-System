@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_1_023",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00",
+    "End_Timestamp": "00:00:03",
+    "summary": "A pedestrian is hit by a car while crossing the street at a crosswalk. The pedestrian falls to the ground after the impact.",
+    "actions": "The vehicle is driving straight and approaches a crosswalk. The vehicle does not appear to slow down or stop before hitting the pedestrian.",
+    "key_objects": [
+      "pedestrian",
+      "car",
+      "crosswalk"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "straight",
+      "lane_control": "keep lane"
+    }
+  }
+]

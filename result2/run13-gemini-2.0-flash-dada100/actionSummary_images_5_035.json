@@ -1,0 +1,26 @@
+{
+  "video_id": "images_5_035",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.6s",
+  "summary": "The self-driving car is moving forward on a sunny day in a busy urban environment with moderate traffic. From 0.0s to 4.0s, the car is driving behind a large bus, which obstructs the view of the road ahead. At 4.0s, the bus begins to move to the right, revealing the road ahead. From 4.0s to 13.6s, the car approaches an intersection with a traffic light. At 11.6s, a man riding a bicycle suddenly appears from the right side of the road, crossing the intersection. The cyclist is wearing a light-colored jacket and dark pants. The cyclist's sudden appearance constitutes a potential ghost probing incident. The car continues to approach the intersection, and several motorcycles are visible in the distance.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "light-colored jacket, dark pants",
+      "age": "adult",
+      "transportation_method": "bicycle",
+      "way_of_walking": "riding"
+    }
+  ],
+  "key_objects": [
+    "Right side: A man riding a bicycle, approximately 15 meters away, suddenly crossing the intersection, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is initially driving behind a bus, maintaining a consistent speed. As the bus moves to the right, the vehicle continues forward, approaching an intersection. The driver likely maintains speed to keep up with the flow of traffic and is preparing to navigate the intersection.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

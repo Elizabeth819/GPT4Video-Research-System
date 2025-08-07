@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_007",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two young boys and an adult male on bicycles crossing the road at a crosswalk. One boy is wearing a blue shirt and a black cap, and he falls off his red bicycle. The other boy is wearing a yellow hat and a blue outfit. The adult male is wearing a black shirt.",
+  "summary": "The vehicle is driving on a city street with moderate traffic. From 0.0s to 4.0s, the vehicle approaches a crosswalk. At 4.0s, a young boy on a red bicycle falls in the middle of the road. From 4.0s to 10.0s, the boy attempts to get up while another boy and an adult male on bicycles approach and cross the road. The fallen boy and his bicycle are directly in the path of the vehicle, creating a dangerous situation.",
+  "actions": "The vehicle is driving at a moderate speed and maintains its lane. As the vehicle approaches the crosswalk, the driver likely anticipates pedestrians or cyclists crossing. Upon seeing the boy fall off his bicycle, the driver would need to prepare to decelerate or stop to avoid a collision.",
+  "key_objects": "1) Front: A young boy wearing a blue shirt and a black cap, approximately 5 meters away, falling off his red bicycle directly into the vehicle's path. 2) Front: A red bicycle, approximately 4 meters away, lying on the road in the vehicle's path. 3) Front: Another boy wearing a yellow hat and a blue outfit, approximately 6 meters away, approaching the fallen boy on a bicycle. 4) Front: An adult male wearing a black shirt, approximately 7 meters away, approaching the fallen boy on a bicycle.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

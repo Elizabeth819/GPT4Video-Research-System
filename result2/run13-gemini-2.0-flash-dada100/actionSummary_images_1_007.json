@@ -1,0 +1,47 @@
+{
+  "video_id": "images_1_007",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.7s",
+  "summary": "The self-driving car is moving forward on a two-lane road with trees lining both sides. From 0.0s to 2.0s, a red car is seen crossing the road from the left at a crosswalk. From 2.0s to 6.0s, the car continues down the road with parked cars on the right side. From 6.0s to 13.7s, a male wearing a blue shirt is running across the road from left to right. A woman wearing a black jacket is walking on the right side of the road. A man is standing next to a bicycle on the right side of the road.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "blue shirt",
+      "colors": [
+        "blue"
+      ],
+      "age": "adult",
+      "transportation_method": "running",
+      "way_of_walking": "running across the road"
+    },
+    {
+      "gender": "female",
+      "clothing": "black jacket",
+      "colors": [
+        "black"
+      ],
+      "age": "adult",
+      "transportation_method": "walking",
+      "way_of_walking": "walking on the sidewalk"
+    },
+    {
+      "gender": "male",
+      "clothing": "unknown",
+      "colors": [],
+      "age": "adult",
+      "transportation_method": "bicycle",
+      "way_of_walking": "standing next to a bicycle"
+    }
+  ],
+  "key_objects": [
+    "Left side: A male wearing a blue shirt, approximately 10 meters away, running across the road from left to right, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a two-lane road. The driver is maintaining a steady speed, likely due to the presence of other vehicles and pedestrians on the road. The driver may be preparing to slow down due to the crosswalk and the potential for pedestrians to cross.",
+  "next_action": {
+    "speed_control": "slowing",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "none"
+}

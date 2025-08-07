@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a street with various vehicles including cars, buses, and motorcycles. There are also pedestrians visible on the sidewalks. The people are of various ages and genders, wearing casual clothing. Some are riding motorcycles, others are walking.",
+  "summary": "The vehicle is driving on a city street with moderate traffic. The road is straight and there are vehicles and motorcycles moving in both directions. Pedestrians are present on the sidewalks. The vehicle maintains a steady speed and direction.",
+  "actions": "The vehicle is maintaining a consistent speed and direction, navigating through moderate traffic on a straight road. The driver is likely adhering to the speed limit and keeping a safe distance from other vehicles. The vehicle is driving straight, likely following the road's path and traffic regulations.",
+  "key_objects": "1) Right: A parked truck, partially obstructing the view of the sidewalk, potential for pedestrian ghost probing. 2) Left: A bus is driving in the opposite direction, posing no immediate threat but requiring monitoring.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

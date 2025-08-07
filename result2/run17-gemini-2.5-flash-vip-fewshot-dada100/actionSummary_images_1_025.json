@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_025",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "4.7s",
+    "sentiment": "Neutral",
+    "scene_theme": "Highway Driving",
+    "characters": "Two individuals on the left side of the road, near a truck.",
+    "summary": "The vehicle is traveling on a highway with mountains on either side. Two individuals are visible on the left side of the road, near a truck. The road appears clear ahead, and there are no immediate obstacles or dangerous behaviors observed.",
+    "actions": "The vehicle is maintaining a consistent speed and direction on the highway. The driver is likely monitoring the two individuals on the left side of the road but does not need to take any immediate action.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

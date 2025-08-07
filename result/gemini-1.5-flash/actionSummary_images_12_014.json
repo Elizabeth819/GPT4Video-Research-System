@@ -1,0 +1,111 @@
+[
+    {
+        "video_id": "dada_12_014",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car following a large red bus on a city road.  The road appears relatively clear with no immediate hazards visible in the provided frames. The bus is directly in front of the car, maintaining a consistent distance throughout the 5-second sequence. No pedestrians, cyclists, or other vehicles are observed engaging in any dangerous maneuvers or actions that would warrant a key action label.",
+        "actions": "The vehicle maintains a consistent following distance behind the bus, indicating a safe and cautious driving approach.  The speed of the vehicle appears to be moderate, matching the pace of the bus ahead. There are no observable changes in speed or direction during the 5-second sequence.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_12_014",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "Motorcyclist",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Approaching from behind at a moderate speed, maintaining a safe distance."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Motorcycle",
+                "behavior": "Driving a motorcycle in the right lane, maintaining a safe distance from the ego vehicle."
+            }
+        ],
+        "summary": "The video shows a car driving behind a large red bus.  On the right side of the road, a male motorcyclist, wearing a dark jacket and pants, is visible, approaching at a moderate speed. The motorcyclist maintains a safe distance from the car and the bus. No sudden movements or dangerous behaviors are observed from the motorcyclist or any other road users. The traffic appears relatively light, and the road conditions seem clear.",
+        "actions": "The ego vehicle maintains a steady speed, following the large red bus ahead.  The driver is likely maintaining a safe following distance, given the speed of the bus and the traffic conditions. There are no apparent reasons for acceleration or deceleration based on the provided frames.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep right"
+        }
+    },
+    {
+        "video_id": "dada_12_014",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A person on a scooter",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching from behind the bus, then moving into the same lane as the ego vehicle."
+            }
+        ],
+        "key_actions": "cut-in",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Scooter",
+                "behavior": "Cut in from the right lane after emerging from behind a bus.  The scooter's speed appears relatively fast."
+            }
+        ],
+        "summary": "The video shows a car driving on a city road.  A large red bus is in front of the car.  On the right side of the road, a man on a scooter is initially behind the bus.  The scooter then accelerates and cuts in front of the car from the right lane, creating a potential collision hazard. The scooter's speed is relatively high, leaving little reaction time for the driver.",
+        "actions": "The ego vehicle maintains a consistent speed, following the red bus in front. The driver appears to be maintaining a safe following distance from the bus. There are no observable changes in speed or direction from the ego vehicle.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_12_014",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "15.9s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A person riding a scooter",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Approaching the intersection from the right side, potentially crossing the road in front of the vehicle."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Scooter",
+                "behavior": "Approaching the intersection from the right side, potentially crossing the road in front of the vehicle at a moderate speed."
+            }
+        ],
+        "summary": "The video shows a car driving on a city road.  A male, aged 30-40, wearing a dark jacket and pants, is riding a scooter on the right side of the road. He is approaching the intersection and appears to be about to cross the road directly in front of the car. This behavior exhibits characteristics of 'ghost probing' due to the sudden appearance and potential for collision. The scooter's speed is moderate, giving the driver limited reaction time.",
+        "actions": "The vehicle maintains a consistent speed, likely adjusting to the flow of traffic. There are no immediate changes in direction or braking observed within this short segment. The driver appears to be maintaining a safe following distance from the vehicle in front.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_028",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male on a red scooter wearing a blue jacket and a helmet, a bus on the right side of the road, several cars in front of the vehicle.",
+  "summary": "The vehicle is driving on a city street with moderate traffic. From 0.0s to 7.0s, the vehicle is traveling at a speed between 45km/h and 32km/h. At 7.0s, a male on a red scooter wearing a blue jacket and a helmet suddenly appears from behind a dark gray car on the right side of the road. The scooter is moving from right to left, crossing the road. The bus on the right side of the road is obstructing the view of the scooter, creating a ghost probing situation. From 7.0s to 10.0s, the vehicle decelerates from 32km/h to 29km/h.",
+  "actions": "The vehicle is initially driving at 45km/h and gradually decelerates to 32km/h as it approaches an intersection with moderate traffic. The deceleration is likely due to the presence of other vehicles in front and the anticipation of potential pedestrian or vehicle crossings at the intersection. The vehicle decelerates further to 29km/h after a scooter appears from behind a car on the right side of the road.",
+  "key_objects": "1) Right side: A male on a red scooter wearing a blue jacket and a helmet, approximately 5 meters away, suddenly appearing from behind a dark gray car and crossing the road. 2) Right side: A dark gray car, approximately 3 meters away, obstructing the view of the scooter until it emerges.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

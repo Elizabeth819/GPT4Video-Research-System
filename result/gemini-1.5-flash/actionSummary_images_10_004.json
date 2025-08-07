@@ -1,0 +1,62 @@
+[
+    {
+        "video_id": "dada_10_004",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "Dark-colored SUV",
+                "distance": "10-15 meters",
+                "behavior or action impacting the vehicle": "Approaching intersection at moderate speed, then slowing down."
+            },
+            {
+                "Position": "Right",
+                "Object description": "Blue sedan",
+                "distance": "20-25 meters",
+                "behavior or action impacting the vehicle": "Approaching intersection from the right, crossing the path of the ego vehicle."
+            }
+        ],
+        "key_actions": "cut-in",
+        "characters": [],
+        "summary": "The video shows a nighttime scene at an intersection. The ego vehicle is approaching the intersection. A dark-colored SUV is ahead, approaching the intersection at a moderate speed, and then slowing down. A blue sedan approaches from the right, crossing the path of the ego vehicle, potentially cutting in front of it. This action requires the ego vehicle to slow down and proceed with caution.",
+        "actions": "The ego vehicle is approaching an intersection at a slow speed. The driver is likely slowing down in anticipation of the intersection and the approaching vehicles. The driver is maintaining a safe following distance from the vehicle in front. The driver is observing the traffic conditions and adjusting speed accordingly.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_10_004",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "7.9s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A person riding an electric scooter",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Suddenly crosses the road from right to left in front of the vehicle at a moderate speed."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark clothing",
+                "transportation_method": "Electric scooter",
+                "behavior": "Suddenly crosses the road from right to left, creating a potential collision risk."
+            }
+        ],
+        "summary": "The video shows a nighttime scene. The self-driving vehicle is moving forward at a moderate speed. At approximately 5.0 seconds, a male, aged 30-40, wearing dark clothing, riding an electric scooter, suddenly crosses the road from right to left in front of the vehicle. The scooter's speed is moderate, and the action is unexpected, creating a ghost probing scenario. The driver has limited reaction time to avoid a collision. At 6.4 seconds, the scooter is closer to the vehicle, and the risk of collision is high. By 7.9 seconds, the scooter has almost completely crossed the road, and the immediate danger has passed.",
+        "actions": "The vehicle maintains a steady speed throughout the sequence, indicating a consistent driving pattern. There are no observable changes in speed or direction to suggest any evasive maneuvers or reactions to the scooter.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep lane"
+        }
+    }
+]

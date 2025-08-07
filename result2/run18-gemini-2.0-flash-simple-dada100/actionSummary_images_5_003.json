@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a street with several motorcycles and cars. There are pedestrians on the sidewalks. In the later frames, a motorcycle accident occurs in the middle of the road involving a woman and a child.",
+  "summary": "The vehicle is driving on a city street with moderate traffic, including motorcycles and cars. Initially, the road appears relatively clear. However, as the video progresses, a motorcycle accident occurs in the middle of the road, involving a woman and a child. The vehicle will need to react to this sudden obstacle.",
+  "actions": "The vehicle is initially driving straight at a constant speed. As the motorcycle accident occurs in front of the vehicle, the driver will need to decelerate to avoid a collision.",
+  "key_objects": "1) Center: Motorcycle accident involving a woman and a child, medium distance, creates an immediate obstacle and requires immediate braking. 2) Left: Pedestrians on the sidewalk, medium distance, potential for jaywalking.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

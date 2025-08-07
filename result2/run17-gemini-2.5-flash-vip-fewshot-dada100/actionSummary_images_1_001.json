@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_001",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A car in front, a person on the right side of the road",
+    "summary": "The vehicle is driving on a road with buildings on both sides. A car is in front of the vehicle. A person is walking on the right side of the road. The person is walking towards the road. The person is wearing white clothes. The person is walking slowly. The person is not paying attention to the traffic. The person may suddenly enter the road, creating a dangerous ghost probing situation.",
+    "actions": "The self-driving vehicle is maintaining a steady speed. The vehicle is driving straight. The vehicle is not changing lanes. The vehicle is not accelerating or decelerating. The vehicle is maintaining a safe distance from the car in front.",
+    "key_objects": "1) Right side: A person wearing white clothes, approximately 5 meters away, walking towards the road and potentially entering the vehicle's path. 2) Right side: A building, approximately 10 meters away, creating a visual obstruction that could hide the person until they enter the road.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_001",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.7s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Male pedestrian in white clothing, approximately 30 years old",
+    "summary": "In this segment, the vehicle is driving on a road with buildings on both sides. A male pedestrian wearing white clothing suddenly appears from the right side and steps directly into the vehicle's path. The pedestrian appears from behind the obstruction with minimal warning time, creating a dangerous ghost probing situation.",
+    "actions": "The self-driving vehicle is maintaining steady speed when the pedestrian suddenly appears. The vehicle immediately begins rapid deceleration in response to the unexpected pedestrian emergence from behind the obstruction. The driver takes evasive action to avoid collision.",
+    "key_objects": "1) Right side: A male pedestrian, approximately 30 years old wearing white clothing, 3 meters away, suddenly emerging from behind an obstruction and stepping into the vehicle's path.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

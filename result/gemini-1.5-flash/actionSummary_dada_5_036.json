@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle approaches an intersection with limited visibility due to parked trucks and containers. A pedestrian suddenly appears from behind a truck on the left side of the road.",
+    "actions": "Ego vehicle is moving forward. Several trucks are parked along the side of the road. A pedestrian begins to cross the street.",
+    "characters": "Pedestrian",
+    "key_objects": "Ego vehicle, trucks, pedestrian, intersection, containers",
+    "key_actions": "ghost probing",
+    "next_action": "Ego vehicle will likely need to brake to avoid the pedestrian."
+  }
+]

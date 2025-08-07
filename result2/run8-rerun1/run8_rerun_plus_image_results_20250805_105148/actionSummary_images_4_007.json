@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child on the right side of the image, a pedestrian on the right side of the image, a cyclist on the right side of the image, a traffic officer on the right side of the image",
+  "summary": "The video sequence shows multiple instances of ghost probing behavior. In the first sequence, a child suddenly emerges from the right side of the image, darting into the driving lane from behind a parked vehicle. In the second sequence, a pedestrian suddenly appears from the right side of the image, entering the driving lane from behind a parked vehicle. In the third sequence, a cyclist emerges from the right side of the image, entering the driving lane from behind a parked vehicle. In the fourth sequence, a traffic officer is directing traffic on the right side of the image.",
+  "actions": "The child, pedestrian, and cyclist all exhibit ghost probing behavior by suddenly emerging from behind parked vehicles on the right side of the image, creating immediate collision risks. The traffic officer is directing traffic on the right side of the image.",
+  "key_objects": "Parked vehicles on the right side of the image, a child, a pedestrian, a cyclist, a traffic officer",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

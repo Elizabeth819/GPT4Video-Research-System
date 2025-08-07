@@ -1,0 +1,51 @@
+{
+  "comparison_timestamp": "2025-07-10T16:34:43.902557",
+  "dataset_info": {
+    "total_videos_tested": 100,
+    "videos_source": "DADA-2000-videos (前100个)",
+    "gpt4o_processed": 100,
+    "gemini_processed": 100,
+    "common_videos": 100
+  },
+  "structure_analysis": {
+    "gpt4o_fields": {
+      "video_id": 166,
+      "segment_id": 166,
+      "Start_Timestamp": 166,
+      "sentiment": 166,
+      "End_Timestamp": 166,
+      "scene_theme": 166,
+      "characters": 166,
+      "summary": 166,
+      "actions": 166,
+      "key_objects": 166,
+      "key_actions": 166,
+      "next_action": 166
+    },
+    "gemini_fields": {
+      "video_id": 178,
+      "segment_id": 178,
+      "Start_Timestamp": 178,
+      "End_Timestamp": 178,
+      "key_objects": 178,
+      "key_actions": 178,
+      "characters": 178,
+      "summary": 178,
+      "actions": 178,
+      "next_action": 178
+    }
+  },
+  "content_analysis": {
+    "gpt4o_avg_summary_length": 250.50602409638554,
+    "gemini_avg_summary_length": 409.62359550561797,
+    "gpt4o_total_segments": 166,
+    "gemini_total_segments": 178
+  },
+  "comparison_metrics": {
+    "avg_segments_gpt4o": 1.66,
+    "avg_segments_gemini": 1.78,
+    "avg_segment_difference": 0.32,
+    "max_segment_difference": 2,
+    "videos_with_identical_segments": 73
+  }
+}

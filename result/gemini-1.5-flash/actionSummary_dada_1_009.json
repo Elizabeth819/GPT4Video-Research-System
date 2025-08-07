@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "dada_1_009",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "19:44:47",
+    "End_Timestamp": "19:44:53",
+    "summary": "Two pedestrians suddenly appear in the middle of the road at night, walking across the street. The driver has very little time to react.",
+    "actions": "The vehicle is driving straight on a road at night. The driver needs to brake suddenly to avoid hitting the pedestrians.",
+    "key_objects": [
+      "pedestrians",
+      "road"
+    ],
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "decrease speed immediately",
+      "direction_control": "steer to avoid pedestrians if possible",
+      "lane_control": "stay in lane if possible, avoid crossing lane markings"
+    }
+  }
+]

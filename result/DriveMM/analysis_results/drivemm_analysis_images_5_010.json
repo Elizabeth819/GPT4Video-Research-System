@@ -1,0 +1,83 @@
+{
+  "video_id": "images_5_010",
+  "video_path": "/Users/wanmeng/repository/GPT4Video-cobra-auto/DADA-2000-videos/images_5_010.avi",
+  "timestamp": "2025-07-14T13:05:15.203427",
+  "analysis_results": {
+    "ghost_probing": {
+      "detected": false,
+      "analysis": "NO_GHOST_PROBING - 基于视频命名和帧序列的启发式分析",
+      "confidence": "medium"
+    },
+    "scene_analysis": {
+      "description": "驾驶场景分析 - 处理了5帧图像",
+      "frame_count": 5,
+      "video_duration": 15.933333333333334,
+      "scene_type": "urban_driving"
+    },
+    "risk_assessment": {
+      "assessment": "风险等级: LOW",
+      "factors": [
+        "行人活动",
+        "车辆密度",
+        "视线阻挡",
+        "速度因素"
+      ]
+    },
+    "driving_advice": {
+      "recommendations": [
+        "保持安全车距",
+        "注意盲区观察",
+        "正常驾驶",
+        "提高警觉性"
+      ]
+    },
+    "technical_details": {
+      "frames_processed": 5,
+      "frame_info": [
+        {
+          "frame_index": 0,
+          "timestamp": 0.0,
+          "size": [
+            1584,
+            660
+          ]
+        },
+        {
+          "frame_index": 119,
+          "timestamp": 3.966666666666667,
+          "size": [
+            1584,
+            660
+          ]
+        },
+        {
+          "frame_index": 239,
+          "timestamp": 7.966666666666667,
+          "size": [
+            1584,
+            660
+          ]
+        },
+        {
+          "frame_index": 358,
+          "timestamp": 11.933333333333334,
+          "size": [
+            1584,
+            660
+          ]
+        },
+        {
+          "frame_index": 478,
+          "timestamp": 15.933333333333334,
+          "size": [
+            1584,
+            660
+          ]
+        }
+      ],
+      "analysis_method": "DriveMM_Demo_Mode",
+      "model_status": "demo_mode_heuristic"
+    }
+  },
+  "processing_time_seconds": 0.05
+}

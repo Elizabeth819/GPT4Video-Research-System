@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_5_016",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban street",
+    "characters": "Driver of a white sedan, a man on a motorized tricycle",
+    "summary": "The video shows a white sedan approaching an intersection. A man on a motorized tricycle, wearing a helmet and orange clothing, emerges from behind a parked car on the right side of the road. The tricycle moves into the path of the sedan, creating a near-miss situation. The driver of the sedan appears to brake slightly to avoid a collision. The tricycle then continues its journey.",
+    "actions": "The self-driving vehicle maintains a steady speed until a motorized tricycle appears from the right, partially obstructing the path. The driver of the self-driving vehicle slightly decelerates to avoid a collision. The vehicle maintains its lane and continues straight.",
+    "key_objects": "Right: A man on a motorized tricycle, wearing a helmet and orange clothing, approximately 2 meters away at closest point, suddenly emerged from behind a parked car and crossed the path of the self-driving vehicle, causing a near-miss.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

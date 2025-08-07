@@ -1,0 +1,9 @@
+{
+  "timestamp": "12:39:14 - 12:39:27",
+  "summary": "The video shows a dashcam view of an urban street with moderate traffic. Vehicles are moving in both directions, and some are pulling out from the side of the road. Pedestrians and an electric scooter are also visible.",
+  "actions": "The dashcam vehicle is moving forward. Other vehicles are driving, parking, pulling out from the side, and turning. An electric scooter crosses the road. Pedestrians are on the sidewalks.",
+  "characters": "Drivers of various vehicles (cars, taxi, scooter), pedestrians.",
+  "key_objects": "Dashcam vehicle, white sedan, black sedan, yellow/blue taxi, white SUV, red car, black car, electric scooter, parked vehicles, buildings, trees, traffic signs, roadside shops.",
+  "key_actions": "Vehicles are observed moving in traffic lanes. A white car (around 12:39:19) and a black car (around 12:39:23) are seen pulling out from the right side of the road to join the traffic flow. A yellow/blue taxi makes a left turn (around 12:39:21). An electric scooter crosses the road (around 12:39:24). Based on the provided definition of 'ghost probing' (a vehicle suddenly appearing from a blind spot like behind a large vehicle/obstruction and aggressively cutting into traffic), no clear instance of 'ghost probing' behavior is detected in these frames. The vehicles pulling out from the side are visible as they initiate their maneuvers and do not appear to be aggressively cutting from a hidden position behind a large moving vehicle.",
+  "next_action": "The dashcam vehicle is expected to continue driving straight along the street, following the flow of traffic."
+}

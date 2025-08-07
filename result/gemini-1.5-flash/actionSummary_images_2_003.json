@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_2_003",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area. Initially, the vehicle is driving straight with moderate traffic around. At 4.0s, a person suddenly appears from the right side, crossing the road in front of the vehicle. By 8.0s, another person is seen on the right side, potentially moving into the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed initially. At 4.0s, the vehicle likely decelerates to avoid the person crossing the road. By 8.0s, the vehicle may need to stop or further decelerate to avoid the person on the right side.",
+        "key_objects": "1) Right side: A person, approximately 2 meters away, crossing the road suddenly at 4.0s, causing the vehicle to decelerate. 2) Right side: Another person, approximately 1 meter away, potentially moving into the vehicles path at 8.0s, causing the vehicle to decelerate or stop.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_2_003",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "14.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Pedestrian on the right side",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A pedestrian suddenly appears from the right side, moving towards the vehicles path. The pedestrians movement is abrupt and poses a potential danger to the vehicle.",
+        "actions": "The self-driving vehicle is likely to decelerate or stop to avoid a collision with the pedestrian who is moving towards its path. The vehicles speed decreases gradually as the pedestrian approaches.",
+        "key_objects": "1) Right side: A pedestrian, approximately 1 meter away, moving towards the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

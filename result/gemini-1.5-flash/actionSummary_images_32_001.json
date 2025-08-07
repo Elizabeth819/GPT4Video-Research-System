@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_32_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Routine",
+        "characters": "Driver of a silver sedan, driver of a white car, driver of a truck, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a highway approaching a toll booth. The silver sedan on the left lane, the white car in the middle lane, and the truck in the right lane are all moving forward. The black car is in the right lane behind the truck. The vehicles maintain their lanes and speeds without any sudden movements.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position, following the white car in the middle lane. The vehicle is approaching the toll booth and is preparing to pass through it. The driver is maintaining a safe distance from the vehicles ahead.",
+        "key_objects": "1) Left side: A silver sedan, approximately 5 meters away, maintaining its lane and speed. 2) Front: A white car, approximately 10 meters away, maintaining its lane and speed. 3) Right side: A truck, approximately 8 meters away, maintaining its lane and speed. 4) Right side: A black car, approximately 15 meters away, maintaining its lane and speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

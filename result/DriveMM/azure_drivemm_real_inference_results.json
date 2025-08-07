@@ -1,0 +1,26 @@
+[
+  {
+    "video_id": "images_1_001",
+    "timestamp": "0-30s",
+    "prediction": "ghost_probing",
+    "confidence": "high",
+    "reasoning": "normal traffic flow, no sudden movements or ghost probing behavior",
+    "raw_response": "This scene shows a typical urban road environment with one vehicle in the same lane ahead. The road appears to be clear of obstacles, pedestrians or other potential hazards. The conditions suggest that the flow of traffic is regular, and there is no immediate need for any unusual maneuvers by this driver. Maintaining consistent speed within legal limits while keeping an adequate distance from the vehicle ahead would be advisable in these circumstances."
+  },
+  {
+    "video_id": "images_1_002",
+    "timestamp": "0-30s",
+    "prediction": "ghost_probing",
+    "confidence": "high",
+    "reasoning": "normal traffic flow, no sudden movements or ghost probing behavior",
+    "raw_response": "This scene shows a typical urban road environment with one vehicle in the same lane ahead. The road appears to be clear of obstacles, pedestrians or other potential hazards. The conditions suggest that the flow of traffic is regular, and there is no immediate need for any unusual maneuvers by this driver. Maintaining consistent speed within legal limits while keeping an adequate distance from the vehicle ahead would be advisable in these circumstances."
+  },
+  {
+    "video_id": "images_1_003",
+    "timestamp": "0-30s",
+    "prediction": "ghost_probing",
+    "confidence": "high",
+    "reasoning": "normal traffic flow, no sudden movements or ghost probing behavior",
+    "raw_response": "This scene shows a typical urban road environment with one vehicle in the same lane ahead. The road appears to be clear of obstacles, pedestrians or other potential hazards. The conditions suggest that the flow of traffic is regular, and there is no immediate need for any unusual maneuvers by this driver. Maintaining consistent speed within legal limits while keeping an adequate distance from the vehicle ahead would be advisable in these circumstances."
+  }
+]

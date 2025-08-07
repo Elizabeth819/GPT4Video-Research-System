@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_31_007",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a white sedan, two trucks",
+        "summary": "In this segment, the vehicle is driving on a highway. Two trucks are ahead, one in the left lane and one in the right lane. A white sedan appears in the right lane and overtakes the truck in the right lane.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position, keeping a safe distance from the trucks ahead. The vehicle does not change lanes or speed significantly.",
+        "key_objects": "1) Front: Two trucks, approximately 20 meters away, maintaining their lanes. 2) Right: A white sedan, approximately 10 meters away, overtaking the truck in the right lane.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

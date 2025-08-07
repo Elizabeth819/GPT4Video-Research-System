@@ -1,0 +1,23 @@
+[
+  {
+    "video_id": "dada_1_022",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00.000",
+    "End_Timestamp": "00:00:09.000",
+    "summary": "The vehicle is driving on a city street. Initially, there are cars parked on the right side of the road. The vehicle approaches a crosswalk where a pedestrian is crossing. Later, the road becomes clear with cyclists on the right side of the road.",
+    "actions": "The vehicle is driving straight and slowing down as it approaches the crosswalk.",
+    "key_objects": [
+      "vehicle",
+      "pedestrian",
+      "cyclists",
+      "parked cars",
+      "crosswalk"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "straight",
+      "lane_control": "keep lane"
+    }
+  }
+]

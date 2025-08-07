@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_058",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving through an urban area with parked cars on both sides of the road. The road is relatively clear with no immediate obstacles or pedestrians visible.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while driving straight down the road. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_058",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "16.5s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving through an urban residential area. The road is relatively clear with parked cars on both sides. The vehicle maintains a steady speed and direction throughout the segment.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, maintaining its lane and direction. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "1) Left side: A blue trash bin, approximately 5 meters away, stationary. 2) Right side: A silver car, approximately 3 meters away, parked and stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

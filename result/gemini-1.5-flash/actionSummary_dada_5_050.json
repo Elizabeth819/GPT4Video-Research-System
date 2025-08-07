@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is traveling on a straight road. A motorcycle with two riders emerges from the left side of the road, attempting to cross. The motorcycle falls, causing the riders to fall onto the road directly in front of the ego vehicle.",
+    "actions": "Ego vehicle is moving forward. Motorcycle is crossing the road and then falls.",
+    "characters": "Two people on the motorcycle.",
+    "key_objects": "Ego vehicle, motorcycle, two riders, road, white car parked on the right side of the road.",
+    "key_actions": "ghost probing",
+    "next_action": "Ego vehicle will likely brake hard to avoid collision."
+  }
+]

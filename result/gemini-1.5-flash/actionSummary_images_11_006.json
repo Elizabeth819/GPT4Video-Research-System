@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_006",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Night Driving",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a well-lit urban road at night. The road is clear with minimal traffic. The vehicle maintains a steady speed and lane position throughout the segment.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, maintaining its lane position. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "1) Front: A white car, approximately 50 meters away, moving steadily in the same direction. 2) Left side: A pedestrian, approximately 10 meters away, walking along the sidewalk.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_006",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "11.1s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a well-lit road at night. A white sedan is seen ahead, initially in the adjacent lane, but it suddenly moves into the self-vehicles lane, causing a potential collision.",
+        "actions": "The self-driving vehicle is forced to decelerate rapidly due to the sudden lane change by the white sedan ahead. The vehicles speed decreases significantly to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, suddenly moves into the self-vehicles lane, causing the self-vehicle to decelerate rapidly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

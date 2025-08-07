@@ -1,0 +1,74 @@
+[
+    {
+        "video_id": "dada_5_010",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white SUV, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. The road is moderately busy with several vehicles and motorcycles. A white SUV is seen on the left side of the road, and a motorcyclist is driving ahead in the same lane as the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the motorcyclist ahead. The vehicle is keeping a safe distance from the motorcyclist and other vehicles on the road.",
+        "key_objects": "1) Left side: A white SUV, approximately 5 meters away, moving forward. 2) Front: A motorcyclist, approximately 10 meters away, driving ahead in the same lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_010",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red tricycle",
+        "summary": "In this segment, the vehicle is driving on a rural road. Ahead, a red tricycle has fallen over, and the driver is attempting to lift it back up. The tricycle is blocking the road, causing the self-driving vehicle to slow down and stop.",
+        "actions": "The self-driving vehicle is slowing down and eventually stops to avoid colliding with the fallen tricycle. Over the past 3.3 seconds, the vehicles speed gradually decreased, eventually reaching a complete stop in the last frame, maintaining a safe distance from the tricycle ahead.",
+        "key_objects": "1) Front: A red tricycle, approximately 5 meters away, fallen and blocking the road, causing the vehicle to stop. 2) Front: The driver of the tricycle, wearing a red helmet and dark clothing, approximately 5 meters away, attempting to lift the tricycle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_010",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a motorcycle",
+        "summary": "In this segment, the vehicle is driving on a rural road. Ahead, a motorcycle is being pushed by a person wearing a red helmet and green jacket. The motorcycle is moving slowly and is directly in front of the vehicle.",
+        "actions": "The self-driving vehicle is maintaining a slow and steady speed to avoid collision with the motorcycle ahead. The vehicle is keeping a safe distance from the motorcycle, which is moving slowly.",
+        "key_objects": "1) Front: A motorcycle being pushed by a person wearing a red helmet and green jacket, approximately 2 meters away, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_010",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "15.6s",
+        "scene_theme": "Dramatic",
+        "characters": "Man with a motorcycle",
+        "summary": "In this segment, a man is pushing a motorcycle on the road. The motorcycle is directly in front of the observer vehicle, and the man is on the left side of the motorcycle. The man appears to be struggling to move the motorcycle forward.",
+        "actions": "The self-driving vehicle is maintaining a slow speed to avoid colliding with the man and the motorcycle directly ahead. The vehicle is likely preparing to stop or maneuver around the obstacle.",
+        "key_objects": "1) Front: A man pushing a motorcycle, approximately 2 meters away, moving slowly forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight left shift"
+        }
+    }
+]

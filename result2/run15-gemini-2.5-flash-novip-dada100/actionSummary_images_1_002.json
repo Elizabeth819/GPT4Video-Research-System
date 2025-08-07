@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "On the left side of the road, a person on a bicycle is observed. On the right side, a pedestrian is walking. A child in dark clothing suddenly appears from the left side of the road and runs across. Further on the right, an adult male in dark clothing is walking away from the vehicle.",
+  "summary": "The vehicle is driving on a two-lane road in what appears to be a rural or semi-urban residential area. Buildings and sparse trees line both sides of the road. Initially, the road ahead appears relatively clear. As the vehicle progresses, a person on a bicycle is seen on the left side of the road, and a pedestrian is seen on the right side. Suddenly, a child emerges rapidly from behind a building on the left side of the road, darting directly into the vehicle's path. The vehicle immediately reacts to this unexpected appearance, successfully avoiding a collision. After the child clears the path, the vehicle continues its forward movement.",
+  "actions": "The vehicle is initially maintaining a steady forward speed as it navigates the road. Upon the sudden and unexpected appearance of a child running from behind a building on the left side of the road (around the 5-6 second mark), the vehicle's driver immediately initiates a deceleration, likely applying brakes, to prevent a potential collision. This rapid reduction in speed is a direct and necessary response to the immediate and unforeseen obstruction in the vehicle's path. After the child has safely crossed and cleared the vehicle's trajectory, the vehicle appears to resume its forward motion, indicating a controlled recovery from the braking maneuver.",
+  "key_objects": "1) Position: Left side, then center: A child in dark clothing, at a very close distance, suddenly ran from behind a building on the left side of the road directly into the vehicle's path, creating an immediate and high-risk collision situation. 2) Position: Left side: A person on a bicycle, at a moderate distance, moving towards the vehicle, but not directly impacting the vehicle's immediate behavior. 3) Position: Right side: A pedestrian, at a moderate distance, walking towards the vehicle, not directly impacting the vehicle's immediate behavior.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

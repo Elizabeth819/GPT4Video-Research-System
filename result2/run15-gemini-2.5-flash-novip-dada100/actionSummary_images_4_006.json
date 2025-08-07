@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians of varying ages and genders are present. One male pedestrian, wearing a light-colored shirt, dark pants, and a backpack, is prominently featured in the vehicle's path. Other pedestrians are seen walking, and at least one person is on a bicycle and another on a scooter/motorcycle.",
+  "summary": "The video captures a nighttime driving scenario as the vehicle approaches and enters an underpass or tunnel. Initially, the vehicle is traveling at approximately 23-24 km/h. As it proceeds into the dimly lit underpass, multiple pedestrians and cyclists become visible, scattered across the roadway. A critical moment occurs when a male pedestrian, wearing a light-colored shirt and backpack, walks directly into the center of the vehicle's lane. This pedestrian then stops, bends down, and appears to be picking something up or adjusting an item, completely obstructing the vehicle's forward path. In response to this immediate hazard, the vehicle rapidly decelerates from 22 km/h down to a complete stop at 0 km/h, narrowly avoiding a collision with the pedestrian. Other pedestrians and cyclists continue to be present on both the left and right sides of the road further inside the underpass, highlighting a highly hazardous environment due to the presence of vulnerable road users in an unexpected and poorly lit location.",
+  "actions": "The vehicle begins by driving straight into an underpass at a speed of approximately 23-24 km/h. The driver maintains this low speed, likely due to the confined nature of the underpass and the limited visibility ahead. As the vehicle progresses, multiple pedestrians and cyclists become clearly visible on the road surface. The driver initiates a gradual deceleration, reducing speed to 22 km/h, in response to the increasing number of individuals in the roadway. When a male pedestrian walks directly into the vehicle's path and then stops and bends down, creating an immediate and unavoidable obstruction, the driver executes a rapid deceleration, bringing the vehicle to a complete stop from 22 km/h down to 0 km/h. This decisive braking action is taken to prevent a collision with the pedestrian who is directly in the vehicle's lane, prioritizing safety.",
+  "key_objects": "1) Center of lane, then moving towards the right side: A male pedestrian, wearing a light-colored shirt and dark pants, carrying a backpack, who walks into the center of the vehicle's lane, stops, and bends down, directly obstructing the vehicle's path and causing an emergency stop. \n2) Left side of the road: Multiple pedestrians and a cyclist are visible on the left side of the road within the underpass, moving towards the vehicle, contributing to the overall hazardous environment and requiring the driver to maintain vigilance. \n3) Right side of the road: Multiple pedestrians and a person on a scooter/motorcycle are visible on the right side of the road within the underpass, moving towards or alongside the vehicle, further increasing the need for cautious driving.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

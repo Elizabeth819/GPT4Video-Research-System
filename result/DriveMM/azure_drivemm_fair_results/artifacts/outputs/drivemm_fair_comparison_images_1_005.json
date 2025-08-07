@@ -1,0 +1,27 @@
+{
+  "video_id": "images_1_005",
+  "segment_id": "segment_000",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dramatic",
+  "characters": "driver observing traffic conditions",
+  "summary": "Potential ghost probing situation in images_1_005. Object movement requires attention but moderate collision risk.",
+  "actions": "Significant deceleration and increased alertness",
+  "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Surroundings: Limited visibility areas",
+  "key_actions": "potential ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  },
+  "drivemm_analysis": {
+    "model": "DriveMM_Fair_Comparison",
+    "prompt_version": "Balanced_GPT41_Compatible",
+    "detection_confidence": "medium",
+    "analysis_method": "Standardized_Heuristic_Following_GPT4o_Gemini_Standards",
+    "frame_complexity": 125.42167453673554,
+    "frames_analyzed": 10,
+    "duration_seconds": 15.0
+  }
+}

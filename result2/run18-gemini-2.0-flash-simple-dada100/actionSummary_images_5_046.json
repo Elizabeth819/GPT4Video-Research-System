@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_046",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car at night. There are other cars on the road. A man on a scooter is on the left side of the road, wearing a white shirt and shorts.",
+  "summary": "The video shows a car driving at night. The car approaches an intersection with a green light. A man on a scooter suddenly appears from the left side of the road, crossing the intersection. This constitutes a ghost probing incident as the scooter emerges from behind parked cars.",
+  "actions": "The vehicle is initially stopped at an intersection. The traffic light turns green, and the vehicle begins to accelerate to proceed through the intersection. The driver maintains a straight course through the intersection.",
+  "key_objects": "1) Left: A man on a scooter, medium distance, suddenly appears from behind parked cars and crosses the intersection, creating a ghost probing situation. 2) Left: Parked cars, close distance, obstruct the view of the scooter until it emerges into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

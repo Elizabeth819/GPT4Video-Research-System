@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_060",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black car, driver of a blue car, cyclist",
+        "summary": "In this segment, the vehicle is driving on a wet road in a rainy condition. At the beginning, a white sedan is seen on the right side, moving towards the center of the road. By the middle of the segment, a blue car appears on the right side, moving towards the center of the road. Towards the end, a cyclist appears on the right side, moving towards the center of the road.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the wet road. The vehicle is keeping a safe distance from the cars and cyclist appearing from the right side.",
+        "key_objects": "1) Right side: A white sedan, approximately 10 meters away, moving towards the center of the road. 2) Right side: A blue car, approximately 15 meters away, moving towards the center of the road. 3) Right side: A cyclist, approximately 5 meters away, moving towards the center of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_060",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "14.6s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black pickup truck",
+        "summary": "In this segment, the vehicle is driving on a wet road with low visibility due to rain. A white sedan is visible on the right side of the road, and a black pickup truck suddenly appears from the left side, moving into the self-vehicles lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching an intersection. The sudden appearance of the black pickup truck from the left side forces the self-driving vehicle to decelerate to avoid a collision.",
+        "key_objects": "1) Right side: A white sedan, approximately 10 meters away, stationary. 2) Left side: A black pickup truck, approximately 5 meters away, moving into the self-vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

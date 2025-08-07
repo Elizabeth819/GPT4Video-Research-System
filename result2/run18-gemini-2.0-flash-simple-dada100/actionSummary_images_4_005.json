@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene includes the driver of the vehicle, other cars, a bus, and a cyclist. The cyclist is wearing a red jacket and is riding a bicycle. The bus is green and red. The other cars are various colors.",
+  "summary": "The vehicle is driving on a road with moderate traffic. A bus is in front of the vehicle. A cyclist suddenly appears from behind the bus, creating a potential ghost probing situation. The vehicle then proceeds through the intersection.",
+  "actions": "The vehicle is initially driving straight at a moderate speed. As the bus moves forward, a cyclist appears from behind it. The driver likely decelerates to avoid a collision with the cyclist. The vehicle then proceeds straight through the intersection.",
+  "key_objects": "1) Right: Bus, medium distance, partially obstructing view of the road. 2) Right: Cyclist, short distance, suddenly appearing from behind the bus, creating a potential collision hazard.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

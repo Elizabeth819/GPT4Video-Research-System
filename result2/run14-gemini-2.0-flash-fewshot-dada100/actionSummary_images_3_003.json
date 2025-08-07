@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_003",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A woman in an orange jacket and dark pants riding a bicycle, a person on a red scooter, and a person on a black motorcycle.",
+  "summary": "The vehicle approaches an intersection with a red light. A woman on a bicycle, wearing an orange jacket and dark pants, suddenly appears from the right side of the vehicle and attempts to cross the intersection. The bicyclist collides with the front of the vehicle. There is also a person on a red scooter and a person on a black motorcycle in the intersection.",
+  "actions": "The vehicle is approaching an intersection and does not appear to be slowing down initially, possibly due to the driver assuming the intersection is clear. The vehicle then collides with the bicyclist who suddenly entered the vehicle's path.",
+  "key_objects": "1) Right side: A woman on a bicycle, wearing an orange jacket and dark pants, approximately 2 meters away, suddenly appearing and crossing the intersection, leading to a collision. 2) Front: The intersection itself, approximately 5 meters away, where multiple vehicles and individuals are present, increasing the risk of collisions.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

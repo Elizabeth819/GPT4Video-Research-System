@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_106",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "6.7s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a beige sedan, cyclist, pedestrians",
+        "summary": "In this segment, the vehicle is driving through an urban intersection. A beige sedan is ahead, moving to the right lane. A cyclist is crossing from the left side, and several pedestrians are walking on the right side of the road.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The vehicle is keeping a safe distance from the beige sedan ahead and is cautious of the cyclist crossing from the left side.",
+        "key_objects": "1) Front: A beige sedan, approximately 10 meters away, moving to the right lane. 2) Left: A cyclist, approximately 5 meters away, crossing the intersection. 3) Right: Several pedestrians, approximately 8 meters away, walking on the right side of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

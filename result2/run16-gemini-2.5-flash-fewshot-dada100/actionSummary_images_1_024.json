@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_024",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "None visible in immediate vicinity, only vehicles",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road during what appears to be late afternoon or early morning, indicated by the sky. The road is clear with good visibility. Initially, a white SUV is observed driving ahead in the same lane. As the segment progresses, another white SUV approaches from the left side of the self-driving vehicle and performs a standard left-side overtaking maneuver. The road is bordered by a median on the left and buildings and trees on the right.",
+  "actions": "The self-driving vehicle maintains a consistent speed and direction throughout the segment. It continues to follow the white SUV ahead in its lane. When another white SUV approaches from the left and performs a left-side overtaking maneuver, the self-driving vehicle does not need to adjust its speed or direction. This indicates that the overtaking vehicle maintained a safe distance and trajectory, allowing the self-driving vehicle to continue its normal driving behavior without requiring evasive action or speed changes.",
+  "key_objects": "1) Front: A white SUV, approximately 10-20 meters ahead, driving in the same lane as the self-driving vehicle. 2) Left side: A white SUV, initially alongside on the left, then moving forward to overtake the self-driving vehicle.",
+  "key_actions": "left-side overtaking",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

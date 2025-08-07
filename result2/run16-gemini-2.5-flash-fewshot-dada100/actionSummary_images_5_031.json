@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_031",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals on a dark-colored scooter/motorcycle; one appears to be a male wearing dark clothing, the other's details are obscured during the fall.",
+  "summary": "In this segment, the self-driving vehicle is approaching an urban intersection or roundabout. A white sedan is visible on the left side, moving forward. On the right side, an auto-rickshaw is present, acting as a visual obstruction. Suddenly, a dark-colored scooter with two riders emerges from behind this auto-rickshaw on the right, darting directly into the vehicle's path. The scooter loses balance, and both riders fall to the ground, creating an immediate and severe safety hazard.",
+  "actions": "The self-driving vehicle is initially traveling at a moderate speed as it approaches the intersection. Upon the sudden and unexpected emergence of the scooter and its riders from behind the obstruction on the right side, the vehicle immediately initiates rapid deceleration. This swift braking action is taken to prevent a collision with the scooter and its falling riders, prioritizing the safety of the individuals who have unexpectedly entered the vehicle's immediate path.",
+  "key_objects": "1) Right side: A dark-colored scooter with two riders, approximately 3-5 meters away, suddenly emerging from behind a stationary auto-rickshaw and entering the vehicle's path, subsequently losing balance and causing the riders to fall. 2) Right side: A green and red auto-rickshaw, approximately 5-7 meters away, positioned on the right side of the road, serving as a physical obstruction that obscured the scooter's approach until its sudden emergence. 3) Left side: A white sedan, approximately 5-10 meters away, moving parallel to the self-driving vehicle.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

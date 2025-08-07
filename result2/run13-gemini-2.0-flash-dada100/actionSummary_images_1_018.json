@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_018",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "11.1s",
+  "summary": "The self-driving car is moving forward on a sunny day on a road lined with parked cars on both sides. From 0.0s to 3.0s, the car is driving straight. From 3.0s to 6.0s, two individuals, one wearing a gray shirt and dark pants, and the other wearing a patterned shirt and dark pants, are walking from left to right across the road. From 6.0s to 11.1s, the car continues to drive straight. A motorcyclist is seen in the distance traveling in the same direction as the self-driving car.",
+  "actions": "The vehicle is driving straight at a moderate speed, likely maintaining pace with the traffic flow and road conditions. The driver is maintaining a safe distance from the vehicle in front. The speed is consistent, suggesting no immediate need to accelerate or decelerate. The vehicle is staying in its lane, indicating no need to change lanes at this time.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

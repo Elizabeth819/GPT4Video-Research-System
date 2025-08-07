@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_29_003",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a busy urban road. A motorcyclist is seen ahead, initially on the right side of the lane. The motorcyclist then moves towards the center of the lane and eventually falls off the motorcycle, causing an obstruction in the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the motorcyclist. As the motorcyclist falls, the vehicle begins to decelerate to avoid a collision. The vehicles speed decreases significantly in the last few frames, indicating an attempt to stop or maneuver around the fallen motorcyclist.",
+        "key_objects": "1) Front: A motorcyclist, approximately 10 meters away, moving towards the center of the lane and then falling off the motorcycle, causing an obstruction. 2) Right: Parked cars, approximately 3 meters away, posing no immediate threat.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

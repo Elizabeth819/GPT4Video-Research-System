@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_019",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Rural",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is driving on a narrow rural road with debris and garbage on both sides. The road ahead appears clear, but the surroundings are cluttered with waste materials.",
+        "actions": "The vehicle is maintaining a consistent speed while navigating through the narrow road. The driver is likely being cautious due to the debris on both sides, ensuring not to hit any obstacles.",
+        "key_objects": "1) Left side: Piles of garbage and debris, approximately 1 meter away, stationary. 2) Right side: Piles of garbage and debris, approximately 1 meter away, stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_019",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "17.1s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving through a narrow alley with debris and garbage on both sides. The road is clear of any pedestrians or other vehicles. The vehicle continues to move forward without any sudden changes in speed or direction.",
+        "actions": "The self-driving vehicle maintains a consistent speed while navigating through the narrow alley. There are no obstacles or other vehicles that require the vehicle to change its speed or direction.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

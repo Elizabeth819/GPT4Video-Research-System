@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_045",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows multiple cars on a city street. The driver's view is from inside a car. There are other cars in front and to the right. The cars appear to be in a traffic jam. There are trees and buildings on both sides of the road.",
+  "summary": "The vehicle is driving on a city street in heavy traffic. The car is moving slowly and maintaining its position in the lane. The traffic appears to be congested, with multiple cars in front and to the right. The vehicle is following the car in front of it and maintaining a safe distance. The road is straight, and there are trees and buildings on both sides.",
+  "actions": "The vehicle is moving slowly in a line of traffic. The driver is maintaining a safe distance from the car in front. The vehicle is staying in its lane and not attempting to overtake any other vehicles. The speed is slow due to the heavy traffic conditions.",
+  "key_objects": "1) Right: Car, close distance, blocking view of potential hazards. 2) Left: Metal fence, close distance, separating the road from the sidewalk.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

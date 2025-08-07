@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_029",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "Motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a road with trees on both sides. At 4.0 seconds, a motorcyclist appears in the middle of the road, moving ahead. By 8.0 seconds, the motorcyclist is still visible, and the vehicle continues to drive straight.",
+        "actions": "The self-driving vehicle maintains a steady speed and direction, keeping a safe distance from the motorcyclist ahead. The vehicles speed remains consistent, and there are no sudden changes in direction or speed.",
+        "key_objects": "1) Front: A motorcyclist, approximately 20 meters away, moving straight ahead.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_029",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "12.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white van",
+        "summary": "In this segment, the vehicle is driving on a city road. A white van is seen moving from the left side of the frame towards the center, indicating a potential cut-in behavior. The van continues to move ahead, and by the last frame, it has fully merged into the lane in front of the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the white vans movement. The vehicles speed remains steady to avoid sudden braking or collision.",
+        "key_objects": "1) Left side: A white van, approximately 2 meters away, moving towards the center lane, indicating a cut-in behavior. 2) Front: A white van, approximately 5 meters away, has merged into the lane ahead, potentially causing the observer vehicle to adjust speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_012",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several pedestrians are walking along the right side of the road. A woman in a light-colored coat is standing near a parked car on the right side of the road. Several cars are parked along the right side of the road.",
+  "summary": "The vehicle is driving on a road with parked cars on the right side. Several pedestrians are walking along the right side of the road. A woman in a light-colored coat is standing near a parked car on the right side of the road. From 0.0s to 10.0s, the car is driving straight. The parked cars on the right side of the road could potentially obstruct the view of pedestrians crossing the street, creating a ghost probing situation.",
+  "actions": "The vehicle is maintaining a steady speed while driving straight on the road. The driver is likely maintaining this speed to keep up with the flow of traffic and to avoid causing any disruptions. The driver is also likely keeping a safe distance from the parked cars on the right side of the road to avoid any potential collisions.",
+  "key_objects": "1) Right side: A woman in a light-colored coat, approximately 5 meters away, standing near a parked car and potentially about to cross the street. 2) Right side: Parked cars, approximately 3 meters away, potentially obstructing the view of pedestrians crossing the street.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

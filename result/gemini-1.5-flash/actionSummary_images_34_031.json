@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "example_video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white van, driver of a silver sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a white van is moving steadily in the same lane. A silver sedan on the left side lane is gradually moving closer to the self-driving vehicles lane.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position, keeping a safe distance from the white van ahead. The vehicle is monitoring the silver sedan on the left lane, which appears to be moving closer to the self-driving vehicles lane.",
+        "key_objects": "1) Front: A white van, approximately 20 meters away, moving steadily in the same lane. 2) Left side: A silver sedan, approximately 10 meters away, moving closer to the self-driving vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

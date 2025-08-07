@@ -1,0 +1,69 @@
+# 真正的LLaVA检测作业 - 修复版
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: real-llava-fixed-detection
+description: "Real LLaVA Ghost Probing Detection using decord for video frame extraction and LLaVA-NeXT for analysis"
+
+# Compute configuration  
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code source
+code: .
+
+# Real LLaVA analysis with proper dependencies
+command: >
+  echo "🚀 开始真正的LLaVA鬼探头检测作业" &&
+  python --version &&
+  echo "📋 检查GPU和CUDA环境..." &&
+  nvidia-smi &&
+  python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA可用: {torch.cuda.is_available()}'); print(f'GPU数量: {torch.cuda.device_count()}' if torch.cuda.is_available() else 'No GPU')" &&
+  echo "🔧 安装依赖包..." &&
+  pip install decord transformers accelerate Pillow &&
+  echo "📁 检查输入数据路径..." &&
+  echo "当前工作目录:" &&
+  pwd &&
+  echo "检查视频文件:" &&
+  python -c "
+import os
+azureml_data_path = os.environ.get('AZUREML_DATAREFERENCE_video_data')
+if azureml_data_path:
+    print(f'数据路径: {azureml_data_path}')
+    import os
+    if os.path.exists(azureml_data_path):
+        videos = [f for f in os.listdir(azureml_data_path) if f.endswith('.avi')]
+        print(f'找到 {len(videos)} 个.avi文件')
+        for i, v in enumerate(videos[:5]):
+            print(f'  {i+1}: {v}')
+        if len(videos) > 5:
+            print(f'  ... 还有 {len(videos)-5} 个文件')
+    else:
+        print('数据路径不存在')
+else:
+    print('未找到AZUREML_DATAREFERENCE_video_data环境变量')
+" &&
+  echo "📊 运行真正的LLaVA检测..." &&
+  timeout 7200 python real_llava_detector_fixed.py &&
+  echo "✅ 真正的LLaVA鬼探头检测作业完成"
+
+# Input data  
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+# Experiment settings
+experiment_name: real-llava-fixed-experiment

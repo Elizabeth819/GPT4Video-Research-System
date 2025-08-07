@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving at night on a city street. The vehicle approaches an intersection with a green light. A scooter appears from the left side of the road, crossing the ego vehicle's path.",
+    "actions": "Ego vehicle is driving straight. A scooter is crossing the road from left to right.",
+    "characters": "A person is riding the scooter.",
+    "key_objects": "Ego vehicle, scooter, traffic light, road signs, overpass supports.",
+    "key_actions": "potential ghost probing",
+    "next_action": "Ego vehicle will likely continue straight through the intersection, potentially braking if the scooter continues its path."
+  }
+]

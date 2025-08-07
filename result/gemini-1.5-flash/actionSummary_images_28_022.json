@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_28_022",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "5.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area with parked cars on both sides of the road. The vehicle is moving forward at a steady pace. There are no pedestrians or other vehicles suddenly appearing in the path of the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the urban area. The driver is likely maintaining a steady pace to ensure safe passage through the parked cars on both sides.",
+        "key_objects": "1) Left side: A black car, approximately 3 meters away, parked and stationary. 2) Right side: A white car, approximately 5 meters away, parked and stationary. 3) Front: A red car, approximately 10 meters away, parked and stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_28_022",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "5.8s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a black sedan, driver of a red sedan, driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on a road with parked cars on both sides. The black sedan is parked on the right side, followed by a red sedan and a white SUV. The road ahead is clear, and there are no pedestrians or cyclists visible.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, navigating through the road with parked cars on both sides. The vehicle is keeping a safe distance from the parked cars and is driving straight without any sudden changes in speed or direction.",
+        "key_objects": "1) Right side: A black sedan, approximately 2 meters away, parked and stationary. 2) Right side: A red sedan, approximately 4 meters away, parked and stationary. 3) Right side: A white SUV, approximately 6 meters away, parked and stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

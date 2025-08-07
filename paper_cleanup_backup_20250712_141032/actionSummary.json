@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_1_020",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "9.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist on the right side",
+        "summary": "In this segment, the vehicle is driving on a dimly lit road at night. A motorcyclist is seen on the right side of the road, initially ahead of the vehicle. The motorcyclist moves further to the right and out of the vehicles path. The road ahead is clear with no immediate obstructions.",
+        "actions": "The self-driving vehicle maintains a steady speed and direction as the motorcyclist moves out of its path. The vehicle does not need to take any evasive actions as the road ahead is clear.",
+        "key_objects": "1) Right side: A motorcyclist, approximately 5 meters away, moving further to the right and out of the vehicles path.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_020",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "14.2s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Person on the right side",
+        "summary": "In this segment, the vehicle is driving at night on a road with minimal traffic. A person suddenly appears from the right side of the road, emerging from behind a physical obstruction, and moves into the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed. However, due to the sudden appearance of the person from the right side, the vehicle needs to decelerate rapidly to avoid a potential collision.",
+        "key_objects": "1) Right side: A person, approximately 5 meters away, emerging from behind a physical obstruction and moving into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

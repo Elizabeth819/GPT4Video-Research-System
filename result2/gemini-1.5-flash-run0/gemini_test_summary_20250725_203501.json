@@ -1,0 +1,52 @@
+{
+  "test_summary": {
+    "timestamp": "20250725_203501",
+    "total_videos": 5,
+    "model": "Gemini-1.5-flash"
+  },
+  "performance_metrics": {
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1_score": 0.4,
+    "accuracy": 0.4,
+    "stats": {
+      "TP": 1,
+      "FP": 1,
+      "TN": 1,
+      "FN": 2,
+      "ERROR": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_001.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A person suddenly appears running across the road from the right side, seemingly from behind a temporary structure. A tricycle also appears briefly.\",\n  \"ghost_probing_time\": \"0:01-0:02 (approximately)\",\n  \"confidence\": \"medium\",\n  \"explanation\": \"The pedestrian appears unexpectedly and quite close to the vehicle. While not directly in the vehicle's path, the situation requires immediate attention and potential avoidance maneuver.  The sudden appearance from a partially obscured area and proximity constitute a ghost probing event. The appearance of the tricycle is also sudden but doesn't pose the same level of immediate danger.\"\n}\n```\n",
+      "evaluation": "FP"
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_002.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"The video shows a car driving on a rural road.  Pedestrians and a motorcycle are visible in the distance, moving predictably. There are no sudden appearances of objects from blind spots.\",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"There is no evidence of sudden appearance of objects creating an immediate collision risk. All objects are visible well in advance, allowing ample time for reaction. The movement of pedestrians and the motorcycle is consistent with normal traffic behavior.\"\n}\n```\n",
+      "evaluation": "FN"
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_003.avi\",\n  \"has_ghost_probing\": true,\n  \"key_actions\": \"A person and child suddenly appear in the road from the side of a parked car, very close to the oncoming vehicle. The person appears to have fallen or been knocked down.\",\n  \"ghost_probing_time\": \"approximately 4-5 seconds\",\n  \"confidence\": \"high\",\n  \"explanation\": \"The person and child are not visible in the preceding frames and appear suddenly and very close to the vehicle, creating an immediate and significant hazard that necessitates a rapid braking or evasive maneuver to avoid collision.  This fits the criteria for a ghost probing event, given the sudden appearance, proximity, and immediate risk to safety.\"\n}\n```\n",
+      "evaluation": "TP"
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_004.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"The video shows a car driving down a road.  Several pedestrians and cyclists are visible at a safe distance from the road. There is some traffic on the road, but all vehicles move predictably.\",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"No objects appear suddenly from blind spots or unexpectedly close to the vehicle. All movements of pedestrians, cyclists, and vehicles are observable and do not pose immediate collision risks.  There is no need for emergency maneuvers.\"\n}\n```\n",
+      "evaluation": "TN"
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "gemini_result": "```json\n{\n  \"video_id\": \"images_1_005.avi\",\n  \"has_ghost_probing\": false,\n  \"key_actions\": \"Driving in heavy rain, passing a group of pedestrians near a bus stop. Pedestrians are visible throughout the sequence.\",\n  \"ghost_probing_time\": null,\n  \"confidence\": \"high\",\n  \"explanation\": \"No objects appear suddenly from blind spots or unexpectedly close to the vehicle.  The pedestrians are clearly visible in the video sequence and no sudden actions or near misses occur.  Therefore, there is no ghost probing event.\"\n}\n```\n",
+      "evaluation": "FN"
+    }
+  ]
+}

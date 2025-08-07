@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "In the scene, there are multiple individuals. At approximately 1.0s, a cyclist, appearing to be an adult, gender not discernible, is seen on a yellow bicycle on the right side of the road. At approximately 6.0s, a pedestrian, appearing to be an adult, gender not discernible, is crossing the crosswalk from the left side. At approximately 7.0s, another cyclist, appearing to be an adult, gender not discernible, wearing a blue shirt, is seen on a bicycle crossing the road from the right side. At approximately 8.0s, a third cyclist, appearing to be an adult, gender not discernible, is visible on the far left side, also crossing the road.",
+  "summary": "The video segment captures a vehicle navigating a multi-lane urban road, initially driving under an overpass with tall buildings lining the left side. The vehicle is following a silver sedan. At approximately 1.0s, a cyclist on a yellow bicycle suddenly emerges from behind a large tree and a green construction barrier on the right side of the road, exhibiting a 'ghost probing' behavior. The vehicle continues to proceed, approaching a busy intersection under the overpass. As the vehicle nears the intersection, the traffic light for its direction changes from green to yellow, and then to red. Simultaneously, at approximately 7.0s-8.0s, another cyclist suddenly appears from behind a large concrete pillar of the overpass and a parked vehicle on the right side, crossing the road, which constitutes a second 'ghost probing' incident. The vehicle decelerates and comes to a stop at the red light, allowing pedestrians and cyclists to cross the intersection.",
+  "actions": "The vehicle initially maintains a moderate speed, following a silver car in the same lane. As the vehicle approaches the intersection, it begins to decelerate. This deceleration is a direct response to the changing traffic signal, which transitions from green to yellow and then to red, indicating the need to stop. The vehicle's speed reduction is also influenced by the presence of pedestrians and cyclists crossing the intersection, ensuring safety by yielding the right-of-way. The vehicle comes to a complete stop at the red light, demonstrating compliance with traffic laws and prioritizing the safety of other road users.",
+  "key_objects": "1) Position: right side; A cyclist on a yellow bicycle, emerging suddenly from behind a large tree and a green construction barrier at approximately 1.0s. This sudden appearance from behind a visual obstruction, moving towards the road, created a 'ghost probing' situation, requiring the driver to be prepared for an immediate evasive action. 2) Position: right side; A cyclist on a bicycle, wearing a blue shirt, emerging suddenly from behind a large overpass pillar and a parked vehicle at approximately 7.0s-8.0s. This unexpected appearance from behind a significant obstruction while crossing the intersection created a second 'ghost probing' scenario, necessitating the vehicle's immediate deceleration and stop to prevent a potential collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

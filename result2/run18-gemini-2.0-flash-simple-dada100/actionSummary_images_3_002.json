@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car approaching an intersection. There are pedestrians, cyclists, and other vehicles present. The pedestrians appear to be of various ages and are dressed in casual clothing. Some are walking, while others are riding bicycles or scooters. The other vehicles include cars and a small truck.",
+  "summary": "The vehicle is driving on a road with barriers on both sides, approaching an intersection. There are pedestrians and cyclists on both sides of the road. The vehicle maintains its speed and direction as it approaches the intersection. A small truck is driving in front of the vehicle.",
+  "actions": "The vehicle is driving straight at a constant speed. The driver is maintaining the current lane and approaching an intersection. The driver is likely maintaining speed due to the open road ahead and the absence of immediate obstacles.",
+  "key_objects": "1) Left side: Pedestrians and cyclists, medium distance, potential for crossing the road. 2) Right side: Pedestrians and cyclists, medium distance, potential for crossing the road. 3) Front: Small truck, short distance, maintaining similar speed.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

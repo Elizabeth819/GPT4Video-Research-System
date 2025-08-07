@@ -1,0 +1,24 @@
+{
+  "subscription_id": "0d3f39ba-7349-4bd7-8122-649ff18f0a4a",
+  "resource_group": "wisead-rg",
+  "workspace_name": "wisead-ml-workspace",
+  "experiment_name": "wisead_video_inference",
+  "compute_target": "wisead-a100-lowpri",
+  "environment": "AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10",
+  "script": "wisead_video_inference.py",
+  "input_data": "azure://wiseadmlstorage55c2e74d3/video-data/",
+  "output_data": "azure://wiseadmlstorage55c2e74d3/wisead-results/",
+  "parameters": {
+    "batch_size": 4,
+    "confidence_threshold": 0.5,
+    "model_type": "yolov8",
+    "max_videos": 100
+  },
+  "azure_storage_container": "wisead-videos",
+  "uploaded_videos_count": 100,
+  "upload_timestamp": "2025-07-16T14:59:32.947881",
+  "batch_size": 4,
+  "confidence_threshold": 0.5,
+  "model_type": "yolov8",
+  "max_videos": 100
+}

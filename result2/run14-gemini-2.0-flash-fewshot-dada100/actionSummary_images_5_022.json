@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_022",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several cars, a bus, and a few motorcycles are visible at the intersection. There are also a few pedestrians on the sidewalks.",
+  "summary": "The self-driving vehicle is approaching an intersection. There are several vehicles in front, including a white van directly ahead. To the left, there's a gas station and a bus. On the right, there are buildings and some pedestrian activity. The vehicle is maintaining its current lane and speed as it approaches the intersection.",
+  "actions": "The vehicle is approaching an intersection and maintaining its speed. The driver is likely assessing the traffic light and the surrounding vehicles to prepare for a potential stop or turn.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

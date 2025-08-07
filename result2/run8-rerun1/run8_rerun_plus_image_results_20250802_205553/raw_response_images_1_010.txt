@@ -1,0 +1,20 @@
+```json
+{
+    "video_id": "images_1_010",
+    "segment_id": "full_video",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Several pedestrians, including a child and an adult, and a cyclist. The child is wearing a blue jacket and is seen running across the road. The adult is wearing a dark jacket and is also crossing the road. The cyclist is riding on the right side of the road.",
+    "summary": "The video sequence shows multiple instances of pedestrians and cyclists interacting with the road traffic. In the first sequence, a child suddenly runs across the road from the right side, emerging from behind a parked vehicle, creating an immediate collision risk. In the second sequence, an adult pedestrian crosses the road from the left side, and in the third sequence, a cyclist is seen riding on the right side of the road.",
+    "actions": "The child runs across the road from the right side, the adult pedestrian crosses from the left side, and the cyclist is riding on the right side.",
+    "key_objects": "Parked vehicles on both sides of the road, a child running across the road, an adult pedestrian crossing the road, and a cyclist riding on the right side.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "emergency brake",
+        "direction_control": "straight",
+        "lane_control": "maintain current lane"
+    }
+}
+```

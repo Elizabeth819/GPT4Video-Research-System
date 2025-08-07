@@ -1,0 +1,47 @@
+# 无OpenCV依赖的LLaVA作业
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: llava-opencv-free-detection
+description: "LLaVA Ghost Probing Detection without OpenCV dependencies using balanced GPT-4.1 prompt logic"
+
+# Compute configuration  
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code source
+code: .
+
+# OpenCV-free command
+command: >
+  echo "🚀 开始无OpenCV依赖的LLaVA鬼探头检测" &&
+  python --version &&
+  echo "📋 检查Python环境..." &&
+  python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA可用: {torch.cuda.is_available()}')" &&
+  echo "📁 检查输入数据路径..." &&
+  echo "当前工作目录:" &&
+  pwd &&
+  echo "📊 运行无OpenCV版LLaVA检测..." &&
+  python llava_simple_opencv_free.py &&
+  echo "✅ LLaVA鬼探头检测作业完成"
+
+# Input data  
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+# Experiment settings
+experiment_name: llava-opencv-free-experiment

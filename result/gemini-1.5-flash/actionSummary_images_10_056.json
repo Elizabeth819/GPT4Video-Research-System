@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_056",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Rural Road",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is driving on a rural road with sparse traffic. The road is lined with trees and some buildings on the right side. A person on a motorcycle appears on the right side of the road and moves towards the center of the road.",
+        "actions": "The vehicle maintains a consistent speed while driving on the rural road. The driver is cautious as a person on a motorcycle appears on the right side and moves towards the center of the road, potentially causing the driver to slow down.",
+        "key_objects": "1) Right side: A person on a motorcycle, approximately 5 meters away, moving towards the center of the road, potentially causing the vehicle to slow down.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

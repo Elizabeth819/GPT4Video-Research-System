@@ -27,7 +27,7 @@ def generate_embedding(text):
 
 # 读取guitantou.json文件
 # json_file_path = 'actionSummary-P36-1-en.json'
-json_file_path = 'actionSummary.json'
+json_file_path = 'actionSummary-三轮车En.json'
 
 with open(json_file_path, 'r', encoding='utf-8') as file:
     documents = json.load(file)
@@ -48,7 +48,7 @@ service_name = "cobra-video-search-eliz"
 admin_key = ""
 
 # Define the name of the index
-index_name = "complexscene2_index" 
+index_name = "tricycle_index" 
 
 # Create a SearchIndexClient to manage the index
 index_client = SearchIndexClient(
@@ -58,7 +58,7 @@ index_client = SearchIndexClient(
 
 # Define the schema of the index
 index_schema = {
-    "name": "complexscene2_index",
+    "name": "tricycle_index",
     "fields": [
         {
             "name": "id",

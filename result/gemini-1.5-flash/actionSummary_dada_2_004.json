@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_2_004",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2017/03/25 12:10:56",
+    "End_Timestamp": "2017/03/25 12:11:03",
+    "summary": "The vehicle is driving on a road with pedestrians crossing. The pedestrians are visible from a distance and are crossing at a marked crosswalk. The vehicle slows down to allow the pedestrians to cross safely.",
+    "actions": "The vehicle slows down and prepares to stop for pedestrians crossing the road at a marked crosswalk.",
+    "key_objects": [
+      "pedestrians",
+      "crosswalk",
+      "vehicle"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain slow speed or stop if necessary",
+      "direction_control": "stay in lane",
+      "lane_control": "maintain lane"
+    }
+  }
+]

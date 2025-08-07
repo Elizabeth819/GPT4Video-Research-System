@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_018",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter/motorcycle, wearing dark clothing and possibly a helmet, is seen crossing the road. Other pedestrians are visible on the sidewalks in the background, but are not directly involved in the immediate driving scenario.",
+  "summary": "The video segment captures a vehicle driving on a wet, multi-lane urban road under an overcast sky. The scene begins with the vehicle proceeding straight. At approximately 3.0 seconds (Frame 4), a person on a scooter suddenly emerges from behind a parked white SUV on the right side of the road, darting across the vehicle's path. Shortly after, at approximately 6.0 seconds (Frame 7), a white SUV unexpectedly appears from behind a building/central barrier on the left side of the road, making a sharp right turn directly into the vehicle's lane of travel, creating an immediate and significant collision risk. After the white SUV clears the path, an unidentified object, possibly a helmet or a small bag, is observed lying on the wet road surface directly in front of the vehicle at approximately 8.0 seconds (Frame 9), requiring further evasive action.",
+  "actions": "The vehicle is initially driving straight, maintaining its lane on a wet road, indicating routine travel. Upon the sudden appearance of a person on a scooter from the right side of the road, the vehicle likely prepares for a potential deceleration or evasive maneuver, although no explicit speed change is clearly visible in the frames. Subsequently, a white SUV suddenly emerges from the left side, turning right and cutting across the vehicle's path. This constitutes an immediate and significant obstruction, necessitating rapid deceleration from the vehicle to avoid a collision. The appearance of an unidentified object on the road directly in front of the vehicle after the SUV passes further compels the driver to initiate braking or a slight steering adjustment to prevent impact.",
+  "key_objects": "1) Right: A person on a scooter/motorcycle, emerging suddenly from behind a parked white SUV, crossing the road from the right side towards the left. This creates a traditional ghost probing scenario due to the sudden appearance from behind an obstruction and minimal reaction time. 2) Left: A white SUV, emerging suddenly from behind a building/central barrier on the left side of the road, turning right directly into the vehicle's path. This constitutes a vehicle ghost probing incident, as it appears unexpectedly from behind a visual obstruction, posing an immediate collision threat. 3) Center: An unidentified object (possibly a helmet or bag) is observed on the wet road surface directly in front of the vehicle, requiring immediate attention and a potential evasive maneuver.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

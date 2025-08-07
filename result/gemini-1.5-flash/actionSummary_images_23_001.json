@@ -1,0 +1,106 @@
+[
+    {
+        "video_id": "dada_23_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A red car",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Moving at a consistent speed ahead of the self-driving vehicle."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A person riding a motorcycle",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Approaching from behind, then overtaking the self-driving vehicle."
+            }
+        ],
+        "key_actions": "right-side overtaking",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Motorcycle",
+                "behavior": "Overtaking the self-driving vehicle from the right lane."
+            }
+        ],
+        "summary": "The video shows a 5-second segment of a road scene. The self-driving vehicle is traveling on a multi-lane road. A red car is traveling ahead of the self-driving vehicle in the center lane, maintaining a consistent speed and distance. A male, aged 30-40, wearing a dark jacket and pants, is riding a motorcycle in the right lane. He overtakes the self-driving vehicle from behind, passing safely and moving ahead. No other significant events or near misses are observed during this period.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 5-second segment.  There are no observable changes in speed or direction. The vehicle's actions suggest a smooth and predictable driving pattern, adapting to the flow of traffic.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_23_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A group of pedestrians and cyclists crossing the road",
+                "distance": "15 meters",
+                "behavior or action impacting the vehicle": "Crossing the road from left to right, some at a slow pace, others faster.  Potential for collision if the vehicle does not slow down."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A motorcyclist",
+                "distance": "20 meters",
+                "behavior or action impacting the vehicle": "Approaching from behind, moving at a moderate speed in the right lane.  Potential for cut-in if the motorcyclist changes lanes."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "mixed",
+                "age": "20-50",
+                "clothing": "varied, everyday clothing",
+                "transportation_method": "walking and cycling",
+                "way_of_walking": "crossing the road, some at a slow pace, others faster"
+            },
+            {
+                "gender": "male",
+                "age": "30-40",
+                "clothing": "unclear",
+                "transportation_method": "motorcycle",
+                "way_of_walking": "driving in the right lane, approaching at a moderate speed"
+            }
+        ],
+        "summary": "The video shows a road scene with the self-driving vehicle approaching an intersection. A group of pedestrians and cyclists are crossing the road from left to right, some at a slow pace, others faster. A motorcyclist is approaching from behind in the right lane. The pedestrians and cyclists pose a potential collision risk if the vehicle does not slow down. The motorcyclist poses a potential cut-in risk if they change lanes.",
+        "actions": "The vehicle maintains a steady speed, likely adjusting to the traffic conditions ahead. The driver is anticipating the pedestrians and cyclists crossing the road and is likely maintaining a safe following distance from the vehicle in front.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_23_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "10.6s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A group of pedestrians, including two adults and two children, one adult wearing a dark jacket and the other a lighter colored jacket, children wearing darker clothing.",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Crossing the road from left to right, appearing to be mid-crossing at 10.0s and nearly finished by 10.6s."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": "A group of four pedestrians (two adults, two children) are crossing the road from the left side. The adults are wearing dark and light colored jackets respectively, while the children are in darker clothing. ",
+        "summary": "The video shows a group of four pedestrians crossing the road from left to right.  Two adults and two children are visible. The adults appear to be guiding the children across. The pedestrians are initially a significant distance from the vehicle but rapidly decrease the distance as they cross. This constitutes a ghost probing event as they emerge from behind a parked bus, partially obscuring them from the driver's view until they are close to the road. The speed of the pedestrians is moderate, but their sudden appearance in the vehicle's path creates a dangerous situation. The vehicle appears to be maintaining a steady speed and the driver may need to brake to avoid a collision.",
+        "actions": "The vehicle maintains a consistent speed throughout the observed 5-second segment. There are no observable changes in direction or braking. The consistent speed suggests the driver is navigating a relatively clear road with no immediate obstacles or traffic congestion. The driver is likely maintaining a safe speed for the current road conditions.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

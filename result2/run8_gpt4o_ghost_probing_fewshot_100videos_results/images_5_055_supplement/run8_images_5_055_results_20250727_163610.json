@@ -1,0 +1,23 @@
+{
+  "experiment_info": {
+    "run_id": "Run 8 - images_5_055",
+    "timestamp": "20250727_163610",
+    "video_count": 1,
+    "model": "GPT-4o (Azure)",
+    "prompt_version": "Paper_Batch Complex (4-Task) + Few-shot Examples",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "purpose": "处理DADA-2000中的images_5_055.avi补充Run 8到100视频",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8_gpt4o_ghost_probing_fewshot_100videos_results/images_5_055_supplement",
+    "base_configuration": "与Run 8完全一致的参数和prompt配置"
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_5_055.avi",
+      "ground_truth": "unknown",
+      "key_actions": "emergency braking due to pedestrian crossing",
+      "evaluation": "FN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_5_055.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"pedestrian, multiple drivers\",\n    \"summary\": \"The video shows a vehicle driving through a parking area. A pedestrian is seen crossing the path of the vehicle. The vehicle slows down to allow the pedestrian to cross safely. The vehicle then continues driving and approaches a minor traffic incident involving two cars. The vehicle maneuvers around the incident and proceeds to exit the parking area.\",\n    \"actions\": \"The vehicle slows down to allow the pedestrian to cross and then maneuvers around a minor traffic incident.\",\n    \"key_objects\": \"1) Position: pedestrian, 2 meters ahead, crossing the path of the vehicle 2) Position: two cars, 5 meters ahead, involved in a minor traffic incident\",\n    \"key_actions\": \"emergency braking due to pedestrian crossing\",\n    \"next_action\": {\n        \"speed_control\": \"deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    }
+  ]
+}

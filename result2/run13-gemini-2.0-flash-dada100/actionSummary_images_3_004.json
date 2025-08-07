@@ -1,0 +1,23 @@
+{
+  "video_id": "images_3_004",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.7s",
+  "summary": "The self-driving car is approaching an intersection with a red traffic light. From 0.0s to 4.0s, several individuals are crossing the street, including a man in a white shirt and a woman in a blue shirt. A scooter with an orange box is also present. From 4.0s to 6.0s, more scooters and a van pass through the intersection. From 13.2s to 14.7s, a woman on a scooter suddenly falls in front of the car, creating a dangerous situation.",
+  "characters": [
+    "From 0.0s to 4.0s, a man in a white shirt and a woman in a blue shirt are crossing the street.",
+    "From 0.0s to 4.0s, a scooter with an orange box is present.",
+    "From 4.0s to 6.0s, more scooters and a van pass through the intersection.",
+    "From 13.2s to 14.7s, a woman on a scooter falls in front of the car."
+  ],
+  "actions": "The vehicle is approaching an intersection and slowing down, likely due to the red traffic light. The driver is preparing to stop at the intersection to allow pedestrians and other vehicles to cross safely.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": [
+    "Left: A woman on a scooter, approximately 2 meters away, suddenly falls in front of the car, requiring immediate braking to avoid a collision."
+  ]
+}

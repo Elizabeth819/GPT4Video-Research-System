@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_026",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car at night. There are other cars and motorcycles on the road. A pedestrian, a young woman wearing a pink shirt and carrying a yellow bag, is seen crossing the road.",
+  "summary": "The video shows a car driving at night on a road with other vehicles. A pedestrian suddenly appears from the left side of the road and crosses the street. The driver needs to react to avoid hitting the pedestrian.",
+  "actions": "The vehicle is initially moving forward at a steady speed. As the pedestrian appears on the left side of the road, the driver likely initiates braking to avoid a collision. The driver is maintaining the current lane.",
+  "key_objects": "1) Left: Pedestrian, medium distance, crossing the road suddenly, causing a potential collision. 2) Left: Trees, medium distance, partially obstructing the view of the pedestrian before they enter the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_047",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road. Initially, the vehicle is driving straight with a bus on the left side. As the vehicle progresses, it approaches a truck parked on the left side of the road. The vehicle then turns right into a parking area, where it encounters several parked cars and pedestrians.",
+        "actions": "The self-driving vehicle maintains a consistent speed while driving straight. As it approaches the truck on the left side, it prepares to turn right into a parking area. The vehicle slows down and carefully navigates into the parking area, avoiding parked cars and pedestrians.",
+        "key_objects": "1) Left side: A bus, approximately 10 meters away, parked and stationary. 2) Left side: A truck, approximately 5 meters away, parked and stationary. 3) Front: Several parked cars, approximately 3 meters away, stationary. 4) Front: Pedestrians, approximately 5 meters away, walking towards the parking area.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "turn right",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_032",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several motorcycles parked on the right side of the road, a man in dark clothing walking on the right sidewalk, a white SUV parked on the right side of the road, a man in a red hat standing on the left side of the road, and a group of people sitting on the left side of the road.",
+  "summary": "The vehicle is driving on a road with buildings on both sides. Several motorcycles are parked on the right side of the road, partially obstructing the view of the sidewalk. A man in dark clothing is walking on the right sidewalk. A white SUV is parked on the right side of the road. On the left side of the road, a man in a red hat is standing, and a group of people are sitting. At approximately 7.0s, a yellow motorcycle emerges from the right side of the road from a perpendicular road, and the driver crashes into the motorcycle. This is a ghost probing incident.",
+  "actions": "The vehicle is driving at a constant speed. The driver is maintaining the current lane. The driver does not appear to be slowing down or changing direction. The driver is likely maintaining speed because the road ahead appears clear, and there are no immediate obstacles in the vehicle's path. The driver is not aware of the potential danger of the motorcycle emerging from the perpendicular road.",
+  "key_objects": "1) Right side: A yellow motorcycle, approximately 3 meters away, suddenly emerging from a perpendicular road and entering the vehicle's path. 2) Right side: Parked motorcycles, approximately 5 meters away, partially obstructing the view of the perpendicular road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

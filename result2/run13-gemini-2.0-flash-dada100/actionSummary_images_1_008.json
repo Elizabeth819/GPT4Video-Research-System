@@ -1,0 +1,19 @@
+{
+  "video_id": "images_1_008",
+  "segment_id": "segment_1",
+  "frame_analysis": [
+    {
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "5.2s",
+      "summary": "The self-driving car is moving forward on a narrow road with vehicles parked on the left side. On the right side, there are people standing and a three-wheeled vehicle parked. At timestamp 2.3s, a man wearing a yellow shirt and dark pants is walking on the right side of the road. At timestamp 2.9s, a man wearing a blue jacket is walking on the left side of the road. At timestamp 3.4s, a man on a bicycle is riding on the right side of the road. At timestamp 4.0s, the road appears to be clear of immediate obstacles. At timestamp 4.6s, the road ahead is clear, and the car continues moving forward. At timestamp 5.2s, the road ahead is clear, and the car continues moving forward.",
+      "actions": "The vehicle is moving forward at a slow speed, likely due to the narrow road and the presence of parked vehicles and people on both sides of the road. The driver is maintaining a steady speed to navigate the environment safely.",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep current lane"
+      },
+      "key_actions": "none",
+      "key_objects": "none"
+    }
+  ]
+}

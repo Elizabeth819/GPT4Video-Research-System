@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_5_033",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "7.3s",
+    "scene_theme": "Night driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a vehicle, a scooter rider, and other vehicles in the distance.",
+    "summary": "The video shows nighttime driving on a two-lane road with streetlights.  The self-driving vehicle maintains a consistent speed. Around 4.9 seconds, a scooter rider wearing dark clothing crosses the road from left to right in front of the vehicle. The rider appears to be moving at a moderate speed. The distance between the scooter and the vehicle is not immediately apparent, but it appears close enough to warrant caution. Other vehicles are visible in the distance, but they do not pose an immediate threat.",
+    "actions": "The self-driving vehicle maintains a consistent speed and direction throughout the 7.3-second segment. There are no observable changes in speed or direction to suggest any immediate reaction to other road users.",
+    "key_objects": "1) Front: Scooter rider, approximately 5 meters away at closest point, crossing the road from left to right. 2) Front: Other vehicles, approximately 50-100 meters away, moving in the same direction.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

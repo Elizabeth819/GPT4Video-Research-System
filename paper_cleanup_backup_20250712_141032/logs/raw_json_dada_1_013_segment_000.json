@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_013",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "sentiment": "Negative",
+    "End_Timestamp": "9.0s",
+    "scene_theme": "Dramatic",
+    "characters": "Bus driver, child on the right side",
+    "summary": "In this segment, the vehicle is driving on a rural road. Initially, the road is clear, but as the vehicle progresses, a green bus appears from the opposite direction and starts to turn left, blocking the vehicles path. Additionally, a child appears on the right side of the road, running towards the vehicles path.",
+    "actions": "The self-driving vehicle needs to decelerate rapidly to avoid a potential collision with the bus turning left and the child running towards the road. The vehicles speed should be reduced significantly to ensure safety.",
+    "key_objects": "1) Front: A green bus, approximately 10 meters away, turning left and blocking the vehicles path. 2) Right side: A child, approximately 5 meters away, running towards the road.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "steer to circumvent",
+        "lane_control": "maintain current lane"
+    }
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "dada_5_041",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white SUV, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. There are multiple vehicles and motorcyclists on the road. The white SUV on the left side is moving forward, and a motorcyclist is ahead in the same lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the urban road. The vehicle is keeping a safe distance from the motorcyclist ahead and the white SUV on the left side.",
+        "key_objects": "1) Left side: A white SUV, approximately 5 meters away, moving forward. 2) Front: A motorcyclist, approximately 10 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_041",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "6.8s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a white sedan, Driver of a black SUV, Driver of an orange car",
+        "summary": "In this segment, the vehicle is driving on an urban road approaching a traffic light. The white sedan ahead is maintaining its lane, while the black SUV on the right is preparing to turn right. The orange car on the right is moving forward in its lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the traffic light. The vehicle is keeping a safe distance from the white sedan ahead and monitoring the black SUV and orange car on the right.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, maintaining its lane. 2) Right: A black SUV, approximately 5 meters away, preparing to turn right. 3) Right: An orange car, approximately 7 meters away, moving forward in its lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_069",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road with clear visibility. The road ahead is relatively empty, with a white truck visible in the distance. The vehicle maintains a steady speed and lane position throughout the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. There are no sudden changes in speed or direction, indicating a calm driving environment.",
+        "key_objects": "1) Front: A white truck, approximately 50 meters away, moving steadily in the same direction.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_069",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is approaching an intersection with traffic lights. A white sedan is seen on the left side, initially ahead and then moving into the lane. A motorcyclist is also visible on the right side, moving towards the intersection.",
+        "actions": "The self-driving vehicle is approaching the intersection at a steady speed. The white sedan on the left side moves into the lane, causing the self-driving vehicle to decelerate slightly to avoid collision. The motorcyclist on the right side is moving towards the intersection, but does not pose an immediate threat.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, moving into the lane. 2) Right side: A motorcyclist, approximately 15 meters away, moving towards the intersection.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_5_069",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.9s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is approaching an intersection. The traffic light is green, and there are no immediate obstacles or vehicles in the path. The vehicle is maintaining a steady speed and direction.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction as it approaches the intersection. The driver is likely observing the traffic light and ensuring the path is clear before proceeding.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_5_007",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Intersection Approach",
+    "characters": "Driver of a white sedan, a motorcyclist in red clothing, other vehicles.",
+    "summary": "The video shows a white sedan approaching an intersection.  Between 5.6s and 7.8s, a motorcyclist wearing red clothing crosses the intersection from left to right, passing in front of the observer vehicle. The motorcyclist's speed appears relatively fast, and the action could be considered a potential hazard. Other vehicles are also visible in the intersection, but they do not pose an immediate threat to the observer vehicle.",
+    "actions": "The self-driving vehicle approaches the intersection at a moderate speed, maintaining a safe distance from other vehicles. The vehicle slows down slightly as it approaches the crosswalk, likely in anticipation of pedestrians or other vehicles.  The vehicle maintains its lane and proceeds through the intersection after ensuring the path is clear.",
+    "key_objects": "1) Left: Motorcyclist in red clothing, approximately 5 meters away at closest approach, crossing the intersection from left to right at a relatively high speed. This action could lead to a collision if the observer vehicle did not slow down appropriately. ",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_007",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.9s",
+    "scene_theme": "Urban driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a white sedan",
+    "summary": "The video shows a white sedan driving on a city road.  The road is relatively clear with some trees and buildings visible on the sides. There is another dark-colored vehicle ahead, maintaining a safe distance. No pedestrians or cyclists are visible in the immediate vicinity. The overall driving conditions appear calm and uneventful.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10.9-second segment.  The vehicle smoothly navigates a relatively empty intersection.  The driver appears to be maintaining a safe following distance from the vehicle ahead.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

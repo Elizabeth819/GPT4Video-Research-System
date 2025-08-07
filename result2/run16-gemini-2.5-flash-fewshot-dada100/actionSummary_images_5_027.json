@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_027",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Female pedestrian, approximately 20-30 years old, wearing a pink jacket and a blue face mask, riding a scooter.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban street with parked cars lining both the left and right sides. The road ahead appears clear initially. As the vehicle proceeds, a female on a scooter suddenly emerges from behind a parked black SUV on the left side of the road. This scooter rider quickly enters the vehicle's path, creating an immediate and unexpected obstruction. The black SUV acted as a visual barrier, completely obscuring the scooter until it darted out, leading to a classic 'ghost probing' scenario. The vehicle reacts to this sudden appearance.",
+  "actions": "The self-driving vehicle is initially maintaining a steady speed while driving down the urban street. Upon the sudden emergence of the scooter from behind the parked black SUV on the left side (around 3.5s mark), the vehicle immediately initiates rapid deceleration. This braking action is taken to prevent a potential collision with the scooter, which unexpectedly entered the vehicle's direct path with minimal warning time due to the visual obstruction.",
+  "key_objects": "1) Left side: A female on a scooter, approximately 3-5 meters away, suddenly emerging from behind a parked black SUV and crossing the vehicle's path from left to right. 2) Left side: A black SUV, approximately 5-7 meters away, parked on the side of the road and creating a significant visual obstruction that completely hid the approaching scooter until its sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_3_003",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.4s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist, Scooter rider, Pedestrian",
+        "summary": "In this segment, the vehicle is approaching an intersection. Initially, a cyclist and a scooter rider are visible in the lane ahead. Suddenly, a pedestrian appears from the right side, darting into the vehicles path, causing an emergency situation.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. Upon the sudden appearance of the pedestrian from the right side, the vehicle needs to decelerate rapidly to avoid a collision.",
+        "key_objects": "1) Front: Cyclist, approximately 10 meters away, moving straight ahead. 2) Front: Scooter rider, approximately 15 meters away, moving straight ahead. 3) Right: Pedestrian, approximately 2 meters away, suddenly darting into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

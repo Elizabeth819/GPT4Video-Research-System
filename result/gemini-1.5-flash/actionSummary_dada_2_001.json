@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_2_001",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "0.33",
+    "summary": "The vehicle is driving on a busy street with pedestrians, motorcycles, and other vehicles. People are walking and standing on the road. There are parked vehicles on the right side of the road.",
+    "actions": "The vehicle is moving forward at a slow speed, navigating through the crowded street. The driver needs to be cautious of pedestrians and other vehicles.",
+    "key_objects": [
+      "pedestrians",
+      "motorcycles",
+      "parked vehicles",
+      "other vehicles"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain slow speed",
+      "direction_control": "stay in lane, be prepared to steer to avoid obstacles",
+      "lane_control": "stay in lane"
+    }
+  }
+]

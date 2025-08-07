@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_1_013",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving through an urban area. The road is relatively clear with some parked vehicles on the sides. The vehicle maintains a steady speed and lane position throughout the frames.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and lane position. There are no sudden changes in speed or direction observed in the frames.",
+        "key_objects": "1) Left side: A white sedan, approximately 3 meters away, parked on the roadside. 2) Right side: A white car, approximately 2 meters away, parked on the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_013",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Bus, person in yellow shirt",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, a green bus is seen ahead on the right side of the road. As the vehicle approaches, the bus starts to move into the lane. Suddenly, a person in a yellow shirt runs from behind the bus into the vehicles path, creating a potential collision scenario.",
+        "actions": "The self-driving vehicle is likely decelerating as it approaches the bus, which is moving into the lane. The sudden appearance of the person in the yellow shirt from behind the bus requires immediate braking to avoid a collision.",
+        "key_objects": "1) Front: A green bus, approximately 20 meters away, moving into the lane. 2) Right: A person in a yellow shirt, approximately 5 meters away, running from behind the bus into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "brake",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_1_013",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "11.3s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a rural road with trees on both sides. The road ahead is clear, and there are no visible obstacles or other vehicles.",
+        "actions": "The vehicle is maintaining a consistent speed and direction, driving straight on the rural road. There are no changes in speed or direction observed in the frames.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

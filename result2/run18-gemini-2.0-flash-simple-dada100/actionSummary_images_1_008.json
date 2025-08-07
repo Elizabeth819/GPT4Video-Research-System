@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_008",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a residential street with several pedestrians and parked vehicles. There are people of various ages and genders walking along the road and standing near parked vehicles. Some are wearing casual clothing. There are also some people on bicycles.",
+  "summary": "The vehicle starts driving down a residential street with parked vehicles on the left and pedestrians on the right. The vehicle maintains a steady speed, navigating around the parked vehicles and pedestrians. As the video progresses, the road becomes clearer, and the vehicle continues driving straight.",
+  "actions": "The vehicle starts from a stationary position and begins to move forward. The driver maintains a slow speed, likely due to the presence of parked vehicles and pedestrians on both sides of the road. The vehicle continues straight, adjusting its position slightly to avoid obstacles.",
+  "key_objects": "1) Right: Pedestrians standing near parked vehicles, distance varies, potential for unexpected movement into the vehicle's path. 2) Left: Parked vehicles, close proximity, obstruct the view and require careful maneuvering.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

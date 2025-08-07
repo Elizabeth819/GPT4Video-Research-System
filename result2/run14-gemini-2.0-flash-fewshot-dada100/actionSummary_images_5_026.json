@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_026",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A man in a black jacket and black pants, a woman in a red jacket and black pants, both adults.",
+  "summary": "The vehicle is approaching an intersection. From 0.0s to 4.0s, the vehicle is driving straight. From 4.0s to 10.0s, a man in a black jacket and black pants suddenly appears from the right side of the road, followed by a woman in a red jacket and black pants. They are standing on the road, potentially obstructing the vehicle's path. The man and woman are standing near the entrance of a building, and they are partially obscured by the building's gate and surrounding greenery, creating a potential ghost probing situation.",
+  "actions": "The vehicle is driving straight at a constant speed. The driver is likely maintaining speed to cross the intersection. However, the sudden appearance of the man and woman on the right side of the road may require the driver to decelerate or stop to avoid a collision.",
+  "key_objects": "1) Right side: A man in a black jacket and black pants, approximately 5 meters away, suddenly appearing from behind the building's gate and standing on the road. 2) Right side: A woman in a red jacket and black pants, approximately 5 meters away, standing next to the man on the road. 3) Right side: The building's gate and surrounding greenery, approximately 3 meters away, creating a visual obstruction that partially hides the man and woman until they are closer to the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

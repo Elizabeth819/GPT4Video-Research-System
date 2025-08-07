@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_2_001",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban",
+    "characters": "Several pedestrians and scooter riders on the road",
+    "summary": "The vehicle is driving on a road with several pedestrians and scooter riders. The road is lined with buildings on both sides. The vehicle maintains a steady speed. There are pedestrians walking on the road and scooter riders moving in the same direction as the vehicle. The scene is busy with traffic and pedestrian activity.",
+    "actions": "The vehicle is maintaining a steady speed and direction, navigating through the urban environment. The driver is likely adjusting speed to maintain a safe distance from the pedestrians and scooter riders on the road.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_2_001",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.7s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban",
+    "characters": "Several pedestrians of varying ages and clothing styles are present on both sides of the road. A yellow motorized tricycle is moving ahead.",
+    "summary": "The vehicle is driving on a busy urban street with pedestrians on both sides and a yellow motorized tricycle ahead. The road is relatively narrow, and the presence of pedestrians and the tricycle requires careful navigation. There are buildings on the left and structures on the right, creating a somewhat enclosed environment. The vehicle maintains a steady speed, navigating through the crowded street.",
+    "actions": "The vehicle is maintaining a steady speed while navigating through a crowded urban street. The driver is likely maintaining this speed to safely maneuver around the pedestrians and the motorized tricycle ahead. The driver is keeping a safe distance from the tricycle and pedestrians to avoid any potential collisions.",
+    "key_objects": "1) Front: A yellow motorized tricycle, approximately 10 meters away, moving at a slow speed and potentially obstructing the vehicle's path. 2) Left side: Several pedestrians, approximately 5 meters away, walking along the side of the road and potentially crossing the street.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_5_015",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.4s",
+    "scene_theme": "Driving on a multi-lane road approaching an intersection",
+    "characters": "Driver of the recording vehicle, other drivers in the distance",
+    "summary": "The video shows the self-driving vehicle approaching an intersection with traffic lights.  The road is relatively clear with a few other vehicles visible in the distance. The traffic light is initially green, allowing the self-driving vehicle to proceed. No pedestrians or cyclists are observed. The vehicle maintains a steady speed throughout the sequence.",
+    "actions": "The self-driving vehicle maintains a consistent speed and direction, approaching the intersection.  The vehicle's speed appears to be moderate, appropriate for approaching an intersection.  There are no observable changes in speed or direction beyond the normal adjustments for maintaining the lane and approaching the intersection.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

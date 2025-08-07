@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_32_003",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a red truck",
+        "summary": "In this segment, the vehicle is driving on a highway. Ahead, a white sedan is maintaining a steady speed in the same lane. A red truck is in the adjacent left lane, and a green truck is in the adjacent right lane. The red truck suddenly moves into the self-vehicles lane, causing a potential cut-in situation.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The driver is likely monitoring the surrounding vehicles closely, especially the red truck in the adjacent left lane, which is showing signs of moving into the self-vehicles lane.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a steady speed. 2) Left side: A red truck, approximately 15 meters away, moving into the self-vehicles lane. 3) Right side: A green truck, approximately 25 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

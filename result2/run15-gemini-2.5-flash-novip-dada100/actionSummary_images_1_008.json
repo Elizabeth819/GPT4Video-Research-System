@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_008",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several pedestrians are visible. On the left side of the road, a person in a yellow shirt and dark pants is seen suddenly emerging from behind a parked white car and crossing the road. On the right side of the road, there are a few individuals, including one person on a three-wheeled bicycle and others standing near a gate.",
+  "summary": "The video segment begins with the autonomous vehicle driving forward on a narrow, unpaved road under a clear, sunny sky. On the left side of the road, there are several parked vehicles, including a blue truck and a white truck, followed by a white sedan. On the right side, there's a long white wall, a large dark gate, and some pedestrians. As the vehicle proceeds, a person in a yellow shirt suddenly darts out from behind the parked white sedan on the left, directly into the vehicle's path. The vehicle appears to react by decelerating or stopping to allow the pedestrian to cross safely. After the pedestrian clears the path, the road ahead becomes clear.",
+  "actions": "The vehicle is initially moving forward at a moderate speed on a narrow road. As it approaches a section with parked vehicles on the left and pedestrians on the right, its speed is maintained. Upon the sudden appearance of a pedestrian from behind a parked white car on the left (around 2.9s mark), the vehicle immediately initiates a deceleration or comes to a complete stop. This action is taken to prevent a potential collision with the pedestrian who unexpectedly entered the driving path, demonstrating a safety-first response to an unforeseen hazard.",
+  "key_objects": "1) Left side: A white sedan, parked on the side of the road, serving as a visual obstruction. 2) Left side: A person in a yellow shirt, who suddenly emerged from behind the parked white sedan, directly entering the vehicle's path, creating an immediate collision risk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

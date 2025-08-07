@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) A male pedestrian in dark clothing, approximately 30-40 years old. 2) Two individuals on a three-wheeled vehicle: one driver in dark clothing, and one passenger in red clothing.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane urban road during daytime, approaching a crosswalk. On the left side of the road, a blue and white bus is stopped, creating a significant visual obstruction. As the vehicle approaches, a male pedestrian suddenly emerges from behind the bus and steps onto the crosswalk. Almost simultaneously, a three-wheeled vehicle carrying two occupants also suddenly emerges from behind the same bus, directly entering the vehicle's path on the crosswalk. Both the pedestrian and the three-wheeled vehicle appear with minimal warning time due to the obstruction, creating an immediate and dangerous 'ghost probing' situation.",
+  "actions": "The self-driving vehicle is initially maintaining a moderate speed. Upon the sudden emergence of the pedestrian and the three-wheeled vehicle from behind the bus on the left, the vehicle immediately initiates rapid deceleration and braking. This action is taken to prevent a collision with the unexpected obstacles that appeared directly in its path with insufficient reaction time.",
+  "key_objects": "1) Left side: A blue and white bus, approximately 10-15 meters away, stopped and creating a significant visual obstruction at the crosswalk. 2) Left side, then center: A three-wheeled vehicle with two occupants (one in dark clothing, one in red clothing), approximately 5-10 meters away, suddenly emerging from behind the bus and entering the vehicle's path on the crosswalk. 3) Left side, then center: A male pedestrian in dark clothing, approximately 5-10 meters away, suddenly emerging from behind the bus and stepping onto the crosswalk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

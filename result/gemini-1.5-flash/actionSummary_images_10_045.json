@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_045",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a yellow taxi, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a road with a zebra crossing visible. Initially, the road is clear, but a white sedan appears from the left side and moves across the road. Later, a yellow taxi approaches from the left side and moves ahead of the self-driving vehicle.",
+        "actions": "The self-driving vehicle maintains a consistent speed and direction throughout the segment. The vehicle does not change lanes or speed significantly, indicating a routine driving scenario.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, moving across the road. 2) Left side: A yellow taxi, approximately 5 meters away, moving ahead of the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

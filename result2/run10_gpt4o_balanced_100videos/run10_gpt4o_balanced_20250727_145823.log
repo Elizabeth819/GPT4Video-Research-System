@@ -1,0 +1,22 @@
+2025-07-27 14:58:23,405 - INFO - Run 10: GPT-4o Balanced Version (100 Videos) 开始
+2025-07-27 14:58:23,405 - INFO - Azure OpenAI API配置成功
+2025-07-27 14:58:23,405 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-27 14:58:23,405 - INFO - Deployment: gpt-4o-global
+2025-07-27 14:58:23,405 - INFO - Temperature: 0.3 (与GPT-4.1 Balanced保持一致)
+2025-07-27 14:58:23,412 - INFO - 加载ground truth标签: 101个视频
+2025-07-27 14:58:23,412 - INFO - 开始Run 10实验，处理 101 个视频
+2025-07-27 14:58:23,412 - INFO - 使用GPT-4.1 Balanced相同的prompt设计
+2025-07-27 14:58:23,455 - INFO - 处理视频 1/100: images_1_001.avi
+2025-07-27 14:58:37,814 - INFO - 视频 images_1_001.avi: GT=none, 检测=emergency braking due to pedestrian crossing, 评估=TN
+2025-07-27 14:58:37,815 - INFO - 处理视频 2/100: images_1_002.avi
+2025-07-27 14:58:55,903 - INFO - 视频 images_1_002.avi: GT=5s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-27 14:58:55,904 - INFO - 处理视频 3/100: images_1_003.avi
+2025-07-27 14:59:16,217 - INFO - 视频 images_1_003.avi: GT=2s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-27 14:59:16,218 - INFO - 处理视频 4/100: images_1_004.avi
+2025-07-27 14:59:32,379 - INFO - 视频 images_1_004.avi: GT=none, 检测=none, 评估=TN
+2025-07-27 14:59:32,380 - INFO - 处理视频 5/100: images_1_005.avi
+2025-07-27 14:59:51,955 - INFO - 视频 images_1_005.avi: GT=8s: ghost probing, 检测=emergency braking due to pedestrian crossing, 评估=FN
+2025-07-27 14:59:51,957 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run10_gpt4o_balanced_100videos/run10_intermediate_5videos_20250727_145823.json
+2025-07-27 14:59:51,957 - INFO - 处理视频 6/100: images_1_006.avi
+2025-07-27 15:00:08,742 - INFO - 视频 images_1_006.avi: GT=9s: ghost probing, 检测=potential ghost probing, 评估=TP
+2025-07-27 15:00:08,743 - INFO - 处理视频 7/100: images_1_007.avi

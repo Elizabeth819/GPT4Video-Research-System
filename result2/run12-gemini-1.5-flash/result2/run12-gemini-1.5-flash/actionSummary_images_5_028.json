@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_5_028",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of the observer vehicle, other drivers, a person on a scooter.",
+    "summary": "The video shows a 10-second segment of urban driving. The observer vehicle maintains a consistent speed, gradually decreasing from 45 km/h to 32 km/h.  The traffic is relatively light. At approximately 7.8 seconds, a person on a red scooter, wearing a blue jacket and light-colored pants, merges into the observer vehicle's lane from the right side. This maneuver is relatively sudden, requiring the observer vehicle to slightly reduce speed to maintain a safe distance. No collision occurs.",
+    "actions": "The observer vehicle maintains a consistent speed, gradually decelerating from 45 km/h to 32 km/h over the 10-second period. This deceleration is likely a response to the overall traffic conditions and the merging scooter. The vehicle maintains its lane and direction throughout the segment.",
+    "key_objects": "1) Right: Person on a red scooter, wearing a blue jacket and light-colored pants, approximately 5 meters away at 7.8 seconds, merging into the observer vehicle's lane from the right side. This action required a slight deceleration from the observer vehicle to maintain a safe following distance.",
+    "key_actions": "cut-in",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_028",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "End_Timestamp": "12.1s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of a vehicle, other vehicles on the road",
+    "summary": "The video shows a segment of urban driving. The self-driving vehicle is traveling at a consistent speed of 32 km/h.  The road is relatively clear with other vehicles maintaining a safe distance. No immediate threats or dangerous maneuvers are observed within this short segment.  The scene is uneventful.",
+    "actions": "The self-driving vehicle maintains a consistent speed of 32 km/h throughout the segment.  There are no observable changes in direction or braking. The vehicle maintains a safe following distance from the car ahead. The driver appears to be driving smoothly and cautiously within the traffic flow.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "video_id": "dada_19_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A man on a motorcycle, wearing an orange helmet and dark clothing",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Approaching from behind, maintaining a relatively constant distance."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "40-50",
+                "clothing": "Dark clothing, orange helmet",
+                "transportation": "Motorcycle",
+                "behavior": "Driving a motorcycle in the same lane, maintaining a safe distance from the ego vehicle."
+            }
+        ],
+        "summary": "The video shows a 5-second segment of a car driving on a two-lane road.  The road is lined with trees and has a bus stop on the right side. A man on a motorcycle, wearing an orange helmet and dark clothing, is visible in the center of the road, approaching from behind the ego vehicle. The motorcycle maintains a consistent distance from the car throughout the 5-second clip. No sudden movements or dangerous actions are observed from either the motorcycle or the car. The weather appears clear and sunny.",
+        "actions": "The ego vehicle maintains a consistent speed and lane position throughout the 5-second video segment. There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle ahead and is driving smoothly and predictably.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep lane"
+        }
+    },
+    {
+        "video_id": "dada_19_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "5.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a clear road with a vehicle ahead in the same lane.  The road is straight, and there are trees lining both sides. No pedestrians or other vehicles are immediately visible that pose a threat. The self-driving vehicle maintains a safe following distance from the vehicle in front.",
+        "actions": "The self-driving vehicle maintains a consistent speed and follows the vehicle ahead at a safe distance.  There are no apparent reasons for acceleration or deceleration based on the provided frames. The vehicle maintains its position in the lane.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "straight",
+            "lane_control": "keep lane"
+        }
+    }
+]

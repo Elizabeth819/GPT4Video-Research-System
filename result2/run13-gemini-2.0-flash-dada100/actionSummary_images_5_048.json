@@ -1,0 +1,35 @@
+{
+  "video_id": "images_5_048",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "8.3s",
+  "summary": "The car is driving on a multi-lane road with other vehicles present. From 0.0s to 8.3s, the car continues to drive straight. At 3.7s, a man wearing a red shirt is riding a scooter on the right side of the road. At 4.6s, the man on the scooter is crossing the road. At 5.5s, the man on the scooter is in the middle of the road. At 6.4s, the man on the scooter has almost crossed the road. At 7.3s, the man on the scooter has completely crossed the road. At 8.3s, a man wearing a black jacket is on the right side of the road.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "red shirt",
+      "colors": "red",
+      "age": "adult",
+      "transportation_method": "scooter",
+      "way_of_walking": "N/A"
+    },
+    {
+      "gender": "male",
+      "clothing": "black jacket",
+      "colors": "black",
+      "age": "adult",
+      "transportation_method": "N/A",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_objects": [
+    "Right side: Man on scooter, approximately 10 meters away, crossing the road, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a multi-lane road. The driver is maintaining a consistent speed, likely due to the presence of other vehicles and the road conditions. The driver is driving straight because the road is straight.",
+  "next_action": {
+    "speed_control": "keep speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

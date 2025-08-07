@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, and several cyclists. The child is on the right side of the image, darting into the road. The adult is also on the right side, following the child. Cyclists are present on both sides of the road.",
+  "summary": "The video sequence shows a vehicle driving at night in an urban area with street lights and shops on both sides. At around 2 seconds, a child suddenly emerges from the right side of the road, darting into the driving lane from behind a parked vehicle. This is followed by an adult, likely the child's guardian, also emerging from the right side. The child and adult were previously hidden by the parked vehicle, creating a sudden and immediate collision risk.",
+  "actions": "The child runs into the road from the right side, followed by an adult. Several cyclists are also visible, moving along the road.",
+  "key_objects": "Parked vehicles on the right side of the road, a child and an adult emerging from behind these vehicles, cyclists on both sides of the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

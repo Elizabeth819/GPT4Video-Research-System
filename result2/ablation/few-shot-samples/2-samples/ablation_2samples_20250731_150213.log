@@ -1,0 +1,48 @@
+2025-07-31 15:02:13,006 - INFO - 消融实验: 2 Few-shot Samples 开始
+2025-07-31 15:02:13,006 - INFO - Azure OpenAI API配置成功
+2025-07-31 15:02:13,006 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-31 15:02:13,006 - INFO - Deployment: gpt-4o-global
+2025-07-31 15:02:13,006 - INFO - Temperature: 0, Few-shot Samples: 2
+2025-07-31 15:02:13,022 - INFO - 加载ground truth标签: 201个视频
+2025-07-31 15:02:13,022 - INFO - 标签列: ['video_id', 'ground_truth_label', 'Unnamed: 2']
+2025-07-31 15:02:13,025 - INFO - 加载现有结果文件: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/2-samples/ablation_2samples_results_20250731_144147.json
+2025-07-31 15:02:13,025 - INFO - 已处理视频数: 40
+2025-07-31 15:02:13,025 - INFO - 开始消融实验: 2 Few-shot Samples，处理 5 个视频
+2025-07-31 15:02:13,025 - INFO - 检测到已处理 40 个视频，从检查点继续
+2025-07-31 15:02:13,025 - INFO - 需要处理 26 个新视频 (已完成: 40/100)
+2025-07-31 15:02:13,044 - INFO - 处理视频: images_4_007
+2025-07-31 15:02:28,554 - INFO - ✅ images_4_007: TN
+2025-07-31 15:02:28,554 - INFO - 处理视频: images_5_011
+2025-07-31 15:02:42,499 - INFO - ✅ images_5_011: FN
+2025-07-31 15:02:42,500 - INFO - 处理视频: images_5_038
+2025-07-31 15:02:57,160 - INFO - ✅ images_5_038: TN
+2025-07-31 15:02:57,161 - INFO - 处理视频: images_5_021
+2025-07-31 15:03:12,330 - INFO - ✅ images_5_021: TP
+2025-07-31 15:03:12,331 - INFO - 处理视频: images_5_009
+2025-07-31 15:03:27,765 - INFO - ✅ images_5_009: TN
+2025-07-31 15:03:27,766 - INFO - 处理视频: images_5_008
+2025-07-31 15:03:43,109 - INFO - ✅ images_5_008: TN
+2025-07-31 15:03:43,109 - INFO - 处理视频: images_5_020
+2025-07-31 15:03:58,673 - INFO - ✅ images_5_020: TP
+2025-07-31 15:03:58,673 - INFO - 处理视频: images_5_034
+2025-07-31 15:04:13,896 - INFO - ✅ images_5_034: FP
+2025-07-31 15:04:13,896 - INFO - 处理视频: images_1_014
+2025-07-31 15:04:29,430 - INFO - ✅ images_1_014: TP
+2025-07-31 15:04:29,431 - INFO - 处理视频: images_1_016
+2025-07-31 15:04:44,669 - INFO - ✅ images_1_016: TP
+2025-07-31 15:04:44,673 - INFO - 结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/2-samples/ablation_2samples_results_20250731_150213.json
+2025-07-31 15:04:44,673 - INFO - 处理视频: images_1_002
+2025-07-31 15:05:00,937 - INFO - ✅ images_1_002: TP
+2025-07-31 15:05:00,937 - INFO - 处理视频: images_5_022
+2025-07-31 15:05:28,430 - INFO - ✅ images_5_022: TN
+2025-07-31 15:05:28,431 - INFO - 处理视频: images_5_036
+2025-07-31 15:05:44,607 - INFO - ✅ images_5_036: FP
+2025-07-31 15:05:44,607 - INFO - 处理视频: images_5_037
+2025-07-31 15:05:58,432 - INFO - ✅ images_5_037: TP
+2025-07-31 15:05:58,433 - INFO - 处理视频: images_5_023
+2025-07-31 15:06:15,023 - INFO - ✅ images_5_023: TP
+2025-07-31 15:06:15,024 - INFO - 处理视频: images_1_003
+2025-07-31 15:06:31,024 - INFO - ✅ images_1_003: TP
+2025-07-31 15:06:31,024 - INFO - 处理视频: images_1_017
+2025-07-31 15:06:57,357 - INFO - ✅ images_1_017: FN
+2025-07-31 15:06:57,357 - INFO - 处理视频: images_1_013

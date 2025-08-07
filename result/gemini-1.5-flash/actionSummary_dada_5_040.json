@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving straight on a city street with buildings on both sides. There are other vehicles on the road and parked along the side. The ego vehicle approaches an intersection with a traffic light.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are moving in the same direction or are parked.",
+    "characters": [],
+    "key_objects": "Ego vehicle, other vehicles, buildings, traffic light, road markings, pedestrian crossing",
+    "key_actions": "approaching intersection",
+    "next_action": "Continue driving straight or stop at the traffic light if it turns red."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle is approaching an intersection. A bus is moving on the left side of the road. Pedestrians are visible on the sidewalks and near the crosswalk.",
+    "actions": "Ego vehicle continues moving forward. The bus is moving in the opposite direction. Pedestrians are waiting to cross the street.",
+    "characters": "Pedestrians",
+    "key_objects": "Ego vehicle, bus, pedestrians, traffic light, crosswalk, buildings",
+    "key_actions": "approaching intersection, pedestrians near crosswalk",
+    "next_action": "Stop at the intersection due to the red light."
+  },
+  {
+    "timestamp": "20-30s",
+    "summary": "Ego vehicle is stopped at a red light at an intersection. A motorcyclist is crossing the intersection from the left.",
+    "actions": "Ego vehicle is stopped. The motorcyclist is crossing the intersection.",
+    "characters": "Motorcyclist",
+    "key_objects": "Ego vehicle, motorcyclist, traffic light, crosswalk, buildings",
+    "key_actions": "stopped at red light, motorcyclist crossing",
+    "next_action": "Wait for the traffic light to turn green."
+  },
+  {
+    "timestamp": "30-32s",
+    "summary": "The ego vehicle is involved in a collision at the intersection. The windshield is shattered.",
+    "actions": "Collision",
+    "characters": [],
+    "key_objects": "Ego vehicle, other vehicle, intersection",
+    "key_actions": "collision",
+    "next_action": "Assess the damage and contact emergency services."
+  }
+]

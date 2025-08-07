@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_076",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.2s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a silver sedan",
+        "summary": "In this segment, the vehicle is driving under an overpass. A silver sedan is seen moving from the right side of the frame towards the left, potentially cutting into the self-driving vehicles lane. The traffic light ahead turns green, indicating the vehicles can proceed.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The silver sedan on the right side is moving towards the left, potentially cutting into the self-driving vehicles lane. The self-driving vehicle needs to be cautious and possibly decelerate to avoid collision.",
+        "key_objects": "1) Right side: A silver sedan, approximately 2 meters away, moving towards the left, potentially cutting into the self-driving vehicles lane. 2) Front: Traffic light, indicating green, allowing vehicles to proceed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

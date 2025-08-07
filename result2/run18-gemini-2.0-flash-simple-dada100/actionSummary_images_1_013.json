@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_013",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car on a rural road. There are several pedestrians, including adults and a child, walking on the road. A green bus is also present.",
+  "summary": "The vehicle is driving on a rural road. Initially, the road is clear. As the vehicle progresses, several pedestrians, including adults and a child, appear on the road ahead. The vehicle approaches a green bus, which is stopped on the road. The pedestrians are walking near the bus.",
+  "actions": "The vehicle maintains a consistent speed initially. As pedestrians appear on the road, the vehicle begins to decelerate to avoid collision. The vehicle continues to decelerate as it approaches the stopped bus and the pedestrians.",
+  "key_objects": "1) Front: Pedestrians (adults and a child), medium distance, walking on the road, posing a collision risk. 2) Front: Green bus, medium distance, stopped on the road, obstructing the view and potentially concealing pedestrians.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

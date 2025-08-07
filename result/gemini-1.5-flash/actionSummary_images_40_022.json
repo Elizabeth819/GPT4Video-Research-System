@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_40_022",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through a busy urban area. Initially, the road is clear, but as the vehicle progresses, multiple pedestrians and vehicles appear. A sudden collision occurs with a motorcycle in the final frame.",
+        "actions": "The self-driving vehicle is driving at a consistent speed initially. As pedestrians and vehicles appear, the vehicle slows down to navigate safely. In the final frame, the vehicle encounters a collision with a motorcycle, causing it to stop abruptly.",
+        "key_objects": "1) Front: A motorcycle, approximately 5 meters away, lying on the road after a collision. 2) Right: Multiple pedestrians, approximately 3 meters away, walking along the roadside. 3) Front: A red truck, approximately 10 meters away, stationary on the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_022",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a silver sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A motorcyclist is seen ahead, initially moving in the same direction as the self-driving vehicle. The motorcyclist then collides with a silver sedan, causing the motorcycle to fall onto the road.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the motorcyclist and the silver sedan. As the collision occurs, the vehicle begins to decelerate to avoid further incidents.",
+        "key_objects": "1) Front: A motorcyclist, approximately 10 meters away, moving in the same direction, then colliding with a silver sedan. 2) Front: A silver sedan, approximately 15 meters away, involved in the collision with the motorcyclist.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

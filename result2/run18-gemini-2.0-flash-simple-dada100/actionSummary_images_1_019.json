@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_019",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a vehicle on a road in a rural area. There is a man, middle-aged, wearing a blue shirt and dark pants, lying in the middle of the road.",
+  "summary": "The vehicle is driving on a road in a rural area. Initially, the road appears clear. However, a man suddenly appears lying in the middle of the road. The driver is forced to react to avoid hitting the man.",
+  "actions": "The vehicle is initially driving straight on the road. Upon seeing the man lying in the road, the driver initiates emergency braking to avoid a collision. The driver is driving at a moderate speed appropriate for the road conditions until the sudden appearance of the man.",
+  "key_objects": "1) Center: Man lying in the road, close distance, immediate collision risk. 2) Left: Bushes and foliage, medium distance, obstructs view of the road ahead.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

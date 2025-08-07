@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_001",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several pedestrians on the sidewalks, a white sedan on the right side of the road, and other vehicles in the distance.",
+  "summary": "The self-driving vehicle is proceeding down a road at night. The road is lined with buildings and shops. There are several pedestrians on the sidewalks. A white sedan is visible on the right side of the road, moving in the same direction. The vehicle approaches an intersection with a crosswalk. The traffic light ahead is red.",
+  "actions": "The vehicle is maintaining a steady speed as it approaches the intersection. The driver is likely slowing down in anticipation of the red light. The vehicle is staying in its lane and preparing to stop at the intersection.",
+  "key_objects": "None requiring immediate attention",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

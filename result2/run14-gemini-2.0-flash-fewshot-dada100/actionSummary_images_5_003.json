@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_003",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several motorcyclists, a white pickup truck, and a group of people including a woman in a green shirt, a girl in a pink dress, and a small child, are present in the scene. The motorcyclists are wearing dark clothing. The woman appears to be helping the girl and child who are near a fallen motorcycle.",
+  "summary": "The vehicle is driving on a city street with moderate traffic. Initially, several motorcyclists and a white pickup truck are visible ahead. As the vehicle progresses, a concerning scene unfolds: a motorcycle has fallen in the middle of the road, and a woman in a green shirt, a girl in a pink dress, and a small child are near the fallen motorcycle. The woman appears to be assisting the girl and child, potentially creating a dangerous situation as they are obstructing the lane.",
+  "actions": "The vehicle is initially maintaining a steady speed, navigating through moderate traffic. As the scene with the fallen motorcycle and people becomes apparent, the driver likely begins to decelerate to assess the situation and avoid a potential collision. The driver is proceeding with caution due to the obstruction in the lane.",
+  "key_objects": "1) Center: A fallen motorcycle, approximately 15 meters away, obstructing the lane and creating a potential hazard. 2) Center: A woman in a green shirt, a girl in a pink dress, and a small child, approximately 15 meters away, standing near the fallen motorcycle and potentially obstructing the lane.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

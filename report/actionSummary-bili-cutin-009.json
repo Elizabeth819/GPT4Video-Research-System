@@ -1,0 +1,104 @@
+[
+    {
+        "video_id": "009",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "White car on the right, white SUV in front, red car on the left",
+        "summary": "In this segment, the self-driving vehicle is stationary at an intersection. A white car on the right is attempting to cut in from the right lane into the self-driving vehicles lane. The white SUV in front is also stationary. The red car on the left is moving forward. The audio discusses the concept of cutting in and how some drivers manage it better than others.",
+        "actions": "The self-driving vehicle remains stationary, likely due to the traffic light and the surrounding vehicles. The white car on the right is attempting to cut in, which could potentially cause a collision if not managed properly.",
+        "key_objects": "1) Right side: A white car, approximately 1 meter away, attempting to cut in from the right lane into the self-driving vehicles lane. 2) Front: A white SUV, approximately 2 meters away, stationary. 3) Left side: A red car, approximately 3 meters away, moving forward.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "009",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclists",
+        "summary": "In this segment, the video starts with a white sedan cutting in from the right side, causing the self vehicle to slow down. The driver mentions the aggressive behavior of the white sedan. The scene then transitions to a rural road where two motorcyclists are seen ahead. The self vehicle follows them on a narrow, winding road.",
+        "actions": "The self vehicle slows down to avoid a collision with the white sedan that cuts in from the right side. The driver expresses frustration at the aggressive behavior. Later, the self vehicle follows two motorcyclists on a narrow, winding rural road, maintaining a safe distance.",
+        "key_objects": "1) Right side: A white sedan, approximately 2 meters away, suddenly cutting in front of the self vehicle, causing a potential collision. 2) Front: Two motorcyclists, approximately 10 meters away, riding on a narrow, winding road.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "009",
+        "Start_Timestamp": "21.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "30.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver",
+        "summary": "In this segment, the vehicle is driving on a rural road with a steep drop on the right side. The driver comments on the challenging driving conditions, mentioning that the area resembles the mountainous regions of Yunnan, Guizhou, and Sichuan. The driver also notes the poor driving skills and the use of high beams in foggy weather, which is dangerous.",
+        "actions": "The self-driving vehicle is navigating a rural road with a steep drop on the right side. The driver is cautious due to the challenging terrain and poor visibility caused by fog. The vehicles speed is controlled to ensure safety, especially given the steep drop and the use of high beams in foggy conditions.",
+        "key_objects": "1) Right side: A steep drop, approximately 2 meters away, posing a significant risk if the vehicle veers off the road. 2) Front: Foggy conditions, reducing visibility and increasing the risk of accidents.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "009",
+        "Start_Timestamp": "31.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "40.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver",
+        "summary": "In this segment, the vehicle is driving in heavy fog. The driver comments on the poor visibility and advises against using high beams in such conditions. The vehicle appears to be moving slowly, navigating through the foggy environment. The visibility is extremely low, and the driver emphasizes the importance of driving slowly in such weather.",
+        "actions": "The self-driving vehicle is moving slowly due to the heavy fog, which significantly reduces visibility. The driver advises against using high beams as it worsens visibility in foggy conditions. The vehicle maintains a slow speed to ensure safety.",
+        "key_objects": "1) Front: Dense fog, approximately 0 meters away, significantly reducing visibility. 2) Left side: Trees, approximately 2 meters away, stationary and partially visible through the fog. 3) Right side: Trees, approximately 2 meters away, stationary and partially visible through the fog.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "009",
+        "Start_Timestamp": "41.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "50.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a blue car",
+        "summary": "In this segment, the vehicle is driving on a highway. The driver mentions that there is a situation ahead on the left side. A white sedan suddenly swerves to the right to avoid a collision, causing the self-driving vehicle to rear-end it. The self-driving vehicle is closely following the white sedan, and the sudden maneuver by the white sedan leads to a rear-end collision.",
+        "actions": "The self-driving vehicle is maintaining a close distance to the white sedan ahead. The white sedan suddenly swerves to the right to avoid a collision, causing the self-driving vehicle to rear-end it. The self-driving vehicles speed and close following distance contribute to the collision.",
+        "key_objects": "1) Front-left: A white sedan, approximately 2 meters away, suddenly swerving to the right to avoid a collision, causing the self-driving vehicle to rear-end it. 2) Front-right: A blue car, approximately 5 meters away, maintaining its lane.",
+        "key_actions": "cut-in, collision",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "009",
+        "Start_Timestamp": "51.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "60.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a blue car, driver of a truck",
+        "summary": "In this segment, the vehicle is driving on a highway. The driver mentions the importance of maintaining a safe distance and staying focused. The white sedan ahead is seen drifting to the right. The blue car on the right side is also moving forward. The truck on the right side is moving forward as well. The driver expresses concern about the white sedan drifting to the right.",
+        "actions": "The self-driving vehicle maintains a safe distance from the white sedan ahead, which is drifting to the right. The driver is advised to stay focused and maintain a safe distance. The blue car on the right and the truck on the right are also moving forward. The self-driving vehicle is driving at a moderate speed, keeping a safe distance from the vehicles ahead.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, drifting to the right. 2) Right side: A blue car, approximately 5 meters away, moving forward. 3) Right side: A truck, approximately 8 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "maintain current speed",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

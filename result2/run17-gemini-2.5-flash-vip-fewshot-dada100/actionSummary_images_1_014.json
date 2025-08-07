@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_014",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban",
+    "characters": "A child in light-colored clothing, an adult in light-colored clothing, parked motorcycles.",
+    "summary": "The vehicle is traveling on a residential street with buildings on either side. Initially, the road appears clear. As the video progresses, a child in light-colored clothing is seen running across the street from right to left. An adult in light-colored clothing is walking on the left side of the road. Several motorcycles are parked on the right side of the road.",
+    "actions": "The vehicle is maintaining a steady speed, navigating a residential street. The driver is likely proceeding cautiously due to the presence of residential buildings and potential pedestrian activity. The vehicle maintains its current lane and speed, suggesting no immediate need for evasive maneuvers.",
+    "key_objects": "1) Right side: A child in light-colored clothing, approximately 5 meters away, running across the street from right to left. 2) Left side: An adult in light-colored clothing, approximately 10 meters away, walking on the left side of the road.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_014",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "10.5s",
+    "sentiment": "Neutral",
+    "scene_theme": "Routine",
+    "characters": "None visible in immediate vicinity",
+    "summary": "The vehicle is driving on a straight road with buildings on both sides. There are parked cars on the left side of the road. The road ahead is clear with good visibility. There are no pedestrians, cyclists, or other vehicles creating any immediate safety concerns. The driving conditions are calm and routine.",
+    "actions": "The self-driving vehicle maintains a consistent speed and direction on the clear road. No sudden changes in speed or direction are required as there are no obstacles or safety concerns present. The vehicle continues with normal driving behavior.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving on a rural road. A motorcycle appears from the left side of the road and falls in front of the ego vehicle.",
+    "actions": "Ego vehicle driving straight. A motorcycle appears to be turning onto the road from the left and falls.",
+    "characters": "A person riding a motorcycle, pedestrians on the right side of the road.",
+    "key_objects": "Ego vehicle, motorcycle, pedestrians, buildings.",
+    "key_actions": "ghost probing",
+    "next_action": "Ego vehicle braking to avoid collision."
+  }
+]

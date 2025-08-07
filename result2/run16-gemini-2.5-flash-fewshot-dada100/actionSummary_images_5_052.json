@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_052",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person (gender unclear, possibly female, wearing a light-colored top, possibly pink/white, and dark pants) riding a motorcycle.",
+  "summary": "In this segment, the vehicle is driving at night on a wet urban road, approaching an intersection or a section under an overpass. The road is illuminated by streetlights and the vehicle's headlights. As the vehicle proceeds, a large concrete pillar supporting the overpass on the left side of the road acts as a significant visual obstruction. A person on a motorcycle suddenly emerges from behind this pillar, darting directly into the vehicle's path with minimal warning. This sudden appearance from behind the obstruction creates an immediate and dangerous 'ghost probing' situation, leading to a collision or a very near miss where the motorcycle and rider fall onto the road surface directly in front of the vehicle.",
+  "actions": "The self-driving vehicle is proceeding straight on a multi-lane road at night. As a motorcycle suddenly emerges from behind a large pillar on the left side, entering the vehicle's path, the vehicle immediately initiates rapid deceleration and emergency braking. The sudden appearance of the motorcycle from behind the obstruction necessitates an immediate and forceful braking action to attempt to avoid or mitigate a collision. The vehicle's speed is reduced significantly, and it comes to a near stop or full stop after the impact.",
+  "key_objects": "1) Left side: A large concrete pillar/support structure of the overpass, approximately 10-15 meters away, creating a significant visual obstruction that hides approaching traffic. 2) Left side: A person on a motorcycle, initially hidden by the pillar, suddenly emerging approximately 5 meters away and entering the vehicle's path. The person is wearing a light-colored top (pink/white) and dark pants.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

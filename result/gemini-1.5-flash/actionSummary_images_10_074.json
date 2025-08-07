@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_074",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving through an underground parking garage. The environment is dimly lit with no visible pedestrians or other vehicles moving. The vehicle is navigating through the garage, passing by parked cars and structural columns.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the parking garage. The vehicle is making slight adjustments to its direction to avoid structural columns and parked cars. There are no sudden changes in speed or direction observed.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

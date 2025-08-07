@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_026",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A white car, a motorcycle, and a female adult in a pink shirt and yellow backpack.",
+  "summary": "The vehicle is driving on a road with a median. A white car is driving in the opposite direction. A motorcycle is driving in the same direction as the vehicle. A female adult in a pink shirt and yellow backpack is crossing the road from left to right. The female adult is crossing the road without looking, and the motorcycle is approaching her quickly. The female adult is creating a dangerous situation.",
+  "actions": "The vehicle is driving at a constant speed. The vehicle is maintaining its lane. The vehicle is not changing its speed or direction. The vehicle is driving at a constant speed because there are no obstacles in its path.",
+  "key_objects": "1) Left side: A female adult in a pink shirt and yellow backpack, approximately 10 meters away, crossing the road without looking, creating a potential collision with the motorcycle. 2) Left side: A motorcycle, approximately 15 meters away, approaching the female adult quickly.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

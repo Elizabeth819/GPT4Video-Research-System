@@ -1,0 +1,44 @@
+[
+    {
+        "error": "API调用出错，状态码: 400，错误信息: {\"error\":{\"code\":\"BadRequest\",\"message\":\"Invalid image data.\",\"param\":null,\"type\":null}}",
+        "status": "error",
+        "code": 400,
+        "segment_id": "segment_000"
+    },
+    {
+        "video_id": "dada_34_064",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black car ahead",
+        "summary": "In this segment, the vehicle is driving on an urban road during sunset. The black car ahead is maintaining a consistent speed and lane position. There are other vehicles on the road, but none are posing immediate danger.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the black car ahead at a safe distance. The vehicle is staying in its lane and not making any sudden movements.",
+        "key_objects": "1) Front: A black car, approximately 10 meters away, maintaining a consistent speed and lane position.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_34_064",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black SUV",
+        "summary": "In this segment, the vehicle is approaching an intersection with a traffic light. A black SUV on the right side is moving closer to the observer vehicles lane, potentially indicating a cut-in behavior.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The driver is likely preparing to brake or slow down due to the potential cut-in behavior of the black SUV on the right side.",
+        "key_objects": "1) Right side: A black SUV, approximately 2 meters away, moving closer to the observer vehicles lane, indicating a potential cut-in behavior.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

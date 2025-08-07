@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_037",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals are observed riding a motorcycle. Both are wearing helmets. One individual is operating the motorcycle, while the other is a passenger seated behind the driver.",
+  "summary": "The video segment begins with the autonomous vehicle driving straight on a multi-lane road under clear, sunny weather conditions, with some sun glare visible on the right side of the frame. The road appears to be a major arterial or highway, with a clear median or separation on the left and trees and some structures on the right. As the vehicle proceeds, a blue road sign indicating a turn or exit appears on the right side of the road. Suddenly, a motorcycle carrying two riders emerges from the left side of the road, appearing from behind an elevated grassy area and bushes that act as a visual obstruction. The motorcycle quickly enters and crosses the vehicle's path, creating an immediate potential collision scenario. The vehicle continues its forward movement as the motorcycle clears its path.",
+  "actions": "The vehicle is primarily driving straight on a multi-lane road, maintaining a consistent speed throughout the observed frames. As a motorcycle suddenly emerges from the left side of the road and crosses its path, the vehicle continues its forward trajectory without any apparent abrupt braking or swerving maneuvers. This decision to maintain speed and direction is likely due to the motorcycle quickly clearing the immediate danger zone, or the driver having sufficient space and time to assess that an abrupt evasive maneuver was not necessary, allowing the vehicle to proceed safely.",
+  "key_objects": "1) Left: A motorcycle with two riders, approximately 5-10 meters away, suddenly emerged from behind an elevated grassy area and bushes on the left side of the road. This physical obstruction blocked the view of the motorcycle until it darted out, directly entering the vehicle's path with minimal reaction time, creating an immediate potential collision situation.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

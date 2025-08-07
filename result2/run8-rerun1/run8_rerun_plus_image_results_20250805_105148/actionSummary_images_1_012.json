@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_012",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, and a cyclist. The child is wearing a blue jacket and is seen running across the road. The adult is wearing a green jacket and is also crossing the road. The cyclist is on the right side of the road.",
+  "summary": "The video sequence shows multiple instances of 'ghost probing' behavior. In the first sequence, a child suddenly runs across the road from the right side, emerging from behind a parked vehicle. In the second sequence, an adult pedestrian also crosses the road from the right side, emerging from behind another parked vehicle. In the third sequence, a cyclist is seen on the right side of the road, potentially posing a risk if they decide to cross the road suddenly.",
+  "actions": "The child runs across the road from the right side, the adult pedestrian crosses the road from the right side, and the cyclist is moving along the right side of the road.",
+  "key_objects": "Parked vehicles on the right side of the road, a child running across the road, an adult pedestrian crossing the road, and a cyclist on the right side of the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

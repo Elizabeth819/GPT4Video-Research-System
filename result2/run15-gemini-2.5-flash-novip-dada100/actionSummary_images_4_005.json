@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "On the far right in the initial frames, there is an adult person walking on the sidewalk. In later frames (7-9), an adult cyclist wearing a red/orange jacket is riding a bicycle. Another cyclist is visible further back on the right in frame 8.",
+  "summary": "The video begins with the autonomous vehicle driving straight on a wet, multi-lane road. On the left, vehicles are seen moving in the opposite direction. On the right, a red and green bus is present, initially appearing to be parked or moving slowly alongside the road. The vehicle proceeds, passing over a pedestrian crossing without any pedestrians present. As the vehicle approaches an intersection, the large red and green bus on its right side begins to execute a right turn. Crucially, as the bus clears the view, a cyclist suddenly emerges from behind it, entering the intersection directly into the vehicle's path. The vehicle appears to react by slowing down or braking significantly to avoid a collision with the cyclist, who continues to cross the intersection from right to left. The scene highlights a sudden and unexpected appearance of a road user from behind an obstruction.",
+  "actions": "The vehicle initially maintains a steady speed while driving straight on a multi-lane road. This indicates the driver is proceeding cautiously given the wet road conditions and moderate traffic. As the vehicle approaches the intersection and the bus on the right begins to turn, the vehicle likely initiates deceleration or prepares to decelerate. This action is taken to assess the intersection for potential hazards and to yield if necessary, especially as the bus, a large moving obstruction, is clearing the view. Upon the sudden appearance of a cyclist from behind the turning bus, the vehicle immediately initiates rapid deceleration or braking. This rapid response is a critical safety measure to prevent a collision with the cyclist who unexpectedly entered the vehicle's path, demonstrating the driver's priority for safety and collision avoidance.",
+  "key_objects": "1) Right side: A large red and green bus, initially moving slowly then turning right. This bus acted as a significant physical obstruction, completely blocking the driver's view of the approaching cyclist until it began its turn, directly contributing to the ghost probing incident. 2) Right side, then center: A cyclist, wearing a red/orange jacket, riding a bicycle. This individual suddenly emerged from behind the turning bus, entering the vehicle's direct path with minimal reaction time, creating an immediate danger and triggering the ghost probing incident.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

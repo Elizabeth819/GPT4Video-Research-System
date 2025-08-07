@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_7_003",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a green truck, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a wet road at night. The road is illuminated by street lights, and visibility is reduced due to the rain. The self-driving vehicle is following a black car closely, while a green truck is on the right side. The black car ahead suddenly slows down, causing the self-driving vehicle to decelerate. The green truck on the right side starts to merge into the self-driving vehicles lane, creating a potential cut-in situation.",
+        "actions": "The self-driving vehicle is decelerating due to the black car ahead slowing down. The vehicle maintains a safe distance from the black car while monitoring the green truck on the right side, which is attempting to merge into the lane.",
+        "key_objects": "1) Front: A black car, approximately 10 meters away, slowing down, causing the self-driving vehicle to decelerate. 2) Right: A green truck, approximately 5 meters away, merging into the self-driving vehicles lane, creating a potential cut-in situation.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

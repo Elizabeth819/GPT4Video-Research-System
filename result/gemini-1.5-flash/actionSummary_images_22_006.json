@@ -1,0 +1,57 @@
+[
+    {
+        "video_id": "dada_22_006",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a relatively empty road under an overpass.  The road appears to be dry. No pedestrians or other vehicles are immediately visible that pose an immediate threat. The car maintains a consistent speed throughout the 5-second sequence.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the 5-second video sequence. There are no observable changes in speed or direction, suggesting the driver is maintaining a steady course on a clear road.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep in lane"
+        }
+    },
+    {
+        "video_id": "dada_22_006",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a two-lane road. The road is relatively empty with no pedestrians or other vehicles immediately close to the ego vehicle. The weather appears overcast.  The car in front is maintaining a consistent distance and speed. No unusual or dangerous events occur during this segment.",
+        "actions": "The ego vehicle maintains a consistent speed and follows the car in front at a safe distance.  There are no lane changes or braking actions observed. The driving behavior is smooth and predictable.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_22_006",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "11.6s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A light-colored van",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "The van is initially moving slowly in the same lane as the self-driving vehicle, then suddenly veers to the right and stops abruptly, partially obstructing the lane."
+            }
+        ],
+        "key_actions": "cut-in",
+        "characters": [],
+        "summary": "The video shows a 5-second segment where the self-driving vehicle maintains a steady speed on a two-lane road.  A light-colored van ahead, initially traveling at a similar speed, suddenly and unexpectedly veers to the right and comes to a complete stop, partially blocking the self-driving vehicle's lane. This abrupt maneuver could be classified as a cut-in, creating a potential hazard for the self-driving vehicle.",
+        "actions": "The self-driving vehicle maintains a consistent speed and direction throughout the 5-second segment. There are no observable changes in speed or direction in response to the van's actions. The vehicle's behavior suggests a lack of immediate reaction to the potential hazard presented by the van's sudden stop.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "maintain direction",
+            "lane_control": "keep right in this lane"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_29_025",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving through different environments. Initially, it is in an urban area with parked cars and buildings. Later, it transitions to a rural road with clear skies. Towards the end, a collision occurs involving a motorcycle and a person on the road.",
+        "actions": "The self-driving vehicle is driving at a consistent speed initially. As it transitions to the rural road, it maintains its speed. However, upon encountering the collision scene, the vehicle decelerates rapidly to avoid further impact.",
+        "key_objects": "1) Front: A motorcycle, approximately 10 meters away, involved in a collision, lying on the road. 2) Front: A person, approximately 12 meters away, lying on the road, possibly injured from the collision.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

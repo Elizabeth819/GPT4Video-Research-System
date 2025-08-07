@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_037",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person wearing a helmet and dark clothing is riding a motorcycle on the left side of the road.",
+  "summary": "The vehicle is driving on a two-lane road. On the left side of the road, a person wearing a helmet and dark clothing is riding a motorcycle. The motorcycle is initially obscured by roadside vegetation and then emerges onto the road, potentially creating a ghost probing situation if the motorcycle enters the vehicle's lane suddenly.",
+  "actions": "The vehicle is maintaining a consistent speed and direction on the road. The driver is likely monitoring the motorcycle on the left side of the road to assess its potential impact on the vehicle's path. The vehicle is driving at a moderate speed, allowing for sufficient reaction time if the motorcycle makes a sudden move.",
+  "key_objects": "1) Left side: A person on a motorcycle, approximately 15 meters away, initially obscured by roadside vegetation and then emerging onto the road. 2) Left side: Roadside vegetation, approximately 10 meters away, creating a partial visual obstruction that hides the motorcycle until it emerges.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

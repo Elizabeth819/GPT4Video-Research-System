@@ -1,0 +1,57 @@
+[
+    {
+        "video_id": "dada_22_007",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a highway scene with the observer vehicle following a dark-colored sedan. Ahead of the sedan is a large red container truck.  The road is relatively clear with no immediate dangers observed in the provided frames. The observer vehicle maintains a safe following distance from the sedan. No pedestrians or other vehicles exhibit erratic or dangerous behavior.",
+        "actions": "The observer vehicle maintains a consistent speed, following the dark-colored sedan at a safe distance.  The vehicle's speed appears to be adjusted to maintain a safe following distance from the vehicle in front. There are no observable lane changes or other significant maneuvers.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_22_007",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "Large red semi-truck",
+                "distance": "5 meters",
+                "behavior or action impacting the vehicle": "Maintaining a consistent distance, traveling at a similar speed to the ego vehicle."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a segment of highway driving. The ego vehicle maintains its lane, traveling at a relatively consistent speed. A large red semi-truck is visible in the adjacent right lane, maintaining a safe distance from the ego vehicle. No sudden movements or dangerous behaviors are observed from other vehicles or individuals.",
+        "actions": "The ego vehicle maintains a steady speed and lane position throughout the observed segment.  There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle ahead and a safe distance from the large truck in the adjacent lane. The consistent speed and lane position suggest the driver is navigating a relatively clear and straightforward section of highway.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_22_007",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.7s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a highway scene with the self-vehicle driving in the right lane.  The road is clear with no pedestrians or other immediate hazards. The traffic is light, with a few vehicles visible in the distance.  The weather appears clear and sunny.  No significant changes in the relative positions or speeds of vehicles are observed during this segment.",
+        "actions": "The self-vehicle maintains a consistent speed and lane position throughout the 5-second segment.  There are no observable changes in speed or direction, suggesting the driver is maintaining a steady pace and following the flow of traffic. The driver appears to be driving defensively, maintaining a safe distance from the vehicle ahead.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep right"
+        }
+    }
+]

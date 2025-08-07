@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_051",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene features a driver in a vehicle, a red car driving in the opposite direction, a truck on the left side of the road, and a man on a scooter on the right side of the road. The man on the scooter is wearing a white jacket and dark pants.",
+  "summary": "The vehicle is driving on a road with light traffic. A red car passes in the opposite direction. A man on a scooter is on the right side of the road, preparing to enter the roadway. The scooter driver is positioned at an intersection and appears to be preparing to cross the road, potentially creating a dangerous situation.",
+  "actions": "The vehicle is driving straight on the road, maintaining its speed. The driver is likely proceeding cautiously due to the presence of other vehicles and the potential for pedestrians or cyclists to enter the roadway. The vehicle maintains its current speed to navigate the road safely.",
+  "key_objects": "1) Right: A man on a scooter is positioned on the right side of the road at an intersection, preparing to enter the roadway. His actions pose a potential risk of collision. 2) Left: A truck is on the left side of the road, potentially obstructing the view of other vehicles or pedestrians.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

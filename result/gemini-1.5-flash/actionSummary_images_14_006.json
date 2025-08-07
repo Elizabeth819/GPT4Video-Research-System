@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "dada_14_006",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a multi-lane road.  The road appears to be relatively clear with other vehicles maintaining a safe distance. No pedestrians or cyclists are visible in the immediate vicinity of the vehicle. The weather appears clear and sunny.  Traffic is light to moderate.  There are buildings visible in the background. The car maintains a consistent speed throughout the 5-second clip.",
+        "actions": "The vehicle maintains a consistent speed and lane position throughout the 5-second video segment. There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle in front. The driving behavior suggests a calm and controlled driving style in light traffic conditions.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep lane"
+        }
+    },
+    {
+        "video_id": "dada_14_006",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A dark-grey sedan",
+                "distance": "15 meters",
+                "behavior or action impacting the vehicle": "Maintaining a consistent speed and distance ahead of the ego vehicle."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A person riding an electric scooter",
+                "distance": "10 meters",
+                "behavior or action impacting the vehicle": "Approaching the intersection, potentially crossing the path of the ego vehicle."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Electric scooter",
+                "behavior": "Approaching the intersection, potentially crossing the path of the ego vehicle."
+            }
+        ],
+        "summary": "The video shows a car driving on a city road.  The road is relatively clear with other vehicles maintaining a safe distance.  At approximately 6.7 seconds, a male, aged 30-40, wearing a dark jacket and pants, is seen on an electric scooter approaching the intersection from the right.  The scooter's trajectory suggests a potential crossing of the ego vehicle's path. The ego vehicle maintains a steady speed and distance from the vehicle in front. No immediate dangerous actions are observed, but caution is advised due to the scooter's proximity and potential path intersection.",
+        "actions": "The ego vehicle maintains a consistent speed and follows the vehicle in front at a safe distance. The vehicle is navigating a slight curve in the road, adjusting its steering accordingly. There is no indication of braking or acceleration beyond maintaining a steady speed.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Slight right turn",
+            "lane_control": "Keep right"
+        }
+    },
+    {
+        "video_id": "dada_14_006",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.9s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A white sedan",
+                "distance": "10-15 meters",
+                "behavior or action impacting the vehicle": "Approaching the intersection slowly."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A dark-colored SUV",
+                "distance": "20-25 meters",
+                "behavior or action impacting the vehicle": "Turning right into the intersection."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket",
+                "transportation": "Walking",
+                "behavior": "Walking across the street, not paying attention to traffic."
+            }
+        ],
+        "summary": "The video shows a white sedan approaching an intersection. A dark-colored SUV is turning right from the right side of the road. A male, aged 30-40, wearing a dark jacket, is walking across the street without paying attention to traffic. The white sedan is maintaining a safe distance from the SUV. The pedestrian's behavior does not pose an immediate threat to the vehicle.",
+        "actions": "The vehicle is approaching the intersection at a slow speed, likely due to the presence of other vehicles and pedestrians. The driver is maintaining a safe following distance from the vehicle in front and is observing the traffic conditions around them. The driver is likely preparing to stop at the intersection.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

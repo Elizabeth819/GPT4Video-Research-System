@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_008",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene includes a driver in a car, a pedestrian in a yellow raincoat, and other vehicles in the background. The pedestrian appears to be an adult.",
+  "summary": "The vehicle is approaching an intersection on a rainy day. A pedestrian in a yellow raincoat is standing on the right side of the road, near the crosswalk. As the vehicle approaches the intersection, a cyclist suddenly appears from behind a bush on the left side of the road and falls in the middle of the road. The driver brakes to avoid hitting the cyclist.",
+  "actions": "The vehicle is initially moving forward at a steady speed. As the vehicle approaches the intersection, the driver likely slows down due to the presence of the crosswalk and the pedestrian on the right. Upon seeing the cyclist fall in the road, the driver initiates emergency braking to avoid a collision.",
+  "key_objects": "1) Left: A cyclist, medium distance, falls in the middle of the road, creating an immediate collision risk. 2) Right: A pedestrian in a yellow raincoat, medium distance, standing near the crosswalk, potentially influencing the driver's speed.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

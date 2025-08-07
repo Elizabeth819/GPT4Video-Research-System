@@ -1,0 +1,15 @@
+{
+  "video_id": "images_5_052",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "6.2s",
+  "summary": "The self-driving car is moving forward at night on a road with street lights. At timestamp 4.2s, a motorcycle with a rider wearing a light-colored helmet and a pink jacket suddenly appears from the left side of the road, executing a left turn in front of the car. The motorcycle's sudden appearance constitutes a ghost probing incident. At timestamp 5.5s, the motorcycle has crashed and the rider is lying on the road.",
+  "actions": "The vehicle is moving forward at a constant speed. The driver is likely maintaining this speed because the traffic light ahead is green and there are no immediate obstacles in the lane. The driver is proceeding through the intersection.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keeping straight",
+    "lane_control": "keeping straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "[Left]: A motorcycle with a rider wearing a light-colored helmet and a pink jacket, approximately 5 meters away, suddenly appears from the left side of the road, executing a left turn in front of the car, causing a ghost probing incident."
+}

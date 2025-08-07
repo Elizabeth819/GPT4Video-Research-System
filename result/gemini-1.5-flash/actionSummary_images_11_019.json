@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_019",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a white van",
+        "summary": "In this segment, the vehicle is driving on a rural road in rainy weather. The road is relatively clear with minimal traffic. The white van ahead maintains a consistent speed and distance from the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the white van ahead at a safe distance. The vehicles speed remains steady throughout the segment, ensuring safe driving conditions in the rainy weather.",
+        "key_objects": "1) Front: A white van, approximately 20 meters away, maintaining a consistent speed and distance from the observer vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_023",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a motorcycle wearing dark clothing and a red helmet, approximately 20-30 years old. Another person on a motorcycle visible earlier.",
+  "summary": "In this segment, the vehicle is driving on a multi-lane urban road, approaching a road split or intersection. Initially, a motorcycle on the left side of the road makes a left turn, clearing the vehicle's immediate path. As the vehicle continues to advance, a second motorcycle, driven by a person in dark clothing and a red helmet, suddenly emerges from behind a white barrier/median located on the left side of the road. This motorcycle attempts to make an immediate and sharp left turn, cutting directly across the vehicle's path with minimal warning and reaction time, creating an immediate and dangerous collision situation.",
+  "actions": "The self-driving vehicle is initially maintaining a steady speed while navigating the road and observing the general traffic flow. It processes the movement of the first motorcycle turning left and continues its trajectory. However, upon the sudden and unexpected appearance of the second motorcycle from behind the left-side barrier, which immediately cuts across its path, the vehicle initiates rapid deceleration and emergency braking. This swift action is taken to mitigate the impact of the sudden obstruction caused by the motorcycle's ghost probing maneuver, aiming to prevent or reduce the severity of a collision.",
+  "key_objects": "1) Left side: A white barrier/median, approximately 5-10 meters away, serving as a physical obstruction that completely conceals the approaching motorcycle until its sudden emergence. 2) Left side: A person on a motorcycle, approximately 20-30 years old, wearing dark clothing and a red helmet, suddenly emerging from behind the white barrier/median at approximately 9.0 seconds and attempting a sharp left turn directly into the vehicle's path, causing an immediate collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_013",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a highway at night. The road is wet, and visibility is low. The self-driving vehicle is following a black sedan closely. A white sedan is seen on the right side, attempting to merge into the lane occupied by the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a close distance to the black sedan ahead, possibly due to heavy traffic. The vehicles speed appears to be consistent, but the proximity to the black sedan suggests a need for caution. The white sedan on the right is attempting to merge into the lane, which may require the self-driving vehicle to adjust its speed or position.",
+        "key_objects": "1) Front: A black sedan, approximately 5 meters away, maintaining a consistent speed. 2) Right: A white sedan, approximately 3 meters away, attempting to merge into the lane occupied by the self-driving vehicle.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

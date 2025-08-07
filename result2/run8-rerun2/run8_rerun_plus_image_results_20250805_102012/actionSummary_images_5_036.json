@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_036",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child in a blue jacket, a person in a yellow jacket, and a person on a bicycle. All characters are moving from the right side of the image to the left side, entering the driving path.",
+  "summary": "The video sequence shows multiple instances of 'ghost probing' behavior. In the first set of images, a child suddenly emerges from the right side of the image, from behind a parked vehicle, directly into the driving path. In the second set, a pedestrian with a child suddenly appears from behind a parked vehicle on the right side, crossing the road. In the third set, a person in a yellow jacket runs from the right side of the image, from behind a parked vehicle, into the driving path. In the fourth set, a large truck suddenly emerges from behind a building at an intersection, entering the main road perpendicular to the camera vehicle's path.",
+  "actions": "The child and pedestrians are crossing the road from the right side to the left side, creating immediate collision risks. The large truck is entering the main road from a perpendicular direction, hidden by a building until the last moment.",
+  "key_objects": "Parked vehicles on the right side of the image, a large truck emerging from behind a building, pedestrians including a child, and a person on a bicycle.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

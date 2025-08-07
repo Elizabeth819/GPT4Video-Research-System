@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_5_003",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "Driver of a car, two adults on a motorcycle, a child on a motorcycle",
+    "summary": "The video shows a car driving down a city street.  Two adults and a child are riding a motorcycle ahead. The motorcycle suddenly falls, with the adults and child falling onto the road. The incident appears to be an accident, not a deliberate action like ghost probing or cut-in. The car is able to stop safely without colliding with the fallen motorcycle and its occupants.",
+    "actions": "The self-driving vehicle maintains a consistent speed and distance from the vehicles ahead.  Upon observing the motorcycle accident, the vehicle smoothly decelerates and comes to a complete stop, maintaining a safe distance from the incident.",
+    "key_objects": "Front: A motorcycle with two adults and a child, approximately 10 meters away, suddenly falls, causing an accident.",
+    "key_actions": "collision",
+    "next_action": {
+      "speed_control": "stop",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_003",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.9s",
+    "scene_theme": "Near miss",
+    "sentiment": "Negative",
+    "characters": "A woman with two young children, a motorcyclist, other pedestrians and drivers.",
+    "summary": "The video shows a woman with two young children crossing the road in front of the recording vehicle.  The children appear to be on a small motorized scooter or tricycle. The woman appears to be assisting them across the road. A motorcyclist is also visible in the background. The children and woman are initially partially obscured by a low fence before crossing into the path of the vehicle. The vehicle appears to slow down to avoid a collision. The near miss occurs in the middle of the road, with the woman and children crossing from left to right in the vehicle's path. The event unfolds quickly, leaving little reaction time for the driver.",
+    "actions": "The self-driving vehicle appears to maintain a consistent speed initially, then decelerates significantly as the woman and children cross the road in front of it. The deceleration is likely a reactive measure to avoid a collision. The vehicle maintains its lane and does not swerve.",
+    "key_objects": "1) Front: A woman with two young children on a small motorized scooter or tricycle, approximately 2 meters away at closest point, crossing the road from left to right directly in front of the vehicle. 2) Left: A motorcyclist, approximately 15 meters away, traveling in the same direction as the vehicle.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

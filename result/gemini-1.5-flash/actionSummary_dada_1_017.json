@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_1_017",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "3.33",
+    "summary": "The ego-vehicle is driving on a two-lane road with buses on either side. The road appears to be wet. The ego-vehicle is following another car in the same lane.",
+    "actions": "The ego-vehicle is maintaining its lane and following the car in front.",
+    "key_objects": [
+      "ego-vehicle",
+      "car",
+      "bus"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain",
+      "direction_control": "straight",
+      "lane_control": "maintain"
+    }
+  }
+]

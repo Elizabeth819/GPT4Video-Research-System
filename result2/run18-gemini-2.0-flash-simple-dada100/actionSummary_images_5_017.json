@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_017",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car approaching an intersection in a city. There are pedestrians on the left side of the road, and a person on a scooter on the right side of the road. The pedestrians appear to be adults, and the person on the scooter is wearing a dark jacket.",
+  "summary": "The vehicle approaches an intersection. Pedestrians are visible on the left side of the road, and a person on a scooter is on the right side of the road. The vehicle slows down as it approaches the intersection.",
+  "actions": "The vehicle is approaching an intersection and slowing down. The driver is likely slowing down to assess the traffic conditions and ensure it is safe to proceed through the intersection. The vehicle is maintaining its lane.",
+  "key_objects": "1) Left: Pedestrians, medium distance, crossing the road, may affect the vehicle's speed. 2) Right: Scooter, short distance, crossing the road, may affect the vehicle's speed.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

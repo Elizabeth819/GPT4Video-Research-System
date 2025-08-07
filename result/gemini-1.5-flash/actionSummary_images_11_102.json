@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_102",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving on a rural road with minimal traffic. The road is narrow with buildings on both sides. There are no pedestrians or other vehicles in close proximity to the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the rural road. The vehicle is keeping to the center of the lane, ensuring a safe distance from the buildings on both sides.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_102",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "10.2s",
+        "sentiment": "Neutral",
+        "scene_theme": "Rural Road",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a rural road with no visible traffic or pedestrians. The road is clear, and there are no immediate obstacles or potential hazards in the vehicles path.",
+        "actions": "The vehicle is maintaining a steady speed and direction, driving straight on the rural road. There are no changes in speed or direction observed in the frames.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

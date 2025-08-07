@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_020",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Night driving",
+    "sentiment": "Neutral",
+    "characters": "A motorcyclist wearing a light-colored shirt is visible in the frames.",
+    "summary": "The video shows a nighttime driving scene.  A motorcyclist is consistently visible in the right lane, traveling in the same direction as the recording vehicle. The motorcyclist maintains a relatively consistent distance from the recording vehicle throughout the 10-second segment. No sudden movements or erratic behavior from the motorcyclist are observed. The road is relatively clear with streetlights visible along the roadside.  The speed of both the recording vehicle and the motorcyclist appears moderate.",
+    "actions": "The recording vehicle maintains a consistent speed and lane position throughout the 10-second segment. There are no observable changes in speed or direction. The vehicle appears to be following the motorcyclist at a safe distance, maintaining a steady pace.",
+    "key_objects": "Right: Motorcyclist on a motorcycle, approximately 15-20 meters away, maintaining a consistent speed and distance.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_020",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.7s",
+    "scene_theme": "Night driving",
+    "sentiment": "Negative",
+    "characters": "Driver, person crossing the road",
+    "summary": "The video shows a nighttime driving scene. A person, appearing to be wearing dark clothing, is observed crossing the road from right to left. The person is initially partially obscured by darkness and the glare of the headlights, but becomes more visible as the vehicle approaches.  The distance between the vehicle and the pedestrian decreases significantly over the four frames. This situation presents a high risk of collision.",
+    "actions": "The vehicle maintains a relatively consistent speed throughout the sequence. There is no indication of braking or lane changes. The driver's actions are not visible, but the lack of braking suggests a lack of immediate response to the pedestrian.",
+    "key_objects": "1) Right: Person in dark clothing, initially approximately 15 meters away, crossing the road from right to left towards the vehicle.  The distance rapidly decreases to approximately 5 meters in the final frame. This action directly leads to a potential collision.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

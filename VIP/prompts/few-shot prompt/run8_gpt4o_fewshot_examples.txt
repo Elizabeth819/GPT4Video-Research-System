@@ -1,0 +1,98 @@
+Run 8: GPT-4o + Paper Batch + Few-shot Examples
+=================================================
+
+This file contains the Few-shot examples used in Run 8 experiment (successful implementation).
+
+Few-shot Examples:
+
+Example 1 - Ghost Probing Detection:
+{
+    "video_id": "example_ghost_probing",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "2.0s",
+    "End_Timestamp": "8.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Male pedestrian in dark clothing, approximately 25 years old",
+    "summary": "In this segment, the vehicle is driving on an urban road with parked vehicles on both sides. A male pedestrian wearing dark clothing suddenly emerges from behind a parked white truck on the right side and steps directly into the vehicle's path. The pedestrian appears from behind the obstruction with minimal warning time, creating a dangerous ghost probing situation.",
+    "actions": "The self-driving vehicle is maintaining steady speed when the pedestrian suddenly appears. The vehicle immediately begins rapid deceleration in response to the unexpected pedestrian emergence from behind the parked truck. The driver takes evasive action to avoid collision.",
+    "key_objects": "1) Right side: A male pedestrian, approximately 25 years old wearing dark clothing, 3 meters away, suddenly emerging from behind a parked white truck and stepping into the vehicle's path. 2) Right side: A white truck, approximately 5 meters away, parked and creating visual obstruction that hides the pedestrian until emergence.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}
+
+Example 2 - No Dangerous Behavior:
+{
+    "video_id": "example_normal_driving",
+    "segment_id": "segment_000", 
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Routine",
+    "characters": "None visible in immediate vicinity",
+    "summary": "In this segment, the vehicle is driving on a clear rural road during daytime. The road ahead is clear with good visibility. There are no pedestrians, cyclists, or other vehicles creating any immediate safety concerns. The driving conditions are calm and routine.",
+    "actions": "The self-driving vehicle maintains consistent speed and direction on the clear road. No sudden changes in speed or direction are required as there are no obstacles or safety concerns present. The vehicle continues with normal driving behavior.",
+    "key_objects": "None requiring immediate attention",
+    "key_actions": "none",
+    "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep direction", 
+        "lane_control": "maintain current lane"
+    }
+}
+
+Example 3 - Vehicle Ghost Probing:
+{
+    "video_id": "example_vehicle_ghost",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "5.0s", 
+    "End_Timestamp": "12.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dramatic",
+    "characters": "Driver of red sedan",
+    "summary": "In this segment, the vehicle approaches an intersection with buildings on both sides creating limited visibility. A red sedan suddenly emerges from behind a building on the left side, entering from a perpendicular side street directly into the main road where the self-vehicle is traveling. The sedan was completely hidden by the building structure until it emerged into the intersection.",
+    "actions": "The self-driving vehicle is traveling at normal speed when the red sedan suddenly appears from the left side intersection. The vehicle immediately initiates emergency braking and slight steering adjustment to avoid collision with the suddenly appearing vehicle.",
+    "key_objects": "1) Left side: A red sedan, approximately 4 meters away, suddenly emerging from behind a building at the intersection and entering the main road. 2) Left side: A large building, approximately 10 meters away, creating visual obstruction that completely hides approaching vehicles until they emerge into the intersection.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "slight right adjustment",
+        "lane_control": "maintain current lane"
+    }
+}
+
+Usage Notes:
+- These examples were successfully used in Run 8 (GPT-4o + Paper Batch + Few-shot)
+- Run 8 Results: F1=0.693, Recall=0.815, Precision=0.603 (successful)
+- The same examples were later used in Run 14 (Gemini 2.0 Flash + VIP + Few-shot)
+- Run 14 Results: F1=0.485, Recall=0.444, Precision=0.533 (underperformed)
+
+Key Differences in Context:
+Run 8 Context:
+- Base prompt: Paper Batch (simpler, more focused)
+- Model: GPT-4o (better handling of complex prompts)
+- Result: Few-shot learning enhanced performance
+
+Run 14 Context:
+- Base prompt: VIP Professional Prompt (320+ lines, very complex)
+- Model: Gemini 2.0 Flash (cognitive overload with complex prompts)
+- Result: Few-shot learning caused performance degradation
+
+Analysis:
+The identical Few-shot examples produced opposite results in different contexts:
+1. GPT-4o + Simple Prompt + Few-shot = Performance boost
+2. Gemini 2.0 Flash + Complex Prompt + Few-shot = Performance decline
+
+This demonstrates the importance of:
+- Model-specific optimization strategies
+- Prompt complexity management
+- Context-aware few-shot learning implementation
+
+Recommendation:
+- Use these examples with simpler base prompts for Gemini models
+- GPT-4o can handle complex prompts + few-shot combinations
+- Always test prompt complexity vs. few-shot trade-offs for each model

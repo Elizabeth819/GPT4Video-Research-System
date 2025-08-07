@@ -1,0 +1,48 @@
+{
+  "video_id": "images_4_008",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "16.5s",
+  "characters": [
+    {
+      "mode_of_transport": "pedestrian",
+      "gender": "male",
+      "clothing": "dark jacket",
+      "age": "adult",
+      "behavior": "walking on the sidewalk"
+    },
+    {
+      "mode_of_transport": "car",
+      "color": "white",
+      "behavior": "driving in the same direction"
+    },
+    {
+      "mode_of_transport": "car",
+      "color": "black",
+      "behavior": "driving in the same direction"
+    },
+    {
+      "mode_of_transport": "bicyclist",
+      "gender": "female",
+      "clothing": "dark jacket and white pants",
+      "age": "adult",
+      "behavior": "crossing the road at the intersection"
+    },
+    {
+      "mode_of_transport": "motorcyclist",
+      "gender": "male",
+      "clothing": "dark clothing",
+      "age": "adult",
+      "behavior": "crossing the road at the intersection"
+    }
+  ],
+  "summary": "The self-driving car is proceeding on a multi-lane road in daylight conditions with moderate traffic. From 0.0s to 9.0s, the car is driving straight. At 9.0s, a male adult wearing a dark jacket is walking on the sidewalk to the right. At 13.6s, a female adult on a bicycle wearing a dark jacket and white pants is crossing the road at the intersection. At 14.4s, a male adult on a motorcycle wearing dark clothing is crossing the road at the intersection. The car stops at the intersection at 15.1s due to the red light.",
+  "actions": "The vehicle is driving straight on a multi-lane road. The speed is moderate, likely due to the presence of other vehicles and the upcoming intersection. The vehicle slows down and stops at the intersection because the traffic light is red.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep_straight",
+    "lane_control": "keep_left_in_this_lane"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_022",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Male pedestrian in a yellow jacket, two cyclists on the right side of the road.",
+    "summary": "The vehicle is driving on a city street. At the 5 second mark, a male pedestrian wearing a yellow jacket is crossing the street. At the 8 second mark, two cyclists are riding on the right side of the road.",
+    "actions": "The vehicle is driving straight on a city street. The driver is maintaining a consistent speed.",
+    "key_objects": "1) Front: A male pedestrian wearing a yellow jacket, approximately 5 meters away, crossing the street. 2) Right side: Two cyclists, approximately 10 meters away, riding on the side of the road.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_022",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "12.3s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban",
+    "characters": "Two cyclists on the right side of the road, a silver van on the left side of the road.",
+    "summary": "The vehicle is driving on a city street. There are two cyclists on the right side of the road riding in the same direction as the vehicle. A silver van is on the left side of the road, moving in the opposite direction. The cyclists are maintaining their position on the right side of the road, and the van is staying in its lane on the left.",
+    "actions": "The vehicle is maintaining a steady speed and direction, following the road. The driver is likely monitoring the cyclists on the right and the oncoming van on the left, ensuring a safe distance is maintained from both.",
+    "key_objects": "None",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

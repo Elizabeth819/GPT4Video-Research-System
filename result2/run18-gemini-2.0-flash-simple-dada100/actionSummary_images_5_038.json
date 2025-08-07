@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_038",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car driving on a road in a rural area. There are buildings and trees on both sides of the road. In the first few frames, there are two people walking on the left side of the road. Later frames show other vehicles on the road, including a small truck and a three-wheeled vehicle.",
+  "summary": "The vehicle starts driving on a straight road in a rural area. The road is relatively empty, with some buildings and trees on both sides. The vehicle maintains a consistent speed. As the video progresses, other vehicles appear on the road, including a small truck and a three-wheeled vehicle. The driver continues to drive straight, adjusting slightly to avoid the other vehicles.",
+  "actions": "The vehicle is driving straight on a rural road. The driver maintains a consistent speed, likely due to the relatively clear road conditions and the absence of immediate obstacles. The driver adjusts the vehicle's position slightly to avoid other vehicles on the road, ensuring a safe distance is maintained.",
+  "key_objects": "1) Left: Two pedestrians, medium distance, walking along the road, potentially influencing the driver to maintain a safe distance. 2) Right: Bus stop, far distance, no impact. 3) Center: Three-wheeled vehicle, medium distance, moving slowly, requiring the driver to adjust speed and direction.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

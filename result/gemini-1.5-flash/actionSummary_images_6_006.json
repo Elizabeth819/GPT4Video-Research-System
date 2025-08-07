@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_6_006",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. A motorcyclist is seen on the right side of the road, gradually moving ahead of the self-driving vehicle. The motorcyclist maintains a steady speed and does not pose any immediate threat.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position, keeping a safe distance from the motorcyclist on the right side. The vehicles speed remains steady throughout the segment.",
+        "key_objects": "1) Right side: A motorcyclist, approximately 5 meters away, moving steadily ahead. 2) Front: A white sedan, approximately 30 meters away, maintaining its lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

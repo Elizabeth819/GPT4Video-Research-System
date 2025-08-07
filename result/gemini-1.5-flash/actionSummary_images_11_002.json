@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_002",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Rural Road",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, the road is clear with no immediate obstacles. As the vehicle progresses, a white car appears ahead on the right side of the road, parked near a building. The road conditions are clear, and there are no pedestrians or other vehicles posing immediate danger.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating the rural road. The driver is likely monitoring the parked white car ahead to ensure it does not suddenly move or obstruct the path.",
+        "key_objects": "1) Front: A white car, approximately 10 meters away, parked on the right side of the road, potentially about to start or turn suddenly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_002",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "11.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a narrow road with a white sedan ahead. The driver mentions that the tricycle ahead had yielded, but a collision still occurred.",
+        "actions": "The self-driving vehicle is approaching a white sedan parked on the roadside. The vehicles speed is gradually decreasing to avoid collision. The driver is maintaining a safe distance from the vehicle ahead.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, parked on the roadside, possibly about to start or turn suddenly. 2) Right: A red tricycle, approximately 0 meters away, has collided. It may stop for the driver to handle the situation or suddenly move forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

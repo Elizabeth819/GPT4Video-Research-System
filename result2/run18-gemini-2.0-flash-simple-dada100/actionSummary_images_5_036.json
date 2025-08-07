@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_036",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car approaching an intersection. There are several large trucks and buildings visible. In the later frames, a pedestrian is seen crossing the road.",
+  "summary": "The vehicle approaches an intersection with limited visibility due to large trucks obstructing the view. As the vehicle proceeds, a pedestrian suddenly appears on the left side of the road, crossing the street. The driver likely had limited time to react due to the obstruction.",
+  "actions": "The vehicle initially approaches the intersection at a slow speed, likely due to the obstructed view. As the view clears slightly, the vehicle may have slightly accelerated. Upon seeing the pedestrian, the driver would have needed to brake suddenly to avoid a collision.",
+  "key_objects": "1) Left: Pedestrian, medium distance, crossing the road suddenly, causing a potential collision. 2) Right: Large trucks, close distance, obstructing the view of the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_5_072",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a city road. Multiple pedestrians are crossing the road from the left and right sides. A bus is moving from the right side into the lane, potentially causing a cut-in situation. Towards the end, a person suddenly appears in front of the vehicle, causing an emergency situation.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As pedestrians cross the road, the vehicle slows down to ensure safety. When the bus moves into the lane, the vehicle prepares to decelerate further. Finally, the vehicle performs an emergency stop as a person suddenly appears in front of it.",
+        "key_objects": "1) Left side: Multiple pedestrians crossing the road, approximately 5 meters away, moving towards the right side. 2) Right side: A bus moving into the lane, approximately 10 meters away, potentially causing a cut-in situation. 3) Front: A person suddenly appearing in front of the vehicle, approximately 2 meters away, causing an emergency stop.",
+        "key_actions": "cut-in, ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

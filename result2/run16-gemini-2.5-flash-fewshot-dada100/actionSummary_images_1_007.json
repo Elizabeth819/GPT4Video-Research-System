@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male pedestrian in a blue shirt, approximately 10-15 years old, running across the road. Other pedestrians are visible on sidewalks.",
+  "summary": "In this segment, the vehicle is driving on an urban road lined with trees and buildings. Initially, the vehicle approaches a crosswalk with other vehicles and pedestrians present. As the vehicle proceeds, a black SUV is observed parked on the right side of the road. Suddenly, at approximately 6.0 seconds into the video, a young male pedestrian wearing a blue shirt unexpectedly darts out from behind this parked black SUV, running directly into the vehicle's path. This sudden emergence from behind a visual obstruction with minimal warning time creates an immediate and dangerous 'ghost probing' situation.",
+  "actions": "The self-driving vehicle is initially maintaining a moderate speed while navigating the urban road. Upon the sudden and unexpected appearance of the pedestrian from behind the parked black SUV on the right side of the road, the vehicle immediately initiates rapid deceleration. This swift braking action is a direct and necessary response to the pedestrian's sudden entry into the vehicle's path, aiming to prevent a potential collision.",
+  "key_objects": "1) Right side: A male pedestrian, appearing to be a child or teenager (approximately 10-15 years old) wearing a blue shirt, suddenly running from behind a parked black SUV into the vehicle's path, approximately 5-10 meters away at the point of emergence. 2) Right side: A black SUV, approximately 10-15 meters away, parked on the side of the road, creating a significant visual obstruction that completely hid the pedestrian until their sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

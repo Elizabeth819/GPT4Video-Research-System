@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_5_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road at night. The white sedan on the right side of the road is moving forward. A motorcyclist appears from the left side of the road and crosses the vehicles path. The motorcyclists sudden appearance and movement create a potential collision risk.",
+        "actions": "The self-driving vehicle maintains a steady speed while approaching the intersection. The vehicles speed remains consistent to avoid sudden braking or acceleration, ensuring safety as the motorcyclist crosses the path.",
+        "key_objects": "1) Right side: A white sedan, approximately 10 meters away, moving forward. 2) Left side: A motorcyclist, approximately 5 meters away, crossing the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

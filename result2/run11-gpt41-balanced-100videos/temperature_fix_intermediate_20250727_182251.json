@@ -1,0 +1,154 @@
+{
+  "experiment_info": {
+    "run_id": "Run 11 Temperature Fix",
+    "timestamp": "20250727_182251",
+    "key_change": "temperature: 0 -> 0.3 (历史配置恢复)",
+    "model": "GPT-4.1 (Azure)",
+    "prompt_version": "Balanced (Historical Best Recreation)",
+    "temperature": 0.3,
+    "max_tokens": 2000,
+    "purpose": "修正temperature参数以复现历史最佳结果",
+    "target_metrics": {
+      "f1_score": 0.712,
+      "recall": 0.963,
+      "precision": 0.565
+    }
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "status": "success",
+      "actual_label": 0,
+      "predicted_label": 1,
+      "processing_time": 12.88566517829895,
+      "raw_response": "{\n    \"video_id\": \"images_1_001.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"One child running, several pedestrians on sidewalks, vehicles on the road\",\n    \"summary\": \"The video begins with a routine drive down a semi-urban street. Suddenly, a child darts out from the right sidewalk and runs directly into the path of the observer vehicle. The child appears extremely close to the vehicle in the third frame, indicating a near-collision scenario. The vehicle is forced to perform emergency braking to avoid hitting the child. After the incident, the road clears and the vehicle resumes normal driving.\",\n    \"actions\": \"The driver is initially proceeding at a moderate speed. Upon the sudden appearance of the child, the driver performs immediate emergency braking and comes to a stop. After ensuring the road is clear, the driver resumes driving.\",\n    \"key_objects\": \"1) Center-right, 0-2 meters: Child running into the road, causing immediate danger and requiring emergency braking. 2) Left, 3-10 meters: Oncoming vehicles, but not directly impacting the emergency event. 3) Sidewalks: Several pedestrians, but only the child enters the roadway.\",\n    \"key_actions\": \"ghost probing, emergency braking due to sudden child crossing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}",
+      "parsed_result": {
+        "video_id": "images_1_001.avi",
+        "segment_id": "full_video",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dangerous",
+        "characters": "One child running, several pedestrians on sidewalks, vehicles on the road",
+        "summary": "The video begins with a routine drive down a semi-urban street. Suddenly, a child darts out from the right sidewalk and runs directly into the path of the observer vehicle. The child appears extremely close to the vehicle in the third frame, indicating a near-collision scenario. The vehicle is forced to perform emergency braking to avoid hitting the child. After the incident, the road clears and the vehicle resumes normal driving.",
+        "actions": "The driver is initially proceeding at a moderate speed. Upon the sudden appearance of the child, the driver performs immediate emergency braking and comes to a stop. After ensuring the road is clear, the driver resumes driving.",
+        "key_objects": "1) Center-right, 0-2 meters: Child running into the road, causing immediate danger and requiring emergency braking. 2) Left, 3-10 meters: Oncoming vehicles, but not directly impacting the emergency event. 3) Sidewalks: Several pedestrians, but only the child enters the roadway.",
+        "key_actions": "ghost probing, emergency braking due to sudden child crossing",
+        "next_action": {
+          "speed_control": "rapid deceleration",
+          "direction_control": "keep direction",
+          "lane_control": "maintain current lane"
+        }
+      },
+      "key_actions": "ghost probing, emergency braking due to sudden child crossing"
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "status": "success",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "processing_time": 13.005851030349731,
+      "raw_response": "{\n    \"video_id\": \"images_1_002.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dramatic\",\n    \"characters\": \"Several pedestrians (including a child), a motorcyclist, and the observer vehicle driver.\",\n    \"summary\": \"The observer vehicle is traveling down a rural/urban street with buildings on both sides. Initially, the road is clear, with some pedestrians visible in the distance. As the vehicle approaches, a motorcyclist passes on the left. Suddenly, a child runs out from the right side of the road directly into the vehicle's path, requiring immediate emergency braking. The child appears from a blind spot near the edge of the road and moves unpredictably. After the emergency stop, the child clears the lane and the vehicle resumes driving.\",\n    \"actions\": \"The vehicle maintains a steady speed at first, then rapidly decelerates and brakes hard to avoid hitting the child who suddenly enters the lane. After the child is clear, the vehicle resumes normal driving.\",\n    \"key_objects\": \"1) Center-right, 10-15m ahead: Child, initially stationary, suddenly darts into the lane, causing emergency braking. 2) Left, 10-15m ahead: Motorcyclist, passes by without incident but adds to scene complexity. 3) Center, 20-30m ahead: Other pedestrians, remain on the sidewalk and do not enter the lane.\",\n    \"key_actions\": \"ghost probing, emergency braking due to unpredictable child pedestrian\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}",
+      "parsed_result": {
+        "video_id": "images_1_002.avi",
+        "segment_id": "full_video",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Several pedestrians (including a child), a motorcyclist, and the observer vehicle driver.",
+        "summary": "The observer vehicle is traveling down a rural/urban street with buildings on both sides. Initially, the road is clear, with some pedestrians visible in the distance. As the vehicle approaches, a motorcyclist passes on the left. Suddenly, a child runs out from the right side of the road directly into the vehicle's path, requiring immediate emergency braking. The child appears from a blind spot near the edge of the road and moves unpredictably. After the emergency stop, the child clears the lane and the vehicle resumes driving.",
+        "actions": "The vehicle maintains a steady speed at first, then rapidly decelerates and brakes hard to avoid hitting the child who suddenly enters the lane. After the child is clear, the vehicle resumes normal driving.",
+        "key_objects": "1) Center-right, 10-15m ahead: Child, initially stationary, suddenly darts into the lane, causing emergency braking. 2) Left, 10-15m ahead: Motorcyclist, passes by without incident but adds to scene complexity. 3) Center, 20-30m ahead: Other pedestrians, remain on the sidewalk and do not enter the lane.",
+        "key_actions": "ghost probing, emergency braking due to unpredictable child pedestrian",
+        "next_action": {
+          "speed_control": "rapid deceleration",
+          "direction_control": "keep direction",
+          "lane_control": "maintain current lane"
+        }
+      },
+      "key_actions": "ghost probing, emergency braking due to unpredictable child pedestrian"
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "status": "success",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "processing_time": 12.127293109893799,
+      "raw_response": "{\n    \"video_id\": \"images_1_003.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dramatic\",\n    \"characters\": \"A child and an adult (likely a parent), several bystanders, and other vehicles in the background.\",\n    \"summary\": \"The video takes place at night on an urban street with roadside vendors and moderate traffic. Initially, a black car is seen turning left across the observer vehicle's path. Suddenly, a child appears directly in front of the observer vehicle, running into the street from the right side. The child falls in the middle of the road, and an adult rushes after them, kneeling to help. The observer vehicle comes to a rapid stop to avoid hitting the child and adult. The situation is highly dangerous and required immediate emergency braking to prevent a collision.\",\n    \"actions\": \"The observer vehicle rapidly decelerates and comes to a stop as a child suddenly appears and falls in the lane, followed by an adult rushing to assist. No swerving is observed, but full emergency braking is applied.\",\n    \"key_objects\": \"1) Center front, <2 meters: Child running and falling in the lane, immediate collision risk. 2) Right front, <2 meters: Adult rushing to assist the child, also in the lane. 3) Left front, 5-10 meters: Black car turning left across the path, initial distraction and potential obstruction.\",\n    \"key_actions\": \"ghost probing, emergency braking due to unpredictable child entering the road\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}",
+      "parsed_result": {
+        "video_id": "images_1_003.avi",
+        "segment_id": "full_video",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "A child and an adult (likely a parent), several bystanders, and other vehicles in the background.",
+        "summary": "The video takes place at night on an urban street with roadside vendors and moderate traffic. Initially, a black car is seen turning left across the observer vehicle's path. Suddenly, a child appears directly in front of the observer vehicle, running into the street from the right side. The child falls in the middle of the road, and an adult rushes after them, kneeling to help. The observer vehicle comes to a rapid stop to avoid hitting the child and adult. The situation is highly dangerous and required immediate emergency braking to prevent a collision.",
+        "actions": "The observer vehicle rapidly decelerates and comes to a stop as a child suddenly appears and falls in the lane, followed by an adult rushing to assist. No swerving is observed, but full emergency braking is applied.",
+        "key_objects": "1) Center front, <2 meters: Child running and falling in the lane, immediate collision risk. 2) Right front, <2 meters: Adult rushing to assist the child, also in the lane. 3) Left front, 5-10 meters: Black car turning left across the path, initial distraction and potential obstruction.",
+        "key_actions": "ghost probing, emergency braking due to unpredictable child entering the road",
+        "next_action": {
+          "speed_control": "rapid deceleration",
+          "direction_control": "keep direction",
+          "lane_control": "maintain current lane"
+        }
+      },
+      "key_actions": "ghost probing, emergency braking due to unpredictable child entering the road"
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "status": "success",
+      "actual_label": 0,
+      "predicted_label": 1,
+      "processing_time": 15.24800992012024,
+      "raw_response": "{\n    \"video_id\": \"images_1_004.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Several motorcyclists and a pedestrian with a cart appear in the scene, all at safe distances.\",\n    \"summary\": \"The video depicts a rural or suburban road with clear weather and good visibility. Over the course of 10 seconds, the observer vehicle travels along the right lane. Early frames show the road ahead is mostly clear, with a few motorcycles traveling in the opposite direction and a pedestrian with a cart appearing on the right shoulder. As the frames progress, the pedestrian begins to cross the road but does so at a distance, never entering the vehicle's immediate path. The motorcycles remain on the far side of the road, maintaining a safe separation. No objects or vehicles suddenly appear in the vehicle's lane or blind spots. The observer vehicle maintains a steady course and speed, with no need for emergency maneuvers.\",\n    \"actions\": \"The vehicle maintains its speed and lane, with no braking or swerving required. The driver remains alert for the pedestrian and motorcycles but does not need to take evasive action.\",\n    \"key_objects\": \"1) Left side, 40-50 meters ahead: Several motorcycles traveling in the opposite direction, no impact on behavior. 2) Right shoulder, 20-30 meters ahead: Pedestrian with a cart, begins to cross but remains at a safe distance and does not enter the vehicle's path.\",\n    \"key_actions\": \"maintain speed and lane; normal vigilance for pedestrian and motorcycles; no ghost probing or emergency braking required\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}",
+      "parsed_result": {
+        "video_id": "images_1_004.avi",
+        "segment_id": "full_video",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Routine",
+        "characters": "Several motorcyclists and a pedestrian with a cart appear in the scene, all at safe distances.",
+        "summary": "The video depicts a rural or suburban road with clear weather and good visibility. Over the course of 10 seconds, the observer vehicle travels along the right lane. Early frames show the road ahead is mostly clear, with a few motorcycles traveling in the opposite direction and a pedestrian with a cart appearing on the right shoulder. As the frames progress, the pedestrian begins to cross the road but does so at a distance, never entering the vehicle's immediate path. The motorcycles remain on the far side of the road, maintaining a safe separation. No objects or vehicles suddenly appear in the vehicle's lane or blind spots. The observer vehicle maintains a steady course and speed, with no need for emergency maneuvers.",
+        "actions": "The vehicle maintains its speed and lane, with no braking or swerving required. The driver remains alert for the pedestrian and motorcycles but does not need to take evasive action.",
+        "key_objects": "1) Left side, 40-50 meters ahead: Several motorcycles traveling in the opposite direction, no impact on behavior. 2) Right shoulder, 20-30 meters ahead: Pedestrian with a cart, begins to cross but remains at a safe distance and does not enter the vehicle's path.",
+        "key_actions": "maintain speed and lane; normal vigilance for pedestrian and motorcycles; no ghost probing or emergency braking required",
+        "next_action": {
+          "speed_control": "maintain speed",
+          "direction_control": "keep direction",
+          "lane_control": "maintain current lane"
+        }
+      },
+      "key_actions": "maintain speed and lane; normal vigilance for pedestrian and motorcycles; no ghost probing or emergency braking required"
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "status": "success",
+      "actual_label": 1,
+      "predicted_label": 0,
+      "processing_time": 16.565192937850952,
+      "raw_response": "{\n    \"video_id\": \"images_1_005.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Numerous pedestrians, mostly school children in uniforms with umbrellas, some adults; no visible aggressive or panicked behavior.\",\n    \"summary\": \"The video shows a rainy urban street scene near a school or bus stop. The observer vehicle follows a red car at a safe distance. Over the 10 seconds, a group of school children and pedestrians, many with umbrellas, gradually cross the street from the right sidewalk to the left. The red car in front maintains a slow pace or stops, allowing the pedestrians to cross. The observer vehicle also slows down or stops to yield. There are no sudden or unpredictable movements by vehicles or pedestrians, and all actions are consistent with expected urban traffic and crosswalk behavior.\",\n    \"actions\": \"The observer vehicle slows down and/or stops to yield to pedestrians crossing the street. No emergency braking or swerving is required. The red car ahead also slows or stops. The vehicle maintains its lane and direction throughout.\",\n    \"key_objects\": \"1) Center front: Red car, 3-5 meters ahead, moving slowly or stopped, acting as a buffer for the observer vehicle. 2) Right and center: Group of school children and pedestrians, crossing from right to left, 2-6 meters ahead, requiring yielding and reduced speed. 3) Left: Large bus and other vehicles, stationary or moving slowly, no immediate threat. 4) Foreground: Pedestrians with umbrellas, some crossing directly in front of the observer vehicle.\",\n    \"key_actions\": \"emergency braking due to pedestrian crossing\",\n    \"next_action\": {\n        \"speed_control\": \"deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}",
+      "parsed_result": {
+        "video_id": "images_1_005.avi",
+        "segment_id": "full_video",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Routine",
+        "characters": "Numerous pedestrians, mostly school children in uniforms with umbrellas, some adults; no visible aggressive or panicked behavior.",
+        "summary": "The video shows a rainy urban street scene near a school or bus stop. The observer vehicle follows a red car at a safe distance. Over the 10 seconds, a group of school children and pedestrians, many with umbrellas, gradually cross the street from the right sidewalk to the left. The red car in front maintains a slow pace or stops, allowing the pedestrians to cross. The observer vehicle also slows down or stops to yield. There are no sudden or unpredictable movements by vehicles or pedestrians, and all actions are consistent with expected urban traffic and crosswalk behavior.",
+        "actions": "The observer vehicle slows down and/or stops to yield to pedestrians crossing the street. No emergency braking or swerving is required. The red car ahead also slows or stops. The vehicle maintains its lane and direction throughout.",
+        "key_objects": "1) Center front: Red car, 3-5 meters ahead, moving slowly or stopped, acting as a buffer for the observer vehicle. 2) Right and center: Group of school children and pedestrians, crossing from right to left, 2-6 meters ahead, requiring yielding and reduced speed. 3) Left: Large bus and other vehicles, stationary or moving slowly, no immediate threat. 4) Foreground: Pedestrians with umbrellas, some crossing directly in front of the observer vehicle.",
+        "key_actions": "emergency braking due to pedestrian crossing",
+        "next_action": {
+          "speed_control": "deceleration",
+          "direction_control": "keep direction",
+          "lane_control": "maintain current lane"
+        }
+      },
+      "key_actions": "emergency braking due to pedestrian crossing"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_012",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through a narrow urban road with parked cars on both sides. The road is relatively clear, but there are several parked vehicles on the left and right sides, which could potentially obstruct the view and pose a risk for ghost probing behavior.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the narrow road. The driver is likely being cautious due to the parked cars on both sides, which could obstruct the view and pose a risk for sudden appearances of pedestrians or vehicles.",
+        "key_objects": "1) Left side: Multiple parked cars, approximately 2-5 meters away, stationary, potentially obstructing the view. 2) Right side: Multiple parked cars, approximately 2-5 meters away, stationary, potentially obstructing the view.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_012",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "11.8s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area with parked cars on both sides. The vehicle is moving forward at a steady pace. There are pedestrians on the left side of the road, and a white car is parked on the right side. The road ahead is clear, and there are no immediate obstacles.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the urban area. The vehicle is keeping a safe distance from the parked cars on both sides and is moving straight ahead without any sudden changes in direction or speed.",
+        "key_objects": "1) Left side: A group of pedestrians, approximately 5 meters away, walking along the sidewalk. 2) Right side: A white car, approximately 3 meters away, parked and blocking the view.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

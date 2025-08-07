@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_1_004",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rural Road",
+    "sentiment": "Neutral",
+    "characters": "Several motorcyclists and a person on a bicycle are visible on the road.",
+    "summary": "The video shows a vehicle driving on a two-lane rural road under clear weather conditions.  The road is relatively empty with sparse traffic. Several motorcyclists and a person on a bicycle are observed traveling in the same direction as the recording vehicle. No immediate dangerous situations or near-miss incidents are observed. The self-driving vehicle maintains a consistent speed and stays in its lane throughout the 10-second segment.",
+    "actions": "The self-driving vehicle maintains a consistent speed and stays in its lane throughout the 10-second segment.  There are no observable changes in speed or direction based on the provided frames. The vehicle's actions suggest a routine drive on a clear road with minimal traffic.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_004",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.4s",
+    "scene_theme": "Road with sparse traffic",
+    "characters": "A man in dark clothing walking on the road, a white truck, a green bus.",
+    "summary": "The video shows a road scene with a man in dark clothing walking across the road from right to left. A white truck is visible in the distance, moving away from the camera. A green bus appears in the middle-right of the frame, moving in the same direction as the recording vehicle. The man's crossing of the road presents a potential hazard.",
+    "actions": "The self-driving vehicle maintains a consistent speed, likely adjusting to the presence of the pedestrian crossing the road.  The vehicle does not appear to brake or change lanes significantly, suggesting a relatively safe distance is maintained from the pedestrian and other vehicles.",
+    "key_objects": "1) Front: A man in dark clothing, approximately 15 meters away at the start, crossing the road from right to left, potentially causing a collision if the vehicle does not slow down. 2) Right: A green bus, approximately 20 meters away, moving in the same direction as the self-driving vehicle, not posing an immediate threat.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

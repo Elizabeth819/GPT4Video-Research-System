@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including children, and cyclists observed. Pedestrians are seen crossing the road from both left and right sides.",
+  "summary": "The video sequence shows multiple instances of pedestrians, including children, suddenly emerging from behind parked vehicles and other obstructions, directly entering the driving path. This creates immediate collision risks. The scenes are characterized by poor visibility due to obstructions and the sudden appearance of pedestrians.",
+  "actions": "Pedestrians, including children, are seen crossing the road from both left and right sides, emerging from behind parked vehicles and other obstructions. Cyclists are also present on the road.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians, cyclists, and roadside structures.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

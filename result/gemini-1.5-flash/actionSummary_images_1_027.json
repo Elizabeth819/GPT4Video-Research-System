@@ -1,0 +1,49 @@
+[
+    {
+        "video_id": "dada_1_027",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving down a narrow, residential street. The road is relatively clear of traffic, with only a few parked vehicles visible on the sides. Buildings line both sides of the street. The car maintains a steady speed throughout the 5-second clip. No pedestrians or other vehicles are observed entering or crossing the road during this period. The driving conditions appear to be normal, with good visibility and no apparent hazards.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the 5-second video segment. There are no observable changes in speed or direction, suggesting the driver is proceeding at a comfortable pace along a straight section of road. The lack of any braking or acceleration indicates a smooth and steady driving pattern.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_027",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "7.7s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A person on a skateboard",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Suddenly falls down in the middle of the road from the right side, creating an immediate hazard."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "20-30",
+                "clothing": "Dark colored clothing",
+                "transportation method": "Skateboard",
+                "way of walking/moving": "Riding skateboard, then suddenly falls down in the middle of the road."
+            }
+        ],
+        "summary": "The video shows a car driving down a road. At approximately 5 seconds, a young man (20-30 years old) wearing dark clothes is seen riding a skateboard. He suddenly falls down in the middle of the road from the right side, creating an immediate hazard for the approaching vehicle. The fall appears unexpected and rapid, leaving little time for the driver to react. This constitutes a 'ghost probing' event due to the sudden appearance of an obstacle in the vehicle's path from a previously unobstructed area.",
+        "actions": "The vehicle maintains a relatively constant speed throughout the observed period. There are no visible changes in direction or braking. The driver appears to be maintaining a safe distance from the vehicle ahead. The consistent speed suggests the driver is navigating a relatively clear and straight section of the road.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child, and cyclists observed. The child is wearing a blue jacket and is seen running into the road from the right side.",
+  "summary": "The video sequence shows a vehicle driving at night in an urban area with street lights and shops on both sides. Initially, the scene appears normal with vehicles and pedestrians visible on both sides of the road. However, at around 4 seconds, a child suddenly runs into the road from the right side, emerging from behind a parked vehicle. This creates an immediate collision risk as the child was previously hidden from view.",
+  "actions": "The child runs into the road from the right side, emerging from behind a parked vehicle. The vehicle in front is moving at a steady pace, and there are other vehicles and pedestrians on both sides of the road.",
+  "key_objects": "Parked vehicles on both sides of the road, moving vehicles, pedestrians, and cyclists.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,64 @@
+[
+    {
+        "video_id": "dada_18_003",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "Motorcyclist",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "The motorcyclist is traveling in the same lane as the recording vehicle, maintaining a consistent distance.  No immediate threat."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark colored jacket and pants",
+                "transportation_method": "Motorcycle",
+                "behavior": "Driving steadily in the same lane."
+            }
+        ],
+        "summary": "The video shows a 5-second segment of a road with a motorcyclist traveling in the same lane as the recording vehicle. The motorcyclist is approximately 20 meters ahead and maintains a consistent distance. The road is relatively clear, with a bus visible in the distance. No sudden movements or dangerous behaviors are observed from the motorcyclist or other vehicles. The weather appears to be overcast.",
+        "actions": "The recording vehicle maintains a steady speed and lane position throughout the 5-second segment. There are no observable changes in speed or direction. The driver appears to be maintaining a safe following distance from the motorcyclist ahead.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep_lane"
+        }
+    },
+    {
+        "video_id": "dada_18_003",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "7.9s",
+        "key_objects": [
+            {
+                "Position": "Center Right",
+                "Object description": "A man wearing a yellow hard hat operating a scooter",
+                "distance": "10-15 meters",
+                "behavior or action impacting the vehicle": "Approaching the vehicle from the right side of the road, initially at a distance, then moving closer to the vehicle's path."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Yellow hard hat, dark clothing",
+                "transportation": "Scooter",
+                "behavior": "Riding a scooter, initially at a distance from the vehicle, then moving closer to the vehicle's path in a seemingly unpredictable manner."
+            }
+        ],
+        "summary": "The video shows a man on a scooter approaching the vehicle from the right side of the road.  Initially, he is at a distance, but he moves closer to the vehicle's path, creating a potential ghost probing scenario. The scooter's speed appears to increase as it gets closer to the vehicle. The driver needs to be cautious and prepared to brake to avoid a collision.",
+        "actions": "The vehicle maintains a steady speed throughout the observed period. There are no apparent changes in speed or direction. The driver appears to be maintaining a safe following distance from the vehicle ahead. The road is relatively clear, with no immediate obstacles or traffic congestion.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    }
+]

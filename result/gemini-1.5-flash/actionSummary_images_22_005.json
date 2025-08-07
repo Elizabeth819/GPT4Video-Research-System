@@ -1,0 +1,86 @@
+[
+    {
+        "video_id": "dada_22_005",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a highway. The road is relatively clear with no immediate dangers observed within the 5-second segment.  The weather appears overcast. The car maintains a consistent speed and stays within its lane. No pedestrians, cyclists, or other vehicles exhibit behavior that would constitute a 'ghost probing', 'cut-in', or 'overtaking' event.",
+        "actions": "The vehicle maintains a consistent speed and lane position throughout the 5-second video segment. There are no observable changes in speed or direction, suggesting the driver is maintaining a steady pace and following the road's curvature.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_22_005",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A dark-colored sedan",
+                "distance": "20-25 meters",
+                "behavior or action impacting the vehicle": "Maintaining a consistent speed and distance ahead of the ego vehicle."
+            },
+            {
+                "Position": "Front, Right",
+                "Object description": "A silver sedan",
+                "distance": "30-35 meters initially, decreasing to 20 meters",
+                "behavior or action impacting the vehicle": "Initially in the right lane, it then merges into the center lane, slightly cutting in front of the dark-colored sedan ahead of the ego vehicle."
+            }
+        ],
+        "key_actions": "cut-in",
+        "characters": [],
+        "summary": "The video shows a highway driving scene. The ego vehicle maintains a safe following distance behind a dark-colored sedan. A silver sedan initially in the right lane merges into the center lane, cutting in front of the dark-colored sedan. This cut-in maneuver occurs at a relatively close distance, requiring the ego vehicle to maintain alertness and potentially adjust its speed to maintain a safe following distance.",
+        "actions": "The ego vehicle maintains a consistent speed and following distance throughout the sequence.  The driver appears to be driving defensively, maintaining a safe distance from the vehicle ahead. There is no indication of braking or acceleration beyond maintaining a consistent speed. The driver is likely adjusting their speed to maintain a safe distance from the vehicles in front, given the cut-in maneuver of the silver sedan.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "straight",
+            "lane_control": "keep lane"
+        }
+    },
+    {
+        "video_id": "dada_22_005",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "Dark-colored sedan",
+                "distance": "20-25 meters",
+                "behavior or action impacting the vehicle": "Maintaining a consistent speed and distance from the observer vehicle."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video segment shows a highway driving scene. The observer vehicle maintains a safe following distance behind a dark-colored sedan in the same lane.  No pedestrians or other vehicles are observed engaging in dangerous maneuvers. Road conditions appear clear and dry. The weather is overcast.",
+        "actions": "The observer vehicle maintains a consistent speed and following distance from the vehicle ahead.  There are no observable changes in speed or direction during this segment. The driver appears to be maintaining a safe and predictable driving pattern.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "straight",
+            "lane_control": "keep lane"
+        }
+    },
+    {
+        "video_id": "dada_22_005",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "15.5s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a highway scene. The self-driving vehicle maintains a safe following distance behind a dark-colored sedan.  No pedestrians or other vehicles exhibit erratic or dangerous behavior during this 5-second segment. The road is clear, and traffic flow is smooth. There are no sudden appearances of objects or individuals from blind spots.",
+        "actions": "The self-driving vehicle maintains a consistent speed and following distance from the vehicle ahead.  There are no observable changes in speed or direction during this segment. The vehicle's actions indicate a safe and predictable driving pattern.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_035",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "13.6s",
+  "sentiment": "Positive",
+  "scene_theme": "Routine",
+  "characters": "A male pedestrian, approximately 30-40 years old, wearing dark clothing, crossing the road. A person on a scooter/motorcycle, wearing dark clothing, crossing the intersection.",
+  "summary": "In this segment, the self-driving vehicle is navigating a busy urban road during daytime with high sun glare. Initially, the vehicle is behind a large bus and a white van. The vehicle performs a controlled lane change to the left to overtake the bus. As it proceeds, it approaches a signalized intersection with moderate traffic and pedestrians. The vehicle then decelerates and comes to a complete stop at the intersection, yielding to crossing pedestrians and a scooter, and in response to a visible red traffic light.",
+  "actions": "The self-driving vehicle initially maintains a steady speed while following a large bus. Recognizing the slower pace of the bus and the clear lane to its left, the vehicle initiates a smooth lane change to the left to perform an overtaking maneuver, aiming to maintain its desired speed and flow with traffic. After successfully overtaking the bus, the vehicle continues straight. As it approaches an intersection, the vehicle detects crossing pedestrians and a scooter, as well as a red traffic light on the right side of the intersection. In response to these conditions, the vehicle begins a controlled deceleration, progressively reducing its speed, and ultimately comes to a complete stop before the crosswalk to ensure the safety of the crossing individuals and to obey the traffic signal.",
+  "key_objects": "1) Right side: A large yellow and white bus, approximately 10-15 meters ahead, initially obscuring the view directly in front of the vehicle. 2) Left side: A white van, approximately 5-10 meters away, driving parallel to the vehicle. 3) Right side: Multiple parked cars along the roadside, approximately 5-20 meters away. 4) Left side: A male pedestrian, approximately 5-10 meters away, crossing the road from left to right at the intersection. 5) Left side: A person on a scooter/motorcycle, approximately 5-10 meters away, crossing the intersection from left to right. 6) Right side: A traffic light, approximately 20 meters away, visible at the intersection and appearing red in later frames.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

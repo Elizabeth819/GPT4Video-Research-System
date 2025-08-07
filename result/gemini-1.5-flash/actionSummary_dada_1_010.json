@@ -1,0 +1,59 @@
+[
+  {
+    "video_id": "dada_1_010",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00",
+    "End_Timestamp": "00:00:09",
+    "summary": "The vehicle is driving on a road with a high wall on the right side. A motorcyclist appears from behind the wall and enters the road. The motorcyclist is not extremely close when first detected, but the appearance is sudden.",
+    "actions": "The vehicle is driving straight. The driver should be aware of the potential for objects to appear from behind the wall.",
+    "key_objects": [
+      "vehicle",
+      "motorcyclist",
+      "wall"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed, be prepared to decelerate",
+      "direction_control": "stay in lane",
+      "lane_control": "maintain lane"
+    }
+  },
+  {
+    "video_id": "dada_1_010",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "00:00:00.000",
+    "End_Timestamp": "00:00:03.333",
+    "summary": "A pedestrian suddenly appears from behind parked cars and crosses the road. The pedestrian is not at a designated crosswalk and is not paying attention to traffic. The pedestrian is wearing dark clothing and is difficult to see. The vehicle is approaching the pedestrian at a moderate speed.",
+    "actions": "The vehicle is driving straight on a city street. The driver needs to be aware of the pedestrian crossing the road.",
+    "key_objects": [
+      "pedestrian",
+      "parked cars",
+      "road"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "reduce speed",
+      "direction_control": "stay in lane, prepare to steer if needed",
+      "lane_control": "maintain lane"
+    }
+  },
+  {
+    "video_id": "dada_1_010",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "0.33",
+    "summary": "The ego-vehicle is driving on a straight road. A van is overtaking the ego-vehicle on the left lane. There is a truck in front of the ego-vehicle.",
+    "actions": "The ego-vehicle is maintaining its lane and speed. The van is overtaking the ego-vehicle.",
+    "key_objects": [
+      "ego-vehicle",
+      "van",
+      "truck"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain",
+      "direction_control": "straight",
+      "lane_control": "maintain"
+    }
+  }
+]

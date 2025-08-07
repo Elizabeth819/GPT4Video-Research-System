@@ -1,0 +1,73 @@
+{
+  "video_id": "images_5_003",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.4s",
+  "summary": "The self-driving car is moving forward on a city street during the daytime. From 0.0s to 4.0s, several motorcycles are seen moving in the same direction as the car. At 6.0s, a woman in a black jacket is seen walking on the left side of the road. From 7.0s to 14.4s, a motorcycle has crashed in the middle of the road, and several people, including a woman in a green shirt, a girl in a pink dress, and a child, are standing around the crashed motorcycle. The woman in the green shirt appears to be helping the girl in the pink dress. Other motorcycles are passing by the scene.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "dark jacket",
+      "colors": "black",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "behavior": "riding in the same direction"
+    },
+    {
+      "gender": "male",
+      "clothing": "dark jacket",
+      "colors": "black",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "behavior": "riding in the same direction"
+    },
+    {
+      "gender": "female",
+      "clothing": "black jacket",
+      "colors": "black",
+      "age": "adult",
+      "transportation_method": "walking",
+      "behavior": "walking on the left side of the road"
+    },
+    {
+      "gender": "female",
+      "clothing": "green shirt",
+      "colors": "green",
+      "age": "adult",
+      "transportation_method": "standing",
+      "behavior": "helping a girl near a crashed motorcycle"
+    },
+    {
+      "gender": "female",
+      "clothing": "pink dress",
+      "colors": "pink",
+      "age": "child",
+      "transportation_method": "standing",
+      "behavior": "standing near a crashed motorcycle"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": "unknown",
+      "age": "child",
+      "transportation_method": "standing",
+      "behavior": "standing near a crashed motorcycle"
+    },
+    {
+      "gender": "male",
+      "clothing": "dark jacket",
+      "colors": "black",
+      "age": "adult",
+      "transportation_method": "motorcycle",
+      "behavior": "passing by the scene of the accident"
+    }
+  ],
+  "actions": "The vehicle is moving forward on a city street. The driver is maintaining a consistent speed, likely due to the presence of other vehicles and motorcycles on the road. The driver is navigating around the crashed motorcycle and people in the road, which requires careful maneuvering to avoid a collision.",
+  "next_action": {
+    "speed_control": "slowing down",
+    "direction_control": "keep straight",
+    "lane_control": "keep right in this lane"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

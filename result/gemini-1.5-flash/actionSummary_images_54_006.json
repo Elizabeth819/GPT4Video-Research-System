@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "dada_38_032",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Motorcyclist ahead",
+        "summary": "In this segment, the vehicle is driving on an urban road. A motorcyclist is visible ahead, moving in the same direction as the vehicle. The motorcyclist is gradually moving towards the right side of the road.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, following the motorcyclist ahead. The vehicle is keeping a safe distance from the motorcyclist, ensuring no sudden movements or collisions.",
+        "key_objects": "1) Front: A motorcyclist, approximately 20 meters away, moving towards the right side of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_38_032",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "7.7s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a white sedan, Driver of a red sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. The white sedan is ahead on the left side, and the red sedan is ahead on the right side. The traffic is moderate, and the vehicles are maintaining their lanes.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and lane position. The driver is observing the traffic ahead, ensuring a safe distance from the vehicles in front.",
+        "key_objects": "1) Left side: A white sedan, approximately 20 meters away, maintaining its lane. 2) Right side: A red sedan, approximately 15 meters away, maintaining its lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_54_006",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Routine",
+        "characters": "Motorcyclist ahead",
+        "summary": "In this segment, the vehicle is driving on a rural road. A motorcyclist is ahead, initially at a distance but gradually getting closer. The motorcyclist appears to be moving steadily, but in the last frame, the motorcyclist is seen turning right.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the motorcyclist. The vehicles speed remains steady as it gets closer to the motorcyclist, who eventually turns right.",
+        "key_objects": "1) Front: A motorcyclist, approximately 20 meters away, moving steadily and then turning right.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_54_006",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a blue SUV",
+        "summary": "In this segment, the vehicle is driving on a rural road. Ahead, a blue SUV is approaching from the opposite direction. The road is clear with no visible obstacles or pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while driving straight. The vehicle is keeping a safe distance from the approaching blue SUV.",
+        "key_objects": "1) Front: A blue SUV, approximately 30 meters away, approaching from the opposite direction.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_54_006",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "12.9s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue truck",
+        "summary": "In this segment, the vehicle is driving on a rural road. Ahead, a blue truck is parked on the roadside. The truck appears to be moving slightly towards the road, potentially causing a dangerous situation.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the blue truck. The vehicles speed is steady, and it is keeping a safe distance from the truck ahead.",
+        "key_objects": "1) Front: A blue truck, approximately 20 meters away, moving slightly towards the road, potentially causing a dangerous situation.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

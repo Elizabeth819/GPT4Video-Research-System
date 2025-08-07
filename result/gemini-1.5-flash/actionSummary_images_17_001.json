@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_17_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the vehicle",
+        "summary": "In this segment, the vehicle is driving through an urban area with various shops and pedestrians visible. The road is narrow, and there are several obstacles including parked vehicles and pedestrians. The vehicles speed appears to be slow and steady, navigating through the area carefully.",
+        "actions": "The self-driving vehicle is maintaining a slow and steady speed to navigate through the narrow urban road with obstacles and pedestrians. The vehicle is likely being cautious due to the presence of pedestrians and parked vehicles on both sides of the road.",
+        "key_objects": "1) Front: A pedestrian, approximately 10 meters away, walking across the road from left to right, potentially causing the vehicle to slow down. 2) Left side: A parked vehicle, approximately 5 meters away, blocking part of the view and requiring careful navigation. 3) Right side: A pedestrian, approximately 8 meters away, standing near the roadside, potentially moving into the vehicles path.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

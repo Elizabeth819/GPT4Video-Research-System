@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_027",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows the interior of a car driving on a road in a rural or suburban area. There are buildings and trees visible on both sides of the road. No pedestrians are visible in the frames.",
+  "summary": "The vehicle is driving on a narrow road through a rural or suburban area. The road appears to be relatively empty with buildings and trees lining both sides. The car maintains a consistent speed and direction throughout the 10-second segment. The road curves slightly to the right.",
+  "actions": "The vehicle is maintaining a consistent speed while navigating a slight curve in the road. The driver is likely maintaining speed due to the lack of traffic and clear visibility ahead. The vehicle is staying in the center of the lane to avoid obstacles on either side of the road.",
+  "key_objects": "1) Left: Parked white car, medium distance, no immediate impact. 2) Right: Buildings, medium distance, no immediate impact. 3) Ahead: Slight curve in the road, medium distance, requires slight steering adjustment.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

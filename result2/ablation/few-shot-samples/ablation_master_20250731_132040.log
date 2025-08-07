@@ -1,0 +1,3 @@
+2025-07-31 13:20:40,248 - INFO - 🎯 开始Few-shot Sample Number消融实验
+2025-07-31 13:20:40,248 - INFO - 🚀 开始运行 1 Few-shot Sample 实验
+2025-07-31 13:20:40,248 - INFO - 执行命令: /Users/wanmeng/miniconda3/envs/cobraauto/bin/python /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/ablation/few-shot-samples/1-sample/run8_ablation_1sample.py --limit 100

@@ -1,0 +1,141 @@
+2025-07-30 11:22:18,654 - INFO - 使用Gemini API Key: AIzaSyA2nN...
+2025-07-30 11:22:18,654 - INFO - ==================================================
+2025-07-30 11:22:18,654 - INFO - Run 17: Gemini-2.5-Flash + VIP详细prompt + Few-shot Examples
+2025-07-30 11:22:18,654 - INFO - ==================================================
+2025-07-30 11:22:18,654 - INFO - 视频文件夹: ../../result/DADA-100-videos
+2025-07-30 11:22:18,654 - INFO - 时间间隔: 10秒
+2025-07-30 11:22:18,654 - INFO - 每间隔帧数: 10帧
+2025-07-30 11:22:18,654 - INFO - 从第 1 个视频开始处理
+2025-07-30 11:22:18,654 - INFO - 限制处理 5 个视频
+2025-07-30 11:22:18,654 - INFO - 输出目录: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run17-gemini-2.5-flash-vip-fewshot-dada100
+2025-07-30 11:22:18,655 - INFO - 发现 101 个视频文件
+2025-07-30 11:22:18,655 - INFO - 限制处理 5 个视频
+2025-07-30 11:22:18,655 - INFO - 总共需要处理 5 个视频
+2025-07-30 11:22:18,664 - INFO - 开始处理视频: images_1_001.avi, Video ID: images_1_001
+2025-07-30 11:22:18,771 - INFO - 视频时长: 14.67秒
+2025-07-30 11:22:18,771 - INFO - 总共需要处理 2 个区间
+2025-07-30 11:22:18,771 - INFO - 处理区间 1/2: 0.0s - 10.0s
+2025-07-30 11:22:19,201 - INFO - 成功加载 10/10 个图像，准备进行分析
+2025-07-30 11:22:19,201 - INFO - 尝试Gemini API调用，尝试次数: 1/3
+2025-07-30 11:22:51,969 - ERROR - JSON解析失败: Unterminated string starting at: line 9 column 16 (char 287)
+2025-07-30 11:22:51,970 - ERROR - 原始响应: {
+    "video_id": "images_1_001",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "11:03:28",
+    "End_Timestamp": "11:03:38",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A car in front, a person on the right side of the road",
+    "summary": "The vehicle is driving on a road with buildings on both sides. A car is in front of the vehicle. A person is walking on the right side of the road. The person is walking towards the road. The person is wearing wh...
+2025-07-30 11:22:51,970 - INFO - 尝试Gemini API调用，尝试次数: 2/3
+2025-07-30 11:22:56,790 - INFO - Gemini API调用成功
+2025-07-30 11:22:56,790 - INFO - 区间 1 分析完成
+2025-07-30 11:22:56,793 - INFO - 处理区间 2/2: 10.0s - 14.7s
+2025-07-30 11:22:57,314 - INFO - 成功加载 10/10 个图像，准备进行分析
+2025-07-30 11:22:57,314 - INFO - 尝试Gemini API调用，尝试次数: 1/3
+2025-07-30 11:23:01,835 - INFO - Gemini API调用成功
+2025-07-30 11:23:01,836 - INFO - 区间 2 分析完成
+2025-07-30 11:23:01,842 - INFO - 视频 images_1_001.avi 处理完成，结果保存到: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run17-gemini-2.5-flash-vip-fewshot-dada100/actionSummary_images_1_001.json
+2025-07-30 11:23:01,842 - INFO - ✓ images_1_001.avi 处理成功 (43.2s)
+2025-07-30 11:23:01,842 - INFO - 开始处理视频: images_1_002.avi, Video ID: images_1_002
+2025-07-30 11:23:02,004 - INFO - 视频时长: 11.47秒
+2025-07-30 11:23:02,004 - INFO - 总共需要处理 2 个区间
+2025-07-30 11:23:02,005 - INFO - 处理区间 1/2: 0.0s - 10.0s
+2025-07-30 11:23:02,403 - INFO - 成功加载 10/10 个图像，准备进行分析
+2025-07-30 11:23:02,403 - INFO - 尝试Gemini API调用，尝试次数: 1/3
+2025-07-30 11:23:07,948 - INFO - Gemini API调用成功
+2025-07-30 11:23:07,949 - INFO - 区间 1 分析完成
+2025-07-30 11:23:07,954 - INFO - 处理区间 2/2: 10.0s - 11.5s
+2025-07-30 11:23:10,261 - INFO - 成功加载 10/10 个图像，准备进行分析
+2025-07-30 11:23:10,261 - INFO - 尝试Gemini API调用，尝试次数: 1/3
+2025-07-30 11:23:14,794 - INFO - Gemini API调用成功
+2025-07-30 11:23:14,794 - INFO - 区间 2 分析完成
+2025-07-30 11:23:14,799 - INFO - 视频 images_1_002.avi 处理完成，结果保存到: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run17-gemini-2.5-flash-vip-fewshot-dada100/actionSummary_images_1_002.json
+2025-07-30 11:23:14,799 - INFO - ✓ images_1_002.avi 处理成功 (13.0s)
+2025-07-30 11:23:14,800 - INFO - 开始处理视频: images_1_003.avi, Video ID: images_1_003
+2025-07-30 11:23:16,468 - INFO - 视频时长: 10.53秒
+2025-07-30 11:23:16,468 - INFO - 总共需要处理 2 个区间
+2025-07-30 11:23:16,468 - INFO - 处理区间 1/2: 0.0s - 10.0s
+2025-07-30 11:23:16,863 - INFO - 成功加载 10/10 个图像，准备进行分析
+2025-07-30 11:23:16,864 - INFO - 尝试Gemini API调用，尝试次数: 1/3
+2025-07-30 11:23:27,943 - INFO - Gemini API调用成功
+2025-07-30 11:23:27,943 - INFO - 区间 1 分析完成
+2025-07-30 11:23:27,949 - INFO - 处理区间 2/2: 10.0s - 10.5s
+2025-07-30 11:23:28,240 - INFO - 成功加载 10/10 个图像，准备进行分析
+2025-07-30 11:23:28,240 - INFO - 尝试Gemini API调用，尝试次数: 1/3
+2025-07-30 11:23:33,014 - INFO - Gemini API调用成功
+2025-07-30 11:23:33,015 - INFO - 区间 2 分析完成
+2025-07-30 11:23:33,016 - INFO - 视频 images_1_003.avi 处理完成，结果保存到: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run17-gemini-2.5-flash-vip-fewshot-dada100/actionSummary_images_1_003.json
+2025-07-30 11:23:33,016 - INFO - ✓ images_1_003.avi 处理成功 (18.2s)
+2025-07-30 11:23:33,017 - INFO - 开始处理视频: images_1_004.avi, Video ID: images_1_004
+2025-07-30 11:23:33,137 - INFO - 视频时长: 15.40秒
+2025-07-30 11:23:33,137 - INFO - 总共需要处理 2 个区间
+2025-07-30 11:23:33,137 - INFO - 处理区间 1/2: 0.0s - 10.0s
+2025-07-30 11:23:33,569 - INFO - 成功加载 10/10 个图像，准备进行分析
+2025-07-30 11:23:33,569 - INFO - 尝试Gemini API调用，尝试次数: 1/3
+2025-07-30 11:23:38,665 - INFO - Gemini API调用成功
+2025-07-30 11:23:38,666 - INFO - 区间 1 分析完成
+2025-07-30 11:23:38,668 - INFO - 处理区间 2/2: 10.0s - 15.4s
+2025-07-30 11:23:39,055 - INFO - 成功加载 10/10 个图像，准备进行分析
+2025-07-30 11:23:39,056 - INFO - 尝试Gemini API调用，尝试次数: 1/3
+2025-07-30 11:23:46,553 - INFO - Gemini API调用成功
+2025-07-30 11:23:46,553 - INFO - 区间 2 分析完成
+2025-07-30 11:23:46,563 - INFO - 视频 images_1_004.avi 处理完成，结果保存到: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run17-gemini-2.5-flash-vip-fewshot-dada100/actionSummary_images_1_004.json
+2025-07-30 11:23:46,563 - INFO - ✓ images_1_004.avi 处理成功 (13.5s)
+2025-07-30 11:23:46,564 - INFO - 开始处理视频: images_1_005.avi, Video ID: images_1_005
+2025-07-30 11:23:46,709 - INFO - 视频时长: 14.27秒
+2025-07-30 11:23:46,709 - INFO - 总共需要处理 2 个区间
+2025-07-30 11:23:46,709 - INFO - 处理区间 1/2: 0.0s - 10.0s
+2025-07-30 11:23:47,147 - INFO - 成功加载 10/10 个图像，准备进行分析
+2025-07-30 11:23:47,147 - INFO - 尝试Gemini API调用，尝试次数: 1/3
+2025-07-30 11:23:52,695 - INFO - Gemini API调用成功
+2025-07-30 11:23:52,695 - INFO - 区间 1 分析完成
+2025-07-30 11:23:52,701 - INFO - 处理区间 2/2: 10.0s - 14.3s
+2025-07-30 11:23:55,669 - INFO - 成功加载 10/10 个图像，准备进行分析
+2025-07-30 11:23:55,669 - INFO - 尝试Gemini API调用，尝试次数: 1/3
+2025-07-30 11:23:56,997 - ERROR - Gemini API调用失败 (尝试 1/3): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+2025-07-30 11:23:56,997 - INFO - 等待 1 秒后重试...
+2025-07-30 11:23:58,002 - INFO - 尝试Gemini API调用，尝试次数: 2/3
+2025-07-30 11:23:59,350 - ERROR - Gemini API调用失败 (尝试 2/3): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+2025-07-30 11:23:59,351 - INFO - 等待 2 秒后重试...
+2025-07-30 11:24:01,356 - INFO - 尝试Gemini API调用，尝试次数: 3/3
+2025-07-30 11:24:02,729 - ERROR - Gemini API调用失败 (尝试 3/3): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-07-30 11:24:02,730 - ERROR - Gemini API调用达到最大重试次数
+2025-07-30 11:24:02,730 - ERROR - 区间 2 分析失败
+2025-07-30 11:24:02,731 - INFO - ==================================================
+2025-07-30 11:24:02,731 - INFO - 处理完成统计:
+2025-07-30 11:24:02,731 - INFO - 总视频数: 5
+2025-07-30 11:24:02,731 - INFO - 成功处理: 4
+2025-07-30 11:24:02,731 - INFO - 处理失败: 1
+2025-07-30 11:24:02,731 - INFO - 跳过视频: 0
+2025-07-30 11:24:02,731 - INFO - 总处理时间: 87.9秒
+2025-07-30 11:24:02,731 - INFO - 平均处理时间: 22.0秒/视频
+2025-07-30 11:24:02,731 - INFO - ==================================================
+2025-07-30 11:24:02,733 - INFO - 统计信息已保存到 processing_stats.json
+2025-07-30 11:24:02,733 - INFO - Run 17 处理完成！

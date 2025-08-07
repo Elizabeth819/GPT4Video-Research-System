@@ -1,0 +1,55 @@
+[
+    {
+        "video_id": "dada_18_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a two-lane road. The road is relatively clear with some trees and a hill visible in the background.  The car maintains a consistent speed throughout the 5-second segment. No pedestrians, cyclists, or other vehicles exhibit behavior that would constitute a 'ghost probing', 'cut-in', or 'overtaking' event. The road appears to be dry and the weather seems overcast.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the 5-second video segment. There are no observable changes in speed or direction, suggesting the driver is maintaining a steady pace on a straight section of road.  The lack of braking or acceleration indicates a stable driving condition.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_18_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "7.8s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A white van",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Approaching at a moderate speed, then suddenly braking hard."
+            },
+            {
+                "Position": "Left",
+                "Object description": "A person on a motorcycle",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Approaching at a high speed, then suddenly cutting in front of the van."
+            }
+        ],
+        "key_actions": "cut-in",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Motorcycle",
+                "way_of_walking": "Riding at high speed, then suddenly cutting in front of the van."
+            }
+        ],
+        "summary": "The video shows a two-lane road with the self-driving vehicle traveling in the right lane. At approximately 5.0 seconds, a white van is visible ahead, approximately 15 meters away, traveling at a moderate speed. A person on a motorcycle is seen approaching from the left lane at a high speed. At approximately 6.4 seconds, the motorcyclist cuts in front of the van, causing the van to brake suddenly. The motorcyclist's action is a cut-in maneuver, creating a dangerous situation. At 7.8 seconds, the impact of the collision is visible, with the windshield of the self-driving vehicle shattered. The motorcyclist's high speed and sudden cut-in maneuver are the primary factors contributing to the accident.",
+        "actions": "The self-driving vehicle maintains a steady speed and stays in its lane until the collision. The vehicle's actions are consistent with normal driving behavior until the sudden braking caused by the cut-in maneuver.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    }
+]

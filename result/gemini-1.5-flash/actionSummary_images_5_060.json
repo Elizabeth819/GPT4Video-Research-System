@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_5_060",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on an urban road. There are several pedestrians on the right side of the road, and a white van is parked on the left side. The vehicle is moving at a consistent speed, maintaining a safe distance from the pedestrians and other vehicles.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and staying in its lane. The driver is cautious due to the presence of pedestrians on the right side and a parked van on the left side. The vehicle is ensuring a safe distance from the pedestrians and other vehicles.",
+        "key_objects": "1) Right side: A group of pedestrians, approximately 5 meters away, walking along the sidewalk. 2) Left side: A white van, approximately 3 meters away, parked on the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

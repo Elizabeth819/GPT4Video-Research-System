@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_007",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter wearing a red jacket, a black SUV, and a white police car.",
+  "summary": "The self-driving vehicle approaches an intersection. From 5.0s to 8.0s, a black SUV crosses the intersection from the right. At 7.0s, a person on a scooter wearing a red jacket approaches the intersection from the left. At 8.0s, a white police car also begins to cross the intersection from the right, following the black SUV. The person on the scooter in red is at risk of colliding with the black SUV and the police car.",
+  "actions": "The self-driving vehicle is approaching an intersection and decelerating, likely in preparation to yield or stop, given the presence of crosswalks and potential cross-traffic. The deceleration is a safety measure to assess the situation before proceeding into the intersection.",
+  "key_objects": "1) Left side: A person on a scooter wearing a red jacket, approximately 10 meters away, approaching the intersection and potentially entering the vehicle's path. 2) Right side: A black SUV, approximately 15 meters away, crossing the intersection and potentially obstructing the vehicle's path. 3) Right side: A white police car, approximately 20 meters away, crossing the intersection and potentially obstructing the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

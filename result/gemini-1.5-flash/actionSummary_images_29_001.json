@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_29_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red scooter, driver of a yellow SUV",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A red scooter is ahead, and a yellow SUV is on the right side. The red scooter suddenly loses balance and falls, causing a potential collision risk.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the red scooter. As the scooter falls, the vehicle decelerates to avoid collision. The yellow SUV on the right side is moving forward, potentially cutting into the lane.",
+        "key_objects": "1) Front: A red scooter, approximately 5 meters away, loses balance and falls, causing a potential collision risk. 2) Right: A yellow SUV, approximately 3 meters away, moving forward and potentially cutting into the lane.",
+        "key_actions": "ghost probing, cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

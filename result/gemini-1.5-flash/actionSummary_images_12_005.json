@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_12_005",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving through an urban area. The road is relatively clear with some parked cars on the sides. The vehicle maintains a steady speed and direction throughout the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, navigating through the urban area without any sudden changes. The vehicle is driving cautiously, keeping a safe distance from parked cars on both sides.",
+        "key_objects": "1) Left side: A white car, approximately 3 meters away, parked and blocking the view. 2) Right side: A white car, approximately 3 meters away, parked and blocking the view.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_12_005",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. A black sedan is seen on the left side of the road, moving towards the center lane. The road ahead is clear with some parked vehicles on the right side.",
+        "actions": "The self-driving vehicle maintains a consistent speed while driving straight. The driver is cautious due to the black sedan moving towards the center lane from the left side.",
+        "key_objects": "1) Left side: A black sedan, approximately 10 meters away, moving towards the center lane, potentially causing a cut-in. 2) Right side: Parked vehicles, approximately 5 meters away, static and posing no immediate threat.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_12_005",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "12.2s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a city road. A black sedan on the right side is moving into the lane of the observer vehicle, potentially causing a cut-in situation.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while a black sedan on the right side is moving closer into the lane, indicating a potential cut-in. The vehicles speed remains steady to avoid sudden braking.",
+        "key_objects": "1) Right side: A black sedan, approximately 1 meter away, moving into the lane of the observer vehicle, causing a potential cut-in.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

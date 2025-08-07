@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_075",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist",
+        "summary": "In this segment, the vehicle is driving on a wide road. Initially, there is a white sedan on the right side and a cyclist in the distance. As the vehicle progresses, the white sedan suddenly cuts into the lane from the right side, causing a potential collision risk. The cyclist is also moving from left to right across the road.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. However, due to the sudden cut-in by the white sedan from the right side, the vehicle needs to decelerate rapidly to avoid a collision. The cyclist crossing the road also requires the vehicle to be cautious.",
+        "key_objects": "1) Right side: A white sedan, approximately 1 meter away, suddenly cuts into the lane, causing a potential collision risk. 2) Left side: A cyclist, approximately 10 meters away, moving from left to right across the road.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_075",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist",
+        "summary": "In this segment, the vehicle is driving on a road with a white sedan ahead on the right side. A cyclist is seen on the left side of the road. The white sedan is moving into the lane of the observer vehicle, potentially causing a cut-in situation.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the white sedan on the right side. The vehicle is preparing to decelerate due to the potential cut-in by the white sedan.",
+        "key_objects": "1) Right side: A white sedan, approximately 2 meters away, moving into the lane of the observer vehicle. 2) Left side: A cyclist, approximately 10 meters away, moving parallel to the road.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_112",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. Initially, the road is clear with a few vehicles ahead. As time progresses, a white sedan from the adjacent lane on the left moves into the self-vehicles lane, causing a potential cut-in situation.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the white sedan from the left lane moves into the self-vehicles lane, the self-driving vehicle needs to decelerate to avoid a collision. The vehicles speed decreases gradually to maintain a safe distance from the white sedan.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, moving into the self-vehicles lane from the left. 2) Right: A blue car, approximately 10 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_112",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.5s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan, driver of a black car",
+        "summary": "In this segment, the vehicle is at a stop at an intersection. A white sedan is directly in front of the observer vehicle, and a black car is on the right side, moving forward. The traffic appears to be light with a few vehicles in the distance.",
+        "actions": "The self-driving vehicle is stationary at the intersection, waiting for the traffic light to change. The white sedan in front is also stationary, and the black car on the right is moving forward.",
+        "key_objects": "1) Front: A white sedan, approximately 2 meters away, stationary. 2) Right: A black car, approximately 3 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

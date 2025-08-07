@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a vehicle driving on a rural road. There are buildings and trees on both sides of the road. A white van is seen driving in the opposite direction. Later, a red three-wheeled vehicle appears on the left side of the road, with a person visible on it.",
+  "summary": "The vehicle starts driving on a rural road. A white van passes by in the opposite direction. The vehicle continues driving straight. A red three-wheeled vehicle appears on the left side of the road and the vehicle slows down.",
+  "actions": "The vehicle initially maintains a steady speed while driving on the road. As a white van approaches from the opposite direction, the vehicle maintains its course and speed. When the red three-wheeled vehicle appears on the left, the vehicle begins to decelerate to avoid a potential collision.",
+  "key_objects": "1) Left: Red three-wheeled vehicle, medium distance, approaching the vehicle's path, causing the vehicle to decelerate. 2) Right: Buildings, medium distance, posing a potential obstruction to visibility.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

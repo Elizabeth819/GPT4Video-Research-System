@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_042",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A man in a dark blue jacket and black pants is riding a scooter. The man is wearing an orange vest. The man is approximately 40 years old.",
+  "summary": "The vehicle is approaching an intersection. A man on a scooter is approaching the intersection from the left side. The man on the scooter is wearing a dark blue jacket, black pants, and an orange vest. The man on the scooter is not visible until he enters the intersection. The man on the scooter is traveling at a high rate of speed. The man on the scooter collides with the vehicle.",
+  "actions": "The vehicle is approaching an intersection at a steady speed. The driver is likely maintaining speed to cross the intersection before the light changes. The driver does not appear to be slowing down or preparing to stop.",
+  "key_objects": "1) Left side: A man on a scooter, approximately 5 meters away, suddenly appearing from the left side of the intersection and colliding with the vehicle. The man is wearing a dark blue jacket, black pants, and an orange vest.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

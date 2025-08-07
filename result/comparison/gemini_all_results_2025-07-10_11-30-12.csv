@@ -1,0 +1,6 @@
+video_id,ground_truth,gt_normalized,gemini_prediction,gemini_correct
+images_1,none,none,none,True
+images_3,none,none,none,True
+images_4,none,none,none,True
+images_2,none,none,ghost probing,False
+images_5,none,none,ghost probing,False

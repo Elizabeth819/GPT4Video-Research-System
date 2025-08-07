@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_050",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car, a motorcyclist with a passenger, and a white car parked on the right side of the road. The motorcyclist is carrying a passenger with a pink backpack. The motorcyclist and passenger are both wearing dark clothing. The driver is wearing a red shirt.",
+  "summary": "The vehicle is approaching an intersection. A motorcycle with two riders suddenly appears from the left side of the road, attempting to cross the intersection. The motorcycle collides with the vehicle, causing the riders to fall off the motorcycle. The vehicle comes to a stop after the collision.",
+  "actions": "The vehicle is initially approaching an intersection at a slow speed. Upon seeing the motorcycle entering the intersection from the left, the driver attempts to brake but is unable to avoid a collision. The vehicle then comes to a complete stop after the impact.",
+  "key_objects": "1) Left: Motorcycle with two riders, medium distance, suddenly appears from behind trees and bushes, causing a collision. 2) Right: White car, parked, far distance, no impact on the current action.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

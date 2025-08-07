@@ -1,0 +1,116 @@
+[
+    {
+        "video_id": "dada_1_004",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a two-lane road. The road is relatively empty with some buildings and trees visible on the sides.  There are no pedestrians or other vehicles that pose an immediate threat. The car maintains a steady speed throughout the 5-second clip. The weather appears sunny and clear.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the 5-second video segment. There are no observable changes in speed or direction, suggesting a straightforward driving scenario on a relatively clear road.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_004",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A man on a motorcycle",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Approaching from behind, then overtaking the ego vehicle."
+            },
+            {
+                "Position": "Left",
+                "Object description": "Two people on scooters",
+                "distance": "30",
+                "behavior or action impacting the vehicle": "Maintaining a consistent distance from the ego vehicle, traveling in the same direction."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket",
+                "transportation": "Motorcycle",
+                "behavior": "Overtaking the ego vehicle"
+            },
+            {
+                "gender": "Male",
+                "age": "20-30",
+                "clothing": "Dark jacket",
+                "transportation": "Scooter",
+                "behavior": "Riding alongside another scooter"
+            },
+            {
+                "gender": "Male",
+                "age": "20-30",
+                "clothing": "Light jacket",
+                "transportation": "Scooter",
+                "behavior": "Riding alongside another scooter"
+            }
+        ],
+        "summary": "The video shows a clear sunny day. The ego vehicle is driving on a two-lane road.  A man on a motorcycle is visible in the center of the road, initially behind the ego vehicle, and then overtakes it. Two men on scooters are visible on the left side of the road, maintaining a safe distance from the ego vehicle. No immediate dangerous actions are observed.",
+        "actions": "The ego vehicle maintains a consistent speed and lane position throughout the video segment. There are no observable changes in speed or direction based on the provided frames. The driving appears to be smooth and cautious, adapting to the flow of traffic.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_004",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A man, appearing to be in his 30s, wearing a dark-colored jacket, crossing the road from right to left.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Suddenly crossing the road from the right side, potentially causing a collision if the vehicle does not brake."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "30s",
+                "gender": "Male",
+                "clothing": "Dark-colored jacket",
+                "transportation_method": "On foot",
+                "behavior": "Crossing the road from right to left, suddenly and without looking for oncoming traffic."
+            }
+        ],
+        "summary": "The video shows a man in his 30s, wearing a dark jacket, suddenly crossing the road from right to left in front of the vehicle. He appears to not check for oncoming traffic before crossing. This action is classified as 'ghost probing' due to the sudden appearance and potential for immediate collision. The man's speed of crossing is relatively fast, leaving little reaction time for the driver.",
+        "actions": "The vehicle maintains a relatively constant speed throughout the sequence. There are no observable changes in speed or direction to suggest any evasive maneuvers or braking. The driver appears to be maintaining a steady course.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right in this lane"
+        }
+    },
+    {
+        "video_id": "dada_1_004",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "15.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a clear road with a green bus on the left side, moving away from the camera.  The road appears relatively empty with no immediate threats or dangerous actions observed within the 5-second segment. The weather is sunny and clear. There are trees lining the right side of the road.",
+        "actions": "The vehicle maintains a steady speed, likely adjusting to the flow of traffic. There are no apparent reasons for acceleration, braking, or lane changes based on the provided frames. The driver is maintaining a safe distance from the bus on the left.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

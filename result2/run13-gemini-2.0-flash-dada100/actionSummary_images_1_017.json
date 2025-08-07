@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_017",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "21.5s",
+  "summary": "From 0.0s to 5.0s, the self-driving car is driving on a two-lane road with buses on both sides, partially obstructing the view. From 5.0s to 15.0s, the car continues down the road, passing parked cars on both sides. At 15.0s, the car approaches a crosswalk. From 15.0s to 21.5s, the car approaches an intersection with a green light. A male on a motorcycle wearing a black jacket and black pants is on the right side of the road. A male on a bicycle wearing a white shirt and black pants is on the right side of the road. Both are waiting to cross the road. The car continues through the intersection.",
+  "actions": "From 0.0s to 5.0s, the vehicle maintains its speed, navigating between buses on either side of the road. The driver is likely maintaining speed because the road ahead is clear. From 5.0s to 15.0s, the vehicle continues at a consistent speed, likely due to the clear road and lack of immediate obstacles. From 15.0s to 21.5s, the vehicle maintains its speed as it approaches and passes through the intersection, likely because the traffic light is green and there are no immediate hazards in its path.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none",
+  "key_objects": []
+}

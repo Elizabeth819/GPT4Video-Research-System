@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_1_025",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "17:10:51",
+    "End_Timestamp": "17:10:55",
+    "summary": "The vehicle is traveling on a rural road. Two people are standing on the side of the road behind a guardrail. One person runs onto the road and then walks across the road.",
+    "actions": "The vehicle is traveling on a rural road. The driver should be aware of the pedestrians on the side of the road and the person crossing the road.",
+    "key_objects": [
+      "pedestrians",
+      "guardrail",
+      "road"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed, be prepared to slow down",
+      "direction_control": "stay in lane",
+      "lane_control": "maintain lane"
+    }
+  }
+]

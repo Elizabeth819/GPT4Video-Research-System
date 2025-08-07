@@ -1,0 +1,104 @@
+[
+    {
+        "video_id": "010",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black car",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road. A white sedan is ahead, and a black car on the right is attempting to cut in. The self-driving vehicles driver is reluctant to let the black car merge, leading to a tense situation where both vehicles are vying for the same lane.",
+        "actions": "The self-driving vehicle maintains its lane and speed, attempting to prevent the black car from cutting in. The black car on the right is aggressively trying to merge into the lane, causing a potential conflict.",
+        "key_objects": "1) Right side: A black car, approximately 1 meter away, attempting to cut in from the right lane, moving towards the left side of the road, directly into the vehicles path.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "maintain current speed",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "010",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a motorcycle, driver of a white car on the left, driver of a white car on the right",
+        "summary": "In this segment, the self-driving vehicle is initially in a city environment with multiple lanes. The driver comments on another vehicles poor driving skills, specifically mentioning a vehicle cutting in. The scene then transitions to a highway at night, where the self-driving vehicle is in the left lane. The driver notes the presence of two large trucks in the right lane ahead.",
+        "actions": "The self-driving vehicle maintains its lane and speed while observing the poor driving behavior of another vehicle cutting in. The vehicle then transitions to a highway, continuing to drive in the left lane while noting the presence of large trucks in the right lane.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, cutting in from the right lane. 2) Right: A motorcycle, approximately 3 meters away, moving forward. 3) Left: A white car, approximately 4 meters away, maintaining its lane. 4) Right: A white car, approximately 6 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "010",
+        "Start_Timestamp": "20.837657427937916s",
+        "sentiment": "Negative",
+        "End_Timestamp": "29.76808203991131s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self vehicle, driver of the truck, driver of the white car",
+        "summary": "In this segment, the self vehicle is overtaking a truck on a highway at night. The truck suddenly changes lanes to the left, cutting in front of the self vehicle. The self vehicle then continues to overtake the truck and a white car ahead. The trucks sudden lane change poses a potential danger, requiring the self vehicle to take evasive action.",
+        "actions": "The self vehicle is overtaking a truck when the truck suddenly changes lanes to the left, cutting in front of the self vehicle. The self vehicle then continues to overtake both the truck and a white car ahead. The trucks sudden lane change requires the self vehicle to take evasive action to avoid a collision.",
+        "key_objects": "1) Front-left: A truck, approximately 5 meters away, suddenly changing lanes to the left, cutting in front of the self vehicle. 2) Front: A white car, approximately 10 meters away, being overtaken by the self vehicle.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "010",
+        "Start_Timestamp": "30.760s",
+        "sentiment": "Negative",
+        "End_Timestamp": "39.690s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white van",
+        "summary": "In this segment, the vehicle is driving on a rural road. The driver mentions the intention to overtake a small car ahead. As the vehicle approaches a left-side intersection, a white van suddenly emerges from the left, causing an emergency situation. The driver exclaims that there is no time to react, indicating a near-collision scenario.",
+        "actions": "The self-driving vehicle is moving forward on a rural road. The driver is considering overtaking a small car ahead. Suddenly, a white van emerges from a left-side intersection, creating an emergency situation. The driver attempts to react but indicates that it is too late to avoid the van.",
+        "key_objects": "1) Left side: A white van, approximately 5 meters away, suddenly emerging from a left-side intersection, directly into the vehicles path, causing an emergency situation.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight right shift"
+        }
+    },
+    {
+        "video_id": "010",
+        "Start_Timestamp": "40.683s",
+        "sentiment": "Negative",
+        "End_Timestamp": "49.613s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a silver van",
+        "summary": "In this segment, the video starts with a silver van on a narrow road, partially blocking the path. The driver comments on the vans sudden appearance, suggesting it should not have come out so abruptly. The scene then transitions to a highway where the driver suggests staying in the right lane for better visibility and safety. The driver mentions merging onto the main road at the fourth turn.",
+        "actions": "The self-driving vehicle is initially on a narrow road behind a silver van that has suddenly appeared, causing the driver to comment on the vans abrupt entry. The vehicle then transitions to a highway, where the driver advises staying in the right lane for better visibility and safety. The vehicle is preparing to merge onto the main road at the fourth turn.",
+        "key_objects": "1) Front-left: A silver van, approximately 5 meters away, suddenly appearing from the left side, partially blocking the path. 2) Front: Multiple vehicles on the highway, approximately 20 meters away, maintaining a steady speed.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "010",
+        "Start_Timestamp": "50.6s",
+        "sentiment": "Negative",
+        "End_Timestamp": "59.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Yellow taxi, white taxi",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road in an urban area. A yellow taxi is seen merging from the right side into the lane ahead of the self vehicle. The taxi stops momentarily, causing the self vehicle to slow down. Another white taxi then appears from the right side, cutting in front of the yellow taxi and the self vehicle. The self vehicle maintains a safe distance and slows down to avoid a collision.",
+        "actions": "The self vehicle slows down as the yellow taxi merges into the lane ahead and stops. The self vehicle further slows down as a white taxi cuts in from the right side, ensuring to avoid a collision.",
+        "key_objects": "1) Right side: A yellow taxi, approximately 10 meters away, merging into the lane ahead and stopping. 2) Right side: A white taxi, approximately 5 meters away, cutting in front of the yellow taxi and the self vehicle.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

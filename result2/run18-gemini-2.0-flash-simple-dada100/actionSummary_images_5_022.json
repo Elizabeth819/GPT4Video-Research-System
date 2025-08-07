@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_022",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a busy intersection with various vehicles including cars, buses, and motorcycles. There are also pedestrians visible on the sidewalks and crossing the street. The weather appears overcast. The driver is in a car.",
+  "summary": "The vehicle is approaching an intersection. Initially, the vehicle is behind a white van, obscuring the view of the intersection. As the vehicle approaches the intersection, other vehicles and pedestrians become visible. At timestamp 9.0s, another white van emerges from the right side of the road, potentially creating a ghost probing scenario.",
+  "actions": "The vehicle is initially moving forward, following the white van in front. As the vehicle approaches the intersection, it maintains its speed, likely preparing to cross the intersection if the traffic light allows. The vehicle is maintaining its lane.",
+  "key_objects": "1) Right: A white van is approaching from the right side of the road, potentially creating a ghost probing scenario, distance is close, behavior impact is high. 2) Front: A white van is directly in front of the vehicle, obscuring the view of the intersection, distance is close, behavior impact is high.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

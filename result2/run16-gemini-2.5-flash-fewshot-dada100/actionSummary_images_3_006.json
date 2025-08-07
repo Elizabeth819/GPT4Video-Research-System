@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male cyclist, wearing a light-colored shirt and dark pants, riding a bicycle.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane urban road, approaching an intersection. A dark SUV is driving ahead of the self-driving vehicle in the same lane. As the vehicles approach the intersection, the SUV in front begins to slow down and eventually comes to a stop at a crosswalk. Immediately after the SUV stops, a male cyclist suddenly emerges from behind the left side of the stopped SUV, entering the crosswalk and crossing the vehicle's path. The SUV acted as a visual obstruction, completely hiding the cyclist until their sudden appearance.",
+  "actions": "The self-driving vehicle is initially maintaining a steady speed while following the dark SUV. As the SUV ahead begins to decelerate and its brake lights illuminate, the self-driving vehicle also initiates deceleration to maintain a safe following distance and prepare for the intersection. The vehicle then comes to a complete stop behind the SUV at the crosswalk, responding to the lead vehicle's stop and the implied traffic conditions (e.g., a red light or yielding). The vehicle remains stopped as the cyclist unexpectedly appears from behind the SUV and crosses the path, demonstrating a safe response to the sudden obstruction and pedestrian presence.",
+  "key_objects": "1) Left side: A dark SUV, approximately 5-10 meters away, positioned directly in front of the self-driving vehicle, acting as a significant visual obstruction that completely hid the approaching cyclist. 2) Left side: A male cyclist, approximately 3-5 meters away, suddenly emerging from behind the dark SUV and entering the crosswalk from the left, directly into the vehicle's potential path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

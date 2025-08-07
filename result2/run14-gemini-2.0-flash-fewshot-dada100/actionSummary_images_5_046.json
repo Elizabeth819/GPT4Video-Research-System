@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_046",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male adult, wearing a white shirt and light-colored shorts, is riding a scooter from left to right across the road.",
+  "summary": "The vehicle is at an intersection at night. The traffic light is green. A male adult wearing a white shirt and light-colored shorts is riding a scooter from the left side of the road, crossing into the vehicle's path. The scooter emerges from behind a line of parked cars, creating a ghost probing situation. The scooter is moving at a moderate speed.",
+  "actions": "The vehicle is approaching an intersection with a green light, maintaining a steady speed. The driver is likely proceeding through the intersection, assuming right-of-way. The vehicle may need to decelerate or brake if the scooter continues to cross the road.",
+  "key_objects": "1) Left side: A male adult on a scooter, approximately 5 meters away, crossing the road from left to right, emerging from behind parked cars. 2) Left side: Parked cars, approximately 7 meters away, obstructing the view of the scooter until it enters the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

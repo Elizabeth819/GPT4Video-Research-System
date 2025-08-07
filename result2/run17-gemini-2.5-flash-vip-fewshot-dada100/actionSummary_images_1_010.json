@@ -1,0 +1,56 @@
+[
+  {
+    "video_id": "images_1_010",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A person on a scooter wearing light-colored clothing.",
+    "summary": "The vehicle is traveling on a road with a high wall on the right side. From 0.0s to 4.0s, the road ahead appears clear. At 5.0s, a person on a scooter appears on the right side of the road. By 8.0s, the person on the scooter is moving into the lane. At 9.0s, the person on the scooter is fully in the lane, posing a potential collision risk.",
+    "actions": "The vehicle is maintaining a consistent speed as it travels down the road. The driver is likely unaware of the person on the scooter until they become visible in the lane. The vehicle will need to decelerate or change lanes to avoid a collision.",
+    "key_objects": "1) Right side: A person on a scooter, approximately 5 meters away, moving into the lane and posing a collision risk.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_010",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "20.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Male on scooter in white clothing, approximately 30 years old",
+    "summary": "The vehicle is driving on a residential street. At 5.0s, a male on a scooter wearing white clothing suddenly appears from the left side of the road. The scooter is moving quickly, creating a potential ghost probing situation. The vehicle is approaching the male on the scooter, and a collision is possible if no action is taken.",
+    "actions": "The self-driving vehicle is maintaining a steady speed on the residential street. The vehicle is moving straight ahead. The vehicle is maintaining its current speed and direction.",
+    "key_objects": "1) Left side: A male on a scooter, approximately 5 meters away, suddenly appearing and moving quickly into the vehicle's path. 2) Left side: Trees and bushes, approximately 10 meters away, creating a visual obstruction that hides the scooter until emergence.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_010",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "20.0s",
+    "End_Timestamp": "22.7s",
+    "sentiment": "Neutral",
+    "scene_theme": "Routine",
+    "characters": "Black van",
+    "summary": "The self-driving vehicle is traveling on a straight road. A black van is on the left side of the road, moving in the same direction as the self-driving vehicle. The van is gradually getting closer to the self-driving vehicle.",
+    "actions": "The self-driving vehicle is maintaining a constant speed and direction. The vehicle is moving straight ahead on the road. The driver is maintaining the current speed because there are no immediate obstacles or safety concerns.",
+    "key_objects": "1) Left side: A black van, approximately 5 meters away, moving in the same direction and gradually getting closer.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

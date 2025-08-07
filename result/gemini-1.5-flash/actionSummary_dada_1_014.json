@@ -1,0 +1,21 @@
+[
+  {
+    "video_id": "dada_1_014",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00.000",
+    "End_Timestamp": "00:00:09.000",
+    "summary": "The vehicle is driving on a road in a rural area. A child suddenly appears from the right side of the road, crossing the road. The child was partially obscured by buildings.",
+    "actions": "The vehicle should slow down and prepare to stop due to the child crossing the road.",
+    "key_objects": [
+      "child",
+      "road",
+      "buildings"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "slow down",
+      "direction_control": "maintain lane",
+      "lane_control": "none"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_34_034",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a brown car, driver of a black SUV",
+        "summary": "In this segment, the vehicle is driving on a highway. A white sedan and a brown car are visible on the left side, while a black SUV is on the right side. The white sedan suddenly moves into the self-vehicles lane, causing a potential cut-in situation. The brown car and black SUV maintain their positions, but the white sedans abrupt lane change poses a risk.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the sudden lane change of the white sedan. The vehicles speed remains steady to avoid collision with the white sedan that has cut into its lane.",
+        "key_objects": "1) Left side: A white sedan, approximately 5 meters away, suddenly moves into the self-vehicles lane, causing a cut-in situation. 2) Left side: A brown car, approximately 3 meters away, maintaining its position. 3) Right side: A black SUV, approximately 4 meters away, maintaining its position.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

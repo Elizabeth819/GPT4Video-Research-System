@@ -1,0 +1,64 @@
+[
+    {
+        "video_id": "dada_1_016",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A woman wearing a red shirt and dark pants",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "crossing the road from right to left, appearing suddenly in front of the vehicle."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "female",
+                "age": "40-50",
+                "clothing": "red shirt, dark pants",
+                "transportation_method": "walking",
+                "behavior": "crossing the road from right to left, appearing suddenly in front of the vehicle."
+            }
+        ],
+        "summary": "The video shows a car driving on a multi-lane road. At approximately 3.3 seconds, a woman wearing a red shirt and dark pants suddenly crosses the road from right to left in front of the car.  The woman's appearance is unexpected and rapid, creating a ghost probing scenario. The car is likely to need to brake suddenly to avoid a collision. The speed of the woman is moderate, but her sudden appearance poses a significant risk.",
+        "actions": "The vehicle maintains a consistent speed throughout the 5-second segment.  There are no observable changes in direction or speed to suggest any evasive maneuvers prior to the appearance of the pedestrian. The vehicle appears to be traveling at a moderate speed, appropriate for the road conditions.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_016",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.2s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A person wearing a red jacket, appearing to be middle-aged, walking along the roadside.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "The person is walking at a moderate pace, but their proximity to the road and potential for sudden movement poses a risk of ghost probing."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "age": "Middle-aged",
+                "gender": "Male",
+                "clothing": "Red jacket",
+                "transportation": "Walking",
+                "behavior": "Walking along the roadside, potential for sudden movement into the road."
+            }
+        ],
+        "summary": "The video shows a car driving on a city road.  At approximately 5 seconds, a middle-aged man wearing a red jacket is visible on the right side of the road, walking at a moderate pace.  His proximity to the road and potential for sudden movement into the vehicle's path presents a significant risk of a ghost probing incident.  The driver needs to be vigilant and prepared to brake if necessary.  The man's behavior is not erratic, but his position and the lack of clear pedestrian crossing make him a potential hazard.",
+        "actions": "The vehicle maintains a consistent speed, suggesting the driver is navigating a relatively clear road with moderate traffic.  There are no immediate obstacles or changes in road conditions requiring the driver to alter speed or direction significantly. The driver appears to be maintaining a safe following distance from the vehicle ahead.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep right"
+        }
+    }
+]

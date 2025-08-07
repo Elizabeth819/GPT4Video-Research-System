@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_013",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child in a blue jacket and a man in a yellow shirt, as well as a cyclist and a bus driver.",
+  "summary": "The video sequence shows several instances of 'ghost probing' behavior. In the first sequence, a child suddenly emerges from the right side of the road, hidden by a parked vehicle, creating an immediate collision risk. In the second sequence, a pedestrian with a child suddenly appears from behind a parked van on the left side, directly entering the driving lane. In the third sequence, a man in a yellow shirt darts out from the left side of the road, hidden by a parked truck, causing a dangerous situation. Finally, a bus suddenly emerges from the right side, hidden by trees, with a pedestrian crossing in front of it, creating a high-risk scenario.",
+  "actions": "The observer vehicle encounters multiple sudden emergences of pedestrians and a bus from behind obstructions, requiring immediate braking and evasive maneuvers.",
+  "key_objects": "Parked vehicles on both sides of the road, a bus, pedestrians, and cyclists.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

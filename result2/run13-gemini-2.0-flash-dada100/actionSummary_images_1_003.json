@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_003",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "9.0s",
+  "summary": "The self-driving car is moving forward on a dark road at night. From 0.0s to 2.0s, the car is driving straight. At 2.0s, a child wearing a blue jacket suddenly appears in the middle of the road. From 5.0s to 9.0s, a woman wearing a pink jacket is seen helping the child in the middle of the road. The child and the woman are in a potentially dangerous situation.",
+  "actions": "The vehicle is moving forward on a straight road. The driver is maintaining a consistent speed, likely due to the road conditions and the presence of other vehicles in the distance. The driver may be slowing down due to the presence of the child and woman in the road.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "[Front]: A child wearing a blue jacket, approximately 10 meters away, suddenly appears in the middle of the road, creating a ghost probing situation. [Front]: A woman wearing a pink jacket, approximately 5 meters away, is helping the child in the middle of the road, potentially causing the vehicle to decelerate or stop."
+}

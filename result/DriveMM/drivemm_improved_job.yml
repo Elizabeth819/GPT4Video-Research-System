@@ -1,0 +1,14 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+code: ./
+command: python azure_real_drivemm_improved.py
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+compute: drivemm-a100-cluster
+experiment_name: drivemm_improved_analysis
+display_name: DriveMM_Improved_DADA2000_20250714_153237
+description: Improved DriveMM analysis with advanced video feature extraction on DADA-2000
+tags:
+  model: DriveMM-Improved
+  dataset: DADA-2000
+  task: ghost_probing_detection
+  gpu: A100-80GB
+  mode: advanced_analysis

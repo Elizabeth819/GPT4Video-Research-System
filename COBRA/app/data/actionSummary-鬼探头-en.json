@@ -1,0 +1,128 @@
+[
+    {
+        "video_id": "鬼探头.mp4",
+        "segment_id": "interval_0.0_4.0",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "4.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "Driver of the vehicle",
+        "summary": "In this video segment, the vehicle is traveling on a residential road. There are several cars parked on the roadside ahead, and a black SUV is reversing on the right side. The ego vehicle maintains low speed and gradually turns right during the journey.",
+        "actions": "The ego vehicle maintains low speed and gradually turns right, possibly to avoid the parked vehicles ahead and the black SUV reversing on the right side.",
+        "key_objects": "1) Front: Several vehicles parked on the roadside, about 5 meters away, may suddenly start or turn. 2) Right side: A black SUV reversing, about 3 meters away, may continue reversing or suddenly stop.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "maintain low speed",
+            "direction_control": "stable steering",
+            "lane_control": "turn right"
+        }
+    },
+    {
+        "video_id": "鬼探头.mp4",
+        "segment_id": "interval_4.4_8.0",
+        "Start_Timestamp": "4.4s",
+        "End_Timestamp": "8.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "A child in red clothing and an adult in black clothing",
+        "summary": "In this video segment, the vehicle is traveling on a residential road. Ahead, a child in red clothing and an adult in black clothing are crossing the road. The ego vehicle maintains low speed to ensure safe passage.",
+        "actions": "The ego vehicle maintains low speed, possibly because there are pedestrians crossing ahead. The driver needs to drive carefully to avoid collision with pedestrians. The vehicle's speed gradually decreases, reaching 5 km/h in the final frame, about 3 meters from the pedestrians ahead.",
+        "key_objects": "1) Front: A child in red clothing and an adult in black clothing crossing the road, about 3 meters away, may continue walking forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "deceleration",
+            "direction_control": "maintain direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "鬼探头.mp4",
+        "segment_id": "interval_8.4_12.0",
+        "Start_Timestamp": "8.4s",
+        "End_Timestamp": "12.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "Driver of the vehicle",
+        "summary": "In this video segment, the vehicle is traveling on a residential road. There are several cars parked on the roadside ahead, and a red tricycle is parked in front of a shop on the right side. The vehicle travels slowly with no obvious obstacles or emergencies ahead.",
+        "actions": "The ego vehicle maintains low speed, possibly because there are vehicles parked on the roadside ahead. The driver needs to drive carefully to avoid collision with parked vehicles. The vehicle's speed gradually decreases, reaching 10 km/h in the final frame.",
+        "key_objects": "1) Left side: Several vehicles parked on the roadside, about 5 meters away, may suddenly start or turn. 2) Right side: A red tricycle parked in front of a shop, about 3 meters away, may suddenly start or turn.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow forward",
+            "direction_control": "maintain direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "鬼探头.mp4",
+        "segment_id": "interval_12.4_16.0",
+        "Start_Timestamp": "12.4s",
+        "End_Timestamp": "16.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Man riding electric scooter",
+        "summary": "In this video segment, the vehicle is traveling on a narrow street. Ahead, a man riding an electric scooter emerges from the right side, gradually approaching the center of the road. The ego vehicle decelerates during travel to avoid collision with the electric scooter rider.",
+        "actions": "The ego vehicle decelerates, possibly because there is a man riding an electric scooter ahead gradually approaching the center of the road. The driver needs to drive carefully to avoid collision. The ego vehicle maintains low speed in the final frame, about 5 meters from the electric scooter ahead.",
+        "key_objects": "1) Right side: A man riding an electric scooter, gradually approaching the center of the road, about 5 meters away, may continue forward or suddenly turn. 2) Left side: A white SUV parked on the roadside, about 2 meters away, may suddenly start.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "deceleration",
+            "direction_control": "stable steering",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "鬼探头.mp4",
+        "segment_id": "interval_16.4_20.0",
+        "Start_Timestamp": "16.4s",
+        "End_Timestamp": "20.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "Driver of white sedan",
+        "summary": "In this video segment, the vehicle is traveling on a narrow city street. There are several cars parked on the roadside ahead, with pedestrians and parked motorcycles on the right side. A white sedan on the left pulls out from a parking space into the lane. The ego vehicle maintains low speed to avoid collision with the emerging white sedan.",
+        "actions": "The ego vehicle maintains low speed, possibly because there is a vehicle pulling out ahead. The driver needs to drive carefully to avoid collision with the emerging white sedan. The ego vehicle continues to maintain low speed in the final frame, about 10 meters from the vehicle ahead.",
+        "key_objects": "1) Left side: A white sedan pulling out from parking space into the lane, about 5 meters away, may continue to accelerate or decelerate. 2) Right side: Pedestrians and parked motorcycles, about 15 meters away, may continue to stay or move.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "deceleration",
+            "direction_control": "stable steering",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "鬼探头.mp4",
+        "segment_id": "interval_20.4_24.0",
+        "Start_Timestamp": "20.4s",
+        "End_Timestamp": "24.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dangerous",
+        "characters": "Red sedan driver, white sedan driver, little girl",
+        "summary": "In this video segment, the vehicle is traveling on a narrow street. There are several cars parked on the roadside ahead. Suddenly, a little girl in red clothing runs out from the right side, attempting to cross the road. Both the red sedan and white sedan are parked on the roadside. In the final frame, the little girl has run to the middle of the road, very close to the ego vehicle.",
+        "actions": "The ego vehicle maintains low speed, possibly due to parked vehicles and pedestrian activity ahead. In the final frame, the ego vehicle brakes emergency to avoid collision with the suddenly appearing little girl.",
+        "key_objects": "1) Right side: A little girl in red clothing, very close at about 1 meter, suddenly runs out from the right side attempting to cross the road. 2) Left side: A red sedan parked on the roadside, about 2 meters away. 3) Right side: A white sedan parked on the roadside, about 3 meters away.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "maintain direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "鬼探头.mp4",
+        "segment_id": "interval_24.4_28.0",
+        "Start_Timestamp": "24.4s",
+        "End_Timestamp": "28.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dangerous",
+        "characters": "Multiple pedestrians",
+        "summary": "In this video segment, the vehicle is traveling on a residential road. There are multiple pedestrians and parked motorcycles ahead. Suddenly, a little girl in red clothing runs out from the right side and falls in front of the ego vehicle. Other pedestrians quickly react, trying to help the little girl.",
+        "actions": "The ego vehicle maintains low speed, possibly due to pedestrians and parked motorcycles ahead. In the final frame, the ego vehicle is stationary, about 1 meter from the little girl.",
+        "key_objects": "1) Right side: A little girl in red clothing suddenly runs out and falls in front of the ego vehicle, about 1 meter away. 2) Left side: Multiple pedestrians, about 2 meters away, trying to help the little girl.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "maintain direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

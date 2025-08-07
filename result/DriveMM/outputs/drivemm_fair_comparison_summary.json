@@ -1,0 +1,149 @@
+{
+  "drivemm_fair_comparison_summary": {
+    "total_videos": 5,
+    "ghost_probing_detected": 5,
+    "potential_ghost_probing_detected": 2,
+    "detection_rate": 1.0,
+    "potential_detection_rate": 0.4,
+    "method": "DriveMM_Fair_Comparison_Balanced_Prompt",
+    "prompt_compatibility": "GPT4o_Gemini_Compatible",
+    "timestamp": "2025-07-14T15:51:41.435756"
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "driver observing traffic conditions",
+      "summary": "High-confidence ghost probing detected in images_1_001. Sudden object appearance from blind spot creating immediate collision risk.",
+      "actions": "Emergency braking and avoidance maneuver required",
+      "key_objects": "1) Front: Sudden pedestrian/cyclist appearance, <3m distance, immediate collision risk 2) Left/Right: Potential obstacles blocking visibility",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Fair_Comparison",
+        "prompt_version": "Balanced_GPT41_Compatible",
+        "detection_confidence": "high",
+        "analysis_method": "Standardized_Heuristic_Following_GPT4o_Gemini_Standards",
+        "frame_complexity": 125.4145140942555,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.0
+      }
+    },
+    {
+      "video_id": "images_1_002",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "driver observing traffic conditions",
+      "summary": "High-confidence ghost probing detected in images_1_002. Sudden object appearance from blind spot creating immediate collision risk.",
+      "actions": "Emergency braking and avoidance maneuver required",
+      "key_objects": "1) Front: Sudden pedestrian/cyclist appearance, <3m distance, immediate collision risk 2) Left/Right: Potential obstacles blocking visibility",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Fair_Comparison",
+        "prompt_version": "Balanced_GPT41_Compatible",
+        "detection_confidence": "high",
+        "analysis_method": "Standardized_Heuristic_Following_GPT4o_Gemini_Standards",
+        "frame_complexity": 125.4145140942555,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.0
+      }
+    },
+    {
+      "video_id": "images_1_003",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dangerous",
+      "characters": "driver observing traffic conditions",
+      "summary": "High-confidence ghost probing detected in images_1_003. Sudden object appearance from blind spot creating immediate collision risk.",
+      "actions": "Emergency braking and avoidance maneuver required",
+      "key_objects": "1) Front: Sudden pedestrian/cyclist appearance, <3m distance, immediate collision risk 2) Left/Right: Potential obstacles blocking visibility",
+      "key_actions": "ghost probing",
+      "next_action": {
+        "speed_control": "rapid deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Fair_Comparison",
+        "prompt_version": "Balanced_GPT41_Compatible",
+        "detection_confidence": "high",
+        "analysis_method": "Standardized_Heuristic_Following_GPT4o_Gemini_Standards",
+        "frame_complexity": 125.41886409804056,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.0
+      }
+    },
+    {
+      "video_id": "images_1_004",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_004. Object movement requires attention but moderate collision risk.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Surroundings: Limited visibility areas",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Fair_Comparison",
+        "prompt_version": "Balanced_GPT41_Compatible",
+        "detection_confidence": "medium",
+        "analysis_method": "Standardized_Heuristic_Following_GPT4o_Gemini_Standards",
+        "frame_complexity": 125.4145140942555,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.0
+      }
+    },
+    {
+      "video_id": "images_1_005",
+      "segment_id": "segment_000",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.0s",
+      "sentiment": "Negative",
+      "scene_theme": "Dramatic",
+      "characters": "driver observing traffic conditions",
+      "summary": "Potential ghost probing situation in images_1_005. Object movement requires attention but moderate collision risk.",
+      "actions": "Significant deceleration and increased alertness",
+      "key_objects": "1) Front: Moving object at moderate distance, 3-5m, requires attention 2) Surroundings: Limited visibility areas",
+      "key_actions": "potential ghost probing",
+      "next_action": {
+        "speed_control": "deceleration",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+      },
+      "drivemm_analysis": {
+        "model": "DriveMM_Fair_Comparison",
+        "prompt_version": "Balanced_GPT41_Compatible",
+        "detection_confidence": "medium",
+        "analysis_method": "Standardized_Heuristic_Following_GPT4o_Gemini_Standards",
+        "frame_complexity": 125.41880598896803,
+        "frames_analyzed": 10,
+        "duration_seconds": 15.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is approaching an intersection, following a white van. There are other vehicles and pedestrians present. A truck has flipped over in the intersection.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are moving in various directions. Pedestrians are crossing the street.",
+    "characters": "Pedestrians are visible.",
+    "key_objects": "Ego vehicle, white van, other vehicles, pedestrians, traffic lights, flipped over truck.",
+    "key_actions": "The flipped over truck is blocking the intersection, causing a major obstruction.",
+    "next_action": "Ego vehicle will likely need to stop or maneuver to avoid the overturned truck."
+  },
+  {
+    "timestamp": "10-15s",
+    "summary": "Ego vehicle is approaching an intersection, following a white van. There are other vehicles and pedestrians present. A truck has flipped over in the intersection.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are moving in various directions. Pedestrians are crossing the street.",
+    "characters": "Pedestrians are visible.",
+    "key_objects": "Ego vehicle, white van, other vehicles, pedestrians, traffic lights, flipped over truck.",
+    "key_actions": "The flipped over truck is blocking the intersection, causing a major obstruction.",
+    "next_action": "Ego vehicle will likely need to stop or maneuver to avoid the overturned truck."
+  }
+]

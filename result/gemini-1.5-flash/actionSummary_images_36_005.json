@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_36_005",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a van, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A white sedan is seen ahead, and a van is driving closely behind it. A motorcyclist is also present on the right side of the road. The white sedan suddenly accelerates and crashes into a pole, causing a dramatic scene.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the urban road. The driver is likely cautious due to the presence of multiple vehicles and a motorcyclist. The sudden acceleration and crash of the white sedan ahead may prompt the driver to decelerate or stop to avoid any potential collision.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, suddenly accelerates and crashes into a pole. 2) Right: A motorcyclist, approximately 5 meters away, driving steadily. 3) Rear: A van, approximately 3 meters away, driving closely behind the white sedan.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_36_005",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white van, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, a white van is moving slowly, and a motorcyclist is on the right side of the road. The motorcyclist appears to be stationary initially but starts moving forward in the last frame.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the white van ahead. The motorcyclist on the right side starts moving forward, which may require the vehicle to adjust its speed or direction.",
+        "key_objects": "1) Front: A white van, approximately 5 meters away, moving slowly. 2) Right: A motorcyclist, approximately 3 meters away, initially stationary but starts moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_36_005",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.4s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. Ahead, there are two sedans, a black one and a white one, moving in the same direction. The black sedan is on the left side of the road, while the white sedan is on the right side. Both vehicles are maintaining a steady speed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the two sedans ahead. The vehicle is keeping a safe distance from the sedans, ensuring smooth driving without any sudden changes in speed or direction.",
+        "key_objects": "1) Front left: A black sedan, approximately 30 meters away, moving steadily. 2) Front right: A white sedan, approximately 35 meters away, moving steadily.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle approaches an intersection with several large trucks parked on the right side of the road. The road appears to be under construction or in a state of disrepair. A motorcycle and its rider are lying on the road in front of the ego vehicle.",
+    "actions": "Ego vehicle is moving forward. Trucks are stationary. A person is standing next to a motorcycle that is lying on the road.",
+    "characters": "A person is visible standing next to the motorcycle.",
+    "key_objects": "Ego vehicle, trucks, motorcycle, person, intersection",
+    "key_actions": "The motorcycle and rider are lying on the road, creating a potential hazard for the ego vehicle. The person is attempting to right the motorcycle.",
+    "next_action": "Ego vehicle will likely slow down and navigate around the motorcycle and person."
+  }
+]

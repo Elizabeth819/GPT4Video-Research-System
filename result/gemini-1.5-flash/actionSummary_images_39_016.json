@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_39_016",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a yellow bus, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on an urban road. A yellow bus is initially on the right side of the road, and a black car appears from behind and overtakes the self-driving vehicle from the right side.",
+        "actions": "The self-driving vehicle maintains a consistent speed while driving on the urban road. The vehicle keeps a safe distance from the yellow bus on the right side and the black car that overtakes from the right side.",
+        "key_objects": "1) Right side: A yellow bus, approximately 5 meters away, moving steadily. 2) Right side: A black car, approximately 3 meters away, overtaking the self-driving vehicle.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_023",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Female pedestrian in white pants and a dark top, approximately 20-30 years old, involved in a collision. Other pedestrians are visible on the right side of the crosswalk. Drivers of a silver sedan and a black sedan are also present.",
+  "summary": "In this segment, the self-driving vehicle is traveling on an urban road, approaching a marked pedestrian crossing. There are multiple vehicles and pedestrians in the vicinity. A silver sedan is on the left side, slightly ahead, followed by a black sedan. As the black sedan proceeds, a female pedestrian suddenly emerges from the left side of the road, from behind the silver sedan and then directly into the path of the black sedan, attempting to cross the pedestrian lane. The black sedan collides with the pedestrian, causing her to fall onto the road. This sudden and unexpected emergence from behind other vehicles creates an immediate and severe hazard, leading to a collision.",
+  "actions": "The self-driving vehicle is approaching the pedestrian crossing at a moderate speed. It observes the traffic flow, including the silver and black sedans on its left. Upon the sudden emergence of the pedestrian from behind the silver sedan and into the path of the black sedan, resulting in a collision, the self-driving vehicle immediately initiates rapid deceleration. This action is taken to prevent any potential secondary collision, ensure the safety of the vehicle's occupants, and respond to the unfolding dangerous situation directly ahead and to its left.",
+  "key_objects": "1) Left side: A female pedestrian, approximately 20-30 years old, wearing white pants and a dark top, suddenly emerging from behind a silver sedan and then directly in front of a black sedan, approximately 5-10 meters away, and being struck by the black sedan. 2) Left side: A silver sedan, approximately 10-15 meters away, acting as an initial visual obstruction for the pedestrian's emergence. 3) Left side: A black sedan, approximately 5-10 meters away, which collides with the pedestrian after she emerges from behind the silver sedan, acting as a moving obstruction for the self-driving vehicle's view of the pedestrian.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_026",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "7.0s",
+    "scene_theme": "Night driving",
+    "sentiment": "Neutral",
+    "characters": "Driver of a car, a motorcyclist, a person on a scooter, a pedestrian.",
+    "summary": "The video shows a car driving at night on a road with some trees and buildings in the background.  A motorcyclist is visible in the right lane, initially moving alongside the car. A person on a scooter is also visible in the right lane, moving at a slower pace. A pedestrian is seen walking on the sidewalk, not posing an immediate threat. The motorcyclist maintains a safe distance from the car throughout the sequence. The scooter rider also maintains a safe distance. The pedestrian remains on the sidewalk.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 7-second sequence.  There are no observable changes in speed or direction. The vehicle's actions are consistent with normal driving behavior in the observed conditions.",
+    "key_objects": "None",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

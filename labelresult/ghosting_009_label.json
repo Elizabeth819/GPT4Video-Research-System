@@ -1,0 +1,58 @@
+[
+    {
+        "event_id": "event_003",
+        "video_id": "008_鬼探头遇上右侧超车-2min",
+        "start_timestamp": "11.00s",
+        "end_timestamp": "20.00s",
+        "timestamp": "2024-12-15 15:09:21",
+        "key_objects": "a sportscar ",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_003",
+        "video_id": "008_鬼探头遇上右侧超车-2min",
+        "start_timestamp": "20.00s",
+        "end_timestamp": "30.00s",
+        "timestamp": "2024-12-15 15:09:21",
+        "key_objects": "a sedan from the left",
+        "key_actions": "overtaken left",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_004",
+        "video_id": "008_鬼探头遇上右侧超车-2min",
+        "start_timestamp": "30.00s",
+        "end_timestamp": "40.00s",
+        "timestamp": "2024-12-15 15:10:54",
+        "key_objects": "a red truck on the right",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "change to left lane"
+        }
+    },
+    {
+        "event_id": "event_005",
+        "video_id": "008_鬼探头遇上右侧超车-2min",
+        "start_timestamp": "40.00s",
+        "end_timestamp": "50.00s",
+        "timestamp": "2024-12-15 15:40:46",
+        "key_objects": "an small car from the left",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "slight right shift"
+        }
+    }
+]

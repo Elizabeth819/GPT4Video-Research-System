@@ -1,0 +1,98 @@
+[
+    {
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "4.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver, pedestrians, parked cars",
+        "summary": "In this segment, the vehicle is driving through a residential area with several parked cars on both sides of the road. A motorcyclist is seen on the left side of the road, and a pedestrian is walking on the right side. The vehicle is moving at a slow speed, navigating through the parked cars and pedestrians. The road is clear ahead, and there are no immediate obstacles or dangers.",
+        "actions": "The vehicle is driving slowly and carefully through a residential area, avoiding parked cars and pedestrians. The vehicles speed is consistent and slow, ensuring safety in the residential area.",
+        "key_objects": "1) Left side: A motorcyclist, approximately 5 meters away, moving forward. 2) Right side: A pedestrian, approximately 10 meters away, walking towards the right side of the road. 3) Middle: Parked cars on both sides of the road, approximately 2-3 meters away from the vehicle.",
+        "key_actions": "无危险行为",
+        "next_action": "由于前方道路畅通，建议司机继续保持当前速度和方向，确保安全通过。下一步行动:速度控制: 慢速直行, 方向控制: 保持方向, 车道控制: 保持在当前车道"
+    },
+    {
+        "Start_Timestamp": "4.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "Woman in red jacket, child in black pants",
+        "summary": "In this segment, a woman in a red jacket and a child in black pants are seen walking from the right side of the frame towards the left. They are crossing the road in front of the self vehicle. The self vehicle is moving slowly and maintaining a safe distance from the pedestrians. The woman and child continue to walk across the road without any sudden movements. The self vehicle does not need to take any immediate action as the pedestrians are moving at a steady pace and there is no immediate danger.",
+        "actions": "The self vehicle is moving slowly and maintaining a safe distance from the pedestrians. The vehicles speed is consistent and there are no sudden changes in direction or speed.",
+        "key_objects": "1) Right side: Woman in red jacket, approximately 5 meters away, walking steadily across the road. 2) Right side: Child in black pants, approximately 5 meters away, walking steadily across the road.",
+        "key_actions": "无危险行为",
+        "next_action": "由于行人正在稳定地穿过马路，建议司机继续保持当前速度和方向，确保与行人保持安全距离。下一步行动:速度控制: 保持当前速度, 方向控制: 保持方向, 车道控制: 保持在当前车道"
+    },
+    {
+        "Start_Timestamp": "8.266666666666667s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver, parked cars, pedestrian, motorbike",
+        "summary": "In this segment, the vehicle is driving through a residential area with parked cars on both sides of the road. A pedestrian is seen walking on the right side of the road, and a motorbike is parked on the right side. The vehicle maintains a steady speed and continues to move forward without any sudden stops or changes in direction.",
+        "actions": "The vehicle maintains a steady speed and continues to move forward. The driver is cautious of the pedestrian and the parked motorbike on the right side of the road. The vehicles speed is consistent, and there are no sudden stops or changes in direction.",
+        "key_objects": "1) Right side: A pedestrian, approximately 10 meters away, walking along the sidewalk, likely to continue walking. 2) Right side: A parked motorbike, approximately 8 meters away, stationary and not posing an immediate threat. 3) Left side: Parked cars, approximately 2 meters away, stationary and not posing an immediate threat.",
+        "key_actions": "无危险行为",
+        "next_action": "由于前方有行人和停放的摩托车，建议司机保持警惕，继续保持当前速度和方向。下一步行动:速度控制: 保持当前速度, 方向控制: 保持方向, 车道控制: 保持在当前车道"
+    },
+    {
+        "Start_Timestamp": "12.266666666666667s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "16.0s",
+        "scene_theme": "Calm",
+        "characters": "Man with stroller",
+        "summary": "In this segment, the vehicle is driving down a residential street. A man with a stroller is walking on the right side of the road. The man and stroller gradually move closer to the edge of the road as the vehicle approaches. The vehicle maintains a steady speed and does not show any signs of sudden braking or acceleration.",
+        "actions": "The vehicle maintains a steady speed and continues to drive straight. The man with the stroller moves closer to the edge of the road but does not step into the vehicles path.",
+        "key_objects": "1) Right side: A man with a stroller, approximately 2 meters away, moving closer to the edge of the road but not stepping into the vehicles path. 2) Left side: Parked cars, approximately 1 meter away, stationary and posing no immediate threat.",
+        "key_actions": "无危险行为",
+        "next_action": "由于前方有一名推着婴儿车的男子靠近路边行走，建议司机保持警惕，继续保持当前车速并注意观察。下一步行动:速度控制: 保持当前车速, 方向控制: 保持方向, 车道控制: 保持在当前车道"
+    },
+    {
+        "Start_Timestamp": "16.266666666666666s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Calm",
+        "characters": "White car, silver car, red car, pedestrians",
+        "summary": "In this segment, the self-driving car is moving down a residential street. A white car is seen pulling out from a parking spot on the left side of the road. The self-driving car maintains a steady speed and continues straight. Pedestrians are visible on the right side of the road, near the buildings. The red car ahead remains stationary throughout the frames.",
+        "actions": "The self-driving car maintains a steady speed and continues straight. The white car on the left is pulling out from a parking spot, but there is no immediate danger as the self-driving car maintains a safe distance. Pedestrians on the right side of the road are stationary and do not pose a threat.",
+        "key_objects": "1) Left side: A white car pulling out from a parking spot, approximately 5 meters ahead. 2) Right side: Pedestrians near the buildings, approximately 10 meters ahead. 3) Middle: A red car stationary, approximately 15 meters ahead.",
+        "key_actions": "None",
+        "next_action": "Speed Control: Maintain current speed. Direction Control: Keep straight. Lane Control: Stay in the current lane."
+    },
+    {
+        "Start_Timestamp": "20.266666666666666s",
+        "sentiment": "Negative",
+        "End_Timestamp": "24.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Child in red jacket, people on the sidewalk",
+        "summary": "In this sequence, the self vehicle is driving down a narrow street with parked cars on both sides. A child in a red jacket suddenly runs from the right side of the street towards the middle of the road, directly in front of the self vehicle. The child appears from behind a parked white car, creating a sudden and dangerous situation. The self vehicle needs to take immediate action to avoid a collision.",
+        "actions": "The self vehicle is moving forward at a steady speed. As the child in the red jacket suddenly appears and runs into the street, the self vehicle must brake immediately to avoid hitting the child.",
+        "key_objects": "1) Right side: A child in a red jacket, approximately 2 meters away, running into the street. 2) Middle of the road: Parked white car, approximately 3 meters away, partially obstructing the view.",
+        "key_actions": "Ghosting probing: 23.2s",
+        "next_action": "Due to the sudden appearance of the child in the red jacket running into the street, the driver should brake immediately to avoid a collision. Next action: Speed control: Rapid deceleration, Direction control: Stabilize the steering wheel, Lane control: Maintain the current lane."
+    },
+    {
+        "Start_Timestamp": "24.266666666666666s",
+        "sentiment": "Negative",
+        "End_Timestamp": "28.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Child in red jacket, woman in black coat",
+        "summary": "In this video segment, a child in a red jacket suddenly runs from the right side of the frame towards the center of the road, directly in front of the car. The child appears to be playing and is not paying attention to the traffic. A woman in a black coat, possibly the childs guardian, is seen running after the child, trying to stop them. The car is stationary throughout the sequence, likely due to the sudden appearance of the child.",
+        "actions": "The car remains stationary to avoid a potential collision with the child who suddenly runs into the road. The driver likely stopped the car as a precautionary measure.",
+        "key_objects": "1) Right side: A child in a red jacket, approximately 2 meters away, running towards the center of the road. 2) Center: A woman in a black coat, approximately 3 meters away, running after the child.",
+        "key_actions": "sudden appearance: 25.6s, 25.866666666666667s, 26.133333333333333s, 26.4s, 26.666666666666668s, 26.933333333333334s, 27.2s, 27.466666666666665s, 27.733333333333334s, 28.0s",
+        "next_action": "Due to the sudden appearance of the child running into the road, it is recommended that the driver remains stationary until the child is safely out of the way. Next action: Speed control: Wait, Direction control: Maintain direction, Lane control: Stay in the current lane"
+    },
+    {
+        "Start_Timestamp": "28.266666666666666s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "32.0s",
+        "scene_theme": "Calm",
+        "characters": "Woman in black coat, people on the left side",
+        "summary": "In this segment, a woman in a black coat is crossing the road from left to right. She starts from the left side of the frame and moves towards the right side, gradually getting closer to the self vehicle. Several people are standing on the left side of the road near parked scooters. The woman continues to cross the road, and by the end of the segment, she is almost out of the frame on the right side. The self vehicle remains stationary throughout the segment.",
+        "actions": "The self vehicle remains stationary as the woman in the black coat crosses the road from left to right. The vehicle does not move, ensuring the safety of the pedestrian.",
+        "key_objects": "1) Left side: Several people standing near parked scooters, approximately 5 meters away, likely to remain stationary. 2) Middle to right side: Woman in black coat, crossing the road from left to right, approximately 2 meters away, moving towards the right side of the frame.",
+        "key_actions": "Woman crossing the road: 28.266666666666666s - 32.0s",
+        "next_action": "Since the woman in the black coat is almost out of the frame and the road is clear, the self vehicle can proceed with caution. Next action: Speed control: Accelerate slowly, Direction control: Maintain direction, Lane control: Keep straight in the current lane."
+    }
+]

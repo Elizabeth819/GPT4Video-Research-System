@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_071",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a black SUV, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a suburban road. The black SUV ahead is maintaining a steady speed, while the white sedan on the right side is moving slightly ahead. The road is clear with moderate traffic.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the black SUV ahead at a safe distance. The vehicle is staying in its lane without any sudden changes in direction or speed.",
+        "key_objects": "1) Front: A black SUV, approximately 10 meters away, maintaining a steady speed. 2) Right: A white sedan, approximately 15 meters away, moving slightly ahead.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_071",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "12.5s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a black SUV, driver of a white sedan, driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a suburban road. The black SUV ahead is maintaining a steady speed. A white sedan is seen on the right side, initially moving parallel to the self-driving vehicle. Later, a black sedan appears from the right side, overtaking the self-driving vehicle and moving ahead.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the black SUV ahead. The vehicle is keeping a safe distance from the SUV, approximately 5 meters. The white sedan on the right side is moving parallel, and the black sedan overtakes the self-driving vehicle from the right side.",
+        "key_objects": "1) Front: A black SUV, approximately 5 meters away, maintaining a steady speed. 2) Right: A white sedan, approximately 3 meters away, moving parallel to the self-driving vehicle. 3) Right: A black sedan, approximately 2 meters away, overtaking the self-driving vehicle.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

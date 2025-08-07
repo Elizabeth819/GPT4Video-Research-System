@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_009",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a city road at night. The road is wet, and there are multiple vehicles ahead. The self-driving vehicle is following a blue car closely. The traffic lights are visible in the distance.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the blue car ahead. The vehicle is keeping a safe distance from the blue car, approximately 10 meters away. The road conditions are wet, and the vehicle is driving cautiously.",
+        "key_objects": "1) Front: A blue car, approximately 10 meters away, moving steadily. 2) Right: A white sedan, approximately 5 meters away, parked and partially blocking the view. 3) Left: A black sedan, approximately 3 meters away, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_009",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a wet road at night. A white sedan on the right side is moving forward and appears to be merging into the lane. The vehicle ahead is maintaining a steady speed. The road is illuminated by streetlights and building lights.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while monitoring the white sedan on the right side, which is attempting to merge into the lane. The vehicle ahead is maintaining a consistent speed, and the self-driving vehicle is keeping a safe distance.",
+        "key_objects": "1) Right side: A white sedan, approximately 2 meters away, moving forward and attempting to merge into the lane. 2) Front: A vehicle, approximately 20 meters away, maintaining a steady speed.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

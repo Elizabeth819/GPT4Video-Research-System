@@ -1,0 +1,15 @@
+{
+  "video_id": "images_5_046",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "4.4s",
+  "summary": "The self-driving car is at an intersection at night. The traffic light is green. From 1.5s to 4.4s, a man on a scooter suddenly appears from the right side of the road, crossing the intersection. The man is wearing a white shirt and blue shorts. This constitutes a ghost probing scenario because the scooter emerges from a perpendicular road.",
+  "actions": "The vehicle is approaching an intersection with a green light. The driver is maintaining speed, likely intending to proceed straight through the intersection without stopping, as the traffic light is green and there are no immediate obstructions in the vehicle's path.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "[Right side]: A man on a scooter, approximately 5 meters away, crossing the intersection, causing a potential need for the vehicle to decelerate or stop."
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_022",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car, with other vehicles on the road. There are also pedestrians and cyclists visible on the right side of the road.",
+  "summary": "The vehicle starts driving on a multi-lane road with other vehicles present. The vehicle approaches an intersection with a traffic light. The light turns green, and the vehicle proceeds through the intersection. There are cyclists on the right side of the road.",
+  "actions": "The vehicle is driving straight on a multi-lane road. The vehicle slows down as it approaches an intersection. The vehicle proceeds through the intersection as the traffic light turns green. The vehicle maintains its speed after passing through the intersection.",
+  "key_objects": "1) Right side: Cyclists, medium distance, potential hazard if they enter the road unexpectedly. 2) Ahead: Traffic light, medium distance, dictates vehicle's speed and direction.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "timestamp": "17:10:51 - 17:10:54",
+  "summary": "A vehicle is driving on a two-lane mountain road. Two pedestrians are observed on the left side of the road near a guardrail.",
+  "actions": "Vehicle driving forward, pedestrians walking on the roadside, no other vehicles present in the immediate vicinity.",
+  "characters": "Camera vehicle, two pedestrians.",
+  "key_objects": "Mountain road, green guardrail, mountains, roadside, small yellow sign in distance.",
+  "key_actions": "Normal driving behavior, pedestrians are on the side of the road and do not enter the vehicle's path aggressively. No sudden appearance of a vehicle from a blind spot or aggressive cutting into traffic. Therefore, no 'ghost probing' detected.",
+  "next_action": "Continued driving on the mountain road."
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_027",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a red SUV, driver of a silver car",
+        "summary": "In this segment, the vehicle is driving on a multi-lane highway at night. The traffic is dense with multiple vehicles in close proximity. A white sedan is ahead in the left lane, a red SUV is in the right lane, and a silver car is in the middle lane. The vehicles are moving at varying speeds, with some changing lanes.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through dense traffic. The vehicle is keeping a safe distance from the car ahead and monitoring the surrounding vehicles for any sudden movements.",
+        "key_objects": "1) Front-left: A white sedan, approximately 10 meters away, moving at a similar speed. 2) Front-right: A red SUV, approximately 8 meters away, moving slightly faster. 3) Front-center: A silver car, approximately 12 meters away, moving at a similar speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_027",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.4s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a brown SUV, driver of a white sedan, driver of a red car",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road at night. The brown SUV on the left side is maintaining its lane, while the white sedan ahead is moving from the adjacent lane into the self-vehicles lane, causing a potential cut-in situation. The red car on the right side is maintaining its lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while monitoring the white sedans movement. The vehicle is prepared to decelerate if the white sedan completes the cut-in maneuver.",
+        "key_objects": "1) Left side: A brown SUV, approximately 5 meters away, maintaining its lane. 2) Front: A white sedan, approximately 10 meters away, moving from the adjacent lane into the self-vehicles lane, causing a potential cut-in situation. 3) Right side: A red car, approximately 3 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

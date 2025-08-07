@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "dada_2_002",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "09:17:46",
+    "End_Timestamp": "09:17:55",
+    "summary": "The vehicle is driving on a narrow road in a rural area. Several pedestrians are standing on the left side of the road. A person suddenly steps into the road from the left side.",
+    "actions": "The vehicle is driving straight. The driver should be aware of the pedestrians on the left side of the road and be prepared to slow down or stop if necessary.",
+    "key_objects": [
+      "vehicle",
+      "pedestrians"
+    ],
+    "key_actions": "potential ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed, but be ready to slow down",
+      "direction_control": "stay in lane",
+      "lane_control": "none"
+    }
+  }
+]

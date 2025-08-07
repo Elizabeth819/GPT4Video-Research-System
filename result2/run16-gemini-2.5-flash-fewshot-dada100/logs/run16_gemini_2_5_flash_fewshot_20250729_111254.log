@@ -1,0 +1,412 @@
+2025-07-29 11:12:54,851 - INFO - Run 16 Gemini 2.5 Flash + Few-shot Analysis Started - 20250729_111254
+2025-07-29 11:12:54,851 - INFO - Gemini 2.5 Flash model initialized: AIzaSyBF40...
+2025-07-29 11:12:54,852 - INFO - DADA-100 videos directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos
+2025-07-29 11:12:54,852 - INFO - Output directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run16-gemini-2.5-flash-fewshot-dada100
+2025-07-29 11:12:54,852 - INFO - Found 101 video files to process
+2025-07-29 11:12:54,853 - INFO - Starting analysis of 101 videos
+2025-07-29 11:12:54,871 - INFO - Analyzing video: images_1_001
+2025-07-29 11:12:55,432 - INFO - API call attempt 1/5 for images_1_001
+2025-07-29 11:13:19,070 - ERROR - Empty response for images_1_001
+2025-07-29 11:13:19,075 - ERROR - Failed to analyze images_1_001
+2025-07-29 11:13:22,081 - INFO - Analyzing video: images_1_002
+2025-07-29 11:13:25,688 - INFO - API call attempt 1/5 for images_1_002
+2025-07-29 11:13:35,046 - INFO - Successfully analyzed images_1_002
+2025-07-29 11:13:35,061 - INFO - Saved result for images_1_002
+2025-07-29 11:13:38,068 - INFO - Analyzing video: images_1_003
+2025-07-29 11:13:38,503 - INFO - API call attempt 1/5 for images_1_003
+2025-07-29 11:13:51,771 - INFO - Successfully analyzed images_1_003
+2025-07-29 11:13:51,780 - INFO - Saved result for images_1_003
+2025-07-29 11:13:54,786 - INFO - Analyzing video: images_1_004
+2025-07-29 11:13:55,408 - INFO - API call attempt 1/5 for images_1_004
+2025-07-29 11:14:15,262 - INFO - Successfully analyzed images_1_004
+2025-07-29 11:14:15,278 - INFO - Saved result for images_1_004
+2025-07-29 11:14:18,284 - INFO - Analyzing video: images_1_005
+2025-07-29 11:14:18,895 - INFO - API call attempt 1/5 for images_1_005
+2025-07-29 11:14:31,221 - INFO - Successfully analyzed images_1_005
+2025-07-29 11:14:31,223 - INFO - Saved result for images_1_005
+2025-07-29 11:14:34,227 - INFO - Analyzing video: images_1_006
+2025-07-29 11:14:34,859 - INFO - API call attempt 1/5 for images_1_006
+2025-07-29 11:14:48,384 - INFO - Successfully analyzed images_1_006
+2025-07-29 11:14:48,386 - INFO - Saved result for images_1_006
+2025-07-29 11:14:51,393 - INFO - Analyzing video: images_1_007
+2025-07-29 11:14:52,014 - INFO - API call attempt 1/5 for images_1_007
+2025-07-29 11:15:07,979 - INFO - Successfully analyzed images_1_007
+2025-07-29 11:15:07,983 - INFO - Saved result for images_1_007
+2025-07-29 11:15:10,989 - INFO - Analyzing video: images_1_008
+2025-07-29 11:15:14,345 - INFO - API call attempt 1/5 for images_1_008
+2025-07-29 11:15:31,635 - INFO - Successfully analyzed images_1_008
+2025-07-29 11:15:31,638 - INFO - Saved result for images_1_008
+2025-07-29 11:15:34,644 - INFO - Analyzing video: images_1_009
+2025-07-29 11:15:35,043 - INFO - API call attempt 1/5 for images_1_009
+2025-07-29 11:15:54,674 - INFO - Successfully analyzed images_1_009
+2025-07-29 11:15:54,684 - INFO - Saved result for images_1_009
+2025-07-29 11:15:57,689 - INFO - Analyzing video: images_1_010
+2025-07-29 11:15:58,551 - INFO - API call attempt 1/5 for images_1_010
+2025-07-29 11:16:22,480 - ERROR - Empty response for images_1_010
+2025-07-29 11:16:22,529 - ERROR - Failed to analyze images_1_010
+2025-07-29 11:16:25,535 - INFO - Analyzing video: images_1_011
+2025-07-29 11:16:26,210 - INFO - API call attempt 1/5 for images_1_011
+2025-07-29 11:16:38,552 - INFO - Successfully analyzed images_1_011
+2025-07-29 11:16:38,562 - INFO - Saved result for images_1_011
+2025-07-29 11:16:41,565 - INFO - Analyzing video: images_1_012
+2025-07-29 11:16:42,266 - INFO - API call attempt 1/5 for images_1_012
+2025-07-29 11:17:06,872 - ERROR - Empty response for images_1_012
+2025-07-29 11:17:06,884 - ERROR - Failed to analyze images_1_012
+2025-07-29 11:17:09,885 - INFO - Analyzing video: images_1_013
+2025-07-29 11:17:10,511 - INFO - API call attempt 1/5 for images_1_013
+2025-07-29 11:17:22,759 - INFO - Successfully analyzed images_1_013
+2025-07-29 11:17:22,769 - INFO - Saved result for images_1_013
+2025-07-29 11:17:25,775 - INFO - Analyzing video: images_1_014
+2025-07-29 11:17:26,242 - INFO - API call attempt 1/5 for images_1_014
+2025-07-29 11:17:40,218 - INFO - Successfully analyzed images_1_014
+2025-07-29 11:17:40,223 - INFO - Saved result for images_1_014
+2025-07-29 11:17:43,224 - INFO - Analyzing video: images_1_015
+2025-07-29 11:17:43,675 - INFO - API call attempt 1/5 for images_1_015
+2025-07-29 11:17:57,996 - INFO - Successfully analyzed images_1_015
+2025-07-29 11:17:58,021 - INFO - Saved result for images_1_015
+2025-07-29 11:18:01,024 - INFO - Analyzing video: images_1_016
+2025-07-29 11:18:01,461 - INFO - API call attempt 1/5 for images_1_016
+2025-07-29 11:18:24,662 - ERROR - Failed to parse JSON response for images_1_016: Unterminated string starting at: line 11 column 20 (char 1733)
+2025-07-29 11:18:24,681 - ERROR - Failed to analyze images_1_016
+2025-07-29 11:18:27,683 - INFO - Analyzing video: images_1_017
+2025-07-29 11:18:28,581 - INFO - API call attempt 1/5 for images_1_017
+2025-07-29 11:18:52,229 - ERROR - Failed to parse JSON response for images_1_017: Unterminated string starting at: line 9 column 16 (char 244)
+2025-07-29 11:18:52,245 - ERROR - Failed to analyze images_1_017
+2025-07-29 11:18:55,251 - INFO - Analyzing video: images_1_018
+2025-07-29 11:18:55,785 - INFO - API call attempt 1/5 for images_1_018
+2025-07-29 11:19:10,728 - INFO - Successfully analyzed images_1_018
+2025-07-29 11:19:10,739 - INFO - Saved result for images_1_018
+2025-07-29 11:19:13,745 - INFO - Analyzing video: images_1_019
+2025-07-29 11:19:14,337 - INFO - API call attempt 1/5 for images_1_019
+2025-07-29 11:19:31,114 - INFO - Successfully analyzed images_1_019
+2025-07-29 11:19:31,135 - INFO - Saved result for images_1_019
+2025-07-29 11:19:34,141 - INFO - Analyzing video: images_1_020
+2025-07-29 11:19:37,755 - INFO - API call attempt 1/5 for images_1_020
+2025-07-29 11:19:50,105 - INFO - Successfully analyzed images_1_020
+2025-07-29 11:19:50,116 - INFO - Saved result for images_1_020
+2025-07-29 11:19:53,122 - INFO - Analyzing video: images_1_021
+2025-07-29 11:19:53,530 - INFO - API call attempt 1/5 for images_1_021
+2025-07-29 11:20:05,310 - INFO - Successfully analyzed images_1_021
+2025-07-29 11:20:05,326 - INFO - Saved result for images_1_021
+2025-07-29 11:20:08,331 - INFO - Analyzing video: images_1_022
+2025-07-29 11:20:08,949 - INFO - API call attempt 1/5 for images_1_022
+2025-07-29 11:20:26,501 - INFO - Successfully analyzed images_1_022
+2025-07-29 11:20:26,513 - INFO - Saved result for images_1_022
+2025-07-29 11:20:29,520 - INFO - Analyzing video: images_1_023
+2025-07-29 11:20:29,932 - INFO - API call attempt 1/5 for images_1_023
+2025-07-29 11:20:47,937 - INFO - Successfully analyzed images_1_023
+2025-07-29 11:20:47,975 - INFO - Saved result for images_1_023
+2025-07-29 11:20:50,981 - INFO - Analyzing video: images_1_024
+2025-07-29 11:20:54,323 - INFO - API call attempt 1/5 for images_1_024
+2025-07-29 11:21:06,754 - INFO - Successfully analyzed images_1_024
+2025-07-29 11:21:06,762 - INFO - Saved result for images_1_024
+2025-07-29 11:21:09,768 - INFO - Analyzing video: images_1_025
+2025-07-29 11:21:10,091 - INFO - API call attempt 1/5 for images_1_025
+2025-07-29 11:21:33,494 - ERROR - Empty response for images_1_025
+2025-07-29 11:21:33,497 - ERROR - Failed to analyze images_1_025
+2025-07-29 11:21:36,502 - INFO - Analyzing video: images_1_026
+2025-07-29 11:21:36,872 - INFO - API call attempt 1/5 for images_1_026
+2025-07-29 11:21:50,216 - INFO - Successfully analyzed images_1_026
+2025-07-29 11:21:50,235 - INFO - Saved result for images_1_026
+2025-07-29 11:21:53,239 - INFO - Analyzing video: images_1_027
+2025-07-29 11:21:56,650 - INFO - API call attempt 1/5 for images_1_027
+2025-07-29 11:22:09,527 - INFO - Successfully analyzed images_1_027
+2025-07-29 11:22:09,540 - INFO - Saved result for images_1_027
+2025-07-29 11:22:12,547 - INFO - Analyzing video: images_2_001
+2025-07-29 11:22:13,211 - INFO - API call attempt 1/5 for images_2_001
+2025-07-29 11:22:28,106 - INFO - Successfully analyzed images_2_001
+2025-07-29 11:22:28,117 - INFO - Saved result for images_2_001
+2025-07-29 11:22:31,121 - INFO - Analyzing video: images_2_002
+2025-07-29 11:22:31,681 - INFO - API call attempt 1/5 for images_2_002
+2025-07-29 11:22:48,930 - INFO - Successfully analyzed images_2_002
+2025-07-29 11:22:48,973 - INFO - Saved result for images_2_002
+2025-07-29 11:22:51,979 - INFO - Analyzing video: images_2_003
+2025-07-29 11:22:52,504 - INFO - API call attempt 1/5 for images_2_003
+2025-07-29 11:23:07,327 - INFO - Successfully analyzed images_2_003
+2025-07-29 11:23:07,331 - INFO - Saved result for images_2_003
+2025-07-29 11:23:10,338 - INFO - Analyzing video: images_2_004
+2025-07-29 11:23:13,735 - INFO - API call attempt 1/5 for images_2_004
+2025-07-29 11:23:28,853 - INFO - Successfully analyzed images_2_004
+2025-07-29 11:23:28,873 - INFO - Saved result for images_2_004
+2025-07-29 11:23:31,879 - INFO - Analyzing video: images_3_001
+2025-07-29 11:23:32,561 - INFO - API call attempt 1/5 for images_3_001
+2025-07-29 11:23:47,092 - INFO - Successfully analyzed images_3_001
+2025-07-29 11:23:47,096 - INFO - Saved result for images_3_001
+2025-07-29 11:23:50,103 - INFO - Analyzing video: images_3_002
+2025-07-29 11:23:50,502 - INFO - API call attempt 1/5 for images_3_002
+2025-07-29 11:24:05,691 - INFO - Successfully analyzed images_3_002
+2025-07-29 11:24:05,695 - INFO - Saved result for images_3_002
+2025-07-29 11:24:08,702 - INFO - Analyzing video: images_3_003
+2025-07-29 11:24:11,997 - INFO - API call attempt 1/5 for images_3_003
+2025-07-29 11:24:25,019 - INFO - Successfully analyzed images_3_003
+2025-07-29 11:24:25,024 - INFO - Saved result for images_3_003
+2025-07-29 11:24:28,028 - INFO - Analyzing video: images_3_004
+2025-07-29 11:24:28,679 - INFO - API call attempt 1/5 for images_3_004
+2025-07-29 11:24:51,004 - ERROR - Failed to parse JSON response for images_3_004: Unterminated string starting at: line 8 column 19 (char 206)
+2025-07-29 11:24:51,014 - ERROR - Failed to analyze images_3_004
+2025-07-29 11:24:54,020 - INFO - Analyzing video: images_3_005
+2025-07-29 11:24:54,577 - INFO - API call attempt 1/5 for images_3_005
+2025-07-29 11:25:17,651 - ERROR - Failed to parse JSON response for images_3_005: Unterminated string starting at: line 9 column 16 (char 433)
+2025-07-29 11:25:17,658 - ERROR - Failed to analyze images_3_005
+2025-07-29 11:25:20,664 - INFO - Analyzing video: images_3_006
+2025-07-29 11:25:21,013 - INFO - API call attempt 1/5 for images_3_006
+2025-07-29 11:25:33,680 - INFO - Successfully analyzed images_3_006
+2025-07-29 11:25:33,713 - INFO - Saved result for images_3_006
+2025-07-29 11:25:36,717 - INFO - Analyzing video: images_3_007
+2025-07-29 11:25:40,352 - INFO - API call attempt 1/5 for images_3_007
+2025-07-29 11:25:53,007 - INFO - Successfully analyzed images_3_007
+2025-07-29 11:25:53,019 - INFO - Saved result for images_3_007
+2025-07-29 11:25:56,027 - INFO - Analyzing video: images_4_001
+2025-07-29 11:25:59,635 - INFO - API call attempt 1/5 for images_4_001
+2025-07-29 11:26:16,632 - INFO - Successfully analyzed images_4_001
+2025-07-29 11:26:16,635 - INFO - Saved result for images_4_001
+2025-07-29 11:26:19,640 - INFO - Analyzing video: images_4_002
+2025-07-29 11:26:23,095 - INFO - API call attempt 1/5 for images_4_002
+2025-07-29 11:26:40,214 - INFO - Successfully analyzed images_4_002
+2025-07-29 11:26:40,217 - INFO - Saved result for images_4_002
+2025-07-29 11:26:43,223 - INFO - Analyzing video: images_4_003
+2025-07-29 11:26:43,679 - INFO - API call attempt 1/5 for images_4_003
+2025-07-29 11:26:58,527 - INFO - Successfully analyzed images_4_003
+2025-07-29 11:26:58,529 - INFO - Saved result for images_4_003
+2025-07-29 11:27:01,535 - INFO - Analyzing video: images_4_004
+2025-07-29 11:27:01,997 - INFO - API call attempt 1/5 for images_4_004
+2025-07-29 11:27:18,109 - INFO - Successfully analyzed images_4_004
+2025-07-29 11:27:18,111 - INFO - Saved result for images_4_004
+2025-07-29 11:27:21,114 - INFO - Analyzing video: images_4_005
+2025-07-29 11:27:21,546 - INFO - API call attempt 1/5 for images_4_005
+2025-07-29 11:27:34,589 - INFO - Successfully analyzed images_4_005
+2025-07-29 11:27:34,599 - INFO - Saved result for images_4_005
+2025-07-29 11:27:37,605 - INFO - Analyzing video: images_4_006
+2025-07-29 11:27:41,110 - INFO - API call attempt 1/5 for images_4_006
+2025-07-29 11:28:00,721 - INFO - Successfully analyzed images_4_006
+2025-07-29 11:28:00,723 - INFO - Saved result for images_4_006
+2025-07-29 11:28:03,728 - INFO - Analyzing video: images_4_007
+2025-07-29 11:28:04,126 - INFO - API call attempt 1/5 for images_4_007
+2025-07-29 11:28:20,055 - INFO - Successfully analyzed images_4_007
+2025-07-29 11:28:20,065 - INFO - Saved result for images_4_007
+2025-07-29 11:28:23,068 - INFO - Analyzing video: images_4_008
+2025-07-29 11:28:23,758 - INFO - API call attempt 1/5 for images_4_008
+2025-07-29 11:28:41,915 - INFO - Successfully analyzed images_4_008
+2025-07-29 11:28:41,932 - INFO - Saved result for images_4_008
+2025-07-29 11:28:44,938 - INFO - Analyzing video: images_5_001
+2025-07-29 11:28:45,497 - INFO - API call attempt 1/5 for images_5_001
+2025-07-29 11:29:01,986 - INFO - Successfully analyzed images_5_001
+2025-07-29 11:29:02,005 - INFO - Saved result for images_5_001
+2025-07-29 11:29:05,011 - INFO - Analyzing video: images_5_002
+2025-07-29 11:29:05,557 - INFO - API call attempt 1/5 for images_5_002
+2025-07-29 11:29:21,602 - INFO - Successfully analyzed images_5_002
+2025-07-29 11:29:21,625 - INFO - Saved result for images_5_002
+2025-07-29 11:29:24,632 - INFO - Analyzing video: images_5_003
+2025-07-29 11:29:25,240 - INFO - API call attempt 1/5 for images_5_003
+2025-07-29 11:29:43,021 - INFO - Successfully analyzed images_5_003
+2025-07-29 11:29:43,073 - INFO - Saved result for images_5_003
+2025-07-29 11:29:46,079 - INFO - Analyzing video: images_5_004
+2025-07-29 11:29:49,698 - INFO - API call attempt 1/5 for images_5_004
+2025-07-29 11:30:13,235 - INFO - Successfully analyzed images_5_004
+2025-07-29 11:30:13,248 - INFO - Saved result for images_5_004
+2025-07-29 11:30:16,254 - INFO - Analyzing video: images_5_005
+2025-07-29 11:30:16,916 - INFO - API call attempt 1/5 for images_5_005
+2025-07-29 11:30:26,929 - INFO - Successfully analyzed images_5_005
+2025-07-29 11:30:26,944 - INFO - Saved result for images_5_005
+2025-07-29 11:30:29,951 - INFO - Analyzing video: images_5_006
+2025-07-29 11:30:30,621 - INFO - API call attempt 1/5 for images_5_006
+2025-07-29 11:30:43,727 - INFO - Successfully analyzed images_5_006
+2025-07-29 11:30:43,744 - INFO - Saved result for images_5_006
+2025-07-29 11:30:46,751 - INFO - Analyzing video: images_5_007
+2025-07-29 11:30:47,357 - INFO - API call attempt 1/5 for images_5_007
+2025-07-29 11:31:06,648 - INFO - Successfully analyzed images_5_007
+2025-07-29 11:31:06,654 - INFO - Saved result for images_5_007
+2025-07-29 11:31:09,660 - INFO - Analyzing video: images_5_008
+2025-07-29 11:31:10,337 - INFO - API call attempt 1/5 for images_5_008
+2025-07-29 11:31:35,048 - INFO - Successfully analyzed images_5_008
+2025-07-29 11:31:35,061 - INFO - Saved result for images_5_008
+2025-07-29 11:31:38,068 - INFO - Analyzing video: images_5_009
+2025-07-29 11:31:38,754 - INFO - API call attempt 1/5 for images_5_009
+2025-07-29 11:32:00,731 - INFO - Successfully analyzed images_5_009
+2025-07-29 11:32:00,749 - INFO - Saved result for images_5_009
+2025-07-29 11:32:03,751 - INFO - Analyzing video: images_5_010
+2025-07-29 11:32:07,422 - INFO - API call attempt 1/5 for images_5_010
+2025-07-29 11:32:21,724 - INFO - Successfully analyzed images_5_010
+2025-07-29 11:32:21,752 - INFO - Saved result for images_5_010
+2025-07-29 11:32:24,758 - INFO - Analyzing video: images_5_011
+2025-07-29 11:32:25,388 - INFO - API call attempt 1/5 for images_5_011
+2025-07-29 11:32:42,102 - INFO - Successfully analyzed images_5_011
+2025-07-29 11:32:42,136 - INFO - Saved result for images_5_011
+2025-07-29 11:32:45,143 - INFO - Analyzing video: images_5_012
+2025-07-29 11:32:48,795 - INFO - API call attempt 1/5 for images_5_012
+2025-07-29 11:33:12,514 - ERROR - Failed to parse JSON response for images_5_012: Unterminated string starting at: line 9 column 16 (char 286)
+2025-07-29 11:33:12,531 - ERROR - Failed to analyze images_5_012
+2025-07-29 11:33:15,538 - INFO - Analyzing video: images_5_013
+2025-07-29 11:33:16,233 - INFO - API call attempt 1/5 for images_5_013
+2025-07-29 11:33:32,210 - INFO - Successfully analyzed images_5_013
+2025-07-29 11:33:32,225 - INFO - Saved result for images_5_013
+2025-07-29 11:33:35,230 - INFO - Analyzing video: images_5_014
+2025-07-29 11:33:35,933 - INFO - API call attempt 1/5 for images_5_014
+2025-07-29 11:33:51,424 - INFO - Successfully analyzed images_5_014
+2025-07-29 11:33:51,428 - INFO - Saved result for images_5_014
+2025-07-29 11:33:54,434 - INFO - Analyzing video: images_5_015
+2025-07-29 11:33:57,888 - INFO - API call attempt 1/5 for images_5_015
+2025-07-29 11:34:12,341 - INFO - Successfully analyzed images_5_015
+2025-07-29 11:34:12,342 - INFO - Saved result for images_5_015
+2025-07-29 11:34:15,348 - INFO - Analyzing video: images_5_016
+2025-07-29 11:34:19,084 - INFO - API call attempt 1/5 for images_5_016
+2025-07-29 11:34:31,655 - INFO - Successfully analyzed images_5_016
+2025-07-29 11:34:31,658 - INFO - Saved result for images_5_016
+2025-07-29 11:34:34,668 - INFO - Analyzing video: images_5_017
+2025-07-29 11:34:35,068 - INFO - API call attempt 1/5 for images_5_017
+2025-07-29 11:34:45,901 - INFO - Successfully analyzed images_5_017
+2025-07-29 11:34:45,904 - INFO - Saved result for images_5_017
+2025-07-29 11:34:48,910 - INFO - Analyzing video: images_5_018
+2025-07-29 11:34:52,432 - INFO - API call attempt 1/5 for images_5_018
+2025-07-29 11:35:07,953 - INFO - Successfully analyzed images_5_018
+2025-07-29 11:35:07,961 - INFO - Saved result for images_5_018
+2025-07-29 11:35:10,964 - INFO - Analyzing video: images_5_019
+2025-07-29 11:35:11,720 - INFO - API call attempt 1/5 for images_5_019
+2025-07-29 11:35:33,517 - INFO - Successfully analyzed images_5_019
+2025-07-29 11:35:33,520 - INFO - Saved result for images_5_019
+2025-07-29 11:35:36,522 - INFO - Analyzing video: images_5_020
+2025-07-29 11:35:37,124 - INFO - API call attempt 1/5 for images_5_020
+2025-07-29 11:35:52,828 - INFO - Successfully analyzed images_5_020
+2025-07-29 11:35:52,837 - INFO - Saved result for images_5_020
+2025-07-29 11:35:55,843 - INFO - Analyzing video: images_5_021
+2025-07-29 11:35:56,221 - INFO - API call attempt 1/5 for images_5_021
+2025-07-29 11:36:07,464 - INFO - Successfully analyzed images_5_021
+2025-07-29 11:36:07,482 - INFO - Saved result for images_5_021
+2025-07-29 11:36:10,493 - INFO - Analyzing video: images_5_022
+2025-07-29 11:36:11,581 - INFO - API call attempt 1/5 for images_5_022
+2025-07-29 11:36:34,347 - INFO - Successfully analyzed images_5_022
+2025-07-29 11:36:34,371 - INFO - Saved result for images_5_022
+2025-07-29 11:36:37,383 - INFO - Analyzing video: images_5_023
+2025-07-29 11:36:41,205 - INFO - API call attempt 1/5 for images_5_023
+2025-07-29 11:36:59,584 - INFO - Successfully analyzed images_5_023
+2025-07-29 11:36:59,596 - INFO - Saved result for images_5_023
+2025-07-29 11:37:02,604 - INFO - Analyzing video: images_5_024
+2025-07-29 11:37:03,198 - INFO - API call attempt 1/5 for images_5_024
+2025-07-29 11:37:16,125 - INFO - Successfully analyzed images_5_024
+2025-07-29 11:37:16,138 - INFO - Saved result for images_5_024
+2025-07-29 11:37:19,140 - INFO - Analyzing video: images_5_025
+2025-07-29 11:37:19,722 - INFO - API call attempt 1/5 for images_5_025
+2025-07-29 11:37:34,559 - INFO - Successfully analyzed images_5_025
+2025-07-29 11:37:34,589 - INFO - Saved result for images_5_025
+2025-07-29 11:37:37,601 - INFO - Analyzing video: images_5_026
+2025-07-29 11:37:41,298 - INFO - API call attempt 1/5 for images_5_026
+2025-07-29 11:38:03,788 - ERROR - Failed to parse JSON response for images_5_026: Unterminated string starting at: line 10 column 16 (char 986)
+2025-07-29 11:38:03,791 - ERROR - Failed to analyze images_5_026
+2025-07-29 11:38:06,800 - INFO - Analyzing video: images_5_027
+2025-07-29 11:38:07,233 - INFO - API call attempt 1/5 for images_5_027
+2025-07-29 11:38:19,225 - INFO - Successfully analyzed images_5_027
+2025-07-29 11:38:19,228 - INFO - Saved result for images_5_027
+2025-07-29 11:38:22,242 - INFO - Analyzing video: images_5_028
+2025-07-29 11:38:25,826 - INFO - API call attempt 1/5 for images_5_028
+2025-07-29 11:38:39,650 - INFO - Successfully analyzed images_5_028
+2025-07-29 11:38:39,682 - INFO - Saved result for images_5_028
+2025-07-29 11:38:42,694 - INFO - Analyzing video: images_5_029
+2025-07-29 11:38:43,383 - INFO - API call attempt 1/5 for images_5_029
+2025-07-29 11:38:55,598 - INFO - Successfully analyzed images_5_029
+2025-07-29 11:38:55,616 - INFO - Saved result for images_5_029
+2025-07-29 11:38:58,628 - INFO - Analyzing video: images_5_030
+2025-07-29 11:39:02,254 - INFO - API call attempt 1/5 for images_5_030
+2025-07-29 11:39:18,967 - INFO - Successfully analyzed images_5_030
+2025-07-29 11:39:19,004 - INFO - Saved result for images_5_030
+2025-07-29 11:39:22,016 - INFO - Analyzing video: images_5_031
+2025-07-29 11:39:22,424 - INFO - API call attempt 1/5 for images_5_031
+2025-07-29 11:39:36,113 - INFO - Successfully analyzed images_5_031
+2025-07-29 11:39:36,126 - INFO - Saved result for images_5_031
+2025-07-29 11:39:39,132 - INFO - Analyzing video: images_5_032
+2025-07-29 11:39:39,745 - INFO - API call attempt 1/5 for images_5_032
+2025-07-29 11:40:01,850 - INFO - Successfully analyzed images_5_032
+2025-07-29 11:40:01,875 - INFO - Saved result for images_5_032
+2025-07-29 11:40:04,887 - INFO - Analyzing video: images_5_033
+2025-07-29 11:40:08,322 - INFO - API call attempt 1/5 for images_5_033
+2025-07-29 11:40:21,304 - INFO - Successfully analyzed images_5_033
+2025-07-29 11:40:21,308 - INFO - Saved result for images_5_033
+2025-07-29 11:40:24,314 - INFO - Analyzing video: images_5_034
+2025-07-29 11:40:27,907 - INFO - API call attempt 1/5 for images_5_034
+2025-07-29 11:40:42,503 - INFO - Successfully analyzed images_5_034
+2025-07-29 11:40:42,535 - INFO - Saved result for images_5_034
+2025-07-29 11:40:45,539 - INFO - Analyzing video: images_5_035
+2025-07-29 11:40:49,163 - INFO - API call attempt 1/5 for images_5_035
+2025-07-29 11:41:07,286 - INFO - Successfully analyzed images_5_035
+2025-07-29 11:41:07,313 - INFO - Saved result for images_5_035
+2025-07-29 11:41:10,316 - INFO - Analyzing video: images_5_036
+2025-07-29 11:41:10,822 - INFO - API call attempt 1/5 for images_5_036
+2025-07-29 11:41:24,640 - INFO - Successfully analyzed images_5_036
+2025-07-29 11:41:24,648 - INFO - Saved result for images_5_036
+2025-07-29 11:41:27,658 - INFO - Analyzing video: images_5_037
+2025-07-29 11:41:28,095 - INFO - API call attempt 1/5 for images_5_037
+2025-07-29 11:41:42,697 - INFO - Successfully analyzed images_5_037
+2025-07-29 11:41:42,709 - INFO - Saved result for images_5_037
+2025-07-29 11:41:45,718 - INFO - Analyzing video: images_5_038
+2025-07-29 11:41:46,469 - INFO - API call attempt 1/5 for images_5_038
+2025-07-29 11:42:07,787 - INFO - Successfully analyzed images_5_038
+2025-07-29 11:42:07,814 - INFO - Saved result for images_5_038
+2025-07-29 11:42:10,827 - INFO - Analyzing video: images_5_039
+2025-07-29 11:42:14,508 - INFO - API call attempt 1/5 for images_5_039
+2025-07-29 11:42:29,513 - INFO - Successfully analyzed images_5_039
+2025-07-29 11:42:29,540 - INFO - Saved result for images_5_039
+2025-07-29 11:42:32,545 - INFO - Analyzing video: images_5_040
+2025-07-29 11:42:33,194 - INFO - API call attempt 1/5 for images_5_040
+2025-07-29 11:42:51,928 - INFO - Successfully analyzed images_5_040
+2025-07-29 11:42:51,960 - INFO - Saved result for images_5_040
+2025-07-29 11:42:54,966 - INFO - Analyzing video: images_5_041
+2025-07-29 11:42:58,422 - INFO - API call attempt 1/5 for images_5_041
+2025-07-29 11:43:11,600 - INFO - Successfully analyzed images_5_041
+2025-07-29 11:43:11,622 - INFO - Saved result for images_5_041
+2025-07-29 11:43:14,634 - INFO - Analyzing video: images_5_042
+2025-07-29 11:43:15,129 - INFO - API call attempt 1/5 for images_5_042
+2025-07-29 11:43:29,301 - INFO - Successfully analyzed images_5_042
+2025-07-29 11:43:29,320 - INFO - Saved result for images_5_042
+2025-07-29 11:43:32,332 - INFO - Analyzing video: images_5_043
+2025-07-29 11:43:33,066 - INFO - API call attempt 1/5 for images_5_043
+2025-07-29 11:43:49,453 - INFO - Successfully analyzed images_5_043
+2025-07-29 11:43:49,465 - INFO - Saved result for images_5_043
+2025-07-29 11:43:52,476 - INFO - Analyzing video: images_5_044
+2025-07-29 11:43:56,014 - INFO - API call attempt 1/5 for images_5_044
+2025-07-29 11:44:09,147 - INFO - Successfully analyzed images_5_044
+2025-07-29 11:44:09,159 - INFO - Saved result for images_5_044
+2025-07-29 11:44:12,168 - INFO - Analyzing video: images_5_045
+2025-07-29 11:44:12,792 - INFO - API call attempt 1/5 for images_5_045
+2025-07-29 11:44:30,236 - INFO - Successfully analyzed images_5_045
+2025-07-29 11:44:30,245 - INFO - Saved result for images_5_045
+2025-07-29 11:44:33,255 - INFO - Analyzing video: images_5_046
+2025-07-29 11:44:33,595 - INFO - API call attempt 1/5 for images_5_046
+2025-07-29 11:44:46,176 - INFO - Successfully analyzed images_5_046
+2025-07-29 11:44:46,191 - INFO - Saved result for images_5_046
+2025-07-29 11:44:49,197 - INFO - Analyzing video: images_5_047
+2025-07-29 11:44:52,678 - INFO - API call attempt 1/5 for images_5_047
+2025-07-29 11:45:14,278 - INFO - Successfully analyzed images_5_047
+2025-07-29 11:45:14,288 - INFO - Saved result for images_5_047
+2025-07-29 11:45:17,300 - INFO - Analyzing video: images_5_048
+2025-07-29 11:45:17,757 - INFO - API call attempt 1/5 for images_5_048
+2025-07-29 11:45:32,863 - INFO - Successfully analyzed images_5_048
+2025-07-29 11:45:32,872 - INFO - Saved result for images_5_048
+2025-07-29 11:45:35,882 - INFO - Analyzing video: images_5_049
+2025-07-29 11:45:36,266 - INFO - API call attempt 1/5 for images_5_049
+2025-07-29 11:45:51,569 - INFO - Successfully analyzed images_5_049
+2025-07-29 11:45:51,584 - INFO - Saved result for images_5_049
+2025-07-29 11:45:54,585 - INFO - Analyzing video: images_5_050
+2025-07-29 11:45:54,932 - INFO - API call attempt 1/5 for images_5_050
+2025-07-29 11:46:09,125 - INFO - Successfully analyzed images_5_050
+2025-07-29 11:46:09,128 - INFO - Saved result for images_5_050
+2025-07-29 11:46:12,136 - INFO - Analyzing video: images_5_051
+2025-07-29 11:46:12,659 - INFO - API call attempt 1/5 for images_5_051
+2025-07-29 11:46:31,990 - INFO - Successfully analyzed images_5_051
+2025-07-29 11:46:31,997 - INFO - Saved result for images_5_051
+2025-07-29 11:46:35,009 - INFO - Analyzing video: images_5_052
+2025-07-29 11:46:35,435 - INFO - API call attempt 1/5 for images_5_052
+2025-07-29 11:46:48,701 - INFO - Successfully analyzed images_5_052
+2025-07-29 11:46:48,714 - INFO - Saved result for images_5_052
+2025-07-29 11:46:51,725 - INFO - Analyzing video: images_5_053
+2025-07-29 11:46:55,233 - INFO - API call attempt 1/5 for images_5_053
+2025-07-29 11:47:09,477 - INFO - Successfully analyzed images_5_053
+2025-07-29 11:47:09,490 - INFO - Saved result for images_5_053
+2025-07-29 11:47:12,499 - INFO - Analyzing video: images_5_054
+2025-07-29 11:47:16,162 - INFO - API call attempt 1/5 for images_5_054
+2025-07-29 11:47:31,086 - INFO - Successfully analyzed images_5_054
+2025-07-29 11:47:31,114 - INFO - Saved result for images_5_054
+2025-07-29 11:47:34,125 - INFO - Analyzing video: images_5_055
+2025-07-29 11:47:37,808 - INFO - API call attempt 1/5 for images_5_055
+2025-07-29 11:47:59,395 - INFO - Successfully analyzed images_5_055
+2025-07-29 11:47:59,407 - INFO - Saved result for images_5_055
+2025-07-29 11:48:02,425 - INFO - Analysis completed! Processed: 91, Failed: 10
+2025-07-29 11:48:02,425 - INFO - Summary saved to: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run16-gemini-2.5-flash-fewshot-dada100/run16_analysis_summary_20250729_111254.json

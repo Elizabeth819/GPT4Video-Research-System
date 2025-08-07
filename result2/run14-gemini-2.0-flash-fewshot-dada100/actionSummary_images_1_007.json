@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_007",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Several pedestrians are walking on the sidewalks. A red sedan is crossing the road at a crosswalk on the left side of the road. A white van is parked on the right side of the road with two people standing near it. A man in a blue shirt is running across the road from right to left.",
+  "summary": "The vehicle is driving on a two-lane road with sidewalks on both sides. There are several pedestrians walking on the sidewalks. A red sedan is crossing the road at a crosswalk on the left side of the road. A white van is parked on the right side of the road with two people standing near it. A man in a blue shirt is running across the road from right to left. The road conditions are normal with moderate traffic.",
+  "actions": "The vehicle is maintaining a steady speed and direction on the road. The driver is likely maintaining the speed to adhere to the speed limit and ensure safety in the presence of pedestrians and other vehicles. The vehicle is keeping straight in the current lane.",
+  "key_objects": "None requiring immediate attention",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_40_039",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a red car ahead",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a red car is driving in the same lane, maintaining a consistent speed. There is also a white car in the adjacent lane on the right, moving at a similar speed.",
+        "actions": "The self-driving vehicle is maintaining a steady speed, following the red car ahead at a safe distance. The vehicle is staying in its lane without any sudden changes in speed or direction.",
+        "key_objects": "1) Front: A red car, approximately 15 meters away, maintaining a consistent speed. 2) Right: A white car, approximately 20 meters away, moving at a similar speed in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_039",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a white sedan is moving across the intersection from left to right. A motorcyclist has fallen on the road, and the motorcycle is lying on the ground. The driver mentions the sudden appearance of the motorcyclist, indicating a potential ghost probing scenario.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the intersection. The vehicles speed remains consistent to avoid sudden braking and ensure safety. The driver is likely assessing the situation with the fallen motorcyclist and the moving white sedan.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, moving across the intersection from left to right, potentially causing a cut-in scenario. 2) Left side: A motorcyclist, approximately 15 meters away, fallen on the road, indicating a potential ghost probing scenario.",
+        "key_actions": "ghost probing, cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

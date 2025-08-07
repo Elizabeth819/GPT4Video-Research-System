@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_022",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male pedestrian, wearing a blue t-shirt and dark pants, carrying white papers or objects in his hands, suddenly appears from the right side of the road. Two individuals on bicycles are visible on the far right side of the road, on a separate path, later in the sequence.",
+  "summary": "The video begins with the autonomous vehicle driving in the middle lane of a multi-lane urban road. There are parked and stopped vehicles on the right side, including a red car, a black SUV, a white sedan, and a dark-colored truck. As the vehicle approaches an intersection with a crosswalk, a male pedestrian suddenly darts out from behind the dark-colored truck on the right side, directly into the vehicle's path. The vehicle immediately reacts by braking to avoid a collision. The pedestrian quickly crosses the road, and the vehicle comes to a stop or near stop, successfully avoiding impact. After the pedestrian clears the path, the road ahead becomes clear.",
+  "actions": "The vehicle initially maintains a steady forward speed in the middle lane, navigating a multi-lane road with traffic on the right. As it approaches an intersection, the vehicle's speed is reduced, and it prepares to proceed. Upon reaching the crosswalk (around 5.0s-6.0s), the vehicle performs a rapid deceleration and comes to a near stop or full stop. This action is taken in immediate response to a male pedestrian suddenly emerging from behind a large dark-colored truck parked on the right side of the road, directly entering the vehicle's path on the crosswalk, leaving minimal reaction time for the driver. The vehicle's braking action successfully prevents a collision with the pedestrian.",
+  "key_objects": "1) Right side: A dark-colored truck, positioned near the crosswalk, serving as a significant physical obstruction. Its presence completely blocked the view of the pedestrian until the pedestrian emerged, directly contributing to the ghost probing incident. 2) Front-right: A male pedestrian, wearing a blue t-shirt and dark pants, suddenly darting out from behind the dark-colored truck onto the crosswalk. His sudden appearance created an immediate collision risk, triggering the vehicle's emergency braking.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

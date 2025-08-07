@@ -1,0 +1,104 @@
+[
+    {
+        "video_id": "005",
+        "Start_Timestamp": "0.968s",
+        "sentiment": "Negative",
+        "End_Timestamp": "9.684s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a gray car, driver of a white car",
+        "summary": "In this segment, the self-driving vehicle is stopped at a traffic light. A gray car is in front of the self-driving vehicle. A white car on the right side lane is attempting to cut in front of the self-driving vehicle. The white car suddenly stops, likely intending to cut in. The driver of the self-driving vehicle seems to be aware of this intention.",
+        "actions": "The self-driving vehicle is stopped at a traffic light. The white car on the right side lane is attempting to cut in front of the self-driving vehicle. The self-driving vehicle maintains its position, likely to prevent the white car from cutting in.",
+        "key_objects": "1) Front: A gray car, approximately 2 meters away, stopped at the traffic light. 2) Right side: A white car, approximately 1 meter away, attempting to cut in front of the self-driving vehicle.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "10.652s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "19.368s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black car, driver of a white car",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road. A black car on the right side is attempting to merge into the lane ahead of the self-driving vehicle. The black car gradually moves closer to the lane, eventually crossing the lane line and merging in front of the self-driving vehicle. The driver comments on the black cars wide size and its difficulty in merging. The black car successfully merges without causing any abrupt maneuvers or collisions.",
+        "actions": "The self-driving vehicle maintains a steady speed and lane position while the black car on the right merges into the lane ahead. The driver observes the merging process and comments on the black cars size and merging difficulty. The self-driving vehicle does not need to take any evasive actions as the merging is smooth and controlled.",
+        "key_objects": "1) Right side: A black car, approximately 1 meter away, gradually merging into the lane ahead, moving from the right side to the center lane. 2) Left side: A white car, approximately 3 meters away, traveling straight in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "20.336s",
+        "sentiment": "Negative",
+        "End_Timestamp": "29.051s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the black car, motorcyclist",
+        "summary": "In this segment, the black car ahead is seen making erratic movements, first moving left and then right, followed by a sudden brake. A motorcyclist is also seen on the right side of the black car. The driver of the self vehicle comments on the unpredictable driving behavior of the black car. The black cars sudden braking and lane changes create a potentially dangerous situation.",
+        "actions": "The self vehicle maintains a safe distance from the black car ahead, which is making unpredictable lane changes and sudden braking. The self vehicles speed is controlled to avoid collision with the erratic black car and the motorcyclist on the right.",
+        "key_objects": "1) Front: A black car, approximately 5 meters away, making erratic lane changes and sudden braking. 2) Right side: A motorcyclist, approximately 3 meters away, moving alongside the black car.",
+        "key_actions": "sudden braking, erratic lane changes",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "30.02s",
+        "sentiment": "Negative",
+        "End_Timestamp": "38.735s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black car, driver of a white car",
+        "summary": "In this segment, the vehicle is at an intersection. Initially, a black car is seen in front of the self-driving vehicle. The black car makes erratic movements, including crossing lines and making sudden left and right turns. As the light turns green, the self-driving vehicle starts moving. A white car from the right side merges into the lane and makes a right turn, positioning itself in front of the self-driving vehicle.",
+        "actions": "The self-driving vehicle is initially stationary at the intersection. Upon the green light, it starts moving forward. The driver is alerted to a white car merging from the right side and making a right turn in front of the self-driving vehicle. The self-driving vehicle maintains a cautious speed to avoid collision.",
+        "key_objects": "1) Front: A black car, approximately 5 meters away, making erratic movements including crossing lines and sudden turns. 2) Right side: A white car, approximately 3 meters away, merging into the lane and making a right turn in front of the self-driving vehicle.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "39.703870967741935s",
+        "sentiment": "Negative",
+        "End_Timestamp": "48.41935483870968s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black SUV",
+        "summary": "In this segment, the black SUV on the right lane suddenly changes to the middle lane without using the turn signal. The self vehicle manages to avoid a collision by slowing down and maintaining a safe distance. The black SUV continues to drive in the middle lane.",
+        "actions": "The black SUV on the right lane suddenly changes to the middle lane without using the turn signal. The self vehicle slows down to avoid a collision and maintains a safe distance. The black SUV continues to drive in the middle lane.",
+        "key_objects": "1) Right side: A black SUV, approximately 2 meters away, suddenly changing lanes to the middle lane without using the turn signal, causing a potential collision.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "005",
+        "Start_Timestamp": "49.38774193548387s",
+        "sentiment": "Negative",
+        "End_Timestamp": "58.10322580645161s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self vehicle, truck driver",
+        "summary": "In this segment, the self vehicle is driving in rainy conditions with poor visibility. Initially, the self vehicle is behind a black car at an intersection. As the self vehicle proceeds, a white SUV is seen turning right, blocking the view. The self vehicle continues driving, and the visibility remains poor due to the rain. The road ahead has a flashing yellow light, and a large truck is seen crossing the intersection, creating a potential hazard. The driver mentions that the handbrake was not applied in time.",
+        "actions": "The self vehicle is driving cautiously due to poor visibility and rainy conditions. The driver is navigating through an intersection with a flashing yellow light and a large truck crossing, which requires careful attention. The self vehicle maintains a slow speed to avoid potential collisions.",
+        "key_objects": "1) Front: A black car, approximately 5 meters away, initially blocking the view. 2) Right: A white SUV, approximately 3 meters away, turning right and blocking the view. 3) Front: A large truck, approximately 10 meters away, crossing the intersection, creating a potential hazard.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

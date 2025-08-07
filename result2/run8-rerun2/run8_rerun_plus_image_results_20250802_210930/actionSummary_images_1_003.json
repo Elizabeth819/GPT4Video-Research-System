@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child in a blue jacket and an adult in a pink jacket. The child is seen running across the road from the right side, and the adult follows, eventually picking up the child.",
+  "summary": "The video sequence shows a vehicle driving at night on a well-lit street. Initially, the road appears clear, but a child suddenly runs into the road from the right side, followed by an adult. The child falls in the middle of the road, and the adult rushes to pick up the child, creating a dangerous situation.",
+  "actions": "The child runs from the right side of the road, falls in the middle of the road, and the adult follows to pick up the child.",
+  "key_objects": "A child in a blue jacket, an adult in a pink jacket, a white car parked on the right side of the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

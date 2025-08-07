@@ -1,0 +1,5 @@
+2025-07-28 14:59:32,264 - INFO - Run 13 Gemini 2.0 Flash Analysis Started - 20250728_145932
+2025-07-28 14:59:32,264 - INFO - Gemini 2.0 Flash model initialized
+2025-07-28 14:59:32,264 - INFO - DADA-100 videos directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos
+2025-07-28 14:59:32,264 - INFO - Output directory: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run13-gemini-2.0-flash-dada100
+2025-07-28 14:59:32,265 - INFO - Found 101 DADA-100 videos

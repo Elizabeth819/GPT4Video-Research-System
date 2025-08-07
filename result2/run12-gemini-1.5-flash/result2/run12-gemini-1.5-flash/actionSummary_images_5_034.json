@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_5_034",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Night driving in a city",
+    "sentiment": "Neutral",
+    "characters": "A driver in a car, a man on a scooter, other vehicles and pedestrians in the background.",
+    "summary": "The video shows a nighttime driving scene. The self-driving vehicle is approaching a crosswalk where a man on a light-colored scooter is crossing.  The scooter is moving slowly across the crosswalk. Other vehicles are visible in the distance, and there are pedestrians on the sidewalk. The traffic light is visible and changes from red to green during the sequence. No immediate dangerous events occur.",
+    "actions": "The self-driving vehicle maintains a steady speed, approaching the crosswalk. The vehicle slows slightly as it approaches the crosswalk, likely in anticipation of the scooter crossing.  The vehicle does not brake hard or change lanes.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_034",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "12.5s",
+    "scene_theme": "Night driving in a city",
+    "characters": "Driver of a vehicle, a person on a scooter",
+    "summary": "The video shows a nighttime city driving scene.  A person on a light-colored scooter is crossing a crosswalk directly in front of the vehicle. The scooter appears suddenly, leaving little reaction time for the driver. The scooter is moving at a moderate speed.",
+    "actions": "The self-driving vehicle maintains a relatively consistent speed. There is no indication of braking or lane changes in this short segment. The vehicle is traveling straight ahead.",
+    "key_objects": "Front: Person on a light-colored scooter, approximately 5 meters away, crossing the crosswalk directly in front of the vehicle at a moderate speed.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

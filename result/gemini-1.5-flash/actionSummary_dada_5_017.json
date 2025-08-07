@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is approaching an intersection. A pedestrian is walking on the left side of the road. A scooter suddenly appears from the right side of the road, entering the intersection.",
+    "actions": "Ego vehicle is moving forward. Pedestrian is walking. Scooter is entering the intersection from the right.",
+    "characters": "Pedestrian, scooter driver",
+    "key_objects": "Ego vehicle, pedestrian, scooter, intersection",
+    "key_actions": "potential ghost probing",
+    "next_action": "Ego vehicle will likely need to brake or swerve to avoid the scooter."
+  }
+]

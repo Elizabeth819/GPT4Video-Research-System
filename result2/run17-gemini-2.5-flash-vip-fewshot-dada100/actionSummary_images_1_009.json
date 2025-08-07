@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_009",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "6.1s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Two pedestrians, one wearing a light-colored jacket and the other wearing an orange jacket, are crossing the road.",
+    "summary": "The vehicle is traveling on a road with buildings and trees on both sides. From 3.0s to 5.0s, two pedestrians, one in a light-colored jacket and the other in an orange jacket, begin to cross the road from the right side. They are walking into the vehicle's path, creating a potential collision hazard. The vehicle is approaching the pedestrians.",
+    "actions": "The vehicle is maintaining a steady speed. The driver is likely unaware of the pedestrians crossing the road until they are closer to the vehicle's path. The vehicle needs to decelerate to avoid hitting the pedestrians.",
+    "key_objects": "1) Right side: Two pedestrians, one wearing a light-colored jacket and the other wearing an orange jacket, approximately 5 meters away, crossing the road and walking into the vehicle's path.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

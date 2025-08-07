@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_015",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, cyclists, and drivers. The pedestrians and cyclists are moving unpredictably, creating potential hazards.",
+  "summary": "The video sequence shows several instances of 'ghost probing' behavior. In the first sequence, a child suddenly runs into the road from the right side, emerging from behind a parked vehicle. In the second sequence, an adult pedestrian quickly crosses the road from the left side, emerging from behind a parked van. In the third sequence, a cyclist appears from behind a parked truck on the left side, entering the driving lane. Each of these instances involves a physical obstruction that blocks the driver's view, creating immediate danger and potential collision situations.",
+  "actions": "The child runs into the road from the right side, the adult pedestrian crosses from the left side, and the cyclist emerges from behind a truck on the left side.",
+  "key_objects": "Parked vehicles on both sides of the road, pedestrians, cyclists, and moving vehicles.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_041",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "No human characters are clearly visible or identifiable in the provided frames. The scene primarily features vehicles.",
+  "summary": "The video segment shows a vehicle driving on a multi-lane urban road with a wet surface. The vehicle proceeds forward, maintaining its lane, as it approaches a busy intersection. As it gets closer to the intersection, it begins to decelerate and positions itself in the left-turn lane, indicated by the arrow markings on the road. The vehicle then comes to a complete stop, likely due to a red traffic light, with other vehicles stopped in front and to its right. The surrounding environment includes buildings, bare trees, and streetlights, characteristic of an urban setting.",
+  "actions": "The vehicle initially maintains a steady speed while driving on a multi-lane road. As it approaches an intersection, the driver begins to decelerate, preparing to stop. The vehicle then comes to a complete stop in the left-turn lane. This action is taken because the vehicle is approaching a traffic light, which appears to be red, requiring vehicles to halt. The driver also positions the vehicle in the designated left-turn lane, indicated by the road markings, signifying an intention to turn left at the intersection.",
+  "key_objects": "1) Left: A metal barrier runs along the left side of the road, separating the main lanes from a side area. This barrier acts as a visual obstruction for anything directly behind it, but no sudden emergence of a person, cyclist, or vehicle from behind it into the driver's path occurs in this segment. 2) Front: Multiple vehicles are present in the lanes ahead, including a white SUV directly in front of the ego vehicle. These vehicles dictate the flow of traffic and require the ego vehicle to maintain a safe following distance and eventually stop. 3) Front-Right: A traffic light is visible at the intersection. Its state (appearing red in later frames) is the primary reason for the ego vehicle's deceleration and stop. 4) Right: Other vehicles are present in the adjacent lane to the right, indicating moderate traffic density and requiring the driver to be aware of surrounding traffic.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "turn left",
+    "lane_control": "maintain current lane"
+  }
+}

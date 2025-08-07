@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_3_006",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0",
+    "End_Timestamp": "3.33",
+    "summary": "The ego-vehicle approaches an intersection. A pedestrian is crossing the street at the crosswalk. The pedestrian is visible and the crossing is expected.",
+    "actions": "The ego-vehicle is approaching an intersection and should be prepared to stop if the light is red or if pedestrians are crossing.",
+    "key_objects": [
+      "ego-vehicle",
+      "pedestrian",
+      "crosswalk",
+      "traffic light"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed, be prepared to decelerate",
+      "direction_control": "straight",
+      "lane_control": "maintain lane"
+    }
+  }
+]

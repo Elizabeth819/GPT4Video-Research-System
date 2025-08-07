@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child on the right side of the image, a pedestrian on the left side of the image, a cyclist on the right side of the image, and multiple pedestrians with umbrellas on the left side of the image.",
+  "summary": "The video sequence shows multiple instances of ghost probing behavior. In the first sequence, a child suddenly emerges from the right side of the image, darting into the driving lane from behind a parked vehicle. In the second sequence, a pedestrian suddenly appears from the left side of the image, entering the driving lane from behind a parked van. In the third sequence, a cyclist emerges from the right side of the image, entering the driving lane from behind a parked truck. In the fourth sequence, multiple pedestrians with umbrellas suddenly appear from the left side of the image, entering the driving lane from behind a bus.",
+  "actions": "The child on the right side of the image suddenly darts into the driving lane. The pedestrian on the left side of the image suddenly enters the driving lane. The cyclist on the right side of the image suddenly enters the driving lane. Multiple pedestrians with umbrellas on the left side of the image suddenly enter the driving lane.",
+  "key_objects": "Parked vehicles on both sides of the image, a bus on the left side of the image, and a truck on the right side of the image.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

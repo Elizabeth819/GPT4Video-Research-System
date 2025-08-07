@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_040",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a blue motorcycle/scooter, wearing a blue top and dark pants, is seen emerging from the left side of the road. Several pedestrians are visible on the sidewalks and near the crosswalks on both the left and right sides of the road.",
+  "summary": "The video begins with the autonomous vehicle driving straight on a multi-lane urban road under clear weather conditions. The road is lined with tall residential and commercial buildings. As the vehicle approaches an intersection with a visible traffic light and a marked crosswalk, a person on a blue motorcycle suddenly emerges from the left side of the road. This motorcyclist appears from behind a white metal barrier and parked vehicles, darting directly into the vehicle's path at the crosswalk. The sudden appearance leaves minimal reaction time for the vehicle. The video culminates in a collision between the vehicle and the motorcyclist, indicated by the shattering of the vehicle's windshield.",
+  "actions": "The vehicle initially maintains a consistent speed and direction, driving straight in its lane from 0.0s to approximately 10.0s. This steady progression is due to the clear road ahead and moderate traffic conditions, allowing the vehicle to proceed towards the upcoming intersection. As the vehicle approaches the intersection and crosswalk (from 10.0s to 11.1s), it continues to move forward without any noticeable deceleration or change in direction, suggesting the driver was proceeding as normal, likely expecting to continue straight through the intersection, possibly due to a green light or no immediate obstruction in their direct path. The sudden and unexpected emergence of the motorcyclist from behind the visual obstruction at 11.4s left no time for the vehicle to take evasive action, resulting in an immediate collision.",
+  "key_objects": "1) Left side: A white metal barrier and several parked vehicles (including a white van and a grey sedan) serve as significant physical obstructions, completely blocking the driver's view of the area to the left of the road near the crosswalk. These obstructions are located along the left side of the road, leading up to the intersection. 2) Left side, emerging from behind obstruction: A person on a blue motorcycle/scooter suddenly appears from behind the aforementioned white barrier and parked vehicles. This individual darts into the crosswalk and the vehicle's direct path with extremely minimal reaction time, creating an immediate and unavoidable collision situation.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_021",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene features a driver in a car, several other cars on the road, and a person on a scooter crossing the street. The person on the scooter is wearing an orange shirt and a white helmet.",
+  "summary": "The vehicle is driving straight on a road with buildings on both sides. There are other cars on the road. A person on a scooter crosses the street from left to right in front of the vehicle. The vehicle slows down to allow the scooter to pass.",
+  "actions": "The vehicle maintains a steady speed while driving straight. As the vehicle approaches a crosswalk, a person on a scooter begins to cross from the left. The vehicle decelerates to allow the scooter to safely cross the road. After the scooter has passed, the vehicle resumes its previous speed.",
+  "key_objects": "1) Left: Person on scooter, medium distance, crossing the street, causing the vehicle to decelerate.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

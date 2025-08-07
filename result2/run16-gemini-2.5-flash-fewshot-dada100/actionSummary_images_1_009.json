@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_009",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two pedestrians, appearing to be adults, one wearing a light-colored top and dark pants, the other wearing a darker top and light pants.",
+  "summary": "In this segment, the vehicle is driving on a multi-lane road at night, illuminated by streetlights. Initially, two faint figures are observed in the distance, appearing to be in the middle of the road. As the vehicle approaches, these figures are clearly identified as two pedestrians walking across the road from the right side towards the left, directly into the vehicle's path. The pedestrians become an immediate and unavoidable hazard due to their position and the vehicle's closing speed. A collision occurs with one of the pedestrians, who is subsequently seen lying on the ground on the right side of the vehicle.",
+  "actions": "The self-driving vehicle is initially traveling at a consistent speed on a dark road. As two pedestrians become visible walking across the road directly into its path, the vehicle initiates rapid deceleration in an attempt to avoid a collision. Despite the braking, a collision occurs with one of the pedestrians, causing them to fall to the ground. The vehicle then comes to a complete stop or near-stop immediately after the impact, indicating an emergency response to the unexpected obstacle.",
+  "key_objects": "1) Center/Right side: Two pedestrians, initially appearing in the distance (approximately 30-40 meters away), then rapidly closing to directly in the vehicle's path (0-5 meters). One pedestrian is later observed lying on the ground on the right side of the vehicle, indicating a collision. 2) Left side: A yellow triangular warning sign is visible on the roadside in the initial frames. 3) Center/Left/Right side: Multiple streetlights illuminating the road during nighttime conditions.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "stopping",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

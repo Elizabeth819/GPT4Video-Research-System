@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving on a straight road with light traffic. The road is clear and the vehicle maintains a steady speed.",
+    "actions": "Ego vehicle is driving straight. Other vehicles are visible in the distance.",
+    "characters": "None visible.",
+    "key_objects": "Ego vehicle, road, distant vehicles, roadside trees and buildings.",
+    "key_actions": "Driving straight.",
+    "next_action": "Continue driving straight."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle continues driving straight. A motorcycle appears from the side of the road.",
+    "actions": "Ego vehicle continues driving straight. A motorcycle enters the roadway from the left.",
+    "characters": "Motorcycle rider.",
+    "key_objects": "Ego vehicle, motorcycle, road, roadside trees and buildings.",
+    "key_actions": "potential ghost probing",
+    "next_action": "Continue driving straight, possibly adjusting speed or lane position."
+  }
+]

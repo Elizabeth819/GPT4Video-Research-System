@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_38_005",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "End_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a blue sedan, driver of a red truck",
+        "summary": "In this segment, the vehicle is driving on a busy road with moderate traffic. The blue sedan ahead is maintaining a steady speed, while the red truck on the right side is moving slowly. The traffic is dense, and vehicles are closely spaced.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, keeping a safe distance from the blue sedan ahead. The vehicle is staying in its lane without any sudden movements.",
+        "key_objects": "1) Front: A blue sedan, approximately 5 meters away, maintaining a steady speed. 2) Right: A red truck, approximately 3 meters away, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_38_005",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "End_Timestamp": "20.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Traffic Jam",
+        "characters": "Driver of a silver sedan, driver of a red truck",
+        "summary": "In this segment, the vehicle is in a traffic jam on a multi-lane road. The silver sedan ahead is maintaining a steady position, while the red truck on the right is moving slowly forward. The traffic is dense, and vehicles are closely packed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, keeping a safe distance from the silver sedan ahead. The vehicle is staying in its lane without any sudden movements.",
+        "key_objects": "1) Front: A silver sedan, approximately 5 meters away, maintaining a steady position. 2) Right: A red truck, approximately 3 meters away, moving slowly forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_054",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "None visible in immediate vicinity",
+  "summary": "In this segment, the self-driving vehicle is positioned at an urban intersection during daytime, initially stationary or moving very slowly. A black Audi is directly in front, and a white sedan is on the left. As the traffic begins to move, a gold/beige sedan suddenly emerges from behind a large building on the right side of the intersection, making a right turn onto the main road. This sedan was previously completely obscured by the building, creating a vehicle ghost probing situation as it entered the flow of traffic with minimal prior visibility. The self-driving vehicle then proceeds through the intersection as the path clears.",
+  "actions": "The self-driving vehicle is initially stationary or moving at a very low speed at the intersection, likely waiting for the traffic light to change or for the path to clear. As the black Audi in front and the white sedan on the left begin to accelerate and move forward through the intersection (around 4.0s-5.0s), the self-driving vehicle also initiates acceleration. This action is taken to proceed safely through the intersection, following the flow of traffic and adapting to the clearing road conditions. The vehicle maintains its current lane and direction.",
+  "key_objects": "1) Right side: A gold/beige sedan, approximately 10-15 meters away, suddenly emerging from behind a large building on the right side of the image and turning right into the main road. This vehicle was previously hidden by the obstruction. 2) Right side: A large multi-story building, approximately 15-20 meters away, located at the corner of the intersection, creating a significant visual obstruction that completely hides vehicles approaching from the perpendicular road until they emerge into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

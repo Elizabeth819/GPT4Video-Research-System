@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_29_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a black van, cyclist on the left side",
+        "summary": "In this segment, the vehicle is driving on a suburban road. Ahead, a black van is moving steadily. On the left side, a cyclist is riding along the road. The cyclist maintains a consistent speed and does not pose any immediate threat to the vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the black van ahead at a safe distance. The vehicle is keeping its lane and does not need to make any sudden maneuvers.",
+        "key_objects": "1) Front: A black van, approximately 10 meters away, moving steadily. 2) Left side: A cyclist, approximately 5 meters away, riding along the road at a consistent speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

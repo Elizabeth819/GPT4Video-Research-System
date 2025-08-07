@@ -1,0 +1,41 @@
+[
+    {
+        "event_id": "event_001",        
+        "video_id": "ghosting_002",
+        "start_timestamp": "1s",
+        "end_timestamp": "10.0s",
+        "key_object": "a dog",
+        "key_actions": "ghost probing",        
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "brake",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_002",
+        "video_id": "ghosting_002",
+        "start_timestamp": "110s",
+        "end_timestamp": "120.0s",
+        "key_objects": "a girl in a dress",        
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "event_id": "event_003",
+        "video_id": "ghosting_002",
+        "start_timestamp": "130s",
+        "end_timestamp": "140.0s",
+        "key_objects": "a person riding a scooter at night",        
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "brake",
+            "lane_control": "maintain current lane"
+        }
+    }
+ ]

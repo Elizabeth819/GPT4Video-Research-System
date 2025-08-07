@@ -1,0 +1,26 @@
+{
+  "video_id": "images_5_031",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "4.6s",
+  "summary": "From 0.0s to 4.6s, the self-driving car is moving forward on a city street. At 3.1s, a male wearing a black jacket and black pants suddenly appears from behind a green three-wheeled vehicle on the right side of the road. He is bending over, seemingly picking something up from the ground. This constitutes a ghost probing incident as he was completely obscured before suddenly appearing in the vehicle's path. The car continues to move forward.",
+  "characters": [
+    {
+      "gender": "male",
+      "age": "adult",
+      "clothing": "black jacket, black pants",
+      "transportation_method": "walking",
+      "behavior": "bending over, picking something up"
+    }
+  ],
+  "key_objects": [
+    "Right side: A male in a black jacket and black pants, approximately 5 meters away, suddenly appears from behind a green three-wheeled vehicle, bending over and creating a potential collision hazard."
+  ],
+  "actions": "The vehicle is moving forward at a constant speed. The driver is maintaining the current lane and speed, likely due to the clear road ahead initially. The driver may need to decelerate or stop due to the sudden appearance of the person on the right.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

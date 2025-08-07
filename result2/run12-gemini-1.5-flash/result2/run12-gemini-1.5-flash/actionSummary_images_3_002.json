@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_3_002",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.1s",
+    "scene_theme": "Urban Intersection",
+    "characters": "A blue pickup truck, a man and a woman crossing the road, several other pedestrians and vehicles in the background.",
+    "summary": "The video shows a blue pickup truck slowly moving forward at an urban intersection. A man and a woman are crossing the road in front of the truck.  The couple appears to be assisting each other, possibly due to age or disability. Other pedestrians and vehicles are visible in the background, indicating typical urban traffic. The overall situation appears relatively calm, although the pedestrians' presence in front of the slow-moving truck presents a low-level risk of collision if the truck were to accelerate unexpectedly.",
+    "actions": "The self-driving vehicle maintains a slow, steady speed, likely due to the presence of pedestrians crossing the road directly in front. The vehicle shows no signs of acceleration or braking during this segment. The driver is likely exercising caution to avoid a collision with the pedestrians.",
+    "key_objects": "1) Front: A man and a woman, approximately 5 meters away, crossing the road slowly, potentially posing a low risk of collision if the vehicle accelerates unexpectedly. ",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_031",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person, likely an adult, is seen riding a scooter. They are wearing dark clothing and a helmet. They fall from the scooter in front of the ego vehicle.",
+  "summary": "The scene begins with the ego vehicle driving on a multi-lane road in an urban environment, approaching what appears to be an intersection or a roundabout. A white sedan is visible on the left, moving forward. On the right side of the road, a green and red three-wheeled vehicle is present, acting as a visual obstruction. Suddenly, a person on a scooter emerges from behind this three-wheeled vehicle on the right, darting into the ego vehicle's path. The scooter rider loses control and falls directly in front of the ego vehicle, creating an immediate and dangerous collision risk. The white sedan continues to move past the incident on the left.",
+  "actions": "The ego vehicle is initially moving forward at a moderate speed, navigating the road. Upon the sudden appearance of the scooter rider from behind the three-wheeled vehicle on the right, and the subsequent fall of the rider directly into the vehicle's path, the ego vehicle immediately initiates rapid deceleration. This action is taken to prevent a direct collision with the fallen scooter rider, prioritizing safety and avoiding an accident.",
+  "key_objects": "1) Right side: A green and red three-wheeled vehicle, acting as a physical obstruction that blocks the driver's view. 2) Right side, then center: A person on a scooter, who suddenly emerges from behind the three-wheeled vehicle and falls directly into the ego vehicle's path, creating an immediate danger.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

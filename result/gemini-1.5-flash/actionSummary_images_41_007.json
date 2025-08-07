@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_41_007",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving through a narrow alley. A white sedan is parked ahead, and a motorcyclist appears from the left side, moving towards the center of the alley. The motorcyclists sudden movement poses a potential danger to the self-driving vehicle.",
+        "actions": "The self-driving vehicle is maintaining a slow speed due to the narrow alley and the presence of the parked sedan ahead. The vehicles speed is consistent, ensuring safety in the confined space. The motorcyclists sudden appearance from the left side prompts the vehicle to be cautious.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, parked and blocking part of the alley. 2) Left side: A motorcyclist, approximately 5 meters away, moving towards the center of the alley, potentially causing an obstruction.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_41_007",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is stationary at an intersection. A white sedan is positioned on the right side, attempting to merge into the lane. A motorcyclist is on the left side, moving forward slowly. The white sedan is gradually moving forward, potentially causing a cut-in situation.",
+        "actions": "The self-driving vehicle remains stationary, likely to avoid collision with the white sedan attempting to merge from the right side. The motorcyclist on the left side is moving forward slowly, indicating the vehicle is waiting for a safe gap to proceed.",
+        "key_objects": "1) Right side: A white sedan, approximately 5 meters away, moving forward and attempting to merge into the lane. 2) Left side: A motorcyclist, approximately 3 meters away, moving forward slowly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

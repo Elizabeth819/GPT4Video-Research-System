@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_002",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "Male pedestrian in dark clothing, male cyclist in a light blue jacket",
+  "summary": "In this segment, the vehicle is driving on a two-lane road in what appears to be a rural or semi-urban area with buildings lining both sides. The weather is overcast but visibility is good. Initially, the road ahead is clear. As the vehicle proceeds, a male pedestrian wearing dark clothing is observed walking on the right side of the road, moving towards the vehicle. Shortly after, a male cyclist wearing a light blue jacket is seen riding on the left side of the road, also approaching the vehicle. Both the pedestrian and the cyclist are visible from a distance and do not suddenly emerge from behind any physical obstructions. The vehicle continues its path without any sudden maneuvers, indicating a routine driving scenario.",
+  "actions": "The self-driving vehicle maintains a consistent speed and direction throughout the segment. There are no observed changes in speed (acceleration or deceleration) or direction (steering adjustments) as the pedestrian and cyclist are visible well in advance and do not pose an immediate threat or require evasive action. The vehicle proceeds with normal driving behavior, indicating that the road conditions and the presence of other road users were within expected parameters.",
+  "key_objects": "None requiring immediate attention",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

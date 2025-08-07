@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_038",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) Left side: A person, possibly female, wearing a red coat, walking with a child or pushing a stroller. 2) Left side: Driver of a small light-colored truck. 3) Left side: Driver of a white sedan.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a two-lane road in a semi-urban or rural environment under overcast skies. Initially, a pedestrian with a child is visible on the left side of the road. As the vehicle proceeds, at approximately 5.0 seconds, a small light-colored truck suddenly emerges from a side road on the left, which was previously obscured by buildings and trees. This truck enters the main road directly into the vehicle's path with minimal warning. The self-driving vehicle immediately reacts by decelerating to avoid a collision. A white sedan is also observed approaching from the opposite direction and passing the self-driving vehicle.",
+  "actions": "The self-driving vehicle maintains a consistent speed during the initial part of the segment. Upon the sudden emergence of the small light-colored truck from the left side road at approximately 5.0 seconds, which presented an immediate collision risk, the vehicle promptly initiates deceleration. This action is taken to allow the truck sufficient time to clear the intersection and to ensure the safety of both vehicles by preventing a potential impact. The vehicle continues to slow down as the truck crosses its path.",
+  "key_objects": "1) Left side: A small light-colored truck, approximately 10-15 meters away, suddenly emerging from behind buildings at an intersection and entering the main road directly into the vehicle's path. This creates an immediate and unexpected obstruction. 2) Left side: Buildings and trees, approximately 10-20 meters away, acting as visual obstructions that completely hid the approaching truck until it emerged into the intersection.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

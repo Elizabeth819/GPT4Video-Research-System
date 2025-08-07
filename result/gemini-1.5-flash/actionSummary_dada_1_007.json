@@ -1,0 +1,22 @@
+[
+  {
+    "video_id": "dada_1_007",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "00:00:00",
+    "End_Timestamp": "00:00:09",
+    "summary": "The vehicle is driving on a city street with pedestrians on the sidewalks. In frame 7, a pedestrian is seen running across the street.",
+    "actions": "The vehicle is driving straight on a city street. The driver should be aware of pedestrians on the sidewalks and potentially crossing the street.",
+    "key_objects": [
+      "vehicle",
+      "pedestrians",
+      "street",
+      "sidewalks"
+    ],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "straight",
+      "lane_control": "stay in lane"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_38_002",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Traffic",
+        "characters": "Driver of a gold sedan, pedestrians on the left side, truck on the right side",
+        "summary": "In this segment, the vehicle is driving on a busy road approaching a traffic light. The gold sedan ahead is maintaining a steady speed. On the left side, pedestrians are walking along the sidewalk. On the right side, a green truck is moving forward. The traffic light ahead is red, and vehicles are slowing down.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the gold sedan ahead. The vehicle is slowing down as it approaches the red traffic light. The driver is cautious due to the pedestrians on the left side and the moving truck on the right side.",
+        "key_objects": "1) Front: A gold sedan, approximately 5 meters away, maintaining a steady speed. 2) Left side: Pedestrians, approximately 3 meters away, walking along the sidewalk. 3) Right side: A green truck, approximately 2 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

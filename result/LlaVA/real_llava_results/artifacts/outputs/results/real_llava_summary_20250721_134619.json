@@ -1,0 +1,13 @@
+{
+  "total_videos": 100,
+  "successful_processed": 0,
+  "failed_processed": 100,
+  "ghost_probing_detected": 0,
+  "normal_videos": 0,
+  "detection_rate_percent": 0,
+  "average_processing_time": 0,
+  "timestamp": "20250721_134619",
+  "files_generated": [
+    "./outputs/results/real_llava_ghost_results_20250721_134619.json"
+  ]
+}

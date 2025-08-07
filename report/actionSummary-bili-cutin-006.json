@@ -1,0 +1,104 @@
+[
+    {
+        "video_id": "006",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Informative",
+        "characters": "White truck, white car, blue car",
+        "summary": "In this segment, the vehicle is traveling on a highway. The driver discusses the importance of maintaining a safe distance, especially on highways compared to city roads. A white truck is seen ahead, and a white car is on the right lane. A blue car is also visible in the right lane. The self-driving vehicle maintains a safe distance from the white truck ahead.",
+        "actions": "The self-driving vehicle maintains a safe distance from the white truck ahead, ensuring safety on the highway. The vehicles speed is consistent, and there are no sudden changes in direction or speed.",
+        "key_objects": "1) Front: A white truck, approximately 20 meters away, maintaining a steady speed. 2) Right: A white car, approximately 15 meters away, moving at a similar speed. 3) Right: A blue car, approximately 25 meters away, maintaining a steady speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "10.931758561643836s",
+        "sentiment": "Negative",
+        "End_Timestamp": "19.875924657534245s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self vehicle, driver of the car ahead, driver of the car behind",
+        "summary": "In this segment, the self vehicle is driving on a highway. The car ahead suddenly decelerates, causing the self vehicle to brake sharply. The self vehicle manages to stop in time, maintaining a safe distance from the car ahead. However, the car behind fails to maintain a safe distance and does not stop in time, leading to a potential rear-end collision. The audio indicates that the self vehicles braking was sufficient, but the following vehicle did not maintain enough distance and could not stop in time.",
+        "actions": "The self vehicle decelerates sharply to avoid a collision with the car ahead. The car behind fails to maintain a safe distance and does not stop in time, leading to a potential rear-end collision. The self vehicles speed control and braking were adequate, but the following vehicles failure to maintain distance caused the danger.",
+        "key_objects": "1) Front: A gold SUV, approximately 2 meters away, decelerating rapidly, causing the self vehicle to brake sharply. 2) Rear: A white car, approximately 1 meter away, failing to maintain a safe distance and not stopping in time, leading to a potential rear-end collision.",
+        "key_actions": "sudden deceleration, potential rear-end collision",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "20.86972089041096s",
+        "sentiment": "Negative",
+        "End_Timestamp": "29.81388698630137s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on a wet road. Initially, the self vehicle is behind a beige car. As the scene progresses, the self vehicle moves to a different location where a white SUV is seen making a sudden right turn from the left lane, cutting across multiple lanes. The driver of the white SUV initially signals a lane change but then abruptly turns right, causing a potential collision hazard.",
+        "actions": "The self vehicle is driving on a wet road and initially follows a beige car. Later, the self vehicle encounters a white SUV making a sudden right turn from the left lane, cutting across multiple lanes. The self vehicle needs to decelerate to avoid a potential collision.",
+        "key_objects": "1) Front-left: A beige car, approximately 2 meters away, initially in front of the self vehicle. 2) Front-right: A white SUV, approximately 5 meters away, making a sudden right turn from the left lane, cutting across multiple lanes.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "30.8s",
+        "sentiment": "Negative",
+        "End_Timestamp": "39.8s",
+        "scene_theme": "Dramatic",
+        "characters": "White SUV, Black SUV, Audi, Van",
+        "summary": "In this segment, a white SUV from the right lane suddenly makes a U-turn, cutting across the path of the self vehicle. The self vehicle does not brake, and the white SUV ends up on the pedestrian crossing. The driver comments that this maneuver is entirely the fault of the white SUV. The scene then shifts to a view of the road ahead, where the traffic light has just turned green, and vehicles in the right lane are starting to move.",
+        "actions": "The self vehicle maintains its speed despite the sudden U-turn of the white SUV from the right lane. The white SUVs maneuver is unexpected and dangerous, as it cuts across the self vehicles path and ends up on the pedestrian crossing. The self vehicle continues to move forward as the traffic light ahead turns green.",
+        "key_objects": "1) Right side: A white SUV, approximately 1 meter away, making a sudden U-turn from the right lane into the self vehicles path. 2) Front: A black SUV, approximately 5 meters away, starting to move as the traffic light turns green. 3) Front-left: An Audi, approximately 6 meters away, also starting to move. 4) Left side: A van, approximately 7 meters away, stationary.",
+        "key_actions": "cut-in, U-turn of the self vehicle",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "40.7456455479452s",
+        "sentiment": "Negative",
+        "End_Timestamp": "49.68981164383562s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black SUV",
+        "summary": "In this segment, the self-driving vehicle is traveling on a multi-lane road. The driver comments on the unnecessary lane change by the black SUV in front. The black SUV moves from the right lane to the left lane, causing the self-driving vehicle to slow down. Additionally, a white sedan on the left side is also preparing to change lanes.",
+        "actions": "The self-driving vehicle slows down to accommodate the lane change of the black SUV. The driver expresses frustration over the unnecessary lane change. The white sedan on the left is also preparing to change lanes, which the driver is aware of.",
+        "key_objects": "1) Front: A black SUV, approximately 5 meters away, changing lanes from right to left, causing the self-driving vehicle to slow down. 2) Left side: A white sedan, approximately 3 meters away, preparing to change lanes into the self-driving vehicles lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "006",
+        "Start_Timestamp": "50.68360787671233s",
+        "sentiment": "Negative",
+        "End_Timestamp": "59.62777397260274s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a black SUV",
+        "summary": "In this segment, the self-driving vehicle is traveling on a highway. The driver mentions that the car ahead is moving slowly, prompting another vehicle (a black SUV) to change lanes and cut in front of the self-driving vehicle. The self-driving vehicle maintains its lane and speed, not yielding to the black SUV.",
+        "actions": "The self-driving vehicle maintains its lane and speed despite the black SUV cutting in from the left lane. The driver comments on the unnecessary lane change by the black SUV, emphasizing that yielding is optional.",
+        "key_objects": "1) Left side: A black SUV, approximately 2 meters away, cutting in from the left lane, causing a potential collision. 2) Front: A white sedan, approximately 5 meters away, moving slowly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

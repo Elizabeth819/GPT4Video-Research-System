@@ -1,3 +1,0 @@
-docker build -t action-summary .
-docker run -it -v C:/Videos:/usr/src/app/data action-summary
-python ActionSummary.py ./data/medal.mp4,60,10

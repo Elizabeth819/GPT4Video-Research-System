@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_004",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male cyclist wearing a light-colored shirt and dark pants, riding a bicycle.",
+  "summary": "In this segment, the self-driving vehicle is navigating an urban road with multiple lanes, approaching an intersection under an elevated road structure. Initially, the vehicle maintains a steady speed, following other traffic. As the vehicle gets closer to the intersection, a male cyclist, previously riding alongside a construction barrier on the right, suddenly emerges from behind a large concrete pillar supporting the elevated road structure and enters the crosswalk directly into the vehicle's path. This sudden appearance occurs with minimal warning, coinciding with the traffic light changing from green to yellow and then red, forcing the vehicle to rapidly decelerate and come to a complete stop to avoid a collision.",
+  "actions": "The self-driving vehicle initially maintains a consistent speed, following the flow of traffic. As it approaches the intersection and the traffic light ahead transitions from green to yellow, the vehicle begins to decelerate. This deceleration becomes rapid and emergency braking is initiated when a male cyclist suddenly emerges from behind the large concrete pillar on the right side of the road and enters the crosswalk directly in front of the vehicle. The vehicle's actions are a direct response to the changing traffic signal and, more critically, to the unexpected and sudden appearance of the cyclist, prioritizing immediate collision avoidance.",
+  "key_objects": "1) Right side: A male cyclist on a bicycle, approximately 2-3 meters away, suddenly emerging from behind a large concrete pillar and entering the crosswalk directly into the vehicle's path at approximately 7.0 seconds. 2) Right side: A large concrete pillar, part of the elevated road structure, approximately 5 meters away, creating a visual obstruction that completely hid the cyclist until his sudden emergence into the crosswalk. 3) Ahead: A traffic light, approximately 10 meters away, changing from green to yellow and then red, indicating the need for the vehicle to stop.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

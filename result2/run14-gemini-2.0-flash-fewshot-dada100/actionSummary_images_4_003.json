@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_003",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Adult male in a dark suit and glasses, approximately 35 years old, walking from the left side of the road.",
+  "summary": "The vehicle is driving on a street with cars parked on both sides. From 0.0s to 5.8s, the vehicle is stationary. At 5.8s, the vehicle starts moving forward. At 6.7s, the vehicle is moving at 13km/h. From 7.7s to 10.0s, the vehicle decelerates and comes to a stop. An adult male in a dark suit and glasses walks from behind a parked car on the left side of the road, creating a potential ghost probing situation. The man is walking into the street.",
+  "actions": "The vehicle is initially stopped, likely waiting for traffic to clear or for a safe opportunity to proceed. The vehicle then accelerates to navigate through the street. The vehicle decelerates and stops due to the adult male walking into the street from behind a parked car.",
+  "key_objects": "1) Left side: Adult male in a dark suit and glasses, approximately 3 meters away, walking from behind a parked car and into the street, causing the vehicle to decelerate and stop. 2) Left side: Parked car, approximately 2 meters away, obstructing the view of the adult male until he emerges into the street.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

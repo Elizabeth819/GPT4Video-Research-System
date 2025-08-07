@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "The ego vehicle is driving on a city street with moderate traffic. A scooter is approaching an intersection from the right.",
+    "actions": "Ego vehicle is driving straight. A scooter is approaching the intersection. Pedestrians are waiting to cross the street.",
+    "characters": "Pedestrians are visible at the crosswalk.",
+    "key_objects": "Ego vehicle, scooter, pedestrians, crosswalk, other vehicles.",
+    "key_actions": "potential ghost probing",
+    "next_action": "Ego vehicle will continue driving straight, potentially needing to slow down for the scooter and pedestrians."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "The ego vehicle continues driving straight. The scooter is crossing the intersection. Pedestrians are crossing the street.",
+    "actions": "Ego vehicle is driving straight. The scooter is crossing the intersection. Pedestrians are crossing the street.",
+    "characters": "Pedestrians are visible at the crosswalk.",
+    "key_objects": "Ego vehicle, scooter, pedestrians, crosswalk, other vehicles.",
+    "key_actions": "potential ghost probing",
+    "next_action": "Ego vehicle will continue driving straight, potentially needing to slow down for the scooter and pedestrians."
+  }
+]

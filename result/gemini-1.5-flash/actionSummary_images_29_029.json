@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_29_029",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a wet road with moderate traffic. Several individuals on bicycles and motorcycles are visible on the road. At 4.0s, a person on a bicycle suddenly appears from the left side, moving towards the center of the road, potentially causing a dangerous situation. The self-driving vehicle needs to decelerate to avoid a collision.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed initially but starts to decelerate at 4.0s due to the sudden appearance of a person on a bicycle from the left side. The vehicle continues to decelerate to ensure safety and avoid a potential collision.",
+        "key_objects": "1) Left side: A person on a bicycle, approximately 5 meters away, suddenly moving towards the center of the road, causing the vehicle to decelerate. 2) Right side: A person on a motorcycle, approximately 10 meters away, maintaining a steady speed.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_29_029",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "11.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red vehicle",
+        "summary": "In this segment, the vehicle is driving on a wet road in a city environment. A red vehicle ahead is moving erratically, potentially causing a dangerous situation. The self-driving vehicle maintains a consistent speed but needs to be cautious due to the unpredictable behavior of the red vehicle.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while keeping a safe distance from the red vehicle ahead. The driver is likely preparing to decelerate or take evasive action if the red vehicles behavior becomes more erratic.",
+        "key_objects": "1) Front: A red vehicle, approximately 20 meters away, moving erratically and potentially causing a dangerous situation.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

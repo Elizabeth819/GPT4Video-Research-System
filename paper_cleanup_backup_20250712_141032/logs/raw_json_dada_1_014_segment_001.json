@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_014",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "End_Timestamp": "10.4s",
+    "scene_theme": "Calm",
+    "characters": "Motorcyclist on the right",
+    "summary": "In this segment, the vehicle is driving on a rural road with buildings on both sides. A motorcyclist is seen on the right side of the road, stationary and partially obstructed by a building.",
+    "actions": "The self-driving vehicle is maintaining a steady speed and direction, as there are no immediate obstacles or vehicles in its path.",
+    "key_objects": "1) Right side: A motorcyclist, approximately 2 meters away, stationary and partially obstructed by a building.",
+    "key_actions": "none",
+    "next_action": {
+        "speed_control": "consistent speed driving",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "video_id": "unknown",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "9.99999622128174s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, two individuals with a cow, multiple vehicles on the road",
+        "summary": "In this segment, the vehicle is driving on a highway. Initially, two trucks are seen ahead, one overtaking the other. The scene then shifts to two individuals trying to manage a cow stuck in a barrier on the roadside. Multiple vehicles are parked on the side of the road, and a police officer is present. The final frame shows a motorcyclist on a winding road.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the trucks ahead. The vehicle then slows down as it approaches the scene with the cow and parked vehicles, ensuring safety. The vehicle continues to drive cautiously as it navigates the winding road with the motorcyclist ahead.",
+        "key_objects": "1) Front: Two trucks, approximately 20 meters away, one overtaking the other. 2) Right side: Two individuals with a cow, approximately 5 meters away, managing the cow stuck in a barrier. 3) Right side: Multiple parked vehicles, approximately 10 meters away, including a police car. 4) Front: A motorcyclist, approximately 15 meters away, driving on a winding road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "10.999995843409916s",
+        "sentiment": "Negative",
+        "End_Timestamp": "19.99999244256348s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, pedestrians, multiple cars",
+        "summary": "In this segment, the vehicle is driving on a curved road. Initially, a motorcyclist is seen ahead on the left side of the road. As the vehicle continues, pedestrians appear on the right side of the road. The scene then transitions to a multi-lane road with heavy traffic. A white car from the adjacent left lane cuts into the self-vehicles lane abruptly, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is navigating a curved road, maintaining a steady speed. As it approaches the pedestrians on the right, it continues without significant speed changes. Upon transitioning to the multi-lane road, the vehicle encounters a white car cutting in from the left lane, necessitating a potential deceleration or evasive maneuver.",
+        "key_objects": "1) Left side: A motorcyclist, approximately 10 meters away, moving ahead. 2) Right side: Two pedestrians, approximately 15 meters away, walking along the roadside. 3) Front: A white car, approximately 5 meters away, cutting into the self-vehicles lane from the left.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "unknown",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "20.999992064691657s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "29.999988663845226s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. Initially, a white sedan is seen ahead in the same lane. As the video progresses, the vehicle continues to drive straight, passing a truck on the right side. The road appears clear with no immediate obstacles or pedestrians.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the segment. It passes a truck on the right side, indicating a steady driving pattern without any sudden maneuvers.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, driving in the same lane. 2) Right side: A truck, approximately 5 meters away, being overtaken by the self-driving vehicle.",
+        "key_actions": "right-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "30.999988285973398s",
+        "End_Timestamp": "39.99998488512696s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist, tricycle driver",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. Initially, the road is clear, but as the vehicle progresses, a motorcyclist and a tricycle appear in the lane ahead. The tricycle suddenly moves into the vehicles path, leading to a collision.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As the tricycle moves into the vehicles path, the vehicle attempts to decelerate but is unable to avoid the collision. The vehicles speed decreases significantly in the final frames, indicating an attempt to stop.",
+        "key_objects": "1) Front: A motorcyclist, approximately 20 meters away, moving straight ahead. 2) Front: A tricycle, approximately 10 meters away, suddenly moving into the vehicles path, causing a collision.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "video_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "40.99998450725514s",
+        "sentiment": "Negative",
+        "End_Timestamp": "49.99998110640871s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, pedestrians, cyclists",
+        "summary": "In this segment, the vehicle is driving on a city road. Initially, a white sedan is seen on the left side of the road. As the vehicle progresses, the scene changes to a busy street with multiple parked cars and pedestrians. A cyclist is seen on the right side of the road, and a pedestrian is crossing the road from the left side. The vehicle continues to move forward, maintaining a steady speed.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through a busy city street. The vehicle is keeping a safe distance from the parked cars on both sides of the road and is aware of the pedestrians and cyclists around.",
+        "key_objects": "1) Left side: A white sedan, approximately 2 meters away, parked and partially blocking the view. 2) Right side: A cyclist, approximately 5 meters away, moving forward. 3) Front: A pedestrian, approximately 10 meters away, crossing the road from left to right.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

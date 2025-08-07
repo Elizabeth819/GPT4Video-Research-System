@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_089",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.5s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue sedan",
+        "summary": "In this segment, the vehicle is driving on a wet road at night. The road is illuminated by streetlights, and there is moderate traffic. A blue sedan on the left side of the road is overtaking the observer vehicle.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while driving on a wet road. The vehicle is keeping a safe distance from the vehicles ahead and is aware of the blue sedan overtaking from the left.",
+        "key_objects": "1) Left side: A blue sedan, approximately 2 meters away, overtaking the observer vehicle.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

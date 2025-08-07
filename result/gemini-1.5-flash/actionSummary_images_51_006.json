@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_51_006",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on a highway. A white SUV is seen ahead, initially in the adjacent lane, and then it moves into the self-vehicles lane abruptly, causing a collision.",
+        "actions": "The self-driving vehicle was maintaining a consistent speed until the white SUV suddenly cut into its lane from the adjacent lane, leading to a collision. The vehicles speed decreased rapidly in the last few seconds.",
+        "key_objects": "1) Front: A white SUV, approximately 10 meters away, moving from the adjacent lane into the self-vehicles lane abruptly, causing a collision.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

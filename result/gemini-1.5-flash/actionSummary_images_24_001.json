@@ -1,0 +1,107 @@
+[
+    {
+        "video_id": "dada_24_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "White sedan",
+                "distance": "10-15 meters",
+                "behavior or action impacting the vehicle": "Maintaining a consistent speed and distance from the ego vehicle."
+            },
+            {
+                "Position": "Right",
+                "Object description": "Two adults walking",
+                "distance": "5-7 meters",
+                "behavior or action impacting the vehicle": "Walking at a normal pace, not exhibiting any sudden movements or crossing the road."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "40-50",
+                "clothing": "Dark jacket and pants",
+                "transportation": "Walking",
+                "behavior": "Walking on the right sidewalk at a normal pace."
+            },
+            {
+                "gender": "Female",
+                "age": "40-50",
+                "clothing": "Red jacket and dark pants",
+                "transportation": "Walking",
+                "behavior": "Walking on the right sidewalk at a normal pace."
+            }
+        ],
+        "summary": "The video shows a car driving on a relatively quiet road. The road is straight with some parked vehicles on the left side.  There is a white sedan in front of the ego vehicle, maintaining a safe distance. Two adults, a man and a woman, are walking on the right sidewalk.  No sudden movements or dangerous behaviors are observed from either the pedestrians or other vehicles. The traffic flow is smooth and consistent.",
+        "actions": "The ego vehicle maintains a steady speed, adjusting slightly to maintain a safe following distance from the white sedan ahead. There are no apparent reasons for acceleration or deceleration based on the observed traffic conditions and pedestrian behavior.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep lane"
+        }
+    },
+    {
+        "video_id": "dada_24_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving down a narrow street.  A white van is visible on the left, and a larger bus is ahead in the same lane. The bus is moving slowly, and the car maintains a safe following distance. There are no pedestrians or other vehicles that pose an immediate threat. The street appears to be relatively quiet with buildings lining both sides.  No unusual or dangerous events occur during this segment.",
+        "actions": "The vehicle maintains a consistent speed, following the bus ahead at a safe distance.  The driver appears to be navigating a relatively straight section of road with no immediate need for braking or lane changes. The speed is likely adjusted to match the slow-moving bus ahead, ensuring safe following distance.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep lane"
+        }
+    },
+    {
+        "video_id": "dada_24_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "Dark-colored sedan",
+                "distance": "10-15 meters",
+                "behavior or action impacting the vehicle": "Maintaining a consistent speed and distance ahead of the ego vehicle."
+            },
+            {
+                "Position": "Front-left",
+                "Object description": "White delivery truck",
+                "distance": "20-25 meters",
+                "behavior or action impacting the vehicle": "Traveling in the same direction, slightly ahead and to the left of the ego vehicle."
+            }
+        ],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video segment shows the ego vehicle driving on a relatively quiet residential street.  The road is clear of pedestrians or cyclists.  The ego vehicle maintains a safe following distance behind a dark-colored sedan directly ahead. A white delivery truck is visible further ahead and slightly to the left.  No unusual or dangerous events occur during this segment.",
+        "actions": "The ego vehicle maintains a steady speed and follows the vehicle in front at a safe distance.  The driver appears to be driving cautiously and attentively, adjusting speed to maintain a safe following distance from the vehicle ahead. There are no apparent reasons for acceleration or deceleration based on the visible road conditions and traffic.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "straight",
+            "lane_control": "keep lane"
+        }
+    },
+    {
+        "video_id": "dada_24_001",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "16.6s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving down a residential street.  The road is relatively clear with a few other vehicles visible in the distance. There are no pedestrians or cyclists observed in the immediate vicinity of the vehicle. The traffic appears light, and there are no apparent obstacles or hazards in the road ahead. The driving conditions appear normal.",
+        "actions": "The vehicle maintains a consistent speed and follows the road's curvature.  There are no sudden braking or acceleration maneuvers observed. The driver appears to be maintaining a safe following distance from the vehicle ahead. The vehicle's actions suggest a calm and controlled driving style, adapting to the road's gentle curves.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

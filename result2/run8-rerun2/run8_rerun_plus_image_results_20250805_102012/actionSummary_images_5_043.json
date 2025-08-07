@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_043",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child on the right side of the road, a pedestrian on the left side of the road, and a cyclist on the right side of the road.",
+  "summary": "The video sequence shows a vehicle driving at night. Initially, the road is clear with some parked vehicles on both sides. Suddenly, a child emerges from the right side of the road, running into the driving lane. This is a clear case of 'ghost probing' as the child was hidden by the parked vehicles until the moment of emergence, creating an immediate collision risk.",
+  "actions": "The child runs from the right side of the road into the driving lane, creating a sudden and immediate danger. The pedestrian on the left side of the road and the cyclist on the right side of the road remain stationary.",
+  "key_objects": "Parked vehicles on both sides of the road, a child running into the driving lane, a pedestrian on the left side of the road, and a cyclist on the right side of the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

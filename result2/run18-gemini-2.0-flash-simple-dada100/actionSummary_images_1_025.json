@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_025",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two construction workers, one wearing an orange vest and the other wearing a red jacket, are on the left side of the road. They appear to be working on the guardrail. One of them walks onto the road.",
+  "summary": "The vehicle is traveling on a highway with mountains on either side. Two construction workers are working on the left side of the road near the guardrail. One of the workers walks onto the road, creating a potential hazard.",
+  "actions": "The vehicle maintains its speed and direction as it travels down the highway. The driver is likely maintaining speed because the road is clear ahead, but the presence of workers on the side of the road requires increased vigilance.",
+  "key_objects": "1) Left side: Construction worker in orange vest, near guardrail, medium distance, potential hazard if they enter the roadway. 2) Left side: Construction worker in red jacket, on the road, medium distance, immediate hazard.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "experiment_info": {
+    "run_id": "Run 10",
+    "timestamp": "20250727_150023",
+    "video_count": 100,
+    "model": "GPT-4o (Azure)",
+    "prompt_version": "GPT-4.1 Balanced (移植到GPT-4o)",
+    "temperature": 0.3,
+    "max_tokens": 2000,
+    "purpose": "对比GPT-4o在Balanced prompt下的100视频性能",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run10_gpt4o_balanced_100videos",
+    "prompt_characteristics": [
+      "三层ghost probing分类系统",
+      "环境上下文整合",
+      "平衡精确度与召回率",
+      "简化验证流程",
+      "与GPT-4.1 Balanced完全一致的prompt",
+      "Temperature=0.3保持历史一致性"
+    ]
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "key_actions": "emergency braking due to pedestrian crossing",
+      "evaluation": "TN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_001.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"A pedestrian, a cyclist, and a few vehicles\",\n    \"summary\": \"The video shows a vehicle driving on an urban street. A pedestrian is seen running across the street from the right side. The vehicle in front is maintaining its lane and speed. The pedestrian crosses the street safely, and the vehicle continues driving without any sudden changes.\",\n    \"actions\": \"The vehicle maintains its speed and lane, and no immediate braking or swerving is observed.\",\n    \"key_objects\": \"1) Right side: Pedestrian, 3-5 meters, potential collision risk 2) Front: Vehicle, 5-7 meters, maintaining speed and lane\",\n    \"key_actions\": \"emergency braking due to pedestrian crossing\",\n    \"next_action\": {\n        \"speed_control\": \"deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "potential ghost probing",
+      "evaluation": "TP",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_002.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Several pedestrians, a cyclist, and a child\",\n    \"summary\": \"The video shows a vehicle driving down a rural road with several pedestrians and a cyclist visible. A child suddenly runs into the road from the right side, causing the vehicle to brake abruptly to avoid a collision. The child falls in front of the vehicle, and the vehicle comes to a complete stop.\",\n    \"actions\": \"The vehicle is driving at a moderate speed. Upon noticing the child running into the road, the driver applies emergency braking to avoid hitting the child.\",\n    \"key_objects\": \"1) Position: Child, approximately 5 meters ahead, running into the road from the right side, causing immediate danger. 2) Position: Pedestrians, approximately 10 meters ahead, walking along the roadside, no immediate danger. 3) Position: Cyclist, approximately 15 meters ahead, riding along the roadside, no immediate danger.\",\n    \"key_actions\": \"potential ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_003.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"A pedestrian suddenly appears and falls in front of the vehicle, another person rushes to assist.\",\n    \"summary\": \"The video captures a night-time urban street scene. Initially, the road is clear with some vehicles and pedestrians on the sides. Suddenly, a pedestrian appears directly in front of the vehicle and falls. Another person quickly rushes to assist the fallen pedestrian.\",\n    \"actions\": \"The vehicle is moving forward when a pedestrian suddenly appears and falls directly in its path, necessitating immediate braking.\",\n    \"key_objects\": \"1) Front: Pedestrian, within 1-2 meters, sudden appearance and fall, high collision risk 2) Side: Another person, assisting the fallen pedestrian, moderate impact on vehicle movement\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "key_actions": "none",
+      "evaluation": "TN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_004.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"A few pedestrians and cyclists on the side of the road\",\n    \"summary\": \"The video shows a vehicle driving on a rural road with minimal traffic. There are a few pedestrians and cyclists on the side of the road. The vehicle maintains a steady speed and lane throughout the duration of the video.\",\n    \"actions\": \"The vehicle maintains a steady speed and stays in its lane. No sudden movements or changes in speed are observed.\",\n    \"key_objects\": \"1) Position: Pedestrians and cyclists on the side of the road, distance: approximately 5-10 meters, behavior impact: minimal as they are not in the vehicle's path.\",\n    \"key_actions\": \"None\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "key_actions": "emergency braking due to pedestrian crossing",
+      "evaluation": "FN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_005.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Pedestrians with umbrellas, a few vehicles including a red car in front, and buses\",\n    \"summary\": \"The video shows a busy urban street scene on a rainy day. The observer vehicle is following a red car and moving slowly. There are many pedestrians with umbrellas on the sidewalk and some crossing the street. The traffic is slow with buses and other vehicles moving in the opposite direction. The observer vehicle needs to be cautious due to the pedestrians and the slow-moving traffic.\",\n    \"actions\": \"The observer vehicle is moving slowly and maintaining a safe distance from the red car in front. The vehicle slows down as pedestrians cross the street.\",\n    \"key_objects\": \"1) Front: Red car, 3-5 meters, maintaining safe distance 2) Left: Pedestrians with umbrellas, crossing the street, requiring caution 3) Right: Pedestrians on the sidewalk, no immediate impact 4) Opposite: Buses and other vehicles, moving slowly\",\n    \"key_actions\": \"emergency braking due to pedestrian crossing\",\n    \"next_action\": {\n        \"speed_control\": \"deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_006.avi",
+      "ground_truth": "9s: ghost probing",
+      "key_actions": "potential ghost probing",
+      "evaluation": "TP",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_006.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Several motorcyclists, pedestrians, and other vehicles\",\n    \"summary\": \"The video shows a busy urban street with multiple motorcyclists and cars moving in traffic. A few motorcyclists are seen crossing in front of the observer vehicle. The observer vehicle continues moving forward, maintaining a safe distance from the vehicles ahead. Towards the end, a pedestrian suddenly crosses the street, prompting the observer vehicle to slow down.\",\n    \"actions\": \"The observer vehicle maintains a steady speed initially, then slows down as a pedestrian crosses the street.\",\n    \"key_objects\": \"1) Front: Motorcyclists, 3-5 meters, moderate impact on speed 2) Front: Pedestrian, 1-2 meters, high impact requiring deceleration\",\n    \"key_actions\": \"potential ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_007.avi",
+      "ground_truth": "6s: ghost probing",
+      "key_actions": "none",
+      "evaluation": "FN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_007.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Pedestrians on sidewalks, vehicles on the road\",\n    \"summary\": \"The video shows a routine urban street scene with the observer vehicle driving down a tree-lined street. Pedestrians are visible on the sidewalks, and other vehicles are parked or moving along the road. The observer vehicle maintains a steady speed and lane throughout the sequence.\",\n    \"actions\": \"The vehicle continues driving straight without any significant changes in speed or direction.\",\n    \"key_objects\": \"1) Position: Red car on the left, 5 meters ahead, moving into a parking spot, no impact on behavior 2) Position: White car on the right, parked, no impact on behavior 3) Position: Pedestrians on the sidewalks, maintaining predictable paths, no immediate impact on behavior\",\n    \"key_actions\": \"None\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_008.avi",
+      "ground_truth": "3s: ghost probing",
+      "key_actions": "emergency braking due to pedestrian crossing",
+      "evaluation": "FN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_008.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Pedestrians and cyclists on the side of the road\",\n    \"summary\": \"The video shows a vehicle driving down a narrow urban street with parked cars on the left and pedestrians and cyclists on the right. The vehicle encounters a pedestrian crossing the street and a cyclist riding on the side of the road.\",\n    \"actions\": \"The vehicle maintains a steady speed and keeps to its lane while navigating through the street. The driver appears to be cautious, slowing down slightly when approaching the pedestrian crossing the street.\",\n    \"key_objects\": \"1) Position: parked cars on the left, distance: within 1-2 meters, behavior impact: requires careful navigation to avoid collision 2) Position: pedestrian crossing the street, distance: 3-4 meters, behavior impact: requires slowing down to avoid collision 3) Position: cyclist on the right, distance: 2-3 meters, behavior impact: requires maintaining a safe distance\",\n    \"key_actions\": \"emergency braking due to pedestrian crossing\",\n    \"next_action\": {\n        \"speed_control\": \"deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_009.avi",
+      "ground_truth": "none",
+      "key_actions": "emergency braking due to pedestrian crossing",
+      "evaluation": "TN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_009.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Two pedestrians crossing the road\",\n    \"summary\": \"The video shows a night-time urban street scene where two pedestrians suddenly appear and start crossing the road in front of the vehicle. The pedestrians are initially at a moderate distance but quickly come closer, requiring the vehicle to take immediate action to avoid a collision.\",\n    \"actions\": \"The vehicle begins to decelerate rapidly as the pedestrians come into view and continue crossing the road.\",\n    \"key_objects\": \"1) Position: Pedestrians, 5 meters ahead, crossing the road, requiring immediate deceleration 2) Position: Pedestrians, 2 meters ahead, continuing to cross the road, necessitating emergency braking\",\n    \"key_actions\": \"emergency braking due to pedestrian crossing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_010.avi",
+      "ground_truth": "15s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_010.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"A pedestrian crossing the street suddenly\",\n    \"summary\": \"The video shows a vehicle driving on an urban street. Suddenly, a pedestrian appears from the right side and runs across the street in front of the vehicle, requiring immediate braking to avoid a collision.\",\n    \"actions\": \"The vehicle decelerates rapidly to avoid hitting the pedestrian.\",\n    \"key_objects\": \"1) Position: Pedestrian, very close (within 1-2 meters), sudden appearance, high impact on behavior 2) Position: Trucks and other vehicles, moderate distance, low impact on behavior\",\n    \"key_actions\": \"ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_011.avi",
+      "ground_truth": "11s: ghost probing",
+      "key_actions": "no ghost probing detected",
+      "evaluation": "TP",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_011.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"No people visible in the scene\",\n    \"summary\": \"The video shows a vehicle driving on a multi-lane urban street. The vehicle maintains a steady speed and lane position throughout the video. Several other vehicles are seen parked on the side of the road, and a few vehicles are driving ahead in the same direction. There are no sudden movements or unexpected objects appearing in the scene.\",\n    \"actions\": \"The vehicle maintains its speed and lane position, with no significant changes in direction or speed.\",\n    \"key_objects\": [\n        \"1) Position: Parked vehicles on the right side of the road, Distance: 5-10 meters, Behavior impact: None\",\n        \"2) Position: Moving vehicles ahead in the same lane, Distance: 20-30 meters, Behavior impact: None\"\n    ],\n    \"key_actions\": \"No ghost probing detected\",\n    \"next_action\": {\n        \"speed_control\": \"maintain speed\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_012.avi",
+      "ground_truth": "11s: ghost probing",
+      "key_actions": "emergency braking due to pedestrian crossing",
+      "evaluation": "FN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_012.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Pedestrians crossing the street, vehicles parked on the sides, and moving vehicles\",\n    \"summary\": \"The video shows a routine urban street scene with the observer vehicle moving forward. Pedestrians are seen crossing the street at a crosswalk, and there are parked vehicles on both sides of the road. The traffic is moderate with vehicles moving steadily in both directions.\",\n    \"actions\": \"The observer vehicle maintains a steady speed while approaching the crosswalk. The vehicle in front slows down slightly to allow pedestrians to cross. The observer vehicle also slows down to ensure safety.\",\n    \"key_objects\": \"1) Front: Pedestrians crossing the street at a crosswalk, 5 meters ahead, requiring the vehicle to slow down. 2) Front: Vehicle in front, 3 meters ahead, slowing down to allow pedestrians to cross.\",\n    \"key_actions\": \"emergency braking due to pedestrian crossing\",\n    \"next_action\": {\n        \"speed_control\": \"deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_013.avi",
+      "ground_truth": "8s: ghost probing",
+      "key_actions": "potential ghost probing",
+      "evaluation": "TP",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_013.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Negative\",\n    \"scene_theme\": \"Dangerous\",\n    \"characters\": \"Pedestrians and a bus driver\",\n    \"summary\": \"The video shows a rural road with a few pedestrians walking on the right side. As the observer vehicle proceeds, a bus suddenly appears from the opposite direction, moving into the observer's lane. The bus swerves back to its lane, but a pedestrian unexpectedly runs into the road, causing a collision with the observer vehicle.\",\n    \"actions\": \"The observer vehicle maintains its speed initially. Upon the sudden appearance of the bus, the vehicle should decelerate. The pedestrian running into the road requires immediate emergency braking.\",\n    \"key_objects\": \"1) Position: Pedestrians on the right side, distance: moderate, behavior impact: low 2) Position: Bus approaching from the opposite direction, distance: moderate, behavior impact: high 3) Position: Pedestrian running into the road, distance: very close, behavior impact: high\",\n    \"key_actions\": \"potential ghost probing\",\n    \"next_action\": {\n        \"speed_control\": \"rapid deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    },
+    {
+      "video_id": "images_1_014.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_015.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "emergency braking due to pedestrian crossing",
+      "evaluation": "FN",
+      "raw_result": "```json\n{\n    \"video_id\": \"images_1_015.avi\",\n    \"segment_id\": \"full_video\",\n    \"Start_Timestamp\": \"0.0s\",\n    \"End_Timestamp\": \"10.0s\",\n    \"sentiment\": \"Neutral\",\n    \"scene_theme\": \"Routine\",\n    \"characters\": \"Pedestrians and cyclists in the scene\",\n    \"summary\": \"The video shows a vehicle driving through an urban street with various pedestrians and cyclists crossing the road. The vehicle encounters a few pedestrians and cyclists at different points, requiring careful navigation.\",\n    \"actions\": \"The vehicle slows down as it approaches a busy intersection with pedestrians and cyclists crossing. The driver maintains a cautious speed and prepares to stop if necessary.\",\n    \"key_objects\": \"1) Position: Pedestrian, 5 meters ahead, crossing the street, requires deceleration 2) Position: Cyclist, 4 meters ahead, crossing the street, requires deceleration\",\n    \"key_actions\": \"emergency braking due to pedestrian crossing\",\n    \"next_action\": {\n        \"speed_control\": \"deceleration\",\n        \"direction_control\": \"keep direction\",\n        \"lane_control\": \"maintain current lane\"\n    }\n}\n```"
+    }
+  ]
+}

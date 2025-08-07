@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_025",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Dangerous",
+  "characters": "A pedestrian is visible on the right side of the road, walking away from the intersection. No specific details about age, gender, or clothing are discernible.",
+  "summary": "The video segment captures a vehicle driving on a wet road during what appears to be a rainy or overcast day. The vehicle approaches an intersection where a red car is initially ahead. The traffic light for the vehicle's direction turns from red to green. As the vehicle proceeds, a dark SUV turns left across its path. Subsequently, a motorcycle suddenly emerges from the left side of the intersection, crossing the vehicle's path. The vehicle then comes to a stop at the crosswalk, despite the traffic light remaining green, indicating a cautious response to the motorcycle and intersection conditions.",
+  "actions": "The vehicle initially approaches the intersection, likely decelerating as it observes the red traffic light at 0.0s. Upon the traffic light turning green at 1.0s, the vehicle begins to accelerate, following the red car ahead. As it enters the intersection around 5.0s-6.0s, the vehicle maintains a cautious speed, possibly slightly decelerating, to allow a dark SUV to complete its left turn. From 7.0s to 10.0s, the vehicle undergoes significant deceleration, coming to a complete stop at the crosswalk. This action is taken as a safety measure in response to a motorcycle suddenly emerging from the left side of the intersection and crossing the vehicle's path, despite the traffic light remaining green. The wet road conditions also necessitate a more cautious approach and braking.",
+  "key_objects": "1) Left side of the image: A motorcycle, approximately 10-15 meters away, suddenly emerges from behind the turning SUV and the general intersection area at 7.0s, crossing the vehicle's path. This sudden appearance creates an immediate potential collision situation, triggering the vehicle's braking action. 2) Center-front of the image: A red SUV, approximately 15-20 meters away, is initially ahead of the vehicle, moving forward through the intersection. Its movement does not directly impact the vehicle's immediate safety but is part of the general traffic flow. 3) Center-front of the image: A dark SUV, approximately 10-15 meters away, turns left across the intersection from 5.0s to 7.0s. This vehicle temporarily obstructs the view of the motorcycle emerging from the left, contributing to the ghost probing scenario. 4) Right side of the image: A pedestrian, approximately 20-30 meters away, is walking along the sidewalk away from the intersection. Their presence does not directly impact the vehicle's immediate driving behavior or safety within this segment.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

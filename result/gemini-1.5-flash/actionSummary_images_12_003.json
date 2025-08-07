@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_12_003",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of a white van",
+        "summary": "In this segment, the vehicle is driving on a highway. A white van is seen on the left side of the lane, maintaining a consistent speed. The road ahead is clear with no immediate obstacles or pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a steady speed, following the white van at a safe distance. The vehicle is staying in its lane and not making any sudden movements.",
+        "key_objects": "1) Left side: A white van, approximately 20 meters away, maintaining a consistent speed and staying in its lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_12_003",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "14.3s",
+        "scene_theme": "Routine",
+        "characters": "Driver of the self-driving vehicle, driver of the white car",
+        "summary": "In this segment, the self-driving vehicle is traveling on a highway. A white car is seen approaching from the left lane and overtaking the self-driving vehicle. The white car then moves ahead and maintains a steady speed.",
+        "actions": "The self-driving vehicle maintains a consistent speed and lane position. The white car overtakes the self-driving vehicle from the left lane and moves ahead.",
+        "key_objects": "1) Left side: A white car, approximately 5 meters away, overtaking the self-driving vehicle from the left lane. 2) Front: A truck, approximately 30 meters away, maintaining a steady speed.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

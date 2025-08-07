@@ -1,0 +1,1034 @@
+{
+  "experiment_info": {
+    "timestamp": "20250728_201439",
+    "model": "gemini-2.0-flash-exp",
+    "restart_reason": "Process remaining failed videos",
+    "total_remaining_videos": 28,
+    "processed_videos": 28,
+    "failed_videos": 0,
+    "processing_parameters": {
+      "interval": 10,
+      "max_frames": 10,
+      "temperature": 0,
+      "max_output_tokens": 4000
+    }
+  },
+  "results": {
+    "images_5_028": {
+      "video_id": "images_5_028",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "11.9s",
+      "characters": [
+        {
+          "gender": "unknown",
+          "clothing": "unclear",
+          "colors": "unclear",
+          "age": "adult",
+          "transportation_method": "car",
+          "behavior": "driving in the same direction"
+        },
+        {
+          "gender": "male",
+          "clothing": "blue jacket",
+          "colors": "blue",
+          "age": "adult",
+          "transportation_method": "scooter",
+          "behavior": "crossing the road from right to left"
+        },
+        {
+          "gender": "unknown",
+          "clothing": "unclear",
+          "colors": "unclear",
+          "age": "unknown",
+          "transportation_method": "bus",
+          "behavior": "stopped on the right side of the road"
+        }
+      ],
+      "summary": "The self-driving car is moving forward on a city street with moderate traffic. From 0.0s to 7.0s, the car is driving at a speed between 45km/h and 32km/h. At 8.0s, a male adult on a red scooter suddenly appears from behind a bus on the right side of the road, crossing from right to left. The scooter is moving at a moderate speed. From 8.0s to 11.9s, the car decelerates from 32km/h to 24km/h. The bus is stopped on the right side of the road.",
+      "actions": "From 0.0s to 7.0s, the vehicle is moving forward at a speed between 45km/h and 32km/h. The vehicle is slowing down, likely due to the presence of other vehicles ahead and the upcoming intersection. From 8.0s to 11.9s, the vehicle decelerates from 32km/h to 24km/h, likely in response to the scooter suddenly appearing from behind the bus.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": [
+        "Right side: A male adult on a red scooter, approximately 10 meters away, crossing the road from behind a bus, causing the vehicle to decelerate."
+      ]
+    },
+    "images_5_029": {
+      "video_id": "images_5_029",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.1s",
+      "summary": "The self-driving car is moving straight on a city street with multiple lanes in the same direction. From 0.0s to 6.0s, the car is following a white car in front. At 6.0s, the traffic light ahead turns green. From 7.0s to 9.0s, the car approaches a crosswalk. At 9.0s, the car is approaching an intersection with a red light on the right side. From 10.0s to 14.1s, a male wearing a blue jacket and black pants is lying on the road after falling off his scooter on the left side of the road. The scooter is lying on the road as well. The car is approaching the man and scooter.",
+      "actions": "From 0.0s to 6.0s, the vehicle is moving straight, following the car in front, maintaining a safe distance. The vehicle is likely maintaining its speed to keep pace with the traffic flow. From 6.0s to 9.0s, the vehicle continues moving straight as the traffic light turns green. The vehicle is approaching an intersection. From 10.0s to 14.1s, the vehicle is slowing down and preparing to stop because of the man lying on the road after falling off his scooter.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep left in this lane"
+      },
+      "key_actions": "none",
+      "key_objects": []
+    },
+    "images_5_030": {
+      "video_id": "images_5_030",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "13.5s",
+      "characters": [
+        {
+          "character_id": "1",
+          "type": "vehicle",
+          "description": "White sedan car driving in the same direction as the ego vehicle.",
+          "location": "Center lane, ahead of the ego vehicle."
+        },
+        {
+          "character_id": "2",
+          "type": "vehicle",
+          "description": "Yellow and blue taxi driving in the same direction as the ego vehicle.",
+          "location": "Center lane, ahead of the ego vehicle."
+        },
+        {
+          "character_id": "3",
+          "type": "vehicle",
+          "description": "Black sedan car driving in the same direction as the ego vehicle.",
+          "location": "Left lane, ahead of the ego vehicle."
+        },
+        {
+          "character_id": "4",
+          "type": "vehicle",
+          "description": "A man riding a white electric bicycle, wearing a black jacket, crossing the street from left to right.",
+          "location": "Left side of the road, crossing the street."
+        },
+        {
+          "character_id": "5",
+          "type": "person",
+          "description": "Two women standing on the right side of the road, near a red food stall, waiting to cross the street. One is wearing a white jacket and the other is wearing a black jacket.",
+          "location": "Right side of the road, near a red food stall."
+        },
+        {
+          "character_id": "6",
+          "type": "vehicle",
+          "description": "A red three-wheeled vehicle is parked on the right side of the road.",
+          "location": "Right side of the road, parked."
+        }
+      ],
+      "summary": "The ego vehicle is driving on a city street with moderate traffic. A white sedan, a yellow and blue taxi, and a black sedan are driving ahead in the same direction. A man on a white electric bicycle is crossing the street from left to right. Two women are standing on the right side of the road, near a red food stall, waiting to cross the street. The man on the bicycle is a potential ghost probing hazard as he crosses the street.",
+      "actions": "The ego vehicle is maintaining a steady speed, following the flow of traffic. The driver is likely adjusting speed to maintain a safe distance from the vehicles ahead. The vehicle is driving straight, following the lane markings.",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep current lane"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": [
+        "Left side: Man on a white electric bicycle, approximately 15 meters away, crossing the street, potentially causing the vehicle to decelerate or stop."
+      ]
+    },
+    "images_5_031": {
+      "video_id": "images_5_031",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "4.6s",
+      "summary": "From 0.0s to 4.6s, the self-driving car is moving forward on a city street. At 3.1s, a male wearing a black jacket and black pants suddenly appears from behind a green three-wheeled vehicle on the right side of the road. He is bending over, seemingly picking something up from the ground. This constitutes a ghost probing incident as he was completely obscured before suddenly appearing in the vehicle's path. The car continues to move forward.",
+      "characters": [
+        {
+          "gender": "male",
+          "age": "adult",
+          "clothing": "black jacket, black pants",
+          "transportation_method": "walking",
+          "behavior": "bending over, picking something up"
+        }
+      ],
+      "key_objects": [
+        "Right side: A male in a black jacket and black pants, approximately 5 meters away, suddenly appears from behind a green three-wheeled vehicle, bending over and creating a potential collision hazard."
+      ],
+      "actions": "The vehicle is moving forward at a constant speed. The driver is maintaining the current lane and speed, likely due to the clear road ahead initially. The driver may need to decelerate or stop due to the sudden appearance of the person on the right.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing"
+    },
+    "images_5_032": {
+      "video_id": "images_5_032",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.0s",
+      "summary": "The self-driving car is traveling on a road with buildings on the right and a long structure on the left. Several motorcycles are parked on the right side of the road. A man in a dark jacket is walking on the right sidewalk. A white car is parked on the right side of the road. A motorcyclist suddenly emerges from a perpendicular road on the right side, leading to a collision. The motorcyclist is wearing a yellow jacket and black pants. After the collision, the motorcyclist and the motorcycle are on the ground. Two people are standing on the left side of the road, and one of them is wearing a red hat.",
+      "characters": [
+        "Man in a dark jacket walking on the right sidewalk.",
+        "Motorcyclist in a yellow jacket and black pants emerging from a perpendicular road on the right.",
+        "Two people standing on the left side of the road, one wearing a red hat."
+      ],
+      "key_objects": [
+        "Right side: Motorcyclist in yellow jacket and black pants, approximately 10 meters away, suddenly emerges from a perpendicular road, leading to a collision."
+      ],
+      "key_actions": "ghost probing",
+      "actions": "The vehicle is driving straight on a road with buildings on the right and a long structure on the left. The vehicle maintains its speed until a motorcyclist suddenly appears from a perpendicular road on the right, at which point a collision occurs. The vehicle was likely maintaining its speed because the road appeared clear ahead, but the sudden appearance of the motorcyclist from the perpendicular road made the collision unavoidable.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      }
+    },
+    "images_5_033": {
+      "video_id": "images_5_033",
+      "segment_id": "segment_1",
+      "frame_analysis": [
+        {
+          "Start_Timestamp": "0.0s",
+          "End_Timestamp": "6.6s",
+          "summary": "The self-driving car is traveling on a straight road at night. The road is wet, and there are streetlights illuminating the scene. Initially, the car is following a red car. At approximately 5.9s, a person on a scooter, wearing a yellow jacket and blue pants, suddenly appears from the right side of the road at a crosswalk. This constitutes a potential ghost probing situation due to the sudden appearance and minimal reaction time. The scooter is moving at a moderate speed.",
+          "characters": [
+            {
+              "gender": "unknown",
+              "clothing": "yellow jacket, blue pants",
+              "colors": [
+                "yellow",
+                "blue"
+              ],
+              "age": "unknown",
+              "transportation_method": "scooter",
+              "way_of_walking": "N/A"
+            }
+          ],
+          "actions": "The vehicle is maintaining a steady speed while following the car in front. The driver is likely maintaining this speed due to the presence of the other vehicle and the road conditions.",
+          "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "ghost probing",
+          "key_objects": "[Right side]: A person on a scooter, approximately 15 meters away, suddenly appearing from the right side of the road at a crosswalk, potentially causing the vehicle to decelerate or stop."
+        }
+      ],
+      "version": "1.0"
+    },
+    "images_5_034": {
+      "video_id": "images_5_034",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.2s",
+      "summary": "The self-driving car is at a red light at a crosswalk. There is a person on a scooter in front of the car, also waiting at the red light. To the left, there is a person on a scooter waiting at the red light. To the right, there are people walking on the sidewalk. At timestamp 4.0s, the traffic light turns green, and the car and the scooter in front of it begin to move forward. At timestamp 10.7s, a person on a scooter suddenly appears from the left side of the road, crossing the road at a high speed, creating a ghost probing scenario. The car decelerates to avoid a collision.",
+      "characters": [
+        {
+          "gender": "unknown",
+          "clothing": "dark jacket and light pants",
+          "colors": [
+            "dark",
+            "light"
+          ],
+          "age": "adult",
+          "transportation_method": "scooter",
+          "way_of_walking": "N/A"
+        },
+        {
+          "gender": "unknown",
+          "clothing": "unknown",
+          "colors": [
+            "unknown"
+          ],
+          "age": "unknown",
+          "transportation_method": "scooter",
+          "way_of_walking": "N/A"
+        },
+        {
+          "gender": "unknown",
+          "clothing": "unknown",
+          "colors": [
+            "unknown"
+          ],
+          "age": "unknown",
+          "transportation_method": "pedestrians",
+          "way_of_walking": "walking"
+        }
+      ],
+      "actions": "The vehicle is initially stopped at a red light, waiting for the traffic signal to change. Once the light turns green at 4.0s, the vehicle begins to accelerate and proceed through the intersection. At 10.7s, the vehicle decelerates rapidly to avoid a collision with a scooter that suddenly appears from the left.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": [
+        "Left side: A person on a scooter, approximately 10 meters away, crossing the road at high speed, causing the vehicle to decelerate."
+      ]
+    },
+    "images_5_035": {
+      "video_id": "images_5_035",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "13.6s",
+      "summary": "The self-driving car is moving forward on a sunny day in a busy urban environment with moderate traffic. From 0.0s to 4.0s, the car is driving behind a large bus, which obstructs the view of the road ahead. At 4.0s, the bus begins to move to the right, revealing the road ahead. From 4.0s to 13.6s, the car approaches an intersection with a traffic light. At 11.6s, a man riding a bicycle suddenly appears from the right side of the road, crossing the intersection. The cyclist is wearing a light-colored jacket and dark pants. The cyclist's sudden appearance constitutes a potential ghost probing incident. The car continues to approach the intersection, and several motorcycles are visible in the distance.",
+      "characters": [
+        {
+          "gender": "male",
+          "clothing": "light-colored jacket, dark pants",
+          "age": "adult",
+          "transportation_method": "bicycle",
+          "way_of_walking": "riding"
+        }
+      ],
+      "key_objects": [
+        "Right side: A man riding a bicycle, approximately 15 meters away, suddenly crossing the intersection, potentially causing the vehicle to decelerate or stop."
+      ],
+      "actions": "The vehicle is initially driving behind a bus, maintaining a consistent speed. As the bus moves to the right, the vehicle continues forward, approaching an intersection. The driver likely maintains speed to keep up with the flow of traffic and is preparing to navigate the intersection.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing"
+    },
+    "images_5_036": {
+      "video_id": "images_5_036",
+      "segment_id": "segment_1",
+      "frame_analysis": [
+        {
+          "Start_Timestamp": "0.0s",
+          "End_Timestamp": "9.0s",
+          "summary": "The self-driving car is approaching an intersection with a traffic light. Initially, the view is partially obstructed by parked trucks on the right side. As the car moves forward, several large trucks become visible on the cross street. At 8.0s, a motorcyclist wearing a black jacket and yellow helmet suddenly appears from behind the truck on the left side of the road, crossing the street. The motorcyclist is moving at a moderate speed. This sudden appearance constitutes a ghost probing incident, requiring immediate braking to avoid a collision.",
+          "actions": "The vehicle is approaching an intersection and slowing down, likely preparing to stop or yield based on the traffic light and cross-traffic. The driver is likely reducing speed to assess the situation at the intersection and ensure it is safe to proceed.",
+          "next_action": {
+            "speed_control": "braking",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "ghost probing",
+          "key_objects": "[Left side]: Motorcyclist wearing a black jacket and yellow helmet, approximately 5 meters away, suddenly crossing the road from behind a truck, causing the vehicle to brake."
+        }
+      ]
+    },
+    "images_5_037": {
+      "video_id": "images_5_037",
+      "segment_id": "segment_1",
+      "frame_analysis": [
+        {
+          "Start_Timestamp": "0.0s",
+          "End_Timestamp": "7.0s",
+          "summary": "The self-driving car is traveling on a straight, two-lane road with trees and vegetation on either side. The weather appears clear and sunny. In the distance, another vehicle is visible traveling in the same direction. From 5.5s to 7.0s, a motorcyclist wearing a helmet and dark clothing suddenly appears from the left side of the road, potentially creating a ghost probing situation. The motorcyclist is riding a white motorcycle and merges onto the road. The motorcyclist is on the left side of the road.",
+          "characters": [
+            {
+              "gender": "male",
+              "clothing": "dark clothing",
+              "colors": [
+                "black"
+              ],
+              "age": "adult",
+              "transportation_method": "motorcycle",
+              "way_of_walking": "N/A"
+            }
+          ],
+          "actions": "The vehicle is maintaining a steady speed on a straight road. The driver is likely maintaining the current speed because the road is clear and there are no immediate obstacles. The driver is staying in the right lane because there is no need to change lanes.",
+          "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep right in this lane"
+          },
+          "key_actions": "ghost probing",
+          "key_objects": "[Left side]: Motorcyclist on a white motorcycle, approximately 10 meters away, merging onto the road, potentially causing the vehicle to decelerate or stop."
+        }
+      ]
+    },
+    "images_5_038": {
+      "video_id": "images_5_038",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "16.7s",
+      "summary": "The self-driving car is traveling on a straight road in a rural area with buildings on both sides. From 0.0s to 2.0s, a woman in a red jacket is walking on the left side of the road. From 5.0s to 6.0s, a silver mini truck is crossing the road from the left. From 11.0s to 14.0s, a man on a tricycle loaded with goods is traveling on the right side of the road. The road conditions are clear with light traffic.",
+      "characters": [
+        {
+          "gender": "female",
+          "clothing": "red jacket",
+          "colors": "red",
+          "age": "adult",
+          "transportation_method": "walking",
+          "way_of_walking": "normal"
+        },
+        {
+          "gender": "male",
+          "clothing": "unknown",
+          "colors": "unknown",
+          "age": "adult",
+          "transportation_method": "tricycle",
+          "way_of_walking": "normal"
+        }
+      ],
+      "key_objects": [],
+      "actions": "The vehicle is driving straight on a rural road. The speed appears constant, suggesting the driver is maintaining a steady pace suitable for the road conditions and visibility. The driver is likely monitoring the road for potential hazards, such as pedestrians or other vehicles.",
+      "next_action": {
+        "speed_control": "keep speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none"
+    },
+    "images_5_039": {
+      "video_id": "images_5_039",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.7s",
+      "summary": "The self-driving car is traveling on a multi-lane road with other vehicles present. From 0.0s to 8.0s, the car maintains a steady speed, navigating through moderate traffic. At 8.0s, a man wearing a dark jacket and pants is riding a white scooter on the right side of the road. At 9.0s, the scooter and the man are on the ground. From 9.0s to 12.7s, the man is standing next to the scooter, which is lying on the road. The man appears to be assessing the situation after the fall. The scooter and the man are on the right side of the road, and the self-driving car is approaching them.",
+      "characters": [
+        {
+          "gender": "male",
+          "clothing": "dark jacket and pants",
+          "colors": "dark",
+          "age": "adult",
+          "transportation_method": "scooter",
+          "way_of_walking": "standing"
+        }
+      ],
+      "key_objects": [
+        "Right side: A man standing next to a scooter lying on the road, approximately 10 meters away, potentially obstructing the vehicle's path and requiring deceleration or lane change."
+      ],
+      "actions": "From 0.0s to 8.0s, the vehicle maintains a constant speed, likely due to the presence of other vehicles and the need to maintain a safe following distance. At 8.0s, the vehicle continues at the same speed. From 9.0s to 12.7s, the vehicle continues at the same speed, likely because the driver is assessing the situation and preparing to react to the fallen scooter and the man on the right side of the road.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "change to left lane"
+      },
+      "key_actions": "none"
+    },
+    "images_5_040": {
+      "video_id": "images_5_040",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "12.5s",
+      "summary": "The self-driving car is traveling on a city street with buildings on both sides. From 0.0s to 5.0s, the car is moving straight. At 6.0s, the traffic light ahead turns green. From 9.0s to 12.5s, a male on a motorcycle, wearing a blue jacket and a blue helmet, suddenly appears from the left side of the road, crossing the street at a moderate speed. The car crashes into the motorcycle at 12.5s.",
+      "characters": [
+        "Self-driving car",
+        "Male on a motorcycle wearing a blue jacket and a blue helmet"
+      ],
+      "key_objects": [
+        "Left: Male on a motorcycle, approximately 5 meters away, crossing the street, leading to a collision."
+      ],
+      "actions": "The vehicle is driving straight on a city street. The vehicle maintains its speed as the traffic light turns green, indicating the driver intends to proceed through the intersection. The vehicle does not slow down or change direction until the collision occurs.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing"
+    },
+    "images_5_041": {
+      "video_id": "images_5_041",
+      "segment_id": "segment_1",
+      "frame_analysis": [
+        {
+          "Start_Timestamp": "0.0s",
+          "End_Timestamp": "7.0s",
+          "characters": [
+            "Several vehicles are present on the road, including white, black, and silver sedans, a white van, and a dark SUV. The vehicles are traveling in the same direction as the camera car. The road is divided into multiple lanes with lane markings. There are buildings and trees visible in the background. The weather appears to be overcast or hazy.",
+            "The camera car is approaching an intersection with traffic lights. There are other vehicles in front of and beside the camera car, also approaching the intersection."
+          ],
+          "summary": "The camera car is driving on a multi-lane road with other vehicles. The car is approaching an intersection with traffic lights. There are no immediate ghost probing incidents or cut-in behaviors observed. The traffic appears moderate. The car is moving at a moderate speed.",
+          "actions": "The vehicle is driving straight on a multi-lane road, maintaining a consistent speed. The driver is likely following the flow of traffic and adhering to the lane markings. The vehicle is approaching an intersection, so the driver is likely monitoring the traffic lights and preparing to stop or proceed based on the signal.",
+          "next_action": {
+            "speed_control": "decelerating",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        }
+      ]
+    },
+    "images_5_042": {
+      "video_id": "images_5_042",
+      "segment_id": "segment_1",
+      "frame_analysis": [
+        {
+          "Start_Timestamp": "0.0s",
+          "End_Timestamp": "7.0s",
+          "characters": [
+            "From 0.0s to 7.0s, the scene shows a street with buildings on both sides and parked cars on the right. There are several vehicles on the road, including a white van, a blue tricycle, and other cars. A person on a scooter is seen at 6.2s, and at 7.0s, the person on the scooter falls off the scooter in front of the car."
+          ],
+          "summary": "From 0.0s to 7.0s, the self-driving car is approaching an intersection. Initially, the road is relatively clear with a white van and a blue tricycle ahead. As the car approaches the intersection, a person on a scooter suddenly appears from the left side of the road at 6.2s. At 7.0s, the person on the scooter falls off the scooter directly in front of the car, creating a dangerous \"ghost probing\" situation. The speed of the scooter is moderate, but the sudden fall requires immediate braking to avoid a collision.",
+          "actions": "The vehicle is moving forward on a straight road, approaching an intersection. The driver is maintaining a steady speed, likely assessing the traffic conditions and preparing to proceed through the intersection or stop if necessary. The speed is appropriate for the road conditions and traffic density.",
+          "next_action": {
+            "speed_control": "braking",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "ghost probing",
+          "key_objects": "[Left side]: A person on a scooter, approximately 5 meters away, suddenly falls off the scooter directly in front of the car, requiring immediate braking to avoid a collision."
+        }
+      ]
+    },
+    "images_5_043": {
+      "video_id": "images_5_043",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "16.3s",
+      "summary": "The self-driving car starts at a complete stop at an intersection. From 0.0s to 5.0s, the car remains stationary, waiting for the traffic light to turn green. At 5.0s, the traffic light turns green, and the car begins to move forward into the intersection. From 5.0s to 16.3s, the car proceeds straight through the intersection. At 15.6s, a blue tricycle suddenly appears from the right side of the road, crossing the intersection. The tricycle's sudden appearance constitutes a potential ghost probing incident. The car continues to move forward, navigating the intersection and maintaining its lane.",
+      "characters": [
+        {
+          "mode_of_transportation": "car",
+          "gender": "unknown",
+          "clothing": "unknown",
+          "colors": "white",
+          "age": "unknown",
+          "way_of_walking": "N/A"
+        },
+        {
+          "mode_of_transportation": "car",
+          "gender": "unknown",
+          "clothing": "unknown",
+          "colors": "white",
+          "age": "unknown",
+          "way_of_walking": "N/A"
+        },
+        {
+          "mode_of_transportation": "tricycle",
+          "gender": "male",
+          "clothing": "unknown",
+          "colors": "blue",
+          "age": "adult",
+          "way_of_walking": "N/A"
+        }
+      ],
+      "key_objects": [
+        "Right side: A blue tricycle, approximately 5 meters away, crossing the intersection, potentially causing the vehicle to decelerate or stop."
+      ],
+      "actions": "The vehicle is initially stopped at an intersection, likely waiting for a green light. From 0.0s to 5.0s, the vehicle remains stationary. At 5.0s, the vehicle begins to accelerate and proceeds straight through the intersection. The vehicle is driving straight to continue along its intended route after the traffic light turned green.",
+      "next_action": {
+        "speed_control": "accelerating",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing"
+    },
+    "images_5_044": {
+      "video_id": "images_5_044",
+      "segment_id": "segment_1",
+      "frame_analysis": [
+        {
+          "Start_Timestamp": "0.0s",
+          "End_Timestamp": "0.9s",
+          "characters": "The scene shows a rainy urban environment with multiple vehicles on the road. The self-driving car is moving forward on a wet road surface. There are buildings on both sides of the road, and several cars are parked along the right side. Other vehicles are moving in the same direction and in the opposite direction.",
+          "summary": "The self-driving car is proceeding along a wet road in an urban setting. Several vehicles are visible, both moving and parked. The road conditions are affected by rain, which could impact visibility and traction.",
+          "actions": "The vehicle is moving forward at a moderate speed, likely adjusting to the wet road conditions to maintain control and avoid hydroplaning. The driver is maintaining a safe distance from the vehicles ahead.",
+          "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "0.9s",
+          "End_Timestamp": "1.8s",
+          "characters": "A person on a scooter, wearing a light-colored jacket, is visible on the right side of the road, attempting to cross the street. The scooter is moving at a moderate speed. Other vehicles are present, and the road remains wet.",
+          "summary": "A person on a scooter is attempting to cross the road from right to left. The scooter's speed and the wet road conditions pose a potential risk. The self-driving car needs to monitor the scooter's trajectory and speed to avoid a collision.",
+          "actions": "The vehicle is maintaining its speed and lane position, closely monitoring the scooter on the right. The driver is likely preparing to decelerate if the scooter enters the vehicle's path.",
+          "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "1.8s",
+          "End_Timestamp": "2.8s",
+          "characters": "The person on the scooter is now in the middle of the road, continuing to cross. The self-driving car is approaching the crossing point. The road is still wet, and other vehicles are visible in the background. A woman wearing a light-colored jacket is walking on the right side of the road.",
+          "summary": "The scooter is crossing the road, and the self-driving car is approaching the same area. The presence of the scooter and the wet road conditions require careful monitoring and potential deceleration. A woman is walking on the right side of the road.",
+          "actions": "The vehicle is likely decelerating slightly to increase the distance from the scooter and prepare for a potential stop. The driver is also monitoring the woman walking on the right side of the road.",
+          "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "2.8s",
+          "End_Timestamp": "3.7s",
+          "characters": "The scooter is nearing the left side of the road, almost clear of the self-driving car's path. The woman on the right is walking away from the road. The road remains wet, and visibility is moderate.",
+          "summary": "The scooter is almost clear of the self-driving car's path, reducing the immediate risk of collision. The woman on the right is moving away from the road, further decreasing the risk. The wet road conditions still require caution.",
+          "actions": "The vehicle is continuing to decelerate, ensuring a safe distance from the scooter. The driver is preparing to resume normal speed once the scooter is completely clear.",
+          "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "3.7s",
+          "End_Timestamp": "4.6s",
+          "characters": "The scooter has cleared the self-driving car's path and is now on the left side of the road. The woman is walking further away from the road. The road is still wet, and the windshield wipers are active.",
+          "summary": "The scooter is now safely out of the self-driving car's path. The woman on the right poses no immediate threat. The vehicle can now resume normal driving. The windshield wipers are active due to the rain.",
+          "actions": "The vehicle is gradually accelerating back to its original speed, now that the scooter is no longer a threat. The driver is maintaining a safe distance from the vehicles ahead.",
+          "next_action": {
+            "speed_control": "accelerate",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "4.6s",
+          "End_Timestamp": "5.5s",
+          "characters": "A man on a bicycle, wearing a dark jacket, is suddenly appearing from behind a parked truck on the right side of the road. He is crossing the road. The road is wet, and visibility is moderate.",
+          "summary": "A man on a bicycle is suddenly appearing from behind a parked truck on the right side of the road, creating a ghost probing situation. The cyclist's sudden appearance and the wet road conditions pose a significant risk of collision. The self-driving car must react immediately to avoid hitting the cyclist.",
+          "actions": "The vehicle is braking hard to avoid hitting the cyclist who suddenly appeared from behind the parked truck. The driver is also steering slightly to the left to increase the distance from the cyclist.",
+          "next_action": {
+            "speed_control": "braking",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "ghost probing",
+          "key_objects": "[Right Side]: A man on a bicycle, approximately 5 meters away, suddenly appeared from behind a parked truck and is crossing the road, causing the vehicle to brake hard."
+        },
+        {
+          "Start_Timestamp": "5.5s",
+          "End_Timestamp": "6.4s",
+          "characters": "The man on the bicycle is now in the middle of the road, continuing to cross. The self-driving car is braking hard, and the windshield wipers are still active. The distance between the car and the cyclist is decreasing rapidly.",
+          "summary": "The cyclist is continuing to cross the road, and the self-driving car is braking hard to avoid a collision. The situation remains critical due to the short distance and the wet road conditions. The cyclist's speed is moderate.",
+          "actions": "The vehicle is continuing to brake hard, and the driver is preparing for a potential emergency stop. The driver is also monitoring the cyclist's trajectory to anticipate his next move.",
+          "next_action": {
+            "speed_control": "braking",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "ghost probing",
+          "key_objects": "[Right Side]: A man on a bicycle, approximately 3 meters away, is crossing the road, causing the vehicle to brake hard."
+        },
+        {
+          "Start_Timestamp": "6.4s",
+          "End_Timestamp": "7.4s",
+          "characters": "The man on the bicycle has almost cleared the self-driving car's path and is now on the left side of the road. The car is still braking hard, and the windshield wipers are active. The distance between the car and the cyclist is increasing.",
+          "summary": "The cyclist has almost cleared the self-driving car's path, reducing the immediate risk of collision. The vehicle is still braking hard to ensure a safe stop. The cyclist's speed is moderate.",
+          "actions": "The vehicle is continuing to brake hard, and the driver is preparing to release the brakes once the cyclist is completely clear. The driver is also monitoring the surrounding traffic to ensure a safe stop.",
+          "next_action": {
+            "speed_control": "braking",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "ghost probing",
+          "key_objects": "[Left Side]: A man on a bicycle, approximately 2 meters away, is crossing the road, causing the vehicle to brake hard."
+        },
+        {
+          "Start_Timestamp": "7.4s",
+          "End_Timestamp": "8.3s",
+          "characters": "The man on the bicycle has completely cleared the self-driving car's path and is now on the left side of the road. The car is still braking, and the windshield wipers are active. The vehicle is coming to a stop.",
+          "summary": "The cyclist is now safely out of the self-driving car's path. The vehicle is coming to a stop to ensure safety. The situation is now under control.",
+          "actions": "The vehicle is gradually releasing the brakes, now that the cyclist is no longer a threat. The driver is preparing to resume normal driving once the vehicle has come to a complete stop.",
+          "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "8.3s",
+          "End_Timestamp": "8.3s",
+          "characters": "The self-driving car has come to a complete stop. The man on the bicycle is on the left side of the road, away from the car. The road is still wet, and the windshield wipers are active. Other vehicles are visible in the background.",
+          "summary": "The self-driving car has come to a complete stop after the near-collision with the cyclist. The cyclist is now safely on the left side of the road. The vehicle can now resume normal driving once it is safe to do so.",
+          "actions": "The vehicle is waiting for a safe opportunity to resume normal driving. The driver is monitoring the surrounding traffic and the cyclist to ensure that there are no further risks.",
+          "next_action": {
+            "speed_control": "accelerate",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        }
+      ]
+    },
+    "images_5_045": {
+      "video_id": "images_5_045",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "11.3s",
+      "summary": "The self-driving car is currently in a traffic jam, moving slowly in the right lane. The road is surrounded by trees and buildings. There are metal barriers on the left side of the road. The traffic is heavy, with multiple cars ahead. From 0.0s to 11.3s, the car is moving slowly in the right lane, and there are no immediate dangerous actions detected. The car is surrounded by other vehicles, and there are no pedestrians or cyclists visible. The weather appears to be sunny and clear. The car is moving at a very slow speed due to the traffic jam.",
+      "actions": "The vehicle is currently driving slowly in a traffic jam. The driver is likely maintaining a slow speed to avoid collisions with the surrounding vehicles. The vehicle is staying in the right lane, likely because the other lanes are also congested. The driver is likely monitoring the surrounding traffic and maintaining a safe following distance from the vehicle in front.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep right in this lane"
+      },
+      "key_actions": "none",
+      "key_objects": []
+    },
+    "images_5_046": {
+      "video_id": "images_5_046",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "4.4s",
+      "summary": "The self-driving car is at an intersection at night. The traffic light is green. From 1.5s to 4.4s, a man on a scooter suddenly appears from the right side of the road, crossing the intersection. The man is wearing a white shirt and blue shorts. This constitutes a ghost probing scenario because the scooter emerges from a perpendicular road.",
+      "actions": "The vehicle is approaching an intersection with a green light. The driver is maintaining speed, likely intending to proceed straight through the intersection without stopping, as the traffic light is green and there are no immediate obstructions in the vehicle's path.",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Right side]: A man on a scooter, approximately 5 meters away, crossing the intersection, causing a potential need for the vehicle to decelerate or stop."
+    },
+    "images_5_047": {
+      "video_id": "images_5_047",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "7.3s",
+      "summary": "The self-driving car is moving forward through a tunnel-like structure and entering an open area with buildings on both sides. There are multiple scooters and motorcycles moving in different directions. At 4.1s, a scooter with a male rider wearing a black shirt suddenly appears from the right side of the road, creating a potential ghost probing situation. At 4.9s, the scooter is in the middle of the road. At 5.7s, a female with long hair wearing a green shirt and black pants starts crossing the road from right to left. At 6.5s, the female is in the middle of the road. At 7.3s, the female is almost across the road.",
+      "characters": [
+        {
+          "gender": "male",
+          "clothing": "black shirt",
+          "age": "adult",
+          "transportation_method": "scooter",
+          "behavior": "riding across the road"
+        },
+        {
+          "gender": "female",
+          "clothing": "green shirt, black pants",
+          "age": "adult",
+          "transportation_method": "walking",
+          "behavior": "crossing the road from right to left"
+        },
+        {
+          "gender": "unknown",
+          "clothing": "unknown",
+          "age": "unknown",
+          "transportation_method": "scooter",
+          "behavior": "moving in the background"
+        },
+        {
+          "gender": "unknown",
+          "clothing": "unknown",
+          "age": "unknown",
+          "transportation_method": "motorcycle",
+          "behavior": "moving in the background"
+        }
+      ],
+      "actions": "The vehicle is moving forward at a constant speed, likely navigating through the intersection. The driver is maintaining the current speed to proceed through the intersection, but may need to decelerate or stop depending on the actions of the scooter and the female crossing the road.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": [
+        "Right side: A male on a scooter, approximately 5 meters away, suddenly appears from the right side of the road, creating a potential ghost probing situation and requiring the vehicle to be prepared to decelerate or stop."
+      ]
+    },
+    "images_5_048": {
+      "video_id": "images_5_048",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "8.3s",
+      "summary": "The car is driving on a multi-lane road with other vehicles present. From 0.0s to 8.3s, the car continues to drive straight. At 3.7s, a man wearing a red shirt is riding a scooter on the right side of the road. At 4.6s, the man on the scooter is crossing the road. At 5.5s, the man on the scooter is in the middle of the road. At 6.4s, the man on the scooter has almost crossed the road. At 7.3s, the man on the scooter has completely crossed the road. At 8.3s, a man wearing a black jacket is on the right side of the road.",
+      "characters": [
+        {
+          "gender": "male",
+          "clothing": "red shirt",
+          "colors": "red",
+          "age": "adult",
+          "transportation_method": "scooter",
+          "way_of_walking": "N/A"
+        },
+        {
+          "gender": "male",
+          "clothing": "black jacket",
+          "colors": "black",
+          "age": "adult",
+          "transportation_method": "N/A",
+          "way_of_walking": "N/A"
+        }
+      ],
+      "key_objects": [
+        "Right side: Man on scooter, approximately 10 meters away, crossing the road, potentially causing the vehicle to decelerate or stop."
+      ],
+      "actions": "The vehicle is driving straight on a multi-lane road. The driver is maintaining a consistent speed, likely due to the presence of other vehicles and the road conditions. The driver is driving straight because the road is straight.",
+      "next_action": {
+        "speed_control": "keep speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing"
+    },
+    "images_5_049": {
+      "video_id": "images_5_049",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "6.1s",
+      "summary": "The self-driving car is moving forward on a road with parked cars on both sides. A person wearing dark clothing is walking in the middle of the road, heading in the same direction as the car. The person is approximately 20 meters ahead of the car. The road appears to be in a residential area with buildings and trees lining the sides. The person is walking at a moderate pace. The car is maintaining a steady speed. The person is walking in the middle of the lane, potentially creating a dangerous situation if they don't move to the side. The car might need to slow down or change lanes to avoid the person.",
+      "actions": "The vehicle is moving forward at a constant speed, likely maintaining the flow of traffic on the road. The driver is navigating through a residential area with parked cars on both sides, requiring them to stay within the lane markings. The driver is maintaining a safe distance from the person walking ahead, indicating they are aware of the pedestrian's presence and taking precautions to avoid any potential collision. The driver is not accelerating or decelerating significantly, suggesting they are comfortable with the current road conditions and traffic flow.",
+      "next_action": {
+        "speed_control": "maintain speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": [],
+      "characters": [
+        {
+          "gender": "unknown",
+          "clothing": "dark clothing",
+          "colors": "dark",
+          "age": "adult",
+          "transportation_method": "walking",
+          "way_of_walking": "moderate pace"
+        }
+      ]
+    },
+    "images_5_050": {
+      "video_id": "images_5_050",
+      "segment_id": "segment_1",
+      "frame_analysis": [
+        {
+          "Start_Timestamp": "0.0s",
+          "End_Timestamp": "4.0s",
+          "characters": [
+            "From 0.0s to 4.0s, the scene shows a road with a white car parked on the right side. A motorcycle with two people on it appears from the left side of the road at 2.6s. The motorcycle is red and black. The driver is wearing a dark jacket and the passenger is wearing a pink jacket and carrying a pink backpack. At 3.5s, the motorcycle crashes, and the two people fall off. The motorcycle and the two people are lying on the road at 4.0s."
+          ],
+          "summary": "From 0.0s to 4.0s, the self-driving car is approaching an intersection. A motorcycle with two people suddenly appears from the left side of the road at 2.6s. At 3.5s, the motorcycle crashes, and the two people fall off. This is a ghost probing incident because the motorcycle suddenly appeared from the left side of the road, creating an immediate danger. The speed of the motorcycle is moderate, but the sudden appearance gives the driver minimal reaction time.",
+          "actions": "The vehicle is currently stationary at an intersection, likely waiting for an opportunity to proceed safely. The vehicle is not moving because there is a motorcycle approaching from the left side of the road.",
+          "next_action": {
+            "speed_control": "braking",
+            "direction_control": "keep straight",
+            "lane_control": "keep straight"
+          },
+          "key_actions": "ghost probing",
+          "key_objects": "[Left side]: A motorcycle with two people, approximately 10 meters away, suddenly appears from the left side of the road and crashes, creating an immediate danger."
+        }
+      ]
+    },
+    "images_5_051": {
+      "video_id": "images_5_051",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "9.0s",
+      "summary": "From 0.0s to 9.0s, the self-driving car is moving forward on a road with light traffic. At approximately 1.0s, a red car is seen driving in the opposite direction. From 2.0s to 9.0s, a man in a white jacket and dark pants is seen on the left side of the road, attempting to start a scooter. The scooter is positioned at a perpendicular road, and the man is trying to get it started. The man is middle-aged. The scooter has some bags attached to the back. The man's actions could potentially lead to a ghost probing incident if he suddenly enters the road without checking for oncoming traffic.",
+      "characters": [
+        {
+          "gender": "male",
+          "age": "middle-aged",
+          "clothing": "white jacket, dark pants",
+          "transportation_method": "scooter",
+          "way_of_walking": "N/A"
+        }
+      ],
+      "key_objects": [
+        "Left side: Man on scooter, approximately 5-10 meters away, attempting to start the scooter at a perpendicular road, potentially leading to a ghost probing incident if he enters the road suddenly."
+      ],
+      "actions": "The vehicle is driving straight on a road with light traffic. The driver is maintaining a consistent speed, likely due to the presence of other vehicles and the road conditions. The driver is proceeding cautiously, as indicated by the consistent speed and straight trajectory, to ensure safety and avoid any potential collisions.",
+      "next_action": {
+        "speed_control": "keep current speed",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "ghost probing"
+    },
+    "images_5_052": {
+      "video_id": "images_5_052",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "6.2s",
+      "summary": "The self-driving car is moving forward at night on a road with street lights. At timestamp 4.2s, a motorcycle with a rider wearing a light-colored helmet and a pink jacket suddenly appears from the left side of the road, executing a left turn in front of the car. The motorcycle's sudden appearance constitutes a ghost probing incident. At timestamp 5.5s, the motorcycle has crashed and the rider is lying on the road.",
+      "actions": "The vehicle is moving forward at a constant speed. The driver is likely maintaining this speed because the traffic light ahead is green and there are no immediate obstacles in the lane. The driver is proceeding through the intersection.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keeping straight",
+        "lane_control": "keeping straight"
+      },
+      "key_actions": "ghost probing",
+      "key_objects": "[Left]: A motorcycle with a rider wearing a light-colored helmet and a pink jacket, approximately 5 meters away, suddenly appears from the left side of the road, executing a left turn in front of the car, causing a ghost probing incident."
+    },
+    "images_5_053": {
+      "video_id": "images_5_053",
+      "segment_id": "segment_1",
+      "frame_analysis": [
+        {
+          "Start_Timestamp": "0.0s",
+          "End_Timestamp": "1.0s",
+          "characters": "The scene shows a narrow road in what appears to be a rural or semi-urban area. Buildings line both sides of the road, creating a somewhat enclosed space. The sky is clear, suggesting it's daytime. A white car is parked on the left side of the road ahead. The road surface appears uneven and possibly unpaved in sections.",
+          "summary": "The self-driving car is navigating a narrow road with buildings on either side. A white car is parked ahead on the left. The road conditions appear uneven. The car is proceeding cautiously down the road.",
+          "actions": "The vehicle is moving forward at a slow speed, likely due to the narrow road and the presence of parked vehicles. The driver is proceeding cautiously to avoid any potential obstacles or hazards.",
+          "next_action": {
+            "speed_control": "maintaining speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep center"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "1.0s",
+          "End_Timestamp": "1.9s",
+          "characters": "The scene remains similar, with the self-driving car progressing further down the narrow road. The parked white car is now closer. The lighting suggests it's early morning or late afternoon. The road continues to be uneven.",
+          "summary": "The self-driving car continues down the narrow road, approaching the parked white car. The road conditions remain uneven, requiring careful navigation.",
+          "actions": "The vehicle is maintaining a slow speed, likely preparing to pass the parked car. The driver is carefully monitoring the surroundings for any unexpected movements or obstacles.",
+          "next_action": {
+            "speed_control": "maintaining speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep center"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "1.9s",
+          "End_Timestamp": "2.9s",
+          "characters": "The self-driving car is getting closer to the parked white car. A person is now visible further down the road, walking on the right side. The buildings continue to line the road, creating a confined environment.",
+          "summary": "The self-driving car approaches the parked white car while a person is walking on the right side of the road ahead. The narrow road and the presence of both a parked car and a pedestrian require careful attention.",
+          "actions": "The vehicle is likely preparing to adjust its path to pass both the parked car and the pedestrian safely. The driver is monitoring the pedestrian's movement to anticipate any changes in direction.",
+          "next_action": {
+            "speed_control": "maintaining speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep center"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "2.9s",
+          "End_Timestamp": "3.9s",
+          "characters": "The self-driving car is now nearly adjacent to the parked white car. The person walking on the right side of the road is getting closer. The road remains narrow, and the buildings continue to create a confined space.",
+          "summary": "The self-driving car is passing the parked white car while approaching a person walking on the right side of the road. The narrow road requires careful maneuvering to avoid both obstacles.",
+          "actions": "The vehicle is likely maintaining its speed while carefully steering to pass the parked car. The driver is closely monitoring the pedestrian's position and movement to ensure a safe passing distance.",
+          "next_action": {
+            "speed_control": "maintaining speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep center"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "3.9s",
+          "End_Timestamp": "4.8s",
+          "characters": "The self-driving car has passed the parked white car and is now approaching the person walking on the right side of the road. The person appears to be wearing dark clothing. A black vehicle is now visible parked on the left side of the road further ahead.",
+          "summary": "The self-driving car is approaching a person walking on the right side of the road, with a black vehicle parked on the left side further ahead. The driver needs to navigate the pedestrian and the parked vehicle.",
+          "actions": "The vehicle is maintaining its speed and trajectory, likely preparing to pass the pedestrian. The driver is also assessing the position of the parked black vehicle to plan the next maneuver.",
+          "next_action": {
+            "speed_control": "maintaining speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep center"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "4.8s",
+          "End_Timestamp": "5.8s",
+          "characters": "The self-driving car is getting closer to the person walking on the right side of the road. The person is wearing a dark jacket and pants. The black vehicle parked on the left is now more visible. The road remains narrow.",
+          "summary": "The self-driving car is approaching the person walking on the right side of the road, with a parked black vehicle on the left. The narrow road requires careful navigation to avoid both.",
+          "actions": "The vehicle is likely preparing to pass the pedestrian while maintaining a safe distance. The driver is also assessing the space available to pass the parked black vehicle.",
+          "next_action": {
+            "speed_control": "maintaining speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep center"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "5.8s",
+          "End_Timestamp": "6.8s",
+          "characters": "The self-driving car is now passing the person walking on the right side of the road. The person is walking at a moderate pace. The parked black vehicle on the left is now closer. The road remains narrow and confined.",
+          "summary": "The self-driving car is passing the person walking on the right side of the road while approaching the parked black vehicle on the left. The narrow road requires careful maneuvering.",
+          "actions": "The vehicle is maintaining a safe distance from the pedestrian while carefully steering to avoid the parked black vehicle. The driver is likely assessing the available space and adjusting the trajectory accordingly.",
+          "next_action": {
+            "speed_control": "maintaining speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep center"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "6.8s",
+          "End_Timestamp": "7.7s",
+          "characters": "The self-driving car has passed the person walking and is now approaching the parked black vehicle. The road is narrow, and there is limited space to maneuver. A person on a bicycle is now visible further down the road.",
+          "summary": "The self-driving car is approaching the parked black vehicle, with a person on a bicycle visible further ahead. The narrow road and the presence of both a parked vehicle and a cyclist require careful attention.",
+          "actions": "The vehicle is likely preparing to pass the parked black vehicle while also assessing the cyclist's position and movement. The driver is anticipating the need to adjust the trajectory to avoid both obstacles.",
+          "next_action": {
+            "speed_control": "maintaining speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep center"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        },
+        {
+          "Start_Timestamp": "7.7s",
+          "End_Timestamp": "8.7s",
+          "characters": "The self-driving car is now passing the parked black vehicle. The person on the bicycle is getting closer. The cyclist is wearing dark clothing and riding at a moderate pace. The road remains narrow.",
+          "summary": "The self-driving car is passing the parked black vehicle while approaching a cyclist. The narrow road requires careful maneuvering to avoid both.",
+          "actions": "The vehicle is maintaining a safe distance from the parked vehicle while also monitoring the cyclist's position and movement. The driver is likely preparing to adjust the trajectory to pass the cyclist safely.",
+          "next_action": {
+            "speed_control": "maintaining speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep center"
+          },
+          "key_actions": "none",
+          "key_objects": "none"
+        }
+      ]
+    },
+    "images_5_054": {
+      "video_id": "images_5_054",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "15.1s",
+      "summary": "The self-driving car is at an intersection with traffic lights. From 0.0s to 4.0s, the car is stopped at a red light. At 4.0s, the light turns green, and the car begins to move forward. From 5.0s to 15.1s, the car proceeds through the intersection. At 10.0s, a woman in a pink jacket is seen crossing the street on the right side of the car. The car continues to move forward at a constant speed.",
+      "actions": "The vehicle is initially stopped at a red light. From 0.0s to 4.0s, the vehicle remains stationary, awaiting the traffic signal to change. At 4.0s, the traffic light turns green, prompting the vehicle to accelerate and proceed through the intersection. The vehicle maintains a consistent speed as it navigates the intersection, likely adhering to the speed limit and traffic conditions.",
+      "next_action": {
+        "speed_control": "accelerating",
+        "direction_control": "keep straight",
+        "lane_control": "keep straight"
+      },
+      "key_actions": "none",
+      "key_objects": [],
+      "characters": []
+    },
+    "images_5_055": {
+      "video_id": "images_5_055",
+      "segment_id": "segment_1",
+      "Start_Timestamp": "0.0s",
+      "End_Timestamp": "14.0s",
+      "summary": "The self-driving car starts on a road with parked cars on both sides. At the beginning, a woman wearing a pink shirt and black pants is walking from left to right across the road. As the car proceeds, it approaches an intersection. At the intersection, a man wearing a black jacket and green pants is riding a blue motorcycle and crosses the road from left to right. The man is carrying a blue bag on the motorcycle. The motorcycle appears suddenly from behind a white car, creating a potential ghost probing situation.",
+      "characters": [
+        {
+          "gender": "female",
+          "clothing": "pink shirt, black pants",
+          "age": "adult",
+          "transportation_method": "walking",
+          "way_of_walking": "crossing the road from left to right"
+        },
+        {
+          "gender": "male",
+          "clothing": "black jacket, green pants",
+          "age": "adult",
+          "transportation_method": "motorcycle",
+          "way_of_walking": "crossing the road from left to right"
+        }
+      ],
+      "key_objects": [
+        "Left side: A man on a blue motorcycle, approximately 5 meters away, crossing the road from left to right, creating a ghost probing situation as he emerges from behind a white car."
+      ],
+      "actions": "The vehicle starts driving on a road with parked cars on both sides. The vehicle slows down as it approaches an intersection to assess the traffic situation and ensure a safe crossing.",
+      "next_action": {
+        "speed_control": "braking",
+        "direction_control": "keep straight",
+        "lane_control": "keep right in this lane"
+      },
+      "key_actions": "ghost probing"
+    }
+  }
+}

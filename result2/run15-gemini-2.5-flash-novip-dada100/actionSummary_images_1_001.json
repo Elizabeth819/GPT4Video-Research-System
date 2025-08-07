@@ -1,0 +1,9 @@
+{
+  "timestamp": "11:03:28 - 11:03:29",
+  "summary": "A vehicle is driving on a two-lane road in what appears to be a semi-urban or rural commercial area. A child suddenly runs into the road from the right side, creating an immediate hazard.",
+  "actions": "The camera vehicle is moving forward. A silver car is passing on the left. A child suddenly runs from the right sidewalk/roadside into the path of the camera vehicle. The camera vehicle likely brakes or swerves.",
+  "characters": "Driver of the camera vehicle, A child (pedestrian), Driver of a silver car, Motorcyclist, Other pedestrians in the distance, Driver of a red car (appears later)",
+  "key_objects": "Camera vehicle, Silver sedan, Motorcycle, Red sedan, Child, Stick held by child, Road markings (solid white line, dashed yellow line), Roadside buildings/shops, Large white covered object (possible obstruction/blind spot)",
+  "key_actions": "A child suddenly appears from the right side of the road (potentially from behind the large white covered object or roadside structures), running directly into the path of the camera vehicle. This is a sudden and dangerous appearance from a blind spot, creating an immediate collision risk. While this is a dangerous situation involving a sudden appearance from a blind spot, it involves a pedestrian, not a vehicle. Therefore, no 'ghost probing' by a vehicle is observed based on the provided definition.",
+  "next_action": "The camera vehicle will likely come to a complete stop or perform an evasive maneuver (e.g., swerving) to avoid hitting the child. The child will likely continue across the road or retreat."
+}

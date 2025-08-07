@@ -1,0 +1,74 @@
+[
+    {
+        "video_id": "dada_29_025",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the vehicle is driving through different environments. Initially, it is in an urban area with parked cars and buildings. Later, it transitions to a rural road with clear skies. Towards the end, a collision occurs involving a motorcycle and a person on the road.",
+        "actions": "The self-driving vehicle is driving at a consistent speed initially. As it transitions to the rural road, it maintains its speed. However, upon encountering the collision scene, the vehicle decelerates rapidly to avoid further impact.",
+        "key_objects": "1) Front: A motorcycle, approximately 10 meters away, involved in a collision, lying on the road. 2) Front: A person, approximately 12 meters away, lying on the road, possibly injured from the collision.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_8_025",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, driver of a truck, motorcyclist",
+        "summary": "In this segment, the vehicle is approaching an intersection with a red traffic light. A white sedan is on the left side, a truck is ahead, and a motorcyclist is on the right side. The truck is moving forward, and the motorcyclist is approaching the intersection from the right side.",
+        "actions": "The self-driving vehicle is slowing down as it approaches the intersection with a red traffic light. The truck ahead is moving forward, and the motorcyclist on the right side is approaching the intersection.",
+        "key_objects": "1) Left side: A white sedan, approximately 2 meters away, moving forward. 2) Front: A truck, approximately 5 meters away, moving forward. 3) Right side: A motorcyclist, approximately 3 meters away, approaching the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_8_025",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white van, motorcyclist, pedestrians",
+        "summary": "In this segment, the vehicle is approaching an intersection with a green traffic light. A white van is on the left side, and a motorcyclist is crossing the intersection from the right side. Several pedestrians are also crossing the road.",
+        "actions": "The self-driving vehicle is slowing down as it approaches the intersection. The vehicle is maintaining a cautious speed due to the presence of the motorcyclist and pedestrians crossing the road.",
+        "key_objects": "1) Left side: A white van, approximately 2 meters away, moving forward and potentially merging into the lane. 2) Right side: A motorcyclist, approximately 5 meters away, crossing the intersection. 3) Front: Several pedestrians, approximately 10 meters away, crossing the road.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_8_025",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.4s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white van, motorcyclists, pedestrians",
+        "summary": "In this segment, the vehicle is approaching an intersection with a red traffic light. A white van is moving from the left side towards the center of the intersection. Several motorcyclists are waiting at the intersection, and pedestrians are crossing the road.",
+        "actions": "The self-driving vehicle is slowing down as it approaches the intersection with a red traffic light. The vehicle maintains a steady speed to ensure safety and avoid collision with the white van moving from the left side.",
+        "key_objects": "1) Left side: A white van, approximately 5 meters away, moving towards the center of the intersection, potentially causing a cut-in. 2) Front: Motorcyclists, approximately 10 meters away, waiting at the intersection. 3) Front: Pedestrians, approximately 15 meters away, crossing the road.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

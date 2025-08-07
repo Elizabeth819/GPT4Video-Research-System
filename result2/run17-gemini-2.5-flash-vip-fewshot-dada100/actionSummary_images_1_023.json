@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_1_023",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Urban",
+    "characters": "Several pedestrians crossing the street at a crosswalk.",
+    "summary": "The vehicle is driving on a city street with multiple lanes. At the beginning of the segment, pedestrians are crossing the street at a crosswalk. The vehicle approaches the crosswalk and slows down. As the vehicle gets closer to the crosswalk, the pedestrians clear the path. The vehicle then proceeds through the intersection.",
+    "actions": "The vehicle is approaching a crosswalk with pedestrians. The vehicle slows down to allow the pedestrians to cross safely. After the pedestrians have cleared the crosswalk, the vehicle accelerates to resume its previous speed.",
+    "key_objects": "1) Front: Pedestrians crossing the street at a crosswalk, approximately 5 meters away, moving from right to left and creating a potential obstruction.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_034",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter wearing a dark jacket and light pants is in front of the car. There are other vehicles and people on the sidewalks.",
+  "summary": "The vehicle is at a red light at a crosswalk. A person on a scooter is stopped in front of the car at the crosswalk. The light turns green at 3.0s. The scooter starts to move forward through the crosswalk. At 9.0s, the scooter is crossing the crosswalk.",
+  "actions": "The vehicle is stopped at a red light. The vehicle remains stopped until the light turns green at 3.0s. The vehicle starts to move forward when the light turns green, following the scooter in front of it.",
+  "key_objects": "1) Front: A person on a scooter, approximately 2 meters away, moving slowly through the crosswalk after the light turns green.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

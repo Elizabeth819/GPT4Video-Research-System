@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_1_025",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "4.7s",
+    "scene_theme": "Rural Road",
+    "characters": "A person wearing a light-colored jacket and dark pants, possibly female, walking along the roadside.",
+    "summary": "The video shows a vehicle driving on a rural two-lane road with mountains on either side. A person, appearing to be female, wearing a light-colored jacket and dark pants, is walking along the roadside on the right side of the road.  The person is initially visible at a distance and remains visible throughout the 4.7 seconds of the video. No sudden movements or actions that would indicate immediate danger are observed. The vehicle maintains a consistent speed and stays in its lane.",
+    "actions": "The vehicle maintains a consistent speed and direction throughout the observed segment. There are no observable changes in speed or direction. The vehicle remains in its lane and does not overtake or change lanes.",
+    "key_objects": "Right side: A person wearing a light-colored jacket and dark pants, approximately 15-20 meters away, walking along the roadside at a slow pace.  No immediate threat to the vehicle.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

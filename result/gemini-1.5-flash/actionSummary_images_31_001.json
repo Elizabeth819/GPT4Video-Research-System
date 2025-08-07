@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_31_001",
+        "segment_id": "Segment_000",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the orange car, driver of the white truck, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road. An orange car is ahead in the same lane, and a white truck is in the adjacent lane. A motorcyclist appears on the right side of the road towards the end of the segment.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the orange car. The white truck in the adjacent lane is moving at a similar speed. The motorcyclist on the right side of the road appears to be moving towards the road, potentially causing a need for caution.",
+        "key_objects": "1) Front: An orange car, approximately 20 meters away, maintaining a consistent speed. 2) Left: A white truck, approximately 15 meters away, moving at a similar speed. 3) Right: A motorcyclist, approximately 10 meters away, moving towards the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

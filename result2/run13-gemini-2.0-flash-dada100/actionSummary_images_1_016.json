@@ -1,0 +1,15 @@
+{
+  "video_id": "images_1_016",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "8.8s",
+  "summary": "The self-driving car is traveling on a highway with multiple lanes. From 0.0s to 3.9s, the car maintains its lane. At 3.9s, a female adult wearing a red jacket and dark pants is seen crossing the road from right to left. She appears to be walking at a normal pace. The woman is crossing the road without looking at the traffic. From 5.8s to 8.8s, the car continues driving on the highway, maintaining its lane.",
+  "actions": "The vehicle is driving straight on a highway with moderate traffic. The driver is maintaining a consistent speed, likely adhering to the speed limit and flow of traffic. The driver is staying in the middle lane, which suggests they are either planning to continue straight or are assessing the traffic conditions before making a lane change.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": "Right side: A female adult wearing a red jacket and dark pants, approximately 10 meters away, crossing the road without looking at the traffic, potentially causing the vehicle to decelerate or stop."
+}

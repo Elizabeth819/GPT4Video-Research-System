@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle approaches an intersection on a rainy day. Other vehicles are present, and the ego vehicle slows down.",
+    "actions": "Ego vehicle is driving forward and slowing down. Other vehicles are moving in the intersection.",
+    "characters": [],
+    "key_objects": "Intersection, other vehicles, crosswalk, stop sign",
+    "key_actions": "Approaching intersection, slowing down",
+    "next_action": "Continue approaching the intersection, potentially stopping."
+  }
+]

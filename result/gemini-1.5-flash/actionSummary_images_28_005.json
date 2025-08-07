@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_28_005",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Motorcyclist, pedestrians",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, the road is clear, but as the vehicle progresses, a motorcyclist appears ahead, moving from the left side to the center of the road. Several pedestrians are seen walking on the right side of the road. The motorcyclist loses control and falls onto the road, causing a potential hazard for the self-driving vehicle.",
+        "actions": "The self-driving vehicle maintains a consistent speed initially but starts to decelerate as the motorcyclist loses control and falls onto the road. The vehicles speed decreases significantly to avoid collision with the fallen motorcyclist.",
+        "key_objects": "1) Front: A motorcyclist, approximately 20 meters away, moving from the left side to the center of the road, loses control and falls, causing a potential hazard. 2) Right side: Pedestrians, approximately 5 meters away, walking along the roadside, potentially moving into the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

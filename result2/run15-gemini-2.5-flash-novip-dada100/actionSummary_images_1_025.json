@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_025",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "4.2s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals are present on the left side of the road. One is a male, wearing a dark top and light-colored pants, who suddenly runs across the road. The other individual, possibly male, is wearing an orange vest and is standing near a motorcycle.",
+  "summary": "The video begins with the autonomous vehicle driving on a two-lane highway in a mountainous region. A green guardrail runs along the left side of the road, separating it from a lower terrain. On the left side of the road, near the guardrail, two individuals and a motorcycle are visible in the distance. As the vehicle approaches, one of the individuals, a male in a dark top, suddenly darts out from behind the green guardrail on the left side of the road and runs directly across the vehicle's path towards the right side. The vehicle continues its forward movement as the pedestrian quickly clears the lane, passing the immediate danger zone. The road ahead then appears clear.",
+  "actions": "The vehicle maintains its forward trajectory on the highway. Upon the sudden appearance of a pedestrian darting into the road from the left, the vehicle continues to proceed, likely maintaining its speed or making minor adjustments as the pedestrian quickly clears the immediate path, demonstrating a controlled response to the unexpected obstruction without visible hard braking or swerving.",
+  "key_objects": "1) Left side: A male pedestrian, wearing a dark top and light pants, suddenly darting out from behind the green guardrail into the vehicle's path. This sudden emergence from a partially obscured position creates an immediate danger and requires rapid driver assessment. 2) Left side: A green guardrail, acting as a physical obstruction from which the pedestrian unexpectedly emerged, contributing to the 'ghost probing' scenario.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

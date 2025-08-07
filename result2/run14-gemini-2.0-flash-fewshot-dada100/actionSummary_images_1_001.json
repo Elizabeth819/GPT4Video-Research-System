@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_001",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A silver sedan is driving on the road. A man in dark clothing is walking on the right side of the road. A child is seen running across the road with a stick in their hand.",
+  "summary": "The self-driving vehicle is traveling on a road with buildings on either side. From 0.0s to 2.0s, a silver sedan is seen driving in the opposite direction. At 2.0s, a child wearing dark clothing suddenly runs across the road from left to right, holding a stick. From 7.0s to 10.0s, a man in dark clothing is walking on the right side of the road, approaching the vehicle's path.",
+  "actions": "The vehicle is maintaining a steady speed. The driver may need to decelerate or brake if the man on the right side of the road continues to walk into the vehicle's path. The vehicle maintained its speed after the child crossed the road.",
+  "key_objects": "1) Left side: A child wearing dark clothing, approximately 5 meters away, suddenly running across the road from left to right. 2) Right side: A man in dark clothing, approximately 10 meters away, walking towards the road and potentially into the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

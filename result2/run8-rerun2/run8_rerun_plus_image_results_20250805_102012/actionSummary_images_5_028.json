@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_028",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, cyclists, and a motorcyclist.",
+  "summary": "The video sequence shows several instances of ghost probing. In the first sequence, a child suddenly runs into the road from the right side, emerging from behind a parked vehicle. In the second sequence, an adult pedestrian with a child suddenly appears from behind a parked van on the left side of the road. In the third sequence, a cyclist emerges from behind a parked truck on the left side of the road. In the fourth sequence, a motorcyclist suddenly appears from the right side, crossing the path of the observer vehicle.",
+  "actions": "The child runs into the road from the right side, the adult pedestrian with a child emerges from behind a parked van on the left side, the cyclist emerges from behind a parked truck on the left side, and the motorcyclist crosses the path from the right side.",
+  "key_objects": "Parked vehicles on both sides of the road, including a black sedan, a white van, a truck, and a motorcycle.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

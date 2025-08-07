@@ -1,0 +1,63 @@
+[
+    {
+        "video_id": "dada_18_004",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "Three dogs",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "crossing the road from the right side, approaching the vehicle's path"
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "unknown",
+                "age": "unknown",
+                "clothing": "unknown",
+                "transportation_method": "dog",
+                "behavior": "crossing the road"
+            },
+            {
+                "gender": "unknown",
+                "age": "unknown",
+                "clothing": "unknown",
+                "transportation_method": "dog",
+                "behavior": "crossing the road"
+            },
+            {
+                "gender": "unknown",
+                "age": "unknown",
+                "clothing": "unknown",
+                "transportation_method": "dog",
+                "behavior": "crossing the road"
+            }
+        ],
+        "summary": "The video shows a car driving on a highway. At approximately 1.7 seconds, three dogs suddenly cross the road from right to left, directly in front of the car. The dogs appear to be running at a moderate speed. This unexpected event creates a potential collision hazard, classifying as a 'ghost probing' scenario. The driver has minimal reaction time to avoid a collision.",
+        "actions": "The vehicle maintains a consistent speed throughout the 5-second video segment. There are no observable changes in direction or braking. The consistent speed suggests the driver is maintaining a safe following distance from the vehicle ahead and is navigating a relatively clear stretch of highway.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_18_004",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "6.1s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a highway scene with the self-vehicle driving in the center lane.  The road is clear with no immediate obstacles or other vehicles in close proximity. The weather appears sunny and clear.  There are no pedestrians or cyclists visible in the frames provided.",
+        "actions": "The self-vehicle maintains a consistent speed and lane position throughout the 5-second segment. There are no observable changes in speed or direction. The vehicle appears to be driving at a steady pace, appropriate for highway conditions.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "straight",
+            "lane_control": "keep lane"
+        }
+    }
+]

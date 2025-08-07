@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_4_002",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "8.9s",
+    "scene_theme": "Rural Road Driving",
+    "characters": "Driver of a vehicle, a cyclist",
+    "summary": "The video shows a vehicle driving on a rural road.  The road is relatively narrow with trees and buildings lining both sides.  At approximately 6.4 seconds, a cyclist appears from behind a building on the right side of the road, moving into the vehicle's path. The cyclist is wearing light-colored clothing and appears to be an adult. The vehicle appears to be maintaining a consistent speed throughout the sequence. The cyclist's sudden appearance creates a potential hazard.",
+    "actions": "The vehicle maintains a consistent speed throughout the 8.9-second video segment.  There are no observable changes in direction or braking. The vehicle's speed appears appropriate for the rural road conditions shown.",
+    "key_objects": "1) Right: Cyclist in light-colored clothing, approximately 5 meters away at the time of appearance, moving directly into the vehicle's path from behind a building. This action constitutes a potential ghost probing event.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "decelerate",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

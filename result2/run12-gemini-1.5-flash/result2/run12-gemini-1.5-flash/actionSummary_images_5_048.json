@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_5_048",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "9.2s",
+    "scene_theme": "Road Traffic",
+    "sentiment": "Neutral",
+    "characters": "A man on a scooter, other vehicles and cyclists.",
+    "summary": "The video shows a road scene where the observer vehicle is driving straight.  A man on a scooter is visible on the right side of the road, initially crossing from right to left.  Other vehicles are present in the distance, and cyclists are crossing the road in the background. The scooter rider's actions do not directly impact the observer vehicle's path, maintaining a safe distance throughout the sequence.",
+    "actions": "The observer vehicle maintains a consistent speed and direction throughout the 9.2-second video segment.  There are no observable changes in speed or direction based on the provided frames. The vehicle appears to be maintaining a safe following distance from the car ahead.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

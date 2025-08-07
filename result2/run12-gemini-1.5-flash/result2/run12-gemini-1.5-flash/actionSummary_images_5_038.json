@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_5_038",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Rural Road Driving",
+    "characters": "Driver of a vehicle, a person on a tricycle",
+    "summary": "The video shows a vehicle driving on a rural road.  The road is relatively clear with buildings and some vegetation on either side.  A person on a tricycle is visible in the distance, traveling in the same direction as the vehicle.  The tricycle is initially far ahead but gradually gets closer to the vehicle. No sudden or erratic movements are observed from either the vehicle or the tricycle rider. The weather appears overcast.",
+    "actions": "The vehicle maintains a consistent speed throughout the 10-second segment.  The driver appears to be maintaining a safe following distance from the tricycle ahead. There are no observable changes in direction or speed that suggest any immediate need for braking or evasive maneuvers. The vehicle is driving straight ahead.",
+    "key_objects": "1) Front: Person on a tricycle, initially approximately 50 meters away, moving slowly in the same direction as the vehicle. The distance decreases gradually over the 10 seconds.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_038",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "17.5s",
+    "scene_theme": "Rural Road Driving",
+    "characters": "Driver of a car, person on a three-wheeled motorized cart",
+    "summary": "The video shows a car driving on a rural road.  A person on a three-wheeled motorized cart, carrying numerous items, is visible ahead in the same lane. The cart is initially moving slowly, then appears to stop briefly before continuing its journey. The car maintains a safe distance from the cart throughout the sequence. No sudden movements or dangerous maneuvers are observed from either the car or the cart.",
+    "actions": "The self-driving vehicle maintains a consistent speed and distance from the vehicle ahead.  The vehicle ahead, a three-wheeled motorized cart, initially moves slowly, pauses briefly, and then resumes its journey. The self-driving vehicle adjusts its speed to maintain a safe following distance.",
+    "key_objects": "Front: Three-wheeled motorized cart carrying numerous items, approximately 20-30 meters away, moving slowly and then pausing briefly before continuing.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

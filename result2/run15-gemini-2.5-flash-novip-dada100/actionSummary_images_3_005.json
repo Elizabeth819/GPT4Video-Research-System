@@ -1,0 +1,9 @@
+{
+  "timestamp": "16:29:19 - 16:29:20",
+  "summary": "A three-wheeled vehicle abruptly appears from the right side of the road and cuts directly into the path of the dashcam vehicle, creating a hazardous situation.",
+  "actions": "The dashcam vehicle is proceeding forward on a multi-lane road. A three-wheeled vehicle, carrying two individuals, suddenly moves from the right side of the road into the main traffic lane, directly in front of the dashcam vehicle.",
+  "characters": "Driver of the dashcam vehicle (unseen), driver and passenger of the three-wheeled vehicle, other drivers in traffic, pedestrians.",
+  "key_objects": "Dashcam vehicle, three-wheeled vehicle (motorized rickshaw/cargo bike), road, pedestrian crossing, surrounding buildings, other cars.",
+  "key_actions": "The three-wheeled vehicle performs a sudden and aggressive cut-in maneuver. This behavior is identified as 'ghost probing' because the vehicle appears abruptly from a less visible area (the right side/shoulder of the road, acting as a blind spot relative to the forward view) and immediately cuts into the active traffic lane, forcing the dashcam vehicle to react to avoid a collision. This creates a dangerous situation due to the unexpected and close-proximity intrusion.",
+  "next_action": "The autonomous driving system (or human driver) of the dashcam vehicle would likely initiate emergency braking or evasive steering to prevent a collision with the three-wheeled vehicle. The three-wheeled vehicle continues to cross the road."
+}

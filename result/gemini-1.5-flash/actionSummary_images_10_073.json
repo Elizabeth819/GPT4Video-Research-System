@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_073",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue car",
+        "summary": "In this segment, the vehicle is driving on a narrow, wet road in a residential area. A blue car appears from the left side and moves into the self-vehicles lane, causing a potential collision risk.",
+        "actions": "The self-driving vehicle is forced to decelerate rapidly due to the blue car cutting into its lane from the left side. The vehicles speed decreases significantly to avoid a collision.",
+        "key_objects": "1) Left side: A blue car, approximately 5 meters away, moving into the self-vehicles lane, causing the self-vehicle to decelerate rapidly.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

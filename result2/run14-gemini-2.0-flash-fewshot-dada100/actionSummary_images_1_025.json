@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_025",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "4.2s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Two individuals, one wearing an orange jacket and dark pants, and the other wearing a dark jacket and dark pants, are initially standing near the guardrail on the left side of the road. The individual in the dark jacket then begins to run across the road from left to right.",
+  "summary": "The vehicle is traveling on a rural road with mountains on either side. Initially, two individuals are standing near the guardrail on the left side of the road. One of the individuals, wearing a dark jacket and dark pants, suddenly starts running across the road from left to right, creating a potential ghost probing situation as they enter the vehicle's path unexpectedly.",
+  "actions": "The vehicle is maintaining a steady speed on the rural road. The driver is likely maintaining speed due to the open road and lack of immediate obstacles. However, the sudden appearance of the individual running across the road may require the driver to decelerate or take evasive action.",
+  "key_objects": "1) Left side: An individual wearing a dark jacket and dark pants, approximately 15 meters away, suddenly running across the road from left to right. 2) Left side: An individual wearing an orange jacket and dark pants, approximately 17 meters away, standing near the guardrail.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

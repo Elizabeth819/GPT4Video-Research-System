@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_027",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a red scooter/motorcycle, wearing a red jacket and a blue face mask.",
+  "summary": "The video begins with the autonomous vehicle navigating a street with parked cars lining both sides. The vehicle proceeds at a slow, cautious speed. At approximately 3.5 seconds into the sequence, a critical 'ghost probing' incident occurs: a person riding a red scooter suddenly emerges from behind a dark blue/purple parked sedan on the left side of the road. This parked vehicle served as a complete visual obstruction, making the scooter rider's presence undetectable until they abruptly entered the vehicle's direct path. The autonomous vehicle immediately initiates rapid deceleration and comes to a complete stop to prevent a collision with the scooter rider, who continues to cross the road and exits the frame to the right. The road ahead then appears clear.",
+  "actions": "The vehicle initially maintains a slow, steady forward speed, navigating a street with parked cars on both sides. Upon the sudden appearance of a person on a scooter from behind a parked car on the left side of the road, the vehicle executes a rapid deceleration, bringing itself to a complete stop. This action was taken as an immediate safety response to the unexpected obstruction entering its path, demonstrating a critical maneuver to avoid a potential collision and prioritize safety.",
+  "key_objects": "1) Left: A person on a red scooter/motorcycle, emerging from behind a dark blue/purple parked sedan. This object suddenly appeared from behind a visual obstruction, directly entering the vehicle's path, necessitating immediate braking to avoid a collision.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

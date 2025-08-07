@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_013",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "From timestamp 2.0s to 5.0s, there are three females and one child. One female is wearing a red dress, one female is wearing a white shirt and black pants, and one female is wearing a white shirt and a brown skirt. The child is wearing a red dress. From timestamp 6.0s to 8.0s, there is a green bus.",
+  "summary": "The vehicle is driving on a rural road. From timestamp 2.0s to 5.0s, there are three females and one child walking on the road. From timestamp 6.0s to 8.0s, there is a green bus driving on the road. The road is clear and there are no other vehicles or pedestrians in the immediate vicinity.",
+  "actions": "The vehicle is maintaining a steady speed on the rural road. The driver is likely maintaining this speed due to the clear road conditions and lack of immediate obstacles. The vehicle is also maintaining its current lane as there is no need to change lanes.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

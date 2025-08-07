@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_034",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.2s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A scooter rider (gender and age not discernible) and a male pedestrian in dark clothing (age not discernible).",
+  "summary": "In this segment, the self-driving vehicle is initially stopped at an urban intersection during nighttime, positioned behind a scooter, waiting for the traffic light to change. The traffic lights are red. After a few seconds, the traffic lights turn green, and the scooter in front begins to move forward. The self-driving vehicle then starts to accelerate and proceed into the intersection. As the vehicle enters the crosswalk, a male pedestrian suddenly emerges from behind a large white bus or truck that was stopped on the left side of the road. The pedestrian darts directly into the vehicle's path from behind this visual obstruction with minimal warning, creating an immediate and dangerous ghost probing situation.",
+  "actions": "The self-driving vehicle is initially stopped at the intersection, adhering to the red traffic light. The vehicle maintains its stopped position until the traffic light changes from red to green. Upon the green light signal, the vehicle begins to accelerate forward, following the scooter that was positioned directly in front of it. As the vehicle proceeds into the intersection and onto the crosswalk, a pedestrian unexpectedly appears from behind a large vehicle on the left side of the road. In response to this sudden and unannounced emergence of the pedestrian into its path, the vehicle immediately initiates rapid deceleration to avoid a collision.",
+  "key_objects": "1) Left side: A large white bus or truck, approximately 10-15 meters away, stopped or parked on the left side of the road, serving as a significant physical obstruction that completely hid the pedestrian from the driver's view until the pedestrian emerged. 2) Left side: A male pedestrian, wearing dark clothing, approximately 5-7 meters away, suddenly emerging from behind the white bus/truck and stepping onto the crosswalk directly into the vehicle's path. 3) Center: A scooter, initially stopped directly in front of the self-driving vehicle, then proceeding forward after the traffic light turns green. 4) Top center: Traffic lights, initially red, then turning green, indicating the right-of-way for the vehicle.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

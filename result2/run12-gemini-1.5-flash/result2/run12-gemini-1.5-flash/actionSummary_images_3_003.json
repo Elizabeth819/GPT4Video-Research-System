@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_3_003",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "4.3s",
+    "scene_theme": "Urban Intersection",
+    "characters": "A young woman on a bicycle, other cyclists and motorists.",
+    "summary": "The video shows a car approaching an intersection. A young woman on a bicycle, wearing a yellow shirt and a backpack, is crossing the crosswalk from the right side.  Other cyclists and motorcyclists are also present near the intersection. The bicyclist's speed is moderate, and she appears to be paying attention to traffic. There is no immediate danger apparent, but the situation requires caution due to the presence of multiple vehicles and cyclists in close proximity.",
+    "actions": "The self-driving vehicle is approaching the intersection at a moderate speed, likely slowing down in anticipation of the crosswalk.  The vehicle maintains its lane and shows no sudden changes in speed or direction.",
+    "key_objects": "1) Right: Young woman on a bicycle (yellow shirt, backpack), approximately 5 meters away, crossing the crosswalk at a moderate speed.  2) Right: Several motorcyclists and cyclists, approximately 10 meters away, approaching the intersection.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

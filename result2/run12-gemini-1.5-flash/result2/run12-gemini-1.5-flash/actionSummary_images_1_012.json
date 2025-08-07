@@ -1,0 +1,36 @@
+[
+  {
+    "video_id": "images_1_012",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Street",
+    "characters": "Multiple vehicles and pedestrians.",
+    "summary": "The video shows a car driving down a city street with parked cars on both sides.  Pedestrians are visible on the sidewalks and crossing the street. The traffic is relatively light, and the self-driving vehicle maintains a consistent speed and distance from the car in front. No sudden or erratic movements are observed from other vehicles or pedestrians. The weather appears sunny and clear.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment.  The vehicle smoothly navigates the street, adjusting speed slightly to maintain a safe following distance from the vehicle ahead.  There are no observable braking or acceleration maneuvers beyond minor adjustments to maintain a safe following distance.",
+    "key_objects": [],
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_012",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.4s",
+    "scene_theme": "Urban Street",
+    "characters": "A woman carrying shopping bags, driver of the recording vehicle, other drivers and passengers in the background.",
+    "summary": "The video shows a car driving down a city street.  On the right side of the road, a woman in a light-colored dress carrying shopping bags walks along the sidewalk.  She is not directly in the path of the vehicle, but her proximity to the road and the parked cars could pose a risk if she were to suddenly step into the street. The traffic is relatively light, with cars parked along the right side of the road. The self-driving vehicle maintains a consistent speed and distance from the vehicles ahead. No immediate dangerous situations are observed, but the pedestrian's proximity to the road warrants caution.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the segment.  There are no observable changes in speed or direction. The vehicle is navigating a relatively clear section of road with light traffic.",
+    "key_objects": "Right side: A woman in a light-colored dress carrying shopping bags, approximately 2 meters from the road edge, walking along the sidewalk.  Her proximity to the road presents a potential hazard if she were to unexpectedly step into the street.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

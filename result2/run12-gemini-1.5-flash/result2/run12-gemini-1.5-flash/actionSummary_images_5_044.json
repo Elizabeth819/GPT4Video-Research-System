@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "images_5_044",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "9.2s",
+    "scene_theme": "Rainy city street",
+    "sentiment": "Neutral",
+    "characters": "The driver of a white sedan, several other vehicles, and a person on a scooter.",
+    "summary": "The video shows a white sedan driving on a city street during a rainstorm. The road is wet, and visibility is somewhat reduced.  Several other vehicles are visible, moving in the same direction. At approximately 4.6 seconds, a person on a red scooter crosses the road from right to left in front of the self-driving vehicle. The scooter rider appears to be wearing dark clothing and is difficult to see clearly due to the rain and low light conditions. The self-driving vehicle maintains a consistent speed and distance from the vehicles ahead. No collisions occur.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the video segment.  The vehicle's speed appears to be adjusted slightly to maintain a safe following distance from the vehicles in front. The windshield wipers are operating due to the rain.",
+    "key_objects": "1) Front: Several vehicles maintaining a consistent distance, approximately 20-30 meters away, moving at a similar speed. 2) Right: A person on a red scooter, approximately 10 meters away at the moment of crossing, crossing the road from right to left, potentially creating a hazard.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

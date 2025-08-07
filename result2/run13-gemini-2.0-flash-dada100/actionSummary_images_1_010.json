@@ -1,0 +1,23 @@
+{
+  "video_id": "images_1_010",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "22.4s",
+  "summary": "The self-driving car is traveling on a straight road with light traffic. From 0.0s to 6.0s, the car is driving at a constant speed. From 6.0s to 9.0s, a person is walking on the right side of the road behind a wall. From 9.0s to 11.0s, a man on a motorcycle appears from behind the wall on the right side of the road. From 11.0s to 17.0s, a white van is driving in the opposite direction. From 17.0s to 22.4s, there is debris on the road.",
+  "characters": [
+    "From 6.0s to 9.0s, a person is walking on the right side of the road behind a wall.",
+    "From 9.0s to 11.0s, a man on a motorcycle appears from behind the wall on the right side of the road.",
+    "From 11.0s to 17.0s, a white van is driving in the opposite direction."
+  ],
+  "key_objects": [
+    "Right side: A man on a motorcycle, approximately 10 meters away, emerges from behind a wall, potentially causing the vehicle to decelerate or stop.",
+    "Center: Debris on the road, approximately 5 meters away, potentially causing the vehicle to change lanes or decelerate."
+  ],
+  "actions": "The vehicle is driving straight on a road with light traffic. The speed appears constant from 0.0s to 6.0s. The vehicle maintains its speed and direction to follow the road.",
+  "next_action": {
+    "speed_control": "keep speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

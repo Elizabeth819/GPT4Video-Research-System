@@ -1,0 +1,26 @@
+{
+  "video_id": "images_5_051",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "9.0s",
+  "summary": "From 0.0s to 9.0s, the self-driving car is moving forward on a road with light traffic. At approximately 1.0s, a red car is seen driving in the opposite direction. From 2.0s to 9.0s, a man in a white jacket and dark pants is seen on the left side of the road, attempting to start a scooter. The scooter is positioned at a perpendicular road, and the man is trying to get it started. The man is middle-aged. The scooter has some bags attached to the back. The man's actions could potentially lead to a ghost probing incident if he suddenly enters the road without checking for oncoming traffic.",
+  "characters": [
+    {
+      "gender": "male",
+      "age": "middle-aged",
+      "clothing": "white jacket, dark pants",
+      "transportation_method": "scooter",
+      "way_of_walking": "N/A"
+    }
+  ],
+  "key_objects": [
+    "Left side: Man on scooter, approximately 5-10 meters away, attempting to start the scooter at a perpendicular road, potentially leading to a ghost probing incident if he enters the road suddenly."
+  ],
+  "actions": "The vehicle is driving straight on a road with light traffic. The driver is maintaining a consistent speed, likely due to the presence of other vehicles and the road conditions. The driver is proceeding cautiously, as indicated by the consistent speed and straight trajectory, to ensure safety and avoid any potential collisions.",
+  "next_action": {
+    "speed_control": "keep current speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male cyclist, wearing a light-colored top and dark pants, carrying a backpack, approximately 20-30 years old. Multiple pedestrians (at least 3-4) are visible further ahead in the tunnel, some on the left, some on the right. A person on a scooter/motorcycle is visible on the right side.",
+  "summary": "In this segment, the vehicle is driving through a dimly lit tunnel at night. As the vehicle proceeds, a male cyclist, initially visible among other pedestrians further ahead, suddenly falls directly into the vehicle's path. The low light conditions and the presence of other moving individuals within the tunnel environment partially obscured the cyclist's specific actions and sudden fall, making their emergence as a direct, fallen obstruction unexpected and creating an immediate collision risk. This unexpected event forces the vehicle to perform an emergency stop.",
+  "actions": "The self-driving vehicle initially maintains a cautious speed of around 23-24 km/h while entering and proceeding through the dimly lit tunnel, likely due to the low light conditions and the presence of multiple pedestrians ahead. Upon the sudden and unexpected fall of a cyclist directly into its path (around 3.5s-4.3s mark), the vehicle immediately initiates rapid deceleration, reducing its speed from 22 km/h to 0 km/h within approximately 3 seconds (by 7.0s mark). This rapid braking action is a direct and necessary response to avoid a collision with the suddenly appearing and fallen obstruction, prioritizing the safety of the individual. The vehicle comes to a complete stop to ensure the path is clear.",
+  "key_objects": "1) Left side: A male cyclist, approximately 5-10 meters away, wearing a light-colored top and dark pants with a backpack, who suddenly falls directly into the vehicle's path. This individual's sudden change in state and position was obscured by the low light conditions and the presence of other pedestrians within the tunnel until they became an immediate obstruction. 2) Ahead: The tunnel structure and other pedestrians, creating a complex visual environment that partially obscured the cyclist's specific actions and sudden fall, contributing to minimal reaction time.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

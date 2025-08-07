@@ -1,0 +1,20 @@
+{
+  "video_id": "images_1_022",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.1s",
+  "summary": "The self-driving car starts at a red traffic light and is in the middle lane of a three-lane road. From 0.0s to 5.0s, the car remains stationary at the red light. At 5.0s, the traffic light turns green, and the car begins to move forward. At 6.0s, a man wearing a blue shirt is seen crossing the road at the crosswalk. From 9.0s to 12.1s, two individuals on bicycles are riding on the right side of the road, parallel to the car's lane. The road conditions appear to be clear with light traffic.",
+  "characters": [
+    "From 0.0s to 5.0s, the car remains stationary at the red light.",
+    "At 6.0s, a man wearing a blue shirt is seen crossing the road at the crosswalk.",
+    "From 9.0s to 12.1s, two individuals on bicycles are riding on the right side of the road, parallel to the car's lane."
+  ],
+  "key_objects": [],
+  "actions": "From 0.0s to 5.0s, the vehicle is stopped at a red light, indicating adherence to traffic signals. At 5.0s, the vehicle begins to accelerate as the traffic light turns green, signaling the vehicle to proceed. The vehicle maintains its lane and speed, likely aiming to keep pace with the flow of traffic and adhere to the speed limit.",
+  "next_action": {
+    "speed_control": "accelerating",
+    "direction_control": "straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none"
+}

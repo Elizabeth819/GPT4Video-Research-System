@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_004",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a scooter, wearing light-colored clothing, is traveling in the same direction as the vehicle.",
+  "summary": "The vehicle is driving on a road at night. From 0.0s to 8.0s, a person on a scooter is visible ahead, traveling in the same direction. The scooter is in the same lane as the vehicle. The scooter is moving at a slow speed. From 8.0s to 10.0s, the vehicle approaches an intersection with a red traffic light on the left side. There is construction on the right side of the road, partially obstructing the view of the intersection.",
+  "actions": "The vehicle is driving at a moderate speed, maintaining its lane. The driver is likely trying to maintain a safe distance from the scooter ahead. The vehicle is approaching an intersection with a red light, so the driver will likely need to prepare to stop.",
+  "key_objects": "1) Front: A person on a scooter, approximately 20 meters away, traveling slowly in the same lane, potentially requiring the vehicle to decelerate. 2) Left side: A red traffic light at the intersection, approximately 30 meters away, requiring the vehicle to prepare to stop. 3) Right side: Construction site, approximately 10 meters away, partially obstructing the view of the intersection.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

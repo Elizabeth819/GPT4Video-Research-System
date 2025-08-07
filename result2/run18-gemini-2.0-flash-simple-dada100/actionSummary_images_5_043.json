@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_043",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car approaching an intersection and then driving down a straight road. Other vehicles are visible, including cars and a small truck. There are buildings and trees lining the road.",
+  "summary": "The vehicle starts at an intersection, waits for the green light, and proceeds straight through the intersection. After clearing the intersection, the vehicle continues driving straight down the road, maintaining a consistent speed.",
+  "actions": "The vehicle initially approaches an intersection and stops, likely due to a red light. Once the light turns green, the vehicle accelerates and proceeds straight through the intersection. After clearing the intersection, the vehicle maintains a consistent speed while driving straight down the road. The initial stop is due to the traffic light, and the subsequent acceleration and straight driving are due to the green light and the desire to continue along the current path.",
+  "key_objects": "1) Left side: Buildings and parked cars, moderate distance, potential obstruction of pedestrians. 2) Right side: Trees and roadside structures, moderate distance, potential obstruction of pedestrians. 3) Front: Other vehicles on the road, far distance, potential impact on speed and lane control.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

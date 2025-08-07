@@ -1,0 +1,19 @@
+[
+  {
+    "video_id": "images_1_016",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "9.7s",
+    "scene_theme": "Driving on a multi-lane road",
+    "characters": "Driver of a white sedan, a pedestrian in a red jacket",
+    "summary": "The video shows a white sedan driving on a multi-lane road.  Around the 2.4-second mark, a pedestrian in a red jacket suddenly crosses the road from right to left, appearing from behind a line of parked cars. The pedestrian is walking at a moderate pace. The driver of the white sedan maintains a consistent speed and does not appear to brake or swerve. The pedestrian crosses the road safely without incident.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 9.7-second video segment. There are no observable changes in speed or direction in response to other vehicles or the pedestrian.",
+    "key_objects": "1) Right side: Pedestrian in a red jacket, approximately 10 meters away at initial sighting, crossing the road from right to left at a moderate pace. This action caused a brief moment of potential hazard, requiring the driver to maintain awareness.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

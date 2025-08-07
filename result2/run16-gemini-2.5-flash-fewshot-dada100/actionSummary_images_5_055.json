@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_055",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "1) Left side: A male pedestrian, wearing a pink/red shirt. 2) Right side: A person on a scooter/motorcycle, wearing dark clothing. 3) Right side: Multiple pedestrians standing near parked cars.",
+  "summary": "In this segment, the self-driving vehicle navigates an urban road with parked vehicles and roadside obstructions. The vehicle encounters two distinct 'ghost probing' incidents. Initially, a male pedestrian suddenly emerges from behind a parked dark car on the left side, stepping directly into the vehicle's path. After the vehicle reacts and the pedestrian clears, the vehicle continues forward. Subsequently, a person on a scooter suddenly emerges from behind a roadside bush/tree line or parked vehicle on the right side, entering the vehicle's path with minimal warning. Both incidents create immediate collision risks due to the sudden appearance from behind visual obstructions.",
+  "actions": "The self-driving vehicle is initially moving forward on an urban road. At approximately 0.0s, a male pedestrian suddenly emerges from behind a parked dark car on the left side, stepping into the vehicle's path. In response to this unexpected appearance, the vehicle initiates deceleration and comes to a stop to avoid a potential collision. After the pedestrian clears the immediate path, the vehicle resumes acceleration and continues to move forward. At approximately 9.0s, a person on a scooter suddenly emerges from behind a roadside bush/tree line or parked vehicle on the right side, entering the vehicle's path. The vehicle immediately performs rapid deceleration and comes to a complete stop to prevent a collision with the suddenly appearing scooter.",
+  "key_objects": "1) Left side: A male pedestrian, wearing a pink/red shirt, approximately 3-5 meters away, suddenly emerging from behind a parked dark car (visual obstruction) and stepping into the vehicle's path at approximately 0.0s-1.0s. 2) Right side: A person on a scooter/motorcycle, approximately 3-5 meters away, suddenly emerging from behind a roadside bush/tree line or parked vehicle (visual obstruction) and entering the vehicle's path at approximately 9.0s-10.0s.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_29_021",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, cyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road at night. The road is well-lit with several vehicles ahead and pedestrians on the sidewalks. A cyclist is seen on the left side of the road, moving forward. The black sedan ahead is moving slowly, and there is a potential for sudden movements from the cyclist or the sedan.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while keeping a safe distance from the black sedan ahead. The vehicle is also monitoring the cyclist on the left side to avoid any sudden movements.",
+        "key_objects": "1) Left side: A cyclist, approximately 2 meters away, moving forward. 2) Front: A black sedan, approximately 10 meters away, moving slowly.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_29_021",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "6.2s",
+        "scene_theme": "Dramatic",
+        "characters": "Group of people on the road",
+        "summary": "In this segment, the vehicle is approaching a group of people on the road. The group includes individuals sitting and standing around a fallen motorcycle. The situation appears to be an accident scene, with people attending to the fallen motorcycle and possibly injured individuals.",
+        "actions": "The self-driving vehicle is slowing down as it approaches the accident scene. The vehicles speed is gradually decreasing to ensure safety and avoid any collision with the people on the road.",
+        "key_objects": "1) Front: A group of people, approximately 10 meters away, attending to a fallen motorcycle, blocking the road. 2) Left side: A person standing, approximately 12 meters away, observing the scene. 3) Right side: A person sitting, approximately 8 meters away, near the fallen motorcycle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

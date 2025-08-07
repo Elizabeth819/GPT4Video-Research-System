@@ -1,0 +1,74 @@
+[
+    {
+        "video_id": "dada_15_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Rural Road",
+        "characters": "Motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road. A motorcyclist is seen approaching from the front, initially on the left side of the road. The motorcyclist gradually moves towards the center of the road, potentially indicating a change in direction or lane.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the motorcyclists movement. The vehicle is likely preparing to adjust its speed or direction based on the motorcyclists actions.",
+        "key_objects": "1) Front: A motorcyclist, approximately 20 meters away, moving towards the center of the road, potentially indicating a change in direction or lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_15_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Rural Road",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a rural road with no visible traffic or pedestrians. The road is narrow and has some debris and obstacles on the sides. The vehicle maintains a steady speed and direction throughout the segment.",
+        "actions": "The self-driving vehicle maintains a consistent speed and direction, navigating through a narrow rural road with debris on the sides. The vehicle does not encounter any other vehicles or pedestrians, and there are no sudden changes in speed or direction.",
+        "key_objects": "1) Front: Debris and obstacles on the sides of the road, approximately 10 meters away, stationary and not posing an immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_15_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a rural road with fields on both sides. The road is clear, and there are no visible obstacles or other vehicles in the frames provided.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, driving straight on the rural road. There are no changes in speed or direction observed in the frames.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_15_001",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "15.8s",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a rural road with no visible obstacles or other vehicles. The road is clear, and there are no pedestrians or other objects that could pose a threat.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and direction, driving straight on the rural road. There are no changes in speed or direction observed in the frames.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

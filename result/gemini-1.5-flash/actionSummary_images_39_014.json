@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_39_014",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a red sedan, driver of a black SUV, driver of a yellow truck",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road at night. The red sedan on the left side of the self-driving vehicle is moving closer to the lane of the self-driving vehicle, potentially indicating a cut-in behavior. The black SUV ahead is maintaining its lane but slowing down due to the traffic light turning red. The yellow truck on the left side is maintaining its lane but is relatively close to the red sedan.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the potential cut-in behavior of the red sedan on the left side. The vehicle is also preparing to stop as the traffic light ahead turns red.",
+        "key_objects": "1) Left side: A red sedan, approximately 2 meters away, moving closer to the self-driving vehicles lane, indicating potential cut-in behavior. 2) Front: A black SUV, approximately 5 meters away, slowing down due to the red traffic light. 3) Left side: A yellow truck, approximately 3 meters away, maintaining its lane but close to the red sedan.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

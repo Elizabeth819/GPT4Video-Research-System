@@ -1,0 +1,72 @@
+{
+  "total_videos": 5,
+  "confusion_matrix": {
+    "true_positive": 0,
+    "true_negative": 2,
+    "false_positive": 0,
+    "false_negative": 3
+  },
+  "performance_metrics": {
+    "accuracy": 0.4,
+    "precision": 0,
+    "recall": 0.0,
+    "specificity": 1.0,
+    "f1_score": 0
+  },
+  "feature_analysis": {
+    "ghost_videos_max_change": {
+      "mean": 0.1103,
+      "std": 0.0124,
+      "max": 0.1274,
+      "min": 0.0984
+    },
+    "normal_videos_max_change": {
+      "mean": 0.1066,
+      "std": 0.0148,
+      "max": 0.1214,
+      "min": 0.0918
+    }
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001",
+      "ground_truth": false,
+      "detected": false,
+      "confidence": 0.2,
+      "max_frame_change": 0.1214,
+      "avg_frame_change": 0.0592
+    },
+    {
+      "video_id": "images_1_002",
+      "ground_truth": true,
+      "detected": false,
+      "confidence": 0.2,
+      "max_frame_change": 0.0984,
+      "avg_frame_change": 0.055
+    },
+    {
+      "video_id": "images_1_003",
+      "ground_truth": true,
+      "detected": false,
+      "confidence": 0.2,
+      "max_frame_change": 0.1274,
+      "avg_frame_change": 0.0592
+    },
+    {
+      "video_id": "images_1_004",
+      "ground_truth": false,
+      "detected": false,
+      "confidence": 0.2,
+      "max_frame_change": 0.0918,
+      "avg_frame_change": 0.075
+    },
+    {
+      "video_id": "images_1_005",
+      "ground_truth": true,
+      "detected": false,
+      "confidence": 0.2,
+      "max_frame_change": 0.105,
+      "avg_frame_change": 0.0695
+    }
+  ]
+}

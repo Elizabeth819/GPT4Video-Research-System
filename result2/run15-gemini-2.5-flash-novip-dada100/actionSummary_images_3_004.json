@@ -1,0 +1,9 @@
+{
+  "timestamp": "07:55:13 - 07:55:14",
+  "summary": "At an intersection, a scooter suddenly appears from a blind spot and falls directly in front of the camera vehicle",
+  "actions": "The camera vehicle is stationary at an intersection. A scooter suddenly appears from the right, attempts a turn, and falls directly in the path of the camera vehicle",
+  "characters": "Scooter rider, pedestrians, various vehicles at intersection",
+  "key_objects": "Intersection, scooter, camera vehicle, road markings, traffic signals",
+  "key_actions": "ghost probing - scooter suddenly appearing from blind spot on the right side and creating immediate hazard",
+  "next_action": "Camera vehicle needs to brake or maneuver to avoid the fallen scooter"
+}

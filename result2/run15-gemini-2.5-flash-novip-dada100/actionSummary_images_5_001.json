@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_001",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A pedestrian wearing an orange jacket is seen crossing the road from the right side to the left side. Another pedestrian is visible on the left side of the crosswalk, moving from left to right. Several other pedestrians are visible on the sidewalks on both the left and right sides of the street. A person is also seen on a motorcycle on the left side of the road.",
+  "summary": "The video segment begins at night in an urban environment, with the autonomous vehicle driving straight on a multi-lane road. Brightly lit commercial buildings with various signs, including 'VIVO', line both sides of the street. A white sedan is initially positioned directly in front of the vehicle in the same lane. A white median barrier separates the lanes on the left side of the road. As the vehicle proceeds, the white sedan ahead begins to turn right, revealing an upcoming intersection with a crosswalk. The vehicle approaches the intersection, where a pedestrian in an orange jacket is observed crossing the crosswalk from the right side of the image towards the left. Another pedestrian is seen on the left side of the crosswalk. A red traffic light is visible on the right side of the intersection. The vehicle decelerates and comes to a complete stop at the crosswalk, respecting the traffic light and pedestrian movement. A silver car is then observed on the left side of the intersection, making a right turn.",
+  "actions": "The vehicle initially maintains a steady forward speed as it follows a white sedan. As the white sedan turns right and the vehicle approaches an intersection, it begins to decelerate. This deceleration is a response to the visible crosswalk, the presence of pedestrians crossing, and the red traffic light clearly visible on the right side of the intersection. The vehicle continues to slow down progressively, ultimately coming to a complete stop before the crosswalk. This action is taken to ensure the safety of pedestrians using the crosswalk and to comply with the traffic signal, which appears to be red for the vehicle's direction of travel.",
+  "key_objects": "1) Right: A white sedan, approximately 5-10 meters ahead, initially in the same lane, then turning right, influencing the vehicle's approach to the intersection. 2) Right: A pedestrian wearing an orange jacket, approximately 5 meters ahead, crossing the crosswalk from right to left, prompting the vehicle to decelerate and stop. 3) Right: A red traffic light, approximately 15-20 meters ahead, indicating the need for the vehicle to stop at the intersection. 4) Left: A silver sedan, approximately 10-15 meters ahead, turning right from the left side of the intersection, indicating cross-traffic movement.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

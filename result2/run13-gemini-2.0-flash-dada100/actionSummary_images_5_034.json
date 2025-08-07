@@ -1,0 +1,50 @@
+{
+  "video_id": "images_5_034",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.2s",
+  "summary": "The self-driving car is at a red light at a crosswalk. There is a person on a scooter in front of the car, also waiting at the red light. To the left, there is a person on a scooter waiting at the red light. To the right, there are people walking on the sidewalk. At timestamp 4.0s, the traffic light turns green, and the car and the scooter in front of it begin to move forward. At timestamp 10.7s, a person on a scooter suddenly appears from the left side of the road, crossing the road at a high speed, creating a ghost probing scenario. The car decelerates to avoid a collision.",
+  "characters": [
+    {
+      "gender": "unknown",
+      "clothing": "dark jacket and light pants",
+      "colors": [
+        "dark",
+        "light"
+      ],
+      "age": "adult",
+      "transportation_method": "scooter",
+      "way_of_walking": "N/A"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": [
+        "unknown"
+      ],
+      "age": "unknown",
+      "transportation_method": "scooter",
+      "way_of_walking": "N/A"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "colors": [
+        "unknown"
+      ],
+      "age": "unknown",
+      "transportation_method": "pedestrians",
+      "way_of_walking": "walking"
+    }
+  ],
+  "actions": "The vehicle is initially stopped at a red light, waiting for the traffic signal to change. Once the light turns green at 4.0s, the vehicle begins to accelerate and proceed through the intersection. At 10.7s, the vehicle decelerates rapidly to avoid a collision with a scooter that suddenly appears from the left.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": [
+    "Left side: A person on a scooter, approximately 10 meters away, crossing the road at high speed, causing the vehicle to decelerate."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "images_3_007",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.1s",
+  "summary": "The self-driving car is moving forward on a sunny day. From 0.0s to 3.0s, the car is driving straight. At 3.0s, a group of people with bikes and scooters start to cross the road from right to left. At 5.0s, a boy wearing a blue shirt and a black cap falls off his bike in the middle of the road. From 6.0s to 14.1s, the boy stands up and tries to pick up his bike while another man and a boy on bikes cross the road. The car decelerates and stops to avoid hitting the boy and the other people crossing the road.",
+  "characters": [
+    {
+      "gender": "male",
+      "age": "child",
+      "clothing": "blue shirt, black cap",
+      "transportation_method": "bike",
+      "behavior": "falls off bike, stands up, tries to pick up bike"
+    },
+    {
+      "gender": "male",
+      "age": "adult",
+      "clothing": "black shirt",
+      "transportation_method": "bike",
+      "behavior": "crossing the road"
+    },
+    {
+      "gender": "male",
+      "age": "child",
+      "clothing": "blue shirt, yellow cap",
+      "transportation_method": "bike",
+      "behavior": "crossing the road"
+    },
+    {
+      "gender": "male",
+      "age": "adult",
+      "clothing": "unclear",
+      "transportation_method": "scooter",
+      "behavior": "crossing the road"
+    }
+  ],
+  "key_objects": [
+    "Right side: A boy wearing a blue shirt and a black cap falls off his bike, approximately 5 meters away, creating an immediate need for the vehicle to decelerate and stop to avoid a collision.",
+    "Right side: A man and a boy on bikes are crossing the road, approximately 7 meters away, causing the vehicle to decelerate and stop to ensure their safety."
+  ],
+  "actions": "The vehicle is driving straight on a sunny day. The driver decelerates and stops because a boy falls off his bike in the middle of the road and other people are crossing the road with bikes and scooters. The driver is prioritizing safety by stopping to avoid hitting the boy and the other people crossing the road.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none"
+}

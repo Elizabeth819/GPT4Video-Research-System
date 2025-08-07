@@ -1,0 +1,48 @@
+2025-07-27 16:08:13,031 - INFO - Run 11 恢复: GPT-4.1 + Balanced版本实验
+2025-07-27 16:08:13,031 - INFO - GPT-4.1 API配置成功
+2025-07-27 16:08:13,031 - INFO - Endpoint: https://aoai-eastus2-eliza.openai.azure.com/
+2025-07-27 16:08:13,031 - INFO - Deployment: gpt-4.1
+2025-07-27 16:08:13,033 - WARNING - /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run11-gpt41-balanced-100videos/run11_resume_experiment.py:69: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  self.ground_truth = pd.read_csv(gt_path, sep='\\t')
+
+2025-07-27 16:08:13,037 - INFO - 加载ground truth标签: 101个视频
+2025-07-27 16:08:13,038 - INFO - 已处理视频数量: 10
+2025-07-27 16:08:13,038 - INFO - 已处理视频: ['images_1_001', 'images_1_002', 'images_1_003', 'images_1_004', 'images_1_005', 'images_1_006', 'images_1_007', 'images_1_008', 'images_1_009', 'images_1_010']
+2025-07-27 16:08:13,038 - INFO - 恢复Run 11: GPT-4.1+Balanced实验
+2025-07-27 16:08:13,039 - INFO - 剩余未处理视频数量: 90
+2025-07-27 16:08:13,092 - INFO - 处理剩余视频 1/90: images_1_011
+2025-07-27 16:08:32,448 - INFO - 视频 images_1_011 完成 - 预测: 0, 实际: 0, 用时: 19.4s
+2025-07-27 16:08:32,448 - INFO - 处理剩余视频 2/90: images_1_012
+2025-07-27 16:08:47,743 - INFO - 视频 images_1_012 完成 - 预测: 0, 实际: 0, 用时: 15.3s
+2025-07-27 16:08:47,744 - INFO - 处理剩余视频 3/90: images_1_013
+2025-07-27 16:10:20,687 - ERROR - API请求失败 (尝试 1/3): HTTPSConnectionPool(host='aoai-eastus2-eliza.openai.azure.com', port=443): Read timed out. (read timeout=90)
+2025-07-27 16:10:36,853 - INFO - 视频 images_1_013 完成 - 预测: 1, 实际: 0, 用时: 109.1s
+2025-07-27 16:10:36,854 - INFO - 处理剩余视频 4/90: images_1_014
+2025-07-27 16:11:27,284 - INFO - 视频 images_1_014 完成 - 预测: 1, 实际: 0, 用时: 50.4s
+2025-07-27 16:11:27,285 - INFO - 处理剩余视频 5/90: images_1_015
+2025-07-27 16:11:43,958 - INFO - 视频 images_1_015 完成 - 预测: 1, 实际: 0, 用时: 16.7s
+2025-07-27 16:11:43,963 - INFO - 处理剩余视频 6/90: images_1_016
+2025-07-27 16:12:01,799 - INFO - 视频 images_1_016 完成 - 预测: 1, 实际: 0, 用时: 17.8s
+2025-07-27 16:12:01,800 - INFO - 处理剩余视频 7/90: images_1_017
+2025-07-27 16:12:24,448 - INFO - 视频 images_1_017 完成 - 预测: 1, 实际: 0, 用时: 22.6s
+2025-07-27 16:12:24,449 - INFO - 处理剩余视频 8/90: images_1_018
+2025-07-27 16:13:11,920 - INFO - 视频 images_1_018 完成 - 预测: 0, 实际: 0, 用时: 47.5s
+2025-07-27 16:13:11,921 - INFO - 处理剩余视频 9/90: images_1_019
+2025-07-27 16:13:25,400 - INFO - 视频 images_1_019 完成 - 预测: 1, 实际: 0, 用时: 13.5s
+2025-07-27 16:13:25,401 - INFO - 处理剩余视频 10/90: images_1_020
+2025-07-27 16:13:37,301 - INFO - 视频 images_1_020 完成 - 预测: 1, 实际: 0, 用时: 11.9s
+2025-07-27 16:13:37,304 - INFO - 处理剩余视频 11/90: images_1_021
+2025-07-27 16:13:53,089 - INFO - 视频 images_1_021 完成 - 预测: 1, 实际: 0, 用时: 15.8s
+2025-07-27 16:13:53,089 - INFO - 处理剩余视频 12/90: images_1_022
+2025-07-27 16:15:25,798 - ERROR - API请求失败 (尝试 1/3): HTTPSConnectionPool(host='aoai-eastus2-eliza.openai.azure.com', port=443): Read timed out. (read timeout=90)
+2025-07-27 16:15:37,603 - INFO - 视频 images_1_022 完成 - 预测: 0, 实际: 0, 用时: 104.5s
+2025-07-27 16:15:37,604 - INFO - 处理剩余视频 13/90: images_1_023
+2025-07-27 16:15:50,811 - INFO - 视频 images_1_023 完成 - 预测: 1, 实际: 0, 用时: 13.2s
+2025-07-27 16:15:50,812 - INFO - 处理剩余视频 14/90: images_1_024
+2025-07-27 16:16:03,307 - INFO - 视频 images_1_024 完成 - 预测: 1, 实际: 0, 用时: 12.5s
+2025-07-27 16:16:03,307 - INFO - 处理剩余视频 15/90: images_1_025
+2025-07-27 16:17:35,802 - ERROR - API请求失败 (尝试 1/3): HTTPSConnectionPool(host='aoai-eastus2-eliza.openai.azure.com', port=443): Read timed out. (read timeout=90)
+2025-07-27 16:17:49,699 - INFO - 视频 images_1_025 完成 - 预测: 1, 实际: 0, 用时: 106.4s
+2025-07-27 16:17:49,704 - INFO - 处理剩余视频 16/90: images_1_026
+2025-07-27 16:18:02,217 - INFO - 视频 images_1_026 完成 - 预测: 1, 实际: 0, 用时: 12.5s
+2025-07-27 16:18:02,217 - INFO - 处理剩余视频 17/90: images_1_027

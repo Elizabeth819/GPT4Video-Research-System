@@ -1,0 +1,66 @@
+[
+    {
+        "video_id": "dada_14_010",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a five-second segment of a car driving on a two-lane road. The road is relatively empty with trees lining both sides. The weather appears sunny.  The self-driving vehicle maintains a safe following distance from the car ahead. No pedestrians or other vehicles are observed entering the road or exhibiting dangerous behavior during this short segment. The road is relatively smooth, with minor imperfections visible on the surface. The car ahead is traveling at a consistent speed, and the self-driving vehicle maintains a similar speed, keeping a safe distance.",
+        "actions": "The self-driving vehicle maintains a consistent speed and following distance from the car ahead throughout the five-second segment.  The vehicle's actions suggest a focus on maintaining a safe and predictable driving pattern, adapting to the speed of the preceding vehicle. There are no observable changes in direction or speed that indicate any immediate need for corrective maneuvers.",
+        "next_action": {
+            "speed_control": "maintain_speed",
+            "direction_control": "straight",
+            "lane_control": "keep_lane"
+        }
+    },
+    {
+        "video_id": "dada_14_010",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a segment of a road journey where the observer vehicle is following a white SUV on a winding mountain road. The road surface appears to be somewhat uneven with patches.  The video shows no pedestrians, cyclists, or other vehicles that pose an immediate threat. The white SUV ahead maintains a consistent distance and speed throughout the observed period.",
+        "actions": "The observer vehicle maintains a safe following distance from the white SUV ahead. The speed of the observer vehicle is consistent with the speed of the vehicle in front, suggesting adaptive cruise control or careful driver observation. The observer vehicle navigates the winding road by gently adjusting its steering to follow the curve of the road. There are no sudden braking or acceleration maneuvers observed.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "continue following the curve",
+            "lane_control": "keep in current lane"
+        }
+    },
+    {
+        "video_id": "dada_14_010",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a winding mountain road. The road is relatively empty with no other vehicles or pedestrians immediately visible. The road surface appears to be uneven with some patches of mud or water. The car maintains a steady speed throughout the 5-second segment. No sudden appearances of objects or individuals are observed.",
+        "actions": "The vehicle maintains a consistent speed and follows the curve of the road. The driver appears to be navigating the road cautiously, given the uneven road surface. There is no indication of braking, acceleration, or lane changes during this segment.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "follow the curve",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_14_010",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "16.2s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a two-lane road. The road appears to be slightly wet.  The car maintains a consistent speed and stays in its lane. There are no pedestrians or other vehicles exhibiting dangerous behavior during this segment. The road ahead is clear of any immediate obstacles.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the 5-second segment. There are no observable changes in speed or direction, suggesting the driver is maintaining a steady pace on a clear road.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep right"
+        }
+    }
+]

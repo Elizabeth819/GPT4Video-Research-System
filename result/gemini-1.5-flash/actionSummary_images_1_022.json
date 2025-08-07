@@ -1,0 +1,72 @@
+[
+    {
+        "video_id": "dada_1_022",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a city road with moderate traffic.  The road is relatively clear, with parked cars on the right side. Traffic is moving at a moderate speed. No unusual or dangerous events are observed within the 5-second video segment.",
+        "actions": "The vehicle maintains a consistent speed and lane position throughout the 5-second segment.  The driver appears to be following the flow of traffic, adjusting speed slightly to maintain a safe distance from the vehicle ahead. There are no observable lane changes or braking maneuvers.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_022",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A man on a bicycle",
+                "distance": "10",
+                "behavior or action impacting the vehicle": "Crossing the road from left to right, at a moderate speed.  The cyclist is wearing a light-colored shirt and dark pants. He appears to be an adult, approximately 30-40 years old."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Light-colored shirt, dark pants",
+                "transportation": "Bicycle",
+                "behavior": "Crossing the road from left to right at a moderate pace, potentially creating a ghost probing situation."
+            }
+        ],
+        "summary": "The video segment shows a man on a bicycle crossing the road from left to right in front of the vehicle. The cyclist emerges from behind a parked van on the left, creating a potential ghost probing scenario. The cyclist is approximately 10 meters away from the vehicle at the time of the crossing. He is moving at a moderate speed. The driver needs to react quickly to avoid a collision.",
+        "actions": "The vehicle maintains a steady speed, likely due to the relatively clear road ahead before the cyclist appears. The driver is observing the road and traffic conditions. The vehicle does not brake or change lanes until the cyclist is almost fully across the road.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_1_022",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "11.6s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "Two cyclists, one appearing older with a dark shirt and the other younger with a lighter shirt, riding side-by-side.",
+                "distance": "20",
+                "behavior or action impacting the vehicle": "Moving away from the vehicle at a moderate speed, not posing an immediate threat."
+            }
+        ],
+        "key_actions": "none",
+        "characters": "Two cyclists are visible on the right side of the road, moving away from the vehicle.",
+        "summary": "The video shows a clear road ahead. Two cyclists are visible on the right side of the road, approximately 20 meters away, moving away from the vehicle at a moderate speed. No immediate threats are observed. The road is relatively empty with no other vehicles or pedestrians in close proximity. The weather appears clear and sunny.",
+        "actions": "The vehicle maintains a steady speed, proceeding straight ahead. There are no apparent reasons for acceleration, deceleration, or lane changes based on the current visual data. The driver is likely maintaining a safe and consistent speed for the current road conditions.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    }
+]

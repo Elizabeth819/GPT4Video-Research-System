@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_38_028",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black SUV",
+        "summary": "In this segment, the vehicle is driving on a multi-lane road. Ahead, a black SUV is moving in the same direction. The road is clear initially but a large truck starts to block the lanes ahead, causing potential danger.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the black SUV. As the truck begins to block the lanes, the vehicle starts to decelerate to avoid collision.",
+        "key_objects": "1) Front: A black SUV, approximately 20 meters away, moving steadily in the same direction. 2) Front: A large truck, approximately 30 meters away, blocking the lanes and causing the vehicle to decelerate.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

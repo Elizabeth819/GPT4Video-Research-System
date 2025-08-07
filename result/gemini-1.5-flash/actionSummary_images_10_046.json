@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_10_046",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through a busy urban street. Various vehicles and individuals are present, including a green tricycle, a blue tricycle, and pedestrians. The scene becomes increasingly chaotic as a pedestrian with a cart suddenly crosses the road, causing potential danger.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the busy street. The driver is likely cautious due to the presence of multiple vehicles and pedestrians. The vehicles speed appears to be consistent, with no sudden accelerations or decelerations observed.",
+        "key_objects": "1) Front: A green tricycle, approximately 10 meters away, moving steadily forward. 2) Left side: A blue tricycle, approximately 5 meters away, moving forward. 3) Right side: A pedestrian with a cart, approximately 3 meters away, crossing the road suddenly.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

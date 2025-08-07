@@ -1,0 +1,56 @@
+[
+    {
+        "video_id": "dada_51_005",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through a mixed urban and rural environment. Initially, the road is clear with some trees and buildings visible. As the vehicle progresses, it enters a more congested area with multiple pedestrians and vehicles. The final frame shows a crowded street with pedestrians walking and vehicles moving slowly.",
+        "actions": "The self-driving vehicle is maintaining a steady speed initially. As it approaches the congested area, it slows down to navigate through the traffic and pedestrians safely. The vehicle is likely preparing to stop or maneuver carefully due to the increased density of people and cars.",
+        "key_objects": "1) Front: Multiple pedestrians, approximately 5 meters away, walking on the right side of the road, potentially moving into the vehicles path. 2) Front: A white SUV, approximately 10 meters away, moving slowly, potentially stopping or turning. 3) Right: A person on a scooter, approximately 3 meters away, moving slowly, potentially crossing the vehicles path.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_51_005",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. Initially, there are multiple vehicles ahead, including a black sedan on the right and a white sedan in front. The black sedan on the right side suddenly accelerates and cuts into the lane of the self-driving vehicle, causing the self-driving vehicle to decelerate. By the last frame, the self-driving vehicle has moved to the right lane, maintaining a safe distance from the vehicles ahead.",
+        "actions": "The self-driving vehicle decelerates due to the black sedan cutting into its lane from the right side. The vehicle then shifts to the right lane to avoid potential collision and maintain a safe distance from the vehicles ahead.",
+        "key_objects": "1) Right side: A black sedan, approximately 5 meters away, accelerating and cutting into the self-driving vehicles lane. 2) Front: A white sedan, approximately 10 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_51_005",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "12.8s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a brown sedan, driver of a black car",
+        "summary": "In this segment, the vehicle is driving on a highway. A brown sedan is seen on the left side, moving into the lane of the self-driving vehicle. A black car is also visible on the left side, maintaining its lane. The brown sedans sudden lane change poses a potential risk of collision.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while observing the brown sedans movement. The vehicles speed remains steady to avoid sudden braking or acceleration, ensuring safety.",
+        "key_objects": "1) Left side: A brown sedan, approximately 5 meters away, moving into the self-driving vehicles lane, causing potential risk of collision. 2) Left side: A black car, approximately 10 meters away, maintaining its lane.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

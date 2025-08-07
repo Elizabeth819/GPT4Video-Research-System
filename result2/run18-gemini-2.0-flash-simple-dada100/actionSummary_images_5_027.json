@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_027",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a street with parked cars on both sides. There are pedestrians and a cyclist visible on the left side of the road. The pedestrians appear to be adults, and the cyclist is wearing a pink jacket. The cars are of various makes and models.",
+  "summary": "The vehicle is driving down a street with parked cars on both sides. A cyclist and pedestrians are present on the left side of the road. The vehicle maintains a steady speed and direction.",
+  "actions": "The vehicle is driving straight down the street. The speed appears to be constant. The driver is likely navigating through the parked cars and pedestrians.",
+  "key_objects": "1) Left: Pedestrians and a cyclist, medium distance, potentially crossing the street. 2) Left and Right: Parked cars, close distance, obstructing the view of potential hazards.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

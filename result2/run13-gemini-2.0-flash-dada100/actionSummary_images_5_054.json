@@ -1,0 +1,16 @@
+{
+  "video_id": "images_5_054",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "15.1s",
+  "summary": "The self-driving car is at an intersection with traffic lights. From 0.0s to 4.0s, the car is stopped at a red light. At 4.0s, the light turns green, and the car begins to move forward. From 5.0s to 15.1s, the car proceeds through the intersection. At 10.0s, a woman in a pink jacket is seen crossing the street on the right side of the car. The car continues to move forward at a constant speed.",
+  "actions": "The vehicle is initially stopped at a red light. From 0.0s to 4.0s, the vehicle remains stationary, awaiting the traffic signal to change. At 4.0s, the traffic light turns green, prompting the vehicle to accelerate and proceed through the intersection. The vehicle maintains a consistent speed as it navigates the intersection, likely adhering to the speed limit and traffic conditions.",
+  "next_action": {
+    "speed_control": "accelerating",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "none",
+  "key_objects": [],
+  "characters": []
+}

@@ -1,0 +1,56 @@
+2025-07-31 18:45:28,970 - INFO - Run 19: Claude 4 Ghost Probing Detection with Few-shot Learning (100 Videos) 开始
+2025-07-31 18:45:28,971 - INFO - Claude 4 API配置成功
+2025-07-31 18:45:28,971 - INFO - Host: globalai.vip
+2025-07-31 18:45:28,971 - INFO - Model: claude-3-7-sonnet-20250219
+2025-07-31 18:45:28,971 - INFO - Temperature: 0, Enhanced with Few-shot Examples
+2025-07-31 18:45:28,988 - INFO - 加载ground truth标签: 201个视频
+2025-07-31 18:45:28,989 - INFO - 开始Run 19实验，处理 201 个视频
+2025-07-31 18:45:29,121 - INFO - 处理视频 1/100: images_1_001.avi
+2025-07-31 18:45:52,784 - INFO - 视频 images_1_001.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 18:45:52,784 - INFO - 处理视频 2/100: images_1_002.avi
+2025-07-31 18:46:18,192 - INFO - 视频 images_1_002.avi: GT=5s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:46:18,193 - INFO - 处理视频 3/100: images_1_003.avi
+2025-07-31 18:46:42,209 - INFO - 视频 images_1_003.avi: GT=2s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 18:46:42,210 - INFO - 处理视频 4/100: images_1_004.avi
+2025-07-31 18:47:04,602 - INFO - 视频 images_1_004.avi: GT=none, 检测=none, 评估=TN
+2025-07-31 18:47:04,603 - INFO - 处理视频 5/100: images_1_005.avi
+2025-07-31 18:47:52,632 - INFO - 视频 images_1_005.avi: GT=8s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:47:52,634 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_5videos_20250731_184528.json
+2025-07-31 18:47:52,634 - INFO - 处理视频 6/100: images_1_006.avi
+2025-07-31 18:48:16,528 - INFO - 视频 images_1_006.avi: GT=9s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 18:48:16,529 - INFO - 处理视频 7/100: images_1_007.avi
+2025-07-31 18:48:44,410 - INFO - 视频 images_1_007.avi: GT=6s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:48:44,410 - INFO - 处理视频 8/100: images_1_008.avi
+2025-07-31 18:49:18,904 - INFO - 视频 images_1_008.avi: GT=3s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:49:18,904 - INFO - 处理视频 9/100: images_1_009.avi
+2025-07-31 18:49:47,041 - INFO - 视频 images_1_009.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 18:49:47,042 - INFO - 处理视频 10/100: images_1_010.avi
+2025-07-31 18:50:14,441 - INFO - 视频 images_1_010.avi: GT=15s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 18:50:14,444 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_10videos_20250731_184528.json
+2025-07-31 18:50:14,444 - INFO - 处理视频 11/100: images_1_011.avi
+2025-07-31 18:50:36,969 - INFO - 视频 images_1_011.avi: GT=11s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:50:36,970 - INFO - 处理视频 12/100: images_1_012.avi
+2025-07-31 18:50:58,854 - INFO - 视频 images_1_012.avi: GT=11s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:50:58,854 - INFO - 处理视频 13/100: images_1_013.avi
+2025-07-31 18:51:22,675 - INFO - 视频 images_1_013.avi: GT=8s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 18:51:22,675 - INFO - 处理视频 14/100: images_1_014.avi
+2025-07-31 18:51:49,333 - INFO - 视频 images_1_014.avi: GT=5s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 18:51:49,333 - INFO - 处理视频 15/100: images_1_015.avi
+2025-07-31 18:52:20,177 - INFO - 视频 images_1_015.avi: GT=5s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:52:20,180 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_15videos_20250731_184528.json
+2025-07-31 18:52:20,181 - INFO - 处理视频 16/100: images_1_016.avi
+2025-07-31 18:52:43,722 - INFO - 视频 images_1_016.avi: GT=4s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 18:52:43,723 - INFO - 处理视频 17/100: images_1_017.avi
+2025-07-31 18:53:21,887 - INFO - 视频 images_1_017.avi: GT=17s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:53:21,887 - INFO - 处理视频 18/100: images_1_018.avi
+2025-07-31 18:53:44,585 - INFO - 视频 images_1_018.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 18:53:44,586 - INFO - 处理视频 19/100: images_1_019.avi
+2025-07-31 18:54:10,416 - INFO - 视频 images_1_019.avi: GT=none, 检测=ghost probing, 评估=FP
+2025-07-31 18:54:10,416 - INFO - 处理视频 20/100: images_1_020.avi
+2025-07-31 18:54:33,797 - INFO - 视频 images_1_020.avi: GT=12s: ghost probing, 检测=none, 评估=FN
+2025-07-31 18:54:33,804 - INFO - 中间结果已保存: /Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run19_claude4/run19_intermediate_20videos_20250731_184528.json
+2025-07-31 18:54:33,805 - INFO - 处理视频 21/100: images_1_021.avi
+2025-07-31 18:55:02,312 - INFO - 视频 images_1_021.avi: GT=3s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 18:55:02,313 - INFO - 处理视频 22/100: images_1_022.avi
+2025-07-31 18:55:23,443 - INFO - 视频 images_1_022.avi: GT=5s: ghost probing, 检测=ghost probing, 评估=TP
+2025-07-31 18:55:23,443 - INFO - 处理视频 23/100: images_1_023.avi

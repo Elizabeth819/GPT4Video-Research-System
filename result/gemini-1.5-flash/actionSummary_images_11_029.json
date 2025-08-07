@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_029",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Ahead, a white sedan is moving closer to the self-driving vehicle. The distance between the self-driving vehicle and the white sedan decreases significantly over the frames, indicating a potential collision risk.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while the white sedan ahead is slowing down, causing the distance between the two vehicles to decrease rapidly. The self-driving vehicle needs to decelerate to avoid a collision.",
+        "key_objects": "1) Front: A white sedan, approximately 10 meters away, slowing down and moving closer to the self-driving vehicle.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_029",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "11.7s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a white sedan is moving at a consistent speed. The road is clear with no visible obstacles or pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and following the white sedan ahead. There are no sudden changes in speed or direction observed.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, moving at a consistent speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

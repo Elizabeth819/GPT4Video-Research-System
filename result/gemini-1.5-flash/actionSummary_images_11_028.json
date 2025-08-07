@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_11_028",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on an urban road. The white sedan ahead is maintaining a consistent speed and lane. The road is clear with no immediate obstacles or pedestrians.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the white sedan ahead. The vehicles speed varies slightly between 65 km/h and 68 km/h, indicating steady driving.",
+        "key_objects": "1) Front: A white sedan, approximately 20 meters away, maintaining a consistent speed and lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_11_028",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.1s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist on the left",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a white sedan is slowing down and eventually stops. On the left side, a cyclist is approaching the intersection. The driver mentions the need to brake due to the white sedan stopping abruptly.",
+        "actions": "The self-driving vehicle is decelerating as the white sedan ahead slows down and stops. The vehicles speed decreases from 49 km/h to 0 km/h over the last 3 seconds, maintaining a safe distance from the white sedan.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, slowing down and stopping abruptly. 2) Left: A cyclist, approximately 20 meters away, approaching the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "stop",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,19 @@
+
+{
+  "video_id": "dada_1_007",
+  "segment_id": "segment_001",
+  "Start_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "End_Timestamp": "13.7s",
+  "scene_theme": "Calm",
+  "characters": "Driver of the self-vehicle",
+  "summary": "In this segment, the vehicle is driving on a tree-lined urban road. There are pedestrians walking on the sidewalks on both sides. A cyclist is seen on the right side of the road, moving forward. The vehicle ahead is maintaining a steady speed.",
+  "actions": "The self-vehicle is driving at a consistent speed, maintaining a safe distance from the vehicle ahead. The vehicle is staying in its lane and there are no sudden changes in speed or direction.",
+  "key_objects": "1) Right side: A cyclist, approximately 10 meters away, moving forward along the sidewalk. 2) Front: A vehicle, approximately 30 meters away, maintaining a steady speed.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "consistent speed driving",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

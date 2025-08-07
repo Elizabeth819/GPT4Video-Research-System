@@ -1,0 +1,128 @@
+[
+    {
+        "video_id": "dada_40_009",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Routine",
+        "characters": "Driver of a black sedan, driver of a white car",
+        "summary": "In this segment, the vehicle is driving on a city road. The black sedan ahead is maintaining a consistent speed, while the white car on the right lane is slightly ahead. The road is clear with moderate traffic.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and keeping a safe distance from the black sedan ahead. The vehicle is staying in its lane without any sudden changes in direction or speed.",
+        "key_objects": "1) Front: A black sedan, approximately 10 meters away, maintaining a consistent speed. 2) Right: A white car, approximately 15 meters away, slightly ahead in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_009",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "7.3s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a black sedan",
+        "summary": "In this segment, the vehicle is driving on a wet urban road. A black sedan is ahead, maintaining a consistent distance. A yellow car is visible in the adjacent lane on the right, moving at a similar speed.",
+        "actions": "The self-driving vehicle is maintaining a steady speed and distance from the black sedan ahead. The vehicle is staying in its lane and not making any sudden movements.",
+        "key_objects": "1) Front: A black sedan, approximately 10 meters away, maintaining a consistent speed and distance. 2) Right: A yellow car, approximately 15 meters away, moving at a similar speed in the adjacent lane.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_54_013",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a yellow car, pedestrians on the right side",
+        "summary": "In this segment, the vehicle is driving under an overpass. Ahead, a yellow car is stopped, and pedestrians are visible on the right side of the road. The traffic is slow-moving, and the self-driving vehicle is maintaining a close distance to the yellow car ahead.",
+        "actions": "The self-driving vehicle is maintaining a slow and steady speed, keeping a safe distance from the yellow car ahead. The vehicle is also staying in its lane, ensuring it does not move too close to the pedestrians on the right side.",
+        "key_objects": "1) Front: A yellow car, approximately 2 meters away, stopped and blocking the lane. 2) Right side: Multiple pedestrians, approximately 5 meters away, walking along the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_54_013",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.3s",
+        "scene_theme": "Urban Traffic",
+        "characters": "Driver of a yellow car, driver of a red bus, driver of a white car",
+        "summary": "In this segment, the vehicle is driving on an urban road under an overpass. The yellow car ahead is maintaining a steady speed, while the red bus on the left side is moving forward. The white car on the right side is also moving forward. The traffic is moderate, and there are no sudden movements or dangerous behaviors observed.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, following the yellow car ahead. The vehicle is keeping a safe distance from the yellow car and the red bus on the left side. The driver is cautious and maintaining lane discipline.",
+        "key_objects": "1) Front: A yellow car, approximately 5 meters away, maintaining a steady speed. 2) Left side: A red bus, approximately 10 meters away, moving forward. 3) Right side: A white car, approximately 7 meters away, moving forward.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_54_013",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a yellow car, bus driver, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. Ahead, a yellow car is moving slowly, and a bus is stopped on the right side. Several motorcycles are present, with one motorcyclist moving from the right side towards the front of the yellow car.",
+        "actions": "The self-driving vehicle is maintaining a slow speed due to the yellow car ahead and the bus on the right side. The vehicle is also cautious of the motorcyclist moving from the right side towards the front of the yellow car.",
+        "key_objects": "1) Front: A yellow car, approximately 5 meters away, moving slowly. 2) Right: A bus, approximately 10 meters away, stopped. 3) Right: A motorcyclist, approximately 3 meters away, moving towards the front of the yellow car.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_54_013",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "18.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a yellow taxi, red bus, multiple motorcyclists",
+        "summary": "In this segment, the vehicle is stopped at an intersection. A yellow taxi is directly in front of the vehicle, and a red bus is ahead of the taxi. Multiple motorcyclists are seen moving from left to right across the intersection. The traffic is dense, and vehicles are maneuvering closely.",
+        "actions": "The self-driving vehicle is stopped at the intersection, maintaining a safe distance from the yellow taxi ahead. The vehicle remains stationary to avoid potential collisions with the motorcyclists crossing the intersection.",
+        "key_objects": "1) Front: A yellow taxi, approximately 2 meters away, stationary. 2) Front: A red bus, approximately 5 meters away, stationary. 3) Left: Multiple motorcyclists, approximately 3-5 meters away, moving from left to right across the intersection.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "wait",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_54_013",
+        "segment_id": "segment_004",
+        "Start_Timestamp": "20.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "20.2s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a yellow taxi, driver of a white sedan, bus driver",
+        "summary": "In this segment, the vehicle is driving on a city road. Ahead, a yellow taxi is stopped, and a white sedan is moving from the left side towards the center lane. A bus is also visible on the right side, potentially obstructing the view.",
+        "actions": "The self-driving vehicle is maintaining a steady speed, keeping a safe distance from the yellow taxi ahead. The white sedan on the left is moving towards the center lane, which may require the self-driving vehicle to adjust its speed or lane position.",
+        "key_objects": "1) Front: A yellow taxi, approximately 5 meters away, stopped and blocking the lane. 2) Left side: A white sedan, approximately 10 meters away, moving towards the center lane. 3) Right side: A bus, approximately 15 meters away, potentially obstructing the view.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

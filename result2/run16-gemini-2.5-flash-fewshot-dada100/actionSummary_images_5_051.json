@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_051",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A male rider, approximately 30-40 years old, wearing a light-colored jacket and dark pants, riding a black and white scooter.",
+  "summary": "In this segment, the self-driving vehicle is traveling on a wet, multi-lane urban road under overcast conditions. Initially, a red sedan is visible in the distance moving away, and a large truck is seen on the far left near an intersection. A male rider on a black and white scooter approaches from the opposite direction on the left side of the road. The scooter then maneuvers from the left side of the road into the self-driving vehicle's lane, coming to a stop directly in front of the vehicle, requiring the vehicle to halt its movement.",
+  "actions": "The self-driving vehicle is initially moving forward at a moderate speed. As a male rider on a scooter approaches from the opposite direction and then maneuvers into the vehicle's direct path, the vehicle initiates a controlled deceleration. The vehicle then comes to a complete stop to avoid collision and yield to the scooter, which is now stationary directly in front of it. This action is taken to ensure the safety of the scooter rider and prevent an accident, as the scooter has become an immediate obstruction in the vehicle's lane.",
+  "key_objects": "1) Center-right: A male rider, approximately 30-40 years old, wearing a light-colored jacket and dark pants, riding a black and white scooter. The scooter initially approaches from the left side of the road, then moves into the vehicle's lane and stops directly in front of the vehicle, approximately 2-3 meters away, causing the vehicle to stop. 2) Far left: A large truck, approximately 20-30 meters away, visible near an intersection, moving slowly or stopped. 3) Right side: A red sedan, approximately 30-40 meters away, moving away from the camera in the same direction.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

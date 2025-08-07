@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_2_002",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Group of people on the left side of the road",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, there is a white van parked on the right side of the road. As the vehicle progresses, a group of people appears on the left side of the road, with one individual moving towards the center of the road.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the group of people on the left side of the road. The vehicles speed appears to be consistent, with no sudden changes in direction or speed.",
+        "key_objects": "1) Right side: A white van, approximately 10 meters away, parked on the roadside. 2) Left side: A group of people, approximately 5 meters away, standing and moving towards the center of the road.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_2_002",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "13.4s",
+        "scene_theme": "Rural",
+        "characters": "Several individuals working on the roadside",
+        "summary": "In this segment, the vehicle is driving on a rural road. Several individuals are working on the roadside, with one person bending down near the vehicles path. The vehicle is approaching slowly, likely due to the presence of people and potential obstacles.",
+        "actions": "The self-driving vehicle is moving at a slow speed, likely to ensure safety due to the presence of individuals working on the roadside. The vehicle maintains a cautious approach to avoid any sudden movements or collisions.",
+        "key_objects": "1) Front: A person bending down near the vehicles path, approximately 2 meters away, potentially obstructing the vehicles movement. 2) Left side: Several individuals standing and working, approximately 5 meters away, posing no immediate threat but requiring cautious driving.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "slow steady driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

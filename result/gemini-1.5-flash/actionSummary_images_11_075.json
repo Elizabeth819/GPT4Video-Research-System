@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_11_075",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "7.7s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through an urban area with buildings and parked cars on both sides. The vehicle is moving forward steadily without any sudden changes in speed or direction.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while navigating through the urban area. The vehicle is keeping a safe distance from parked cars on both sides and is moving straight ahead without any abrupt maneuvers.",
+        "key_objects": "1) Left side: A parked car, approximately 5 meters away, stationary and posing no immediate threat. 2) Right side: A parked car, approximately 3 meters away, stationary and posing no immediate threat.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

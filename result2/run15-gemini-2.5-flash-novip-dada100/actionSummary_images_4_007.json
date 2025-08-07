@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A male traffic police officer in a white helmet and reflective vest is standing in the middle of the intersection. Several individuals are seen riding motorcycles and bicycles on the left side of the road.",
+  "summary": "The video segment shows a vehicle approaching and navigating a busy urban intersection under clear weather conditions. A traffic police officer is present in the middle of the intersection, directing traffic. The vehicle initially slows down and yields to multiple vehicles (sedans, SUVs, taxis) and a motorcycle crossing its path from left to right. After the cross-traffic clears, the vehicle proceeds to make a right turn, moving cautiously through the intersection.",
+  "actions": "The vehicle approaches an intersection and decelerates significantly, coming to a near stop or very slow crawl. This action is taken to observe the traffic flow and the directions given by the traffic police officer positioned in the intersection. The driver then maintains a slow speed and yields to several vehicles, including a dark blue sedan, a light blue taxi, a white SUV, and a silver sedan, as they cross the intersection from the left side of the vehicle's path. This yielding behavior is a safety measure to avoid collision with crossing traffic and to comply with traffic directions. Once the immediate cross-traffic clears, the vehicle begins to accelerate slowly and initiates a right turn. This turn is executed cautiously, indicating the driver is proceeding only when the path is clear and safe to do so, likely following the traffic officer's signals or the general flow of traffic.",
+  "key_objects": "1) Position: Right side of the vehicle's path, in the middle of the intersection: A male traffic police officer. Behavior impact: The officer is directing traffic, influencing the vehicle's decision to slow down, yield, and proceed.\n2) Position: Left side of the vehicle's path, crossing the intersection: Multiple vehicles (dark blue sedan, light blue taxi, white SUV, silver sedan). Behavior impact: These vehicles are crossing the intersection, causing the driver to yield and wait for them to clear the path before proceeding.\n3) Position: Left side of the vehicle's path, crossing the intersection: A person on a motorcycle. Behavior impact: This motorcycle crosses the intersection, requiring the driver to maintain caution during the turn.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

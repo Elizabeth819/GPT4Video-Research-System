@@ -1,0 +1,176 @@
+[
+  {
+    "id": 0,
+    "offset": "PT0S",
+    "duration": "PT2.125S",
+    "properties": {
+      "sensitiveActions": [
+        {
+          "risk Level": "",
+          "timestamp": "",
+          "description": ""
+        }
+      ],        
+      "description": "The video starts with a Microsoft Teams screen displaying the text 'Video recording for GPT-4O detection' along with the date '2024-07-11 05:39 UTC'. The recording is organized by Jean Chen.",
+      "keyFrames": [
+        "PT0S",
+        "PT1S",
+        "PT2S"
+      ],
+      "detectedObjects": []
+    }
+  },
+  {
+    "id": 1,
+    "offset": "PT2.125S",
+    "duration": "PT1.125S",
+    "properties": {
+      "sensitiveActions": [
+        {
+          "risk Level": "",
+          "timestamp": "",
+          "description": ""
+        }
+      ],           
+      "description": "The screen shows two participants in the Microsoft Teams meeting. One participant has the name 'H.C. CHEN' displayed in a circular icon, and the other participant has the name 'Jean Chen' displayed in a circular icon.",
+      "keyFrames": [
+        "PT2.125S",
+        "PT3.125S"
+      ],
+      "detectedObjects": []
+    }
+  },
+  {
+    "id": 2,
+    "offset": "PT3.25S",
+    "duration": "PT14M15.062S",
+    "properties": {
+      "sensitiveActions": [
+        {
+          "risk Level": "",
+          "timestamp": "",
+          "description": ""
+        }
+      ],           
+      "description": "The video segment shows a Microsoft Teams meeting where two participants, 'H.C. CHEN' and 'Jean Chen', are discussing various topics. The screen displays multiple PowerPoint presentations with titles such as '3DIC RAS DataThief', 'N16 Data Thief', 'TSMC Confidential Information', and 'TopSecret RAS DataThief'. The participants discuss the content of these presentations, which include confidential information from TSMC. The screen also shows a file directory with several PowerPoint files related to the 'RAS DataThief' project, dated 2024-05-31 and 2024-06-01. The conversation includes discussions about the security and confidentiality of the information being shared.",
+      "keyFrames": [
+        "PT43.938S",
+        "PT1M24.625S",
+        "PT2M5.312S",
+        "PT2M46S",
+        "PT3M26.688S",
+        "PT4M7.375S",
+        "PT4M48.062S",
+        "PT5M28.75S",
+        "PT6M9.438S",
+        "PT6M50.125S",
+        "PT7M30.812S",
+        "PT8M11.5S",
+        "PT8M52.188S",
+        "PT9M32.875S",
+        "PT10M13.562S",
+        "PT10M54.25S",
+        "PT11M34.938S",
+        "PT12M15.625S",
+        "PT12M56.312S",
+        "PT13M37S"
+      ],
+      "detectedObjects": []
+    }
+  },
+  {
+    "id": 3,
+    "offset": "PT14M18.312S",
+    "duration": "PT27.563S",
+    "properties": {
+      "sensitiveActions": [
+        {
+          "risk Level": "High",
+          "timestamp": "00:14:18.312 - 00:14:45.875",
+          "description": "Displaying multiple PowerPoint presentations with TSMC confidential information."
+        }
+      ],
+      "description": "The video segment shows a Microsoft Teams meeting where two participants, 'H.C. CHEN' and 'Jean Chen', are discussing various topics. The screen displays multiple PowerPoint presentations with titles such as 'TSMC CoWoS Data 6', 'TSMC CoWoS Data 7', 'TSMC CoWoS Data 8', 'TSMC CoWoS Data 9', 'TSMC CoWoS Data 10', 'TSMC CoWoS Data 11', 'A16 Data Thief', 'TSMC Top Secret Data 8', 'TSMC Top Secret Data 4', 'TSMC Top Secret Data 2', and 'TSMC Top Secret Data 10'. The participants discuss the content of these presentations, which include confidential information from TSMC. The screen also shows a file directory with several PowerPoint files related to the 'RAS DataThief' project, dated 2024-05-31 and 2024-06-01. The conversation includes discussions about the security and confidentiality of the information being shared.",
+      "keyFrames": [
+        "PT14M19.625S",
+        "PT14M20.938S",
+        "PT14M22.25S",
+        "PT14M23.562S",
+        "PT14M24.875S",
+        "PT14M26.188S",
+        "PT14M27.5S",
+        "PT14M28.812S",
+        "PT14M30.125S",
+        "PT14M31.438S",
+        "PT14M32.75S",
+        "PT14M34.062S",
+        "PT14M35.375S",
+        "PT14M36.688S",
+        "PT14M38S",
+        "PT14M39.312S",
+        "PT14M40.625S",
+        "PT14M41.938S",
+        "PT14M43.25S",
+        "PT14M44.562S"
+      ],
+      "detectedObjects": []
+    }
+  },
+  {
+    "id": 4,
+    "offset": "PT14M45.875S",
+    "duration": "PT1M57.937S",
+    "properties": {
+      "sensitiveActions": [
+        {
+          "description": "Displaying a PowerPoint presentation with TSMC confidential information.",
+          "risk Level": "High",
+          "timestamp": "00:14:45.875 - 00:16:43.812"
+        }
+      ],
+      "description": "The video segment shows a Microsoft Teams meeting where two participants, 'H.C. CHEN' and 'Jean Chen', are discussing various topics. The screen displays a PowerPoint presentation titled 'A16 RAS DataThief_20240531.pptx' with the text 'TSMC Confidential Information'. The participants discuss the content of the presentation, which includes confidential information from TSMC. The conversation includes discussions about the security and confidentiality of the information being shared. The participants also talk about the process of generating and analyzing the data, and express gratitude for the efforts made.",
+      "keyFrames": [
+        "PT14M51.438S",
+        "PT14M57S",
+        "PT15M2.562S",
+        "PT15M8.125S",
+        "PT15M13.688S",
+        "PT15M19.25S",
+        "PT15M24.812S",
+        "PT15M30.375S",
+        "PT15M35.938S",
+        "PT15M41.5S",
+        "PT15M47.062S",
+        "PT15M52.625S",
+        "PT15M58.188S",
+        "PT16M3.75S",
+        "PT16M9.312S",
+        "PT16M14.875S",
+        "PT16M20.438S",
+        "PT16M26S",
+        "PT16M31.562S",
+        "PT16M37.125S"
+      ],
+      "detectedObjects": []
+    }
+  },
+  {
+    "id": 5,
+    "offset": "PT16M43.812S",
+    "duration": "PT0.924S",
+    "properties": {
+      "sensitiveActions": [
+        {
+          "risk Level": "",
+          "timestamp": "",
+          "description": ""
+        }
+      ],           
+      "description": "The screen shows two participants in the Microsoft Teams meeting. One participant has the name 'H.C. CHEN' displayed in a circular icon, and the other participant has the name 'Jean Chen' displayed in a circular icon.",
+      "keyFrames": [
+        "PT16M43.812S"
+      ],
+      "detectedObjects": []
+    }
+  }
+]

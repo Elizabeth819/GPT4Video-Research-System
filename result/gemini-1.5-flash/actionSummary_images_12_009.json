@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_12_009",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving through an urban tunnel. The white sedan ahead is moving steadily and eventually exits the tunnel. The self-driving vehicle follows the sedan closely, maintaining a safe distance.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while following the white sedan through the tunnel. The vehicles speed remains steady to ensure safe passage through the tunnel and to avoid sudden braking.",
+        "key_objects": "1) Front: A white sedan, approximately 5 meters away, moving steadily and exiting the tunnel. 2) Left side: A white sedan, approximately 2 meters away, overtaking the self-driving vehicle.",
+        "key_actions": "left-side overtaken",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

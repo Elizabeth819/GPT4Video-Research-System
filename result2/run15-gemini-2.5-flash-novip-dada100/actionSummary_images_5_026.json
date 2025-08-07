@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_026",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.8s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "On the left side of the road, there are several parked bicycles. On the right side of the road, a male pedestrian, appearing to be an adult, wearing a dark jacket with white patterns on the sleeves and dark pants, emerges from behind a wall. Shortly after, a female pedestrian, also an adult, wearing a red jacket and dark pants, emerges from the same area and falls to the ground directly in front of the vehicle.",
+  "summary": "The video begins with the autonomous vehicle (AV) driving forward on a multi-lane urban road under clear weather conditions. Initially, a silver sedan and a white van are visible ahead, moving in the same direction, indicating a routine traffic flow. As the AV proceeds, it approaches an entrance on the right side of the road, which is significantly obscured by a tall wall or gate structure and a parked white SUV. Suddenly, a male pedestrian emerges from behind this visual obstruction, walking directly into the vehicle's path. Immediately following the male pedestrian, a female pedestrian also emerges from the same hidden area, from behind both the wall and the male pedestrian, and unexpectedly falls to the ground directly in front of the AV. The vehicle appears to have initiated emergency braking to avoid a collision with the pedestrians. The male pedestrian remains standing nearby, observing the fallen female pedestrian, who then begins to recover and get up from the road.",
+  "actions": "The vehicle initially maintains a moderate speed, driving straight in its current lane, consistent with the flow of traffic as observed by the silver sedan and white van ahead. As the vehicle approaches an entrance on the right side of the road, its path becomes critical due to a significant visual obstruction (a wall/gate). Upon the sudden emergence of a male pedestrian from behind this wall, the vehicle initiates rapid deceleration. This immediate braking response is a direct safety measure to prevent a collision with the unexpected pedestrian. The deceleration is further intensified when a female pedestrian immediately follows the male, also emerging from behind the obstruction and falling directly into the vehicle's path. The vehicle comes to a near or complete stop to ensure the safety of the fallen pedestrian and to prevent any impact, prioritizing pedestrian safety above all else.",
+  "key_objects": "1) Right side: A tall wall/gate structure, located on the right side of the road near an entrance, serving as a critical physical obstruction that completely blocks the driver's view of approaching pedestrians until they emerge. 2) Right side: A male pedestrian, who suddenly emerges from behind the aforementioned wall/gate on the right side, walking into the vehicle's path with minimal warning. 3) Right side: A female pedestrian, who suddenly emerges from behind the wall/gate and the male pedestrian on the right side, immediately after the male, and falls directly into the vehicle's path, creating an immediate and critical danger requiring an emergency response.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

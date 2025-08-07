@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_2_003",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban intersection",
+    "characters": "Driver of a white sedan, a man on a motorcycle with a cart, a pedestrian crossing the road, other vehicles in traffic.",
+    "summary": "The video shows a white sedan approaching an intersection.  A man on a motorcycle with a cart is visible in the middle of the road, moving slowly. A pedestrian, appearing to be a middle-aged man in dark clothing, crosses the road from right to left in front of the approaching vehicles.  Other vehicles are present in the intersection, but their movements are not immediately critical to the self-driving vehicle's path. The self-driving vehicle maintains a steady speed, navigating the intersection with caution.",
+    "actions": "The self-driving vehicle approaches the intersection at a moderate speed, maintaining a safe following distance from the vehicle ahead. The vehicle slows slightly as it approaches the pedestrian crossing and the motorcycle with a cart, then continues through the intersection after ensuring a safe passage.",
+    "key_objects": "1) Front: A man on a motorcycle with a cart, approximately 15 meters away at the start of the sequence, moving slowly across the road. 2) Right: A pedestrian, a middle-aged man in dark clothing, approximately 10 meters away at the start of the sequence, crossing the road from right to left. ",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_2_003",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.9s",
+    "scene_theme": "Near miss",
+    "sentiment": "Negative",
+    "characters": "A middle-aged man in dark clothing crossing the road.",
+    "summary": "The video shows a near-miss incident. A middle-aged man, wearing a dark-colored jacket, crosses the road in front of the vehicle. He appears from behind a parked black car, partially obstructing the view. The man walks at a moderate pace, and the vehicle is forced to brake to avoid a collision. The distance between the man and the vehicle is reduced significantly during the sequence of frames, indicating a potential hazard.",
+    "actions": "The self-driving vehicle maintains a steady speed initially. Upon observing the pedestrian, the vehicle immediately begins to decelerate to avoid a collision. The deceleration is significant, suggesting a reactive braking maneuver.",
+    "key_objects": "Front: Middle-aged man in dark clothing, approximately 2 meters away at closest point, crossing the road from behind a parked black car, causing the vehicle to brake.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

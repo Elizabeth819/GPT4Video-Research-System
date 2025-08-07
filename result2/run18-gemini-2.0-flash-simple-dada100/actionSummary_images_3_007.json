@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a road with moderate traffic. There are several pedestrians and cyclists visible. A young boy in a blue and red outfit falls off his bike in the middle of the road. Another child and an adult are also on bikes nearby.",
+  "summary": "The vehicle is driving on a road with moderate traffic. Initially, the vehicle maintains its speed. However, a young boy on a bicycle falls in front of the car, causing the driver to brake suddenly to avoid a collision. The driver successfully stops the car before hitting the boy. Another child and an adult are also on bikes nearby.",
+  "actions": "The vehicle initially maintains its speed while driving straight. Upon observing a child falling off a bicycle directly in its path, the vehicle initiates rapid deceleration to avoid a collision. The driver successfully stops the car before hitting the child.",
+  "key_objects": "1) Center: A young boy on a bicycle, approximately 5 meters away, falls directly into the vehicle's path, creating an immediate collision risk. 2) Right: Another child on a bicycle, approximately 8 meters away, is approaching the crosswalk. 3) Right: An adult on a bicycle, approximately 10 meters away, is approaching the crosswalk.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_40_063",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling on a road with moderate traffic. A person on a bicycle appears from the right side and moves towards the center of the road, potentially causing a dangerous situation. The vehicle ahead is maintaining a steady speed, while the self-driving vehicle is approaching the cyclist.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the cyclist. The driver is likely preparing to decelerate to avoid a collision with the cyclist who is moving towards the center of the road.",
+        "key_objects": "1) Right side: A person on a bicycle, approximately 10 meters away, moving towards the center of the road, potentially causing a dangerous situation. 2) Front: A vehicle ahead, approximately 30 meters away, maintaining a steady speed.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

@@ -1,0 +1,54 @@
+# 清理后的LLaVA鬼探头检测作业
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# Job metadata
+display_name: clean-llava-ghost-probing
+description: "Clean LLaVA Ghost Probing Detection on 100 DADA Videos"
+
+# Compute configuration
+compute: azureml:llava-a100-low-priority
+environment: azureml:AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu:10
+
+# Resource requirements
+resources:
+  instance_count: 1
+
+# Code source
+code: .
+
+# Fixed command with proper Python script
+command: >
+  echo "🚀 开始LLaVA鬼探头检测作业" &&
+  python --version &&
+  pip list | grep -E "(torch|numpy)" &&
+  echo "📁 检查输入数据路径..." &&
+  echo "当前工作目录:" &&
+  pwd &&
+  echo "查找所有inputs目录:" &&
+  find . -name "*video*" -type d 2>/dev/null &&
+  echo "检查inputs目录结构:" &&
+  ls -la ./inputs/ || echo "inputs目录不存在" &&
+  echo "检查video_data目录:" &&
+  ls -la ./inputs/video_data/ 2>/dev/null | head -10 || echo "video_data目录不存在，尝试其他路径" &&
+  echo "搜索.avi文件:" &&
+  find ./inputs -name "*.avi" 2>/dev/null | head -5 || echo "未找到.avi文件" &&
+  echo "📊 运行检测脚本..." &&
+  python detect_ghost.py &&
+  echo "✅ LLaVA鬼探头检测作业完成"
+
+# Input data  
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml:dada-100-videos-fixed:1
+    mode: ro_mount
+
+# Output data
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+# Experiment settings
+experiment_name: clean-llava-experiment

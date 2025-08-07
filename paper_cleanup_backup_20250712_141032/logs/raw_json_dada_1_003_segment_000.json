@@ -1,0 +1,19 @@
+
+{
+  "video_id": "dada_1_003",
+  "segment_id": "segment_000",
+  "Start_Timestamp": "0.0s",
+  "sentiment": "Negative",
+  "End_Timestamp": "9.0s",
+  "scene_theme": "Dramatic",
+  "characters": "Woman in pink jacket",
+  "summary": "In this segment, the vehicle is driving on a city road at night. A woman in a pink jacket suddenly appears from the right side of the road, emerging from behind a parked white car. She moves quickly into the vehicles path, creating a potential collision situation.",
+  "actions": "The self-driving vehicle is likely to decelerate rapidly to avoid a collision with the woman who suddenly appeared from the right side of the road. The vehicles speed decreases significantly over the last few seconds as the woman moves into its path.",
+  "key_objects": "1) Right side: A woman in a pink jacket, approximately 5 meters away, emerging from behind a parked white car and moving quickly into the vehicles path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

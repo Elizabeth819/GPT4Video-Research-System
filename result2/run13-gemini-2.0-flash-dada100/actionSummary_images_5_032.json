@@ -1,0 +1,22 @@
+{
+  "video_id": "images_5_032",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "12.0s",
+  "summary": "The self-driving car is traveling on a road with buildings on the right and a long structure on the left. Several motorcycles are parked on the right side of the road. A man in a dark jacket is walking on the right sidewalk. A white car is parked on the right side of the road. A motorcyclist suddenly emerges from a perpendicular road on the right side, leading to a collision. The motorcyclist is wearing a yellow jacket and black pants. After the collision, the motorcyclist and the motorcycle are on the ground. Two people are standing on the left side of the road, and one of them is wearing a red hat.",
+  "characters": [
+    "Man in a dark jacket walking on the right sidewalk.",
+    "Motorcyclist in a yellow jacket and black pants emerging from a perpendicular road on the right.",
+    "Two people standing on the left side of the road, one wearing a red hat."
+  ],
+  "key_objects": [
+    "Right side: Motorcyclist in yellow jacket and black pants, approximately 10 meters away, suddenly emerges from a perpendicular road, leading to a collision."
+  ],
+  "key_actions": "ghost probing",
+  "actions": "The vehicle is driving straight on a road with buildings on the right and a long structure on the left. The vehicle maintains its speed until a motorcyclist suddenly appears from a perpendicular road on the right, at which point a collision occurs. The vehicle was likely maintaining its speed because the road appeared clear ahead, but the sudden appearance of the motorcyclist from the perpendicular road made the collision unavoidable.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  }
+}

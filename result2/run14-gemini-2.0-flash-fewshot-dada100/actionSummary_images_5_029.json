@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_029",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A male wearing a blue jacket is lying on the road. There are other vehicles on the road, including a green taxi and a white van.",
+  "summary": "The vehicle is approaching an intersection. Initially, the traffic light is not visible, but it becomes visible later in the sequence. A male wearing a blue jacket is lying on the road in the intersection. The traffic light turns red, and the vehicle begins to slow down. The male lying on the road is a significant hazard.",
+  "actions": "The vehicle is initially driving at a steady speed, following the car in front. As the vehicle approaches the intersection and the traffic light turns red, the driver begins to decelerate to prepare for a stop. The presence of a person lying in the road necessitates a cautious approach and potential emergency stop.",
+  "key_objects": "1) Front: A male wearing a blue jacket, approximately 5 meters away, lying on the road in the intersection, posing an immediate collision risk. 2) Front: A red traffic light, approximately 15 meters away, indicating the need to stop.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

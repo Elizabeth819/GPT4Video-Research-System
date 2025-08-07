@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_049",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "An adult cyclist wearing dark clothing on a bicycle, and an adult pedestrian walking in the middle of the road further ahead.",
+  "summary": "The vehicle is navigating a narrow urban road, characterized by parked cars and dense trees lining both sides, significantly limiting visibility. As the vehicle proceeds, a critical incident occurs around the 4.1-second mark: a cyclist suddenly emerges from behind a parked black SUV on the right side of the road. This cyclist darts directly into the vehicle's path, having been completely obscured by the SUV until their sudden appearance. This constitutes a classic 'ghost probing' scenario due to the minimal reaction time and the visual obstruction. Further down the road, another pedestrian is observed walking in the middle of the lane, adding to the complex road conditions.",
+  "actions": "The self-driving vehicle is initially maintaining a cautious speed, appropriate for the narrow road and the presence of parked vehicles that could obscure views. Upon the sudden and unexpected emergence of the cyclist from behind the parked black SUV on the right side of the road (around 4.1 seconds), the vehicle immediately initiates rapid deceleration. This swift braking action is taken to mitigate the immediate collision risk posed by the cyclist who suddenly entered the vehicle's path. A slight steering adjustment to the left is also likely performed to create additional clearance and avoid impact with the cyclist.",
+  "key_objects": "1) Right side: A black SUV, approximately 5-7 meters away at the point of the incident, parked and serving as a significant physical obstruction that completely hid the approaching cyclist. 2) Right side: A cyclist, approximately 3-5 meters away at the point of emergence, suddenly darting out from behind the parked black SUV and entering the vehicle's direct path with extremely limited warning. 3) Center/Ahead: A pedestrian, approximately 15-20 meters away, walking in the middle of the road, representing a future potential obstacle.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

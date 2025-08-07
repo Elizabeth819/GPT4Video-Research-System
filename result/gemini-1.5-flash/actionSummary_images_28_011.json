@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_28_011",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black SUV, driver of a blue tricycle, driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a wet road at night. A black SUV on the left side is moving forward, while a blue tricycle on the right side is attempting to merge into the lane. A white sedan is parked on the right side of the road. The tricycles sudden movement into the lane poses a potential danger.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while observing the movements of the surrounding vehicles. The black SUV on the left is moving forward, and the blue tricycle on the right is attempting to merge into the lane, causing the self-driving vehicle to be cautious and ready to decelerate if necessary.",
+        "key_objects": "1) Left side: A black SUV, approximately 5 meters away, moving forward. 2) Right side: A blue tricycle, approximately 3 meters away, attempting to merge into the lane. 3) Right side: A white sedan, approximately 10 meters away, parked on the roadside.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

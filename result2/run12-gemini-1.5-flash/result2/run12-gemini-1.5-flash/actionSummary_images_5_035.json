@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_5_035",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban driving",
+    "characters": "Driver of a yellow taxi, other drivers, pedestrians, a motorcyclist",
+    "summary": "The video shows a yellow taxi driving on a city road under bright sunlight.  The road is relatively busy with several cars and pedestrians.  Traffic appears moderate.  A large bus is directly in front of the taxi, obscuring the view somewhat.  Pedestrians are visible on both sides of the road, and one pedestrian crosses the road in front of the taxi. A motorcyclist is also visible on the right side of the road.  No sudden or erratic movements are observed from other vehicles or pedestrians that would immediately endanger the taxi. The sun's glare is significant, potentially impacting visibility.",
+    "actions": "The self-driving vehicle maintains a consistent speed, following the bus in front. The driver maintains a safe following distance from the vehicle ahead.  The vehicle navigates the moderate traffic flow smoothly, adjusting speed slightly to maintain a safe distance from other vehicles and pedestrians.",
+    "key_objects": "1) Front: A large bus, approximately 15 meters away, moving at a consistent speed. 2) Right: A motorcyclist, approximately 10 meters away, moving alongside the road. 3) Front-Right: A pedestrian, approximately 5 meters away, crossing the road.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_035",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.0s",
+    "scene_theme": "Urban Street",
+    "sentiment": "Neutral",
+    "characters": "A person riding an electric bicycle, several cars, pedestrians.",
+    "summary": "The video shows a street scene with the self-driving vehicle approaching an intersection.  A person on an electric bicycle is visible in the middle of the road, moving from left to right. Several cars are parked on the right side of the road. Pedestrians are visible on the sidewalks. The electric bicycle rider appears to be crossing the road, but the distance and speed make it difficult to assess immediate danger. The self-driving vehicle maintains a steady speed.",
+    "actions": "The self-driving vehicle maintains a consistent speed and direction, approaching the intersection. There is no indication of braking or lane changes. The vehicle's speed appears appropriate for the urban environment, considering the presence of other vehicles and pedestrians.",
+    "key_objects": "1) Front: Person on an electric bicycle, approximately 15 meters away at the start of the sequence, moving across the road from left to right, potentially crossing the vehicle's path. 2) Right: Several cars parked, approximately 5-10 meters away, not posing an immediate threat.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "slow steady driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

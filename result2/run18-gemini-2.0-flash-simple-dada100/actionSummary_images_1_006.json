@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_006",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car on a city street. There are pedestrians, motorcyclists, cars, and buses visible. The pedestrians include adults and children. The motorcyclists are wearing helmets. The cars are various makes and models. The buses are large and blue.",
+  "summary": "The vehicle is driving on a city street with heavy traffic. Initially, the vehicle is moving slowly behind other vehicles. As the video progresses, the vehicle continues to move forward in the same lane. At approximately 9 seconds, a child suddenly appears from behind a parked car on the left side of the road, creating a dangerous situation. The driver likely has to brake to avoid hitting the child.",
+  "actions": "The vehicle starts from a stationary position and begins to move forward slowly, following the flow of traffic. The driver maintains a consistent speed, adjusting slightly to the movement of the vehicles ahead. The driver is proceeding cautiously due to the presence of parked cars and potential pedestrian crossings. The vehicle decelerates rapidly to avoid hitting a child crossing the road.",
+  "key_objects": "1) Left: A child suddenly appears from behind a parked car, approximately 5 meters away, creating an immediate collision risk. 2) Left: Parked cars line the left side of the street, obstructing the driver's view of pedestrians approaching the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

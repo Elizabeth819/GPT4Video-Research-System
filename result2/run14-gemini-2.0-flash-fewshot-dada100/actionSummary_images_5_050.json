@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_050",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "From 0.0s to 3.0s, the road appears clear. At 3.1s, a motorcycle with two occupants (likely a male driver and a female passenger) is seen emerging from the left side of the road. The driver is wearing dark clothing, and the passenger is wearing a pink jacket and carrying a pink backpack. At 4.0s, the motorcycle is in the middle of the road. At 5.0s, the motorcycle crashes, and the two occupants fall onto the road.",
+  "summary": "The vehicle is traveling on a straight road. Initially, the road appears clear. However, starting at 3.1s, a motorcycle with two occupants suddenly emerges from the left side of the road, crossing into the vehicle's path. The motorcycle appears to be turning onto the road from a side street or driveway obscured by trees and bushes, creating a ghost probing situation. At 5.0s, the motorcycle crashes, and the two occupants fall onto the road, creating a dangerous situation.",
+  "actions": "The vehicle is initially traveling at a constant speed on a straight road. As the motorcycle emerges from the left, the vehicle likely initiates emergency braking to avoid a collision. The vehicle's speed is likely decreasing rapidly after the motorcycle appears.",
+  "key_objects": "1) Left side: A motorcycle with two occupants (male driver in dark clothing, female passenger in pink jacket), approximately 5 meters away, suddenly emerging from behind trees and bushes and crossing into the vehicle's path, leading to a crash. 2) Left side: Trees and bushes, approximately 10 meters away, creating a visual obstruction that hides the motorcycle until it emerges onto the road.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

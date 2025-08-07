@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A child on a bicycle, a pedestrian, and several vehicles.",
+  "summary": "The video sequence shows a child on a bicycle suddenly emerging from the right side of the road, crossing in front of the observer vehicle. The child appears from behind a parked vehicle, creating a sudden and immediate collision risk. The child falls off the bicycle in the middle of the road, further increasing the danger. The observer vehicle must take immediate action to avoid hitting the child.",
+  "actions": "The child on the bicycle emerges from the right side, crosses the road, and falls off the bicycle. The observer vehicle is approaching the child and must react quickly.",
+  "key_objects": "Child on a bicycle, parked vehicles on the right side, pedestrian on the right side, other moving vehicles.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

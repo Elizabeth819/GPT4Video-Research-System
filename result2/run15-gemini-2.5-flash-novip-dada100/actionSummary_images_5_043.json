@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_043",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "16.3s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "No specific human characters are clearly identifiable or central to the driving scenario. The focus is on vehicle interactions.",
+  "summary": "The video segment begins with the autonomous vehicle stopped at a multi-lane intersection under an overcast sky. A white SUV is observed on the left side of the intersection, completing a right turn. A yellow utility truck is stationary on the right side of the intersection. The traffic lights for the straight direction are green. The autonomous vehicle then proceeds straight through the intersection, accelerating as it clears the crosswalk. As the vehicle continues down the road, which has parked cars along the right side, a blue three-wheeled vehicle suddenly emerges from behind a parked white car on the right, entering the crosswalk directly into the path of the autonomous vehicle, creating an immediate collision risk.",
+  "actions": "The vehicle initially remains stationary at the intersection from 0.0s to approximately 3.0s, despite the traffic light for the straight direction being green. This suggests the vehicle was either yielding to the white SUV completing its turn on the left or ensuring the intersection was fully clear before proceeding. From approximately 3.0s to 7.0s, the vehicle begins to accelerate, moving forward through the intersection as the path becomes clear. It maintains a straight trajectory, indicating the driver's intention to continue along the current road. From 7.0s to 13.5s, the vehicle maintains its speed, driving straight along the road. At approximately 13.5s, upon the sudden appearance of a blue three-wheeled vehicle from behind parked cars on the right, the vehicle initiates a rapid deceleration, likely applying brakes to avoid a collision.",
+  "key_objects": "1) Right: A blue three-wheeled vehicle (tricycle) suddenly emerges from behind parked cars on the right side of the road at approximately 13.5s, entering the crosswalk directly into the vehicle's path, creating an immediate collision risk. 2) Right: Parked white car and other vehicles on the right side of the road, acting as a physical obstruction that obscured the view of the blue three-wheeled vehicle until its sudden emergence.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

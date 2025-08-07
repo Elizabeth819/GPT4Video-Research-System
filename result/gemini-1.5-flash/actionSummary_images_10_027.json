@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_027",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "8.0s",
+        "sentiment": "Neutral",
+        "scene_theme": "Calm",
+        "characters": "None",
+        "summary": "In this segment, the vehicle is driving on a clear road with minimal traffic. The road is straight with no visible obstacles or other vehicles in close proximity. The vehicle maintains a steady speed and lane position throughout the frames.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed and staying in its lane. There are no visible changes in speed or direction, indicating a calm and controlled driving environment.",
+        "key_objects": "None",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_027",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "13.7s",
+        "scene_theme": "Dramatic",
+        "characters": "Cyclist in red shirt, car ahead",
+        "summary": "In this segment, the vehicle is driving on a rural road. Initially, the road is clear, but as the vehicle progresses, a cyclist in a red shirt appears on the left side of the road, moving towards the road. The cyclist is approaching the road from the left side, potentially causing a dangerous situation.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed initially. As the cyclist appears on the left side, the vehicle may need to decelerate to avoid a potential collision.",
+        "key_objects": "1) Left side: A cyclist in a red shirt, approximately 5 meters away, moving towards the road. 2) Front: A car ahead, relatively far, approximately 30 meters away, maintaining its lane.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

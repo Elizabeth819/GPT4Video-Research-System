@@ -1,0 +1,15 @@
+# Azure Storage 配置示例
+# 复制此文件为 .env.azure 并填入您的真实连接字符串
+
+# Azure Storage Account 连接字符串
+# 格式: DefaultEndpointsProtocol=https;AccountName=your_account;AccountKey=your_key;EndpointSuffix=core.windows.net
+AZURE_STORAGE_CONNECTION_STRING=your_connection_string_here
+
+# 可选: 指定容器名称
+AZURE_STORAGE_CONTAINER_NAME=dada-videos
+
+# 使用方法:
+# 1. 将此文件复制为 .env.azure
+# 2. 填入您的真实 Azure Storage Account 连接字符串
+# 3. 运行脚本前执行: source .env.azure 或 export AZURE_STORAGE_CONNECTION_STRING="your_connection_string"
+# 4. 运行脚本: python result/DriveMM/azure_drivemm_real_video_comparison.py

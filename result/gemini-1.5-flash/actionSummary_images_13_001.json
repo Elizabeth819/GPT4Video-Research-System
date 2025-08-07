@@ -1,0 +1,82 @@
+[
+    {
+        "video_id": "dada_13_001",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car approaching a toll booth in rainy conditions. The car is moving slowly and steadily towards the toll booth.  There are no pedestrians or other vehicles exhibiting dangerous behavior. The road is wet, and the overall traffic is light.",
+        "actions": "The vehicle is slowing down steadily as it approaches the toll booth. This is a standard driving action in anticipation of stopping to pay the toll. The speed reduction is gradual and controlled, indicating safe driving practices.",
+        "next_action": {
+            "speed_control": "stopping",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_13_001",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows the self-vehicle approaching a toll booth on a highway. The weather appears to be overcast and possibly rainy. The road is wet.  The self-vehicle is following a white car at a slow speed. There are other vehicles visible in the distance, including a bus on the left side of the road. No unusual or dangerous events occur during this segment. The self-vehicle maintains a safe distance from the car in front and proceeds slowly through the toll booth.",
+        "actions": "The self-vehicle is slowing down and approaching a toll booth. The driver is maintaining a safe following distance from the vehicle ahead. The vehicle's speed is consistent with the traffic conditions and the need to navigate the toll booth.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "straight",
+            "lane_control": "keep lane"
+        }
+    },
+    {
+        "video_id": "dada_13_001",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "13.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car approaching a toll booth on a highway. The weather appears overcast. Traffic is moderate, with several vehicles visible in the distance.  The car in the video is slowing down as it approaches the toll booth. There are no pedestrians or other unexpected events observed in the video segment.",
+        "actions": "The vehicle is slowing down steadily as it approaches the toll booth. This is a standard action taken in anticipation of stopping at the toll plaza. The driver maintains a safe distance from the vehicle in front and is following the traffic flow smoothly.",
+        "next_action": {
+            "speed_control": "stopping",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_13_001",
+        "segment_id": "segment_003",
+        "Start_Timestamp": "15.0s",
+        "End_Timestamp": "18.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a snow-covered road. The road is relatively empty, with no other vehicles or pedestrians immediately visible. The car maintains a steady speed throughout the 5-second segment.  The weather appears to be overcast and snowy. There are trees and buildings visible on the sides of the road. No sudden appearances of people or vehicles are observed.",
+        "actions": "The vehicle maintains a consistent speed and direction throughout the observed 5-second segment.  There are no observable changes in speed or direction. The driver appears to be navigating a relatively straight, snow-covered road with no immediate obstacles.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_13_001",
+        "segment_id": "segment_004",
+        "Start_Timestamp": "20.0s",
+        "End_Timestamp": "20.6s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving on a snow-covered road. The road is narrow and lined with trees on both sides. There are some concrete blocks on the side of the road. The car is driving slowly and steadily. There are no other vehicles or people visible in the video. The weather is overcast and snowy.  No unusual or dangerous events occur during this 5-second segment.",
+        "actions": "The vehicle maintains a slow and steady speed, likely due to the snowy and potentially icy road conditions.  The driver is navigating a narrow road, exercising caution and maintaining a safe distance from the edges of the road and any potential obstacles.",
+        "next_action": {
+            "speed_control": "maintain_speed",
+            "direction_control": "straight",
+            "lane_control": "keep_straight"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_026",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car approaching an intersection. There are other vehicles on the road. A man and a woman are on the right side of the road, near the entrance to a building. The woman is wearing a red jacket and the man is wearing a black jacket. They are standing near a water hose.",
+  "summary": "The vehicle is driving on a city street and approaching an intersection. Initially, the vehicle is driving straight. As the vehicle approaches the intersection, a woman suddenly appears from behind a wall on the right side of the road, creating a ghost probing situation. The driver has to react quickly to avoid hitting her.",
+  "actions": "The vehicle is initially driving straight at a constant speed. As the vehicle approaches the intersection, the driver likely decelerates upon seeing the woman emerge from behind the wall. The driver may also steer slightly to the left to avoid the woman.",
+  "key_objects": "1) Right: A woman in a red jacket, emerges from behind a wall, very close to the car's path, causing a potential collision. 2) Right: A man in a black jacket, standing next to the woman, also contributing to the obstruction of view.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

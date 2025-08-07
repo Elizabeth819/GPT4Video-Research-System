@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving on a road with shops on both sides. A parked car has its trunk open and people are standing near it. A scooter appears from behind the parked car.",
+    "actions": "Ego vehicle is moving forward. People are standing near a parked car. A scooter is moving from right to left.",
+    "characters": "People near the parked car, scooter rider.",
+    "key_objects": "Ego vehicle, parked car, scooter, pedestrians, buildings.",
+    "key_actions": "potential ghost probing",
+    "next_action": "Continue driving forward."
+  }
+]

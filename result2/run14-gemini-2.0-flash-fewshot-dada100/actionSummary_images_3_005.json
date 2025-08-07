@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_005",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A male wearing a dark jacket is crossing the road at a crosswalk. A blue and white bus is stopped on the left side of the road.",
+  "summary": "The vehicle is approaching an intersection with a crosswalk. A male wearing a dark jacket is crossing the road at the crosswalk. A blue and white bus is stopped on the left side of the road, potentially obstructing the view of pedestrians approaching the crosswalk from that side. The vehicle maintains its speed as the male is already in the crosswalk and there is no immediate danger.",
+  "actions": "The vehicle is maintaining its speed as it approaches the intersection. The driver is likely aware of the crosswalk and the potential for pedestrians. The vehicle does not decelerate because the male is already in the crosswalk and there is sufficient distance.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

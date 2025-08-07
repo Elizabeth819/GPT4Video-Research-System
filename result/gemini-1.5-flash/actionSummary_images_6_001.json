@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_6_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist",
+        "summary": "In this segment, the vehicle is driving on a rural road. A white sedan is seen on the right side, overtaking the self-driving vehicle. A cyclist suddenly appears from the right side, causing the self-driving vehicle to decelerate rapidly.",
+        "actions": "The self-driving vehicle decelerates rapidly from 48 km/h to 8 km/h over the 10 seconds due to the sudden appearance of the cyclist from the right side. The vehicle maintains a safe distance from the white sedan overtaking on the right.",
+        "key_objects": "1) Right side: A white sedan, approximately 2 meters away, overtaking the self-driving vehicle. 2) Right side: A cyclist, approximately 1 meter away, suddenly appearing and moving into the vehicles path.",
+        "key_actions": "ghost probing, right-side overtaken",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

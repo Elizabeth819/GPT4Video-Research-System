@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_1_003",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Night driving in a city",
+    "characters": "Driver of the recording vehicle, a woman in a pink shirt and dark pants on a bicycle, possibly a child near the woman.",
+    "summary": "The video shows nighttime city driving.  Around the 3-second mark, a woman wearing a pink shirt and dark pants riding a bicycle and possibly a child with her, suddenly falls from the bicycle in the middle of the road. The fall appears to be unexpected and possibly due to an unseen event. The cyclist and child are in the middle of the road, posing a significant hazard to oncoming traffic. The observer vehicle appears to be maintaining a steady speed and is approaching the fallen cyclist and child.",
+    "actions": "The observer vehicle maintains a consistent speed throughout the 10-second segment. There are no observable changes in speed or direction in response to the incident with the cyclist and child. The vehicle continues to move forward.",
+    "key_objects": "1) Center: Woman on bicycle wearing a pink shirt and dark pants, approximately 10 meters away at the start of the incident, falls unexpectedly in the road, creating an immediate hazard. 2) Center: Possibly a child near the woman, also in the road after the fall.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_003",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.3s",
+    "End_Timestamp": "10.3s",
+    "scene_theme": "Night driving",
+    "sentiment": "Neutral",
+    "characters": "A person sitting on the road, a driver in the observer vehicle, other vehicles in the distance.",
+    "summary": "The video shows a nighttime driving scene. The observer vehicle is driving on a city street. A person, appearing to be a young woman wearing a pink shirt, is sitting on the road to the right side of the vehicle.  There are other vehicles visible in the distance, but they are not close enough to pose an immediate threat. The scene is dimly lit, typical of a night setting.",
+    "actions": "The observer vehicle is driving straight ahead at a seemingly moderate speed, maintaining a safe distance from the person sitting on the road. There are no apparent changes in speed or direction.",
+    "key_objects": "Right: A young woman, approximately 5 meters away, sitting on the road. This poses a potential hazard, requiring the driver to maintain a safe distance and be prepared to react.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

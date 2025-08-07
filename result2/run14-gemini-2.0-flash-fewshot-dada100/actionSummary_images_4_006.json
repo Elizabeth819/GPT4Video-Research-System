@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_006",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Several people are walking inside the tunnel. A male, approximately 20 years old, wearing a white shirt, dark pants, and a black backpack, is kneeling in the middle of the road. Another male is riding a scooter.",
+  "summary": "The vehicle is driving into a tunnel. Several people are walking inside the tunnel. A male, approximately 20 years old, wearing a white shirt, dark pants, and a black backpack, is kneeling in the middle of the road, directly in the vehicle's path. Another male is riding a scooter. The kneeling man is a significant hazard, and the scooter could also become a ghost probing incident if it suddenly changes direction.",
+  "actions": "The vehicle is initially driving at 23 km/h and decelerates to 0 km/h as it approaches the tunnel entrance due to the presence of people in the roadway. The driver is likely slowing down to assess the situation and avoid a potential collision with the kneeling man or other pedestrians.",
+  "key_objects": "1) Front: A male, approximately 20 years old, wearing a white shirt, dark pants, and a black backpack, approximately 5 meters away, kneeling in the middle of the road, directly in the vehicle's path. 2) Front: A male on a scooter, approximately 10 meters away, potentially moving into the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

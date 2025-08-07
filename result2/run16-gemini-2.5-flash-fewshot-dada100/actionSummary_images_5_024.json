@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_024",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "A person riding a scooter/motorcycle, wearing a red helmet and dark clothing.",
+  "summary": "In this segment, the vehicle is driving on a wet urban road during what appears to be a rainy day, indicated by the active windshield wipers and wet surfaces. The vehicle approaches an intersection marked with a stop sign on the right side. As the vehicle begins to proceed through the intersection, a white sedan crosses from the left side, temporarily obstructing the view. Immediately after the white sedan passes, a scooter with a rider suddenly emerges from behind it, entering the vehicle's path with minimal warning, creating a dangerous ghost probing situation.",
+  "actions": "The self-driving vehicle is initially decelerating as it approaches the intersection, likely in response to the visible stop sign and the wet road conditions, indicating a need for caution. After a brief pause or slow movement, the vehicle begins to proceed forward. However, as a white sedan crosses the intersection from the left, temporarily obscuring the view, a scooter suddenly appears from behind this moving obstruction. In response to the scooter's sudden emergence directly into its path, the vehicle immediately initiates rapid deceleration to prevent a collision.",
+  "key_objects": "1) Left side: A white sedan, approximately 5-10 meters away, moving across the intersection and temporarily obstructing the view of the approaching scooter. 2) Left side: A scooter with a rider, approximately 3-5 meters away, suddenly emerging from behind the white sedan and entering the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

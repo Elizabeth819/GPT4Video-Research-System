@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_047",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male on a black scooter, female on a black scooter, multiple other pedestrians and scooter riders in the background.",
+  "summary": "In this segment, the self-driving vehicle is exiting a dark underpass into a busy urban street during daytime. As the vehicle emerges from the underpass, a male on a black scooter crosses the vehicle's path from the left side towards the right. Immediately after this, a female on a black scooter suddenly emerges from the right side of the road, from behind the first scooter and a parked white van, directly entering the vehicle's path. This sudden and unexpected appearance of the female scooter rider, with minimal reaction time due to the visual obstruction, creates an immediate and dangerous 'ghost probing' situation. The female on the scooter appears to stop abruptly or fall very close to the front of the vehicle, indicating a near-collision.",
+  "actions": "The self-driving vehicle is initially moving forward, slowly emerging from the underpass, exercising caution due to the blind exit. Upon the sudden appearance of the male on the scooter crossing the path, and especially the subsequent sudden emergence of the female on the scooter from the right side, the vehicle initiates rapid deceleration and braking. This action is taken to prevent a collision with the scooter rider who unexpectedly entered the vehicle's immediate path with minimal warning time, as she was previously hidden by other vehicles and structures.",
+  "key_objects": "1) Right side: A female on a black scooter, approximately 1-2 meters away, suddenly emerging from behind a male on a scooter and a parked white van, directly entering the vehicle's path. 2) Right side: A parked white van, approximately 5-7 meters away, contributing to the visual obstruction that hid the female scooter rider. 3) Center/Right side: A male on a black scooter, approximately 3-5 meters away, crossing the vehicle's path and acting as a moving obstruction that partially obscured the female scooter rider.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

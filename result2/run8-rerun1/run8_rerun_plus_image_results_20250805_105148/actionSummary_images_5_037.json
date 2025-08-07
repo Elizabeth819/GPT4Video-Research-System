@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_037",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child, and a cyclist. The child is wearing a blue jacket and is seen running across the road. The cyclist is on the right side of the road.",
+  "summary": "The video sequence shows a vehicle driving at night in an urban area. Initially, the road is clear with some parked vehicles on the right side. Suddenly, a child runs from the right side of the road, emerging from behind a parked vehicle, directly into the path of the observer vehicle. This creates an immediate collision risk. In another sequence, a pedestrian with a child suddenly appears from behind a parked vehicle on the left side of the road, crossing the road in front of the observer vehicle. In the final sequence, a motorcyclist emerges from the right side of the road, entering the observer vehicle's lane.",
+  "actions": "The child runs across the road from the right side, the pedestrian with a child crosses from the left side, and the motorcyclist enters the lane from the right side.",
+  "key_objects": "Parked vehicles on both sides of the road, a child running across the road, a pedestrian with a child, and a motorcyclist.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

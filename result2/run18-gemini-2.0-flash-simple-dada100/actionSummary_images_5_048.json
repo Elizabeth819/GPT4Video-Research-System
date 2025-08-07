@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_048",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "The scene shows a driver in a car, with other cars and motorcycles on the road. There are also pedestrians visible on the right side of the road. The pedestrians and motorcyclists are wearing various clothing. The other cars are standard passenger vehicles.",
+  "summary": "The vehicle is driving on a multi-lane road with other vehicles. The road appears to be approaching an intersection. There are motorcycles and pedestrians on the right side of the road. The vehicle maintains its speed and lane position as it approaches the intersection.",
+  "actions": "The vehicle maintains a consistent speed and lane position. The driver is likely monitoring the surrounding traffic and preparing to navigate the upcoming intersection. The vehicle is driving straight, following the lane markings on the road. The driver is maintaining a safe distance from the vehicle in front.",
+  "key_objects": "1) Right side: Motorcyclist, medium distance, potentially entering the lane. 2) Center: Vehicle ahead, medium distance, maintaining speed.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

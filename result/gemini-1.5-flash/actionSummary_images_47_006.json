@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_47_006",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "3.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue sedan, driver of a red SUV, motorcyclist",
+        "summary": "In this segment, the vehicle is approaching an intersection. Initially, a blue sedan is seen moving from the left side towards the center of the intersection. Later, a red SUV appears from the left side and moves towards the center, followed by a motorcyclist who falls in the middle of the intersection.",
+        "actions": "The self-driving vehicle is approaching the intersection at a steady speed. The driver needs to be cautious due to the sudden appearance of the red SUV and the motorcyclist falling in the intersection. The vehicles speed is consistent, but the driver may need to decelerate or stop to avoid a collision.",
+        "key_objects": "1) Left side: A blue sedan, approximately 10 meters away, moving towards the center of the intersection. 2) Left side: A red SUV, approximately 8 meters away, moving towards the center of the intersection. 3) Center: A motorcyclist, approximately 5 meters away, fallen in the middle of the intersection.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_47_006",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "7.6s",
+        "scene_theme": "Urban",
+        "characters": "Driver of a white SUV, pedestrians crossing the road",
+        "summary": "In this segment, the vehicle is driving on an urban road with a traffic light ahead. A white SUV is in front of the observer vehicle, and pedestrians are crossing the road from the left side.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed while approaching the traffic light. The vehicle is keeping a safe distance from the white SUV ahead, which is also moving forward. The pedestrians crossing the road from the left side are not posing an immediate threat to the vehicles path.",
+        "key_objects": "1) Front: A white SUV, approximately 10 meters away, moving forward. 2) Left side: Pedestrians crossing the road, approximately 15 meters away, moving from left to right.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

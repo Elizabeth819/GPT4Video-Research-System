@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving straight on a city street with moderate traffic. Several vehicles are visible ahead, including a yellow taxi. Parked cars line both sides of the road.",
+    "actions": "Ego vehicle is moving forward. Other vehicles are moving in both directions.",
+    "characters": "None visible",
+    "key_objects": "Ego vehicle, yellow taxi, parked cars, other vehicles.",
+    "key_actions": "No immediate safety concerns detected. Normal driving conditions.",
+    "next_action": "Continue driving straight."
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle continues driving straight. A pedestrian and a cyclist are approaching a crosswalk on the right side of the road. A red cart is parked near the crosswalk.",
+    "actions": "Ego vehicle is moving forward. Pedestrian and cyclist are approaching the crosswalk.",
+    "characters": "Pedestrian, cyclist",
+    "key_objects": "Ego vehicle, yellow taxi, pedestrian, cyclist, red cart, crosswalk.",
+    "key_actions": "potential ghost probing: The cyclist appears to be entering the crosswalk from behind the red cart, partially concealed. The pedestrian is also approaching the crosswalk.",
+    "next_action": "Prepare to slow down or stop if the pedestrian or cyclist enter the crosswalk."
+  }
+]

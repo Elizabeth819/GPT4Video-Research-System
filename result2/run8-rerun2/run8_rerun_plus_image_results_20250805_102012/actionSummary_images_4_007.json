@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_007",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, cyclists, and drivers observed. Pedestrians include a child on the right side of the road in the first sequence, a woman with a child crossing the road in the second sequence, a man running across the road in the third sequence, and a traffic officer directing traffic in the fourth sequence.",
+  "summary": "The video sequences show various instances of potential 'ghost probing' behavior. In the first sequence, a child suddenly appears on the right side of the road. In the second sequence, a woman with a child emerges from between parked cars on the left side. In the third sequence, a man runs across the road from the left side. In the fourth sequence, a traffic officer is directing traffic, and a cyclist suddenly appears from the left side.",
+  "actions": "The observer vehicle encounters multiple sudden appearances of pedestrians and cyclists from behind obstructions, creating immediate collision risks.",
+  "key_objects": "Parked cars on both sides of the road, pedestrians, cyclists, traffic officer, and moving vehicles.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

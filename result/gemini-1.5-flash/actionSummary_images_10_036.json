@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_036",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "8.0s",
+        "scene_theme": "Calm",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is navigating through a parking garage. The vehicle is moving at a slow and steady pace, maintaining a safe distance from parked cars on both sides. There are no pedestrians or other vehicles posing immediate threats.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, carefully maneuvering through the parking garage. The vehicle is maintaining a safe distance from parked cars and is vigilant for any sudden movements from other vehicles or pedestrians.",
+        "key_objects": "1) Left side: Multiple parked cars, approximately 2-3 meters away, stationary. 2) Right side: Multiple parked cars, approximately 2-3 meters away, stationary.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_036",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "12.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue sedan",
+        "summary": "In this segment, the vehicle is driving in a parking garage. A blue sedan is seen on the right side, moving closer to the self-driving vehicle. The driver mentions that the blue sedan is cutting in from the adjacent lane.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the parking garage. The blue sedan on the right side is moving closer, indicating a potential cut-in behavior. The self-driving vehicle may need to decelerate to avoid a collision.",
+        "key_objects": "1) Right side: A blue sedan, approximately 1 meter away, moving closer to the self-driving vehicle, indicating a potential cut-in behavior.",
+        "key_actions": "cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

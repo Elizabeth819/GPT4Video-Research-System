@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_012",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Multiple pedestrians, including a child and an adult, and a cyclist. The child is wearing a blue jacket and is seen running across the road from the right side. The adult is also on the right side, possibly accompanying the child. The cyclist is on the right side of the road.",
+  "summary": "The video sequence shows a vehicle driving at night in an urban area. Initially, the road appears clear, but a child suddenly runs across the road from the right side, emerging from behind a parked vehicle. This creates an immediate collision risk. The adult on the right side seems to be following the child. The cyclist is also on the right side of the road, moving forward.",
+  "actions": "The child runs across the road from the right side, emerging from behind a parked vehicle. The adult follows the child. The cyclist continues moving forward on the right side of the road.",
+  "key_objects": "Parked vehicles on the right side, a child running across the road, an adult following the child, a cyclist on the right side.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "emergency brake",
+    "direction_control": "straight",
+    "lane_control": "maintain current lane"
+  }
+}

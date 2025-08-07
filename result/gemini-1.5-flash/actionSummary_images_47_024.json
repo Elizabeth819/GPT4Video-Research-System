@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_47_024",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, cyclist",
+        "summary": "In this segment, the vehicle is driving through an urban area. A cyclist on the right side of the road suddenly collides with a white sedan parked ahead. The cyclist falls to the ground, causing a potential hazard for the self-driving vehicle.",
+        "actions": "The self-driving vehicle is approaching a white sedan parked ahead. The vehicles speed is steady, but it needs to decelerate due to the sudden collision of the cyclist with the parked sedan. The vehicle maintains a safe distance from the incident.",
+        "key_objects": "1) Right side: A cyclist, approximately 5 meters away, collides with a parked white sedan, causing a potential hazard. 2) Front: A white sedan, approximately 10 meters away, parked and involved in the collision.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

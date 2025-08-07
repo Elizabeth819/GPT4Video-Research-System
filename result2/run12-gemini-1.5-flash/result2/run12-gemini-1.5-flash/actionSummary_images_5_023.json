@@ -1,0 +1,37 @@
+[
+  {
+    "video_id": "images_5_023",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "scene_theme": "Urban Road",
+    "characters": "A person riding a scooter.",
+    "summary": "The video shows a car driving on a city road.  A person on a scooter is visible ahead and slightly to the left. The scooter rider appears to be making a turn.  The car maintains a consistent speed and distance from the scooter throughout the 10-second segment. No immediate danger is observed.",
+    "actions": "The self-driving vehicle maintains a consistent speed and lane position throughout the 10-second segment.  The vehicle's speed appears moderate, suitable for urban driving conditions. The driver is likely maintaining a safe following distance from the scooter ahead.",
+    "key_objects": "None",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "consistent speed driving",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_5_023",
+    "segment_id": "segment_002",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.4s",
+    "scene_theme": "Accident",
+    "sentiment": "Negative",
+    "characters": "A motorcyclist wearing a red jacket and helmet.",
+    "summary": "The video shows a motorcyclist, wearing a red jacket and helmet, traveling in the same direction as the recording vehicle.  The motorcyclist suddenly loses control and falls in the middle of the road. The fall appears to be unexpected and without any immediately apparent cause from the provided frames. The recording vehicle is maintaining a consistent speed and distance from the motorcyclist before the incident. The motorcyclist is lying on the road after the fall.",
+    "actions": "The self-driving vehicle maintains a consistent speed and distance from the motorcyclist ahead. There are no observable changes in speed or direction in response to the motorcyclist's actions.",
+    "key_objects": "Front: A motorcyclist wearing a red jacket and helmet, approximately 15 meters away at the start of the sequence, falls unexpectedly in the road, creating an immediate hazard.",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

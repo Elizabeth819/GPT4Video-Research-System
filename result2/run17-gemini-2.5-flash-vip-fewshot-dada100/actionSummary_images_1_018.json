@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_018",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Two pedestrians, one wearing white pants and a light-colored top, and another wearing a light-colored dress.",
+    "summary": "The vehicle is driving on a road with parked cars on both sides. Two pedestrians, one in white pants and a light-colored top, and another in a light-colored dress, are walking between the parked cars on the right side of the road. They are partially obscured by the parked cars, creating a potential ghost probing situation if they were to suddenly step into the vehicle's path.",
+    "actions": "The self-driving vehicle is maintaining a steady speed. The driver is likely monitoring the pedestrians walking between the parked cars on the right side of the road, anticipating that they might step into the vehicle's path.",
+    "key_objects": "1) Right side: Two pedestrians, one wearing white pants and a light-colored top, and another wearing a light-colored dress, approximately 5 meters away, walking between parked cars and potentially stepping into the vehicle's path. 2) Right side: Parked cars, approximately 3 meters away, partially obstructing the view of the pedestrians.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_018",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "11.2s",
+    "sentiment": "Neutral",
+    "scene_theme": "City Street",
+    "characters": "Several parked cars on the right side of the road.",
+    "summary": "The self-driving vehicle is traveling on a city street with parked cars on the right side. The vehicle maintains a consistent speed and direction. There are no immediate safety concerns. The driving conditions appear routine.",
+    "actions": "The self-driving vehicle is maintaining a consistent speed and direction on the city street. The vehicle is driving at a moderate speed, likely due to the presence of parked cars and other vehicles on the road. The vehicle is keeping a safe distance from the car in front.",
+    "key_objects": "none",
+    "key_actions": "none",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

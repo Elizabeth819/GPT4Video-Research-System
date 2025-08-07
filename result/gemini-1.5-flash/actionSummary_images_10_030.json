@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_10_030",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "8.0s",
+        "sentiment": "Negative",
+        "scene_theme": "Dramatic",
+        "characters": "Pedestrian, blue tricycle",
+        "summary": "In this segment, the vehicle is driving on a city road. At 4.0s, a pedestrian is seen crossing the road from the right side, potentially causing a dangerous situation. By 8.0s, a blue tricycle is directly ahead of the vehicle, moving slowly.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the pedestrian crossing the road. The vehicle then slows down to avoid a collision with the blue tricycle ahead.",
+        "key_objects": "1) Right side: A pedestrian, approximately 10 meters away, crossing the road from right to left, potentially causing a sudden stop. 2) Front: A blue tricycle, approximately 5 meters away, moving slowly, causing the vehicle to decelerate.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_030",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "10.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "17.3s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a black sedan, cyclist on the right side, driver of a white SUV",
+        "summary": "In this segment, the vehicle is driving on a city road. Initially, a black sedan is seen ahead on the left side. Later, a cyclist appears on the right side, crossing the road. Finally, a white SUV is seen approaching from the left side, potentially cutting into the lane.",
+        "actions": "The self-driving vehicle maintains a steady speed while observing the black sedan ahead. As the cyclist crosses from the right side, the vehicle slows down to avoid collision. The white SUV approaching from the left side may require the vehicle to decelerate further or change lanes to avoid a cut-in.",
+        "key_objects": "1) Left side: A black sedan, approximately 20 meters away, moving ahead. 2) Right side: A cyclist, approximately 5 meters away, crossing the road. 3) Left side: A white SUV, approximately 10 meters away, approaching and potentially cutting into the lane.",
+        "key_actions": "ghost probing, cut-in",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

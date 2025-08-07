@@ -1,0 +1,47 @@
+{
+  "video_id": "images_5_047",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "7.3s",
+  "summary": "The self-driving car is moving forward through a tunnel-like structure and entering an open area with buildings on both sides. There are multiple scooters and motorcycles moving in different directions. At 4.1s, a scooter with a male rider wearing a black shirt suddenly appears from the right side of the road, creating a potential ghost probing situation. At 4.9s, the scooter is in the middle of the road. At 5.7s, a female with long hair wearing a green shirt and black pants starts crossing the road from right to left. At 6.5s, the female is in the middle of the road. At 7.3s, the female is almost across the road.",
+  "characters": [
+    {
+      "gender": "male",
+      "clothing": "black shirt",
+      "age": "adult",
+      "transportation_method": "scooter",
+      "behavior": "riding across the road"
+    },
+    {
+      "gender": "female",
+      "clothing": "green shirt, black pants",
+      "age": "adult",
+      "transportation_method": "walking",
+      "behavior": "crossing the road from right to left"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "age": "unknown",
+      "transportation_method": "scooter",
+      "behavior": "moving in the background"
+    },
+    {
+      "gender": "unknown",
+      "clothing": "unknown",
+      "age": "unknown",
+      "transportation_method": "motorcycle",
+      "behavior": "moving in the background"
+    }
+  ],
+  "actions": "The vehicle is moving forward at a constant speed, likely navigating through the intersection. The driver is maintaining the current speed to proceed through the intersection, but may need to decelerate or stop depending on the actions of the scooter and the female crossing the road.",
+  "next_action": {
+    "speed_control": "braking",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing",
+  "key_objects": [
+    "Right side: A male on a scooter, approximately 5 meters away, suddenly appears from the right side of the road, creating a potential ghost probing situation and requiring the vehicle to be prepared to decelerate or stop."
+  ]
+}

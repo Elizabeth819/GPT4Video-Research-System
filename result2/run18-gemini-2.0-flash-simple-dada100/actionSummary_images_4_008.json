@@ -1,0 +1,18 @@
+{
+  "video_id": "images_4_008",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a driver in a car navigating city streets. There are other cars on the road, and pedestrians are visible on the sidewalks. A cyclist is seen crossing the road at an intersection.",
+  "summary": "The video shows a car driving on a city street with moderate traffic. The car approaches an intersection where the traffic light turns red. A cyclist suddenly appears in front of the car, crossing the road against the traffic light. The driver is forced to brake suddenly to avoid a collision.",
+  "actions": "The vehicle initially maintains a steady speed while driving on a multi-lane road. As it approaches an intersection, the driver begins to decelerate in response to the changing traffic light. Upon observing the red light and the cyclist entering the intersection, the driver initiates emergency braking to prevent a collision.",
+  "key_objects": "1) Right side: Cyclist, medium distance, crossing the road against the traffic light, causing a potential collision. 2) Front: Traffic light, medium distance, turning red, prompting the driver to decelerate.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

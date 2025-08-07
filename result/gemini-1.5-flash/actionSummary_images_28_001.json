@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_28_001",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Neutral",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Urban",
+        "characters": "Driver of the self-driving vehicle",
+        "summary": "In this segment, the self-driving vehicle is traveling through an urban area with buildings on both sides. The road is relatively clear, but there are pedestrians and parked vehicles along the roadside. The vehicle maintains a steady speed and direction throughout the segment.",
+        "actions": "The self-driving vehicle is driving at a consistent speed, maintaining a straight path. The vehicle is cautious, keeping an eye on potential obstacles such as pedestrians and parked cars.",
+        "key_objects": "1) Right side: A black car, approximately 5 meters away, parked and partially blocking the view. 2) Right side: A pedestrian, approximately 10 meters away, walking towards the road. 3) Right side: A pedestrian, approximately 15 meters away, standing near the roadside.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

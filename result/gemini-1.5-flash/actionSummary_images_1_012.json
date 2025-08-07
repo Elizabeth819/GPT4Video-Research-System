@@ -1,0 +1,87 @@
+[
+    {
+        "video_id": "dada_1_012",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Front",
+                "Object description": "A gray sedan",
+                "distance": "15",
+                "behavior or action impacting the vehicle": "Maintaining a consistent speed and distance ahead of the ego vehicle."
+            },
+            {
+                "Position": "Right",
+                "Object description": "A person on a scooter",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "Approaching the road from the sidewalk, potentially creating a ghost probing situation."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "30-40",
+                "clothing": "Dark jacket and pants",
+                "transportation_method": "Scooter",
+                "way_of_walking": "Approaching the road from the sidewalk"
+            }
+        ],
+        "summary": "The video shows a car driving down a city street.  The road is relatively clear, with parked cars on both sides.  The most significant event is a person on a scooter, appearing to be a man aged 30-40 wearing a dark jacket and pants, who is approaching the road from the right-hand sidewalk. This individual's actions create a potential 'ghost probing' scenario as they could suddenly enter the road in front of the ego vehicle. The gray sedan ahead of the ego vehicle maintains a consistent speed and distance.",
+        "actions": "The ego vehicle maintains a steady speed, adjusting slightly to maintain a safe following distance from the gray sedan ahead. There are no observable lane changes or braking maneuvers during this segment.",
+        "next_action": {
+            "speed_control": "Maintain speed",
+            "direction_control": "Keep straight",
+            "lane_control": "Keep right"
+        }
+    },
+    {
+        "video_id": "dada_1_012",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a car driving down a street with parked cars on both sides.  The road is relatively clear, and the weather appears sunny.  There are no pedestrians or cyclists visible in the immediate vicinity of the vehicle. The traffic is light, with a few cars visible ahead and behind the recording vehicle. The speed of the recording vehicle appears to be consistent with the flow of traffic. No unusual or dangerous events occur during the observed period.",
+        "actions": "The vehicle maintains a steady speed, consistent with the surrounding traffic.  The driver appears to be following the flow of traffic and maintaining a safe distance from the vehicle in front. There are no observable changes in direction or speed during this segment.",
+        "next_action": {
+            "speed_control": "maintain",
+            "direction_control": "straight",
+            "lane_control": "keep_right"
+        }
+    },
+    {
+        "video_id": "dada_1_012",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.9s",
+        "key_objects": [
+            {
+                "Position": "Right",
+                "Object description": "A woman, appearing to be in her 30s, wearing a light-colored long-sleeved shirt and dark pants, carrying shopping bags.",
+                "distance": "2",
+                "behavior or action impacting the vehicle": "She steps out from behind a parked car into the vehicle's path, creating a potential ghost probing situation."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "female",
+                "age": "30s",
+                "clothing": "light-colored long-sleeved shirt, dark pants",
+                "transportation": "walking",
+                "behavior": "Steps out from behind a parked car into the vehicle's path.",
+                "potential_danger": "High risk of collision with the vehicle due to sudden appearance in the path."
+            }
+        ],
+        "summary": "The video shows a woman in her 30s, wearing a light-colored long-sleeved shirt and dark pants, carrying shopping bags, suddenly stepping out from behind a parked car on the right side of the road.  She appears directly in the path of the approaching vehicle, creating a potential ghost probing situation. The woman's action is sudden and unexpected, posing a significant risk of collision. The vehicle appears to be traveling at a moderate speed. The road is relatively clear except for parked cars along the sides.",
+        "actions": "The vehicle maintains a steady speed, appearing to be driving cautiously within the speed limit. There are no observable changes in speed or direction in response to the surrounding traffic or parked vehicles. The driver appears to be maintaining a safe following distance from the vehicle ahead.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep right"
+        }
+    }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "timestamp": "0-10s",
+    "summary": "Ego vehicle is driving on a straight road through a rural area. There are buildings on both sides of the road. A person with a child is walking on the left side of the road.",
+    "actions": "Ego vehicle is driving straight. The person and child are walking.",
+    "characters": "Person, child",
+    "key_objects": "Ego vehicle, buildings, road, person, child",
+    "key_actions": "None",
+    "next_action": "Continue driving straight"
+  },
+  {
+    "timestamp": "10-20s",
+    "summary": "Ego vehicle continues driving on the straight road. Other vehicles are visible in the distance.",
+    "actions": "Ego vehicle is driving straight. Other vehicles are approaching.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, other vehicles, road",
+    "key_actions": "None",
+    "next_action": "Continue driving straight"
+  },
+  {
+    "timestamp": "20-30s",
+    "summary": "Ego vehicle approaches an intersection. A small truck is turning left from the intersecting road.",
+    "actions": "Ego vehicle is approaching the intersection. The truck is turning left.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, truck, intersection, other vehicles",
+    "key_actions": "None",
+    "next_action": "Continue driving straight, potentially braking for the intersection"
+  },
+  {
+    "timestamp": "30-40s",
+    "summary": "Ego vehicle is driving through the intersection. A white car is crossing the intersection from the left.",
+    "actions": "Ego vehicle is driving straight through the intersection. The white car is crossing.",
+    "characters": "None",
+    "key_objects": "Ego vehicle, white car, intersection",
+    "key_actions": "None",
+    "next_action": "Continue driving straight"
+  },
+  {
+    "timestamp": "40-50s",
+    "summary": "Ego vehicle continues driving straight. A three-wheeled vehicle carrying a large load appears from the right side of the road.",
+    "actions": "Ego vehicle is driving straight. The three-wheeled vehicle is entering the road from the right.",
+    "characters": "Person on three-wheeled vehicle",
+    "key_objects": "Ego vehicle, three-wheeled vehicle, intersection",
+    "key_actions": "potential ghost probing",
+    "next_action": "Continue driving straight, potentially braking or steering to avoid the three-wheeled vehicle"
+  },
+  {
+    "timestamp": "50-60s",
+    "summary": "Ego vehicle continues driving straight. The three-wheeled vehicle is now fully on the road.",
+    "actions": "Ego vehicle is driving straight. The three-wheeled vehicle is driving on the road.",
+    "characters": "Person on three-wheeled vehicle",
+    "key_objects": "Ego vehicle, three-wheeled vehicle",
+    "key_actions": "None",
+    "next_action": "Continue driving straight"
+  }
+]

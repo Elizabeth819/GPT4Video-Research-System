@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_30_007",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a blue truck",
+        "summary": "In this segment, the vehicle is driving on a wet road in rainy conditions. A blue truck is ahead, initially maintaining a steady distance. However, the truck suddenly swerves to the left, potentially causing a dangerous situation.",
+        "actions": "The self-driving vehicle maintains a consistent speed while following the blue truck. As the truck swerves to the left, the vehicle prepares to decelerate to avoid a potential collision.",
+        "key_objects": "1) Front: A blue truck, approximately 20 meters away, swerving to the left, potentially causing a dangerous situation.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

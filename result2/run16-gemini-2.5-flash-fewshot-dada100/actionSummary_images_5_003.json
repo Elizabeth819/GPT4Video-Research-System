@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_003",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "Male motorcycle driver in dark clothing, female motorcycle passenger in a green top and red jacket, a small child in pink clothing, and other pedestrians (including a male in a black and white striped shirt) approaching to assist.",
+  "summary": "In this segment, the self-driving vehicle is traveling on an urban road with multiple lanes and moderate traffic. Initially, the road ahead is clear, but as the vehicle proceeds, a motorcycle with a driver, a passenger, and a small child is observed directly in front. Around the 5.0-second mark, the motorcycle suddenly loses balance and falls onto the road, causing the riders and child to fall directly into the vehicle's path. The incident occurs unexpectedly, creating an immediate obstruction and potential collision hazard for the self-driving vehicle. By the 10.0-second mark, the individuals are beginning to get up from the road.",
+  "actions": "The self-driving vehicle was initially maintaining a consistent speed, navigating the urban road. Upon observing the motorcycle directly in front losing balance and falling (around 5.0s-6.0s), the vehicle immediately initiated rapid deceleration and braking. This swift action was taken to prevent a collision with the fallen motorcycle and its occupants, who became an unexpected and immediate obstacle in the vehicle's path. The vehicle continued to brake, coming to a near stop or full stop by the 8.0s-9.0s mark, to ensure the safety of the individuals on the road.",
+  "key_objects": "1) Center of the road: A motorcycle, approximately 5-10 meters away, carrying a male driver, a female passenger, and a small child, suddenly losing balance and falling onto the road, creating an immediate obstruction. 2) Center of the road: A male motorcycle driver, a female motorcycle passenger, and a small child, approximately 5-10 meters away, falling onto the road after the motorcycle loses balance, posing a direct hazard.",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

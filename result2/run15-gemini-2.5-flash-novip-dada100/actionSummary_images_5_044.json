@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_044",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "A person on a bicycle or scooter, wearing a light-colored jacket, crosses the road from the right side of the image towards the left. Other pedestrians are visible on the sidewalks and crossing the street in the background.",
+  "summary": "The video captures a dashcam view from a vehicle driving on a wet urban road with moderate traffic. The weather appears overcast or rainy, as indicated by the active windshield wipers and wet road surface. As the vehicle approaches a pedestrian crossing, a person on a bicycle or scooter suddenly emerges from behind a line of parked cars on the right side of the road, darting directly into the vehicle's path. The vehicle rapidly decelerates to avoid a collision, allowing the person to cross safely. Other vehicles are present on both sides of the road, and tall buildings line the street.",
+  "actions": "The vehicle is initially moving forward at a moderate speed on a wet road. Upon the sudden appearance of a person on a bicycle/scooter from behind parked vehicles on the right side of the road, the vehicle rapidly decelerates and comes to a near stop. This action is taken to prevent a collision with the person who unexpectedly entered the vehicle's path, demonstrating a necessary defensive driving maneuver in response to an immediate hazard. The vehicle's wipers are active throughout the sequence, indicating the need for clear visibility due to rain or wet conditions.",
+  "key_objects": "1) Right side: A person on a bicycle/scooter, approximately 5-10 meters away, suddenly emerges from behind parked cars and crosses the vehicle's path, causing an immediate need for the vehicle to brake.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "acceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_005",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Negative",
+  "scene_theme": "Dangerous",
+  "characters": "The scene shows a rainy urban environment with numerous pedestrians, including children in school uniforms, and several vehicles including cars, buses, and motorcycles. Many pedestrians are carrying umbrellas. The weather is poor, with rain obscuring visibility.",
+  "summary": "The vehicle is driving on a wet road in rainy conditions. There are many pedestrians on the right side of the road, some crossing the street. A bus is on the left side of the road. The vehicle is approaching an intersection with parked cars on the right. A motorcycle is also present in the intersection. The road is wet and visibility is reduced due to the rain.",
+  "actions": "The vehicle is moving forward at a slow speed, likely due to the rainy conditions and the presence of pedestrians. The driver is maintaining a safe distance from the vehicles in front and is likely preparing to stop or slow down further due to the pedestrians crossing the road and the intersection ahead. The vehicle is driving slowly due to the poor weather conditions and the presence of pedestrians.",
+  "key_objects": "1) Right side: Group of pedestrians, medium distance, potential for crossing the road unexpectedly. 2) Left side: Bus, medium distance, moving in the same direction, potential obstruction of view. 3) Right side: Parked cars, short distance, obstructing view of pedestrians potentially crossing the road. 4) Center: Motorcycle in intersection, medium distance, potential for unexpected maneuvers.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

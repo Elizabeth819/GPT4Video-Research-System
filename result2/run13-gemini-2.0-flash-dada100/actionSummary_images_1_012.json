@@ -1,0 +1,18 @@
+{
+  "video_id": "images_1_012",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "14.0s",
+  "summary": "The self-driving car is moving forward on a city street with cars parked on the right side. From 0.0s to 4.0s, several people are walking between the parked cars. At 4.0s, a woman wearing a yellow shirt and black pants is walking from behind a white SUV parked on the right side of the road. From 10.0s to 14.0s, a woman wearing a light brown coat and carrying a bag is walking from behind a silver car parked on the right side of the road. These actions could lead to a collision if the car does not slow down or stop.",
+  "key_objects": [
+    "Right side: A woman wearing a yellow shirt and black pants, approximately 5 meters away, walking from behind a parked white SUV, potentially causing the vehicle to decelerate or stop.",
+    "Right side: A woman wearing a light brown coat and carrying a bag, approximately 4 meters away, walking from behind a parked silver car, potentially causing the vehicle to decelerate or stop."
+  ],
+  "actions": "The vehicle is driving straight on a city street with parked cars on the right. The vehicle maintains a consistent speed, likely due to the presence of other vehicles ahead and the urban environment. The driver is likely monitoring the road for pedestrians and other potential hazards.",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep straight",
+    "lane_control": "keep straight"
+  },
+  "key_actions": "ghost probing"
+}

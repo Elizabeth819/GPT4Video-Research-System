@@ -1,0 +1,18 @@
+{
+  "video_id": "images_5_055",
+  "segment_id": "full_video",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Dangerous",
+  "scene_theme": "Dangerous",
+  "characters": "Initially, a person wearing a pink top is seen walking on the left side of the road. Later, several adults are observed standing and interacting near parked cars on the right side of the road. Towards the end of the segment, a person wearing a dark jacket and sunglasses is seen riding a blue scooter/motorcycle, emerging from the right side of the central median.",
+  "summary": "The video segment begins with the autonomous vehicle driving on a street lined with buildings and parked cars. A pedestrian is initially seen walking on the left side of the road. As the vehicle progresses, it encounters a section on the right side of the road where several cars are parked and multiple individuals are gathered, suggesting a potential obstruction or a social interaction. The vehicle navigates past this area, transitioning onto a wider road characterized by a central median with lush green bushes. At the 10.0-second mark, a person riding a scooter or motorcycle suddenly emerges from behind these bushes on the right side of the central median, darting into the vehicle's potential path, creating an immediate hazard.",
+  "actions": "The vehicle initially proceeds forward on a street with parked cars. As it approaches a cluster of parked vehicles and pedestrians gathered on the right side of the road (between 2.0s and 6.0s), the vehicle appears to slow down and carefully navigate this potentially congested area. This action is taken to ensure pedestrian safety and to avoid collision with parked vehicles or individuals. After passing this section, the vehicle transitions onto a wider road, maintaining its forward movement. The sudden appearance of a scooter at 10.0s indicates an immediate need for the driver to react to avoid a collision.",
+  "key_objects": "1) Position: Right side of the road: A central median with dense green bushes, approximately 5-10 meters ahead, acting as a significant visual obstruction. 2) Position: Right side of the road: A person riding a blue scooter/motorcycle, approximately 5-10 meters ahead, suddenly emerging from behind the central median's bushes, directly entering the vehicle's path.",
+  "key_actions": "ghost probing",
+  "next_action": {
+    "speed_control": "rapid deceleration",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

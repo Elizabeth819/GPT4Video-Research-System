@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_38_006",
+        "segment_id": "Segment_001",
+        "Start_Timestamp": "1.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "10.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, truck driver",
+        "summary": "In this segment, the vehicle is driving on a busy urban road. A large truck is on the left side, and a white sedan is ahead in the same lane. The truck is moving slowly, and the white sedan is maintaining a steady speed. The traffic is dense, and the self-driving vehicle is closely following the white sedan.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed, closely following the white sedan ahead. The vehicle is keeping a safe distance from the truck on the left side, ensuring it does not cut into the lane.",
+        "key_objects": "1) Left side: A large truck, approximately 2 meters away, moving slowly. 2) Front: A white sedan, approximately 5 meters away, maintaining a steady speed.",
+        "key_actions": "none",
+        "next_action": {
+            "speed_control": "consistent speed driving",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

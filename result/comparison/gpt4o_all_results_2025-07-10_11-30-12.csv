@@ -1,0 +1,6 @@
+video_id,ground_truth,gt_normalized,gpt4o_prediction,gpt4o_correct
+images_5,none,none,none,True
+images_3,none,none,ghost probing,False
+images_1,none,none,ghost probing,False
+images_4,none,none,none,True
+images_2,none,none,ghost probing,False

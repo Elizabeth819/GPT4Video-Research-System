@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "dada_2_004",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.5s",
+        "scene_theme": "Dramatic",
+        "characters": "Pedestrians, Cyclist",
+        "summary": "In this segment, the vehicle is driving through a busy urban area. Several pedestrians and a cyclist are visible in the frames. The pedestrians are crossing the road, and the cyclist is moving towards the vehicles path.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while navigating through the urban area. The vehicle is likely slowing down to avoid potential collisions with pedestrians and the cyclist.",
+        "key_objects": "1) Front: A pedestrian in a red jacket, approximately 5 meters away, running across the road. 2) Left: Two pedestrians in blue jackets, approximately 10 meters away, walking towards the road. 3) Right: A cyclist, approximately 3 meters away, moving towards the vehicles path.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    }
+]

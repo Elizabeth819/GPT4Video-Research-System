@@ -1,0 +1,80 @@
+[
+    {
+        "video_id": "dada_10_008",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "End_Timestamp": "5.0s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A young boy, wearing a light blue shirt, is riding a scooter.",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "The boy is riding his scooter across the road, directly in front of the vehicle. He appears to be moving at a moderate speed, and his actions are unpredictable."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "Male",
+                "age": "Approximately 8-10 years old",
+                "clothing": "Light blue shirt",
+                "transportation_method": "Scooter",
+                "behavior": "Riding scooter across the road, directly in front of the vehicle.  Movement appears moderate but unpredictable."
+            }
+        ],
+        "summary": "The video shows a car driving on a wet road in light rain.  A young boy, approximately 8-10 years old, wearing a light blue shirt, is riding a scooter across the road directly in front of the vehicle. The boy's actions are unpredictable, creating a potential ghost probing scenario. The boy is approximately 5 meters away from the vehicle at the start of the sequence and appears to be moving at a moderate pace. The road is wet due to rain, potentially affecting braking distance.",
+        "actions": "The vehicle maintains a consistent speed throughout the 5-second sequence.  There is no indication of braking or acceleration. The vehicle's path remains straight, suggesting no need for steering adjustments. The consistent speed and straight path suggest the driver is maintaining a safe and cautious approach given the wet road conditions.",
+        "next_action": {
+            "speed_control": "braking",
+            "direction_control": "straight",
+            "lane_control": "keep straight"
+        }
+    },
+    {
+        "video_id": "dada_10_008",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "End_Timestamp": "8.3s",
+        "key_objects": [
+            {
+                "Position": "Center",
+                "Object description": "A young boy, wearing a blue shirt and dark pants, riding a scooter",
+                "distance": "5",
+                "behavior or action impacting the vehicle": "The boy is riding his scooter across the road from right to left, directly in front of the vehicle.  His speed is moderate, but he is not paying attention to the oncoming traffic."
+            }
+        ],
+        "key_actions": "ghost probing",
+        "characters": [
+            {
+                "gender": "male",
+                "age": "approximately 8-10 years old",
+                "clothing": "blue shirt, dark pants",
+                "transportation_method": "scooter",
+                "behavior": "Riding scooter across the road from right to left, not paying attention to traffic."
+            }
+        ],
+        "summary": "The video shows a car driving down a city street in rainy conditions. At approximately 5 seconds, a young boy on a scooter suddenly crosses the road from right to left directly in front of the car. The boy is wearing a blue shirt and dark pants and appears to be 8-10 years old. He is not paying attention to the traffic and crosses at a moderate speed. This action constitutes a 'ghost probing' event, creating a significant risk of collision. The car is forced to brake to avoid hitting the boy. The road is wet, and there are buildings and shops on both sides of the street. Traffic is light.",
+        "actions": "The vehicle maintains a steady speed until approximately 5 seconds, at which point the driver brakes to avoid a collision with a child on a scooter crossing the road. The braking action is sudden but controlled, indicating a responsive reaction to the unexpected appearance of the child.",
+        "next_action": {
+            "speed_control": "maintain speed",
+            "direction_control": "keep straight",
+            "lane_control": "keep in current lane"
+        }
+    },
+    {
+        "video_id": "dada_10_008",
+        "segment_id": "segment_002",
+        "Start_Timestamp": "10.0s",
+        "End_Timestamp": "12.2s",
+        "key_objects": [],
+        "key_actions": "none",
+        "characters": [],
+        "summary": "The video shows a stationary scene from a car's dashboard camera.  Over the 2.2-second period, there are no significant changes in the environment or the position of the vehicle. A van is parked on the right side of the road, ahead of the recording vehicle. No pedestrians or other vehicles are observed moving in a way that would pose an immediate threat. The scene remains static throughout the observed timeframe.",
+        "actions": "The vehicle remains stationary throughout the 2.2-second video segment. There is no indication of acceleration, braking, or steering adjustments. The driver appears to be waiting or observing the traffic situation ahead.",
+        "next_action": {
+            "speed_control": "maintain_speed",
+            "direction_control": "keep_straight",
+            "lane_control": "keep_lane"
+        }
+    }
+]

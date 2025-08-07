@@ -1,0 +1,38 @@
+[
+    {
+        "video_id": "dada_40_086",
+        "segment_id": "segment_000",
+        "Start_Timestamp": "0.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "5.0s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan",
+        "summary": "In this segment, the vehicle is driving on a highway. Initially, the road is clear with no immediate obstacles. As the vehicle progresses, a black sedan on the left side suddenly moves into the lane, causing a potential cut-in situation. Later, a large truck on the right side is overtaking the vehicle, moving ahead and occupying the lane.",
+        "actions": "The self-driving vehicle is maintaining a consistent speed initially. Upon noticing the black sedans cut-in from the left lane, the vehicle decelerates to avoid collision. Subsequently, the vehicle maintains a safe distance from the truck overtaking on the right side.",
+        "key_objects": "1) Left side: A black sedan, approximately 5 meters away, moving into the self-vehicles lane abruptly. 2) Right side: A large truck, approximately 10 meters away, overtaking the self-vehicle and moving ahead.",
+        "key_actions": "cut-in, right-side overtaken",
+        "next_action": {
+            "speed_control": "decelerate",
+            "direction_control": "keep direction",
+            "lane_control": "maintain current lane"
+        }
+    },
+    {
+        "video_id": "dada_40_086",
+        "segment_id": "segment_001",
+        "Start_Timestamp": "5.0s",
+        "sentiment": "Negative",
+        "End_Timestamp": "7.8s",
+        "scene_theme": "Dramatic",
+        "characters": "Driver of a white sedan, motorcyclist",
+        "summary": "In this segment, the vehicle is driving on a city road. A white sedan is seen on the left side of the road, and a motorcyclist is ahead in the same lane. The motorcyclist appears to lose control and falls onto the road, causing a potential hazard.",
+        "actions": "The self-driving vehicle is maintaining a steady speed while approaching the motorcyclist. As the motorcyclist falls, the vehicle needs to decelerate rapidly to avoid a collision.",
+        "key_objects": "1) Left side: A white sedan, approximately 10 meters away, moving forward. 2) Front: A motorcyclist, approximately 15 meters away, falling onto the road, creating an immediate hazard.",
+        "key_actions": "ghost probing",
+        "next_action": {
+            "speed_control": "rapid deceleration",
+            "direction_control": "steer to circumvent",
+            "lane_control": "slight left shift"
+        }
+    }
+]

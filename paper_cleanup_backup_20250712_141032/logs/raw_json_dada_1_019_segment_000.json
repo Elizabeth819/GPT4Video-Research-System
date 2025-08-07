@@ -1,0 +1,19 @@
+
+{
+    "video_id": "dada_1_019",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "sentiment": "Negative",
+    "End_Timestamp": "9.0s",
+    "scene_theme": "Dramatic",
+    "characters": "Man on the road",
+    "summary": "In this segment, the vehicle is driving on a rural road. A man on a bicycle suddenly appears from the right side of the road and falls in front of the vehicle, causing the vehicle to stop abruptly.",
+    "actions": "The self-driving vehicle had to stop abruptly to avoid hitting the man who fell from his bicycle directly in front of the vehicle. The vehicles speed decreased rapidly to avoid a collision.",
+    "key_objects": "1) Right side: A man on a bicycle, approximately 10 meters away, suddenly falls into the vehicles path, causing the vehicle to stop abruptly.",
+    "key_actions": "ghost probing",
+    "next_action": {
+        "speed_control": "stop",
+        "direction_control": "keep direction",
+        "lane_control": "maintain current lane"
+    }
+}

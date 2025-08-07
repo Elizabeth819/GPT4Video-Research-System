@@ -1,0 +1,18 @@
+{
+  "video_id": "images_3_002",
+  "segment_id": "segment_1",
+  "Start_Timestamp": "0.0s",
+  "End_Timestamp": "10.0s",
+  "sentiment": "Neutral",
+  "scene_theme": "Routine",
+  "characters": "A blue truck with license plate A537CV is in front of the car. A person on a bicycle wearing a red shirt is on the left side of the road. A person wearing a black shirt is walking on the right side of the road. A person on a scooter is on the right side of the road.",
+  "summary": "The vehicle is driving on a road with a blue truck in front. A person on a bicycle wearing a red shirt is on the left side of the road. A person wearing a black shirt is walking on the right side of the road. A person on a scooter is on the right side of the road. The road is clear and there are no immediate safety concerns.",
+  "actions": "The vehicle is maintaining a steady speed and following the blue truck in front. The driver is likely maintaining a safe following distance and observing the surrounding environment for any potential hazards. The vehicle is driving at a moderate speed, likely due to the presence of other vehicles and people in the vicinity.",
+  "key_objects": "none",
+  "key_actions": "none",
+  "next_action": {
+    "speed_control": "maintain speed",
+    "direction_control": "keep direction",
+    "lane_control": "maintain current lane"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "experiment_info": {
+    "run_id": "Run 8 Rerun",
+    "timestamp": "20250729_153713",
+    "video_count": 100,
+    "model": "GPT-4o (Azure)",
+    "prompt_version": "Paper_Batch Complex (4-Task) + Few-shot Examples",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "purpose": "重新运行验证：完整100视频测试最优Few-shot配置",
+    "ground_truth_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result/DADA-100-videos/labels.csv",
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/run8_gpt4o_ghost_probing_fewshot_100videos_results/rerun_corrected",
+    "prompt_characteristics": [
+      "4个详细任务",
+      "复杂验证流程",
+      "详细的few-shot examples",
+      "严格的分类标准",
+      "Temperature=0确保一致性",
+      "专注ghost probing检测",
+      "100视频完整评估",
+      "使用校正后labels.csv"
+    ]
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n  \"video_id\": \"images_1_001\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"One child running from the right side of the image towards the road, one pedestrian on the right side of the road, and one pedestrian on the left side of the road.\",\n  \"summary\": \"The sequence shows a vehicle driving down a road with parked cars and pedestrians on both sides. At 2 seconds, a child suddenly runs from the right side of the image towards the road, emerging from behind a physical obstruction (a covered structure). This creates an immediate collision risk. The child was not visible until the moment of emergence, making this a clear case of 'ghost probing'.\",\n  \"actions\": \"The child runs from the right side of the image towards the road, creating an immediate danger. The pedestrian on the right side of the road is walking along the sidewalk, and the pedestrian on the left side of the road is standing still.\",\n  \"key_objects\": \"A child running from the right side of the image, a covered structure on the right side of the road, parked cars on both sides of the road, and pedestrians on both sides of the road.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_002\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Several pedestrians observed, including a child running across the road from the left side, a cyclist on the left side, and a group of people on the right side of the road.\",\n  \"summary\": \"The video sequence shows a vehicle driving down a road with several pedestrians and a cyclist present. At around 6 seconds, a child suddenly runs across the road from the left side, emerging from behind a physical obstruction (a building). This creates an immediate collision risk.\",\n  \"actions\": \"The vehicle is moving forward at a steady pace. A child suddenly runs across the road from the left side, creating a dangerous situation. The driver needs to take immediate action to avoid a collision.\",\n  \"key_objects\": \"Pedestrians on both sides of the road, a cyclist on the left side, buildings and other physical obstructions on the left side.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_003\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"One child and one adult. The child is wearing a light-colored jacket and the adult is wearing a pink jacket. The child suddenly appears from the left side of the image and runs into the road, followed by the adult who rushes to assist the child after the incident.\",\n  \"summary\": \"The video sequence shows a vehicle driving at night on a road with street vendors on both sides. At around 3 seconds, a child suddenly runs into the road from the left side, emerging from behind a parked vehicle, which creates a visual obstruction. The child is hit by the observer vehicle, and an adult rushes to the child's aid.\",\n  \"actions\": \"The child runs into the road from the left side, followed by the adult who assists the child after the collision.\",\n  \"key_objects\": \"Parked vehicles on both sides of the road, street vendors, street lights, and the child who runs into the road.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "key_actions": "no ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n  \"video_id\": \"images_1_004\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Cautious\",\n  \"scene_theme\": \"Safe\",\n  \"characters\": \"Two pedestrians on the right side of the road, one cyclist on the left side of the road, and a few vehicles in the distance.\",\n  \"summary\": \"The video sequence shows a vehicle driving on a relatively empty road with clear visibility. There are two pedestrians walking on the right side of the road and a cyclist on the left side. The road is straight with no immediate obstructions or intersections. The pedestrians and cyclist are visible throughout the sequence, and there are no sudden movements or emergences from behind obstructions.\",\n  \"actions\": \"The vehicle maintains a steady speed and direction. The pedestrians and cyclist continue their respective paths without any sudden changes in movement.\",\n  \"key_objects\": \"Pedestrians on the right side, cyclist on the left side, parked vehicles on the right side, and a few moving vehicles in the distance.\",\n  \"key_actions\": \"no ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"maintain\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_005\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Multiple pedestrians, including children and adults, mostly on the right side of the image. Some pedestrians are crossing the road from the left to the right side.\",\n  \"summary\": \"The video sequence shows a busy street with multiple vehicles and pedestrians. A red car is in front of the observer vehicle, and there are several buses and other cars on the road. Pedestrians, including children, are crossing the street from the left to the right side, often emerging from behind parked vehicles and other obstructions.\",\n  \"actions\": \"The red car in front is moving slowly. Pedestrians are crossing the street, some of them suddenly appearing from behind parked cars and buses, creating potential collision risks.\",\n  \"key_objects\": \"Red car in front, multiple pedestrians with umbrellas, parked cars on both sides, buses on the left side of the image.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_006.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_006\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Multiple motorcyclists on the left side, pedestrians on the left side, a pedestrian crossing the road from the right side in the last frame.\",\n  \"summary\": \"The video sequence shows a busy urban street with multiple motorcyclists and pedestrians. Initially, motorcyclists are seen on the left side of the image. As the sequence progresses, the observer vehicle moves forward, and a pedestrian suddenly appears from the right side of the image, crossing the road in front of the vehicle. This pedestrian was previously hidden by a parked vehicle, creating a sudden and immediate collision risk.\",\n  \"actions\": \"Motorcyclists moving forward on the left side, pedestrian crossing from the right side in the last frame.\",\n  \"key_objects\": \"Motorcycles on the left side, parked vehicles on both sides, a pedestrian crossing from the right side.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_007.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "no ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_007\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Cautious\",\n  \"scene_theme\": \"Safe\",\n  \"characters\": \"Multiple pedestrians observed on both sides of the road, including a person on the right side near a white truck, and several pedestrians walking along the sidewalks.\",\n  \"summary\": \"The video sequence shows a vehicle driving down a tree-lined street with multiple parked cars on both sides. Pedestrians are visible on both sides of the road, walking along the sidewalks. No sudden movements or emergences from behind obstructions are observed.\",\n  \"actions\": \"The vehicle maintains a steady speed and lane position. Pedestrians are walking along the sidewalks without entering the driving lane.\",\n  \"key_objects\": \"Parked cars on both sides of the road, pedestrians on sidewalks, traffic signs indicating pedestrian crossings.\",\n  \"key_actions\": \"no ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"maintain\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_008.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "no ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_008\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Cautious\",\n  \"scene_theme\": \"Cautious\",\n  \"characters\": \"Two pedestrians on the right side of the image, one adult and one child, both standing near a parked vehicle. A cyclist is also visible on the right side of the image, moving forward.\",\n  \"summary\": \"The video sequence shows a vehicle driving down a road with parked vehicles on both sides. Two pedestrians, an adult and a child, are standing near a parked vehicle on the right side. A cyclist is also visible on the right side, moving forward. The parked vehicles create potential visual obstructions.\",\n  \"actions\": \"The vehicle is moving forward. The pedestrians are stationary, and the cyclist is moving forward on the right side of the road.\",\n  \"key_objects\": \"Parked vehicles on both sides of the road, two pedestrians on the right side, a cyclist on the right side.\",\n  \"key_actions\": \"no ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"decelerate\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_009.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n  \"video_id\": \"images_1_009\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Two pedestrians, one adult and one child, crossing the road from right to left.\",\n  \"summary\": \"The video sequence shows a vehicle driving on a well-lit road at night. At the beginning of the sequence, two pedestrians, an adult and a child, suddenly appear from the right side of the road and start crossing towards the left. The pedestrians were initially obscured by the trees and bushes on the right side, making their sudden appearance unexpected. The vehicle does not seem to slow down in time, resulting in a collision with the adult pedestrian.\",\n  \"actions\": \"The adult and child pedestrians are crossing the road from right to left. The vehicle continues moving forward without significant deceleration.\",\n  \"key_objects\": \"Two pedestrians (adult and child) crossing the road, trees and bushes on the right side of the road creating a visual obstruction.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_011.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_011\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Cautious\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Several pedestrians, including a group of people near a gas station on the right side of the road, and a person crossing the road from the right side.\",\n  \"summary\": \"The video sequence shows a vehicle driving on a two-lane road with parked cars on both sides. The road is lined with trees and bushes, creating potential visual obstructions. As the vehicle progresses, a person suddenly appears from behind a parked car on the right side and starts crossing the road, creating an immediate collision risk.\",\n  \"actions\": \"The vehicle is moving forward at a steady pace. At around 8 seconds, a person emerges from behind a parked car on the right side and begins to cross the road, necessitating immediate braking to avoid a collision.\",\n  \"key_objects\": \"Parked cars on both sides of the road, trees and bushes creating visual obstructions, a gas station on the right side with several pedestrians, and a person crossing the road from the right side.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_012.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_012\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Cautious\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Two pedestrians, one adult male and one child, observed crossing the street from right to left. The adult male is wearing a light-colored shirt and dark pants, while the child is wearing a bright yellow jacket.\",\n  \"summary\": \"The video sequence shows a vehicle driving down a street with parked cars on both sides. At around 1 second, two pedestrians, an adult male and a child, suddenly emerge from behind a parked white SUV on the right side and start crossing the street. This is a clear case of 'ghost probing' as the pedestrians were completely hidden by the parked vehicle until the moment of emergence, creating an immediate collision risk.\",\n  \"actions\": \"The vehicle is moving forward at a steady pace. The pedestrians suddenly appear from behind a parked car on the right side and start crossing the street, causing a potential collision risk.\",\n  \"key_objects\": \"Parked cars on both sides of the street, two pedestrians crossing from right to left, a white SUV on the right side that obstructed the view of the pedestrians.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_013.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_013\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Two pedestrians, one adult and one child, both on the right side of the road. The adult is wearing a yellow and green outfit, and the child is wearing a blue outfit.\",\n  \"summary\": \"The video sequence shows a vehicle driving on a rural road with trees on both sides. Initially, the road is clear, but as the vehicle progresses, a green bus appears from the opposite direction. The bus moves towards the center of the road, creating a potential collision risk. Suddenly, two pedestrians, an adult and a child, emerge from the right side of the road, directly in front of the vehicle, causing an immediate danger.\",\n  \"actions\": \"The vehicle is moving forward on a clear road. A green bus appears from the opposite direction, moving towards the center of the road. Two pedestrians suddenly emerge from the right side of the road, directly in front of the vehicle.\",\n  \"key_objects\": \"Green bus moving towards the center of the road, two pedestrians emerging from the right side of the road.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_014.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_014\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Three adults on the right side of the first frame, a child running across the road from right to left in the sixth frame, and a pedestrian on the left side of the road in the seventh frame.\",\n  \"summary\": \"The video sequence shows a vehicle driving through a narrow road with buildings and various obstructions on the right side. Initially, three adults are seen on the right side of the road. As the vehicle progresses, a child suddenly runs across the road from the right side, emerging from behind a physical obstruction (a building). This sudden appearance creates an immediate collision risk. The child continues to run across the road, and by the last frame, the child is almost out of the vehicle's path.\",\n  \"actions\": \"The vehicle is moving forward on a narrow road. Initially, there are three adults on the right side. As the vehicle moves forward, a child suddenly runs across the road from right to left, emerging from behind a building. The child continues to run across the road, creating a potential collision risk.\",\n  \"key_objects\": \"Buildings on the right side, various obstructions such as construction materials, a child running across the road, and a pedestrian on the left side of the road.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_015.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_015\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Multiple characters observed: 1) A cyclist on the right side of the road, 2) Two pedestrians on the right side of the road, 3) A child on the left side of the road, 4) A bus driver in a blue bus, 5) A motorcyclist on the right side of the road.\",\n  \"summary\": \"The video sequence shows a vehicle approaching an intersection with multiple obstructions on both sides. Initially, a cyclist is seen on the right side of the road. As the vehicle moves forward, two pedestrians appear on the right side, and a child suddenly emerges from the left side of the road, directly in front of the vehicle. A blue bus also enters the scene from the left side, creating additional visual obstructions.\",\n  \"actions\": \"The vehicle is moving forward towards an intersection. The cyclist on the right is moving away from the vehicle. Two pedestrians on the right are stationary. The child on the left suddenly runs into the road, creating an immediate collision risk. The blue bus on the left is moving across the intersection.\",\n  \"key_objects\": \"1) Cyclist on the right side of the road, 2) Two pedestrians on the right side of the road, 3) Child on the left side of the road, 4) Blue bus on the left side of the road, 5) Multiple parked vehicles creating visual obstructions.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_016.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_016\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"One pedestrian, an elderly woman wearing a red coat, crossing the road from right to left.\",\n  \"summary\": \"The video sequence shows a vehicle traveling on a multi-lane road. Initially, the road appears clear with a red car on the left and a brown car in front. As the sequence progresses, an elderly woman in a red coat suddenly emerges from the right side of the road, crossing from right to left. This pedestrian was initially obscured by the roadside barrier and vegetation, making her sudden appearance a case of 'ghost probing'. The pedestrian crosses the path of the brown car in front, creating an immediate collision risk.\",\n  \"actions\": \"The elderly woman suddenly appears from behind the roadside barrier and vegetation, crossing the road from right to left. The brown car in front slows down to avoid a collision.\",\n  \"key_objects\": \"Red car on the left, brown car in front, elderly woman in red coat crossing the road, roadside barrier, and vegetation.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_017.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "no ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_017\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Cautious\",\n  \"scene_theme\": \"Cautious\",\n  \"characters\": \"Multiple drivers in vehicles, including a bus driver on the left, a car driver on the right, and other drivers in the distance.\",\n  \"summary\": \"The video sequence shows a vehicle driving on a road with multiple lanes. There are two buses, one on the left and one on the right, creating a narrow passage for the observer vehicle. A car on the right side is moving into the lane, potentially causing a collision. The observer vehicle needs to navigate carefully to avoid any sudden movements from the vehicles around it.\",\n  \"actions\": \"The car on the right is moving into the lane, and the buses on both sides are creating a narrow passage. The observer vehicle is maintaining a steady speed but needs to be cautious of the car on the right.\",\n  \"key_objects\": \"Two buses (one on the left and one on the right), a car on the right side moving into the lane, and other vehicles in the distance.\",\n  \"key_actions\": \"no ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"decelerate\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_018.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n  \"video_id\": \"images_1_018\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Cautious\",\n  \"characters\": \"Two pedestrians, likely adults, crossing the road from right to left. One pedestrian is wearing a hat and light-colored clothing, while the other is wearing darker clothing.\",\n  \"summary\": \"The video sequence shows a vehicle driving down a street with parked cars on both sides. At around 4 seconds, two pedestrians suddenly emerge from behind a parked white car on the right side and start crossing the road. This creates a potential collision risk as they were previously hidden by the parked car, fitting the description of 'ghost probing'.\",\n  \"actions\": \"The vehicle is moving forward at a steady pace. At around 4 seconds, two pedestrians suddenly appear from behind a parked car on the right side and start crossing the road. The vehicle needs to take immediate action to avoid a collision.\",\n  \"key_objects\": \"Parked cars on both sides of the road, two pedestrians crossing from right to left, moving vehicles ahead.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_019.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n  \"video_id\": \"images_1_019\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"One adult male cyclist, wearing a blue jacket, who falls off his bicycle and lands on the road. There are also pedestrians visible in the background.\",\n  \"summary\": \"The video sequence shows a cyclist on the right side of the road who suddenly loses control and falls off his bicycle, landing directly in the path of the observer vehicle. The cyclist emerges from behind a physical obstruction (a building) and falls with minimal reaction time for the driver, creating an immediate danger of collision.\",\n  \"actions\": \"The cyclist loses control and falls onto the road from the right side, directly in front of the observer vehicle. The observer vehicle needs to take immediate action to avoid a collision.\",\n  \"key_objects\": \"Cyclist, bicycle, building on the right side of the road, pedestrians in the background.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_021.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_021\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Multiple pedestrians observed, including a person in a yellow jacket on the right side, a person in a blue jacket on the right side, and a person in a white shirt crossing the road from left to right.\",\n  \"summary\": \"The video sequence shows a vehicle driving on a wet road with a bus on the left side and multiple pedestrians on the right side. At around 4 seconds, a pedestrian in a white shirt suddenly crosses the road from left to right, emerging from behind the bus, which creates a visual obstruction. This sudden appearance poses an immediate collision risk.\",\n  \"actions\": \"The vehicle is moving forward with a bus on the left side. Pedestrians are visible on the right side. At around 4 seconds, a pedestrian suddenly crosses the road from left to right, emerging from behind the bus.\",\n  \"key_objects\": \"Bus on the left side, multiple pedestrians on the right side, pedestrian in white shirt crossing the road.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_022.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_022\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"One pedestrian, male, adult, wearing a blue shirt and white pants, crossing the road from right to left in the last frame.\",\n  \"summary\": \"The video sequence shows a vehicle driving on a multi-lane road with parked cars on the right side. The vehicle approaches an intersection with a pedestrian crossing. In the final frame, a pedestrian suddenly appears from the right side, crossing the road in front of the vehicle.\",\n  \"actions\": \"The vehicle is moving forward at a steady speed. The pedestrian suddenly appears from the right side, crossing the road in front of the vehicle, creating a potential collision risk.\",\n  \"key_objects\": \"Multiple parked cars on the right side, a pedestrian crossing the road from right to left in the last frame.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_010.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_010\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"One cyclist, middle-aged, wearing a grey jacket, emerging from the right side of the image.\",\n  \"summary\": \"The video sequence shows a vehicle driving on a road with a high wall on the right side, creating a visual obstruction. At around 6 seconds, a cyclist suddenly emerges from behind the wall on the right side, entering the driving lane. This is a clear case of 'ghost probing' as the cyclist was completely hidden by the wall until the moment of emergence, creating an immediate collision risk.\",\n  \"actions\": \"The vehicle is moving straight, and the cyclist suddenly appears from the right side, crossing the path of the vehicle.\",\n  \"key_objects\": \"High wall on the right side creating a visual obstruction, cyclist emerging from behind the wall, multiple vehicles on the road.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_020.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "no ghost probing",
+      "evaluation": "FN",
+      "raw_result": "{\n  \"video_id\": \"images_1_020\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Cautious\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"One motorcyclist on the right side of the road, wearing a white shirt and a helmet. No other pedestrians or cyclists visible.\",\n  \"summary\": \"The sequence shows a vehicle driving at night on a well-lit road. Initially, a motorcyclist is seen on the right side of the road. The motorcyclist maintains a steady speed and position relative to the observer vehicle. As the sequence progresses, the motorcyclist moves further ahead and eventually out of the frame. The road is clear of other vehicles or pedestrians, and there are no sudden movements or obstructions that would indicate ghost probing behavior.\",\n  \"actions\": \"The motorcyclist on the right side of the road maintains a steady speed and position. The observer vehicle continues to move forward without any sudden changes in speed or direction.\",\n  \"key_objects\": \"Motorcyclist on the right side of the road, streetlights, and road markings.\",\n  \"key_actions\": \"no ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"maintain\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_023.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n  \"video_id\": \"images_1_023\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Multiple pedestrians of various ages, including adults and possibly teenagers, crossing the street from left to right and right to left. One pedestrian is seen lying on the road in the later frames, indicating a potential accident.\",\n  \"summary\": \"The video sequence shows a busy urban street with multiple pedestrians crossing the road from both sides. Initially, pedestrians are seen crossing from left to right and right to left. A silver car is visible in the middle lane. In the later frames, a pedestrian is seen lying on the road, indicating a potential collision or accident. The scene becomes clear of pedestrians towards the end of the sequence.\",\n  \"actions\": \"Pedestrians crossing the road, a pedestrian lying on the road indicating a potential accident, vehicles moving in the background.\",\n  \"key_objects\": \"Pedestrians, silver car in the middle lane, other vehicles in the background, road markings, and traffic signs.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_024.avi",
+      "ground_truth": "none",
+      "key_actions": "no ghost probing",
+      "evaluation": "TN",
+      "raw_result": "{\n  \"video_id\": \"images_1_024\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Cautious\",\n  \"characters\": \"No pedestrians or cyclists observed. Only vehicles are present.\",\n  \"summary\": \"The sequence shows a vehicle driving on a relatively clear road with another car in front. The car in front is initially in the same lane but then moves to the left lane. The observer vehicle continues straight without any sudden changes in speed or direction. There are no pedestrians or cyclists visible in the frames.\",\n  \"actions\": \"The car in front moves to the left lane, and the observer vehicle continues straight.\",\n  \"key_objects\": \"The key objects are the observer vehicle and the car in front. The car in front moves from the right lane to the left lane.\",\n  \"key_actions\": \"no ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"maintain\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_025.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n  \"video_id\": \"images_1_025\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Two pedestrians, one adult and one child, both wearing jackets. The adult is on the left side of the road, and the child suddenly runs from the left side of the road to the right side.\",\n  \"summary\": \"The video sequence shows a vehicle driving on a road with mountains on both sides. Initially, two pedestrians are visible on the left side of the road. At 1 second, the child suddenly runs across the road from left to right, creating an immediate collision risk.\",\n  \"actions\": \"The child runs from the left side of the road to the right side, crossing the path of the vehicle. The adult remains on the left side of the road.\",\n  \"key_objects\": \"Two pedestrians (one adult, one child), road, mountains, guardrails on both sides of the road.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_026.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n  \"video_id\": \"images_1_026\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"One pedestrian, likely an adult, wearing a pink shirt and carrying a yellow bag, crossing from the left side of the image to the right side.\",\n  \"summary\": \"The video sequence shows a busy urban street at night. A white car is seen moving from the right side of the image to the left side. A motorcyclist is also visible, moving from the left side to the right side. Suddenly, a pedestrian emerges from the left side of the image, crossing the street in front of the observer vehicle. The pedestrian was initially obscured by the white car, creating a potential collision risk.\",\n  \"actions\": \"The white car moves from right to left, the motorcyclist moves from left to right, and a pedestrian suddenly crosses from left to right, emerging from behind the white car.\",\n  \"key_objects\": \"White car moving from right to left, motorcyclist moving from left to right, pedestrian crossing from left to right.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_027.avi",
+      "ground_truth": "ghost_probing",
+      "key_actions": "no ghost probing",
+      "evaluation": "FN",
+      "raw_result": "{\n  \"video_id\": \"images_1_027\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Cautious\",\n  \"scene_theme\": \"Safe\",\n  \"characters\": \"No pedestrians or cyclists observed in the sequence.\",\n  \"summary\": \"The video sequence shows a vehicle driving through a narrow road with buildings on the right side and parked cars on the left side. The road is clear, and there are no pedestrians or cyclists visible. The vehicle maintains a steady speed and direction throughout the sequence.\",\n  \"actions\": \"The vehicle is driving straight along a narrow road with buildings on the right and parked cars on the left. No sudden movements or obstructions are observed.\",\n  \"key_objects\": \"Parked cars on the left side of the road, buildings on the right side of the road, a truck parked ahead on the left side near a gas station.\",\n  \"key_actions\": \"no ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"maintain\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_2_001.avi",
+      "ground_truth": "none",
+      "key_actions": "no ghost probing",
+      "evaluation": "TN",
+      "raw_result": "{\n  \"video_id\": \"images_2_001\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Cautious\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Multiple pedestrians and cyclists of various ages, including adults and possibly teenagers. They are moving in different directions, some walking, some riding bicycles or scooters. Most are on the left side of the image, with a few on the right side.\",\n  \"summary\": \"The video sequence shows a busy street with numerous pedestrians and cyclists. The observer vehicle is moving slowly through a crowded area. Pedestrians and cyclists are present on both sides of the street, with some crossing the path of the vehicle. The scene is chaotic with potential for sudden movements from any direction.\",\n  \"actions\": \"Pedestrians and cyclists are moving in various directions. Some are crossing the street, while others are walking along the sides. A few cyclists are riding close to the vehicle's path. The observer vehicle is moving slowly, navigating through the crowd.\",\n  \"key_objects\": \"Pedestrians, cyclists, scooters, parked vehicles, and street vendors. The pedestrians and cyclists are the most dynamic elements, moving unpredictably.\",\n  \"key_actions\": \"no ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"decelerate\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_2_002.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n  \"video_id\": \"images_2_002\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Multiple adults, including a man in a black jacket and blue jeans, a woman in a red coat, and other individuals standing and walking on the left side of the road. A man in a black jacket and blue jeans suddenly appears in front of the vehicle.\",\n  \"summary\": \"The video sequence shows a vehicle driving on a narrow road with several pedestrians on the left side. At 7 seconds, a man in a black jacket and blue jeans suddenly appears in front of the vehicle, emerging from the left side of the road. This sudden appearance creates an immediate collision risk.\",\n  \"actions\": \"The vehicle is moving forward on a narrow road. Pedestrians are visible on the left side of the road. At 7 seconds, a man suddenly appears in front of the vehicle, causing a potential collision situation.\",\n  \"key_objects\": \"Pedestrians on the left side of the road, a man in a black jacket and blue jeans who suddenly appears in front of the vehicle, parked vehicles on the right side of the road.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_2_003.avi",
+      "ground_truth": "none",
+      "key_actions": "ghost probing",
+      "evaluation": "FP",
+      "raw_result": "{\n  \"video_id\": \"images_2_003\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"One adult male pedestrian crossing from left to right, multiple pedestrians on the right side of the road, and a cyclist on the right side of the road.\",\n  \"summary\": \"The video sequence shows a vehicle approaching an intersection with multiple vehicles and pedestrians. A black SUV is seen on the left side of the image, and a pedestrian suddenly appears from behind a parked white van on the left side, crossing the road. The pedestrian is not visible until the last moment, creating an immediate collision risk. The observer vehicle needs to take immediate action to avoid hitting the pedestrian.\",\n  \"actions\": \"The pedestrian on the left side of the image suddenly crosses the road from left to right, emerging from behind a parked white van. The observer vehicle is approaching the intersection and needs to react quickly to avoid a collision.\",\n  \"key_objects\": \"Black SUV on the left, white van on the left, multiple parked vehicles on the right, pedestrian crossing from left to right, cyclist on the right side of the road.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"emergency brake\",\n    \"direction_control\": \"straight\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    }
+  ]
+}
