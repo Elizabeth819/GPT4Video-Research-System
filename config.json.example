@@ -1,0 +1,10 @@
+{
+  "subscription_id": "你的Azure订阅ID",
+  "resource_group": "你的资源组名称",
+  "workspace_name": "你的Azure ML工作区名称",
+  "compute_target": "drivemm-a100-cluster",
+  "experiment_name": "drivemm-inference",
+  "storage_account": "你的存储账户名称",
+  "container_name": "dada-videos",
+  "comment": "请复制此文件为 config.json 并填入实际的配置信息。config.json 已在 .gitignore 中，不会被提交到Git。"
+}
