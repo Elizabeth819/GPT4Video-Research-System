@@ -1,0 +1,23 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+experiment_name: drivelm-real-a100
+display_name: "DriveLM Real Analysis on A100"
+description: "DriveLM Graph VQA analysis on Azure ML A100 GPUs"
+
+compute: eliz-a100-1node-gpu-instance
+
+environment:
+  image: pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel
+
+command: python drivelm_azure_script.py
+
+code:
+  path: .
+  
+outputs:
+  results:
+    type: uri_folder
+    mode: rw_mount
+
+resources:
+  instance_count: 1

@@ -1,0 +1,10 @@
+{
+  "video_id": "images_1_001",
+  "video_path": "DADA-2000-videos/images_1_001.avi",
+  "timestamp": "2025-07-12T14:41:43.645129",
+  "method": "DriveLM_Style_Graph_VQA",
+  "status": "error",
+  "frames_extracted": 10,
+  "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+  "ghost_probing_detected": "UNKNOWN"
+}

@@ -1,0 +1,19 @@
+{
+  "comparison_name": "DriveLM_vs_AutoDrive-GPT",
+  "focus_task": "Ghost Probing Detection",
+  "evaluation_dataset": "DADA-2000 Ground Truth (97 videos)",
+  "metrics": [
+    "precision",
+    "recall",
+    "f1",
+    "accuracy",
+    "specificity"
+  ],
+  "analysis_dimensions": [
+    "Task-specific performance",
+    "Generalization capability",
+    "Reasoning methodology",
+    "Real-time applicability",
+    "Data requirements"
+  ]
+}

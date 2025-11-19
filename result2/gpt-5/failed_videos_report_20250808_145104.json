@@ -1,0 +1,130 @@
+{
+  "timestamp": "20250808_145104",
+  "original_file": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/gpt-5/gpt5_intermediate_30videos_20250808_133908.json",
+  "total_failed": 23,
+  "failed_videos": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_006.avi",
+      "ground_truth": "9s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_007.avi",
+      "ground_truth": "6s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_008.avi",
+      "ground_truth": "3s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_009.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_011.avi",
+      "ground_truth": "11s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_012.avi",
+      "ground_truth": "11s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_016.avi",
+      "ground_truth": "4s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_017.avi",
+      "ground_truth": "17s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_018.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_019.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_022.avi",
+      "ground_truth": "5s: ghost probing",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_023.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_024.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_025.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_1_026.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_2_001.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_2_002.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    },
+    {
+      "video_id": "images_2_003.avi",
+      "ground_truth": "none",
+      "reason": "API失败或超时"
+    }
+  ],
+  "analysis_summary": {
+    "main_error_types": [
+      "500 Server Error",
+      "API Timeout",
+      "Connection Error"
+    ],
+    "recommended_action": "重新运行失败的视频"
+  }
+}

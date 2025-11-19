@@ -1,0 +1,7 @@
+$schema: https://azuremlschemas.azureedge.net/latest/workspace.schema.json
+name: drivelm-workspace
+location: eastus2
+display_name: DriveLM Analysis Workspace
+description: Workspace for DriveLM video analysis on A100 GPUs
+hbi_workspace: false
+public_network_access: Enabled

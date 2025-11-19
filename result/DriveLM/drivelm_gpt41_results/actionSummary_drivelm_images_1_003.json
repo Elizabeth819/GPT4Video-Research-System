@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "dada_1_003",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dramatic",
+    "characters": "A young child and an adult woman (likely the child's guardian), several bystanders on the roadside, and multiple vehicle drivers.",
+    "summary": "At night, the ego vehicle is driving along a city street lined with market stalls and parked cars. Suddenly, a small child appears in the vehicle's direct path, having run out from the right side of the road. The child falls in the lane, creating an immediate collision risk. An adult woman rushes into the street to help the child, both ending up in the lane. The ego vehicle comes to a rapid stop to avoid hitting them. The situation is highly dangerous and requires emergency response.",
+    "actions": "The ego vehicle performs rapid deceleration and comes to a stop to avoid a collision. The driver is forced to react instantly to the sudden appearance of the child and adult in the lane.",
+    "key_objects": "1) Center lane, <3m ahead: Small child, suddenly appears and falls, creating immediate collision risk. 2) Right side, moves to center lane: Adult woman, rushes to aid child, also in vehicle's path. 3) Roadside: Parked white car, possible visual obstruction contributing to the ghost probing event. 4) Roadside: Market stalls and bystanders, potential for further unpredictable pedestrian movement.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "dada_1_003",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "10.5s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "A woman in a bright pink dress sitting in the middle of the right lane, possibly distressed or injured; other pedestrians visible on the sidewalk.",
+    "summary": "At night, the ego vehicle approaches a well-lit urban street. Suddenly, a woman is seen sitting in the middle of the right lane, very close to the vehicle's trajectory. Her presence is unexpected and creates an immediate collision risk. Other pedestrians are present on the sidewalk, but none are in the roadway. The situation requires an emergency response to avoid hitting the woman.",
+    "actions": "The vehicle must rapidly decelerate and come to a stop to avoid a collision with the woman sitting in the lane. Driver attention must be fully focused on emergency braking and potentially alerting other road users.",
+    "key_objects": "1) Position: Right lane, ~2-3m ahead of ego vehicle: Woman sitting on the road, directly in the vehicle's path, creating a critical hazard. 2) Position: Right curb, parked: White sedan, possible visual obstruction for pedestrians entering the road. 3) Position: Sidewalk, right: Pedestrians, no immediate impact but require monitoring.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

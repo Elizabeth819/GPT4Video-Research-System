@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "dada_1_002",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dramatic",
+    "characters": "Several pedestrians, including a child and adults, are present on and near the road. One child suddenly runs across the street.",
+    "summary": "The ego vehicle is driving through a village road with pedestrians visible ahead. As the vehicle approaches, a child suddenly runs from the right side of the road directly into the vehicle's path, creating an immediate collision risk. The driver is forced to perform emergency braking to avoid hitting the child. Other pedestrians remain on the sidewalk or roadside.",
+    "actions": "The vehicle maintains a moderate speed initially, then rapidly decelerates in response to the child running across the road. The driver executes emergency braking to avoid a collision.",
+    "key_objects": "1) Center-right, ~8-15m ahead: Two pedestrians (child and adult) walking along the roadside, initially not in the lane. 2) Right, <3m ahead (Frame 6): Child suddenly runs into the lane, directly in ego vehicle's path, causing critical risk. 3) Left roadside, ~10m ahead: Other pedestrians and a motorcycle, not directly impacting the ego vehicle's trajectory.",
+    "key_actions": "ghost probing (child suddenly appears and runs into the vehicle's path, requiring immediate emergency response)",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "dada_1_002",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "11.5s",
+    "sentiment": "Neutral",
+    "scene_theme": "Routine",
+    "characters": "No pedestrians visible on or near the road; distant vehicles ahead; no cyclists present.",
+    "summary": "The ego vehicle is traveling along a rural road with light traffic. There are a few vehicles ahead, but no immediate traffic participants or pedestrians in the ego lane or its vicinity. The road is straight, and there is a visible intersection warning sign, but no dynamic objects are entering the ego vehicle's path. No sudden appearances or high-risk behaviors are observed in this segment.",
+    "actions": "The vehicle maintains its speed and lane, proceeding straight ahead with no need for evasive maneuvers or emergency braking. The driver remains attentive, especially due to the intersection warning sign.",
+    "key_objects": "1) Position: Ego lane ahead, clear of obstacles, distance: immediate, behavior impact: none. 2) Position: Distant vehicles in the oncoming and same direction lanes, distance: >30m, behavior impact: low. 3) Position: Intersection warning sign on the right, distance: ~10m, behavior impact: prompts increased driver attention.",
+    "key_actions": "descriptive terms: normal traffic flow, no ghost probing detected",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

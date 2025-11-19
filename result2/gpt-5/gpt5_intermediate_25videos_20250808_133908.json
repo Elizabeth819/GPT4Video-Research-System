@@ -1,0 +1,190 @@
+{
+  "experiment_info": {
+    "run_id": "gpt-5-experiment",
+    "timestamp": "20250808_133908",
+    "video_count": 100,
+    "model": "GPT-5 (Azure)",
+    "prompt_version": "Paper_Batch Complex + Few-shot (file-based)",
+    "temperature": 1,
+    "max_completion_tokens": 3000,
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/gpt-5",
+    "note": "使用真正的 GPT-5 部署进行测试"
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_006.avi",
+      "ground_truth": "9s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_007.avi",
+      "ground_truth": "6s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_008.avi",
+      "ground_truth": "3s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_009.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_010.avi",
+      "ground_truth": "15s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_010.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"One adult male on foot in a dark jacket and dark pants on the right; a rider on a small scooter ahead near the right edge; several heavy trucks ahead toward the left.\",\n  \"summary\": \"Across 10 seconds on a sunny urban street, the view shows a long wall and shrubs on the right and shops on the left. Traffic ahead is moderate with multiple heavy trucks farther left. Mid-segment, a male on foot (approx. 35–45 years old, dark jacket, dark pants) suddenly bursts out from the right sidewalk area from behind the wall/hedges and sprints diagonally left into the lane at an estimated 4–5 m/s. He was fully hidden by the wall and vegetation until emergence, appearing just a few car-lengths ahead and then within 1–2 meters of the front bumper. A small scooter traveling ahead near the right edge remains farther forward and does not interfere. The sudden emergence directly into the lane presents an immediate collision risk consistent with ghost probing.\",\n  \"actions\": \"The vehicle proceeds straight at a steady urban speed on the right side of the roadway, maintaining lane as the scene is initially clear. When the male on foot suddenly emerges from behind the right-side wall and hedges into the lane very close ahead, the vehicle initiates hard braking to rapidly cut speed and avoid impact. Steering remains largely straight to preserve stability and because adjacent space is limited by traffic ahead on the left.\",\n  \"key_objects\": \"1) Right side: Adult male on foot wearing a dark jacket and dark pants, approximately 8–10 meters away at first appearance and closing to about 1–2 meters, sprinting from behind the wall/hedges into the lane, directly forcing the vehicle to brake. 2) Right side: Continuous wall with dense hedges, approximately 6–12 meters ahead along the curb, creating a visual obstruction that completely hid the man until he emerged, causing the ghost probing hazard.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_011.avi",
+      "ground_truth": "11s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_012.avi",
+      "ground_truth": "11s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_013.avi",
+      "ground_truth": "8s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_013.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"Adult female with black hair wearing a bright yellow vest over a green long-sleeve top on the right shoulder; two youngsters in red clothing walking further ahead on the right shoulder; driver of an oncoming green coach bus.\",\n  \"summary\": \"A rural two-lane road in daylight. The vehicle proceeds straight at moderate speed. An oncoming green coach approaches partially over the center, prompting the vehicle to keep right and slow. Immediately after the coach passes, a woman in a yellow vest and green top suddenly darts from the right shoulder from behind a roadside tree/bush into the lane at close range, giving almost no reaction time. This sudden emergence constitutes high-risk ghost probing with near-immediate collision potential.\",\n  \"actions\": \"The vehicle travels straight and slightly reduces speed as an oncoming coach narrows the lane, keeping right for clearance. As a close-range obstruction abruptly emerges from the right shoulder after the coach passes, the vehicle initiates emergency braking with a slight left bias to avoid impact while remaining in lane.\",\n  \"key_objects\": \"1) Right side: Adult female with black hair wearing a bright yellow vest over a green long-sleeve top, approximately 1 meter away, suddenly stepping from behind roadside foliage into the lane from right to left at a quick pace, forcing immediate braking (ghost probing trigger). 2) Right side: Roadside tree and bushes at the shoulder, approximately 1 meter away, creating a visual obstruction that hid the individual until she entered the lane, severely reducing reaction time.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"slight left adjustment\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_014.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_014.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Village street hazard\",\n  \"characters\": \"1) Young child (gender unclear) wearing a patterned beige/black top and bright red pants, small build, about 3–5 years old, running barefoot or in light shoes from the right-side storefront toward the road center. 2) Adult male on the left shoulder in dark jacket and jeans, standing and observing. 3) Red three-wheeled vehicle farther ahead in the opposite lane, slow-moving.\",\n  \"summary\": \"Over 10 seconds on a narrow village street, the vehicle travels forward with shops on the right and open fields on the left. As it nears a row of closed storefronts on the right, a young child wearing red pants suddenly bursts out from the right-side storefront area, previously hidden by the building facade and doorway, and runs leftward into the lane at an estimated 3–4 m/s. This abrupt emergence creates an immediate ghost probing risk at close range (about 6 m ahead). The driver responds by hard braking while holding a straight line. The oncoming red three-wheeler remains distant and does not immediately conflict after the braking.\",\n  \"actions\": \"The vehicle proceeds at low-to-moderate speed along the straight village road. Upon detecting an immediate close-range hazard entering from the right edge of the roadway, it initiates rapid deceleration to increase stopping distance, keeps the steering straight to maintain stability on the narrow lane, and prepares to stop if necessary. After the hazard clears, it resumes a very slow crawl while maintaining lane position.\",\n  \"key_objects\": \"1) Right side: A young child in red pants, approximately 6 meters ahead, running leftward from the shopfront area into the lane, creating a sudden collision risk consistent with ghost probing. 2) Right side: The two-story storefront facade with doorway and pillar at the curb, approximately 2 meters away, acting as a visual obstruction that hid the child until the last moment and directly contributed to the ghost probing event.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_015.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_015.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous\",\n  \"characters\": \"A small boy around 5–7 years old wearing a light beige top and dark shorts on the right; two adult males in work clothing beside a white box truck on the right curb\",\n  \"summary\": \"Across the 10-second sequence, the vehicle moves out of a narrow side lane toward a brighter main road at a T-junction. A large white box truck is parked on the right side at the mouth of the junction, creating a strong blind spot. While the car advances slowly, a small boy suddenly runs out from behind the right-side box truck into the vehicle's path at close range, moving right-to-left at a jogging to running speed (about 3–4 m/s). Cross traffic on the main road is visible ahead, including a three-wheeled motorcycle with a trailer and a small bus passing left-to-right, but the most immediate risk is the child emerging from behind the truck, which is a classic ghost probing scenario.\",\n  \"actions\": \"The vehicle slows while approaching the T-junction due to poor visibility and cross traffic ahead. As the white box truck on the right blocks the view, the driver creeps forward to gain sightlines. When the child abruptly appears from behind the truck and enters the lane ahead at close distance, the vehicle initiates rapid braking and slight left steering to increase clearance from the right-side hazard and avoid entering the main road while cross traffic passes.\",\n  \"key_objects\": \"1) Right side: A small boy, approximately 2–3 meters ahead, running out from behind the right-side parked white box truck and moving into the lane, directly creating an immediate collision risk (ghost probing). 2) Right side: A white box truck at the mouth of the junction, approximately 3–5 meters ahead, parked and forming a blind spot that hides the child until the moment of emergence, severely limiting reaction time.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"slight left adjustment\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_016.avi",
+      "ground_truth": "4s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_017.avi",
+      "ground_truth": "17s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_018.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_019.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_020.avi",
+      "ground_truth": "12s: ghost probing",
+      "key_actions": "overtaking, left-side overtaking",
+      "evaluation": "FN",
+      "raw_result": "{\n  \"video_id\": \"images_1_020.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Caution\",\n  \"scene_theme\": \"Night rural road with mixed two-wheelers\",\n  \"characters\": \"Adult male rider on a small motorcycle/scooter wearing a white short-sleeve shirt with reflective straps, dark pants, riding near the right shoulder\",\n  \"summary\": \"At night on a straight two-lane road, the camera vehicle approaches a slow small motorcycle on the right side near the shoulder. The rider appears to be an adult male in a white shirt with reflective straps. The car closes in and passes the motorcycle on its left while keeping within the lane. Oncoming headlights are visible in the opposite lane, and a lit fuel-station area and a few low-speed three-wheelers or bicycles remain on the far right shoulder ahead, but none cut across the lane. No vehicle emerges from behind an obstruction or from a perpendicular road during this segment.\",\n  \"actions\": \"The vehicle maintains a steady trajectory and slightly reduces speed as it nears the slower motorcycle on the right. It shifts a bit left within its lane to increase lateral clearance, completes a left-side pass, then recenters in its lane while continuing straight. Speed is kept moderate due to nighttime conditions, oncoming headlight glare, and upcoming roadside activity.\",\n  \"key_objects\": \"1) Right side: A small motorcycle with an adult male rider in a white shirt and reflective straps, approximately 8 meters ahead initially and 2–3 meters lateral clearance at the pass, moving slowly near the shoulder; this prompted the vehicle to overtake on the left within the same lane.\",\n  \"key_actions\": \"overtaking, left-side overtaking\",\n  \"next_action\": {\n    \"speed_control\": \"decelerate\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_021.avi",
+      "ground_truth": "3s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_021.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Dangerous urban crosswalk in rain\",\n  \"characters\": \"Male cyclist, ~25-35 yrs, white short-sleeve shirt, black pants, no helmet, riding a bicycle; several bystanders with umbrellas on the right sidewalk\",\n  \"summary\": \"On a rainy urban street, a large green city bus travels along the left side, creating a substantial visual block. As the vehicle approaches a marked crosswalk, a male cyclist wearing a white shirt and black pants suddenly emerges from behind the moving bus on the left side and rides across the crosswalk toward the right at roughly 10–15 km/h. The emergence occurs with minimal warning due to the bus obscuring sight lines, placing the cyclist directly in the lane ahead at close range. The self vehicle responds by sharply reducing speed to avoid a near-side impact while maintaining its lane because the right curb and pedestrians make lateral escape risky.\",\n  \"actions\": \"The vehicle is proceeding straight on a wet roadway under a green signal at moderate speed. Visibility to the left is partially blocked by a large bus in the adjacent left lane. When the cyclist abruptly appears from behind the bus and moves across the crosswalk into the lane ahead, the driver immediately brakes hard to increase stopping distance on the wet surface while keeping the steering steady to avoid sliding and to prevent encroachment toward the right curb where people with umbrellas are standing.\",\n  \"key_objects\": \"1) Left-front: A male cyclist on a bicycle, approximately 6 meters away, emerging suddenly from behind the bus and riding left-to-right across the crosswalk into the lane, forcing immediate braking. 2) Left side: A large green city bus, approximately 2 meters away laterally, moving forward and blocking the view to the left, acting as the visual obstruction that hides the cyclist until the last moment.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_022.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_023.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_024.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_025.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    }
+  ]
+}

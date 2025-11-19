@@ -1,0 +1,24 @@
+{
+  "model_name": "AutoDrive-GPT",
+  "our_method": true,
+  "methodology": "Balanced Prompt Engineering for Ghost Probing",
+  "advantages": [
+    "Task-specific optimization",
+    "Balanced precision-recall strategy",
+    "Cross-model validation",
+    "Real-time inference capability"
+  ],
+  "datasets": [
+    "DADA-2000"
+  ],
+  "evaluation_metrics": [
+    "Precision",
+    "Recall",
+    "F1-Score",
+    "Accuracy"
+  ],
+  "models": [
+    "GPT-4.1",
+    "Gemini 2.0 Flash"
+  ]
+}

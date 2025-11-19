@@ -1,0 +1,12 @@
+{
+  "precision": 1.0,
+  "recall": 0.5,
+  "f1_score": 0.6666666666666666,
+  "accuracy": 0.5,
+  "tp": 1,
+  "fp": 0,
+  "tn": 0,
+  "fn": 1,
+  "errors": 21,
+  "total_videos": 23
+}

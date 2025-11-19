@@ -1,0 +1,22 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+display_name: DriveLM_DADA2000_A100_Analysis
+description: DriveLM Graph VQA analysis of 100 DADA-2000 videos on Azure ML A100 GPU
+
+code: ./
+
+environment:
+  image: mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu20.04:latest
+  conda_file: drivelm_conda_env.yml
+
+compute: drivelm-a100-cluster
+
+command: python drivelm_azure_final.py
+
+outputs:
+  results:
+    type: uri_folder
+    path: ./outputs
+
+environment_variables:
+  CUDA_VISIBLE_DEVICES: "0"

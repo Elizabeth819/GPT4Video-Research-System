@@ -25,13 +25,10 @@ result/DADA-100-videos/*
 .DS_Store
 **/.DS_Store
 
-# Result directories - 推理结果不需要上传
-result/
-result2/
+# Result directories - 允许上传result和result2，但排除视频文件
+# result/ 和 result2/ 现在可以上传
 outputs/
 *.json.bak
-*_results.json
-*_progress.json
 
 # 日志文件
 *.log
@@ -68,6 +65,9 @@ wheels/
 .env.*
 config_local.json
 *_config_local.json
+**/entry_cmd.sh
+**/*token*.sh
+**/*key*.sh
 
 # IDE配置
 .vscode/

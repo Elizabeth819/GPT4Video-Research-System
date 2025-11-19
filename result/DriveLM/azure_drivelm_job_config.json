@@ -1,0 +1,47 @@
+{
+  "experiment_name": "drivelm-ghost-probing-detection",
+  "display_name": "DriveLM DADA-2000 Analysis 20250712_1510",
+  "description": "Run authentic DriveLM on DADA-2000 dataset for ghost probing detection comparison with AutoDrive-GPT",
+  "subscription_id": "0d3f39ba-7349-4bd7-8122-649ff18f0a4a",
+  "resource_group": "llm-fine-soucen-us",
+  "workspace_name": "llm-fine-soucen-us",
+  "location": "southcentralus",
+  "compute": {
+    "name": "drivelm-a100-cluster",
+    "vm_size": "Standard_NC96ads_A100_v4",
+    "min_instances": 0,
+    "max_instances": 2,
+    "idle_time": 1800
+  },
+  "environment": {
+    "name": "drivelm-llama-env",
+    "docker_image": "pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel",
+    "conda_dependencies": [
+      "python=3.8",
+      "pytorch>=2.0.0",
+      "torchvision>=0.15.0",
+      "transformers>=4.28.0",
+      "accelerate",
+      "bitsandbytes",
+      "opencv",
+      "pillow",
+      "numpy",
+      "pandas",
+      "tqdm",
+      "scikit-learn"
+    ],
+    "pip_dependencies": [
+      "azure-ai-ml",
+      "wandb",
+      "tensorboard"
+    ]
+  },
+  "data": {
+    "dada_videos": "./DADA-2000-videos",
+    "ground_truth": "./result/groundtruth_labels.csv"
+  },
+  "outputs": {
+    "drivelm_results": "./azure_outputs/drivelm_results",
+    "comparison_analysis": "./azure_outputs/comparison"
+  }
+}

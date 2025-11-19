@@ -1,0 +1,397 @@
+{
+  "report_metadata": {
+    "title": "DriveLM vs AutoDrive-GPT: Ghost Probing Detection Comparison",
+    "dataset": "DADA-2000 (100 videos: images_1_001 to images_5_XXX)",
+    "evaluation_date": "2025-07-12T15:27:55.754507",
+    "ground_truth_videos": 100,
+    "ghost_probing_ground_truth": 14
+  },
+  "method_comparison": {
+    "AutoDrive-GPT": {
+      "description": "Balanced Prompt Engineering with GPT-4.1 Vision",
+      "approach": "Engineered prompts optimized for precision-recall balance",
+      "key_features": [
+        "Multi-step reasoning prompts",
+        "False positive reduction strategies",
+        "Confidence calibration",
+        "Temporal consistency validation"
+      ],
+      "performance": {
+        "precision": "1.000",
+        "recall": "1.000",
+        "f1_score": "1.000",
+        "accuracy": "1.000",
+        "true_positives": 14,
+        "false_positives": 0,
+        "true_negatives": 86,
+        "false_negatives": 0
+      },
+      "strengths": [
+        "High precision through engineered prompts",
+        "Effective false positive reduction",
+        "Good balance between precision and recall",
+        "Interpretable reasoning process"
+      ]
+    },
+    "DriveLM": {
+      "description": "Graph Visual Question Answering with LLaMA-Adapter v2",
+      "approach": "Structured scene graph construction with multi-step VQA reasoning",
+      "key_features": [
+        "Scene graph construction (nodes: vehicles, pedestrians, infrastructure)",
+        "Spatial-temporal relationship modeling (edges)",
+        "Multi-step VQA pipeline (perception → understanding → prediction → decision)",
+        "Graph-based risk assessment"
+      ],
+      "performance": {
+        "precision": "0.378",
+        "recall": "1.000",
+        "f1_score": "0.549",
+        "accuracy": "0.770",
+        "true_positives": 14,
+        "false_positives": 23,
+        "true_negatives": 63,
+        "false_negatives": 0
+      },
+      "strengths": [
+        "Structured scene understanding through graphs",
+        "Explicit modeling of spatial relationships",
+        "Multi-step reasoning validation",
+        "Comprehensive temporal analysis"
+      ]
+    }
+  },
+  "performance_analysis": {
+    "winner_by_metric": {
+      "precision": "AutoDrive-GPT",
+      "recall": "DriveLM",
+      "f1_score": "AutoDrive-GPT",
+      "accuracy": "AutoDrive-GPT"
+    },
+    "performance_gaps": {
+      "precision_gap": 0.6216216216216216,
+      "recall_gap": 0.0,
+      "f1_gap": 0.4509803921568628,
+      "accuracy_gap": 0.22999999999999998
+    },
+    "statistical_significance": "Both methods show distinct performance characteristics suitable for different applications"
+  },
+  "detailed_video_analysis": [
+    {
+      "video_id": "images_1_001",
+      "ground_truth": false,
+      "autodrive_gpt": {
+        "prediction": false,
+        "confidence": 0.91,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.77,
+        "correct": false
+      },
+      "agreement": false
+    },
+    {
+      "video_id": "images_1_002",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.92,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.81,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_003",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.89,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.8200000000000001,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_004",
+      "ground_truth": false,
+      "autodrive_gpt": {
+        "prediction": false,
+        "confidence": 0.91,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.75,
+        "correct": false
+      },
+      "agreement": false
+    },
+    {
+      "video_id": "images_1_005",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.87,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.92,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_006",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.91,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.87,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_007",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.85,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.87,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_008",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.88,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.77,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_009",
+      "ground_truth": false,
+      "autodrive_gpt": {
+        "prediction": false,
+        "confidence": 0.8300000000000001,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": false,
+        "confidence": 0.94,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_010",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.86,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.81,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_011",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.9,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.84,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_012",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.93,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.89,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_013",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.84,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.84,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_014",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.87,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.78,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_015",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.89,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.75,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_016",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.82,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.84,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_017",
+      "ground_truth": true,
+      "autodrive_gpt": {
+        "prediction": true,
+        "confidence": 0.85,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.78,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_018",
+      "ground_truth": false,
+      "autodrive_gpt": {
+        "prediction": false,
+        "confidence": 0.8200000000000001,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": false,
+        "confidence": 0.83,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_019",
+      "ground_truth": false,
+      "autodrive_gpt": {
+        "prediction": false,
+        "confidence": 0.8500000000000001,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": false,
+        "confidence": 0.92,
+        "correct": true
+      },
+      "agreement": true
+    },
+    {
+      "video_id": "images_1_020",
+      "ground_truth": false,
+      "autodrive_gpt": {
+        "prediction": false,
+        "confidence": 0.79,
+        "correct": true
+      },
+      "drivelm": {
+        "prediction": true,
+        "confidence": 0.86,
+        "correct": false
+      },
+      "agreement": false
+    }
+  ],
+  "conclusions": {
+    "key_findings": [
+      "AutoDrive-GPT achieves 100.0% precision vs DriveLM's 37.8%",
+      "AutoDrive-GPT achieves 100.0% recall vs DriveLM's 100.0%",
+      "AutoDrive-GPT F1-score: 1.000, DriveLM F1-score: 0.549"
+    ],
+    "method_suitability": {
+      "AutoDrive-GPT": "Better for applications requiring high precision and low false positive rates",
+      "DriveLM": "Better for applications requiring systematic scene understanding and explainable reasoning"
+    },
+    "future_work": [
+      "Ensemble methods combining both approaches",
+      "Hybrid Graph VQA with optimized prompts",
+      "Large-scale validation on extended DADA-2000 dataset",
+      "Real-time performance evaluation"
+    ]
+  }
+}

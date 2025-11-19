@@ -1,0 +1,120 @@
+{
+  "experiment_info": {
+    "run_id": "gpt-5-experiment",
+    "timestamp": "20250808_145429",
+    "video_count": 100,
+    "model": "GPT-5 (Azure)",
+    "prompt_version": "Paper_Batch Complex + Few-shot (file-based)",
+    "temperature": 1,
+    "max_completion_tokens": 3000,
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/gpt-5/retry",
+    "note": "使用真正的 GPT-5 部署进行测试"
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_006.avi",
+      "ground_truth": "9s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_007.avi",
+      "ground_truth": "6s: ghost probing",
+      "key_actions": "none",
+      "evaluation": "FN",
+      "raw_result": "{\n  \"video_id\": \"images_1_007.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Neutral\",\n  \"scene_theme\": \"Urban street with light opposing traffic and roadside activity\",\n  \"characters\": \"Multiple adults walking on sidewalks: a middle-aged woman in a dark coat carrying a handbag on the right sidewalk near the curb; several people waiting at a bus stop on the left under a dark shelter; an older man in a plaid shirt walking on the left sidewalk; a man pushing or riding a bicycle on the right sidewalk; oncoming drivers in a red sedan and a white van.\",\n  \"summary\": \"Across 10 seconds, the camera car travels straight along a two‑way, tree‑lined urban road. Early on, a red sedan approaches on the left (opposing lane) as the car passes a crosswalk. Parked vehicles line the right side, slightly narrowing the lane. Mid‑segment, a group of people are visible at a bus stop on the left, while a middle‑aged woman on the right with a handbag walks near the curb and momentarily edges toward the roadway but remains on the edge. Farther ahead, an oncoming white van proceeds in its lane. No one suddenly emerges from behind an obstruction into the lane, and no vehicles cut in from adjacent lanes.\",\n  \"actions\": \"The vehicle maintains a steady forward course with small speed adjustments due to urban conditions: it proceeds straight, keeps near the lane center to clear parked cars on the right, and slightly eases off the throttle when passing the busy bus‑stop area and the woman close to the right curb to preserve buffer. There is no turning or lane change, and the vehicle continues at a cautious, moderate speed because of opposing traffic and potential roadside crossings.\",\n  \"key_objects\": \"None requiring immediate attention\",\n  \"key_actions\": \"none\",\n  \"next_action\": {\n    \"speed_control\": \"slight deceleration\",\n    \"direction_control\": \"keep direction\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_008.avi",
+      "ground_truth": "3s: ghost probing",
+      "key_actions": "ghost probing",
+      "evaluation": "TP",
+      "raw_result": "{\n  \"video_id\": \"images_1_008.avi\",\n  \"segment_id\": \"full_video\",\n  \"Start_Timestamp\": \"0.0s\",\n  \"End_Timestamp\": \"10.0s\",\n  \"sentiment\": \"Negative\",\n  \"scene_theme\": \"Urban street with roadside parking and sudden crossing\",\n  \"characters\": \"Two adult males on foot at the left curb (one in a black-and-yellow sports jacket, one in a light blue/grey top), mid-20s to mid-30s; a cyclist riding ahead near the right curb far ahead.\",\n  \"summary\": \"Across the 10-second sequence on a sunny urban street, multiple vans and a white/orange sedan are parked tightly along the left side, narrowing the lane and creating strong visual occlusion. As the vehicle proceeds forward, two males on foot suddenly step out from the left side from behind the parked white/orange sedan and adjacent box truck and move rightward into the lane at a brisk walking speed (~1–1.5 m/s). Their emergence is abrupt with minimal warning due to the parked vehicles blocking sight, placing them 2–4 meters ahead of the vehicle's path and forcing immediate collision-avoidance. This is a ghost probing event originating from behind a physical obstruction. A cyclist is visible farther ahead near the right curb but does not immediately interfere.\",\n  \"actions\": \"The vehicle is traveling at a low urban speed, slightly right-of-center to pass the parked vehicles on the left. When the two males suddenly emerge from behind the parked sedan and box truck into the lane, the driver initiates hard braking and holds a straight trajectory with a slight right offset to maximize clearance while staying within the lane. Speed reduction is prioritized to create stopping distance because the gap to the crossing individuals is very short (about 2–4 meters).\",\n  \"key_objects\": \"1) Left side: An adult male on foot in a black-and-yellow sports jacket, approximately 2–3 meters ahead, stepping quickly from behind the left-side parked taxi into the lane and moving rightward across the vehicle's path, directly triggering ghost probing and immediate braking. 2) Left side: A second adult male on foot in a light blue/grey top, approximately 3–4 meters ahead, emerging from the same occluded area and following into the lane at a brisk walk, compounding the ghost probing risk. 3) Left side: A parked white/orange sedan with a nearby blue/white box truck, approximately 2–3 meters ahead, forming the visual obstruction that hid the crossing males until they entered the lane, causing minimal reaction time.\",\n  \"key_actions\": \"ghost probing\",\n  \"next_action\": {\n    \"speed_control\": \"rapid deceleration\",\n    \"direction_control\": \"slight right adjustment\",\n    \"lane_control\": \"maintain current lane\"\n  }\n}"
+    },
+    {
+      "video_id": "images_1_009.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_011.avi",
+      "ground_truth": "11s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_012.avi",
+      "ground_truth": "11s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_016.avi",
+      "ground_truth": "4s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_017.avi",
+      "ground_truth": "17s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    },
+    {
+      "video_id": "images_1_018.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_019.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": ""
+    }
+  ]
+}

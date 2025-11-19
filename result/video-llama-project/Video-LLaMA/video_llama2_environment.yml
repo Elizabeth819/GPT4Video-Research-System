@@ -1,0 +1,101 @@
+# Video-LLaMA2 Ghost Probing Detection Environment
+# 专门为Video-LLaMA2模型配置的conda环境
+
+name: video_llama2_ghost_probing
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.24.3
+  - opencv=4.7.0
+  - ffmpeg=4.4.2
+  - cudatoolkit=11.8
+  - cudnn=8.7
+  
+  # PyTorch生态系统
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - torchaudio=2.0.2
+  - pytorch-cuda=11.8
+  
+  # 系统工具
+  - cmake
+  - libsndfile
+  - sox
+  - git
+  - wget
+  - unzip
+  
+  - pip:
+    # 核心ML库
+    - torch==2.0.1
+    - torchvision==0.15.2
+    - torchaudio==2.0.2
+    - transformers==4.28.0
+    - timm==0.6.13
+    - einops
+    - accelerate==0.16.0
+    - bitsandbytes==0.37.0
+    
+    # 视频处理
+    - decord==0.6.0
+    - opencv-python==4.7.0.72
+    - pillow==9.4.0
+    - av
+    - imageio
+    - imageio-ffmpeg
+    - scikit-image
+    
+    # 音频处理
+    - librosa
+    - soundfile
+    - pydub
+    
+    # 数据处理
+    - pandas
+    - numpy==1.24.3
+    - scipy
+    - scikit-learn
+    - matplotlib
+    - seaborn
+    - tqdm
+    - h5py
+    
+    # Azure ML
+    - azure-ai-ml
+    - azure-identity
+    - azure-storage-blob
+    - azure-core
+    
+    # 其他工具
+    - gradio==3.24.1
+    - gradio-client==0.0.8
+    - omegaconf==2.3.0
+    - pyyaml
+    - regex
+    - ftfy
+    - SentencePiece
+    - tokenizers==0.13.2
+    - psutil
+    - tenacity
+    - wandb
+    - jupyter
+    - ipython
+    
+    # 开发工具
+    - black
+    - flake8
+    - pytest
+    
+variables:
+  CONDA_OVERRIDE_CUDA: "11.8"
+  CUDA_HOME: "/usr/local/cuda-11.8"
+  LD_LIBRARY_PATH: "/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH"
+  PATH: "/usr/local/cuda-11.8/bin:$PATH"
+  TORCH_CUDA_ARCH_LIST: "8.0"
+  FORCE_CUDA: "1"

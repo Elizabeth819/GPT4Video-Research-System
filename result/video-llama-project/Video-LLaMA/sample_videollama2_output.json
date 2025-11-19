@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "images_1_002.avi",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Neutral",
+    "scene_theme": "Routine",
+    "characters": "Multiple vehicles in traffic, no visible pedestrians",
+    "summary": "The observer vehicle is following traffic in a normal urban environment. Several vehicles are visible ahead, maintaining normal speeds and distances. No unusual activities or dangerous situations are observed in this segment.",
+    "actions": "The observer vehicle maintains steady speed, following the vehicle ahead at a safe distance. No emergency maneuvers are required.",
+    "key_objects": "1) Front center: Lead vehicle, 10-15 meters ahead, maintaining steady speed, no immediate impact. 2) Left lane: Adjacent vehicle, parallel positioning, normal traffic flow.",
+    "key_actions": "maintain safe following distance, normal traffic flow",
+    "next_action": {
+      "speed_control": "maintain speed",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "images_1_002.avi",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "15.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Vehicle drivers, one pedestrian suddenly appearing",
+    "summary": "A critical safety situation develops as a pedestrian suddenly appears from behind a parked vehicle, entering the roadway at very close range to the observer vehicle. The pedestrian's movement is unexpected and requires immediate emergency response.",
+    "actions": "The observer vehicle immediately applies emergency braking in response to the pedestrian's sudden appearance. The driver reacts quickly to avoid collision.",
+    "key_objects": "1) Front center: Pedestrian, <2 meters, sudden appearance from blind spot, requiring immediate emergency braking. 2) Right side: Parked vehicle, 5 meters, creates blind spot from which pedestrian emerged.",
+    "key_actions": "ghost probing, emergency braking due to pedestrian suddenly appearing from blind spot",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

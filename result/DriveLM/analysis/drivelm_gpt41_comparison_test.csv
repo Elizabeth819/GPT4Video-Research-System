@@ -1,0 +1,4 @@
+video_id,ground_truth,drivelm_gpt41,gpt41_balanced,gemini_balanced,drivelm_segments,drivelm_details
+images_1_002,5s: ghost probing,YES,YES,YES,2,"[{'segment_id': 'segment_000', 'timestamp': '0.0s-10.0s', 'key_actions': ""ghost probing (child suddenly appears and runs into the vehicle's path, requiring immediate emergency response)""}, {'segment_id': 'segment_001', 'timestamp': '10.0s-11.5s', 'key_actions': 'descriptive terms: normal traffic flow, no ghost probing detected'}]"
+images_1_003,2s: ghost probing,YES,YES,YES,2,"[{'segment_id': 'segment_000', 'timestamp': '0.0s-10.0s', 'key_actions': 'ghost probing'}, {'segment_id': 'segment_001', 'timestamp': '10.0s-10.5s', 'key_actions': 'ghost probing'}]"
+images_1_001,none,YES,YES,YES,2,"[{'segment_id': 'segment_000', 'timestamp': '0.0s-10.0s', 'key_actions': 'ghost probing'}, {'segment_id': 'segment_001', 'timestamp': '10.0s-14.7s', 'key_actions': 'ghost probing'}]"

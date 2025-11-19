@@ -1,0 +1,50 @@
+{
+  "experiment_info": {
+    "run_id": "gpt-5-experiment",
+    "timestamp": "20250808_145429",
+    "video_count": 100,
+    "model": "GPT-5 (Azure)",
+    "prompt_version": "Paper_Batch Complex + Few-shot (file-based)",
+    "temperature": 1,
+    "max_completion_tokens": 3000,
+    "output_directory": "/Users/wanmeng/repository/GPT4Video-cobra-auto/result2/gpt-5/retry",
+    "note": "使用真正的 GPT-5 部署进行测试"
+  },
+  "detailed_results": [
+    {
+      "video_id": "images_1_001.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_002.avi",
+      "ground_truth": "5s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_003.avi",
+      "ground_truth": "2s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_004.avi",
+      "ground_truth": "none",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    },
+    {
+      "video_id": "images_1_005.avi",
+      "ground_truth": "8s: ghost probing",
+      "key_actions": "",
+      "evaluation": "ERROR",
+      "raw_result": null
+    }
+  ]
+}

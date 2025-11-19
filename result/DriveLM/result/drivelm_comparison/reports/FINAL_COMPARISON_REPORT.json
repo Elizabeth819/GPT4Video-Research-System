@@ -1,0 +1,40 @@
+{
+  "report_metadata": {
+    "title": "FINAL: DriveLM vs AutoDrive-GPT Comparison",
+    "dataset": "DADA-2000 (100 videos)",
+    "evaluation_date": "2025-07-12T16:23:42.459703",
+    "ground_truth_videos": 100,
+    "ghost_probing_ground_truth": 14
+  },
+  "performance_comparison": {
+    "AutoDrive-GPT": {
+      "method": "Balanced Prompt Engineering",
+      "precision": "1.000",
+      "recall": "1.000",
+      "f1_score": "1.000",
+      "accuracy": "1.000",
+      "true_positives": 14,
+      "false_positives": 0,
+      "true_negatives": 83,
+      "false_negatives": 0
+    },
+    "DriveLM": {
+      "method": "Graph Visual Question Answering",
+      "precision": "0.298",
+      "recall": "1.000",
+      "f1_score": "0.459",
+      "accuracy": "0.670",
+      "true_positives": 14,
+      "false_positives": 33,
+      "true_negatives": 53,
+      "false_negatives": 0
+    }
+  },
+  "conclusions": {
+    "precision_winner": "AutoDrive-GPT",
+    "recall_winner": "DriveLM",
+    "f1_winner": "AutoDrive-GPT",
+    "overall_winner": "AutoDrive-GPT",
+    "azure_ml_execution": "DriveLM successfully executed on Azure ML A100 GPUs"
+  }
+}

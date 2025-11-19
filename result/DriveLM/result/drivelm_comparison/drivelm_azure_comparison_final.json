@@ -1,0 +1,602 @@
+[
+  {
+    "video_id": "images_1_001",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.85,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_002",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.88,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_003",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.95,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_004",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.87,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_005",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.9099999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_006",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.89,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_007",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.84,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_008",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.94,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_009",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.95,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_010",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.89,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_011",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.88,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_012",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.8999999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_013",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.95,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_014",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.88,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_015",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.87,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_016",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.9099999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_017",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.9199999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_018",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.8999999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_019",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.8999999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_1_020",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.87,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_001",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.94,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_002",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.9299999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_003",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8200000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_004",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8400000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_005",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8500000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_006",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.9299999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_007",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.8999999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_008",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.9,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_009",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.88,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_010",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8300000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_011",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.92,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_012",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.85,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_013",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.88,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_014",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8800000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_015",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.92,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_016",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.84,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_017",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8700000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_018",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.91,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_019",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.86,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_2_020",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.91,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_001",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.9,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_002",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8400000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_003",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8800000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_004",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.85,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_005",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.9,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_006",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.9199999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_007",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.91,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_008",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.87,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_009",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.9199999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_010",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8700000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_011",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8500000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_012",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.8999999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_013",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.9,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_014",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8400000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_015",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8500000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_016",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.9,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_017",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.94,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_018",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.85,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_019",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8200000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_3_020",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.91,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_001",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.88,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_002",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.89,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_003",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.9099999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_004",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.91,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_005",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.85,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_006",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.91,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_007",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8400000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_008",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.95,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_009",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.86,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_010",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8800000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_011",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.85,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_012",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.9199999999999999,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_013",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.81,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_014",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.85,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_015",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8400000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_016",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.95,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_017",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.95,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_018",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8800000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_019",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8500000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_4_020",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.91,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_001",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8400000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_002",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.91,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_003",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8600000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_004",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8500000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_005",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.89,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_006",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.9,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_007",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.81,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_008",
+    "drivelm_ghost_probing": "YES",
+    "drivelm_confidence": 0.88,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_009",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.89,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_010",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.9,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_011",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8600000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_012",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8800000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_013",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8700000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_014",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8300000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_015",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8600000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_016",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.9,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_017",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8700000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_018",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.92,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_019",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.8500000000000001,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  },
+  {
+    "video_id": "images_5_020",
+    "drivelm_ghost_probing": "NO",
+    "drivelm_confidence": 0.91,
+    "drivelm_method": "Azure_A100_Graph_VQA"
+  }
+]

@@ -1,0 +1,76 @@
+# Azure ML Video-LLaMA2 Ghost Probing Detection Job Configuration
+# 使用Video-LLaMA2模型进行鬼探头检测的Azure ML作业配置
+
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+type: command
+
+# 作业基本信息
+display_name: video-llama2-ghost-probing-detection
+experiment_name: video_llama2_ghost_probing
+description: "Video-LLaMA2 model for ghost probing detection on 100 DADA videos"
+
+# 代码和环境
+code: .
+environment: 
+  conda_file: video_llama2_environment.yml
+  image: mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu20.04:latest
+
+# 计算资源 - 使用A100 GPU
+compute: gpu-cluster-a100
+resources:
+  instance_count: 1
+  instance_type: Standard_NC24ads_A100_v4
+
+# 环境变量
+environment_variables:
+  PYTHONPATH: "/mnt/batch/tasks/shared/LS_root/mounts/clusters/gpu-cluster-a100/code"
+  OMP_NUM_THREADS: "4"
+  CUDA_VISIBLE_DEVICES: "0"
+  TORCH_CUDA_ARCH_LIST: "8.0"
+  FORCE_CUDA: "1"
+
+# 作业命令
+command: >
+  python video_llama2_ghost_probing_detector.py
+  --config eval_configs/video_llama_eval_withaudio.yaml
+  --model-type llama_v2
+  --gpu-id 0
+  --video-folder ./DADA-2000-videos
+  --groundtruth-file ./result/groundtruth_labels.csv
+  --max-videos 100
+
+# 数据输入输出
+inputs:
+  video_data:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/DADA-2000-videos
+    mode: ro_mount
+  groundtruth_data:
+    type: uri_file
+    path: azureml://datastores/workspaceblobstore/paths/result/groundtruth_labels.csv
+    mode: ro_mount
+  model_checkpoints:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/video_llama2_checkpoints
+    mode: ro_mount
+
+outputs:
+  results:
+    type: uri_folder
+    path: azureml://datastores/workspaceblobstore/paths/result/video_llama2_ghost_probing
+    mode: rw_mount
+
+# 作业设置
+settings:
+  timeout: 18000  # 5小时超时
+  priority: high
+  continue_on_step_failure: false
+  
+# 标签
+tags:
+  model: "video-llama2"
+  task: "ghost_probing_detection"
+  dataset: "DADA-2000"
+  video_count: "100"
+  framework: "pytorch"
+  gpu: "a100"

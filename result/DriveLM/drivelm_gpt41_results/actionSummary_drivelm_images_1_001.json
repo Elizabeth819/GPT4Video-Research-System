@@ -1,0 +1,38 @@
+[
+  {
+    "video_id": "dada_1_001",
+    "segment_id": "segment_000",
+    "Start_Timestamp": "0.0s",
+    "End_Timestamp": "10.0s",
+    "sentiment": "Negative",
+    "scene_theme": "Dramatic",
+    "characters": "A child suddenly runs into the road from the right sidewalk; other pedestrians and vehicles are present in the background.",
+    "summary": "The ego vehicle is driving down a two-way street with moderate traffic and some pedestrians on the sidewalks. Suddenly, a child runs out from the right side of the road into the direct path of the ego vehicle, appearing abruptly and creating an immediate collision risk. The child is not visible in the initial frames and emerges from a blind spot near a building. The ego vehicle is forced to perform an emergency stop to avoid a collision. After the incident, the road clears and normal traffic resumes.",
+    "actions": "The ego vehicle rapidly decelerates and comes to a stop in response to the sudden appearance of the child. The driver likely applies emergency braking to avoid hitting the child.",
+    "key_objects": "1) Center lane: Ego vehicle, moving forward, forced to stop due to hazard. 2) Right side, <3m: Child, sudden appearance, direct collision risk, critical impact. 3) Left lane: Oncoming white sedan, passing safely. 4) Sidewalks: Other pedestrians, no immediate risk.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  },
+  {
+    "video_id": "dada_1_001",
+    "segment_id": "segment_001",
+    "Start_Timestamp": "10.0s",
+    "End_Timestamp": "14.7s",
+    "sentiment": "Negative",
+    "scene_theme": "Dangerous",
+    "characters": "Two adult male pedestrians, one rapidly entering the road from the right sidewalk, another standing further ahead on the right side of the road.",
+    "summary": "The ego vehicle is driving down a two-lane urban street. Suddenly, a pedestrian emerges from the right sidewalk and quickly crosses into the vehicle's immediate path, forcing the ego vehicle to perform emergency braking to avoid a collision. Another pedestrian is present further ahead on the right side, observing the situation. There are also oncoming vehicles in the opposite lane.",
+    "actions": "The ego vehicle initiates rapid deceleration and emergency braking in response to the pedestrian's sudden appearance. The driver reacts quickly to avoid hitting the pedestrian who entered the lane abruptly.",
+    "key_objects": "1) Center-right, <1m: Pedestrian suddenly appears and crosses directly in front of the ego vehicle, causing immediate collision risk. 2) Right side, ~8m: Second pedestrian standing on the sidewalk, observing the event but not entering the road. 3) Center lane, ~20m: Red car approaching in the opposite direction, limiting evasive maneuver options.",
+    "key_actions": "ghost probing",
+    "next_action": {
+      "speed_control": "rapid deceleration",
+      "direction_control": "keep direction",
+      "lane_control": "maintain current lane"
+    }
+  }
+]

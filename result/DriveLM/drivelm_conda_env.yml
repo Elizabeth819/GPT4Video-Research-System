@@ -1,0 +1,22 @@
+name: drivelm
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch::pytorch=2.0.0
+  - pytorch::torchvision=0.15.0
+  - pytorch::torchaudio=2.0.0
+  - pytorch::pytorch-cuda=11.8
+  - numpy
+  - opencv
+  - pillow
+  - tqdm
+  - pip
+  - pip:
+    - transformers>=4.21.0
+    - accelerate
+    - datasets
+    - evaluate

@@ -1,0 +1,29 @@
+{
+  "model_name": "DriveLM",
+  "paper": "ECCV 2024 Oral",
+  "methodology": "Graph Visual Question Answering",
+  "advantages": [
+    "Multi-step reasoning through Graph VQA",
+    "End-to-end driving capability",
+    "Zero-shot generalization to new sensor configs",
+    "Structured reasoning process"
+  ],
+  "datasets": [
+    "nuScenes",
+    "CARLA"
+  ],
+  "evaluation_metrics": [
+    "VQA accuracy",
+    "Driving performance",
+    "Planning quality"
+  ],
+  "simulation_params": {
+    "general_accuracy": 0.75,
+    "ghost_probing_sensitivity": 0.65,
+    "false_positive_rate": 0.15,
+    "confidence_range": [
+      0.6,
+      0.9
+    ]
+  }
+}

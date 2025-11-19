@@ -1,0 +1,32 @@
+[
+  {
+    "video_id": "images_10_001",
+    "video_path": "DADA-2000-videos/images_10_001.avi",
+    "timestamp": "2025-07-12T14:39:46.804617",
+    "method": "DriveLM_Style_Graph_VQA",
+    "status": "error",
+    "frames_extracted": 10,
+    "error": "Invalid URL 'aoai-eastus2-eliza/openai/deployments/gpt-4o-global/chat/completions?api-version=2024-02-01': No scheme supplied. Perhaps you meant https://aoai-eastus2-eliza/openai/deployments/gpt-4o-global/chat/completions?api-version=2024-02-01?",
+    "ghost_probing_detected": "UNKNOWN"
+  },
+  {
+    "video_id": "images_10_002",
+    "video_path": "DADA-2000-videos/images_10_002.avi",
+    "timestamp": "2025-07-12T14:39:47.675265",
+    "method": "DriveLM_Style_Graph_VQA",
+    "status": "error",
+    "frames_extracted": 10,
+    "error": "Invalid URL 'aoai-eastus2-eliza/openai/deployments/gpt-4o-global/chat/completions?api-version=2024-02-01': No scheme supplied. Perhaps you meant https://aoai-eastus2-eliza/openai/deployments/gpt-4o-global/chat/completions?api-version=2024-02-01?",
+    "ghost_probing_detected": "UNKNOWN"
+  },
+  {
+    "video_id": "images_10_003",
+    "video_path": "DADA-2000-videos/images_10_003.avi",
+    "timestamp": "2025-07-12T14:39:48.111836",
+    "method": "DriveLM_Style_Graph_VQA",
+    "status": "error",
+    "frames_extracted": 10,
+    "error": "Invalid URL 'aoai-eastus2-eliza/openai/deployments/gpt-4o-global/chat/completions?api-version=2024-02-01': No scheme supplied. Perhaps you meant https://aoai-eastus2-eliza/openai/deployments/gpt-4o-global/chat/completions?api-version=2024-02-01?",
+    "ghost_probing_detected": "UNKNOWN"
+  }
+]
